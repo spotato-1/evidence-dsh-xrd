@@ -488,7 +488,7 @@ d01290aafb5fd071866f1e7c4d972bf13541a9a1e62d6bc5fee92b82cd1a6a16       47810  04
 dc25968dab193701536262a0d45027776648fb363cbd824f2c2acf5647ba8b16       57599  04_refinement_paths/GLM 5.3/benchmark/Fluoroapatite/score.json
 6bdef48d092cba8193d03fcd7391e4c8a64d1a61a6d2d7ca98781323403f623b       61760  04_refinement_paths/GLM 5.3/benchmark/LayeredOxide/score.json
 62e096ef2e97715d0da0a024f31467eddebf180bb1bc5732a77bdde4ee33e72f       43332  04_refinement_paths/GLM 5.3/benchmark/LiFePO4/score.json
-be817cdf9e38ad81ee0fd4ea8670dad4b2be983835497d17a9f5aa7be91fcbd3       71888  04_refinement_paths/GLM 5.3/benchmark/model_score_resource_summary.json
+2e7f5b8ac996f13c3a4e040f446ea4d40dd46dff9a12b760e98313014b16fdff       71813  04_refinement_paths/GLM 5.3/benchmark/model_score_resource_summary.json
 cd2cf2ea927598acfedc0a233dd9b4d92dce004fec0ef252b912bf07f17fa1d2        1526  04_refinement_paths/GLM 5.3/collection_audit.json
 465d8e880b185b1971b1a7d7f7ad1c76406ef5ece62db4e86c6ad890dacc1bae        6173  04_refinement_paths/GLM 5.3/configuration_audit.json
 a8595673b1fa82818fc59b9131738c5a2f8d5061e8a1e0dfd5706168ed7362d7       12524  04_refinement_paths/GLM 5.3/model_reports/Amorphous/report.md
@@ -662,4 +662,4 @@ e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8       14784  05
 786f27b971edbf96501ee88c74922b2dff5dd19028c7ffdcde7149354be3fb2f        6951  06_scoring/scoring_standards/calculation_method.md
 2a147f8fa5b9750702ea4e22865aeaa8476d5ca243ac885bbc14014d7f641f02        1393  06_scoring/scoring_standards/scoring_criteria.md
 aec45bec41842ca75636ddf57421f6328670549dc16101821b6fb68489813d16         235  PROVENANCE.md
-d24b251ff10e014cb8246ba3862e1becd5685e17221bb9427cb7f9c727107172         350  README.md
+4f8b56f8b7e29cbf29b5b07dea3678b67010cfb02da27b30b1b335b6e7d024c8         345  README.md

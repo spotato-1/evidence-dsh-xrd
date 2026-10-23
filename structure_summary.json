@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-22T15:40:53+00:00",
+  "generated_utc": "2026-10-23T08:37:20+00:00",
   "root": "D:\\AI\\DSH\\workspace\\XRD\\投稿证据包",
   "total_files": 665,
-  "total_bytes": 87388172,
+  "total_bytes": 87388092,
   "top_level": {
     "PROVENANCE.md": {
       "files": 1,
@@ -10,7 +10,7 @@
     },
     "README.md": {
       "files": 1,
-      "bytes": 350
+      "bytes": 345
     },
     "01_input": {
       "files": 84,
@@ -26,7 +26,7 @@
     },
     "04_refinement_paths": {
       "files": 202,
-      "bytes": 12801691
+      "bytes": 12801616
     },
     "05_supplementary_tools": {
       "files": 20,
