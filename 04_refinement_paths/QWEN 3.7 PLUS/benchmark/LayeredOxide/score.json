@@ -1,0 +1,972 @@
+﻿{
+  "score_schema_version": "dsh-xrd-score-v1.1-20261012",
+  "rubric_version": "v1.3",
+  "rubric_sha256": "2c74e6459d92541755e29f09c81babd5a6d44a678e594338c7649553161008fb",
+  "model": "QWEN 3.7 PLUS",
+  "case_id": "LayeredOxide",
+  "run_id": "session-1598c1dd-025f-4348-992e-ed66cbdfc16a",
+  "status": {
+    "completion": "delivered_with_scientific_errors",
+    "original_eligibility": {
+      "status": "eligible",
+      "reason": null
+    }
+  },
+  "final_deliverables": [
+    "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+    "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+    "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif"
+  ],
+  "agent_points": [
+    {
+      "id": "A1",
+      "score": 1,
+      "reason": "实际载入workflow/preflight/refinement，seq164/166/168。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "score": 1,
+      "reason": "按层状晶态主相、提示杂相作CIF/精修路线。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "score": 1,
+      "reason": "经过数据初筛/CIF/手动/GSAS/最终包，不按阶段标签单独给分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "score": 1,
+      "reason": "实际检查杂相、坐标/负ADP/分支并写判断栏。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "A5",
+      "score": 0,
+      "reason": "报告SG=P63/m和wR8.65，交付真实P63/wR8.7978及不同早期报告9.83互相冲突，不支持清晰交接。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "score": 0,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：交付Na.72TMO3而非O2、混占TM失共位、坐标巨幅不稳定，此前导出SANITY FAILED仍最终称发表级且键长合理；确认B5。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq17246/17347导出SANITY FAILED不得finished；20778/21735最终发表级；CIF配方与TM共位仍错误"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "最终实际位点/配方/坐标"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终称当前物理解/发表级/已正确约束"
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "score": 0,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：交付Na.72TMO3而非O2、混占TM失共位、坐标巨幅不稳定，此前导出SANITY FAILED仍最终称发表级且键长合理；确认B5。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq17246/17347导出SANITY FAILED不得finished；20778/21735最终发表级；CIF配方与TM共位仍错误"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "最终实际位点/配方/坐标"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终称当前物理解/发表级/已正确约束"
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "score": 0,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：交付Na.72TMO3而非O2、混占TM失共位、坐标巨幅不稳定，此前导出SANITY FAILED仍最终称发表级且键长合理；确认B5。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq17246/17347导出SANITY FAILED不得finished；20778/21735最终发表级；CIF配方与TM共位仍错误"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "最终实际位点/配方/坐标"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终称当前物理解/发表级/已正确约束"
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "score": 0,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：交付Na.72TMO3而非O2、混占TM失共位、坐标巨幅不稳定，此前导出SANITY FAILED仍最终称发表级且键长合理；确认B5。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq17246/17347导出SANITY FAILED不得finished；20778/21735最终发表级；CIF配方与TM共位仍错误"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "最终实际位点/配方/坐标"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终称当前物理解/发表级/已正确约束"
+        }
+      ]
+    },
+    {
+      "id": "B5",
+      "score": 0,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：交付Na.72TMO3而非O2、混占TM失共位、坐标巨幅不稳定，此前导出SANITY FAILED仍最终称发表级且键长合理；确认B5。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq17246/17347导出SANITY FAILED不得finished；20778/21735最终发表级；CIF配方与TM共位仍错误"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "最终实际位点/配方/坐标"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终称当前物理解/发表级/已正确约束"
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "score": 1,
+      "reason": "关键调用对应提示杂相、主相/空间群、仪器及几何问题。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "score": 1,
+      "reason": "真实运行加Na2MoO4两相及不同结构/GSAS对照。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "score": 1,
+      "reason": "根据近程接触和仪器格式问题试改模型/输入，曾实际利用反馈。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "score": 1,
+      "reason": "不同模型/参数/备份诊断有新信息，不按多次调用本身判盲循环。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "score": 0,
+      "reason": "最终没有合理物理收尾：已知结构不稳定却以低R宣称发表级。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "采用层状氧化物/P2家族Rietveld的总体方法适用；空间群/坐标具体错误另扣D2。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 0,
+      "reason": "最终P63每胞TM2/O6给Na.72TMO3，混占Ni/Mn/Mo不同z，不能视同一个守恒TM层。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 0,
+      "reason": "单候选Na2MoO4标度接近0就排除杂相并称<1%，未完成多峰/可比主相和定量分析。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 0,
+      "reason": "报告P63/m、wR8.65，交付实际P63和cachedwR8.797825%；关键结构标签/指标不一致。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 0,
+      "reason": "低R被当发表级且声明结构/键长合理，未解释O3计量、巨大坐标及未知杂相含量。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "E1",
+      "score": 1,
+      "reason": "层状主相和可能Na2MoO4有用户/结构知识依据。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "score": 1,
+      "reason": "实际做有/无提示杂相和几何模型对照，设计有可检验动作。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "score": 0,
+      "reason": "为解除短接触降对称但最终O多重性及TM混占失配，CIF不合理。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "score": 0,
+      "reason": "关键O/Na位点和混占起点缺正确Wyckoff/几何依据，单有接近晶胞不足整体初值合理。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "score": 0,
+      "reason": "将scale≈0过度解释成定量<1%，并接受仍不合理结构，未正确保留/修正判断。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "score": 1,
+      "reason": "工具用途为候选获取、受限手动及GSAS最终线，未确认FP滥用。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "score": 1,
+      "reason": "格式/仪器输入有有效修复并正确显式传Cu双线，数据转换实跑。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "score": 0,
+      "reason": "混淆打包OK/低LST R与物理合格，也未发现最终cachedR/空间群对账冲突。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "score": 0,
+      "reason": "没有有效修复O计量/TM共位和已知不稳定坐标，排障未形成可靠结束态。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "score": 0,
+      "reason": "最终图/CIF/GPX是包内同源，但接受态物理与报告数值/SG交接不正确。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "采用层状氧化物/P2家族Rietveld的总体方法适用；空间群/坐标具体错误另扣D2。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 0,
+      "reason": "最终P63每胞TM2/O6给Na.72TMO3，混占Ni/Mn/Mo不同z，不能视同一个守恒TM层。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 0,
+      "reason": "单候选Na2MoO4标度接近0就排除杂相并称<1%，未完成多峰/可比主相和定量分析。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 0,
+      "reason": "报告P63/m、wR8.65，交付实际P63和cachedwR8.797825%；关键结构标签/指标不一致。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 0,
+      "reason": "低R被当发表级且声明结构/键长合理，未解释O3计量、巨大坐标及未知杂相含量。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    {
+      "id": "K07.1",
+      "score": 1,
+      "reason": "实际加Na2MoO4并据标度反馈判处置，超过单纯复述提示。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K07.2",
+      "score": 1,
+      "reason": "提出并运行有/无杂相手动对照，作为检验设计得分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K07.3",
+      "score": 1,
+      "reason": "报告保存14.07/14.67/14.58及scale≈0的对照，并有相应产物可复核。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K07.4",
+      "score": 0,
+      "reason": "用未充分裁决的单候选/不合主模型的scale≈0排除Na2MoO4，缺乏多峰证据。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K07.5",
+      "score": 0,
+      "reason": "宣称<1%没有可识别质量分数/检测限依据，不能把标度0当定量上限。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K08.1",
+      "score": 0,
+      "reason": "仅重复投料式，未识别最终O3及混占失共位/单Na位模型的组成问题。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K08.2",
+      "score": 0,
+      "reason": "没有可核验守恒TM混占、正确O多重性与两相质量分数/Na位模型。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K08.3",
+      "score": 1,
+      "reason": "完整CIF/GPX与参数表可重算实际Na1.44TM2O6并对账。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K08.4",
+      "score": 0,
+      "reason": "未根据实际组成/坐标失败回退或修正，接受错误结构。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K08.5",
+      "score": 0,
+      "reason": "投料/固定参数/实测量边界未讲清，低R发表级和杂相<1%夸大证明。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "B": {
+      "triggered": true,
+      "reason": "交付Na.72TMO3而非O2、混占TM失共位、坐标巨幅不稳定，此前导出SANITY FAILED仍最终称发表级且键长合理；确认B5。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq17246/17347导出SANITY FAILED不得finished；20778/21735最终发表级；CIF配方与TM共位仍错误"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "最终实际位点/配方/坐标"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终称当前物理解/发表级/已正确约束"
+        }
+      ],
+      "authorization": "先前工具已明确：不合物理/不合法占位或SANITY FAILED仅保留诊断产物，不得报成finished；v1.1 B5。",
+      "core_rules": [
+        {
+          "skill": "xrd-workflow",
+          "section": "§1.1；§6.5/§6.6",
+          "core_excerpt": "正常交付必须严格遵守物理限制；review/anomalies fail先修再交，不得把非物理试算态当完成结构。",
+          "evidence": {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\session_core.jsonl.gz",
+            "locator": "实际skill回包seq165 §1.1；informed_exception未获选择"
+          }
+        },
+        {
+          "skill": "xrd-refinement",
+          "section": "§4.5；§5.0",
+          "core_excerpt": "工具不拦不等于可以交付；AI必须根据anomalies交付前修掉，fail不得当完成结构报告。",
+          "evidence": {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\session_core.jsonl.gz",
+            "locator": "实际skill回包seq169"
+          }
+        }
+      ],
+      "redline_ids": [
+        "RL-PHYSICAL-DELIVERY"
+      ]
+    },
+    "F": {
+      "triggered": false,
+      "reason": "无确认FP2K引擎滥用；FE50普通ladder属于当时允许流程，不按次数否决。",
+      "evidence": [],
+      "authorization": "当时xrd-workflow允许单次筛选及阶梯初步优化；v1.1历史正常ladder不自动滥用。"
+    }
+  },
+  "findings": [
+    "最终cachedGPX wR=8.797825%，报告/工具LST8.65%；真实P63而非报告P63/m。",
+    "最终每胞Na1.44TM2O6=Na.72TMO3；Ni/Mn/Mo失共位，巨大z不仅是可简单包回[0,1)的展示问题。",
+    "未知正确杂相量不要求9%唯一真值；此模型却没有给出可成立的排除/定量证据。"
+  ],
+  "uncertainties": [
+    "第一套未用可见思维字数/次数代替协调判断；第二套仅final delivery和随附工程，不从内部调用补科学分。",
+    "工具/历史文件时间戳部分为AI写的旧日期，不视为真实执行时间；执行时段由根代理按主session重算。"
+  ],
+  "revisions": [
+    {
+      "point_id": "B_gate",
+      "old_score": true,
+      "new_score": true,
+      "reason": "用户确认v1.2：B仅实际核心红线5或0；具体核心条款和一般问题分离。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq17246/17347导出SANITY FAILED不得finished；20778/21735最终发表级；CIF配方与TM共位仍错误"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+          "locator": "最终实际位点/配方/坐标"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终称当前物理解/发表级/已正确约束"
+        }
+      ]
+    },
+    {
+      "point_id": "B1",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B2",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B3",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B4",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B5",
+      "old_score": 0,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+          "locator": "seq164/166/168；1956/2695/3358；8052/11460/14150；17246/17347；20778/21735"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    }
+  ],
+  "grader": {
+    "model": null,
+    "model_note": "当前Codex评审代理继承根代理同一模型配置，精确ID未暴露",
+    "reasoning_effort": null,
+    "prompt_sha256": "f903da80c4cff6d24185c8ed6d10cfdff9c9a2c765dd3b0afc4a3ec030752c80",
+    "graded_at": "2026-10-12T11:11:37.896709+00:00"
+  },
+  "B_mode": "core_skill_binary_5_or_0",
+  "supersedes_score_path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.2_20261012\\LayeredOxide\\score.json",
+  "ordinary_compliance_issues": [],
+  "redline_candidates": [],
+  "revised_at": "2026-10-13",
+  "core_prompt_addendum_sha256": "3be20f20f31e4baeed390da06034aa09219707153a7eaaf46942f90843831d38",
+  "workflow_construction_issues": []
+}

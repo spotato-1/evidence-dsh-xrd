@@ -1,0 +1,19 @@
+{
+  "model": "QWEN 3.6 FLASH",
+  "case_id": "Amorphous",
+  "run_id": "session-ca1a1ef9-e097-4be7-86c2-82160493c454",
+  "selection_basis": "no successful finalize or fit-export event",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 0,
+    "gpx": 0,
+    "cif": 0
+  },
+  "all_three_types_present": false,
+  "same_final_state": null,
+  "notes": [
+    "amorphous empirical analysis route；GPX/CIFregistered per actual generation，no crystal proxy or input usedCIF补齐。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": []
+}

@@ -1,0 +1,60 @@
+﻿{
+  "model": "QWEN 3.8 MAX",
+  "case_id": "Fluoroapatite",
+  "run_id": "session-68a6c00a-2573-4549-a44a-e77f0776158f",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 86561,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-68a6c00a-2573-4549-a44a-e77f0776158f\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_final.gpx",
+      "destination": "QWEN 3.8 MAX/Fluoroapatite/GPX/FAP_final.gpx",
+      "role": "gpx",
+      "bytes": 523634,
+      "sha256": "a9dcda6f14acc56eb55bd73519e648a00f90460c59d17d68278f05467ed3e336",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-68a6c00a-2573-4549-a44a-e77f0776158f",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\FAP_final\\FAP_final.gpx"
+    },
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-68a6c00a-2573-4549-a44a-e77f0776158f\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_fit.png",
+      "destination": "QWEN 3.8 MAX/Fluoroapatite/figures/FAP_fit.png",
+      "role": "image",
+      "bytes": 276162,
+      "sha256": "8eadc83659b67a31c03efa18636582270caeac890cadb1ca82e033986e9f3375",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-68a6c00a-2573-4549-a44a-e77f0776158f",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\FAP_final\\FAP_fit.png"
+    },
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-68a6c00a-2573-4549-a44a-e77f0776158f\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+      "destination": "QWEN 3.8 MAX/Fluoroapatite/CIF/FAP_built.cif",
+      "role": "cif",
+      "bytes": 1836,
+      "sha256": "bbaea6a6ee26d92bead10def9049e229aa2130ac24892a4f513473da834b2bf7",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-68a6c00a-2573-4549-a44a-e77f0776158f",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\FAP_final\\FAP_built.cif"
+    }
+  ]
+}

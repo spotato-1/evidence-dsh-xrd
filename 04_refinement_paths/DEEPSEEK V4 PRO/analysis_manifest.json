@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1",
+  "hash_algorithm": "SHA-256",
+  "file_count": 22,
+  "files": [
+    {
+      "path": "collection_audit.json",
+      "bytes": 1585,
+      "sha256": "f493aa27aeaa521cddd14d2d0809ae9274594c3029a0c2debee1deeda90d1e3f"
+    },
+    {
+      "path": "collection_audit.md",
+      "bytes": 1039,
+      "sha256": "3c5f5bd77b1264efa5ecdcc4edaaaa686fbe73f5ee06cc0734e8ad21be4d4190"
+    },
+    {
+      "path": "configuration_audit.json",
+      "bytes": 7658,
+      "sha256": "43217c29514ef5127c53fe38a2872bf5916821a0a79ebda719ce9ff8db59f33d"
+    },
+    {
+      "path": "model_reports/Amorphous/report.md",
+      "bytes": 4805,
+      "sha256": "3ff9eda4fe203789d97716f10a5d84603f622cea194e89b50fad3183244f271c"
+    },
+    {
+      "path": "model_reports/Amorphous/xrd_workflow/journal.md",
+      "bytes": 3360,
+      "sha256": "411b689fc31e28571ba3a222a02dbb2761bb3673ce8138e0d851f3408ee341c4"
+    },
+    {
+      "path": "model_reports/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_report.md",
+      "bytes": 3836,
+      "sha256": "3506c1940b19ce0e9a90bbc9d1cd1c68a94564f8fdd3147ee6aa683607fc113e"
+    },
+    {
+      "path": "model_reports/Fe2O3_Fe3O4_2ph/review_judgment.md",
+      "bytes": 2169,
+      "sha256": "4b3c7da2a28c0071c35a46f84510530217d50938a7e3564a817901486565ea1d"
+    },
+    {
+      "path": "model_reports/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md",
+      "bytes": 2709,
+      "sha256": "01224272ec01b7ade98027583e90b444999f46920394069ba4b723b83cd92ef5"
+    },
+    {
+      "path": "model_reports/FE50/FE50_final/FE50_report.md",
+      "bytes": 3352,
+      "sha256": "04965b67c9a921303aeebd65402878400a65d82c2bed0f09b6f5d46d3b23dc8a"
+    },
+    {
+      "path": "model_reports/FE50/FE50_refinement_report.md",
+      "bytes": 5850,
+      "sha256": "3ee4b16a01bbf99bc08e4c4994b360cb622f4c04d496f6830767f6948a1ae03f"
+    },
+    {
+      "path": "model_reports/FE50/work/review_judgment.md",
+      "bytes": 2652,
+      "sha256": "dffcf9b566b1021a0b9f4f877fdbcbb9bf475dbd115f4d7c5fe079c3ca4c667b"
+    },
+    {
+      "path": "model_reports/FE50/work/xrd_workflow/journal.md",
+      "bytes": 607,
+      "sha256": "2d3936dc03a97f7f41d17e656698701542751daf1be6db70aa23d50cc6fd1529"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_report.md",
+      "bytes": 3412,
+      "sha256": "8f027b6b4a31e307f49105c56aac4add48054aed1f0775849b6ce30289800de9"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/review_judgment.md",
+      "bytes": 1963,
+      "sha256": "a475003e5117233cf4a4b85e1b69a978f1fd0eff7bdba90695603e81bbbbbccd"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 3685,
+      "sha256": "75a638ffb24c265838ad1a05125cb6538da3834d64bbef701b6b9fad66c44830"
+    },
+    {
+      "path": "model_reports/LayeredOxide/LayeredOxide_final/LayeredOxide_report.md",
+      "bytes": 4304,
+      "sha256": "2a9dff34307b06011dc3e3aaf44635c4e6d947ee923fa97264cdc0d3ab25bf40"
+    },
+    {
+      "path": "model_reports/LayeredOxide/REFINEMENT_SUMMARY.md",
+      "bytes": 5007,
+      "sha256": "beae4e3c4a307880ea3781b8f17fb337c22173af64eec77bd9c16aafb087b45f"
+    },
+    {
+      "path": "model_reports/LayeredOxide/review_judgment.md",
+      "bytes": 1693,
+      "sha256": "2205b82a4dc37511ad2493d7d4cac4ed8fb4d8b3f02e17c0bcb54e036d3a1b65"
+    },
+    {
+      "path": "model_reports/LayeredOxide/xrd_workflow/journal.md",
+      "bytes": 881,
+      "sha256": "54d1549ae4497f49381932dcdf81cf4ae912fc22da3b62dd68826327862f4ca0"
+    },
+    {
+      "path": "model_reports/LiFePO4/LiFePO4_final/LiFePO4_report.md",
+      "bytes": 3518,
+      "sha256": "357413b475c8bceac6fb0c37bb921a05a11e4f6f922ae8bde838d1fbe8332fd2"
+    },
+    {
+      "path": "model_reports/LiFePO4/review_judgment.md",
+      "bytes": 2738,
+      "sha256": "8d84d8439faacc008af1e909fd56bffe0910e11a0735e60ec1a815ce1938e956"
+    },
+    {
+      "path": "model_reports/LiFePO4/xrd_workflow/journal.md",
+      "bytes": 2800,
+      "sha256": "70823569a28209b4316d9ac6d9d3cc4688df1b26bfcd2acab0b126b3933c5677"
+    }
+  ]
+}

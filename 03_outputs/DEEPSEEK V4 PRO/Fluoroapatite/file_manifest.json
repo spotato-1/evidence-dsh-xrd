@@ -1,0 +1,60 @@
+﻿{
+  "model": "DEEPSEEK V4 PRO",
+  "case_id": "Fluoroapatite",
+  "run_id": "session-d9162799-3154-4901-a387-9dad7b0d0888",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 124107,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\workspace_snapshot\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.gpx",
+      "destination": "DEEPSEEK V4 PRO/Fluoroapatite/GPX/Fluoroapatite_final.gpx",
+      "role": "gpx",
+      "bytes": 509286,
+      "sha256": "4c1c359383e1f3a801bdd671d908951fcaee387fa7df77681c9292aad3628a7a",
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-d9162799-3154-4901-a387-9dad7b0d0888",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.gpx"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\workspace_snapshot\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_fit.png",
+      "destination": "DEEPSEEK V4 PRO/Fluoroapatite/figures/Fluoroapatite_fit.png",
+      "role": "image",
+      "bytes": 267927,
+      "sha256": "f775ad4f4050ada49a709cdfe4dcccecb6385b5d36c32cd0debeb4126e934201",
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-d9162799-3154-4901-a387-9dad7b0d0888",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_fit.png"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\workspace_snapshot\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_Ca10_P6_O24_F2.cif",
+      "destination": "DEEPSEEK V4 PRO/Fluoroapatite/CIF/Fluoroapatite_Ca10_P6_O24_F2.cif",
+      "role": "cif",
+      "bytes": 1867,
+      "sha256": "c191ddb09a051cc7ca59c33c4f816a089feab107e9117381a9579e662114c7f1",
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-d9162799-3154-4901-a387-9dad7b0d0888",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_Ca10_P6_O24_F2.cif"
+    }
+  ]
+}

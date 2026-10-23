@@ -1,0 +1,665 @@
+88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2       14784  01_input/12_materials_standard_set/Amorphous/raw/W.raw
+61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714       92555  01_input/12_materials_standard_set/Amorphous/raw/W.txt
+e490ebaf2b63478f9fb918761c8291a0bf95d123ca4aef7c09881d0e1a0bd45f      167895  01_input/12_materials_standard_set/CeO2/input/stephbr_2th.txt
+4d13fb458225b84e945f62ad2deebd4c644acf7b0c0017d1027a7bb73dd0dd7e      514199  01_input/12_materials_standard_set/CeO2/input/stephsh_2th.txt
+c2e4ab5debac55faff44ece2f7a28a8108b6a0e789c697bdada8458a26893990      620336  01_input/12_materials_standard_set/CeO2/raw/SSRR.pdf
+f44fe1103eafd9745c409bf1140e2084834095e53c61bafa5137e846bbb0a891     1296502  01_input/12_materials_standard_set/CeO2/raw/daymbr.gs
+1dbdee4041c7c6fbe5157ea8861e30cf1253e95e7648e334cc81359b40ad0b50     1296502  01_input/12_materials_standard_set/CeO2/raw/daymsh.gs
+46ebf46c08e80d1fabbefca9d6e8a286972e0ef79480d3512d70e3267ea357b1       21514  01_input/12_materials_standard_set/CeO2/raw/hewbr.dbw
+de76d331cc219eed859c5e9f593a0be350254d5e5d405741c67041bdd1648c08       21484  01_input/12_materials_standard_set/CeO2/raw/hewbr.gs
+0f7aa78511e719c64538035ba8d87eff920217bc8eef5c90cc0f94d340c2ae8e       42719  01_input/12_materials_standard_set/CeO2/raw/hewbr.xy
+e043cd829d6e5a2c6a20e003a6196b0afd8b0b11ccec03d4a3d58db7df68170a       21510  01_input/12_materials_standard_set/CeO2/raw/hewsh.dbw
+5cc657480aa5a30ae55cad7cb1ae7565ebb49dc1fb280d5193ab68e2926ed9e2       21484  01_input/12_materials_standard_set/CeO2/raw/hewsh.gs
+5f5a62976e4d391ae8aa0edb60b2bde66969b19b5c0e439aef8b72bbe06f7c91       40768  01_input/12_materials_standard_set/CeO2/raw/hewsh.xy
+5b60b8d195b599fcc3799f42b23826c529f4d0d532d901ca22cf890177cf260c        2706  01_input/12_materials_standard_set/CeO2/raw/isishrpd.ins
+14ca42f20a04fbfb3eea340dafa165b3a267d9be9b3a84be15d926242ec42e04       18457  01_input/12_materials_standard_set/CeO2/raw/langfbr1.dbw
+243c4bdbc260d6dd0ad52f0b369ed6afa6973152eab8029f58ffa47548592947       18418  01_input/12_materials_standard_set/CeO2/raw/langfbr1.gs
+4c84a0fb8546bc04c12d86316b3eaa00bced244df875ce92af73d400beda6820       46846  01_input/12_materials_standard_set/CeO2/raw/langfbr1.xy
+c56f3041d6db515b14744730f8e825312cbabed17994e9b344dd5dc5588b5373        7937  01_input/12_materials_standard_set/CeO2/raw/langfbr2.dbw
+b6700d6964a518fa622f7aab292504b517c7d0f6ff80ea0af97bbfbc93891b7e        7964  01_input/12_materials_standard_set/CeO2/raw/langfbr2.gs
+fbe42f048ef653731ebc767467d2a0b5fd0ed537c341901ed50b0a0379f812e4       20071  01_input/12_materials_standard_set/CeO2/raw/langfbr2.xy
+5f357ba6eb8d0e6e89602a21f91b7c5ff2a4d03e2f8bbdda1168712f5c1bccd4        7937  01_input/12_materials_standard_set/CeO2/raw/langfbr3.dbw
+1ee934ab3c686f1b696982f6139c5359d3e3091954b2303333bd2152a8e0a854        7964  01_input/12_materials_standard_set/CeO2/raw/langfbr3.gs
+ef3d0f202bf1f88cd6adc7d92cbce56906cb358cca7e1c5b0ed490f785741068       20171  01_input/12_materials_standard_set/CeO2/raw/langfbr3.xy
+fbb26ea4bbc7396b97db6e7161ca5711b125aaf18dba2a730b03bd4daa1d4035       36809  01_input/12_materials_standard_set/CeO2/raw/langfsh1.dbw
+732378cc1e21bbd8428d958c266de375811e4a47523092232cc4e613d2931578       36664  01_input/12_materials_standard_set/CeO2/raw/langfsh1.gs
+8b4c0562e3c25f2ed33bade08f03ba990f693c219f991bd408f73b2c6e7c8e9f       93567  01_input/12_materials_standard_set/CeO2/raw/langfsh1.xy
+2489f99c072f00a827a91a3217b5beb73411d42a8a739cc856ce2ea8cea9b74d       15771  01_input/12_materials_standard_set/CeO2/raw/langfsh2.dbw
+19b0edb8478d5bba17933965013269a459e370a80dd6d0c1e69fecdc43622610       15754  01_input/12_materials_standard_set/CeO2/raw/langfsh2.gs
+87fc1b17a7f17d441333eafea2aec7ad21cff1e25cb89c1bab915585868be963       40017  01_input/12_materials_standard_set/CeO2/raw/langfsh2.xy
+4f63f6404865ad1988df65d7f8f70a35b01892fab2de73840d02672dfd59ebc5       19689  01_input/12_materials_standard_set/CeO2/raw/langfsh3.dbw
+79c82224707334490924fb113a4d27cd53a1d995448a2ec8d19c9a894b4c5167       19648  01_input/12_materials_standard_set/CeO2/raw/langfsh3.gs
+387563d40cb287b0fc528616e38a65cf383382ed26927aca81cfaa3b277867ab       49992  01_input/12_materials_standard_set/CeO2/raw/langfsh3.xy
+13fd9ded6a79206bafee5caea470e239474127c8ad4a893d51088f6ca9b4e6ba      107344  01_input/12_materials_standard_set/CeO2/raw/lebailbr.dbw
+8432c5d3d9241776d30ee64bf1b254429f67789b4697086d46ff25b146d60aef      106774  01_input/12_materials_standard_set/CeO2/raw/lebailbr.gs
+60f6d32786d79b27600699619b2f98e80596a679bcdfab1bdf6c399d71b4b3e3      273104  01_input/12_materials_standard_set/CeO2/raw/lebailbr.xy
+8a72cac15f63073c5176875a8b4866cd0ab0ab1e69f9e913b85689a1c0a8bd32      107340  01_input/12_materials_standard_set/CeO2/raw/lebailsh.dbw
+f523cf5b29045fcd134c15ba8d33bc6d8fd6ae073ee8b73ee629f527727a0a68      106774  01_input/12_materials_standard_set/CeO2/raw/lebailsh.gs
+68f40c766077489fc57f0a4de8f3e1ea689645bc8179ccbed8f56878e9722f5b      273100  01_input/12_materials_standard_set/CeO2/raw/lebailsh.xy
+1297c58dccd2be8c525fcd3d29e37dede4c8b4c6bc369a4672397edf28c44454       34066  01_input/12_materials_standard_set/CeO2/raw/s-s_rr_report_ph1.htm
+e6ef89c8e52480ae709612396304af42e4896d8e9fcb3d4081a645be171dd41d      208592  01_input/12_materials_standard_set/CeO2/raw/stephbr.xy
+44c93fbbc069363bb863c1cd25f2077eb0f5a3754298bb8f896506258231b1c6      648067  01_input/12_materials_standard_set/CeO2/raw/stephsh.xy
+f951c4eacdd48d494642bf58cc8f2f06bfe377d1b9a3a87264e199163b53761f       53641  01_input/12_materials_standard_set/CeO2/raw/tobybr.gs
+664286e987283615b305d28c0b18c1c422a687de177ef5095e2a3ef3f540e69a       53641  01_input/12_materials_standard_set/CeO2/raw/tobysh.gs
+410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809       12264  01_input/12_materials_standard_set/FE50/raw/fe50.raw
+ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44       77425  01_input/12_materials_standard_set/FE50/raw/fe50.txt
+d95b659a1746481fcabb2979332ec86566b6b3f81b9e701527f1bbd455a57821       12264  01_input/12_materials_standard_set/FE60/raw/fe60.raw
+0117e8be7aa869de39cf5fade9503fdf860a7944fd142a3f295d26c4bd38a27c       77425  01_input/12_materials_standard_set/FE60/raw/fe60.txt
+8a40f5caef9fcb5368fdb3bc9015dfba7a79282b1c8f265482d29c97ce7258bf      127623  01_input/12_materials_standard_set/Fe2O3_Fe3O4_2ph/input/Fe2O3_Fe3O4_70-30_2th.txt
+b053d4a6ad6ec07db648a1802405c127b38d93924cef84f3328840bd43911a5b      127153  01_input/12_materials_standard_set/Fe2O3_Fe3O4_2ph/raw/XRD_2024_04_05_70-30.dat
+66c1205ef63c1fd9e1a0edbfc935c18792ff030ff3b8e75b0a2d6a2cd184280c      128544  01_input/12_materials_standard_set/Fluoroapatite/input/FAP_2th.txt
+b567c0cc2b022143002976824b5ba544ac09119d67a40b0fc1cf2d52d562d304       47396  01_input/12_materials_standard_set/Fluoroapatite/raw/FAP.XRA
+baf39e98ec0ef091f2ad158317d1a6a3f16919b28d990f72404afc2d39e91bfe         794  01_input/12_materials_standard_set/Fluoroapatite/raw/INST_XRY.PRM
+e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8       14784  01_input/12_materials_standard_set/LayeredOxide/raw/Mo.raw
+64f15c1b1f241b05db0154f0a8d4bfa057a91e9d70073d3746ddfbb3314f2081        2007  01_input/12_materials_standard_set/LayeredOxide/raw/manual_refinement_structure/20260813 SG+BM P2.cif
+dc0d4ab5b01aa43a51f6d0b8427c5cee1b530a59a7f4496998d9dfb229a4770a      278821  01_input/12_materials_standard_set/LayeredOxide/raw/manual_refinement_structure/20260813 SG+BM.gpx
+de383d44f63364b9a17eda7b7c2f0296f9e9dd05b56d9e40b842f9418f2d2237       10715  01_input/12_materials_standard_set/LayeredOxide/raw/manual_refinement_structure/20260813 SG+BM.lst
+4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4       92535  01_input/12_materials_standard_set/LayeredOxide/raw/sol-gel ball milling.txt
+fa08fbe5d71976470364b42f75c1fcf0d9272e4274d9e77fb2ec6efe8dc78c70      459754  01_input/12_materials_standard_set/LayeredOxide_2ph/raw/91.txt
+4b2a49c0335924b7e4f17b5232563fa9e2934a7f591f20d0c6a7530005608666      142625  01_input/12_materials_standard_set/LayeredOxide_2ph/raw/Na0.9K0.1.csv
+922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd       31162  01_input/12_materials_standard_set/LiFePO4/raw/24.raw
+455cd77bbbee90d1a4a40d8cdda7584740994cc26c4e91f5f097ff8c4a178408       81051  01_input/12_materials_standard_set/LiFePO4/raw/jiaquan.rasx
+e35b3566b0ddaf4d444176a3de735d11cf730c9c9b9c8e3c4f617f33f63e8350      136342  01_input/12_materials_standard_set/PbSO4/input/PBSO4_2th.txt
+e59413059bc3b12a51f1c6eebc5d581470320d05a31f11a41dbb32e16d1d16b9         794  01_input/12_materials_standard_set/PbSO4/raw/INST_XRY.PRM
+ca2da02fc7e17d2fc912de22a979f8101ba6140f2e8104f9d3aa64f030ca58bb       49445  01_input/12_materials_standard_set/PbSO4/raw/PBSO4.XRA
+1f998f124c43d8a5ff6b2c9ac9e94dc6f9207508c6e4d51b7d13c89a9d7cec9c        1114  01_input/12_materials_standard_set/README.md
+bbdf943a0fab7860c7938dec57ad775e6d8290c75f3d0402a7c50feb2e0c6a6a      167330  01_input/12_materials_standard_set/Y2O3/input/Y2O3_2th.txt
+e59413059bc3b12a51f1c6eebc5d581470320d05a31f11a41dbb32e16d1d16b9         794  01_input/12_materials_standard_set/Y2O3/raw/INST_XRY.PRM
+8a1c047cb4112b7be23646572475856c6e86fe134327e81f0450f0612a74fae7      154371  01_input/12_materials_standard_set/Y2O3/raw/Y2O3.dat
+8aef0042545695b7f72449c0e42ad23db81cb2f4a39a8eb3b16dfd50dd3286bd      670623  01_input/12_materials_standard_set/ZnO/input/ZnO_corr_2th.txt
+5244ba33e5a00a17edf8a14305f62bff601f2695e92a23ec2120bb1b054b5f62      670499  01_input/12_materials_standard_set/ZnO/input/ZnO_meas_2th.txt
+f8d5bea980a8f0b8d3bf0bc6a3b1617eb4d88d50980b81f7bf731f797d1d6f4b     5466502  01_input/12_materials_standard_set/ZnO/raw/5866_15_nm_022.cif
+5495ce5b27093738766a184db2799d0a92e4f2a2d7bbb9d1ea2b984e5fedc4a2         639  01_input/6_materials_blind_set/README.md
+88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2       14784  01_input/6_materials_blind_set/agent_input/Amorphous/pattern.raw
+61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714       92555  01_input/6_materials_blind_set/agent_input/Amorphous/pattern_2theta.txt
+f5d7315967f6e619db7fb1a6ec2ee44833c3f7c2ff8f5e2932a2aac67e443555        5457  01_input/6_materials_blind_set/agent_input/FE50/CIF/candidate_A.cif
+fbb3811a61d3f07d8945cc210c8fd4f00e2748aca40fb5e6779fb8ee60c42e4b        2736  01_input/6_materials_blind_set/agent_input/FE50/CIF/candidate_B.cif
+410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809       12264  01_input/6_materials_blind_set/agent_input/FE50/pattern.raw
+ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44       77425  01_input/6_materials_blind_set/agent_input/FE50/pattern_2theta.txt
+8a40f5caef9fcb5368fdb3bc9015dfba7a79282b1c8f265482d29c97ce7258bf      127623  01_input/6_materials_blind_set/agent_input/Fe2O3_Fe3O4_2ph/pattern_2theta.txt
+66c1205ef63c1fd9e1a0edbfc935c18792ff030ff3b8e75b0a2d6a2cd184280c      128544  01_input/6_materials_blind_set/agent_input/Fluoroapatite/pattern_2theta.txt
+e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8       14784  01_input/6_materials_blind_set/agent_input/LayeredOxide/pattern.raw
+4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4       92535  01_input/6_materials_blind_set/agent_input/LayeredOxide/pattern_2theta.txt
+922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd       31162  01_input/6_materials_blind_set/agent_input/LiFePO4/pattern.raw
+14d2af3010be3f8095e459f348f24276679937a7890e1f320f8ceb7308ee57cb        2953  01_input/6_materials_blind_set/prompt.md
+556dd44415cf98411d0d290c6b26947b1d2ac7d8e7be79361cafbf99aa6c3355        3019  02_prompts/first_prompts_by_model.md
+14d2af3010be3f8095e459f348f24276679937a7890e1f320f8ceb7308ee57cb        2953  02_prompts/prompt.md
+fe58a682ac79aeb745926097c21c1ee06997b6b7eab4988403b7d77f43042c10        3222  03_outputs/DEEPSEEK V4 PRO/Amorphous/_provenance/conclusion.md
+0e161df3e88ebf4a4935ad8a19d391e2e1f5055b8b9f146a7310ad3b5707a5a3        5636  03_outputs/DEEPSEEK V4 PRO/Amorphous/_provenance/evidence_manifest.json
+00ee72237635c32f0de1a5dc29178257e2d7bf828ab0d2c59d8b0cbaf82a1161         592  03_outputs/DEEPSEEK V4 PRO/Amorphous/_provenance/final_selection.json
+b6d4b2ed6dc5796534f9319b287097ac518ffbf1dd483bcb0b2842ef3c0c116d        9312  03_outputs/DEEPSEEK V4 PRO/Amorphous/_provenance/technical_stats.json
+5234be16a2345fad65522e7af482b78cc46228dc6267bdfed53c93aaa877fb46      121331  03_outputs/DEEPSEEK V4 PRO/Amorphous/figures/amorphous_carbon_fit.png
+ca3bd2385838c41c5a7d1907bfa32866ec32b0ce1ad434c6645752e0a2e660a9      152750  03_outputs/DEEPSEEK V4 PRO/Amorphous/figures/amorphous_carbon_fit_fit.png
+1ee0e6c19fb6baa63cad559effe6d3d4e1dd9c2b09e20613112c2d30d7e264ef        2273  03_outputs/DEEPSEEK V4 PRO/Amorphous/file_manifest.json
+38942025d0b217e68d93223febbc3a88446a94a47ae5e3a1e935e30fd93cb25a        5785  03_outputs/DEEPSEEK V4 PRO/FE50/CIF/FE50_K5.84_Mn2_Fe6_C23.28_N23.28.cif
+b9b1f30254ebf56268e985d3db505d6f9a226d3942e59eeaba066348e7bd9f78      235856  03_outputs/DEEPSEEK V4 PRO/FE50/GPX/FE50_final.gpx
+f8b93bef4ca8dbafa5c2a8cee048d68c9aa4c1c16e4b1eed8a5a8a9af36ad13b        3339  03_outputs/DEEPSEEK V4 PRO/FE50/_provenance/conclusion.md
+1be5000bca91a9903debad6d1834897c544407ac2f23066594e76b7be2650396       62150  03_outputs/DEEPSEEK V4 PRO/FE50/_provenance/evidence_manifest.json
+507b55bb724d1e69a6ee311148c9673a6cd86ba7c4cd4316209935ccedf24b53        1065  03_outputs/DEEPSEEK V4 PRO/FE50/_provenance/final_selection.json
+8531c31e3a90b5f61bb8864246035e4ffb65404f52d8254ab815839fe7618b3e       76381  03_outputs/DEEPSEEK V4 PRO/FE50/_provenance/technical_stats.json
+7d7eb9a52da7e75d05e4623b9162250c8b1d1932dcffeea03156f810c426e76a      377766  03_outputs/DEEPSEEK V4 PRO/FE50/figures/FE50_fit.png
+e3254862f72cf64dc116dd6f935ce21bed5360d3a54c85f2957d991187de29a5        2771  03_outputs/DEEPSEEK V4 PRO/FE50/file_manifest.json
+b2288a9bc9dd5afe3fd8ba63a9dd2d027bc018c865476cf71e96db875cc467e8        2091  03_outputs/DEEPSEEK V4 PRO/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_built.cif
+e0872ff040a480c335b80765774cafb99d185d74d0579033829bee20155d0447        5943  03_outputs/DEEPSEEK V4 PRO/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_built_1.cif
+731c6c82339f15560320fc42e2850c4d151a1696be8f232e1a7fc511d381cefb      372780  03_outputs/DEEPSEEK V4 PRO/Fe2O3_Fe3O4_2ph/GPX/Fe2O3_Fe3O4_2ph_final.gpx
+935782a2a7c9185ea34e0fbf807eeebc9d88d5f9e310bf1a72c6e8312be0a144        3362  03_outputs/DEEPSEEK V4 PRO/Fe2O3_Fe3O4_2ph/_provenance/conclusion.md
+9931e16f0932f0a1985bc3ac116ce2b37980dd9ae78ee7b1b00a12a3da4e505a       22879  03_outputs/DEEPSEEK V4 PRO/Fe2O3_Fe3O4_2ph/_provenance/evidence_manifest.json
+321f1f22b4c7bfbb3381536f6fd7a75fa43a285554f68c72ea2a701fac75631f        1347  03_outputs/DEEPSEEK V4 PRO/Fe2O3_Fe3O4_2ph/_provenance/final_selection.json
+b57fcf4e80d28cc941ef9ef9da5061774f8fc6cf30178e8f2b22d022f36a8a97       29308  03_outputs/DEEPSEEK V4 PRO/Fe2O3_Fe3O4_2ph/_provenance/technical_stats.json
+cae56d7cbe4c316c9de305d204808992d53712530ff95714c8c19c4300f7f9fb      307394  03_outputs/DEEPSEEK V4 PRO/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_2ph_fit.png
+e6e1c7e15966b453abd385a5360aef1661c0e82b9aa392f41d08d7ee44e5d9d7        3845  03_outputs/DEEPSEEK V4 PRO/Fe2O3_Fe3O4_2ph/file_manifest.json
+c191ddb09a051cc7ca59c33c4f816a089feab107e9117381a9579e662114c7f1        1867  03_outputs/DEEPSEEK V4 PRO/Fluoroapatite/CIF/Fluoroapatite_Ca10_P6_O24_F2.cif
+4c1c359383e1f3a801bdd671d908951fcaee387fa7df77681c9292aad3628a7a      509286  03_outputs/DEEPSEEK V4 PRO/Fluoroapatite/GPX/Fluoroapatite_final.gpx
+4ae565ac75ac9b13685b7b71f420e6fa4bdf05488eb160d154d3cfe06a0900e6        3049  03_outputs/DEEPSEEK V4 PRO/Fluoroapatite/_provenance/conclusion.md
+4742aedc8b81d760e914a4b971da31e6451cba3e30dc9fe3e5d64f028e4e717a        9913  03_outputs/DEEPSEEK V4 PRO/Fluoroapatite/_provenance/evidence_manifest.json
+a855795e8561e39a3d2ead3552fdd9a31cbcfbe407d067638853a8b8770f5d34        1212  03_outputs/DEEPSEEK V4 PRO/Fluoroapatite/_provenance/final_selection.json
+04efcbd50929707604a8320bb96708a48621051b3c52560c44cf68499fa3bd9f       13255  03_outputs/DEEPSEEK V4 PRO/Fluoroapatite/_provenance/technical_stats.json
+f775ad4f4050ada49a709cdfe4dcccecb6385b5d36c32cd0debeb4126e934201      267927  03_outputs/DEEPSEEK V4 PRO/Fluoroapatite/figures/Fluoroapatite_fit.png
+61657a7f14c4653443a0542a506f23f8a8f485af907fc9eb68ebeffeda75e261        2984  03_outputs/DEEPSEEK V4 PRO/Fluoroapatite/file_manifest.json
+612b2d72a8f8812b156e48535219d12d7bae4cdb409d01516aef3432cbbb00e1        2039  03_outputs/DEEPSEEK V4 PRO/LayeredOxide/CIF/LayeredOxide_built.cif
+bbcaff1be17c1e886d365153eaf39fe3dc9e7ad1d6919462a8b0b5359976bafc        5976  03_outputs/DEEPSEEK V4 PRO/LayeredOxide/CIF/LayeredOxide_sodium_molybdate.cif
+2171972145c55cc2666da2d756a0e417dafab5bf1fcf624ede3dd13add5eb4a6      287414  03_outputs/DEEPSEEK V4 PRO/LayeredOxide/GPX/LayeredOxide_final.gpx
+2df89dd9428825899eb2d31af94799635a1ebafecadb1896d0d02a289cb52fff        2973  03_outputs/DEEPSEEK V4 PRO/LayeredOxide/_provenance/conclusion.md
+3c74aab37c2be81812ae6eebbe7988415093c68783b610d10c2dc67365f2e91e       16299  03_outputs/DEEPSEEK V4 PRO/LayeredOxide/_provenance/evidence_manifest.json
+35a48cdea85e21289372ddf7d288f9becc4b49a4f71fea90761d3cc8c85bc9f0        1293  03_outputs/DEEPSEEK V4 PRO/LayeredOxide/_provenance/final_selection.json
+15cde19f8da10eb55b90d330fd2a647508b4023e29b611cbca78722b870777e5       20315  03_outputs/DEEPSEEK V4 PRO/LayeredOxide/_provenance/technical_stats.json
+5cd552b3c5b74d9afb0745d1446168124ca30d73b0cac7178413b1f7ceddec9b      259770  03_outputs/DEEPSEEK V4 PRO/LayeredOxide/figures/LayeredOxide_fit.png
+3ea3171f2fcf039817985592bef1358a6be2848384312b70f5430adea9f789ab        3761  03_outputs/DEEPSEEK V4 PRO/LayeredOxide/file_manifest.json
+e4e61d32a086111da6e00fbd194a7e5f31f817eafe678bca52541a993cfd2fc2        1865  03_outputs/DEEPSEEK V4 PRO/LiFePO4/CIF/LiFePO4_built.cif
+9e1a1087613a8200dffc93db378166e3f74ac3f165114205e030c34f0810455e      562681  03_outputs/DEEPSEEK V4 PRO/LiFePO4/GPX/LiFePO4_final.gpx
+3baec8c0973274e1ddadd4af9b80975946662fca0f7bbd5a923f6e00636efbb6        1717  03_outputs/DEEPSEEK V4 PRO/LiFePO4/_provenance/conclusion.md
+2a38522e0e9410f077ffb53e48fbe9eebf356a954af3d2f1ede187d51a2602ce       31673  03_outputs/DEEPSEEK V4 PRO/LiFePO4/_provenance/evidence_manifest.json
+0a50df136f45acf199a438d71559190ebddc1491d10112190d045395f57d032e        1098  03_outputs/DEEPSEEK V4 PRO/LiFePO4/_provenance/final_selection.json
+3e6c667c06c11b6d0244148a1354d62aa0b7fb5dc4f8dd92c9afa6389f8a406a       39466  03_outputs/DEEPSEEK V4 PRO/LiFePO4/_provenance/technical_stats.json
+3a27352a219919ac2f6b9bf3553723d3c7ce56d069f289a7b21d5e8c53684e90      388063  03_outputs/DEEPSEEK V4 PRO/LiFePO4/figures/LiFePO4_fit.png
+6ed4b14182dba7df1dee5293c1908dd4f685ba4031fd97e9a959b9b4a26ac938        2789  03_outputs/DEEPSEEK V4 PRO/LiFePO4/file_manifest.json
+13e85693d11e8481e5894d4242e39e40ed3c900f9e54a1375ae1e488ca9fe1d5        4631  03_outputs/DEEPSEEK V4.1 FLASH/Amorphous/_provenance/conclusion.md
+bd58e77d974a8e6b7fda670099e5b2c43896be8f3d5cf3105564b33fff3f059c        2848  03_outputs/DEEPSEEK V4.1 FLASH/Amorphous/_provenance/evidence_manifest.json
+3c9ad91f1142514453cfa3a9601190186427ed9884129c6714dbcecbb6931f85        5575  03_outputs/DEEPSEEK V4.1 FLASH/Amorphous/_provenance/technical_stats.json
+47521b4a11519fe02a7b20f6c6fe2c85e437585a8e2bd422c76292cf455078ee      447337  03_outputs/DEEPSEEK V4.1 FLASH/Amorphous/figures/W_final_fit.png
+2baac486a0da1cf05bb7b61ce96c7ddec68d13c2c307dfe4d42e0ef0524d89e8        1375  03_outputs/DEEPSEEK V4.1 FLASH/Amorphous/file_manifest.json
+85ca9851cb29ef32f4818bb97bf66195211b6329bcc5cdc22067e687df24b2e4        5338  03_outputs/DEEPSEEK V4.1 FLASH/CeO2/CIF/CeO2_CeO2.cif
+46dc0777b128f33bd612b58a2ad602bbb3ae3b762b09f72125dbbdad28c96653     1720418  03_outputs/DEEPSEEK V4.1 FLASH/CeO2/GPX/CeO2_final.gpx
+2d881f89b0df1fd134dcccceb5f9e25b3f251a7d004ac27603a64d8d995a288c        4333  03_outputs/DEEPSEEK V4.1 FLASH/CeO2/_provenance/conclusion.md
+4fc9626c14ccf98bfbf96bae96580c2040dc1d1c0ccfbbf3d08cab617d8060b5        3642  03_outputs/DEEPSEEK V4.1 FLASH/CeO2/_provenance/evidence_manifest.json
+7e1a6bc286e8ff5c04455efc5f48cceb200a5f4d6dbc85d7d145b3362390ddfc        6478  03_outputs/DEEPSEEK V4.1 FLASH/CeO2/_provenance/technical_stats.json
+988bffb6372642708830f5ab9ecd2a7e04ae72835b5ffa594096dc4d24a5818d      190751  03_outputs/DEEPSEEK V4.1 FLASH/CeO2/figures/CeO2_fit.png
+b2070741450e1db3825881d43447b305f54def39841a73e09813eaa5486ff8a5        2663  03_outputs/DEEPSEEK V4.1 FLASH/CeO2/file_manifest.json
+aea3cea5c96b0ca6a2cef122be13dd9c7a280b1c8eecb5dc16f1ef16abdb4d8a        5730  03_outputs/DEEPSEEK V4.1 FLASH/FE50/CIF/FE50_built.cif
+6e3f0fea8293eb397ec11cbbc698d8029c92877cd4437bba7695b6b34beabda3      239158  03_outputs/DEEPSEEK V4.1 FLASH/FE50/GPX/FE50_final.gpx
+2363301cf55e354da4f6723c2c928afbc34391c82202c86b54503aa6634b3464        4617  03_outputs/DEEPSEEK V4.1 FLASH/FE50/_provenance/conclusion.md
+ae9d7f0babd726ccbd8a83be97f668437bf54389b801f7ed7061302d1ad3e7a5        9941  03_outputs/DEEPSEEK V4.1 FLASH/FE50/_provenance/evidence_manifest.json
+bd989732a034e7adbb2f3be465472961f9c4d2b21bebdcb9d1e8a6db0407f270       14444  03_outputs/DEEPSEEK V4.1 FLASH/FE50/_provenance/technical_stats.json
+61f999b5051da43ed2f250908198c5b543a1ff5b7599da1c70240922d5816e43      393722  03_outputs/DEEPSEEK V4.1 FLASH/FE50/figures/FE50_fit.png
+cd1812faf51934e3393acd514f8874fa605030777842f560c6fe87e813190ecf        2665  03_outputs/DEEPSEEK V4.1 FLASH/FE50/file_manifest.json
+2e9169197636a9e9eb7c87d71bbcb0f7b3a1dd23e59b955792bef089dc9b0e1f        5730  03_outputs/DEEPSEEK V4.1 FLASH/FE60/CIF/FE60_final_built.cif
+dafc8008a048c90e96a1666e5bc1a558e73cccccfe9bdefa79bc3625d605955e      240160  03_outputs/DEEPSEEK V4.1 FLASH/FE60/GPX/FE60_final_final.gpx
+2363301cf55e354da4f6723c2c928afbc34391c82202c86b54503aa6634b3464        4617  03_outputs/DEEPSEEK V4.1 FLASH/FE60/_provenance/conclusion.md
+ae9d7f0babd726ccbd8a83be97f668437bf54389b801f7ed7061302d1ad3e7a5        9941  03_outputs/DEEPSEEK V4.1 FLASH/FE60/_provenance/evidence_manifest.json
+bd989732a034e7adbb2f3be465472961f9c4d2b21bebdcb9d1e8a6db0407f270       14444  03_outputs/DEEPSEEK V4.1 FLASH/FE60/_provenance/technical_stats.json
+6903142f26a6bcec81e8fb63152667077195ccf4d64ba541ceb9102423487e65      342125  03_outputs/DEEPSEEK V4.1 FLASH/FE60/figures/FE60_final_fit.png
+75015416c98f657e1c35ae7ee178c7e83ecc988cbe42a8184ceb884f263744db        2755  03_outputs/DEEPSEEK V4.1 FLASH/FE60/file_manifest.json
+0d8c02802bd2b764d4134b300a28d74570ef747e1c3dd3aa619317e32d6aa097        5943  03_outputs/DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_Fe3_O4.cif
+a47a5f7884e7ef19204c4eacc3383e7ea05d1480bbb850137f23c984175812e6        2091  03_outputs/DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_built.cif
+37b9a0065b128bc88b42f0e8f81eede7807490112d623b7d77e91d04d4a51ecf      373080  03_outputs/DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/GPX/Fe2O3_Fe3O4_2ph_final.gpx
+151a2a62293a8379bfa514df1c768826f0d3a3e202d2315a7e756e56b4e0e3c4        5347  03_outputs/DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/_provenance/conclusion.md
+dad70c8857ce0bdbc1c2e602cfc2076508fe4536101b80d0b7399c2cae1232e6        3443  03_outputs/DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/_provenance/evidence_manifest.json
+c94077f6978bd5917b2bd04321ace4683bd006d525facc508f69d11a9a485f6c        6158  03_outputs/DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/_provenance/technical_stats.json
+5d982f8f720f903e956aad995f336c702f5a42a5acfc704745d5c2a3f32f742d      295565  03_outputs/DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_2ph_fit.png
+c020e0242e537508be4bbde60fc5c7894381d47231b93a3d7fbbde3ba5383555        3797  03_outputs/DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/file_manifest.json
+b4dfb6c258790b50ca56a0897e966f6836609ab22bf32a86ff5a4ebbe7bc978d        1854  03_outputs/DEEPSEEK V4.1 FLASH/Fluoroapatite/CIF/FAP_Ca5_F_O12_P3.cif
+d8d42775f4af9505f9c4e48d6429ca9cf3f04636519a59d69cfeaee8b5fbea39      514133  03_outputs/DEEPSEEK V4.1 FLASH/Fluoroapatite/GPX/FAP_final.gpx
+45c423693c0d54924bee774d5203584f5485e7112a3ac777618fb3ca2a298819        3028  03_outputs/DEEPSEEK V4.1 FLASH/Fluoroapatite/_provenance/conclusion.md
+8258f0f4d345b455fda987bed42ce313fe1e3f68bd947712f9b208b97a8375ab        5859  03_outputs/DEEPSEEK V4.1 FLASH/Fluoroapatite/_provenance/evidence_manifest.json
+07a7227f1ee645a5a0b988b5c22303ebdffe3fd1c8bdf1b6e8092518122a097f        9226  03_outputs/DEEPSEEK V4.1 FLASH/Fluoroapatite/_provenance/technical_stats.json
+8d5efa362308bdc1afb2dc5c5c424f30e373baa71786db76552db7cfb9ff0c8c      275430  03_outputs/DEEPSEEK V4.1 FLASH/Fluoroapatite/figures/FAP_fit.png
+1b874790c0cc634767686cfd3f95420c57754802bfb019ea648d159385d7861b        2788  03_outputs/DEEPSEEK V4.1 FLASH/Fluoroapatite/file_manifest.json
+c590931b906a0d0849205b0d2202d89670ff619f4677439db0f2273c1bb38133        2079  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide/CIF/LO_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif
+8592ce90681567e05568be41aee6a56e8f5a7562b6fc7755472ddd0697ecc572        5958  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide/CIF/LO_Na16_Mo8_O32.cif
+bd0b46f68eb73ea59f9ab9568fcf8c45e34ecd8d1585833c025f740c69221a28      284185  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide/GPX/LO_final.gpx
+7d7a92cdb8858fd2cfa5f144fd48ad704e2fd3f068c6c8d1dbe197f91115ded9        4457  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide/_provenance/conclusion.md
+fe3b79ce48b1fbae274eaf06e296a8168a0fb0951f6e5eb2b679649ff3841a43        3870  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide/_provenance/evidence_manifest.json
+a6c396bb6dc19fb3fb85c45989923fe88c2b9b69b1567600e4fb4558e2a581dc        7591  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide/_provenance/technical_stats.json
+4f9f70213c6a0799a05b5473bb5f9e569bb0c89828a8430352302ac2bd588e6a      294709  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide/figures/LO_fit.png
+bf8ed42afda16530821ebfbf7c94f76cab825f54a15a7f86944de2224f73538f        3576  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide/file_manifest.json
+008b9d152b3e7a0f864781e5fefb861d45739af2ffbe34989cc2e3508c58160c        2206  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/CIF/LayeredOxide_2ph_O3_refined.cif
+62f521fbaf34f79459d1aacc49b78a084aafce8006b86d97d05764a3430fbf6d        1249  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/CIF/P2_P63mmc.cif
+4d90fd364c6d6e7e8a13210c5624b32e120255d4cd9e9e2a990244fa309abc94        4285  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/_provenance/conclusion.md
+a55979a12ae9ef4bfa8a3a4aab6b809d5a62406c9d9a4a04b5e9072250832083        5762  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/_provenance/evidence_manifest.json
+52f98389da9a1e2022ab7e42b7efc995d6d302fd979aa098af5a4c9c5bcacb6f        8896  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/_provenance/technical_stats.json
+0eba433cd8045a66984790860e74138a0413aa3214a7711fc09cc98b54c639d0      163424  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/figures/fit_Rwp7.81.png
+a7fc7d94f7b5915c4f889c7764e1d322bf9300fff06ac53cfb1208f51c7d0e92        5635  03_outputs/DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/file_manifest.json
+8011af0c8dbe853a0864c3722b180b95970c773e079999d498a574f15f8f5a9c        1865  03_outputs/DEEPSEEK V4.1 FLASH/LiFePO4/CIF/LiFePO4_built.cif
+4dad73ad5be64264675b46cd84a5017ad4298c7724ff34c3ca9b119523a1d12a      567671  03_outputs/DEEPSEEK V4.1 FLASH/LiFePO4/GPX/LiFePO4_final.gpx
+5420ef25cca1f810a65beac6a62ccde60e4578d579df9c1488c9cba73f6de8c6        4878  03_outputs/DEEPSEEK V4.1 FLASH/LiFePO4/_provenance/conclusion.md
+c563e6d2896b70884737b50b4442d984956c278f8c2e19fa6112710c90d76adc        2658  03_outputs/DEEPSEEK V4.1 FLASH/LiFePO4/_provenance/evidence_manifest.json
+69fbb525fa9f32c9239a3820406c95d01c50c4607a3c0d7e96954a8a3dbff527        5337  03_outputs/DEEPSEEK V4.1 FLASH/LiFePO4/_provenance/technical_stats.json
+018d51f7da0dc2e1873c7c31f6052caabd3c91c574dd749b0ab0ae2b84549a1b      387252  03_outputs/DEEPSEEK V4.1 FLASH/LiFePO4/figures/LiFePO4_fit.png
+952f439dfffc518308db4cb58124762985d02a1024280e5a108883fdd7ac7446        2749  03_outputs/DEEPSEEK V4.1 FLASH/LiFePO4/file_manifest.json
+13b323f94de92c7b39dd83e9de96502c4c5b5156bda3d87daf5ac9fd82d73c22        1964  03_outputs/DEEPSEEK V4.1 FLASH/PbSO4/CIF/PbSO4_O4_Pb_S.cif
+911b64d6a0d03e5ac92133d03afaf686298eeb582a8801a1aee2f62eb40b5200      531813  03_outputs/DEEPSEEK V4.1 FLASH/PbSO4/GPX/PbSO4_final.gpx
+fb0ca45b72f29c28c1fd6c90550d4b15f0d84262010a8a8791323b7bab30bb96        4575  03_outputs/DEEPSEEK V4.1 FLASH/PbSO4/_provenance/conclusion.md
+fffc8efc4beba42b59d091065901838c0d112fc4a07abd19236a33df37083460        3094  03_outputs/DEEPSEEK V4.1 FLASH/PbSO4/_provenance/evidence_manifest.json
+1cce183efb4b2e3a5c5182452e67f9b8109dce13ae6cf87de0ed0b8cc8397388        5838  03_outputs/DEEPSEEK V4.1 FLASH/PbSO4/_provenance/technical_stats.json
+fc6358c9c7e8a64fd490cd34fc1d7f3e9734f340d2ef40789e9ee07dbaf88aac      319229  03_outputs/DEEPSEEK V4.1 FLASH/PbSO4/figures/PbSO4_fit.png
+842c1eb4e5d69127f3809d2de4f615252d21c7eeb3dd5b3e610b712b7b3cd10d      328036  03_outputs/DEEPSEEK V4.1 FLASH/PbSO4/figures/PbSO4_fit_export.png
+fd174de9df04e133059f5dd3550d9ac6bb0f278ba330739f74798fd87e04a395        3463  03_outputs/DEEPSEEK V4.1 FLASH/PbSO4/file_manifest.json
+cda2482c51e532bd1a43ed896b3f264ffecc7aacac5044820d39aeebe0472e7d        2295  03_outputs/DEEPSEEK V4.1 FLASH/Y2O3/CIF/Y2O3_Y40_O48.cif
+bf217e6c1164feedb85bc92e1396d98ea33dd56446df9767ca345246edc6da3d      605398  03_outputs/DEEPSEEK V4.1 FLASH/Y2O3/GPX/Y2O3_final.gpx
+b79e05fd41c39e0fa3a7a9bb9d017cd887c8289de696084da9cc5cd30d9ca1c5        3332  03_outputs/DEEPSEEK V4.1 FLASH/Y2O3/_provenance/conclusion.md
+fe7b99849f9887870f96276fe77e4bf7c022c2b9af553d10b1dbe34bc162fce5        4845  03_outputs/DEEPSEEK V4.1 FLASH/Y2O3/_provenance/evidence_manifest.json
+3e99d410c6fea8ee3b36cb5777420aadaf7e51b742521b65d1e62be2bba0ab0c        8229  03_outputs/DEEPSEEK V4.1 FLASH/Y2O3/_provenance/technical_stats.json
+97df1e57beadcd6f0b33f4be07d87e46c215019e889f799622d9aa2183bb7e33      223486  03_outputs/DEEPSEEK V4.1 FLASH/Y2O3/figures/Y2O3_fit.png
+588ec807ad788c1868ba644d05fb5280dd662564097324dbb0227c31637e208f        2752  03_outputs/DEEPSEEK V4.1 FLASH/Y2O3/file_manifest.json
+dee137c8b23d065a419d1d6c779d32a3202485155c4281a821289647d35d800a        1394  03_outputs/DEEPSEEK V4.1 FLASH/ZnO/CIF/ZnO_built.cif
+b24132b1cef1623312c0be5cfb61da2be8e7d29cdd33c091a059cb8299e0c016     3369204  03_outputs/DEEPSEEK V4.1 FLASH/ZnO/GPX/ZnO_final.gpx
+b663f8836a828cf2275e51353f4dbdcb798306c546dc09534b9ed898d1370e22        4281  03_outputs/DEEPSEEK V4.1 FLASH/ZnO/_provenance/conclusion.md
+6be3b679d15a8110360bec994e01c9101af0715b34a127fc800b65afce20a226        4081  03_outputs/DEEPSEEK V4.1 FLASH/ZnO/_provenance/evidence_manifest.json
+ccbc61d4d6996d2c6e27c58b00312e2a922ce1ace515e25c245fce651756d517        8200  03_outputs/DEEPSEEK V4.1 FLASH/ZnO/_provenance/technical_stats.json
+bdd0231c1fc8c41cb5996067d808ab16651a7a85a16b1ece835daad83d3d771e      250440  03_outputs/DEEPSEEK V4.1 FLASH/ZnO/figures/ZnO_fit.png
+134f280ad24f608342b27c22cc352cd5d5c1fe497bc0542bf43fd745ec970260        2638  03_outputs/DEEPSEEK V4.1 FLASH/ZnO/file_manifest.json
+54bf3c307ff0febdae4b58cefe9ca5f6de0d95fd6f57484f2679ccf0be31dafa        3365  03_outputs/GLM 5.3/Amorphous/_provenance/conclusion.md
+353530ebf50fcde7e4a08673a4e0a58678c370cdab58de91d06017f6d8f34229        5746  03_outputs/GLM 5.3/Amorphous/_provenance/evidence_manifest.json
+65df84ccfc4c552fb67531af27d1cc1677fb71032ea163d1ae6253adfbd569f7         500  03_outputs/GLM 5.3/Amorphous/_provenance/final_selection.json
+be64d22315258f5d2324ab7d044c34ca3cadf3bbee213891a169a3c95305649e        9018  03_outputs/GLM 5.3/Amorphous/_provenance/technical_stats.json
+203e4425337a6df96c3cc2a3c27e95210f69939435679528b6c040ceadf6623c      384172  03_outputs/GLM 5.3/Amorphous/figures/Amorphous_final_fit.png
+310452b8647dbaaeb34b59686ccac5a7a77e6a27a238e0a929d63f09c9e9d1e3        1451  03_outputs/GLM 5.3/Amorphous/file_manifest.json
+4bf1da00441e41c993f2da5181a357967314f2dca28364fdf12db02c6bddb480        2496  03_outputs/GLM 5.3/FE50/CIF/FE50_New_structure.cif
+43cd338061241d0431d05fa33e4b33eefdeecfa56deafb4c1b4274886db273e4      314382  03_outputs/GLM 5.3/FE50/GPX/FE50_final.gpx
+4d71ce2bd953aa66393cfb40dd7ace8e0ebb9a5fcf8aca4c0b847c494f598552        3314  03_outputs/GLM 5.3/FE50/_provenance/conclusion.md
+ad1655ddf1c5b171cc1560ef98e082b2e0aeea71a7b669076f5cfce3e4e5dd3c       73059  03_outputs/GLM 5.3/FE50/_provenance/evidence_manifest.json
+63fb4f96a0234b84db3764b1ded68874e9d3cba0e5008e2d012bf0008033c687         897  03_outputs/GLM 5.3/FE50/_provenance/final_selection.json
+8afc74932f334bd5d4a8925b04aaf9c58ad8a0e3c5104551c4e9497d69aaf7df       87410  03_outputs/GLM 5.3/FE50/_provenance/technical_stats.json
+333cfd655ff134e679dc9cb851d995ea34141e738eddfebbc2c0915e01c05e00      366687  03_outputs/GLM 5.3/FE50/figures/FE50_fit.png
+e9afe6cd06541e5e03dd2f1860dfac693ea0ba7c8521559287aafc7a037e1a09        2625  03_outputs/GLM 5.3/FE50/file_manifest.json
+51ba4ada04956d2afb19db8939518c9ba23ec669f5b5b67255945ebde134f5bf        2087  03_outputs/GLM 5.3/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_built.cif
+787486ee0d245d647b4c43b4397ca5aa68d15ffb39c83cae9d1d79e3847533ca        5939  03_outputs/GLM 5.3/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_built_1.cif
+fca1d2d05cebe860c3f5614a8c26951dbb5831acb833b6246a842a887c2f048c      368765  03_outputs/GLM 5.3/Fe2O3_Fe3O4_2ph/GPX/Fe2O3_Fe3O4_final.gpx
+bccf96017da14edfdf77116afca67a329d767d68b96d729cfe2cf8646a3d40ff        3831  03_outputs/GLM 5.3/Fe2O3_Fe3O4_2ph/_provenance/conclusion.md
+872b3a91b9c54ae28b6ced67cecc289d7e5bdbb97834e7539f04e24a59bb2606       34202  03_outputs/GLM 5.3/Fe2O3_Fe3O4_2ph/_provenance/evidence_manifest.json
+d18b682b8b380cfdda016e84c36c9703a36af5986fc95826d3f070d71b21b782        1243  03_outputs/GLM 5.3/Fe2O3_Fe3O4_2ph/_provenance/final_selection.json
+03bf072b932441cf74d743bbb1ae7a8f62d6cc97535e93c5e6e00ef82a636319       41690  03_outputs/GLM 5.3/Fe2O3_Fe3O4_2ph/_provenance/technical_stats.json
+3be86628ef90aa0e8d3928234005f0df9996b618c77e0ecf6416f5225c2b2195      308991  03_outputs/GLM 5.3/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_fit.png
+7151d0f03a39004373c19a7f3a17795aa19cb08e8487f703ca2720665e01d68d        3628  03_outputs/GLM 5.3/Fe2O3_Fe3O4_2ph/file_manifest.json
+dc8160b6b766f0c41c9cba7881ebe63129a2dfcf362d2a71d7bf43116f4b20b0        1838  03_outputs/GLM 5.3/Fluoroapatite/CIF/FAP_built.cif
+4b70847bb153a870da57b7c9d4c9532edd74bf96312f015c6866220a868bd654      508806  03_outputs/GLM 5.3/Fluoroapatite/GPX/FAP_final.gpx
+52cd628a9605f726900ff889557d1d779a82239e5a381760b8304e09b6f41803        3843  03_outputs/GLM 5.3/Fluoroapatite/_provenance/conclusion.md
+03b7c190cb47efca72620e49b63c500d97cbd06edfc018a883deb7f501c6238c      163750  03_outputs/GLM 5.3/Fluoroapatite/_provenance/evidence_manifest.json
+e6f315597d1e8dfb4e4b0617042ae7915c6b7879f016400cc4992f7693d69e1e        1036  03_outputs/GLM 5.3/Fluoroapatite/_provenance/final_selection.json
+55c97c325d74da448d5669620a6bbedacb80a0908d0548530dc99328ee90a2b0      196381  03_outputs/GLM 5.3/Fluoroapatite/_provenance/technical_stats.json
+1ca122f58bf51bd8cb8e20e16f2808b74039b5525c98d4058554530f51c6af65      269758  03_outputs/GLM 5.3/Fluoroapatite/figures/FAP_fit.png
+074e340f322a6d39f97356b7056a63a272dbb1c20ae41d86256680da995d5cc5        2703  03_outputs/GLM 5.3/Fluoroapatite/file_manifest.json
+f6c7de5a9ed0567a38e42f29f2b66e7093e2bcdeb280d397454ab6da473eed81        2031  03_outputs/GLM 5.3/LayeredOxide/CIF/NNMO_built.cif
+0bb03bee6fbe8cb6dd278d21880e9eabbf1eeec5fed54c0a7f41570935412802        6403  03_outputs/GLM 5.3/LayeredOxide/CIF/NNMO_sodium_molybdate.cif
+71855cd7b6d53804502d940adf5c3f201d85cdc699eb01322f8796f342feac6e      291863  03_outputs/GLM 5.3/LayeredOxide/GPX/NNMO_final.gpx
+de86ac72fc948965c3cce0bb8065ce47b18f85093d3fd595b5f508e60677fcea        3353  03_outputs/GLM 5.3/LayeredOxide/_provenance/conclusion.md
+6b96a987b6c66c6f912413069ec320fd80f436415485f0a1b1a3259f2d4c72a6      114141  03_outputs/GLM 5.3/LayeredOxide/_provenance/evidence_manifest.json
+53952afadac73ea69704a58db83bc4b4bf173af3cfdf0318a335d703861c9359        1128  03_outputs/GLM 5.3/LayeredOxide/_provenance/final_selection.json
+3e4e93a209184dbf61a368574a079d5f2fd86ca0663c7fcbde9f6503035110c0      137476  03_outputs/GLM 5.3/LayeredOxide/_provenance/technical_stats.json
+d6c81a2da30d52625ca29196693abac495a5cd2ce8bb515cda8c05f92365c151      253068  03_outputs/GLM 5.3/LayeredOxide/figures/NNMO_fit.png
+1d5893c7749270be84b8fdf9ab7ebe311d5c34dd5ce827d7d608f35dea0976d2        3465  03_outputs/GLM 5.3/LayeredOxide/file_manifest.json
+7bdd19d9d44a6a83afb98fe449e473b573f18573c4d4f1f634fb1a3275d46707        1865  03_outputs/GLM 5.3/LiFePO4/CIF/LiFePO4_built.cif
+4de05083e1b8bcf4325de2cc8e032dcff7265cfc36837560bd44330a55a0ca66      574368  03_outputs/GLM 5.3/LiFePO4/GPX/LiFePO4_final.gpx
+ceaeb01483873592758cef2ab11332daa0c38059a8dc3abf2a6634d4ff7180d6        6178  03_outputs/GLM 5.3/LiFePO4/_provenance/conclusion.md
+58ebdc4e1b0beb3e039641db5449679fae4f032a51c291383a9cd6e347c90744       84698  03_outputs/GLM 5.3/LiFePO4/_provenance/evidence_manifest.json
+26bcdb6c3acc9b0ba59dd4f44c43648c5e380d70c095fffcb9282b4fdb16513f        1031  03_outputs/GLM 5.3/LiFePO4/_provenance/final_selection.json
+879253750fb79cf6194b8a4bb4b19a38680ecbe6f61cf806997e877f210a7a7a      104531  03_outputs/GLM 5.3/LiFePO4/_provenance/technical_stats.json
+e61e8d1ee0e74b4a0222d9e688ac123abe3adb2dac9e819b2e4dc339620b33c0      334395  03_outputs/GLM 5.3/LiFePO4/figures/LiFePO4_fit.png
+9c0ee2f11ecadbe3ffc8015ee3503a4236831e57c3382b0cc91139a19e57709b        2685  03_outputs/GLM 5.3/LiFePO4/file_manifest.json
+508cc283af2f05caefd90bb4dc73545aa5ad88d6e731f99610ae5159951b1eb7        2592  03_outputs/GPT 5.6 SOL/Amorphous/_provenance/conclusion.md
+94c53495455344066ea0f5158e3c852c31a43e7a2ac26744e195b8e8b29810e5        2615  03_outputs/GPT 5.6 SOL/Amorphous/_provenance/evidence_manifest.json
+0c094b35123d1a442f921b5affd6e01eb4b506082859460d64024bd1268a734d        6155  03_outputs/GPT 5.6 SOL/Amorphous/_provenance/technical_stats.json
+ad7b01d9377d58e54583875100e8b46c402e0f37394c2b9adc53aa478aa5bea5      357020  03_outputs/GPT 5.6 SOL/Amorphous/figures/Amorphous_empirical_fit.png
+6dbc615c1ddc3281aa63fa0e9327eac46e41bdc93fedb1a05241dae3f33ef83f        1368  03_outputs/GPT 5.6 SOL/Amorphous/file_manifest.json
+7e0889bfb3f594ba904201ecbd2fc9405bd2907a0f655f60e80351d77aab3501        2760  03_outputs/GPT 5.6 SOL/FE50/CIF/FE50_built.cif
+86e2da46970923f10e615a61006a6b2b77577ea00c02d32a4e9d06f65992f4c3      313874  03_outputs/GPT 5.6 SOL/FE50/GPX/FE50_final.gpx
+348166ceb9f6be31d501d37a20723f0a3b2bc47217b6d42ca6c00942645a18e4        4947  03_outputs/GPT 5.6 SOL/FE50/_provenance/conclusion.md
+839269a23239c09c4f9f34c8f10cf6031f552578499ef2dff0b4a4116dba3797       14944  03_outputs/GPT 5.6 SOL/FE50/_provenance/evidence_manifest.json
+ee143f4318804615962bce298d91b022ea342da5a8551f6bfb1801a0dd159327       24120  03_outputs/GPT 5.6 SOL/FE50/_provenance/technical_stats.json
+ac4203d400f6de73855445624b5fd382ce05d0b70bbd3225e5a24b54cf587d60      341417  03_outputs/GPT 5.6 SOL/FE50/figures/FE50_fit.png
+36f557c71f2223c2bb51e8c874949a9271773db4e62b185826663d8a94ba4769        2666  03_outputs/GPT 5.6 SOL/FE50/file_manifest.json
+d9cf76b852c1ccb1d02abc2651d3e67bf7e86e657c2ab741c05fe97c00a258e2        5967  03_outputs/GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_Fe21.3334_O32.0001.cif
+65541b8ecd4f914c807e188018d34c819026adcd597392eedb0b6e586d74049b        2091  03_outputs/GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_built.cif
+e35fa6e08061a81d2e42e378dfab0de6578b63a300f161c0c839f5de1d25fd01      370784  03_outputs/GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/GPX/Fe2O3_Fe3O4_2ph_final.gpx
+45fb549c502f9c0f71a0d7da5955a78439eadc234bfda1b9cf01b6629840f983        1946  03_outputs/GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/_provenance/conclusion.md
+cc2a080c011ff76fecb08d45792058c560aa82999fa5f73a11b12c7bec170c12        3853  03_outputs/GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/_provenance/evidence_manifest.json
+fc3066220d41d3517db16080bc367f35044c60db61315b864d0b464203a0dc1b        7055  03_outputs/GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/_provenance/technical_stats.json
+4a32a665739a6a5e5fc9e5f1d0ca702cbe21f328509b8be72a4bc4b8af122951      280354  03_outputs/GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_2ph_fit.png
+18f9b0dfcd23f565c7b8ab7e9485304ca87c7ee0961861eb2ee564be7d846e1b        3729  03_outputs/GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/file_manifest.json
+8aa6d0550115b0b8abfee5a5e62c424852120d447333518a07a907c44966e0d0        1866  03_outputs/GPT 5.6 SOL/Fluoroapatite/CIF/Fluoroapatite_Ca10_P6_O24_F2.cif
+d47fd9bab609a03036195de67aee1c8a0fa5887eecb591e34610f684a00d2e3f      509654  03_outputs/GPT 5.6 SOL/Fluoroapatite/GPX/Fluoroapatite_final.gpx
+608ef6dda928d5ad01520332a4b473122c94b98478fc387a5193709d2e6a5a6b        2709  03_outputs/GPT 5.6 SOL/Fluoroapatite/_provenance/conclusion.md
+90c2dbace96fca6a01d923c5d9fd128bd1fab91531a0b39176711d152b055a4b        3419  03_outputs/GPT 5.6 SOL/Fluoroapatite/_provenance/evidence_manifest.json
+71ac2faf3949e03629c9ef31af3c95148e62083777aff1c3122bb072fbeb22f5        6545  03_outputs/GPT 5.6 SOL/Fluoroapatite/_provenance/technical_stats.json
+64ca3edce4ba301ac40d0fee1c3d9f2d56816b6644558873c692b4884756c6c6      256748  03_outputs/GPT 5.6 SOL/Fluoroapatite/figures/Fluoroapatite_fit.png
+453657bbf653e382999ba68526392cddf906853de8941aaaa28c18fe3e169047        2864  03_outputs/GPT 5.6 SOL/Fluoroapatite/file_manifest.json
+c2535465b80c4b241f17d51ed5c98b62ce60b6220be946e4bbbe95b9f8705de4        2008  03_outputs/GPT 5.6 SOL/LayeredOxide/CIF/LayeredOxide_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif
+1c1729bd358fac1047c2f3c7d9138318c988c6c17663a8c2e6879eeb0a3981e2        2188  03_outputs/GPT 5.6 SOL/LayeredOxide/CIF/LayeredOxide_Na4_Mo2_O8.cif
+ff4e7b29290c012df086194acabecfb380aa9937da4711c351f569e6393268b6      343449  03_outputs/GPT 5.6 SOL/LayeredOxide/GPX/LayeredOxide_final.gpx
+e80ac1275b3d2480f3bd8b75845b62101db9e64c12e1b05f18b26eef7e32cbbb        2762  03_outputs/GPT 5.6 SOL/LayeredOxide/_provenance/conclusion.md
+c18dc34bca4443cb81c59d82b196191eb7f12d9afc1568a033c14a8f14f76ddd        4197  03_outputs/GPT 5.6 SOL/LayeredOxide/_provenance/evidence_manifest.json
+5053af2d0f1ce5645aff4a683704fa28b362dfb34805bf70286a610674144364        7948  03_outputs/GPT 5.6 SOL/LayeredOxide/_provenance/technical_stats.json
+290725d08da2c301dabd83bb1038c8ee521b8fea66ae1210c5f26f1c9e6db3b4      279065  03_outputs/GPT 5.6 SOL/LayeredOxide/figures/LayeredOxide_fit.png
+75ce4f0e6e89672e8a072b6860ac6a061bcca4c74f53eb52eb06a8960b243d49        3666  03_outputs/GPT 5.6 SOL/LayeredOxide/file_manifest.json
+a52b773a345c1c992c93be419ae635cce9194c18f4d7aac745c5db6ff54c7744        1737  03_outputs/GPT 5.6 SOL/LiFePO4/CIF/LiFePO4_best_physical_Li4_Fe4_P4_O16.cif
+20b1e0212d52a8bc6bb5a5ac4282bd3e4cd6f6ca26ab8953d373bd825f941f83      561540  03_outputs/GPT 5.6 SOL/LiFePO4/GPX/LiFePO4_best_physical_final.gpx
+b16d112d82a0fa760b7039c20b7f0f04cbae477e06474fb682b2b6417f6beee4        3116  03_outputs/GPT 5.6 SOL/LiFePO4/_provenance/conclusion.md
+2018d6a1ecb9dec3bf22ccfe59c0e8448dda8f74dbd372848ee78f50fdb1e15f       82235  03_outputs/GPT 5.6 SOL/LiFePO4/_provenance/evidence_manifest.json
+b2283b75e29cc3ca296f6789e39510df8710ee6f482e254f608e9a56f3240812        4940  03_outputs/GPT 5.6 SOL/LiFePO4/_provenance/technical_stats.json
+30f1fb071da59109f119568ca44cb14b09b37ecb3c18f54d7ebfa0a0fc169640      336082  03_outputs/GPT 5.6 SOL/LiFePO4/figures/LiFePO4_best_physical_fit.png
+43b25cbb728af6273c9e1ef113bdc843b5460cc9965a13069466321477ce4ccb        3078  03_outputs/GPT 5.6 SOL/LiFePO4/file_manifest.json
+800e2e30cd412d8440a3adfa6b3d136a3824e5bc0f271dff426816cc81ecf51d        2874  03_outputs/QWEN 3.6 FLASH/Amorphous/_provenance/conclusion.md
+f7d66a94653635846a8761d15ac67289bdec6e02fa01e22c6c9be57e06060f57        2223  03_outputs/QWEN 3.6 FLASH/Amorphous/_provenance/evidence_manifest.json
+f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f          94  03_outputs/QWEN 3.6 FLASH/Amorphous/_provenance/final_selection.json
+fa8c89b677c307729ded5861cb101915cd6677328cd9b9f8848fd71e7b1f15ab        5144  03_outputs/QWEN 3.6 FLASH/Amorphous/_provenance/technical_stats.json
+d36aca0a3fd24b5a00ee9ea7e02fdb053626768b05557b53117141350446cf6d         556  03_outputs/QWEN 3.6 FLASH/Amorphous/file_manifest.json
+9a92303145d851189fb223203908fcd07a918f3bf23a01a05c0f6d89d8eb562e         103  03_outputs/QWEN 3.6 FLASH/FE50/_provenance/conclusion.md
+d20a2f299b213b100488f1489b2bc06268a26c833ad5341dddce9efb103f4b9b        2040  03_outputs/QWEN 3.6 FLASH/FE50/_provenance/evidence_manifest.json
+f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f          94  03_outputs/QWEN 3.6 FLASH/FE50/_provenance/final_selection.json
+c20b61b46a3d6a738ca2fc3c7cbf555e3621bfa0cd9ea97296c3d78187086ac3        5521  03_outputs/QWEN 3.6 FLASH/FE50/_provenance/technical_stats.json
+89c24b3b4a4799f465489c1ee85f099277a08e468e5eabee4c5c25836105c581         475  03_outputs/QWEN 3.6 FLASH/FE50/file_manifest.json
+4cbb9dd4db58837a22ad1c15156d655bc1d9c035f383b288d45c30517d558535        3624  03_outputs/QWEN 3.6 FLASH/Fe2O3_Fe3O4_2ph/_provenance/conclusion.md
+8c21daee5812c6e92a8c8a0017120573f54bf307214f531cfc852ee7a3bb50d4        9844  03_outputs/QWEN 3.6 FLASH/Fe2O3_Fe3O4_2ph/_provenance/evidence_manifest.json
+f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f          94  03_outputs/QWEN 3.6 FLASH/Fe2O3_Fe3O4_2ph/_provenance/final_selection.json
+7daab5bb55800707a2c0663a4555e6df101d050c3b105799523de62a933dbedc       14193  03_outputs/QWEN 3.6 FLASH/Fe2O3_Fe3O4_2ph/_provenance/technical_stats.json
+ff213dec108eb8c957df679de59327cb574b9c34940dae558d92f05c50ce2766         486  03_outputs/QWEN 3.6 FLASH/Fe2O3_Fe3O4_2ph/file_manifest.json
+b75be8e5238ea72b5fdd7e8a7c6c260b6b22e6bf8a864667c754da50b935f983         144  03_outputs/QWEN 3.6 FLASH/Fluoroapatite/_provenance/conclusion.md
+e72c5e1a65b6be5c24b0c8f9d8c761225238b3653439b337182b431d4869c2d3        3764  03_outputs/QWEN 3.6 FLASH/Fluoroapatite/_provenance/evidence_manifest.json
+f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f          94  03_outputs/QWEN 3.6 FLASH/Fluoroapatite/_provenance/final_selection.json
+9481f0c2c30aff0940acc454af96bacc8e6b8ae7cc03d29bdf3ef367badabac5        7275  03_outputs/QWEN 3.6 FLASH/Fluoroapatite/_provenance/technical_stats.json
+cc1747b933ba3aab8735e9a6a12475e1754fe271596601aeb36995522b70a2aa         484  03_outputs/QWEN 3.6 FLASH/Fluoroapatite/file_manifest.json
+59655d1c8dff2c92d414e9d56367a62e892bf9833c27958b9c31186a73dc6040         106  03_outputs/QWEN 3.6 FLASH/LayeredOxide/_provenance/conclusion.md
+6078a6671fcd7086a66c226504241c146f1dda31eaaa5eff564a170908642907        2659  03_outputs/QWEN 3.6 FLASH/LayeredOxide/_provenance/evidence_manifest.json
+f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f          94  03_outputs/QWEN 3.6 FLASH/LayeredOxide/_provenance/final_selection.json
+82a60f699df5f2b0bf8f011d7993110fe0efa279b26bfbc5e459bc4f2354266a        6473  03_outputs/QWEN 3.6 FLASH/LayeredOxide/_provenance/technical_stats.json
+f8752402fcca12751ecf2dfa221ebef7d22eeab9fc1708dad4caf5907f93cbec         483  03_outputs/QWEN 3.6 FLASH/LayeredOxide/file_manifest.json
+33cfd82517ab0f40bc2fefb3da7a3c883c0b2f1acfbabf101125b66056b969be          52  03_outputs/QWEN 3.6 FLASH/LiFePO4/_provenance/conclusion.md
+b4ccd4697b291efcffc71adcb781718c190bc5a71369be9d054748c9007d4e23        1505  03_outputs/QWEN 3.6 FLASH/LiFePO4/_provenance/evidence_manifest.json
+f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f          94  03_outputs/QWEN 3.6 FLASH/LiFePO4/_provenance/final_selection.json
+1a1062ffa28f8edb48472f0c1a855b8488d7035da811f4acfa6263f671f57e38        4687  03_outputs/QWEN 3.6 FLASH/LiFePO4/_provenance/technical_stats.json
+c278eba6f45ecebd3172aa666bd2afee34e04a38474a4f434426ab72b06f4946         478  03_outputs/QWEN 3.6 FLASH/LiFePO4/file_manifest.json
+77339bd25b36a4aeea490dae29cf6e869ee88e0fc9b0bfa825c51af298d93e45        2008  03_outputs/QWEN 3.7 PLUS/Amorphous/_provenance/conclusion.md
+7c590d71df206588383a3e4d5c439985383f2c8853f52190a75575f7c9bf106d       11174  03_outputs/QWEN 3.7 PLUS/Amorphous/_provenance/evidence_manifest.json
+b26bfacda9af022081f6a301793efa327df4f3561af025b8b6168e4448e9d60b         516  03_outputs/QWEN 3.7 PLUS/Amorphous/_provenance/final_selection.json
+d2b8810dc773d7605264562ba2503bd21f03825465e9d0cdf92c10f701e78006       15693  03_outputs/QWEN 3.7 PLUS/Amorphous/_provenance/technical_stats.json
+32e0f9d26633ab82759484984d316d8fbd656aef311a2dcfa19d52f981c1a1bc      343829  03_outputs/QWEN 3.7 PLUS/Amorphous/figures/gC3N4_carbon_final_fit.png
+db7008b48d15c670db89e783f099968357ea20305b56a4bdd198ad9e2ff59fd2        1492  03_outputs/QWEN 3.7 PLUS/Amorphous/file_manifest.json
+7c57206672d4374af8f7a1f87ac2ae6a44178c791573fd44ef9d7a48d907b268        5475  03_outputs/QWEN 3.7 PLUS/FE50/CIF/FE50_final_K4.8_Mn2_Fe6_C24_N24.cif
+f81aadf73438d295968b11a6c316dc15c9af3c36f2afa9eef98b92e4298231a8      236552  03_outputs/QWEN 3.7 PLUS/FE50/GPX/FE50_final_final.gpx
+e621230d1f1349b187590a978f15674337da3db6b29239f6ca6effdb9d9511b3        3257  03_outputs/QWEN 3.7 PLUS/FE50/_provenance/conclusion.md
+eef8a6662a2d415b2a494b0c174cc93fcdd8683eedc6faad9a7dec1704473c76       61370  03_outputs/QWEN 3.7 PLUS/FE50/_provenance/evidence_manifest.json
+4b611543db2bb09fe4aec84059959039bbf11c1e6fa352b36519cf8476b036cf        1105  03_outputs/QWEN 3.7 PLUS/FE50/_provenance/final_selection.json
+facafc1334b111d756483458c99af22bea5d884fbe4cd258a29c13786cc944e0       73851  03_outputs/QWEN 3.7 PLUS/FE50/_provenance/technical_stats.json
+6e91bf1bf2101ad15e29416c99d54cca6bd8010fa84eb04d2d0725492cd847ca      368223  03_outputs/QWEN 3.7 PLUS/FE50/figures/FE50_final_fit.png
+9b5d343ba62c70c53efb14dfb62190247da37a03af5af404f6915f4681feafec        2813  03_outputs/QWEN 3.7 PLUS/FE50/file_manifest.json
+e4feacff2afb9ee8c9d5fe1ffad85a2f3f6fcbbec1582d46d9d1fd0614dda948        3113  03_outputs/QWEN 3.7 PLUS/Fe2O3_Fe3O4_2ph/_provenance/conclusion.md
+88f04a7972a7f09f927d48824eb09a44811b6b9df54d1e0ad8e71cc19c5dc3ab        8352  03_outputs/QWEN 3.7 PLUS/Fe2O3_Fe3O4_2ph/_provenance/evidence_manifest.json
+40c3c1049645e51a7db57773b2fb7c0047c33d7bc53b0024bbbc08db61b6873a         528  03_outputs/QWEN 3.7 PLUS/Fe2O3_Fe3O4_2ph/_provenance/final_selection.json
+4b00939a456615a5bc7e665defd4eb5aa12085d791f8b2618df510af4c1af22f       11382  03_outputs/QWEN 3.7 PLUS/Fe2O3_Fe3O4_2ph/_provenance/technical_stats.json
+271c648609b1dbb2af777d56fe79cdae3c23aa9c1cb1e52776fce97329edc5c9      219828  03_outputs/QWEN 3.7 PLUS/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_2ph_v3_fit.png
+9dade66a87d16643fafda39d6942e6aefa70fbaa0a3fa4e5edadaae4aa269c78        1446  03_outputs/QWEN 3.7 PLUS/Fe2O3_Fe3O4_2ph/file_manifest.json
+717d55aad4788ad7c827b6b44355142d3449c7969292fb2fb7ce985a7529fbeb        1836  03_outputs/QWEN 3.7 PLUS/Fluoroapatite/CIF/FAP_built.cif
+22d290e8f7f5af9600e95891de57ebb766a30fad2d1e101d704cd26838fb5070      510658  03_outputs/QWEN 3.7 PLUS/Fluoroapatite/GPX/FAP_final.gpx
+4bfc28a0611c55868d76446729db40710d4cf8eafab95ac0fd099b19d4694d5c        1364  03_outputs/QWEN 3.7 PLUS/Fluoroapatite/_provenance/conclusion.md
+a58f35f1fffffdd2bbeb005f09e4c4240858a851c9e933d7ec30f7506c064911        9221  03_outputs/QWEN 3.7 PLUS/Fluoroapatite/_provenance/evidence_manifest.json
+bd99c3de8b0b3ecb75a38b776433b09fa6a41f0837bee973558ce903c67736bf         957  03_outputs/QWEN 3.7 PLUS/Fluoroapatite/_provenance/final_selection.json
+e9c6da2e8cdf58a05414844cb8cbec18987ccd87f41d658ca00becb785fd86be       11706  03_outputs/QWEN 3.7 PLUS/Fluoroapatite/_provenance/technical_stats.json
+b62d3651ec015ae376e1c78084b83569b64c43c210d73526a58629bb659f78f7      267586  03_outputs/QWEN 3.7 PLUS/Fluoroapatite/figures/FAP_fit.png
+6697818ccd617c2a4bf1142f78a7a2e3d4f8860aee9609b25abdb4c72553f331        2780  03_outputs/QWEN 3.7 PLUS/Fluoroapatite/file_manifest.json
+bc81dbdbfc04c9e84142c6361951bce20eab47d59dd8f45640d323b9b4ea8a8a        1684  03_outputs/QWEN 3.7 PLUS/LayeredOxide/CIF/LayeredOxide_final_built.cif
+e71758edf0e9a383bb6fa4a7c2e05563bfff3ff0fca61c8cf001894db61f575e      273122  03_outputs/QWEN 3.7 PLUS/LayeredOxide/GPX/LayeredOxide_final_final.gpx
+23edf143ab3ee33edffad84e30d0762e117c53506dd2c8cf7a3946ba895372d7         346  03_outputs/QWEN 3.7 PLUS/LayeredOxide/_provenance/conclusion.md
+bbac7be8834c61ad9bf0787979c9a313646c3006dbfc778f4176434a062f731f       29387  03_outputs/QWEN 3.7 PLUS/LayeredOxide/_provenance/evidence_manifest.json
+d46770056b6dc8375b307f94a9026e642b6802ca74f9c8d795467e1f666ea181        1239  03_outputs/QWEN 3.7 PLUS/LayeredOxide/_provenance/final_selection.json
+80ee2a84a4546bc8d32f31198f7f7a83d69fcc946282ba6227f0a65d3a3520b2       35657  03_outputs/QWEN 3.7 PLUS/LayeredOxide/_provenance/technical_stats.json
+2f3ad4beda84958fcc7378166a57cdb832ecba61cb24db06deab22db166e5fe4      271204  03_outputs/QWEN 3.7 PLUS/LayeredOxide/figures/LayeredOxide_final_fit.png
+647b34b88422f14b1555f8e3d5f0f15846e7ff1ac91e67c3c676d4bda6c1b068        2992  03_outputs/QWEN 3.7 PLUS/LayeredOxide/file_manifest.json
+0e01505e80e3dcb847b53c0c127e7127f2bb84579aafa973ceadefbd74932e68        1345  03_outputs/QWEN 3.7 PLUS/LiFePO4/CIF/LiFePO4_final_built.cif
+8491e401160ce07841e797b8d6d480911d429ccf7be6fa9d36bfc2aee154b67a        1886  03_outputs/QWEN 3.7 PLUS/LiFePO4/CIF/LiFePO4_final_built_gsas.cif
+b66429e8a122c90cee0158908723649cb336ed67427714e31d58a4f01d175fba        1607  03_outputs/QWEN 3.7 PLUS/LiFePO4/_provenance/conclusion.md
+4b3e461c12d2534a63a0279690d0d06a21f4064524326573bfb6177995943b69       31388  03_outputs/QWEN 3.7 PLUS/LiFePO4/_provenance/evidence_manifest.json
+61b2e364757a42b264fe76483d14ceecad5ce54e90ddab241af59a44f9f4582b         717  03_outputs/QWEN 3.7 PLUS/LiFePO4/_provenance/final_selection.json
+980d2d93c4862967fd97996d56ace78465dfe7adc2d2846f567376ca133e9fc7       39801  03_outputs/QWEN 3.7 PLUS/LiFePO4/_provenance/technical_stats.json
+255b57d9ed6c6a2f07c2456f8c2490c40fadefa0d9f29f71f01dad140307fcd7      377513  03_outputs/QWEN 3.7 PLUS/LiFePO4/figures/LiFePO4_final_fit.png
+df929be3d84773f9aff20c1bed275fc24e9ff29997ed2bda581569f8ee16a8fe        4488  03_outputs/QWEN 3.7 PLUS/LiFePO4/file_manifest.json
+ffce6f47a27a573b193bb2a5cf6748ab4e155624602d5282e70509fd9f928003      576992  03_outputs/QWEN 3.7 PLUS/LiFePO4/final_answer_project/GPX/gsas_antisite8.gpx
+7b5c354c0d2027edb8c6e6e11fbca926a446b96d55a61258a69f06d148313542      574383  03_outputs/QWEN 3.7 PLUS/LiFePO4/final_export/GPX/LiFePO4_final_exported.gpx
+3318f6df51996587d7553ce150c4eafa9418abfc8a8be82b40d154af4f42415f        3236  03_outputs/QWEN 3.8 MAX/Amorphous/_provenance/conclusion.md
+f833c4e98e7d0d0b7761641721af4c7e94bad1c4f0d89da384b4f86468405edb        9573  03_outputs/QWEN 3.8 MAX/Amorphous/_provenance/evidence_manifest.json
+d1302d24ca3f7bbb819e7f928a3d95cdee4be01496220c99123a3855687fc828         520  03_outputs/QWEN 3.8 MAX/Amorphous/_provenance/final_selection.json
+0d8f1b26f9efd6eb4a9aa1aaae19e672cb7a1ae427903ebc7da8f3878d98c4df       13742  03_outputs/QWEN 3.8 MAX/Amorphous/_provenance/technical_stats.json
+51b6ec22dedc14427f8983dc9d030a0e0507678ea4e4754db20bb1b04111ba2a      402437  03_outputs/QWEN 3.8 MAX/Amorphous/figures/round4_final_fit.png
+08f701d9c3b6a363a9244d8a0d06c8a18c7d4e2d8b007885f77ca23953446684        1467  03_outputs/QWEN 3.8 MAX/Amorphous/file_manifest.json
+1a681547faf89847ef3c0c2ca8fc4731fe0e6fce801871031674a1fd17dfb289        2772  03_outputs/QWEN 3.8 MAX/FE50/CIF/FE50_t14_litcn.cif
+50830144ddb8ea9ab5ee90052c8ed9329d636fd31fd0d34d4c918b44991011db      323377  03_outputs/QWEN 3.8 MAX/FE50/GPX/FE50_final.gpx
+e0675708f3910342244a03dc0cead363d135fade4cc4458526a19009c0a92e78        1976  03_outputs/QWEN 3.8 MAX/FE50/_provenance/conclusion.md
+2954a6f5f45d8865954248c40094917f8cfb1ae6d3dece3857a6bda9c54b36eb      118217  03_outputs/QWEN 3.8 MAX/FE50/_provenance/evidence_manifest.json
+9e5852e6da8b20c2578cef61512febd9241de1ffebab068c46564c140a7f229a        1026  03_outputs/QWEN 3.8 MAX/FE50/_provenance/final_selection.json
+2b31c7c75a1821be3f5e8f44b0e28b79e6cc12ccacccf250c246da9b0c9846d9      137870  03_outputs/QWEN 3.8 MAX/FE50/_provenance/technical_stats.json
+84e2b09cf2c49256026127e61abe5d7407c2dbbec9558b70d5855321070f23ef      394487  03_outputs/QWEN 3.8 MAX/FE50/figures/FE50_fit.png
+a4ac496fd666e19f482f44bec00adf45c20fd9f13de4bda028d7569ab23ff18b        2677  03_outputs/QWEN 3.8 MAX/FE50/file_manifest.json
+9a3c0d1d17d57296c9df1c422e2385eebb3fe6df50c195c1e7a80d3be7c1fed3        2099  03_outputs/QWEN 3.8 MAX/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_Fe12_O18.cif
+d16252262812446364f55c9a9a1e3e5fbcea5f0c9198f46b2ace9134c669ee07        5947  03_outputs/QWEN 3.8 MAX/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_Fe24_O32.cif
+86b2da091af475d4ca02afb2c1dcd7e306f048c2d88322e90082bcf76e2f4318      377171  03_outputs/QWEN 3.8 MAX/Fe2O3_Fe3O4_2ph/GPX/Fe2O3_Fe3O4_2ph_final.gpx
+ce78fe192c46e3859e565b07e74591029af3b1b8ede978e0c4cbe6fb1f7ee7ef        2985  03_outputs/QWEN 3.8 MAX/Fe2O3_Fe3O4_2ph/_provenance/conclusion.md
+6ff40a2eea48a414166f310c902b8c65acd2b72839da905d60f9d39a09cadfe5       59729  03_outputs/QWEN 3.8 MAX/Fe2O3_Fe3O4_2ph/_provenance/evidence_manifest.json
+87b991569eb49bb36a75bd6d69a8206332cadbd91a54603689119e15198f316c        1325  03_outputs/QWEN 3.8 MAX/Fe2O3_Fe3O4_2ph/_provenance/final_selection.json
+907c0ef255aeab443f7640d6db28987120a300c2801ba46a2827d4303c4bd1a9       73803  03_outputs/QWEN 3.8 MAX/Fe2O3_Fe3O4_2ph/_provenance/technical_stats.json
+fdccab66222241e1c88b13d1318e67020cf9d506021c7dcf2f169cfa54900e91      319923  03_outputs/QWEN 3.8 MAX/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_2ph_fit.png
+23545771fe44e935061957cc1c18d36a69243c1fbe7203eedc2e3d60115e90ce        3805  03_outputs/QWEN 3.8 MAX/Fe2O3_Fe3O4_2ph/file_manifest.json
+bbaea6a6ee26d92bead10def9049e229aa2130ac24892a4f513473da834b2bf7        1836  03_outputs/QWEN 3.8 MAX/Fluoroapatite/CIF/FAP_built.cif
+a9dcda6f14acc56eb55bd73519e648a00f90460c59d17d68278f05467ed3e336      523634  03_outputs/QWEN 3.8 MAX/Fluoroapatite/GPX/FAP_final.gpx
+f52d9f64dd7e41a31cfd5cfbf814684e8c69bb0b3058b6643990953e9876d33a        2138  03_outputs/QWEN 3.8 MAX/Fluoroapatite/_provenance/conclusion.md
+01f5c369c9cfe81249e6e0f27995a9986c7cee527f4f549120fb23a9868250a3      111509  03_outputs/QWEN 3.8 MAX/Fluoroapatite/_provenance/evidence_manifest.json
+db780930ddc26e02af675c7f143040e3299b9bac57a188a145c070c7f05ed610        1069  03_outputs/QWEN 3.8 MAX/Fluoroapatite/_provenance/final_selection.json
+1810e45ce03f1191f4457d79676ddf738821e6c8c9a133139fe4a9ac7629096f      135671  03_outputs/QWEN 3.8 MAX/Fluoroapatite/_provenance/technical_stats.json
+8eadc83659b67a31c03efa18636582270caeac890cadb1ca82e033986e9f3375      276162  03_outputs/QWEN 3.8 MAX/Fluoroapatite/figures/FAP_fit.png
+a4defa4e647d9428eabcaf22c05b9c12b12e82717de2cb52e77e6336994c698c        2767  03_outputs/QWEN 3.8 MAX/Fluoroapatite/file_manifest.json
+e63383684aa5b9cf04fa33af604393c1f75c04f0ea409de7a0bf1c25cac999af        2039  03_outputs/QWEN 3.8 MAX/LayeredOxide/CIF/LayeredOxide_built.cif
+3cbe6f059961d2ab4c3009d82d22bb027cb825ebed6160ac5b56299e30b5009e        6411  03_outputs/QWEN 3.8 MAX/LayeredOxide/CIF/LayeredOxide_sodium_molybdate.cif
+c170a89a931af7d63b21eb29ac79dc560bcdc080e100a72acc8bacb78e683d18      289503  03_outputs/QWEN 3.8 MAX/LayeredOxide/GPX/LayeredOxide_final.gpx
+583ed7f71f087e27093e3e07f01923e0d532b87121fba0dfcc123cdf320a9783        3821  03_outputs/QWEN 3.8 MAX/LayeredOxide/_provenance/conclusion.md
+f15e079bdd664e513778e5fc8a19d795545a1ae0e1b6004b586b24e8f06dd25c       96064  03_outputs/QWEN 3.8 MAX/LayeredOxide/_provenance/evidence_manifest.json
+4fd44b55c476731fc021a261ccf6e23c7e12d0941f102d4223e2c574cbb3db44        1256  03_outputs/QWEN 3.8 MAX/LayeredOxide/_provenance/final_selection.json
+ca97644dbb66d575cd0ec42567e4fd633f72c55f13ec8c92a9b08a7f102c54a4      117901  03_outputs/QWEN 3.8 MAX/LayeredOxide/_provenance/technical_stats.json
+6d60b80a305954c53d917572d3a39aa8c5e41c8030ee7acbb8c414b6cff88782      305102  03_outputs/QWEN 3.8 MAX/LayeredOxide/figures/LayeredOxide_fit.png
+43c31b16c4251742d6352ad846bf9df74a3a9f5fe7905b04fbd7e7220cf562f5        3710  03_outputs/QWEN 3.8 MAX/LayeredOxide/file_manifest.json
+0b8996ddec5713ea9c45ed7592979b6e0abc79b8be05ba54726857c10c6c308f        1885  03_outputs/QWEN 3.8 MAX/LiFePO4/CIF/LiFePO4_Li4_Fe4_P4_O16.cif
+14437f782cc99aed74661518f486558dcbd350c80b6ce9b9539d7cf92b36418e      557356  03_outputs/QWEN 3.8 MAX/LiFePO4/GPX/LiFePO4_final.gpx
+33c2d2811f2c421ebb1ab11504ea9dcfa55414fe69b7ab5bfc1ec0e22c21ef76        2629  03_outputs/QWEN 3.8 MAX/LiFePO4/_provenance/conclusion.md
+e924118d390b019d02575c99db57638a009453f5ee8ec9baf16a6fef883a1bc7       48517  03_outputs/QWEN 3.8 MAX/LiFePO4/_provenance/evidence_manifest.json
+4bd6eec438d86267979a86b3b8b7b248c1576c3c4144960fda06b6e64e634cdd        1079  03_outputs/QWEN 3.8 MAX/LiFePO4/_provenance/final_selection.json
+cf3643e9fd1327672fa6e8481e1d1645825207c65b364249e22a52925db0f38c       60801  03_outputs/QWEN 3.8 MAX/LiFePO4/_provenance/technical_stats.json
+2876b8743315831174553a72f08339c8d91ffb9f43f3db968c8c90246202577a      385567  03_outputs/QWEN 3.8 MAX/LiFePO4/figures/LiFePO4_fit.png
+f062406a92b0f0af7d3c3980ba8744b1087381cf707069a97c0a135dc1fbc228        2776  03_outputs/QWEN 3.8 MAX/LiFePO4/file_manifest.json
+f42abe2d6b450b6e8aaf4d37f6438826f3e1e72c222f3c9f4ddcd23ca6e5c755         319  03_outputs/README.md
+2e7fbd1aa9d9ad1f751b64423dbfab9adae6b0b12a4e7abfd7032e1ce7312077        4199  04_refinement_paths/DEEPSEEK V4 PRO/analysis_manifest.json
+d270dfd4959c8e3e740fb0c11705bb3532412a6c0abb0f9c768910a1d880e982      871629  04_refinement_paths/DEEPSEEK V4 PRO/benchmark/API_request_pricing_detail.json
+bc8f927ac7529dcabdb3ffc12db371b1932562390a2e781fdc42da072e5553ae       45375  04_refinement_paths/DEEPSEEK V4 PRO/benchmark/Amorphous/score.json
+bb39ae51f0866b8e7cd1f58cededf6d7ee286623e8648a36230a7deac7a881d4       68187  04_refinement_paths/DEEPSEEK V4 PRO/benchmark/FE50/score.json
+17516d4b156ac1fd861ffc1956b72874fba99ade6e78b31ff61f7446998b29ae       44068  04_refinement_paths/DEEPSEEK V4 PRO/benchmark/Fe2O3_Fe3O4_2ph/score.json
+89c8f648a3bf829dfc1e1b360cb9aae149ee0798c76479a7a90c76c47df194c8       59917  04_refinement_paths/DEEPSEEK V4 PRO/benchmark/Fluoroapatite/score.json
+71be76d0fbe7dba98a7e8726177a4c39b46a9088455cf0f14046d01e08ca9ad5       88938  04_refinement_paths/DEEPSEEK V4 PRO/benchmark/LayeredOxide/score.json
+d4dcd7889115b0840116878cecd1ebce7f9a616fda3779f894a422e51394f861       61284  04_refinement_paths/DEEPSEEK V4 PRO/benchmark/LiFePO4/score.json
+047ca8a9ab0691ae5d0b9f27dc419004e298736ea7d0b65ea3d9fac4b4c27bf4       69217  04_refinement_paths/DEEPSEEK V4 PRO/benchmark/model_score_resource_summary.json
+f493aa27aeaa521cddd14d2d0809ae9274594c3029a0c2debee1deeda90d1e3f        1585  04_refinement_paths/DEEPSEEK V4 PRO/collection_audit.json
+f5d386dbb56b60d780eef8d0979442edb4fa5c6e5b6a03ddd2750a83cb0fa3c1        7444  04_refinement_paths/DEEPSEEK V4 PRO/configuration_audit.json
+f23ec4ef39bea676b90ff69c1afb5a356778b54859444ab2dbb4f7177e1507f8        6286  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/Amorphous/report.md
+6e7c06aa72e0827adc733bb8443cd5bab088ef8596078d9911a73212297deba8        4280  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/Amorphous/xrd_workflow/journal.md
+8e7014ecb4c0960df35834ae23a3c80e567b7a781829cc7a02a9c39d6c6b2ee0        3329  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/FE50/FE50_final/FE50_report.md
+0121950f3529dbe82e2dd5a978cdc3cf6a28174cf75dad2b02501aa85775d4d7        7272  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/FE50/FE50_refinement_report.md
+8c6ea9d16ca8a2c5a1708bdfa4db6b9cbfdb397dfc6df69e4341584b4919a795        2961  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/FE50/work/review_judgment.md
+eed6f5738e72a23baf100c2f27c3c252f6a355bd4e73b991004520b1cd357954         453  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/FE50/work/xrd_workflow/journal.md
+f58edbbcd6b0c64219d14aefebb02d8e726fbb6442851b40397c0c2a485d91d0        3813  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_report.md
+f19af26df8c67df34346f0b7f50c7506ae6e58d4f640ab90274766b4b88e2c3d        2439  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/Fe2O3_Fe3O4_2ph/review_judgment.md
+252b763e42da69d737901955682a28767ecf7ecbe905bd96c1bf882c23bcb674        3115  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md
+17d5f25c284a77f3e545bc30de2fedd9644e935cb3ae5ac03ce196660acf50e3        3389  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_report.md
+3d5f5d5a0cb5ff6554acf089eee63d36328b1e24a1480e8024b750caaeeaaf7a        2035  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/Fluoroapatite/review_judgment.md
+08dcb1a2a08c1b037452a095e740a0331f19e7f001a783ac0c266d9bbb517f59        4421  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/Fluoroapatite/xrd_workflow/journal.md
+52f3b610e691089df9c385a0b7b2fa9b4033999eda98126d06893aee659928cf        4281  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/LayeredOxide/LayeredOxide_final/LayeredOxide_report.md
+6c59c4c3029d1908dc785d444c39edbffb92dca4db208a4abfd7c5e4166d8cf7        6008  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/LayeredOxide/REFINEMENT_SUMMARY.md
+639e7714df4b1fe4d681fb4d1dadba7d8136b4126d799c5dfc9e9cff7935c16e        1879  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/LayeredOxide/review_judgment.md
+8b927098e7dc15e193fb628564a229820377bb8eb0f10122d3eae9a0e60b0af5         719  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/LayeredOxide/xrd_workflow/journal.md
+21c8daded2b4c476fb34ef18f507405cf035a73d9dbead7bc8cc2fe5b232416c        3495  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/LiFePO4/LiFePO4_final/LiFePO4_report.md
+541f054e2df06274fafb78ecadfcbeb289a15a2b7ce105e5818b1f8dcbc2deda        3397  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/LiFePO4/review_judgment.md
+2b195069d85dbe2d4438b1804d45b1463031f173568ac8364f17ce35c2510f74        3379  04_refinement_paths/DEEPSEEK V4 PRO/model_reports/LiFePO4/xrd_workflow/journal.md
+373531fc532e642c2ae2fd50bb68c79135aa4d0a4a58343dda52e59e79eeb47e       17197  04_refinement_paths/DEEPSEEK V4.1 FLASH/analysis_report.md
+3d625327d5a95f0293a5c61a1e77431beec52709b8ab8b3f9bb4904d25c85d4e        4812  04_refinement_paths/DEEPSEEK V4.1 FLASH/extract_gpx_answers.py
+c6581d6cdd5eb642f1900101e4ee8b55fdd9a6e3b8b306a8539ee037252881cc        8495  04_refinement_paths/DEEPSEEK V4.1 FLASH/extract_sources.py
+85a3acaba0b0785317ffa29f3f8e84fec65e1797aeb6974e5c89f1e36342d443        3277  04_refinement_paths/DEEPSEEK V4.1 FLASH/extracted_v3/message_index.json
+789555021fed9215370e4e4fcc5f923a28921ecc094bbcd450f033445a636517     1127201  04_refinement_paths/DEEPSEEK V4.1 FLASH/extracted_v3/run_messages.json
+cb6c98ffbda6b4a84551066f67e1ee4336c77412fcf2ba8468ad804f3460b231       11403  04_refinement_paths/DEEPSEEK V4.1 FLASH/extracted_v3/source_prompts.json
+636099ee4cf9d57979cc911dbff0806419ec6ee366d457a5f8e0d1bbdcfc0c23        4214  04_refinement_paths/DEEPSEEK V4.1 FLASH/extracted_v3/source_prompts.txt
+5f3bb7a8991f4d5d1a3f0a4ab06f9d56f7777c5d548b13ec2a7157f81c3d46f1       77457  04_refinement_paths/DEEPSEEK V4.1 FLASH/gpx_answer_extract.json
+e5a61c4d234e5c2405585085af6d92367e9e0191caaad13a977f132b40249292        3380  04_refinement_paths/DEEPSEEK V4.1 FLASH/layered2_data_identity.json
+d790c0d5d5d33a8f2d45c076ce8f0ee68c40f201bbf0de9eefeebf1c5ce93171        3219  04_refinement_paths/DEEPSEEK V4.1 FLASH/layered_data_identity.json
+23eb94a1d01cb5657f0754bdf5a4fa293f1d8bc836015dd1c66d7f9be16120d4        3266  04_refinement_paths/DEEPSEEK V4.1 FLASH/lifepo4_data_identity.json
+0e72805a4208541f6d5f46bb9bd86f88e53fdcab954021a303164881cc5fdccd        3299  04_refinement_paths/DEEPSEEK V4.1 FLASH/result_matrix.csv
+f520ea57e51ff1ace0c46415c14cb69ae6a9b2fe81def0cdef73e79a42695bdc       20291  04_refinement_paths/DEEPSEEK V4.1 FLASH/standard_answer_comparison.md
+fc6d482cbeb185d082963d4e2c51bc16e748258c4452cff67ef4a3244e1d1bfd        4214  04_refinement_paths/DEEPSEEK V4.1 FLASH/standard_answer_matrix.csv
+6414c4bb94b8f0e59436d14d7e701a5b9e499752ff18ddbf087287c58c927b12        3550  04_refinement_paths/DEEPSEEK V4.1 FLASH/verify_layered2_data.py
+0d799c49b214c09143895270ba5960f24b6df38dc00ffe58fa2a9400de385cfd        2640  04_refinement_paths/DEEPSEEK V4.1 FLASH/verify_layered_data.py
+c877b8d692317ba627609ef03e90784ef2b70a8d14c4fed286e4efc4295420fe        2690  04_refinement_paths/DEEPSEEK V4.1 FLASH/verify_lifepo4_data.py
+04eb62252bd06aecea0dfb6c7759f138570a0a9789817666e6b1cbfaf5bdc429        6324  04_refinement_paths/GLM 5.3/analysis_manifest.json
+cf2573a64f74f0e361be3b60da5f994803de5bb92d180f7ece42aebcc56e95e4     2190179  04_refinement_paths/GLM 5.3/benchmark/API_request_pricing_detail.json
+4b3f5863a54c252e9b70b8a2e530f082fbcd6edfefc739b0becbdd9ebf2d276a       34408  04_refinement_paths/GLM 5.3/benchmark/Amorphous/score.json
+d01290aafb5fd071866f1e7c4d972bf13541a9a1e62d6bc5fee92b82cd1a6a16       47810  04_refinement_paths/GLM 5.3/benchmark/FE50/score.json
+3537840e2f25fd0d3aba88131b393397f08d7904dd73059a92977fbc74974d39       40102  04_refinement_paths/GLM 5.3/benchmark/Fe2O3_Fe3O4_2ph/score.json
+dc25968dab193701536262a0d45027776648fb363cbd824f2c2acf5647ba8b16       57599  04_refinement_paths/GLM 5.3/benchmark/Fluoroapatite/score.json
+6bdef48d092cba8193d03fcd7391e4c8a64d1a61a6d2d7ca98781323403f623b       61760  04_refinement_paths/GLM 5.3/benchmark/LayeredOxide/score.json
+62e096ef2e97715d0da0a024f31467eddebf180bb1bc5732a77bdde4ee33e72f       43332  04_refinement_paths/GLM 5.3/benchmark/LiFePO4/score.json
+be817cdf9e38ad81ee0fd4ea8670dad4b2be983835497d17a9f5aa7be91fcbd3       71888  04_refinement_paths/GLM 5.3/benchmark/model_score_resource_summary.json
+cd2cf2ea927598acfedc0a233dd9b4d92dce004fec0ef252b912bf07f17fa1d2        1526  04_refinement_paths/GLM 5.3/collection_audit.json
+465d8e880b185b1971b1a7d7f7ad1c76406ef5ece62db4e86c6ad890dacc1bae        6173  04_refinement_paths/GLM 5.3/configuration_audit.json
+a8595673b1fa82818fc59b9131738c5a2f8d5061e8a1e0dfd5706168ed7362d7       12524  04_refinement_paths/GLM 5.3/model_reports/Amorphous/report.md
+e2703942405ff7740cfdc3942aca3ede295b1e89ed66784a787ac71a70a2ef50        8073  04_refinement_paths/GLM 5.3/model_reports/Amorphous/xrd_workflow/journal.md
+207ae1019a48926d7bf7b17878b9300ecdd8b19c8b4ae9e0418af4bb3771cc28        4556  04_refinement_paths/GLM 5.3/model_reports/FE50/FE50_final/FE50_report.md
+aab0fb7b6c3e42ac4cc8f4da396ab899db41e46db31cb3d2b1253d1a3236f08b        7267  04_refinement_paths/GLM 5.3/model_reports/FE50/FE50_refinement_report.md
+d523c60a3ed34250cf666596f56ad4d882f2284cd7adffaef4541f947d1532b7        3727  04_refinement_paths/GLM 5.3/model_reports/FE50/review_judgment.md
+14f03cf8a1f433cd046b428717d03b9e195b10cbca26c7d764a801dc35696f62         556  04_refinement_paths/GLM 5.3/model_reports/FE50/work/M1_cubic/r4/xrd_workflow/journal.md
+b02e88ed7002ab3cb49698445f59c906b9b828f715053efa995db21fe067041f         441  04_refinement_paths/GLM 5.3/model_reports/FE50/work/M1_cubic/xrd_workflow/journal.md
+b1b4bbec4bdfc0669df350899d3bf08defce1865cd7205531723dfb59730a88d         733  04_refinement_paths/GLM 5.3/model_reports/FE50/work/M2_mono/r3/xrd_workflow/journal.md
+b3434dfcecde89b2834b524fd64d858d9aebc33ffd1a124433b2527ac0beef38         681  04_refinement_paths/GLM 5.3/model_reports/FE50/work/M2_mono/xrd_workflow/journal.md
+2df546bb771bc24d3554053ef2a23c4f1dec70d53204b78296657e1c9ffb16a6        4982  04_refinement_paths/GLM 5.3/model_reports/FE50/xrd_workflow/journal.md
+548df7681a922336f36ce2bbb3ad198186cac96f3efe8173d4327bba29e1b697        9224  04_refinement_paths/GLM 5.3/model_reports/Fe2O3_Fe3O4_2ph/FINAL_REPORT.md
+8dd687f1cf3918c3b9480e79d0c0a3bcc1a2b5c8c6bcbe18c5d9a9d0ef8a37ab        3784  04_refinement_paths/GLM 5.3/model_reports/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_final/Fe2O3_Fe3O4_report.md
+5013a9734081c3681d4df35dc803d7db72e7d6eb326b499caa46533d63e35175        3786  04_refinement_paths/GLM 5.3/model_reports/Fe2O3_Fe3O4_2ph/review_judgment.md
+7548931bb2975caf0b7e329396e91183e46999a547d125794c53ed2b129a8814         376  04_refinement_paths/GLM 5.3/model_reports/Fe2O3_Fe3O4_2ph/work/manual/r2/xrd_workflow/journal.md
+fa22d03581edf63c045d1bff6502c59198d39f057950521e66b4802a16de53aa         372  04_refinement_paths/GLM 5.3/model_reports/Fe2O3_Fe3O4_2ph/work/manual/xrd_workflow/journal.md
+4bae057f3ff5e3b5242bcbd96da2c4bf8512c5ad2fc195d2e2626572e812fea2        9659  04_refinement_paths/GLM 5.3/model_reports/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md
+58441f69b019217aee488476d65009d4c5214dd091bb5ad7860321f92a1733e6        3216  04_refinement_paths/GLM 5.3/model_reports/Fluoroapatite/FAP_final/FAP_report.md
+e576df4ee0de6cf568394554fb1f9623ed4afea6af30e6ca3cd8ed1b150fb5d1        3457  04_refinement_paths/GLM 5.3/model_reports/Fluoroapatite/review_judgment.md
+5bc7e15b2861a61c95a5bbba7e3671210e4085f9832b3add020df5e2a0b13c17        8992  04_refinement_paths/GLM 5.3/model_reports/Fluoroapatite/xrd_workflow/journal.md
+841ebff397a62f74ac4e16ef274aaef9bec4814be3c6433888760efd168c1469        8513  04_refinement_paths/GLM 5.3/model_reports/LayeredOxide/NNMO_REPORT.md
+d3c0e32009595e264faf596506cec6200fd78777336df6ea33bce1b8029c25ab        4181  04_refinement_paths/GLM 5.3/model_reports/LayeredOxide/NNMO_final/NNMO_report.md
+d24b003d96dafc0b21c6d23cf6bbf795773f97be1dbf7730ac72b1c9d99fcaa8         456  04_refinement_paths/GLM 5.3/model_reports/LayeredOxide/manual_O3/xrd_workflow/journal.md
+cf8cb40103f2ccc85cc04efbf4d6a0c4bc4b3cb9def9a34f612fc6f204f89cf5         368  04_refinement_paths/GLM 5.3/model_reports/LayeredOxide/manual_P2/xrd_workflow/journal.md
+a1e6c728d4aabd53ebc9ee825f45095d39e430a8ad6c1e7df18ea243e6e1dfb3         451  04_refinement_paths/GLM 5.3/model_reports/LayeredOxide/manual_P2NMO/xrd_workflow/journal.md
+9e1dd183be7ffa4ae5aaf167e7f6e390b74d3716d8c2056329e4fe768082bbbd         518  04_refinement_paths/GLM 5.3/model_reports/LayeredOxide/manual_P2NMO2/xrd_workflow/journal.md
+2823b945043c0d2e5f8a9f18e934b75e1fa55cafe4e5888c1bc2b30a55b99505        3721  04_refinement_paths/GLM 5.3/model_reports/LayeredOxide/review_judgment.md
+3c4acca45a4930857f33bea4e71a691f0ec3b035b03f575f6ff05fb5611f4a62        5739  04_refinement_paths/GLM 5.3/model_reports/LayeredOxide/xrd_workflow/journal.md
+f6b39c1b549327d19893c987177334f5987c2b85f4d48c257f4e994282c18bb2        3472  04_refinement_paths/GLM 5.3/model_reports/LiFePO4/LiFePO4_final/LiFePO4_report.md
+668b90e762f4d26c24c2f8799a2e40bbfc8e47049d256095e433b3e15da43928        2304  04_refinement_paths/GLM 5.3/model_reports/LiFePO4/review_judgment.md
+416ecf7dd52f4c54d8c09e6921a0f88729ce4f46fe8e564718703ab4b3a1c4c2        8449  04_refinement_paths/GLM 5.3/model_reports/LiFePO4/xrd_workflow/journal.md
+12970aee14081d1a922b17aeebe8ac1f5777103ffd8dc686444d0778f3aea0d3       11716  04_refinement_paths/GPT 5.6 SOL/DEEPSEEK_vs_GPT56_difference_analysis.md
+4b4af82ad89a89d28ad16f919f3286c95200009472d26a3feddebffa19620d83        9652  04_refinement_paths/GPT 5.6 SOL/LiFePO4_GPT56_rerun_analysis.md
+5182585f3f36e7233d36062229030d6206545f9707cb723fb162b66007046369        1580  04_refinement_paths/GPT 5.6 SOL/archive_evidence.py
+2cb613f61f5bed2520feca00e64f2922f79a8b877534803660ef6578eeb26a48     1517187  04_refinement_paths/GPT 5.6 SOL/benchmark/API_request_pricing_detail.json
+81994f70be424bbee5f97d97c109f51d00352172d05c629d964782ebdad1119d       34186  04_refinement_paths/GPT 5.6 SOL/benchmark/Amorphous/score.json
+36a4cb02e3d95b3955d3b0a82ecf756fcae1c8536dd42d9c0865b92e130e68c7       48889  04_refinement_paths/GPT 5.6 SOL/benchmark/FE50/score.json
+ce487fdd04854300c5ecb60e3162738272c73c422d336d3a83e619332605ef97       39867  04_refinement_paths/GPT 5.6 SOL/benchmark/Fe2O3_Fe3O4_2ph/score.json
+19a94086f25b0808c71a7bb5c4d81fd0f3cfe9dad3504a556231621a634c7fa7       39006  04_refinement_paths/GPT 5.6 SOL/benchmark/Fluoroapatite/score.json
+459bda546922876e002265f5d412bd17bfa03c2f03c01e169861cc8f261e17ac       43510  04_refinement_paths/GPT 5.6 SOL/benchmark/LayeredOxide/score.json
+2037e064ef1f70f84306445d335aab471905c5a83b7358f80808ef12fe3e5ea4       52173  04_refinement_paths/GPT 5.6 SOL/benchmark/LiFePO4/score.json
+50d2cb7a5305e093052f257b79d8ace644ad9502bb09ec078947d9f446d8c2aa       94533  04_refinement_paths/GPT 5.6 SOL/benchmark/model_score_resource_summary.json
+a619fbd97b4714721c691bd83d4e90a91156ae5f14edced5e83fc813238b25b3       55514  04_refinement_paths/GPT 5.6 SOL/common_cases_cross_model_gpx.json
+0dc79a64539220818beb9d9c05eb20264a3fec2ae77fccd44391577151bc61cd        8014  04_refinement_paths/GPT 5.6 SOL/compare_common_cases.py
+1ff93a975f23029eeecf812531846a6996408c6e79b020ead7f9ae878000292d        6181  04_refinement_paths/GPT 5.6 SOL/compare_lifepo4_models.py
+2928bbf106f6d6f11bd5c531028ff51b66ac5360a48a8d6d049e7ed2338a00df         724  04_refinement_paths/GPT 5.6 SOL/cross_model_summary.csv
+bfad7e2f81a44a037ebe65ed79ffd244982065300ab87c1b35bc417a281ab88a        1193  04_refinement_paths/GPT 5.6 SOL/extract_conclusion_from_core.py
+c6581d6cdd5eb642f1900101e4ee8b55fdd9a6e3b8b306a8539ee037252881cc        8495  04_refinement_paths/GPT 5.6 SOL/extract_sources.py
+91147caadb13c06bf42fbd90d3e3b995edb710ad9d7432d2881efbc2b602a222        1786  04_refinement_paths/GPT 5.6 SOL/extracted/message_index.json
+93dfee7b06f413e2d1225752e01cecda5215e01bd5ff4cf2abbd6206e5671c32      445832  04_refinement_paths/GPT 5.6 SOL/extracted/run_messages.json
+b9c699ff9b5d0d23837f3dc8816e4b5659123f21300d79c47569a40ff064e2df        6913  04_refinement_paths/GPT 5.6 SOL/extracted/source_prompts.json
+56257a4ead2a03adb5f5e4ab60a2897cb289f5d30b24d468375e881fb2c66c0a        2611  04_refinement_paths/GPT 5.6 SOL/extracted/source_prompts.txt
+4016fa4fcf46342c07754259ffdabc622c0bd09b8a7f9328209edf3f4c6c0b26        1464  04_refinement_paths/GPT 5.6 SOL/generate_evidence_manifest.py
+33b9f197c69c08f8660aada4e7114209158800e3c1e515b172c4c56ebf5b82af       65358  04_refinement_paths/GPT 5.6 SOL/lifepo4_cross_model_gpx.json
+0daf6929999aa3e9bb61033a027930706cd17d72801f2134b6d102880bdc5628         807  04_refinement_paths/GPT 5.6 SOL/prepare_active_run.py
+cec1501ba52c90f4f94a7ae1f1e39d41d6272873967fd9a8c8ffdc04467c28dc        5084  04_refinement_paths/GPT 5.6 SOL/replace_campaign_run.py
+b0fc48743534516cd447011cf183c2d5e03e30edae07305846f5eb04e4772ffa         960  04_refinement_paths/QWEN 3.6 FLASH/analysis_manifest.json
+4fe220846b2e46a92ebd9941f078ea7ca200c540a273ea32ea1cb4c2b8858406      523551  04_refinement_paths/QWEN 3.6 FLASH/benchmark/API_request_pricing_detail.json
+a977b8f68fdb1b85abfef7356d7d4a61a65d57e93eaf795cb075c3b538440622       27731  04_refinement_paths/QWEN 3.6 FLASH/benchmark/Amorphous/score.json
+ff9e86e4252e11fa88ed1b1155ccedea5d792ef2437ebf52b275457064b80c09       29899  04_refinement_paths/QWEN 3.6 FLASH/benchmark/FE50/score.json
+b3013f67ca1f64e45ca7d5d03c654c45582ba91abdc657c595ab8e312004711f       25413  04_refinement_paths/QWEN 3.6 FLASH/benchmark/Fe2O3_Fe3O4_2ph/score.json
+49d50faced33b8031c7188313d02180479a4836c379ea647dcceeeb16e934a9d       25878  04_refinement_paths/QWEN 3.6 FLASH/benchmark/Fluoroapatite/score.json
+ce9ceab1141379e64a634ba4fc47f5eaf751c704f38b3116720c71faf3fb86f1       27617  04_refinement_paths/QWEN 3.6 FLASH/benchmark/LayeredOxide/score.json
+43ad78c01b8a6f2b4696c8f1ebe2ef71bc7bda489f09d3485486cee326d6477c       27698  04_refinement_paths/QWEN 3.6 FLASH/benchmark/LiFePO4/score.json
+27c7fc05b5847ba56f37666ac0332f55c385784e55d60eddb1a340b7d608a5e1       47849  04_refinement_paths/QWEN 3.6 FLASH/benchmark/model_score_resource_summary.json
+8bdcc6b74c71dd86ef7a81deb1011017d199ecfcba83e1d011bef1c8613c9af4        2181  04_refinement_paths/QWEN 3.6 FLASH/collection_audit.json
+5cfe759339dcb170db1076adf137d1db11755c9c951b37b860b28efe2140277a        5993  04_refinement_paths/QWEN 3.6 FLASH/configuration_audit.json
+d888fc3a36c4dd7dffdb1204305626c7f60ce8b37b77dccedcdc03b9216a914f        1740  04_refinement_paths/QWEN 3.6 FLASH/model_reports/Amorphous/analysis_report.md
+436b74edc7c65b9550852786d09b27f78d621485b8ed945c6018ea46b725a9da        1194  04_refinement_paths/QWEN 3.6 FLASH/model_reports/Fluoroapatite/xrd_workflow/journal.md
+eff117edfa8707dceb1d7aa47521717a71987dc9acfe8c06d28cf0926f9b35a8        3968  04_refinement_paths/QWEN 3.7 PLUS/analysis_manifest.json
+17c07106e1641ba43d647c5c3db699480eb5f11aed570601a96d5be0979638c9     1098103  04_refinement_paths/QWEN 3.7 PLUS/benchmark/API_request_pricing_detail.json
+1c760a9aadf927d9e5635433c2395c836fdc8fcdc6d2a75188c72f96be9ab9bf       38321  04_refinement_paths/QWEN 3.7 PLUS/benchmark/Amorphous/score.json
+68642db791525344ffcc59974edc36eda0a92017d2a09ec316059c2287b947cc       53912  04_refinement_paths/QWEN 3.7 PLUS/benchmark/FE50/score.json
+09733c42bb3ebf4094ab14c8d2cb0982d571835f409f438896ac6a2e2fd21c2e       38747  04_refinement_paths/QWEN 3.7 PLUS/benchmark/Fe2O3_Fe3O4_2ph/score.json
+889312731f64f1f7207d489a1f3e63011107279930b3099b46383d444fdd43d2       55272  04_refinement_paths/QWEN 3.7 PLUS/benchmark/Fluoroapatite/score.json
+068cb4e0a247752b288dc8570219c54700320f04964cdb9549171827c48c5d56       48858  04_refinement_paths/QWEN 3.7 PLUS/benchmark/LayeredOxide/score.json
+b64f42be51e7466189e9009c53e0c2fd345a0eaa5ea2c8a586364384b684e8a2       66463  04_refinement_paths/QWEN 3.7 PLUS/benchmark/LiFePO4/score.json
+7e7fc317dbe622678711e44ffa8e0ba8f7ec452b4c738bfec93202ee1e0c4242       80527  04_refinement_paths/QWEN 3.7 PLUS/benchmark/model_score_resource_summary.json
+d8d2b180bf378d2dbbc07a86bc409af34e471db9cd6a181b94f8f669e62f4bfe        2037  04_refinement_paths/QWEN 3.7 PLUS/collection_audit.json
+5408ce8bcc1a1f732480648cf8d0aae549d3dd8764844a4df5d8e1243dd3369d        7511  04_refinement_paths/QWEN 3.7 PLUS/configuration_audit.json
+9ac54a1f43c259f4938d9a5504ec3813bd7d5c15bd673d1b3d3249653a0b78e5       10209  04_refinement_paths/QWEN 3.7 PLUS/model_reports/Amorphous/XRD_Analysis_Report.md
+1612387af368b3edbf343f1cc870ef30552d671a2a565d305a7e96be2cc62576        4264  04_refinement_paths/QWEN 3.7 PLUS/model_reports/Amorphous/xrd_workflow/journal.md
+88ec47e039adef47b50e2ef1e5b897167bc2bf274dcc1ee2dc4aa4e34de7bff8        3315  04_refinement_paths/QWEN 3.7 PLUS/model_reports/FE50/FE50_final_final/FE50_final_report.md
+bc90ab4ded03e64a116ff56a653e648b45d7d2361f51d5b880d47b9a5be0cbc1        4288  04_refinement_paths/QWEN 3.7 PLUS/model_reports/FE50/review_judgment.md
+d58633044a53d57c7dae1f62cedbdc53c948cddb5b7d2ff965db6810c472d7e2         656  04_refinement_paths/QWEN 3.7 PLUS/model_reports/FE50/xrd_workflow/journal.md
+6857dc640cba2bd9a91b236033c69df4463af9aad851050a72e7cd3335c48a9b        5146  04_refinement_paths/QWEN 3.7 PLUS/model_reports/Fe2O3_Fe3O4_2ph/review_judgment.md
+fc4502e0c40c17802341de4f63732be59bf1b0ee7a42331a108c869fbca64986        3994  04_refinement_paths/QWEN 3.7 PLUS/model_reports/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md
+336ab978333310b03baa2b95249d5af874385a16bf89b82cc5b887e6afb73db1        3213  04_refinement_paths/QWEN 3.7 PLUS/model_reports/Fluoroapatite/FAP_final/FAP_report.md
+1ac74f702de83070c48b81b22d41a69a65fcb3af3e60e5b6d92627ce54c0a8f2        2864  04_refinement_paths/QWEN 3.7 PLUS/model_reports/Fluoroapatite/review_judgment.md
+dfa83cd24f3df66505222046c12bba31fd574bc317f5b693c08c246d0cec4e57        6497  04_refinement_paths/QWEN 3.7 PLUS/model_reports/Fluoroapatite/xrd_workflow/journal.md
+49a1019efadad9cf0def828e7ea6a18e23fed58d329efac0f3564a9355a5add8        3243  04_refinement_paths/QWEN 3.7 PLUS/model_reports/LayeredOxide/LayeredOxide_final_final/LayeredOxide_final_report.md
+27f11baf394dc953113f62b8953d1de3700e812486b28d0a02098e30ed876c3c        5846  04_refinement_paths/QWEN 3.7 PLUS/model_reports/LayeredOxide/XRD_refinement_report.md
+7ee059c56ae070106b324e7a18ffba1efbdbda1e0f4c0215672bdb9e3ceebbb8        3907  04_refinement_paths/QWEN 3.7 PLUS/model_reports/LayeredOxide/final_report.md
+b43f213a9251053a04db79aaa1360f7cd0f2859fcb5f5769d7a79f02a70edef5        2143  04_refinement_paths/QWEN 3.7 PLUS/model_reports/LayeredOxide/review_judgment.md
+40a70273bb05ce74c2cc474a4007497fdcdaf11c2b33d01f74cb1810a06cc3a1        1090  04_refinement_paths/QWEN 3.7 PLUS/model_reports/LayeredOxide/xrd_workflow/journal.md
+25dde71913f036724caac65450e4187f0186fa2e1e9b7690523de8557efddfbb        3674  04_refinement_paths/QWEN 3.7 PLUS/model_reports/LiFePO4/report.md
+d818336fb4378fc04e6510b1f9136aa5886642d38b4382a1aea4222b67054570        3327  04_refinement_paths/QWEN 3.7 PLUS/model_reports/LiFePO4/review_judgment.md
+149aa08bbad6e5406796e0a8ecd614c50da8461ad43ed2a10384a5485687862d         663  04_refinement_paths/QWEN 3.7 PLUS/model_reports/LiFePO4/xrd_workflow/journal.md
+5c8a42a91d9c007e3acf44c4a61efc62f6165ca56502919de005ec1464e21428        7662  04_refinement_paths/QWEN 3.8 MAX/analysis_manifest.json
+abece98670b18727ebf30e55d0cf00d217f49bbb157bca750466fe63d7d2d2d6     1999359  04_refinement_paths/QWEN 3.8 MAX/benchmark/API_request_pricing_detail.json
+2bd83344d3a27cf021342853ceabf9bc443e79b6dcb6eaf53795c3b7550f1ca6       41120  04_refinement_paths/QWEN 3.8 MAX/benchmark/Amorphous/score.json
+5c81eae62e06d3f315eb008c1c09bc952df58872fde00f6afdf28f0e97aec6ce      107357  04_refinement_paths/QWEN 3.8 MAX/benchmark/FE50/score.json
+08ca66122a6722d2500407fd101337078a260f29719873da9ed736d8d31f42a7       43142  04_refinement_paths/QWEN 3.8 MAX/benchmark/Fe2O3_Fe3O4_2ph/score.json
+1906984092abce1ed296c31d1004fd325b24ec1fa34e2d37f52f40531ed30ce4       80970  04_refinement_paths/QWEN 3.8 MAX/benchmark/Fluoroapatite/score.json
+dde3080ef11ec10e385dcb33ef99c6e08fda84ceb1608b2f18dec3c68df9d402       61132  04_refinement_paths/QWEN 3.8 MAX/benchmark/LayeredOxide/score.json
+4d26cc3139aff2b9814457807c4470a0ee83f2cee25fd1847784386b2295336a       49408  04_refinement_paths/QWEN 3.8 MAX/benchmark/LiFePO4/score.json
+732061de207604e138ea548100d0cbcf5cad53f824d659ebd051e5143f152332       66466  04_refinement_paths/QWEN 3.8 MAX/benchmark/model_score_resource_summary.json
+2c35972cfd46ba6f1a392f4e1cbf7692e85f9a3c30cd6cb71f25d296da4054a0        1648  04_refinement_paths/QWEN 3.8 MAX/collection_audit.json
+890ac4a64de5875d669c1facb0d65a2538f80fd39033cb1f1cb73fc73707618a        6838  04_refinement_paths/QWEN 3.8 MAX/configuration_audit.json
+360272a618168f85a61100621fe7dc555d371874042272c21a68ff6792be56a3       12041  04_refinement_paths/QWEN 3.8 MAX/model_reports/Amorphous/report.md
+aa33952fff1c74fda4c262c6bbca2968e5cae48aca9f88d0ad3765a0ace171c5       10514  04_refinement_paths/QWEN 3.8 MAX/model_reports/Amorphous/xrd_workflow/journal.md
+836f66c3d2bf0818c6cdb500122dc2bc747ce8cf1e85f6352bf0327774db83e9        4593  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/FE50_final/FE50_report.md
+f08c4a75dbc55b3aee2f4fbc6b71babb151dc74ba5c889330f6fe3306c1870ec         682  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h1_kocc/xrd_workflow/journal.md
+0a0fb66a320c98c355912f0aa3dacf1ac71e49537833f72bf87ecf1ad2ffe94f         566  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h2_fe1occ/xrd_workflow/journal.md
+268daae0d385b9a7294de193d071aea54bcf5e01caac353d462c4b3528bb57a3         772  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h2b_fe1occ/xrd_workflow/journal.md
+f4a2b0fcbd672917fbd80d261d11db963928394e5192ac274a2c059946883268         628  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h3_femnocc/xrd_workflow/journal.md
+fed7ea1b27d48327e2f243d8164297034e0b8866edb026b68aa5fc4cecdcaae2         729  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h3b_femnocc/xrd_workflow/journal.md
+3a0daf73db32120b4567d5005447affedd4811865e0005175a5217a60682f7e4         671  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h4_k2co3a/xrd_workflow/journal.md
+5379af94dff092dc16365636d764e06d27beac5ae9dff711379126bde6614731         502  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h5_k2co3b/xrd_workflow/journal.md
+9de3da61e5bb5a89ae6568c29945be754ebc7d8a846a0588eb48b2cf2e166795         513  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h6_khco3/xrd_workflow/journal.md
+3b7bf71514807eb696bfe7ba31f4dca478cf26ad875e4ee5841abc283e76e2d9         513  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h7_mnco3/xrd_workflow/journal.md
+544d320b6106111a15e0c02138771a5596bb71434b368a1489e96d9ea9f8d00a         513  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/cubic_H/h8_mn3o4/xrd_workflow/journal.md
+70c7856bd2f3c286e466ca2c29f4e1391d463d88bba3ce01e65297956aaad320        1116  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/manual_cubic/xrd_workflow/journal.md
+123d5b4e286392c51e39a6f0f56dc9982e556aba35bf1193c0681008f93c47a8         666  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/manual_cubic_v3/xrd_workflow/journal.md
+7c600eca64a81096f64de8568c7171512bb7e498132fafd35a6400810c038cae         865  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/manual_cubic_v5/xrd_workflow/journal.md
+01ab43335cd311b0f93dabcc10ee3183a1f35979b0090b1db70763585abf5eb2         482  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/manual_mono/xrd_workflow/journal.md
+c222669875aefdd412f6974c8206a8fce43ce531ef5db39c17fa2dee5844c73d         562  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/manual_mono_v3/xrd_workflow/journal.md
+8bd64da1caa17a6d71224fe5d92a506791607e887c3be8e96fc959720c7f76e4         985  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/mono_T15m_bondcoord/xrd_workflow/journal.md
+a532deabefddb6c66a6fe00bc312e81cd5b0a9b0df189e04cf5252312d805252         675  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/models/mono_h1_kocc/xrd_workflow/journal.md
+741990777a2116c8d2df24203a850b0a9491585dbd229b871d70fd39548541c5        5791  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/review_judgment.md
+a5563aab4e14506b75b16f79bda61b6ab63bcc7a79ecbea99604ad38d2cf1cdc       11637  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/xrd_workflow/journal.md
+f420e94850c8f26a5df571f1c46e1d0e2307c133c1eb6031497f6bff570c77a9        2726  04_refinement_paths/QWEN 3.8 MAX/model_reports/FE50/xrd_workflow/peak_survey.md
+e31050d61a4fb77439f84a0cbe9b8c585ac9d6bbc4e59d4d8118c2cd72e34f1c        3835  04_refinement_paths/QWEN 3.8 MAX/model_reports/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_report.md
+c04220a7a8ab7f3f0a5ddda7ec5851a64ce67c5daaa40adfb12a8f38e9c71519        9751  04_refinement_paths/QWEN 3.8 MAX/model_reports/Fe2O3_Fe3O4_2ph/REPORT_Fe2O3_Fe3O4_2ph.md
+68637a5af58cc44e71a85753684f45ba9d07303d88f1b44f6a214f05a3ba0ee3        4056  04_refinement_paths/QWEN 3.8 MAX/model_reports/Fe2O3_Fe3O4_2ph/review_judgment.md
+c9db15bd36cec367f810f4ae396a5a7256c93ecc5d2740b29a3de045792b140e        9125  04_refinement_paths/QWEN 3.8 MAX/model_reports/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md
+0dc491ff4b1e83af94c8b7b54b09b545b76ca92e9ae4d2b1305784a8da227e5e        3227  04_refinement_paths/QWEN 3.8 MAX/model_reports/Fluoroapatite/FAP_final/FAP_report.md
+622d52a7d8d68f371d024baca17161a090c8fea861de920bb9ebb05ffed2882a        4931  04_refinement_paths/QWEN 3.8 MAX/model_reports/Fluoroapatite/review_judgment.md
+13379f8da8990bdc6498566abfa9f6354f79b2d875cafb85c83def9ffd10d0d8       16675  04_refinement_paths/QWEN 3.8 MAX/model_reports/Fluoroapatite/xrd_workflow/journal.md
+d80c216b816163808306f815dbf8a6fcafdd6ba417a0a1ac77320e4507df022d        4268  04_refinement_paths/QWEN 3.8 MAX/model_reports/LayeredOxide/LayeredOxide_final/LayeredOxide_report.md
+d45a3aa7167411f497f291726be4bacd670e948a41067f00bdf1b25c6b009e5e        5232  04_refinement_paths/QWEN 3.8 MAX/model_reports/LayeredOxide/review_judgment.md
+d02e850499172541d5f7c4e44b5b94a3c301a57d2cb4870d2a7f262062f0d729       11241  04_refinement_paths/QWEN 3.8 MAX/model_reports/LayeredOxide/xrd_workflow/journal.md
+2dc46baeadbb106e9e4e44a6a0934c14c3aaeec6de1cb64bffda0196a3b88759        3575  04_refinement_paths/QWEN 3.8 MAX/model_reports/LiFePO4/LiFePO4_final/LiFePO4_report.md
+ab8c0955e2772fc0339aaa2daac4271cdcc95de95af5743167e92225c5efcaf0        4639  04_refinement_paths/QWEN 3.8 MAX/model_reports/LiFePO4/review_judgment.md
+218665b9ff106145b9eaa4ecb744fe56f9caa1e7c1dcf0f499c09dfae738822e       10177  04_refinement_paths/QWEN 3.8 MAX/model_reports/LiFePO4/xrd_workflow/journal.md
+6e41cb2d255bdc5e16f20251645b8e74139b5f9b5f92415c13f466d5324b4522      628489  05_supplementary_tools/AutoFP_SI_baseline/AutoFP_E2E_Report.html
+b2c3e9f63c5674605c5a7d2b647a60420f7cb76354e828a3cf536c66739cde9a    21198369  05_supplementary_tools/AutoFP_SI_baseline/AutoFP_E2E_Results.zip
+b9e4b643bb9eb47f9bef9ef10ae028304c3cc7eff1ffc66fa664a7de8bfd7756         864  05_supplementary_tools/GSAS_II_SKILL/Amorphous/Graphite_proxy_only.cif
+88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2       14784  05_supplementary_tools/GSAS_II_SKILL/Amorphous/pattern.raw
+61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714       92555  05_supplementary_tools/GSAS_II_SKILL/Amorphous/pattern_2theta.txt
+f5d7315967f6e619db7fb1a6ec2ee44833c3f7c2ff8f5e2932a2aac67e443555        5457  05_supplementary_tools/GSAS_II_SKILL/FE50/CIF/candidate_A.cif
+fbb3811a61d3f07d8945cc210c8fd4f00e2748aca40fb5e6779fb8ee60c42e4b        2736  05_supplementary_tools/GSAS_II_SKILL/FE50/CIF/candidate_B.cif
+410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809       12264  05_supplementary_tools/GSAS_II_SKILL/FE50/pattern.raw
+ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44       77425  05_supplementary_tools/GSAS_II_SKILL/FE50/pattern_2theta.txt
+2ac5dbf8fb8a989927fd69f96639ce22169eea3d174ac16728a8d71ea60ae36d        1235  05_supplementary_tools/GSAS_II_SKILL/Fe2O3_Fe3O4_2ph/Hematite.cif
+1e1c5e18ad9f4db7e062194c899c2e8bdf3625e95737590e0270b9c7826673e9        3865  05_supplementary_tools/GSAS_II_SKILL/Fe2O3_Fe3O4_2ph/Magnetite.cif
+8a40f5caef9fcb5368fdb3bc9015dfba7a79282b1c8f265482d29c97ce7258bf      127623  05_supplementary_tools/GSAS_II_SKILL/Fe2O3_Fe3O4_2ph/pattern_2theta.txt
+f6ababc7e5997d81df64267809e543ffa6636cde918163d5fc648d00795caa6c         987  05_supplementary_tools/GSAS_II_SKILL/Fluoroapatite/Fluorapatite.cif
+66c1205ef63c1fd9e1a0edbfc935c18792ff030ff3b8e75b0a2d6a2cd184280c      128544  05_supplementary_tools/GSAS_II_SKILL/Fluoroapatite/pattern_2theta.txt
+bf374b7b52f984e7083cacb4593376940ea6b106de0e2b1a4ec7ebd13ad99273        3875  05_supplementary_tools/GSAS_II_SKILL/LayeredOxide/Na2MoO4.cif
+a3700476327a43878917e21a1bdd3a56ac6a0a5e95cda8c2d47977257856b066        1110  05_supplementary_tools/GSAS_II_SKILL/LayeredOxide/P2_NaNiMnMoO2.cif
+e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8       14784  05_supplementary_tools/GSAS_II_SKILL/LayeredOxide/pattern.raw
+4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4       92535  05_supplementary_tools/GSAS_II_SKILL/LayeredOxide/pattern_2theta.txt
+71588eb1cef12a43ca65f9e2f9cc87a81c64faebeeb095a268a931031c3a69ba        1991  05_supplementary_tools/GSAS_II_SKILL/LiFePO4/1101111.cif
+922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd       31162  05_supplementary_tools/GSAS_II_SKILL/LiFePO4/pattern.raw
+6aa1f9d984f724cad49322910e29c4820eaac58ada49db9c954c48676d1780cc         176  06_scoring/final_scoring_package/README.md
+2d98fc41c39bee19757e96412b61335274e0258b5735011f1cce455ed1b14ca6        1575  06_scoring/final_scoring_package/material_boundaries.md
+5bbf6b1a22d56cb4a1440300f1afad615f141efed6f0e6b06899584054b8f8d5        1450  06_scoring/final_scoring_package/sample_applicability.md
+2bc3cd31d01634b4272327893dcfa035f7a732858f86c0b6d377bcc35098e0e0        1435  06_scoring/final_scoring_package/scoring_table.md
+786f27b971edbf96501ee88c74922b2dff5dd19028c7ffdcde7149354be3fb2f        6951  06_scoring/scoring_standards/calculation_method.md
+2a147f8fa5b9750702ea4e22865aeaa8476d5ca243ac885bbc14014d7f641f02        1393  06_scoring/scoring_standards/scoring_criteria.md
+aec45bec41842ca75636ddf57421f6328670549dc16101821b6fb68489813d16         235  PROVENANCE.md
+d24b251ff10e014cb8246ba3862e1becd5685e17221bb9427cb7f9c727107172         350  README.md

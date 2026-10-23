@@ -1,0 +1,331 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-qwen-3.7-plus-ai-agent-v1-2026-10-12",
+  "case_id": "Fluoroapatite",
+  "run_id": "session-e8820552-bb5a-48f9-b0fd-e038821dd937",
+  "collected_at": "2026-10-11T22:48:52.802397+00:00",
+  "source": {
+    "model_label": "QWEN 3.7 PLUS",
+    "assistant_model_routes": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.7-plus"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.7-plus",
+        "reasoningEffort": "high",
+        "maxTokens": 65536
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.7~0020PLUS--\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session.jsonl.zstd",
+      "bytes": 1050945,
+      "sha256": "beec8d280d30ce9c308364983d5692c30ac9c82f48eb001dd20acf97e1cc8ae3",
+      "source_mtime_ns": 1791528822479025700,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/Fluoroapatite/pattern_2theta.txt",
+        "input_sha256": "66c1205ef63c1fd9e1a0edbfc935c18792ff030ff3b8e75b0a2d6a2cd184280c",
+        "workspace_file_present": true,
+        "workspace_sha256": "66c1205ef63c1fd9e1a0edbfc935c18792ff030ff3b8e75b0a2d6a2cd184280c",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-09T06:14:04.984000+00:00",
+    "ended_at": "2026-10-09T06:53:42.476000+00:00",
+    "elapsed_seconds": 2377.492,
+    "turns": 2,
+    "tool_calls": 84,
+    "tool_errors": 5,
+    "retries": 4,
+    "last_turn_reason": {
+      "kind": "completed"
+    },
+    "error_ended_turns": [
+      {
+        "seq": 12504,
+        "time": 1791528550414,
+        "turn": 1,
+        "reason": {
+          "kind": "error",
+          "error": {
+            "message": "Connection error.",
+            "code": "TRANSPORT"
+          }
+        }
+      }
+    ],
+    "input_tokens": 802660,
+    "output_tokens": 52156,
+    "cache_read_tokens": 7058944,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 802660,
+      "outputTokens": 52156,
+      "cacheReadTokens": 7058944
+    },
+    "goal_rounds": null
+  },
+  "workflow": {
+    "states": [
+      {
+        "path": "workspace_snapshot/Fluoroapatite/workflow_state.json",
+        "phase": 5,
+        "recorded_rounds": 11
+      }
+    ],
+    "final_backend": "GSAS-II",
+    "gsas_completed": true,
+    "finalize_completed": true,
+    "export_completed": true,
+    "required_refinement_completed": true,
+    "converged": null,
+    "warnings": [
+      "session_contains_error_ended_turns",
+      "finalize_reported_missing_lst_log; chi2_and_gof_omitted"
+    ]
+  },
+  "final_metrics": {
+    "wr": 20.945263613111752,
+    "r": 15.125391040823018,
+    "rb": 16.350387345352352,
+    "wrmin": 5.610439793764994,
+    "chi2": null,
+    "gof": null,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": "final_selection.json metrics from xrd_finalize tool result",
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 1,
+    "journal_jsonl_total": 5,
+    "journal_jsonl_valid": 5,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": true
+  },
+  "subagent_sessions": [
+    {
+      "run_id": "1a7dc461-19cf-4a23-844f-ee1016d242e4",
+      "models": [
+        {
+          "provider": "qwen-token-plan-cn",
+          "model": "qwen3.7-plus"
+        }
+      ],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.7~0020PLUS--\\1a7dc461-19cf-4a23-844f-ee1016d242e4\\session.jsonl.zstd",
+        "bytes": 17349,
+        "sha256": "5c2ace8bd078bbe00649f39d81f7e4ae4f4db6e040e86f4551d2c309a3f08515",
+        "source_mtime_ns": 1791527919422221300,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    },
+    {
+      "run_id": "376a0ef1-6840-40ed-a4a1-823a05c81f42",
+      "models": [
+        {
+          "provider": "qwen-token-plan-cn",
+          "model": "qwen3.7-plus"
+        }
+      ],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.7~0020PLUS--\\376a0ef1-6840-40ed-a4a1-823a05c81f42\\session.jsonl.zstd",
+        "bytes": 17746,
+        "sha256": "b51fea602e3a1e6fe8f023898a65b6905f185ed4220536227517161a838a8514",
+        "source_mtime_ns": 1791528009616717800,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    },
+    {
+      "run_id": "e233ea4a-136c-449d-8f87-f9d38f806aa7",
+      "models": [
+        {
+          "provider": "qwen-token-plan-cn",
+          "model": "qwen3.7-plus"
+        }
+      ],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.7~0020PLUS--\\e233ea4a-136c-449d-8f87-f9d38f806aa7\\session.jsonl.zstd",
+        "bytes": 18149,
+        "sha256": "67f3315d1b66935b79821f0d129115fecf842bf5a837507364681a27626c2d3a",
+        "source_mtime_ns": 1791528304202095100,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    }
+  ],
+  "eligibility": {
+    "status": "eligible_with_warnings",
+    "reason": "session_contains_error_ended_turns; finalize_reported_missing_lst_log; chi2_and_gof_omitted"
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0lf4jy-06cvsq1i.json",
+      "bytes": 272,
+      "sha256": "c9fb58417af64f661b8f7f3752787941628b55f4bf0ea22fb9f70cf91d85beba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress.json",
+      "bytes": 272,
+      "sha256": "c9fb58417af64f661b8f7f3752787941628b55f4bf0ea22fb9f70cf91d85beba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/CuKa_lab.instprm",
+      "bytes": 191,
+      "sha256": "13e342fa02616b7acab8a39ef4857649545d0ec53f1f10272ef6e01203f81abc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/data_io_plan.json",
+      "bytes": 385,
+      "sha256": "84509749697fe61ffacb0f892bf5b73e2099125cc5448724a1335db5ff6fda9c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/data_io_result.json",
+      "bytes": 631,
+      "sha256": "096a5c5d60e539a206d8be1fe17a3331f6fe15317dbdeaa384a0299bf489cd4d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/FAP.fxye",
+      "bytes": 115164,
+      "sha256": "91337ab9245b243768b8745027e828d87b224b9c648112399353502e7670f8c9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_built.cif",
+      "bytes": 1836,
+      "sha256": "717d55aad4788ad7c827b6b44355142d3449c7969292fb2fb7ce985a7529fbeb"
+    },
+    {
+      "role": "final_gpx",
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_final.gpx",
+      "bytes": 510658,
+      "sha256": "22d290e8f7f5af9600e95891de57ebb766a30fad2d1e101d704cd26838fb5070"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_finalize.json",
+      "bytes": 3859,
+      "sha256": "66b61a84719aae8965a6b6d780819f6568fd232ac017c84d06568984faf7125b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_fit.png",
+      "bytes": 267586,
+      "sha256": "b62d3651ec015ae376e1c78084b83569b64c43c210d73526a58629bb659f78f7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_report.md",
+      "bytes": 3236,
+      "sha256": "9b166dcf35ebfcb44f4228189ab102f8272d34795e09d62e4d4d0bc0a0fdfc87"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/FAP_P63m_orbit_01.cif",
+      "bytes": 915,
+      "sha256": "64f3cdfc254129bde1656a6fef344c52d4fb2fb37e900648277e188e46482359"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/FAP_raw_fit.png",
+      "bytes": 202291,
+      "sha256": "776ade660adf425dcaa0a42ed465fd87a53f40a3704ddab13f13b8625603602b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/gsas_ops_continued.lst",
+      "bytes": 11246,
+      "sha256": "d1f8070bc90e3ecba01652c1e2ab5712af395d46f466cd9b08f592576586bfa2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/gsas_proj.lst",
+      "bytes": 9581,
+      "sha256": "ff1b6a66f9b7931d218e8266ecb18cbc3ee54a2337848e1d2cec5c2e462773ba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/gsas_proj_continued.lst",
+      "bytes": 11244,
+      "sha256": "67086da5e0be0d9c1299d28544d7b7f99a202dffaebf00818996ded365e5f49d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/pattern_2theta.txt",
+      "bytes": 128544,
+      "sha256": "66c1205ef63c1fd9e1a0edbfc935c18792ff030ff3b8e75b0a2d6a2cd184280c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1534694.cif",
+      "bytes": 2373,
+      "sha256": "4dffbced275a203dacfcfb6d7829c875beacb28d0a420231058614e36485568d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/ref/mp_mp-aaaaajoz.cif",
+      "bytes": 2975,
+      "sha256": "d55334b748ab609213fab089cbcbf36e925d58598b99410387de467ac7d10412"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/ref/mp_mp-aaacrvgo.cif",
+      "bytes": 2975,
+      "sha256": "550fa938e80ae6623795ed0ae131ad0a6f1591403b3873bcfdb62931b6d24f19"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/review_judgment.md",
+      "bytes": 2404,
+      "sha256": "972abdf0d5b3f7fc7a4921702e9cbd383aac7ad08ca9aa5eccc8010980b7c60f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/workflow_state.json",
+      "bytes": 4759,
+      "sha256": "c08720a8be59e646818dde5cb5be1a599dee14eb3adcaf08f4486ac77b25ce6a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/xrd_workflow/journal.jsonl",
+      "bytes": 3393,
+      "sha256": "92820543a0701b2a3ca694be9d0921ec7960153fb675da3b80732ea941e0688e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 5992,
+      "sha256": "98678763ff661e67c364f37a1fb062ac6dafaf9c345b89612de1375e1122db37"
+    }
+  ]
+}

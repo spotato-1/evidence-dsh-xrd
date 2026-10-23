@@ -1,0 +1,911 @@
+﻿{
+  "schema_version": "dsh-xrd-score-v1.1-20261012",
+  "rubric_version": "v1.3",
+  "model": "GPT 5.6 SOL",
+  "case_id": "LayeredOxide",
+  "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+  "status": "completed_with_scientific_limitations",
+  "final_deliverables": [
+    "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+    "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+    "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx"
+  ],
+  "agent_points": [
+    {
+      "id": "A1",
+      "score": 1,
+      "reason": "实际加载xrd-workflow并读取路线，不依赖口头声称。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "tool_call seq 168; corresponding result seq+1"
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "score": 1,
+      "reason": "按本材料输入走晶态候选/前序优化/GSASfinal delivery路线。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "主要结论/流程路线"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\states\\LayeredOxide\\workflow_state.json",
+          "locator": "material_class/decisions"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "score": 1,
+      "reason": "适用识别、初筛、候选或非晶模型、前序优化与交付记录完整；正常健康漂移不单独作推进门槛。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd_refine_auto seq 2284,2286,2288,2290,2399; xrd_refine_manual seq 2616,2816,3111,11688; first GSAS seq 3747"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "精修路径/过程/交付说明"
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "score": 1,
+      "reason": "在触发问题时以数值性、模型性、结构/缺陷限制进行实测检查，并形成适用检查处置。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "过程要点/复杂问题检查表/缺陷/限制说明"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\states\\LayeredOxide\\workflow_state.json",
+          "locator": "decisions;red_lines_noted"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "defect/checklist-related reads/writes seq 6613,13187,14991,15782,15800"
+        }
+      ]
+    },
+    {
+      "id": "A5",
+      "score": 0,
+      "reason": "状态与结论称C2/c，final delivery实际P1；接受态身份不能直接按状态复核。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\states\\LayeredOxide\\workflow_state.json",
+          "locator": "decisions;artifacts;open_questions"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "交付物/未试维度/接手建议"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "final cached GPX: spacegroup, atoms composition/coordinates, HAP Size/Mustrain and residuals"
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "tool calls/results and actual skill authorization"
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "tool calls/results and actual skill authorization"
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "tool calls/results and actual skill authorization"
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "tool calls/results and actual skill authorization"
+        }
+      ]
+    },
+    {
+      "id": "B5",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "tool calls/results and actual skill authorization"
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "score": 1,
+      "reason": "核心调用围绕当前候选、峰形、背景或明确缺陷问题。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd_cif_edit seq 2042,2044,2066,2068,11647; refinements seq 2616,2816,3111,11688"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "score": 1,
+      "reason": "识别/选择与假设转为实际建模、对照和交付动作。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd_refine_auto/manual/gsas and export/finalize calls"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "过程/精修路径"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "score": 1,
+      "reason": "根据失败、退化或残差反馈调整参数、模型、约束或后端。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "精修过程/失败处置/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "success/error feedback following refinement calls"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "score": 1,
+      "reason": "观察到的重试有格式、模型或参数族新诊断，不以调用总数或正常轮询认定空转。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "过程轮次/精修路径/排障说明"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "ordered call arguments and result sequence"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "score": 1,
+      "reason": "形成可复核结果或依据已试范围合理停止；未强迫低R。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "完成结果与限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "未试维度/建议/交付状态"
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "P2主相和钼酸钠候选路线基本合理，报告把杂质保留为候选。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 0,
+      "reason": "负isotropic Mustrain与实际P1杂质产物未被物理审查有效处理。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 1,
+      "reason": "知道杂相比例不可靠，未把名义投料或未改善的杂相scale卖成实测分数。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 0,
+      "reason": "报告C2/c杂质与交付GPX/CIF的P1空间群不一致。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 1,
+      "reason": "明确wR14.55%未达标、Uiso固定修复不是测得值、杂相不能可靠定量和未试项。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "E1",
+      "score": 1,
+      "reason": "初始假设来自样品先验、当前衍射表现及适用结构知识。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "材料/相鉴定/模型选择"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd_cif_edit seq 2042,2044,2066,2068,11647"
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "score": 1,
+      "reason": "有候选、参数释放、背景或缺陷比较，假设能够被对照检验。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "模型选择/精修过程/缺陷比较"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "refinement calls with competing settings"
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "score": 0,
+      "reason": "交付主相含负isotropic Mustrain且Na2MoO4实际P1与宣称C2/c不一致。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结构参数/模型/几何审查"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "final cached GPX: spacegroup, atoms composition/coordinates, HAP Size/Mustrain and residuals"
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "score": 1,
+      "reason": "晶胞、Wyckoff/占位、热参/峰宽或宽峰初值有文献、名义组成或实测依据。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "起始模型/峰形/结构来源"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd_cif_edit build_orbit and xrd_data_io fwhm inputs"
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "score": 1,
+      "reason": "能利用反馈接受、回退或保留假设，并披露未试范围。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果处置/未决项/诚实性声明"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\states\\LayeredOxide\\workflow_state.json",
+          "locator": "decisions;open_questions"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "final cached GPX: spacegroup, atoms composition/coordinates, HAP Size/Mustrain and residuals"
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "score": 1,
+      "reason": "工具在当时收到的工作流角色内使用；普通FP ladder不自动按当前快速筛相定位否决。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd-refinement skill result; xrd_refine_auto seq 2284,2286,2288,2290,2399"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "score": 1,
+      "reason": "文件配对、双线波长、结构与调用方式正确，发生错误有有效修正。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd_data_io/cif_edit/refinement arguments and feedback"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "波长/数据入口/工具排障"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "score": 1,
+      "reason": "执行、失败、回退、缓存最终工程与未完成目标有区分。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "refinement results; xrd_finalize/export results"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "失败分类/口径/交付说明"
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "score": 1,
+      "reason": "排障通过新诊断或修正获得结果，未把引擎失败直接认作缺陷不存在。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "排障/过程要点"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "ordered tool failure and correction calls"
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "score": 0,
+      "reason": "final export与报告杂质相空间群不一致，交接身份未正确核对。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "交付工程/官方导出"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final delivery物"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "final cached GPX: spacegroup, atoms composition/coordinates, HAP Size/Mustrain and residuals"
+        }
+      ]
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "P2主相和钼酸钠候选路线基本合理，报告把杂质保留为候选。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 0,
+      "reason": "负isotropic Mustrain与实际P1杂质产物未被物理审查有效处理。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 1,
+      "reason": "知道杂相比例不可靠，未把名义投料或未改善的杂相scale卖成实测分数。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 0,
+      "reason": "报告C2/c杂质与交付GPX/CIF的P1空间群不一致。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 1,
+      "reason": "明确wR14.55%未达标、Uiso固定修复不是测得值、杂相不能可靠定量和未试项。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    {
+      "id": "K07.1",
+      "score": 1,
+      "reason": "对当前残余峰而非仅重复提示进行钼酸钠多晶型验证。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "K07.2",
+      "score": 1,
+      "reason": "有单/双相和C2/c/Ama2/Fd-3m候选对照。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "K07.3",
+      "score": 1,
+      "reason": "交付谱图、工程及候选匹配/失败和scale开放处置。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "K07.4",
+      "score": 0,
+      "reason": "最终P1杂质与报告C2/c不对应，接受态仍未有效审查。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "K07.5",
+      "score": 1,
+      "reason": "明确仅定性候选，不给可靠质量分数。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "K08.1",
+      "score": 1,
+      "reason": "区分投料名义组成和XRD可辨能力，不强迫组成等于测量。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "K08.2",
+      "score": 0,
+      "reason": "没有主相Mo与杂相Mo分配/条件收支控制；把名义TM固定留给不可靠双相模型。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "K08.3",
+      "score": 1,
+      "reason": "交付位点、组成CIF和双相工程可复核。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "K08.4",
+      "score": 1,
+      "reason": "拒绝把不改善的杂相scale当准确质量分数，保持待定合理。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    },
+    {
+      "id": "K08.5",
+      "score": 1,
+      "reason": "固定Na/TM、Uiso钳位及相分数不可定量均披露。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结果/结构/模型选择/限制"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "final report摘要"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "cached GPX residuals, phase space group, atom occupancy/multiplicity and HAP Size/Mustrain"
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "B": {
+      "triggered": false,
+      "reason": "未确认B红线；科学不足与自然试算不自动成为否决。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "tool calls/results and actual skill authorization"
+        }
+      ],
+      "authorization": "当时实际加载工作流及实际用户输入；按v1.1保守确认。",
+      "core_rules": [],
+      "redline_ids": []
+    },
+    "F": {
+      "triggered": false,
+      "reason": "未确认引擎滥用；普通历史允许ladder/有依据诊断不自动否决。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd-refinement skill content; xrd_refine_auto calls"
+        }
+      ],
+      "authorization": "当时skill允许阶段Ⅱ普通FP初步迭代；最终结构交付仍GSAS。"
+    }
+  },
+  "findings": [
+    "P2 P63/mmc主相及名义Na0.72Ni0.33Mn0.62Mo0.05O2计量正确；最终Na2MoO4工程实际为P1而报告C2/c。",
+    "最终GPX主相isotropic Mustrain≈−41538、全268反射高斯宽度触底；不能以Uiso正证明完整物理解。",
+    "报告拒绝可靠杂相定量值得保留；GPX蕴含50.57wt%不作为可信实测值。"
+  ],
+  "uncertainties": [],
+  "revisions": [
+    {
+      "point_id": "evidence_locators",
+      "old_score": null,
+      "new_score": null,
+      "reason": "补充科学异常的最终GPX字段与GLM FAP删除事件精确定位；所有积分不变。",
+      "evidence": []
+    },
+    {
+      "point_id": "B_gate",
+      "old_score": false,
+      "new_score": false,
+      "reason": "用户确认v1.2：B仅实际核心红线5或0；具体核心条款和一般问题分离。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "tool calls/results and actual skill authorization"
+        }
+      ]
+    },
+    {
+      "point_id": "B1",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd_data_io seq 615,989"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\evidence_manifest.json",
+          "locator": "文件路径/bytes/sha256"
+        }
+      ]
+    },
+    {
+      "point_id": "B2",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "skill load and xrd_refine_manual init_engine/engine calls seq 2616,2816,3111,11688"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "方法/引擎适配/排障说明"
+        }
+      ]
+    },
+    {
+      "point_id": "B3",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd_finalize seq 6415; xrd_export_cif seq 1118,6615"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+          "locator": "最终结果与交付文件"
+        }
+      ]
+    },
+    {
+      "point_id": "B4",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+          "locator": "xrd_data_io seq 615,989"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "数据/波长/未建模说明"
+        }
+      ]
+    },
+    {
+      "point_id": "B5",
+      "old_score": 0,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+          "locator": "结构审查/限制/失败回退"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\states\\LayeredOxide\\workflow_state.json",
+          "locator": "red_lines_noted;decisions"
+        },
+        {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "final cached GPX: spacegroup, atoms composition/coordinates, HAP Size/Mustrain and residuals"
+        }
+      ]
+    }
+  ],
+  "grader": {
+    "model": null,
+    "reasoning_effort": null,
+    "note": "当前Codex统一评审代理，继承根代理模型；精确ID和档位未暴露，不虚构。",
+    "prompt_sha256": "f903da80c4cff6d24185c8ed6d10cfdff9c9a2c765dd3b0afc4a3ec030752c80",
+    "graded_at": "2026-10-12T10:49:46.022717+00:00"
+  },
+  "scientific_scope_note": "第二套仅最终答案/明确交付报告与科学附件；引用GPX为原最终产物的缓存参数，不重新精修；全轨迹仅用于第一套。",
+  "rubric_sha256": "2c74e6459d92541755e29f09c81babd5a6d44a678e594338c7649553161008fb",
+  "B_mode": "core_skill_binary_5_or_0",
+  "supersedes_score_path": "workspace\\GPT 5.6 SOL\\dsh-xrd-result-analysis\\benchmark_v1.2_20261012\\LayeredOxide\\score.json",
+  "ordinary_compliance_issues": [],
+  "redline_candidates": [],
+  "revised_at": "2026-10-13",
+  "core_prompt_addendum_sha256": "3be20f20f31e4baeed390da06034aa09219707153a7eaaf46942f90843831d38",
+  "workflow_construction_issues": []
+}

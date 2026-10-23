@@ -1,0 +1,1022 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-glm-5.3-ai-agent-v1-2026-10-12",
+  "case_id": "Fe2O3_Fe3O4_2ph",
+  "run_id": "session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3",
+  "collected_at": "2026-10-11T22:47:53.931001+00:00",
+  "source": {
+    "model_label": "GLM 5.3",
+    "assistant_model_routes": [
+      {
+        "provider": "office-modlens-poke-api",
+        "model": "glm-5.3"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "office-modlens-poke-api",
+        "model": "glm-5.3"
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-GLM~00205.3--\\session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3\\session.jsonl.zstd",
+      "bytes": 2315831,
+      "sha256": "5edb7e747f77b21604ce9cb281ea3e7c6c8cd859b07ce50c0d68ab9d35563b33",
+      "source_mtime_ns": 1791738771560855100,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/Fe2O3_Fe3O4_2ph/pattern_2theta.txt",
+        "input_sha256": "8a40f5caef9fcb5368fdb3bc9015dfba7a79282b1c8f265482d29c97ce7258bf",
+        "workspace_file_present": true,
+        "workspace_sha256": "8a40f5caef9fcb5368fdb3bc9015dfba7a79282b1c8f265482d29c97ce7258bf",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-08T14:30:15.960000+00:00",
+    "ended_at": "2026-10-11T17:12:51.416000+00:00",
+    "elapsed_seconds": 268955.456,
+    "turns": 1,
+    "tool_calls": 170,
+    "tool_errors": 6,
+    "retries": 0,
+    "last_turn_reason": {
+      "kind": "completed"
+    },
+    "error_ended_turns": [],
+    "input_tokens": 376002,
+    "output_tokens": 152710,
+    "cache_read_tokens": 39197760,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 376002,
+      "outputTokens": 152710,
+      "cacheReadTokens": 39197760
+    },
+    "goal_rounds": 0
+  },
+  "workflow": {
+    "states": [
+      {
+        "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/workflow_state.json",
+        "phase": 5,
+        "recorded_rounds": 9
+      }
+    ],
+    "final_backend": "GSAS-II",
+    "gsas_completed": true,
+    "finalize_completed": true,
+    "export_completed": true,
+    "required_refinement_completed": true,
+    "converged": null,
+    "warnings": []
+  },
+  "final_metrics": {
+    "wr": 2.35,
+    "r": 1.763492961718757,
+    "rb": 2.5745573356068903,
+    "wrmin": 0.8926286509610258,
+    "chi2": 29235.1,
+    "gof": 2.63,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": "final_selection.json metrics from xrd_finalize tool result",
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 3,
+    "journal_jsonl_total": 11,
+    "journal_jsonl_valid": 11,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": true
+  },
+  "subagent_sessions": [
+    {
+      "run_id": "5676fa37-c9fb-44e1-8610-c91fa17f3510",
+      "models": [],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-GLM~00205.3--\\5676fa37-c9fb-44e1-8610-c91fa17f3510\\session.jsonl.zstd",
+        "bytes": 95004,
+        "sha256": "c8710553ac3c7cd2fa5c39b8743a75a6ee1ae2f94d15f0b8b789f3257a3b5310",
+        "source_mtime_ns": 1791473366530594800,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    }
+  ],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_final/Fe2O3_Fe3O4_built.cif",
+      "bytes": 2087,
+      "sha256": "51ba4ada04956d2afb19db8939518c9ba23ec669f5b5b67255945ebde134f5bf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_final/Fe2O3_Fe3O4_built_1.cif",
+      "bytes": 5939,
+      "sha256": "787486ee0d245d647b4c43b4397ca5aa68d15ffb39c83cae9d1d79e3847533ca"
+    },
+    {
+      "role": "final_gpx",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_final/Fe2O3_Fe3O4_final.gpx",
+      "bytes": 368765,
+      "sha256": "fca1d2d05cebe860c3f5614a8c26951dbb5831acb833b6246a842a887c2f048c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_final/Fe2O3_Fe3O4_final.lst",
+      "bytes": 14905,
+      "sha256": "0bc8c1ac12cf1f525673ee99286938baff31757172942d300dd206ad5eefa555"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_final/Fe2O3_Fe3O4_finalize.json",
+      "bytes": 4427,
+      "sha256": "9f43a7226e05d4a2a72ebf5e573f6550d22762e38223066b4fa60114cd9b4c68"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_final/Fe2O3_Fe3O4_fit.png",
+      "bytes": 308991,
+      "sha256": "3be86628ef90aa0e8d3928234005f0df9996b618c77e0ecf6416f5225c2b2195"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_final/Fe2O3_Fe3O4_report.md",
+      "bytes": 3807,
+      "sha256": "3613c9fc74332dbc848e4e041e561483c83ec1cd3156d78f58a98a5080509813"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_hematite_orbit_01.cif",
+      "bytes": 1510,
+      "sha256": "c93871663d5eee99948a63915d5269fdb935bb6947dfd364daaf2741bc97964c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe3O4_magnetite_o1_orbit_01.cif",
+      "bytes": 5892,
+      "sha256": "42a5679a9d9203466c0bfe1e18952886873c6eba31e67cabaf3d4068e1f1d49e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe3O4_magnetite_orbit_01.cif",
+      "bytes": 5898,
+      "sha256": "45721ba078fdf4576acc2ee025bc38bbd23b5d0b7e40464309d887a6080dd721"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/FINAL_REPORT.md",
+      "bytes": 7479,
+      "sha256": "9062bf10904ce90a00e48edcc84d2760bf48cbd91b02ed44518fe9ee1613bb87"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/pattern_2theta.txt",
+      "bytes": 127623,
+      "sha256": "8a40f5caef9fcb5368fdb3bc9015dfba7a79282b1c8f265482d29c97ce7258bf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1011032.cif",
+      "bytes": 5231,
+      "sha256": "0059bff71033e0cb114e842884078b912542ca65ed24be151adbc584fc227073"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1011084.cif",
+      "bytes": 5290,
+      "sha256": "48da7b027e4fceb27710d2c25a3bc76167b98eb32fc3137727e1c3f9ec85cf19"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1011240.cif",
+      "bytes": 2443,
+      "sha256": "1823a2e46f6d5c9d51f3a50b578846d762e828ba793a2939f0738e7d28e2ed59"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1011267.cif",
+      "bytes": 2467,
+      "sha256": "bdb1776d6c49ed1a03ed1676b96b88e1aca1f1378eb117082fb17c50cf4f3074"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1526260.cif",
+      "bytes": 2388,
+      "sha256": "8cd15b763a9f6ae5bf0faa9aaa6c455db40432ea6a203b2ac61a7fd64cc69f56"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1526269.cif",
+      "bytes": 2391,
+      "sha256": "7f3436205562170d3d517f99362b892934fce31e142a0754469487cac9ed2dca"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1526274.cif",
+      "bytes": 2414,
+      "sha256": "c891d99b35ac63cef1fdf42bfbe9346cd8a7a24fed70c669e2dd19c4b3694266"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1526955.cif",
+      "bytes": 2553,
+      "sha256": "9b0d2364c3800415920ad957971366d4cef001cb803474d005760a82b5e33273"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1532119.cif",
+      "bytes": 2541,
+      "sha256": "e4c2ccf16f0dd9995cfac4b1197c0ce7d471cc1c3d3b276938949045b40aaf8f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1532120.cif",
+      "bytes": 2539,
+      "sha256": "8ab900322775a40f5850d1211fcaf0619be0d7ebfb5cb0f1841a07a955dd1416"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1532796.cif",
+      "bytes": 2239,
+      "sha256": "5d5ffae0e76f8c2b18eceffb8842bcae9803a13fdf0e1757fb8ebd02e9b4eb7c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1532800.cif",
+      "bytes": 2385,
+      "sha256": "aacd7706f843128365c3f198e93abadc6baf379bf51937f3ed189dad9005e072"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1539747.cif",
+      "bytes": 4388,
+      "sha256": "f7dd8dcac5eebd5a539f841f81eb1abaa496d8323b1d44f9ffb11b83acfd68ee"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_1541587.cif",
+      "bytes": 5589,
+      "sha256": "e04c57c4a15d8574a0c774525f255af4f17521e2f98b27e75ba9bc43f6fe0891"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/cod_2101535.cif",
+      "bytes": 2282,
+      "sha256": "7c5ff4bac655cf6aa48256552620e15fcb447fb47ec366a8166d3651fd8e3167"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaabsevm.cif",
+      "bytes": 2865,
+      "sha256": "9da45f32737089c6529e57a948ea9ac55cb7b42311f9c88c3e91e1f855e3773b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaaciufc.cif",
+      "bytes": 948,
+      "sha256": "145cec7c37318be1b3543eb692df8f569ea3d0ef378e25bbafade21043351b12"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacjjfl.cif",
+      "bytes": 1219,
+      "sha256": "0488a1cd700a753bf91228d1934aae26da7d8c657d6ac9eb681861bc370b7385"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaackwbs.cif",
+      "bytes": 1439,
+      "sha256": "fa36d15131083be85ff06d0dd6298483bb2c6e79f847f3d05e90d9750ce4e1c5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpbeu.cif",
+      "bytes": 2865,
+      "sha256": "abfe6173ae4d40eae410ca783c0ae0d35bed9d2fe39d23730fbd4361b8b4a843"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpfoe.cif",
+      "bytes": 1056,
+      "sha256": "6a3a262edf855ada9d2d789c03eeaaf0304b8aef11823b2781c733d2a9805f87"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpfwc.cif",
+      "bytes": 2208,
+      "sha256": "4111b6c82b37c7e6a19619ac879b0c2161e26f38fd58aeee321c306de118eef2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpfxa.cif",
+      "bytes": 2208,
+      "sha256": "efbd4d0595eb2a9117c8b0431f2d627c78ed2e76667dd8a9bb97b42f55c20191"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpgaj.cif",
+      "bytes": 2208,
+      "sha256": "76b3b1b5128cc5e93879857380730422a97e3f3cc9b0ac5f904bc17cfb4d2ea1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpggj.cif",
+      "bytes": 3745,
+      "sha256": "c5091b02d8a85836d86c926aa033c57f56eb05f42218c85d34fb676ce0305a54"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpggu.cif",
+      "bytes": 1221,
+      "sha256": "1b17d416bc3fac0212c227cfd841f5745868890599ad362fc1ebbad689e4c22a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpgwj.cif",
+      "bytes": 3745,
+      "sha256": "5a4827c00188838dc93503231a0b166ad6d2dcde7f4ac088d3453f11e352a92f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpgxd.cif",
+      "bytes": 3745,
+      "sha256": "7e91b782e9aef6dc12ad9e8e57b849f649b49f13ed76b9a657fde608c471c3fa"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpljo.cif",
+      "bytes": 3745,
+      "sha256": "fa24b5a5cbe1d182ef5f7bde0e0a5b502f30187f8da1047baf3f3d23f284aee1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacpwmm.cif",
+      "bytes": 2209,
+      "sha256": "8fa219b9b4833feee846a1d8647d1598c40cba840ca6f44627a32a123d281cb7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacqped.cif",
+      "bytes": 1767,
+      "sha256": "01dd97d23436da9620679283db2e83d44b115b550eac8ea079b3b46d0abf54c2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacsvnp.cif",
+      "bytes": 5058,
+      "sha256": "03d305d5a7a1d347f051fa3838497d1a6e871497ec2e514cf4e4bdd0f683de24"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacsvpf.cif",
+      "bytes": 5059,
+      "sha256": "c70b51d6c48d6d1674d55fa42f59b4db24e6ca2ea7cb772a3637e0f7ced949a8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacsvtj.cif",
+      "bytes": 5060,
+      "sha256": "6da9ce295fa7e224a00dd8422a97b12b362c2cd726edea99140ea8f32a27b046"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacsvvq.cif",
+      "bytes": 5060,
+      "sha256": "059841d638f32e2dd62fea16932b775ece9b2cc85a0ae4b7e3b15a1dcf8e4972"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacsvvw.cif",
+      "bytes": 5061,
+      "sha256": "48517cee9e897549e9988e7cae2384421224fafbc0485d0a1fd165e5e4c2f412"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacsvyo.cif",
+      "bytes": 5061,
+      "sha256": "55b030eb13f9d3e5231c7be12e6b5d916e1e75c7d8e28261d6d55170b1ba57c7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaacujgr.cif",
+      "bytes": 2209,
+      "sha256": "41708b4b5c18af34d2f2e4405fbb1c4ce5dde3b2bc3e236b599fbdf3aaf553c5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/mp_mp-aaagjexf.cif",
+      "bytes": 1061,
+      "sha256": "b885b6f33dcd31f32bc077b3d74fea8808d728e03d12d70679e35842bf5cdb11"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_C2_c_mp-aaacpggu.cif",
+      "bytes": 1221,
+      "sha256": "1b17d416bc3fac0212c227cfd841f5745868890599ad362fc1ebbad689e4c22a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_C2_m_mp-aaabospq.cif",
+      "bytes": 1438,
+      "sha256": "ff947b1c2afd523df896726699006a8ca4ba99a8838f06ac70bbaf35b327bed6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_C2_mp-aaaczecv.cif",
+      "bytes": 2864,
+      "sha256": "a6a7b70b9d3c9843c4ae1fb5f077e622cfe0bb66d12ccb8ea8aa33cf7ba26462"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Cc_mp-aaaabuzy.cif",
+      "bytes": 1438,
+      "sha256": "2991359aa21c3d96ebe05e6784d4b557ea66489a9c9c4ddbc4c7b5068acef986"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Cm_mp-aaabivyb.cif",
+      "bytes": 1438,
+      "sha256": "96ae3c1c73bf4b6727e3001c1930fdff3a8d3249909ad147a682193cafa936e0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Cm_mp-aaabodsl.cif",
+      "bytes": 2865,
+      "sha256": "f90f18efd34cd9365e69af42a9dfca2ebaa34fc4d960504566ddc5a7330f9560"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Cmcm_mp-aaaabbsl.cif",
+      "bytes": 1440,
+      "sha256": "d201218fe2770dfa41ea3c0dc9e93e134f1586206a16fd84d97b7dcbc6637bca"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Cmcm_mp-aaacjjfl.cif",
+      "bytes": 1219,
+      "sha256": "0488a1cd700a753bf91228d1934aae26da7d8c657d6ac9eb681861bc370b7385"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Cmmm_mp-aaagjexf.cif",
+      "bytes": 1061,
+      "sha256": "b885b6f33dcd31f32bc077b3d74fea8808d728e03d12d70679e35842bf5cdb11"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_F-43m_mp-aaabivbl.cif",
+      "bytes": 1438,
+      "sha256": "28552cf02ae3a9efec484d6bbe5da219886076a809d8a7c63e579fc2ae905d7a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Fd-3m_mp-aaaabcoo.cif",
+      "bytes": 1438,
+      "sha256": "630a926b0283ef5c96e7bc162016d034d3d85a0a1b818ab0a5e0c05b79b8f9f9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Ia-3_mp-aaabgfac.cif",
+      "bytes": 2867,
+      "sha256": "79461f83aba69a0107a6302100da61fb7ce5fcc43bbe54ce6cdf7d813f858baf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_P-1_mp-aaacujkf.cif",
+      "bytes": 2210,
+      "sha256": "f8381a17583173594ea93baed921e269bb8c0a14859d0cf84bf17a1bfadfa561"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_P1_mp-aaabosoa.cif",
+      "bytes": 2865,
+      "sha256": "da5cc42994ef7d14cf65de9096efdc129dc368cc8deb89c2dcfb973f8ee4d2c3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_P1_mp-aaacujqg.cif",
+      "bytes": 2209,
+      "sha256": "e7ce50a47a3d765eff21c12b66edde7fc4e050fed4e50a4bea8e175deffa50cb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_P2_1_mp-aaabctxz.cif",
+      "bytes": 2210,
+      "sha256": "201f54e58990c699dd14a89807897f39faee545d53fe6fd8e1fc828537864f88"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_P2_m_mp-aaacpgaj.cif",
+      "bytes": 2208,
+      "sha256": "76b3b1b5128cc5e93879857380730422a97e3f3cc9b0ac5f904bc17cfb4d2ea1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_P3_mp-aaabouju.cif",
+      "bytes": 2318,
+      "sha256": "ececd445e06fc62f1076227e8b72c60877d183a3b894dc57da97832ec07472d2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_P4_12_12_mp-aaaaacea.cif",
+      "bytes": 9503,
+      "sha256": "16acae2da926cf62110651438ee202e96cb4e82cdec1ebf2664a56c026b20bac"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pbca_mp-aaacpbeu.cif",
+      "bytes": 2865,
+      "sha256": "abfe6173ae4d40eae410ca783c0ae0d35bed9d2fe39d23730fbd4361b8b4a843"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pbcm_mp-aaabkzsi.cif",
+      "bytes": 3745,
+      "sha256": "d266e8df210782d7dd4776dfcb341a268d78f11a0fd4fbad6a33f1fbf268b021"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pbcn_mp-aaabdaom.cif",
+      "bytes": 1767,
+      "sha256": "b303631d0474c073747db2b60df663d4816d1bb705bb9ad76f3af54a3047ece2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pc_mp-aaaboscp.cif",
+      "bytes": 2209,
+      "sha256": "350f49f2d2ea9f833899b2257401fc8ecc121a6e7d412eccb9d9cb20747af321"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pm-3m_mp-aaaciufc.cif",
+      "bytes": 948,
+      "sha256": "145cec7c37318be1b3543eb692df8f569ea3d0ef378e25bbafade21043351b12"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pm_mp-aaadamio.cif",
+      "bytes": 3745,
+      "sha256": "087971f9e96270f7b00fc847ce5dd043e900feb6c03a2bee3a4f7824c6ea85bf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pmc2_1_mp-aaacpggj.cif",
+      "bytes": 3745,
+      "sha256": "c5091b02d8a85836d86c926aa033c57f56eb05f42218c85d34fb676ce0305a54"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pmma_mp-aaabdavc.cif",
+      "bytes": 2208,
+      "sha256": "b418978fb1c58926b58b7a465c8766c05c22042f48dd16cf3b9717948d90e1a1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pna2_1_mp-aaabexcq.cif",
+      "bytes": 2864,
+      "sha256": "0f91ada622ca93cbf34142d6b83a315f9b136dd838d5d2c56fcbe69ad47c3ac8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_Pnma_mp-aaacqped.cif",
+      "bytes": 1767,
+      "sha256": "01dd97d23436da9620679283db2e83d44b115b550eac8ea079b3b46d0abf54c2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/poly_R-3c_mp-aaaabdgk.cif",
+      "bytes": 1220,
+      "sha256": "1ab1951515a27bca2f38134f528871d8ad81d8f73cf499a83dec9793bb45f305"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/review_judgment.md",
+      "bytes": 3193,
+      "sha256": "b998524b5c1855b42bf01875195e05908a7813a98a70dadfaeaf3ce8022a248c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01.cif",
+      "bytes": 1510,
+      "sha256": "c93871663d5eee99948a63915d5269fdb935bb6947dfd364daaf2741bc97964c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01.dat",
+      "bytes": 89724,
+      "sha256": "89bda8a0442da9ae8864c27913e84191a17cfd9e0bae541743beec81901318d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01.out",
+      "bytes": 34091,
+      "sha256": "c5499bf90fa772abc4be0c503d7d27ca8eff85f19ffbb6646b0d4c55165d24f1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01.pcr",
+      "bytes": 3093,
+      "sha256": "0ba23b091fe9cd89327a73c783ad8181fa000b108abffdf7df47bfc9f52c5bab"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01.prf",
+      "bytes": 220691,
+      "sha256": "5dfa3bd59d8749feaab4cbe58c53cfe0afcbe26a2f873327229a3a0d8b0990bc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01.sum",
+      "bytes": 6067,
+      "sha256": "d3273ad85632c778258a1fc82c0064034ac8b8ceb60694fe1d6e146a30ca2b8b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01_baseline_end.pcr",
+      "bytes": 3213,
+      "sha256": "baafd5311a8063793244c7c90af7dd6dab7955dcd7adef77ae2aceab9f1e992b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01_baseline_start.pcr",
+      "bytes": 3134,
+      "sha256": "ceebb2619576c7b33bbce20f9c934eca2b53424a7c5bdb6c2ace0ac2faf265d2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01_final_end.pcr",
+      "bytes": 3213,
+      "sha256": "5d4789e5b07d64cae474aee888305f8ecab300bb8060a7b33dc33be1a6f8ebb4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01_final_start.pcr",
+      "bytes": 3093,
+      "sha256": "ae39cd13bae5a78e99479c27bf16cc7bd4ba4ee074068ee8b5d0f9b1887d295c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe2O3_hematite_orbit_01_fp2kbest.pcr",
+      "bytes": 3093,
+      "sha256": "0ba23b091fe9cd89327a73c783ad8181fa000b108abffdf7df47bfc9f52c5bab"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/Fe3O4_magnetite_orbit_01.cif",
+      "bytes": 5892,
+      "sha256": "42a5679a9d9203466c0bfe1e18952886873c6eba31e67cabaf3d4068e1f1d49e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/fp2k_plan.json",
+      "bytes": 542,
+      "sha256": "2dfb70606eb7f354020eb513ce7b5f7c8747c30fa2d477bf715f51268a8f3187"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe2O3_hematite_orbit_01-eced2f/fp2k_result.json",
+      "bytes": 25582,
+      "sha256": "71ecee95e2131e54e3dcfdc74c38de5f77bbbadc311ca1e2988b82f6f22fc1d1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe2O3_hematite_orbit_01.cif",
+      "bytes": 1510,
+      "sha256": "c93871663d5eee99948a63915d5269fdb935bb6947dfd364daaf2741bc97964c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01.cif",
+      "bytes": 5892,
+      "sha256": "42a5679a9d9203466c0bfe1e18952886873c6eba31e67cabaf3d4068e1f1d49e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01.dat",
+      "bytes": 89724,
+      "sha256": "89bda8a0442da9ae8864c27913e84191a17cfd9e0bae541743beec81901318d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01.out",
+      "bytes": 525,
+      "sha256": "c06ef3484f34317cd2c3225e6ea6d48e2d5e62915f885484908fd22352e64d6e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01.pcr",
+      "bytes": 3258,
+      "sha256": "8d991dfcfda9961850cd5aa9b81a32b58f0d500fcfd298794da028eefbd718fc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01.prf",
+      "bytes": 219210,
+      "sha256": "ddc42cabc8548c1e893e6f7240acd7c00824818992b4918bd0380818ad634fd6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01.sum",
+      "bytes": 525,
+      "sha256": "c06ef3484f34317cd2c3225e6ea6d48e2d5e62915f885484908fd22352e64d6e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01_baseline_end.pcr",
+      "bytes": 3355,
+      "sha256": "4102e6020094e26752d4f8b3ed59904ced67af332c6c93fe916e15cb68a3482c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01_baseline_start.pcr",
+      "bytes": 3276,
+      "sha256": "fee1e29570f0e48382f417f9f2e9d84f03433f5a7c559783393477fe302851da"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01_final_start.pcr",
+      "bytes": 3258,
+      "sha256": "2af347e14d9548590f580694bd457e61cea4882029fa7f400edd438a1b281be3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/Fe3O4_magnetite_orbit_01_fp2kbest.pcr",
+      "bytes": 3258,
+      "sha256": "8d991dfcfda9961850cd5aa9b81a32b58f0d500fcfd298794da028eefbd718fc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/fp2k_plan.json",
+      "bytes": 545,
+      "sha256": "9d53788c2bb8ffe5cf908d73f700689abaf0ed00f742690855c5764240a365b9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/.fp2k-work-Fe3O4_magnetite_orbit_01-2f6714/fp2k_result.json",
+      "bytes": 21989,
+      "sha256": "b308e35ca91b8d2500329d24ee0daf551235b2a2fa90de3dd9b4c9baf78be597"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/Fe2O3_hematite_orbit_01.cif",
+      "bytes": 1510,
+      "sha256": "c93871663d5eee99948a63915d5269fdb935bb6947dfd364daaf2741bc97964c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/Fe2O3_hematite_orbit_01.dat",
+      "bytes": 89724,
+      "sha256": "89bda8a0442da9ae8864c27913e84191a17cfd9e0bae541743beec81901318d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/Fe2O3_hematite_orbit_01.pcr",
+      "bytes": 3657,
+      "sha256": "16470ecb17a8bc9709bcb5ee627f30e681eb163ece220a00e1381519af655fc3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/Fe2O3_hematite_orbit_01.pcr_check.json",
+      "bytes": 1195,
+      "sha256": "37982226aee41045a8dd611cb35d198bff143be3cc428f9eb82b0a6813ff130f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/Fe3O4_magnetite_orbit_01.cif",
+      "bytes": 5892,
+      "sha256": "42a5679a9d9203466c0bfe1e18952886873c6eba31e67cabaf3d4068e1f1d49e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/Fe3O4_magnetite_orbit_01.dat",
+      "bytes": 89724,
+      "sha256": "89bda8a0442da9ae8864c27913e84191a17cfd9e0bae541743beec81901318d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/Fe3O4_magnetite_orbit_01.pcr",
+      "bytes": 3802,
+      "sha256": "de6b06c758f58c39298e21222b3a421f6f0be34099ea5cb067441f1509d14354"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/fp/Fe3O4_magnetite_orbit_01.pcr_check.json",
+      "bytes": 1883,
+      "sha256": "b1c04f070e81e9c277db4c58330b0edf4be0bf8adbb98f817ac6c532b18212ad"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/CuKa_lab.instprm",
+      "bytes": 291,
+      "sha256": "48663fde3ff345ea1c731864b32ea94c42e6d4162ca5f6c6d7e9f1faee2fb0a5"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/Fe2O3_Fe3O4_physical.gpx",
+      "bytes": 370047,
+      "sha256": "5d56b33fcd4e783354ae110bfe96baa08e300fee6a90bef2944fa38213485121"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/gsas_ops_out.gpx",
+      "bytes": 368752,
+      "sha256": "fec10787b7e5b51b42c3a7f22d51320ef57b9346c2486b5bb86d7886b512975d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/gsas_ops_out.lst",
+      "bytes": 14906,
+      "sha256": "24835814afb96c81343c7a7c52ca4ffbee4e5d82b3c0fa6fcaddfd514995ec9a"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/gsas_proj.gpx",
+      "bytes": 366367,
+      "sha256": "ffe6268cdaab3c565ccfbe3965dfc7ae5128dd3fea558074b5c4482379c35efd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/gsas_proj.lst",
+      "bytes": 14521,
+      "sha256": "67f2a5725905ef499b9ffea5a758d38106ca22ba2bd2b816f1b19b76520df335"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/gsas_proj_continued.gpx",
+      "bytes": 369896,
+      "sha256": "43070267f0105f378134cc7b49e5704d35ec28b9553024e2fc8f86e63bb996f7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/gsas_proj_continued.lst",
+      "bytes": 14905,
+      "sha256": "4959e97849f7b9ef7dbe6bf070df515349dc38e4fb5f41202582e04778361b3f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/gsas_result.json",
+      "bytes": 10820,
+      "sha256": "c0d518140524c0765fff60b1f7ed62ba7d3f0f6fe93ab7ad31a21b9502c08573"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/gsas/review_mechanical_Fe2O3_Fe3O4.json",
+      "bytes": 1139,
+      "sha256": "d501dc876cadfc8a93e2721b33e43a68bba7c7b3fdbcba4da3fef2b2e454e537"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/components.json",
+      "bytes": 399003,
+      "sha256": "3aee56ee4915e33dd893cab48759e1c293b69aed62a10a706dc1fa006d569674"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/plan_twophase.json",
+      "bytes": 789,
+      "sha256": "c529f0d10f823d02445643b42f960aab68bb291a5672e2749fe1c3713fc2ed40"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/r2/components.json",
+      "bytes": 465573,
+      "sha256": "ff9b9f882ed943417fff2214ce8ca76992d67038103a03b2f47c61f77e5071a4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/r2/plan_calibrate.json",
+      "bytes": 954,
+      "sha256": "96317fbdffdd8c106fe89c58e47cdd61d4dcbbee76994f72481f0a2e79b1eb25"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/r2/result.json",
+      "bytes": 14138,
+      "sha256": "5026142d51ef7b20f43830b7c95d17ce4921d73cd98ef3c7827c535f3da5d889"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/r2/xrd_workflow/journal.jsonl",
+      "bytes": 660,
+      "sha256": "48668e8eaec0a4495fb65ed8537474c26ec8fe1911a447e4b441d178700c61bc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/r2/xrd_workflow/journal.md",
+      "bytes": 548,
+      "sha256": "25d30b46b66ccedc5d3e5ff28b60f68ffaecf03a6d88453ebc5f8f0f3d8ef906"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/result.json",
+      "bytes": 13516,
+      "sha256": "2c1735a22b1d89d5bc07f4ab1ead8468c135d6f7abd143563f8a9dc7312af60c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/xrd_workflow/journal.jsonl",
+      "bytes": 647,
+      "sha256": "b9b3598044b90d43f5082b9e83563dae0a78e47fde4edcee9b1dd1c9a247cf07"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/work/manual/xrd_workflow/journal.md",
+      "bytes": 544,
+      "sha256": "1111aa5e602f951e5b391de4586002c414c8345699e61b99f599c212c08efd7a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/workflow_state.json",
+      "bytes": 6100,
+      "sha256": "7e17e1a83204aa1749d96fa84f53d8f474dec5d7c4a967fc2ef2a0078636428b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/data_io_plan.json",
+      "bytes": 612,
+      "sha256": "d123f222759051107774c06849d636daa60c94fb369f2fe8402c6269027c4a6f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/data_io_result.json",
+      "bytes": 4274,
+      "sha256": "fc672ca42b74df758cce2778132c114abc6fc6f7c207680241691add33a036ae"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/export_plan.json",
+      "bytes": 764,
+      "sha256": "90b72791a01ed6c61592952afa54b1f92168df9f86f939999eca1ce307ff96a7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/export_result.json",
+      "bytes": 2742,
+      "sha256": "568d1d27e757fe1273cbd8d3fd63d74076b2b7fa1d75eb3632751e9e7a09f5b6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.jsonl",
+      "bytes": 10903,
+      "sha256": "6c8de0948242968ab417eaa53fdd8081b6e30c68ab40f5a02fc8ae92c6eae874"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md",
+      "bytes": 7626,
+      "sha256": "e5afbfeaeae2b61960291f7bb9e9561f08ec3aaa0190fb50dffc51a21d4bddfe"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/pattern_2theta_fit.png",
+      "bytes": 90531,
+      "sha256": "5147be97919b4baf917af48bbb37b9b901e5f6495057bf67707582d501af9599"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/phase_screen_plan.json",
+      "bytes": 313,
+      "sha256": "2fd1b483c4c8e83cb33ee78190474221d3cf47504c60087f475f6a1f483ad58c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/phase_screen_result.json",
+      "bytes": 2688,
+      "sha256": "977c43b91689fc5d67a08155634f385019c740afc4f319277730b313d4aaf883"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/result_fit.png",
+      "bytes": 116509,
+      "sha256": "32cd93ebf6ca76e012d7efbe34ddacb96672fb7642fcbd21e397ca2e4c284616"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/result_refined.cif",
+      "bytes": 1796,
+      "sha256": "696af8b3d9f976e2632e90bb9d4e90bbc3877be6fffb6e11bf4d6fb222d3234d"
+    }
+  ]
+}

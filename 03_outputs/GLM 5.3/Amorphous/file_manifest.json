@@ -1,0 +1,35 @@
+﻿{
+  "model": "GLM 5.3",
+  "case_id": "Amorphous",
+  "run_id": "session-34b1bf5e-7437-4c4a-a61c-4abada2036eb",
+  "selection_basis": "last completed xrd_export_cif result; validation verdict is preserved separately",
+  "selection_tool_seq": 60100,
+  "counts": {
+    "image": 1,
+    "gpx": 0,
+    "cif": 0
+  },
+  "all_three_types_present": false,
+  "same_final_state": "export call source and resulting files retained; final answer may conflict",
+  "notes": [
+    "original export state：xrd_export_cif: warn",
+    "amorphous empirical analysis route；GPX/CIFregistered per actual generation，no crystal proxy or input usedCIF补齐。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-34b1bf5e-7437-4c4a-a61c-4abada2036eb\\workspace_snapshot\\Amorphous\\Amorphous_final_fit.png",
+      "destination": "GLM 5.3/Amorphous/figures/Amorphous_final_fit.png",
+      "role": "image",
+      "bytes": 384172,
+      "sha256": "203e4425337a6df96c3cc2a3c27e95210f69939435679528b6c040ceadf6623c",
+      "model": "GLM 5.3",
+      "case_id": "Amorphous",
+      "run_id": "session-34b1bf5e-7437-4c4a-a61c-4abada2036eb",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.candidate_files",
+      "declared_original_path": "workspace\\GLM 5.3\\Amorphous\\Amorphous_final_fit.png"
+    }
+  ]
+}

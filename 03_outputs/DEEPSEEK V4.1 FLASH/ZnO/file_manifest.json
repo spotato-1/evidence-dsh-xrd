@@ -1,0 +1,60 @@
+﻿{
+  "model": "DEEPSEEK V4.1 FLASH",
+  "case_id": "ZnO",
+  "run_id": "session-79f76a24-3904-4839-9908-6f8c38360173",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-79f76a24-3904-4839-9908-6f8c38360173\\artifacts\\ZnO\\ZnO_final\\ZnO_built.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/ZnO/CIF/ZnO_built.cif",
+      "role": "cif",
+      "bytes": 1394,
+      "sha256": "dee137c8b23d065a419d1d6c779d32a3202485155c4281a821289647d35d800a",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "ZnO",
+      "run_id": "session-79f76a24-3904-4839-9908-6f8c38360173",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/ZnO/ZnO_final/ZnO_built.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-79f76a24-3904-4839-9908-6f8c38360173\\artifacts\\ZnO\\ZnO_final\\ZnO_final.gpx",
+      "destination": "DEEPSEEK V4.1 FLASH/ZnO/GPX/ZnO_final.gpx",
+      "role": "gpx",
+      "bytes": 3369204,
+      "sha256": "b24132b1cef1623312c0be5cfb61da2be8e7d29cdd33c091a059cb8299e0c016",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "ZnO",
+      "run_id": "session-79f76a24-3904-4839-9908-6f8c38360173",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/ZnO/ZnO_final/ZnO_final.gpx"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-79f76a24-3904-4839-9908-6f8c38360173\\artifacts\\ZnO\\ZnO_final\\ZnO_fit.png",
+      "destination": "DEEPSEEK V4.1 FLASH/ZnO/figures/ZnO_fit.png",
+      "role": "image",
+      "bytes": 250440,
+      "sha256": "bdd0231c1fc8c41cb5996067d808ab16651a7a85a16b1ece835daad83d3d771e",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "ZnO",
+      "run_id": "session-79f76a24-3904-4839-9908-6f8c38360173",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/ZnO/ZnO_final/ZnO_fit.png"
+    }
+  ]
+}

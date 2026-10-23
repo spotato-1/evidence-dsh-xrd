@@ -1,0 +1,1485 @@
+﻿{
+  "schema_version": "dsh-xrd-score-v1.1-20261012",
+  "rubric_version": "v1.3",
+  "rubric_sha256": "2c74e6459d92541755e29f09c81babd5a6d44a678e594338c7649553161008fb",
+  "model": "DEEPSEEK V4 PRO",
+  "case_id": "LayeredOxide",
+  "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+  "status": "eligible",
+  "final_deliverables": [
+    "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+    "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+    "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+    "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+    "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md"
+  ],
+  "agent_points": [
+    {
+      "id": "A1",
+      "score": 1,
+      "reason": "有skill工具实际加载xrd-workflow，非口头声称。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "skill tool_call seq=304; corresponding result=305"
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "score": 1,
+      "reason": "非晶C类或当前晶态/多相路线与实际输入一致。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "score": 0,
+      "reason": "前序没有可用收敛结果/有效数值洼地即进入GSAS，违反实际加载的前置门控。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "score": 1,
+      "reason": "对本例适用复杂/异常情况有实际核验，而非只提检查表名称。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\defect_table.json",
+          "locator": "逐条缺陷假设、exec、verdict"
+        }
+      ]
+    },
+    {
+      "id": "A5",
+      "score": 1,
+      "reason": "有当前状态、接受态、未试项和可继续工作的交付索引。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\workflow_state.json",
+          "locator": "phase/artifacts/rounds/open_questions"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "id": "B5",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "score": 1,
+      "reason": "调用围绕当前谱形、结构或异常问题。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "score": 1,
+      "reason": "判断转成候选、参数或约束试算，不停留口头计划。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "score": 1,
+      "reason": "根据返回/残差调整、修复或回退。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "score": 1,
+      "reason": "重复调用有新诊断/控制条件，有限重试不因数量直接判空转。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "score": 1,
+      "reason": "取得可复核阶段进展或基于限制停止；不以低R等同科学正确。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "P2主相和Fd-3m钼酸钠有多峰/全谱依据。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 1,
+      "reason": "P63/mmc主相Na、TM、O及杂相计量自洽；投料作为固定建模先验而非实测组成。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 0,
+      "reason": "杂相声称24.8wt%与最终工程隐含4.268wt%不一致，关键两相定量及Mo分配未正确回答。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 0,
+      "reason": "最终GPX质量分数4.267999%（Mass per cell×HAP scale归一），最终答复及REFINEMENT_SUMMARY均24.8wt%，不可对应。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 0,
+      "reason": "未校验标度/质量口径，名义主相含Mo与大杂相含量的元素收支未作条件说明；有限未试声明不修正此问题。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "E1",
+      "score": 1,
+      "reason": "假设来自当前数据/样品先验和材料结构知识。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "score": 1,
+      "reason": "有竞争模型、基线或参数族对照以检验判断。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "score": 1,
+      "reason": "CIF/经验模型建立或改建满足化学与结构要求。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "score": 1,
+      "reason": "晶胞、位点、峰形/热参初值有数据/文献或结构族依据。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "score": 1,
+      "reason": "根据失败、改善或物理审查修正、接受/回退假设。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "score": 0,
+      "reason": "GSAS被用于未有可接受前序结果时的替代拟合，不符合实际角色；无FP滥用证据，故只扣F1不整格F清零。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "score": 1,
+      "reason": "参数/单位/格式错误能通过有效诊断修正，最终输入可追溯。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "score": 1,
+      "reason": "区分真执行、回滚、失败、缓存与工具返回ok，不以ok直接证明科学正确。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "score": 1,
+      "reason": "排障有根因、改动和退出条件，非无止境重复。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "score": 1,
+      "reason": "最终转换、接受态、工程/CIF/图导出来自已标记源。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "P2主相和Fd-3m钼酸钠有多峰/全谱依据。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 1,
+      "reason": "P63/mmc主相Na、TM、O及杂相计量自洽；投料作为固定建模先验而非实测组成。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 0,
+      "reason": "杂相声称24.8wt%与最终工程隐含4.268wt%不一致，关键两相定量及Mo分配未正确回答。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 0,
+      "reason": "最终GPX质量分数4.267999%（Mass per cell×HAP scale归一），最终答复及REFINEMENT_SUMMARY均24.8wt%，不可对应。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 0,
+      "reason": "未校验标度/质量口径，名义主相含Mo与大杂相含量的元素收支未作条件说明；有限未试声明不修正此问题。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    {
+      "id": "K07.1",
+      "score": 1,
+      "reason": "结合当前数据或产物识别材料关键问题，不只重复样品名。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K07.2",
+      "score": 0,
+      "reason": "有多峰杂相与两相产物，但未提供可比单相/加相前后受控比较，提示词已给的杂相名称不算验证设计。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K07.3",
+      "score": 1,
+      "reason": "最终随附报告/工程/参数可复核处理证据。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K07.4",
+      "score": 1,
+      "reason": "基于比较或物理结果合理接受、回退或保留结论。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K07.5",
+      "score": 1,
+      "reason": "说明固定参数、可辨识性、模型依赖和适用范围。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K08.1",
+      "score": 1,
+      "reason": "结合当前数据或产物识别材料关键问题，不只重复样品名。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K08.2",
+      "score": 1,
+      "reason": "采用适合关键问题的模型、约束或竞争对照。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K08.3",
+      "score": 1,
+      "reason": "最终随附报告/工程/参数可复核处理证据。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K08.4",
+      "score": 0,
+      "reason": "接受24.8wt%杂相与真实最终工程4.268wt%矛盾，未完成尺度/质量含量裁决。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K08.5",
+      "score": 0,
+      "reason": "最终既固定主相投料组成又声称24.8wt%杂相，无条件元素收支或口径解释。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "B": {
+      "triggered": true,
+      "reason": "B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ],
+      "authorization": "历史核心§1.4及当次客户决定，不追溯全面先问新要求。",
+      "core_rules": [
+        {
+          "skill": "xrd-workflow",
+          "section": "§1.1",
+          "core_excerpt": "Ⅲ GSAS-II 精确精修与交付：⛔硬门控，须经Ⅰ/Ⅱ收敛。",
+          "evidence": {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+            "locator": "实际skill回包seq305可见段；中段截断不冒称读到完整§3"
+          }
+        },
+        {
+          "skill": "xrd-refinement",
+          "section": "§4.5",
+          "core_excerpt": "GSAS是最终优化，不是前序引擎失败的替代重试通道；须先取得前序收敛结果。",
+          "evidence": {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+            "locator": "实际完整回包seq309 §4.5"
+          }
+        },
+        {
+          "skill": "xrd-workflow",
+          "section": "§1.4收尾清理",
+          "core_excerpt": "确认精修完成之后才清理，分析/精修中一律不清理；journal日志、artifacts点名拟合记录及final delivery必留；保留不确定必须先问，不得自行判断后删除。",
+          "evidence": {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+            "locator": "实际历史核心回包seq305；§1.4收尾清理"
+          },
+          "excerpt_kind": "paraphrase; actual original receipt linked and preserved",
+          "core_verbatim": "### 1.4 收尾清理约定（用户定 2026-09-20）\n\n> 原话：\"**在确认精修完成后清理工作目录，仅保留日志，拟合记录文件，最终要求输出的结果\n> （保留内容不确定时询问）。具体工作文件不保留。**\"\n\n**触发时机**：**确认精修完成之后**才清理。**分析/精修进行中一律不清理** ——\n中间产物是判读与回档的依据（`.out`/`.prf`/`.gpx`/`.fp2k-work-*`/`.verify-*` 等），\n提前删掉等于毁掉现场。\n\n**保留（三类）**：\n1. **日志**：`xrd_workflow/journal.jsonl` + `journal.md`（**权威记录，必留**）；\n2. **拟合记录文件**：精修留下的记录性产物 —— **以 `journal.jsonl` 的 `artifacts` 字段点过名的为准**\n   （`.out`/`.sum`/`.lst` 等）；**原话里的\"拟合记录文件\"指的是这一类，不是\"随手看哪份留哪份\"**。\n3. **最终要求输出的结果**：用户要求的交付物（报告、图、CIF、交付包 `*_final/`、GSAS 工程等）。\n\n**不保留**：**具体工作文件**（中间工作副本、临时计划/结果 JSON、scratch 副本、一次性的 `.prf`、\n`backup_*`、精修过程目录等）。\n\n**不确定时先问**：**保留内容不确定的，必须问用户**，不要自行判断后删除 ——\n删除是不可逆的，问一句的成本远低于误删一个交付物。\n\n**与\"产物只追加不可变\"的关系**：清理发生在**任务收尾**，不是过程中的回档 ——\n回档靠 §1.2 的 `snapshot`，清理时**至少保留最终采用的那份快照/交付物**。"
+        }
+      ],
+      "redline_ids": [
+        "RL-GSAS-PRECONVERGENCE",
+        "RL-CLEANUP-REQUIRED-RECORD"
+      ]
+    },
+    "F": {
+      "triggered": false,
+      "reason": "没有确认FP2K引擎滥用；历史普通ladder/有限诊断合法。",
+      "evidence": [],
+      "authorization": []
+    }
+  },
+  "findings": [
+    "P2+Fd-3m两相结构，wR=9.820063；最终GPX杂相质量分数4.267999%，报告24.8 wt%不一致（不能推定蓄意造假）。两次manual均无有效洼地，第二次主scale近零，随后无其他前序收敛直接进GSAS，B5门控否决。"
+  ],
+  "uncertainties": [
+    "根代理复核success=true但主scale几乎零且flags非空是否构成可接受收敛；初评按已载入数字有效性门控判B5。误报24.8不推定蓄意伪造。"
+  ],
+  "revisions": [
+    {
+      "point_id": "B_gate",
+      "old_score": true,
+      "new_score": true,
+      "reason": "用户确认v1.2：B仅实际核心红线5或0；具体核心条款和一般问题分离。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        }
+      ]
+    },
+    {
+      "point_id": "B1",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-result-analysis\\collection_audit.json",
+          "locator": "冻结hash与完整性/保留清单"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        }
+      ]
+    },
+    {
+      "point_id": "B2",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "point_id": "B3",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "point_id": "B4",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "point_id": "B5",
+      "old_score": 0,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B_gate",
+      "old_score": true,
+      "new_score": true,
+      "previous_gate": {
+        "triggered": true,
+        "reason": "B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。",
+        "evidence": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+            "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+          }
+        ],
+        "authorization": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+            "locator": "tool/result seq=309, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+          }
+        ],
+        "core_rules": [
+          {
+            "skill": "xrd-workflow",
+            "section": "§1.1",
+            "core_excerpt": "Ⅲ GSAS-II 精确精修与交付：⛔硬门控，须经Ⅰ/Ⅱ收敛。",
+            "evidence": {
+              "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+              "locator": "实际skill回包seq305可见段；中段截断不冒称读到完整§3"
+            }
+          },
+          {
+            "skill": "xrd-refinement",
+            "section": "§4.5",
+            "core_excerpt": "GSAS是最终优化，不是前序引擎失败的替代重试通道；须先取得前序收敛结果。",
+            "evidence": {
+              "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+              "locator": "实际完整回包seq309 §4.5"
+            }
+          }
+        ],
+        "redline_ids": [
+          "RL-GSAS-PRECONVERGENCE"
+        ]
+      },
+      "reason": "B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B1",
+      "old_score": 0,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "previous_point": {
+        "id": "B1",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。",
+        "evidence": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+            "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B2",
+      "old_score": 0,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "previous_point": {
+        "id": "B2",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。",
+        "evidence": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+            "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B3",
+      "old_score": 0,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "previous_point": {
+        "id": "B3",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。",
+        "evidence": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+            "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B4",
+      "old_score": 0,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "previous_point": {
+        "id": "B4",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。",
+        "evidence": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+            "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B5",
+      "old_score": 0,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+      "previous_point": {
+        "id": "B5",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。",
+        "evidence": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+            "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+          "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+          "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+        },
+        {
+          "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+          "locator": "前两轮artifacts点名result.json/components.json"
+        }
+      ]
+    }
+  ],
+  "grader": {
+    "model": null,
+    "reasoning_effort": null,
+    "configuration_note": "当前Codex专家式统一评审；精确模型ID与推理档位未提供，不虚构。",
+    "prompt_sha256": "f903da80c4cff6d24185c8ed6d10cfdff9c9a2c765dd3b0afc4a3ec030752c80",
+    "graded_at": "2026-10-12"
+  },
+  "evidence_scope": {
+    "agent": "实际输入、工具动作及返回、状态、部分与最终科学产物",
+    "answer": "实际输入、最终原始答复、随附科学报告/工程/图及交付日志；不以完整内部工具轨迹补分"
+  },
+  "B_mode": "core_skill_binary_5_or_0",
+  "supersedes_score_path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-result-analysis\\benchmark_v1.2_20261012\\LayeredOxide\\score.json",
+  "ordinary_compliance_issues": [],
+  "redline_candidates": [],
+  "revised_at": "2026-10-13",
+  "core_prompt_addendum_sha256": "3be20f20f31e4baeed390da06034aa09219707153a7eaaf46942f90843831d38",
+  "workflow_construction_issues": []
+}

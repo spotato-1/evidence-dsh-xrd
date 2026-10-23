@@ -1,0 +1,55 @@
+ 
+######################################################################
+data_LayeredOxide_final
+
+# phase info for Na4 Mo2 O8 follows
+_pd_phase_name  "Na4 Mo2 O8"
+_cell_length_a  8.14810
+_cell_length_b  7.07124
+_cell_length_c  6.04665
+_cell_angle_alpha  76.3523
+_cell_angle_beta  57.5110
+_cell_angle_gamma  46.1109
+_cell_volume  206.382
+_symmetry_cell_setting  triclinic
+_symmetry_space_group_name_H-M  "P 1"
+loop_
+    _space_group_symop_id
+    _space_group_symop_operation_xyz
+     1  x,y,z
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+loop_ 
+   _atom_site_label
+   _atom_site_type_symbol
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_occupancy
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_site_symmetry_multiplicity
+Na0    Na   0.81860     0.18150     0.81944     1.0000     Uiso 0.0100     1   
+Na1    Na   0.18093     0.81834     0.18103     1.0000     Uiso 0.0100     1   
+Na2    Na   0.06905     0.43168     0.06897     1.0000     Uiso 0.0100     1   
+Na3    Na   0.43139     0.06854     0.43056     1.0000     Uiso 0.0100     1   
+Mo4    Mo   0.50009     0.49990     0.49995     1.0000     Uiso 0.0100     1   
+Mo5    Mo   0.74991     0.75009     0.75007     1.0000     Uiso 0.0100     1   
+O6     O    0.77437     0.88065     0.93505     1.0000     Uiso 0.0100     1   
+O7     O    0.40982     0.93507     0.88076     1.0000     Uiso 0.0100     1   
+O8     O    0.93522     0.40990     0.77423     1.0000     Uiso 0.0100     1   
+O9     O    0.88041     0.77444     0.41008     1.0000     Uiso 0.0100     1   
+O10    O    0.47563     0.36939     0.31490     1.0000     Uiso 0.0100     1   
+O11    O    0.84019     0.31492     0.36920     1.0000     Uiso 0.0100     1   
+O12    O    0.36961     0.47548     0.83992     1.0000     Uiso 0.0100     1   
+O13    O    0.31478     0.84010     0.47583     1.0000     Uiso 0.0100     1   
+
+loop_  _atom_type_symbol _atom_type_number_in_cell
+  Mo      2
+  Na      4
+  O       8
+
+# Note that Z affects _cell_formula_sum and _weight
+_cell_formula_units_Z  1
+_chemical_formula_sum  "Mo2 Na4 O8"
+_chemical_formula_weight  411.83

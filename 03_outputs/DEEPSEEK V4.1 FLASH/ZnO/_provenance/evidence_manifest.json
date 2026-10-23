@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "artifacts/ZnO/ZnO_final/ZnO_built.cif",
+      "bytes": 1394,
+      "sha256": "dee137c8b23d065a419d1d6c779d32a3202485155c4281a821289647d35d800a"
+    },
+    {
+      "path": "artifacts/ZnO/ZnO_final/ZnO_final.gpx",
+      "bytes": 3369204,
+      "sha256": "b24132b1cef1623312c0be5cfb61da2be8e7d29cdd33c091a059cb8299e0c016"
+    },
+    {
+      "path": "artifacts/ZnO/ZnO_final/ZnO_final.lst",
+      "bytes": 9341,
+      "sha256": "dedce76ef1a29ac3fe4c222733f3a6db4b3b7802c6a1900b5fc9625f69c164b8"
+    },
+    {
+      "path": "artifacts/ZnO/ZnO_final/ZnO_finalize.json",
+      "bytes": 2919,
+      "sha256": "50cbac7ea8968ed8a621f4e2e7cfe954bfbeafac1b53299d77bbfbc229c848b9"
+    },
+    {
+      "path": "artifacts/ZnO/ZnO_final/ZnO_fit.png",
+      "bytes": 250440,
+      "sha256": "bdd0231c1fc8c41cb5996067d808ab16651a7a85a16b1ece835daad83d3d771e"
+    },
+    {
+      "path": "artifacts/ZnO/ZnO_final/ZnO_report.md",
+      "bytes": 2886,
+      "sha256": "289b3ea209526a5e55c8f55f856a4277b71d32fe641b420f733b596524a3c79c"
+    },
+    {
+      "path": "conclusion.md",
+      "bytes": 3422,
+      "sha256": "4aacc8fd17adc5066bc9da6cfb292a81946d841530838eb4cdadb57ca9e0b91a"
+    },
+    {
+      "path": "plugin_logs/ZnO/work/manual/xrd_workflow/journal.jsonl",
+      "bytes": 654,
+      "sha256": "4c086ff5b83cd2ebd60e57228af2a761f55fafcbd8057434c3ea5f4756deb962"
+    },
+    {
+      "path": "plugin_logs/ZnO/work/manual/xrd_workflow/journal.md",
+      "bytes": 544,
+      "sha256": "b8263aaa2e837a50218a10a1d68dd8755b606d2c2801a04d6cd27db1b1bc017d"
+    },
+    {
+      "path": "plugin_logs/ZnO/work/manual_r2/xrd_workflow/journal.jsonl",
+      "bytes": 666,
+      "sha256": "b56b26e2629673499b2508fbef069addd0b56b2987d5e3d2a8b2ea02116507d0"
+    },
+    {
+      "path": "plugin_logs/ZnO/work/manual_r2/xrd_workflow/journal.md",
+      "bytes": 547,
+      "sha256": "2ed2e54af067bfd69fcdf546d5bcb769a5372c11c29a2c3ef40d4f4ed99843a1"
+    },
+    {
+      "path": "plugin_logs/ZnO/work/manual_r3/xrd_workflow/journal.jsonl",
+      "bytes": 662,
+      "sha256": "33b6cee62fee474f71296004be48fe9f3d7c2716e3fd5fd8095d3dbcd7861642"
+    },
+    {
+      "path": "plugin_logs/ZnO/work/manual_r3/xrd_workflow/journal.md",
+      "bytes": 547,
+      "sha256": "11a29c57158d03d0fa3a3314c3bb1633a590a6885d25c5fd4e7d21e1613791d0"
+    },
+    {
+      "path": "plugin_logs/ZnO/work/manual_r4/xrd_workflow/journal.jsonl",
+      "bytes": 663,
+      "sha256": "bd7bcc51d52e19995ccd06ddb3b13196b40dbb8991891e5794559c52363c1769"
+    },
+    {
+      "path": "plugin_logs/ZnO/work/manual_r4/xrd_workflow/journal.md",
+      "bytes": 548,
+      "sha256": "b62a5bfd8cb4fedbb92e3a86dc3680bba015ae00cd0b441408d60673e0afe947"
+    },
+    {
+      "path": "plugin_logs/ZnO/xrd_workflow/journal.jsonl",
+      "bytes": 9907,
+      "sha256": "62da59218721b1d7ed0c63af42abf7ac0fcb7018f57cc85d02e22f464fc8f83f"
+    },
+    {
+      "path": "plugin_logs/ZnO/xrd_workflow/journal.md",
+      "bytes": 11601,
+      "sha256": "59b4b57fb3e4d411e51599933027713442d40a9325e75563fe2cb1bd094726fe"
+    },
+    {
+      "path": "root_reports/ZnO/REPORT.md",
+      "bytes": 12871,
+      "sha256": "2f0ccb1d2c03bb6a3bd6497ff969f2a458d810ccc983426bdfd2b9c1f18a46a4"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 817218,
+      "sha256": "6fb8752c41c182243266fb56425f509813463ade0ac15e3a76fa08b777104761"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1762,
+      "sha256": "bd4f9ec83b60d2d3baeec6f008ee424cc94c1882e46cbbb8b7bdc7f3e114971a"
+    },
+    {
+      "path": "states/ZnO/workflow_state.json",
+      "bytes": 9269,
+      "sha256": "f29212644df39001d6b6f385d59086bebd6b3228651675a3a484ee23ca40a778"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 8200,
+      "sha256": "ccbc61d4d6996d2c6e27c58b00312e2a922ce1ace515e25c245fce651756d517"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 637432,
+      "sha256": "defc60a8cda5550d7f85d72a518e33cb87c3f1f9ab047e38868b27bd976ed80d"
+    }
+  ]
+}

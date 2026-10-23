@@ -1,0 +1,1330 @@
+﻿{
+  "summary": {
+    "model": "QWEN 3.6 FLASH",
+    "cases": 6,
+    "A": 11,
+    "A_unknown": 0,
+    "B": 30,
+    "B_unknown": 0,
+    "C": 11,
+    "C_unknown": 0,
+    "D": 1,
+    "D_unknown": 0,
+    "E": 5,
+    "E_unknown": 0,
+    "F": 10,
+    "F_unknown": 0,
+    "accuracy_50": 0.0,
+    "accuracy_unknown": 0.0,
+    "key_50": 0,
+    "key_unknown": 0,
+    "answer_100": 0.0,
+    "answer_upper": 0.0,
+    "time_hours": 0.2761530555555555,
+    "time_score": 97.00028686350235,
+    "cost_usd": 4.927675665000001,
+    "cost_score": 90.62433106572892,
+    "B_gates": 0,
+    "F_gates": 0
+  },
+  "cases": [
+    {
+      "model": "QWEN 3.6 FLASH",
+      "case_id": "Amorphous",
+      "run_id": "session-ca1a1ef9-e097-4be7-86c2-82160493c454",
+      "score_path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Amorphous\\score.json",
+      "status": {
+        "completion": "no_scientific_output",
+        "original_eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl"
+        },
+        "note": "仅写原谱绘图脚本和空洞元数据报告；两次实际执行均解析RAW导头失败，没有生成原谱图或经验拟合/残差/科学参数。"
+      },
+      "findings": [
+        "仅写原谱绘图脚本和空洞元数据报告；seq11655/11812均exit code1，分别不能解析;RAW4.00和[RawHeader]，冻结快照没有任何PNG/经验拟合产物。"
+      ],
+      "uncertainties": [
+        "B1归档校验证明冻结后保护，历史行为由现有完整工具轨迹审查，不能声称归档哈希反证全部历史未变。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "空洞完成声明不足以确认虚构特定执行、数值或验证；无已确认B红线，交付能力问题独立扣分。",
+          "evidence": [
+            {
+              "path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-ca1a1ef9-e097-4be7-86c2-82160493c454\\conclusion.md",
+              "locator": "反复已完成所有要求步骤"
+            }
+          ],
+          "authorization": "v1.1 B3：不伪造执行/验证；实际工作流要求报告真实结果，不以完成标签替代动作。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K或其他精修引擎滥用；通用工具循环只扣C/F原子点，不扩张整格否决。",
+          "evidence": [],
+          "authorization": "v1.1 F按具体超范围引擎行为，不按总调用次数。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-ca1a1ef9-e097-4be7-86c2-82160493c454\\conclusion.md",
+        "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-ca1a1ef9-e097-4be7-86c2-82160493c454\\workspace_snapshot\\Amorphous\\analysis_report.md"
+      ],
+      "A": 2,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 3,
+      "C_unknown": 0,
+      "D": 0,
+      "D_unknown": 0,
+      "E": 1,
+      "E_unknown": 0,
+      "F": 1,
+      "F_unknown": 0,
+      "answer_D": 0,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 0.0,
+      "key_score": 0,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 0.0,
+      "resource": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "Amorphous",
+        "run_id": "session-ca1a1ef9-e097-4be7-86c2-82160493c454",
+        "time_seconds": 314.348,
+        "observed_time_seconds": 314.348,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-ca1a1ef9-e097-4be7-86c2-82160493c454\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 10851,
+            "start_ms": 1791487397495,
+            "end_ms": 1791487601583,
+            "seconds": 204.088,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-ca1a1ef9-e097-4be7-86c2-82160493c454\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 10853,
+            "end_seq": 14075,
+            "start_ms": 1791487620484,
+            "end_ms": 1791487703252,
+            "seconds": 82.768,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-ca1a1ef9-e097-4be7-86c2-82160493c454\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 14077,
+            "end_seq": 14222,
+            "start_ms": 1791487735929,
+            "end_ms": 1791487742862,
+            "seconds": 6.933,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-ca1a1ef9-e097-4be7-86c2-82160493c454\\session_core.jsonl.gz",
+            "turn": 4,
+            "start_seq": 14224,
+            "end_seq": 14966,
+            "start_ms": 1791487760280,
+            "end_ms": 1791487780839,
+            "seconds": 20.559,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791487397495,
+            1791487601583
+          ],
+          [
+            1791487620484,
+            1791487703252
+          ],
+          [
+            1791487735929,
+            1791487742862
+          ],
+          [
+            1791487760280,
+            1791487780839
+          ]
+        ],
+        "ledger_lifetime_seconds": 4730.872,
+        "tool_calls_including_children": 94,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 8867331,
+          "outputTokens": 68966
+        },
+        "actual_model_counts": {
+          "qwen3.6-flash": 95
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-ca1a1ef9-e097-4be7-86c2-82160493c454\\session_core.jsonl.gz",
+            "request_count": 95,
+            "usage": {
+              "inputTokens": 8867331,
+              "outputTokens": 68966
+            },
+            "actual_model_counts": {
+              "qwen3.6-flash": 95
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [],
+          "final_backend": null,
+          "gsas_completed": false,
+          "finalize_completed": false,
+          "export_completed": false,
+          "required_refinement_completed": false,
+          "converged": null,
+          "warnings": [
+            "missing_workflow_state",
+            "missing_journal_jsonl"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-ca1a1ef9-e097-4be7-86c2-82160493c454\\technical_stats.json",
+        "approval_waits": [],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791487397495,
+            1791487601583
+          ],
+          [
+            1791487620484,
+            1791487703252
+          ],
+          [
+            1791487735929,
+            1791487742862
+          ],
+          [
+            1791487760280,
+            1791487780839
+          ]
+        ],
+        "cost_known_subtotal_usd": 1.5313859550000004,
+        "missing_priced_requests": 0,
+        "priced_requests": 95,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 8867331,
+          "cache_read": 0,
+          "cache_write": 0,
+          "output": 68966
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 1.5313859550000004,
+        "time_reference_max": 2776.69,
+        "time_normalization_coverage": 6,
+        "time_score": 88.67903871155944,
+        "cost_reference_max": 4.283583199999999,
+        "cost_normalization_coverage": 6,
+        "cost_score": 64.24988418574429
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "Amorphous",
+        "run_id": "session-ca1a1ef9-e097-4be7-86c2-82160493c454",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [],
+        "eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl"
+        },
+        "tool_calls": 94,
+        "phase_compositions": [],
+        "source": null
+      }
+    },
+    {
+      "model": "QWEN 3.6 FLASH",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-2095ef69-0b07-4a14-b4a7-bdc165c1c98e",
+      "score_path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Fe2O3_Fe3O4_2ph\\score.json",
+      "status": {
+        "completion": "no_scientific_output",
+        "original_eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_journal_jsonl; recorded_workflow_phase_not_5"
+        },
+        "note": "取得COD候选并写待办/状态，但没有任何精修工具实跑；最终仍请求继续。"
+      },
+      "findings": [
+        "取得COD候选并写待办/状态，但没有任何精修工具实跑；最终仍请求继续。"
+      ],
+      "uncertainties": [
+        "B1归档校验证明冻结后保护，历史行为由现有完整工具轨迹审查，不能声称归档哈希反证全部历史未变。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；不能因未完成就认定违规。",
+          "evidence": [],
+          "authorization": "v1.1 B3：不伪造执行/验证；实际工作流要求报告真实结果，不以完成标签替代动作。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K或其他精修引擎滥用；通用工具循环只扣C/F原子点，不扩张整格否决。",
+          "evidence": [],
+          "authorization": "v1.1 F按具体超范围引擎行为，不按总调用次数。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-2095ef69-0b07-4a14-b4a7-bdc165c1c98e\\conclusion.md"
+      ],
+      "A": 2,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 3,
+      "C_unknown": 0,
+      "D": 0,
+      "D_unknown": 0,
+      "E": 1,
+      "E_unknown": 0,
+      "F": 3,
+      "F_unknown": 0,
+      "answer_D": 0,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 0.0,
+      "key_score": 0,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 0.0,
+      "resource": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "Fe2O3_Fe3O4_2ph",
+        "run_id": "session-2095ef69-0b07-4a14-b4a7-bdc165c1c98e",
+        "time_seconds": 392.989,
+        "observed_time_seconds": 392.989,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-2095ef69-0b07-4a14-b4a7-bdc165c1c98e\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 4795,
+            "start_ms": 1791487825378,
+            "end_ms": 1791488197361,
+            "seconds": 371.983,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-2095ef69-0b07-4a14-b4a7-bdc165c1c98e\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 4797,
+            "end_seq": 5782,
+            "start_ms": 1791488204936,
+            "end_ms": 1791488225942,
+            "seconds": 21.006,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791487825378,
+            1791488197361
+          ],
+          [
+            1791488204936,
+            1791488225942
+          ]
+        ],
+        "ledger_lifetime_seconds": 419.115,
+        "tool_calls_including_children": 60,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 9403288,
+          "outputTokens": 21594
+        },
+        "actual_model_counts": {
+          "qwen3.6-flash": 58
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-2095ef69-0b07-4a14-b4a7-bdc165c1c98e\\session_core.jsonl.gz",
+            "request_count": 58,
+            "usage": {
+              "inputTokens": 9403288,
+              "outputTokens": 21594
+            },
+            "actual_model_counts": {
+              "qwen3.6-flash": 58
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/workflow_state.json",
+              "phase": 4,
+              "recorded_rounds": 0
+            }
+          ],
+          "final_backend": null,
+          "gsas_completed": false,
+          "finalize_completed": false,
+          "export_completed": false,
+          "required_refinement_completed": false,
+          "converged": null,
+          "warnings": [
+            "missing_journal_jsonl",
+            "recorded_workflow_phase_not_5"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-2095ef69-0b07-4a14-b4a7-bdc165c1c98e\\technical_stats.json",
+        "approval_waits": [],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791487825378,
+            1791488197361
+          ],
+          [
+            1791488204936,
+            1791488225942
+          ]
+        ],
+        "cost_known_subtotal_usd": 1.57292058,
+        "missing_priced_requests": 0,
+        "priced_requests": 58,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 9403288,
+          "cache_read": 0,
+          "cache_write": 0,
+          "output": 21594
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 1.57292058,
+        "time_reference_max": 7859.71,
+        "time_normalization_coverage": 6,
+        "time_score": 94.99995546909491,
+        "cost_reference_max": 11.389744400000009,
+        "cost_normalization_coverage": 6,
+        "cost_score": 86.19002740746316
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "Fe2O3_Fe3O4_2ph",
+        "run_id": "session-2095ef69-0b07-4a14-b4a7-bdc165c1c98e",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [],
+        "eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_journal_jsonl; recorded_workflow_phase_not_5"
+        },
+        "tool_calls": 60,
+        "phase_compositions": [],
+        "source": null
+      }
+    },
+    {
+      "model": "QWEN 3.6 FLASH",
+      "case_id": "FE50",
+      "run_id": "session-985a7e63-82b6-4e7c-8787-51413bd6ce2c",
+      "score_path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\FE50\\score.json",
+      "status": {
+        "completion": "no_scientific_output",
+        "original_eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl"
+        },
+        "note": "读了参考CIF及输入，但陷于goal/todo参数错误循环，未建模型或精修；用户中断，不能据此否定缺陷存在。"
+      },
+      "findings": [
+        "读了参考CIF及输入，但陷于goal/todo参数错误循环，未建模型或精修；用户中断，不能据此否定缺陷存在。"
+      ],
+      "uncertainties": [
+        "B1归档校验证明冻结后保护，历史行为由现有完整工具轨迹审查，不能声称归档哈希反证全部历史未变。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；不能因未完成就认定违规。",
+          "evidence": [],
+          "authorization": "v1.1 B3：不伪造执行/验证；实际工作流要求报告真实结果，不以完成标签替代动作。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K或其他精修引擎滥用；通用工具循环只扣C/F原子点，不扩张整格否决。",
+          "evidence": [],
+          "authorization": "v1.1 F按具体超范围引擎行为，不按总调用次数。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-985a7e63-82b6-4e7c-8787-51413bd6ce2c\\conclusion.md"
+      ],
+      "A": 2,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 1,
+      "C_unknown": 0,
+      "D": 0,
+      "D_unknown": 0,
+      "E": 2,
+      "E_unknown": 0,
+      "F": 0,
+      "F_unknown": 0,
+      "answer_D": 0,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 0.0,
+      "key_score": 0,
+      "key_unknown": 0,
+      "key_max": 15,
+      "answer_contribution": 0.0,
+      "resource": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "FE50",
+        "run_id": "session-985a7e63-82b6-4e7c-8787-51413bd6ce2c",
+        "time_seconds": 141.646,
+        "observed_time_seconds": 141.646,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-985a7e63-82b6-4e7c-8787-51413bd6ce2c\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 2578,
+            "start_ms": 1791488320092,
+            "end_ms": 1791488403748,
+            "seconds": 83.656,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-985a7e63-82b6-4e7c-8787-51413bd6ce2c\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 2580,
+            "end_seq": 3135,
+            "start_ms": 1791488403753,
+            "end_ms": 1791488417669,
+            "seconds": 13.916,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-985a7e63-82b6-4e7c-8787-51413bd6ce2c\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 3137,
+            "end_seq": 4394,
+            "start_ms": 1791488417673,
+            "end_ms": 1791488448339,
+            "seconds": 30.666,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-985a7e63-82b6-4e7c-8787-51413bd6ce2c\\session_core.jsonl.gz",
+            "turn": 4,
+            "start_seq": 4396,
+            "end_seq": 4958,
+            "start_ms": 1791488448345,
+            "end_ms": 1791488461753,
+            "seconds": 13.408,
+            "reason": {
+              "kind": "aborted",
+              "reason": {
+                "kind": "user"
+              }
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791488320092,
+            1791488403748
+          ],
+          [
+            1791488403753,
+            1791488417669
+          ],
+          [
+            1791488417673,
+            1791488448339
+          ],
+          [
+            1791488448345,
+            1791488461753
+          ]
+        ],
+        "ledger_lifetime_seconds": 219.988,
+        "tool_calls_including_children": 55,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 7093791,
+          "outputTokens": 15574
+        },
+        "actual_model_counts": {
+          "qwen3.6-flash": 44
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-985a7e63-82b6-4e7c-8787-51413bd6ce2c\\session_core.jsonl.gz",
+            "request_count": 44,
+            "usage": {
+              "inputTokens": 7093791,
+              "outputTokens": 15574
+            },
+            "actual_model_counts": {
+              "qwen3.6-flash": 44
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [],
+          "final_backend": null,
+          "gsas_completed": false,
+          "finalize_completed": false,
+          "export_completed": false,
+          "required_refinement_completed": false,
+          "converged": null,
+          "warnings": [
+            "missing_workflow_state",
+            "missing_journal_jsonl"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-985a7e63-82b6-4e7c-8787-51413bd6ce2c\\technical_stats.json",
+        "approval_waits": [],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791488320092,
+            1791488403748
+          ],
+          [
+            1791488403753,
+            1791488417669
+          ],
+          [
+            1791488417673,
+            1791488448339
+          ],
+          [
+            1791488448345,
+            1791488461753
+          ]
+        ],
+        "cost_known_subtotal_usd": 1.1858937750000005,
+        "missing_priced_requests": 0,
+        "priced_requests": 44,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 7093791,
+          "cache_read": 0,
+          "cache_write": 0,
+          "output": 15574
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 1.1858937750000005,
+        "time_reference_max": 36408.112,
+        "time_normalization_coverage": 6,
+        "time_score": 99.61094934008113,
+        "cost_reference_max": 32.46989159999997,
+        "cost_normalization_coverage": 6,
+        "cost_score": 96.34771255288082
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "FE50",
+        "run_id": "session-985a7e63-82b6-4e7c-8787-51413bd6ce2c",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [],
+        "eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl"
+        },
+        "tool_calls": 55,
+        "phase_compositions": [],
+        "source": null
+      }
+    },
+    {
+      "model": "QWEN 3.6 FLASH",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-61e0a8fe-cd72-4a47-a6f9-2e7322953a1f",
+      "score_path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Fluoroapatite\\score.json",
+      "status": {
+        "completion": "no_scientific_output",
+        "original_eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl; session_contains_error_ended_turns"
+        },
+        "note": "有正确材料身份与基本处理日志及候选库文件，但没有接受的CIF/精修/最终科学报告；因重复无参数调用终止。"
+      },
+      "findings": [
+        "有正确材料身份与基本处理日志及候选库文件，但没有接受的CIF/精修/最终科学报告；因重复无参数调用终止。"
+      ],
+      "uncertainties": [
+        "B1归档校验证明冻结后保护，历史行为由现有完整工具轨迹审查，不能声称归档哈希反证全部历史未变。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；不能因未完成就认定违规。",
+          "evidence": [],
+          "authorization": "v1.1 B3：不伪造执行/验证；实际工作流要求报告真实结果，不以完成标签替代动作。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K或其他精修引擎滥用；通用工具循环只扣C/F原子点，不扩张整格否决。",
+          "evidence": [],
+          "authorization": "v1.1 F按具体超范围引擎行为，不按总调用次数。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-61e0a8fe-cd72-4a47-a6f9-2e7322953a1f\\conclusion.md"
+      ],
+      "A": 3,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 2,
+      "C_unknown": 0,
+      "D": 1,
+      "D_unknown": 0,
+      "E": 1,
+      "E_unknown": 0,
+      "F": 2,
+      "F_unknown": 0,
+      "answer_D": 0,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 0.0,
+      "key_score": 0,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 0.0,
+      "resource": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "Fluoroapatite",
+        "run_id": "session-61e0a8fe-cd72-4a47-a6f9-2e7322953a1f",
+        "time_seconds": 68.968,
+        "observed_time_seconds": 68.968,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-61e0a8fe-cd72-4a47-a6f9-2e7322953a1f\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 1383,
+            "start_ms": 1791488524519,
+            "end_ms": 1791488593487,
+            "seconds": 68.968,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "Repetitive tool calls detected in the conversation history. The same tool call with identical name and arguments has been repeated across multiple consecutive rounds. Please modify your request or adjust the tool call arguments to avoid infinite loops.",
+                "code": "PI_AI_ERROR"
+              }
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791488524519,
+            1791488593487
+          ]
+        ],
+        "ledger_lifetime_seconds": 98.622,
+        "tool_calls_including_children": 25,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 1230998,
+          "outputTokens": 3849
+        },
+        "actual_model_counts": {
+          "qwen3.6-flash": 22
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-61e0a8fe-cd72-4a47-a6f9-2e7322953a1f\\session_core.jsonl.gz",
+            "request_count": 22,
+            "usage": {
+              "inputTokens": 1230998,
+              "outputTokens": 3849
+            },
+            "actual_model_counts": {
+              "qwen3.6-flash": 22
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [],
+          "final_backend": null,
+          "gsas_completed": false,
+          "finalize_completed": false,
+          "export_completed": false,
+          "required_refinement_completed": false,
+          "converged": null,
+          "warnings": [
+            "missing_workflow_state",
+            "missing_journal_jsonl",
+            "session_contains_error_ended_turns"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-61e0a8fe-cd72-4a47-a6f9-2e7322953a1f\\technical_stats.json",
+        "approval_waits": [],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791488524519,
+            1791488593487
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.20692518,
+        "missing_priced_requests": 0,
+        "priced_requests": 22,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 1230998,
+          "cache_read": 0,
+          "cache_write": 0,
+          "output": 3849
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.20692518,
+        "time_reference_max": 11162.67,
+        "time_normalization_coverage": 6,
+        "time_score": 99.38215498621746,
+        "cost_reference_max": 24.18346829050943,
+        "cost_normalization_coverage": 6,
+        "cost_score": 99.14435275571616
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "Fluoroapatite",
+        "run_id": "session-61e0a8fe-cd72-4a47-a6f9-2e7322953a1f",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [],
+        "eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl; session_contains_error_ended_turns"
+        },
+        "tool_calls": 25,
+        "phase_compositions": [],
+        "source": null
+      }
+    },
+    {
+      "model": "QWEN 3.6 FLASH",
+      "case_id": "LayeredOxide",
+      "run_id": "session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889",
+      "score_path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\LayeredOxide\\score.json",
+      "status": {
+        "completion": "no_scientific_output",
+        "original_eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl; session_contains_error_ended_turns"
+        },
+        "note": "停留在重复读取状态；没有科学模型判定或交付。"
+      },
+      "findings": [
+        "停留在重复读取状态；没有科学模型判定或交付。"
+      ],
+      "uncertainties": [
+        "B1归档校验证明冻结后保护，历史行为由现有完整工具轨迹审查，不能声称归档哈希反证全部历史未变。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；不能因未完成就认定违规。",
+          "evidence": [],
+          "authorization": "v1.1 B3：不伪造执行/验证；实际工作流要求报告真实结果，不以完成标签替代动作。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K或其他精修引擎滥用；通用工具循环只扣C/F原子点，不扩张整格否决。",
+          "evidence": [],
+          "authorization": "v1.1 F按具体超范围引擎行为，不按总调用次数。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889\\conclusion.md"
+      ],
+      "A": 1,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 1,
+      "C_unknown": 0,
+      "D": 0,
+      "D_unknown": 0,
+      "E": 0,
+      "E_unknown": 0,
+      "F": 3,
+      "F_unknown": 0,
+      "answer_D": 0,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 0.0,
+      "key_score": 0,
+      "key_unknown": 0,
+      "key_max": 10,
+      "answer_contribution": 0.0,
+      "resource": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "LayeredOxide",
+        "run_id": "session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889",
+        "time_seconds": 50.173,
+        "observed_time_seconds": 50.173,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 2083,
+            "start_ms": 1791488637414,
+            "end_ms": 1791488687587,
+            "seconds": 50.173,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "Repetitive tool calls detected in the conversation history. The same tool call with identical name and arguments has been repeated across multiple consecutive rounds. Please modify your request or adjust the tool call arguments to avoid infinite loops.",
+                "code": "PI_AI_ERROR"
+              }
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791488637414,
+            1791488687587
+          ]
+        ],
+        "ledger_lifetime_seconds": 161.475,
+        "tool_calls_including_children": 22,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 1416921,
+          "outputTokens": 4547
+        },
+        "actual_model_counts": {
+          "qwen3.6-flash": 17
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889\\session_core.jsonl.gz",
+            "request_count": 17,
+            "usage": {
+              "inputTokens": 1416921,
+              "outputTokens": 4547
+            },
+            "actual_model_counts": {
+              "qwen3.6-flash": 17
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [],
+          "final_backend": null,
+          "gsas_completed": false,
+          "finalize_completed": false,
+          "export_completed": false,
+          "required_refinement_completed": false,
+          "converged": null,
+          "warnings": [
+            "missing_workflow_state",
+            "missing_journal_jsonl",
+            "session_contains_error_ended_turns"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889\\technical_stats.json",
+        "approval_waits": [],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791488637414,
+            1791488687587
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.23829349500000002,
+        "missing_priced_requests": 0,
+        "priced_requests": 17,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 1416921,
+          "cache_read": 0,
+          "cache_write": 0,
+          "output": 4547
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.23829349500000002,
+        "time_reference_max": 11921.629,
+        "time_normalization_coverage": 6,
+        "time_score": 99.5791430852277,
+        "cost_reference_max": 20.697823239999984,
+        "cost_normalization_coverage": 6,
+        "cost_score": 98.84870262811269
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "LayeredOxide",
+        "run_id": "session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [],
+        "eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl; session_contains_error_ended_turns"
+        },
+        "tool_calls": 22,
+        "phase_compositions": [],
+        "source": null
+      }
+    },
+    {
+      "model": "QWEN 3.6 FLASH",
+      "case_id": "LiFePO4",
+      "run_id": "session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b",
+      "score_path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\LiFePO4\\score.json",
+      "status": {
+        "completion": "no_scientific_output",
+        "original_eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl; session_contains_error_ended_turns"
+        },
+        "note": "没有正确读取RAW或模型/精修交付，停在不适用办公工具反复调用。"
+      },
+      "findings": [
+        "没有正确读取RAW或模型/精修交付，停在不适用办公工具反复调用。"
+      ],
+      "uncertainties": [
+        "B1归档校验证明冻结后保护，历史行为由现有完整工具轨迹审查，不能声称归档哈希反证全部历史未变。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；不能因未完成就认定违规。",
+          "evidence": [],
+          "authorization": "v1.1 B3：不伪造执行/验证；实际工作流要求报告真实结果，不以完成标签替代动作。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K或其他精修引擎滥用；通用工具循环只扣C/F原子点，不扩张整格否决。",
+          "evidence": [],
+          "authorization": "v1.1 F按具体超范围引擎行为，不按总调用次数。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b\\conclusion.md"
+      ],
+      "A": 1,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 1,
+      "C_unknown": 0,
+      "D": 0,
+      "D_unknown": 0,
+      "E": 0,
+      "E_unknown": 0,
+      "F": 1,
+      "F_unknown": 0,
+      "answer_D": 0,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 0.0,
+      "key_score": 0,
+      "key_unknown": 0,
+      "key_max": 10,
+      "answer_contribution": 0.0,
+      "resource": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "LiFePO4",
+        "run_id": "session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b",
+        "time_seconds": 26.027,
+        "observed_time_seconds": 26.027,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 1032,
+            "start_ms": 1791488692435,
+            "end_ms": 1791488718462,
+            "seconds": 26.027,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "Repetitive tool calls detected in the conversation history. The same tool call with identical name and arguments has been repeated across multiple consecutive rounds. Please modify your request or adjust the tool call arguments to avoid infinite loops.",
+                "code": "PI_AI_ERROR"
+              }
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791488692435,
+            1791488718462
+          ]
+        ],
+        "ledger_lifetime_seconds": 74.799,
+        "tool_calls_including_children": 25,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 1148788,
+          "outputTokens": 2734
+        },
+        "actual_model_counts": {
+          "qwen3.6-flash": 23
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b\\session_core.jsonl.gz",
+            "request_count": 23,
+            "usage": {
+              "inputTokens": 1148788,
+              "outputTokens": 2734
+            },
+            "actual_model_counts": {
+              "qwen3.6-flash": 23
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [],
+          "final_backend": null,
+          "gsas_completed": false,
+          "finalize_completed": false,
+          "export_completed": false,
+          "required_refinement_completed": false,
+          "converged": null,
+          "warnings": [
+            "missing_workflow_state",
+            "missing_journal_jsonl",
+            "session_contains_error_ended_turns"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.6 FLASH\\dsh-xrd-test-evidence\\runs\\session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b\\technical_stats.json",
+        "approval_waits": [],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791488692435,
+            1791488718462
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.19225668,
+        "missing_priced_requests": 0,
+        "priced_requests": 23,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 1148788,
+          "cache_read": 0,
+          "cache_write": 0,
+          "output": 2734
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.19225668,
+        "time_reference_max": 10430.81,
+        "time_normalization_coverage": 6,
+        "time_score": 99.75047958883346,
+        "cost_reference_max": 18.581033679999997,
+        "cost_normalization_coverage": 6,
+        "cost_score": 98.96530686445642
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.6 FLASH",
+        "case_id": "LiFePO4",
+        "run_id": "session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [],
+        "eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "missing_workflow_state; missing_journal_jsonl; session_contains_error_ended_turns"
+        },
+        "tool_calls": 25,
+        "phase_compositions": [],
+        "source": null
+      }
+    }
+  ],
+  "pricing": {
+    "verified_at": "2026-10-12",
+    "comparison_currency": "USD",
+    "basis": "official standard public pay-as-you-go API equivalent; no subscription, free quota or private discount; international USD vendor table where directly listed",
+    "rates_per_million": {
+      "gpt-5.6-sol": {
+        "threshold": 272000,
+        "tiers": [
+          {
+            "input": 4,
+            "cache_read": 0.4,
+            "cache_write": 5,
+            "output": 20
+          },
+          {
+            "input": 8,
+            "cache_read": 0.8,
+            "cache_write": 10,
+            "output": 30
+          }
+        ],
+        "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+        "region": "OpenAI standard"
+      },
+      "glm-5.3": {
+        "tiers": [
+          {
+            "input": 1.4,
+            "cache_read": 0.26,
+            "cache_write": 0,
+            "output": 4.4
+          }
+        ],
+        "url": "https://docs.z.ai/guides/overview/pricing",
+        "region": "Z.ai public USD",
+        "note": "Exact GLM-5.3 listed; does not use GLM-5/5.2 substitute."
+      },
+      "qwen3.6-flash": {
+        "threshold": 256000,
+        "tiers": [
+          {
+            "input": 0.165,
+            "cache_read": 0.033,
+            "cache_write": 0.20625,
+            "output": 0.99
+          },
+          {
+            "input": 0.66,
+            "cache_read": 0.132,
+            "cache_write": 0.825,
+            "output": 3.961
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "Global public USD",
+        "note": "Implicit cache 20%; no cache records in current Flash sessions, input charged as recorded."
+      },
+      "qwen3.7-plus": {
+        "threshold": 256000,
+        "tiers": [
+          {
+            "input": 0.276,
+            "cache_read": 0.0552,
+            "cache_write": 0.345,
+            "output": 1.101
+          },
+          {
+            "input": 0.826,
+            "cache_read": 0.1652,
+            "cache_write": 1.0325,
+            "output": 3.301
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "Global public USD list prices",
+        "note": "Use standard list prices, not temporary subscription/night credits multiplier; implicit cache 20%."
+      },
+      "qwen3.8-max-preview": {
+        "mapped_official_model": "qwen3.8-max",
+        "tiers": [
+          {
+            "input": 1.7822664488341007,
+            "cache_read": 0.22278330610426259,
+            "cache_write": 2.227833061042626,
+            "output": 5.346799346502302
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "mapping_url": "https://www.alibabacloud.com/en/notice/alibaba_cloud_model_studio_model_upgrade_notice_81a?_p_lc=1",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "user-supplied mainland official CNY quote converted to USD",
+        "status": "user_official_price_supplied",
+        "note": "Implicit cache price from user official console text; source/FX/date frozen in pricing_user_addendum.json; no generic cache discount guessed.",
+        "currency": "USD",
+        "user_source": "workspace\\benchmark\\scoring_v1.1_20261012\\qwen_max_user_price.md"
+      },
+      "deepseek-v4-pro": {
+        "tiers": [
+          {
+            "input": 1.32,
+            "cache_read": 0.044,
+            "cache_write": 0,
+            "output": 3.96
+          },
+          {
+            "input": 0.66,
+            "cache_read": 0.022,
+            "cache_write": 0,
+            "output": 1.98
+          }
+        ],
+        "time_tiers": "Peak Mon-Fri UTC 01:00-04:00 and 06:00-10:00 excluding Chinese public holidays; otherwise off-peak",
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "region": "DeepSeek public USD",
+        "note": "Official English page fetched directly 2026-10-12 after web-reader timeout. All current DeepSeek sessions occurred on 2026-10-11 (Sunday), off-peak; no FX conversion required."
+      },
+      "kimi-k3": {
+        "tiers": [],
+        "status": "excluded_by_user",
+        "note": "User explicitly said Kimi is not considered during this scoring turn. Three recorded GPT FE50 child requests retained in exclusion ledger, not billed or independently ranked."
+      }
+    },
+    "fx": {
+      "date": "2026-10-09",
+      "cny_per_usd": 6.733,
+      "source_url": "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+      "source_basis": "Official China Foreign Exchange Trade System rate dated 2026-10-09 returned by web search snapshot; dynamic page was opened. Latest actually retrieved common FX snapshot, not claimed to be 2026-10-12 quote."
+    }
+  },
+  "master": "workspace\\benchmark\\scoring_v1.3_20261012"
+}

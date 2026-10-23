@@ -1,0 +1,60 @@
+﻿{
+  "model": "DEEPSEEK V4.1 FLASH",
+  "case_id": "LiFePO4",
+  "run_id": "session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0\\artifacts\\LiFePO4\\LiFePO4_final\\LiFePO4_built.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/LiFePO4/CIF/LiFePO4_built.cif",
+      "role": "cif",
+      "bytes": 1865,
+      "sha256": "8011af0c8dbe853a0864c3722b180b95970c773e079999d498a574f15f8f5a9c",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LiFePO4",
+      "run_id": "session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/LiFePO4/LiFePO4_final/LiFePO4_built.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0\\artifacts\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx",
+      "destination": "DEEPSEEK V4.1 FLASH/LiFePO4/GPX/LiFePO4_final.gpx",
+      "role": "gpx",
+      "bytes": 567671,
+      "sha256": "4dad73ad5be64264675b46cd84a5017ad4298c7724ff34c3ca9b119523a1d12a",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LiFePO4",
+      "run_id": "session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/LiFePO4/LiFePO4_final/LiFePO4_final.gpx"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0\\artifacts\\LiFePO4\\LiFePO4_final\\LiFePO4_fit.png",
+      "destination": "DEEPSEEK V4.1 FLASH/LiFePO4/figures/LiFePO4_fit.png",
+      "role": "image",
+      "bytes": 387252,
+      "sha256": "018d51f7da0dc2e1873c7c31f6052caabd3c91c574dd749b0ab0ae2b84549a1b",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LiFePO4",
+      "run_id": "session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/LiFePO4/LiFePO4_final/LiFePO4_fit.png"
+    }
+  ]
+}

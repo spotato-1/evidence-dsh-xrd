@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "file_count": 52,
+  "files": [
+    {
+      "path": "conclusion.md",
+      "bytes": 2606,
+      "sha256": "8365749322d3b1e5598b9a7708dd7ee14ccf121bd5558af6abc8ccd3f203475b"
+    },
+    {
+      "path": "final_selection.json",
+      "bytes": 579,
+      "sha256": "dce52330ade19f62248af67b9e53ff37bb0ea81ea7b5fb737a46c4578e9af77c"
+    },
+    {
+      "path": "final_tool_evidence.json",
+      "bytes": 3357,
+      "sha256": "3811d58f2d9e9d8d4067e9d1e5d641013e5c16a845ce9fcd5626932a49d37b78"
+    },
+    {
+      "path": "plugin_logs/Amorphous/xrd_workflow/journal.jsonl",
+      "bytes": 4020,
+      "sha256": "38d32c4aa1abab77ebf4489fa78ca2623e506f063fbd2ce418f54256eb142bf2"
+    },
+    {
+      "path": "plugin_logs/Amorphous/xrd_workflow/journal.md",
+      "bytes": 8515,
+      "sha256": "eb3c65874b96a7fbd468f1460ae355ceb07312066d2b98c8ecdfdb2754a98b9e"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 374512,
+      "sha256": "9240dd03c4e1756ea52f3204fb9236901ee4ebd57701a0c9d8e78e35c9395f3d"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1779,
+      "sha256": "5e87909cb94f02b84c13d2b2c2ce3728b28519557230cedff7dc523ca03522e5"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 13404,
+      "sha256": "4ba97c576dc50a01f38072ee703ce76c0c7959b178b4e7fd927cc86e4707517a"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 297387,
+      "sha256": "920aeb3324b884b5576538ebae799eb61e09e4139603c98e4f7f035b7769cd4d"
+    },
+    {
+      "path": "user_messages.json",
+      "bytes": 266,
+      "sha256": "b8f439113bf20b222aafb31933c019c4aa64b356c8c75528f4dd8513a11ed657"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.mplcache/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "44800df5f5f21685f7adcd24f7b5ea3775290874f882810d9e686f485d0ebf8a"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv13xr50-4snuk4x8.json",
+      "bytes": 269,
+      "sha256": "2d840ba004b96a92896a7625f1b0ebb7809d9c9b2ca601f494281e2b10a5d2b3"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv13yp37-5t1yuo45.json",
+      "bytes": 272,
+      "sha256": "b64873fd14bc6ca31f2d9f129e012bb4a4386485c3ee10ed2a4dea0064d1a63c"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv140mqj-k3j98xkj.json",
+      "bytes": 262,
+      "sha256": "2a11f1bc24c0cb494cd69222abc40ec51007502437eb981a66880d5011629c84"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv143hle-q05jms2x.json",
+      "bytes": 275,
+      "sha256": "546616f890170abf4c55b033f92f9caa29ae4ba6729fed9553c336f7253369a8"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv144nyt-myna0mpo.json",
+      "bytes": 273,
+      "sha256": "7097b722a28a80e626dce3ba851e676847ccecb6820ed706a14f787afaf69532"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv14jica-mefq67jb.json",
+      "bytes": 262,
+      "sha256": "81fe26884a6b24c7ca1cc3fdd1c2946fde33bc5b74fe7ade8ee147cd24bc5004"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv156xve-n5snm9r2.json",
+      "bytes": 275,
+      "sha256": "aa9de4bcc5cc0fd1f5043a356fadc97b6d77cb50ef95d1d48d70d9ba73e4c536"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv156y36-pjmr4pkq.json",
+      "bytes": 262,
+      "sha256": "443a29e8a932b22366b52356c657731a4de4495b8b36473fbfc074ed6912ac89"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress.json",
+      "bytes": 262,
+      "sha256": "443a29e8a932b22366b52356c657731a4de4495b8b36473fbfc074ed6912ac89"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/__pycache__/proc_guard.cpython-313.pyc",
+      "bytes": 27908,
+      "sha256": "0a17295ed80306b716a94afd93142771b399f8b24c72598eeda0352766926219"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/__pycache__/result_io.cpython-313.pyc",
+      "bytes": 6243,
+      "sha256": "b788af2447e85a4ad5501bb4624d0f49c06abb8962d81d389c08539f7e1dbd65"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/__pycache__/xrd_engine_custom.cpython-313.pyc",
+      "bytes": 73551,
+      "sha256": "552ab9f54be06fb2a3f8adf8186e79cbc4f467ab9a85967c54f1c2d8e04e41cf"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/components.json",
+      "bytes": 318899,
+      "sha256": "ef541e92e4eb28d7864b53a8fcecff5a91952f510099751da42b2495bbb1da3f"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/components_round4_final.json",
+      "bytes": 318899,
+      "sha256": "ef541e92e4eb28d7864b53a8fcecff5a91952f510099751da42b2495bbb1da3f"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/data_io_plan.json",
+      "bytes": 614,
+      "sha256": "1557c1a741f7ebd933f0b16b86cb4ddc4b571bc025b0b682695f59b7301c850b"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/data_io_result.json",
+      "bytes": 4665,
+      "sha256": "082bfdd88b4bc1f89e3eedc44b3b95b47bd3c0e7237ccd30105c01c9f76c8ecc"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/export_plan.json",
+      "bytes": 844,
+      "sha256": "9867cca53e377c20b6847dba6e9bd5302dccddf5d4148dedb1eef7d106e26384"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/export_result.json",
+      "bytes": 880,
+      "sha256": "ea45e3f388a0a26ba44257ed2e33dfd962012b9ee7888d4858a1ea5e11c38186"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/pattern.raw",
+      "bytes": 14784,
+      "sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/pattern.txt",
+      "bytes": 65829,
+      "sha256": "8af4419822c49799d07c31e5ee9167e375eb055830e1eb8c1a843bd9261ff496"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/pattern_2theta.txt",
+      "bytes": 92555,
+      "sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/pattern_full_fit.png",
+      "bytes": 294428,
+      "sha256": "b2d966c992b5ed70ca1814922271f1081653139a9a26bee7e4330b251a0f5f4c"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/phase_screen_plan.json",
+      "bytes": 298,
+      "sha256": "9ed5cb8b579efefd006f9aa1c13ce07d71c0a75c55a62594628e4e4304b71360"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/phase_screen_result.json",
+      "bytes": 2544,
+      "sha256": "86cbfd04f9c290c0350fd4e38194ea359213ff2c066503d3428d3479a543f15b"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/plan_round1.json",
+      "bytes": 1225,
+      "sha256": "b47ed56106118fa80e8316cd3f50efaf081e9133d093793600ed1df2491d62ee"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/plan_round2.json",
+      "bytes": 1200,
+      "sha256": "097c83b4df6eb6fd6a75d70cc772b3daca5f6fbd3f57384c36650b11dd80b963"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/plan_round3.json",
+      "bytes": 1183,
+      "sha256": "98c9829fd2a5d56abab17dcab41a71606b938a24402480945afa51c076d237b4"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/plan_round4.json",
+      "bytes": 1462,
+      "sha256": "56ca75f95c263ec62c63339c0e2d1ec6a2e5ea36ea5bb212d3620aece9bd90a0"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/plan_round4_final.json",
+      "bytes": 1462,
+      "sha256": "56ca75f95c263ec62c63339c0e2d1ec6a2e5ea36ea5bb212d3620aece9bd90a0"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/proc_guard.py",
+      "bytes": 21936,
+      "sha256": "9cba1e22a28b69f442f1a6f61d72572ae575a431fde41333f53ee2fd680156ab"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/report.md",
+      "bytes": 9534,
+      "sha256": "29b8d135301ba15a4b2c8c673ef73f27e63bae3de55c074b99c1bc79aec1a4f7"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/residual_round4.txt",
+      "bytes": 65982,
+      "sha256": "fe0bc5575c22a5a46acacaa5b176de5f2399ba80b6e2eaa25ec9879d65821e7a"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/result.json",
+      "bytes": 9569,
+      "sha256": "91306ee1ba94dc2df4f03929592a74d0bb8969679c9c305d2b9fdcc2c921f89b"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/result_io.py",
+      "bytes": 4723,
+      "sha256": "1d5cada7fab77ed9bfc0acf1f1e47d33e48ec241a6cfc0fbad9c629b2b783092"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/result_round4_final.json",
+      "bytes": 9569,
+      "sha256": "91306ee1ba94dc2df4f03929592a74d0bb8969679c9c305d2b9fdcc2c921f89b"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/round1_fit_fit.png",
+      "bytes": 365498,
+      "sha256": "e400932f5a38e4dd1cebc1adfd96ba42489afd5cf2cf4e6060142da5a54a8048"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/round4_final_fit.png",
+      "bytes": 402437,
+      "sha256": "51b6ec22dedc14427f8983dc9d030a0e0507678ea4e4754db20bb1b04111ba2a"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/workflow_state.json",
+      "bytes": 8327,
+      "sha256": "59a3288166a82a2f05260645d98b5f7754efdbb5ab74fe8cc11da49ffe9179a4"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/xrd_engine_custom.py",
+      "bytes": 71293,
+      "sha256": "db9550ea886b8e12c3583c3635a9e4c43533a093e1278f9b737fcb39ae88e4bc"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/xrd_workflow/journal.jsonl",
+      "bytes": 4020,
+      "sha256": "38d32c4aa1abab77ebf4489fa78ca2623e506f063fbd2ce418f54256eb142bf2"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/xrd_workflow/journal.md",
+      "bytes": 8515,
+      "sha256": "eb3c65874b96a7fbd468f1460ae355ceb07312066d2b98c8ecdfdb2754a98b9e"
+    }
+  ]
+}

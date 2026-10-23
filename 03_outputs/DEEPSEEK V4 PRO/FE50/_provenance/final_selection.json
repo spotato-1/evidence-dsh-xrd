@@ -1,0 +1,36 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 160863,
+  "result_seq": 160864,
+  "input_gpx": "workspace\\DEEPSEEK V4 PRO\\FE50\\work\\FE50_best.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\DEEPSEEK V4 PRO\\FE50\\FE50_final"
+    ],
+    "gpx": [
+      "workspace\\DEEPSEEK V4 PRO\\FE50\\FE50_final\\FE50_final.gpx"
+    ],
+    "lst": [
+      "workspace\\DEEPSEEK V4 PRO\\FE50\\FE50_final\\FE50_final.lst"
+    ],
+    "plot": [
+      "workspace\\DEEPSEEK V4 PRO\\FE50\\FE50_final\\FE50_fit.png"
+    ],
+    "report": [
+      "workspace\\DEEPSEEK V4 PRO\\FE50\\FE50_final\\FE50_report.md"
+    ],
+    "cif": [
+      "workspace\\DEEPSEEK V4 PRO\\FE50\\FE50_final\\FE50_K5.84_Mn2_Fe6_C23.28_N23.28.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 11.71,
+    "R": 9.314754727727967,
+    "Rb": 11.109987906143914,
+    "wRb": 13.565362033387968,
+    "wRmin": 7.9169244690920095,
+    "chi2": 6133.14,
+    "gof": 1.49
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

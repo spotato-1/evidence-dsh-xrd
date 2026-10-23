@@ -1,0 +1,19 @@
+{
+  "model": "QWEN 3.6 FLASH",
+  "case_id": "LayeredOxide",
+  "run_id": "session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889",
+  "selection_basis": "no successful finalize or fit-export event",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 0,
+    "gpx": 0,
+    "cif": 0
+  },
+  "all_three_types_present": false,
+  "same_final_state": null,
+  "notes": [
+    "frozen workflow recordgsas_completed=false。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": []
+}

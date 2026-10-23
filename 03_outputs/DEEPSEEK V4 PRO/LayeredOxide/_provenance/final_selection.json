@@ -1,0 +1,37 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 151659,
+  "result_seq": 151660,
+  "input_gpx": "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\gsas_proj_continued.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final"
+    ],
+    "gpx": [
+      "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx"
+    ],
+    "lst": [
+      "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.lst"
+    ],
+    "plot": [
+      "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png"
+    ],
+    "report": [
+      "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_report.md"
+    ],
+    "cif": [
+      "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_built.cif",
+      "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_sodium_molybdate.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 9.82,
+    "R": 6.683906397270739,
+    "Rb": 14.492414732515199,
+    "wRb": 30.06896808305411,
+    "wRmin": 4.974489979853109,
+    "chi2": 13374.5,
+    "gof": 1.98
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

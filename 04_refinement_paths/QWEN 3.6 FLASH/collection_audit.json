@@ -1,0 +1,82 @@
+{
+  "model": "QWEN 3.6 FLASH",
+  "case_count": 6,
+  "cases": [
+    {
+      "case_id": "Amorphous",
+      "run_id": "session-ca1a1ef9-e097-4be7-86c2-82160493c454",
+      "status": "excluded/incomplete_refinement",
+      "final_backend": null,
+      "tool_calls": 94,
+      "wr": null,
+      "warnings": [
+        "missing_workflow_state",
+        "missing_journal_jsonl"
+      ]
+    },
+    {
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-2095ef69-0b07-4a14-b4a7-bdc165c1c98e",
+      "status": "excluded/incomplete_refinement",
+      "final_backend": null,
+      "tool_calls": 60,
+      "wr": null,
+      "warnings": [
+        "missing_journal_jsonl",
+        "recorded_workflow_phase_not_5"
+      ]
+    },
+    {
+      "case_id": "FE50",
+      "run_id": "session-985a7e63-82b6-4e7c-8787-51413bd6ce2c",
+      "status": "excluded/incomplete_refinement",
+      "final_backend": null,
+      "tool_calls": 55,
+      "wr": null,
+      "warnings": [
+        "missing_workflow_state",
+        "missing_journal_jsonl"
+      ]
+    },
+    {
+      "case_id": "Fluoroapatite",
+      "run_id": "session-61e0a8fe-cd72-4a47-a6f9-2e7322953a1f",
+      "status": "excluded/incomplete_refinement",
+      "final_backend": null,
+      "tool_calls": 25,
+      "wr": null,
+      "warnings": [
+        "missing_workflow_state",
+        "missing_journal_jsonl",
+        "session_contains_error_ended_turns"
+      ]
+    },
+    {
+      "case_id": "LayeredOxide",
+      "run_id": "session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889",
+      "status": "excluded/incomplete_refinement",
+      "final_backend": null,
+      "tool_calls": 22,
+      "wr": null,
+      "warnings": [
+        "missing_workflow_state",
+        "missing_journal_jsonl",
+        "session_contains_error_ended_turns"
+      ]
+    },
+    {
+      "case_id": "LiFePO4",
+      "run_id": "session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b",
+      "status": "excluded/incomplete_refinement",
+      "final_backend": null,
+      "tool_calls": 25,
+      "wr": null,
+      "warnings": [
+        "missing_workflow_state",
+        "missing_journal_jsonl",
+        "session_contains_error_ended_turns"
+      ]
+    }
+  ],
+  "scoring_performed": false
+}

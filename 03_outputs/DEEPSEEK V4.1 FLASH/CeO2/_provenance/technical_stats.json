@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "campaign_id": "dsh-xrd-deepseek-v4.1-flash-full12-2026-10",
+  "case_id": "CeO2",
+  "case_ids": [
+    "CeO2"
+  ],
+  "run_id": "session-2c4aff20-e5cf-458d-920f-f19ab4d4277f",
+  "collected_at": "2026-10-06T19:34:56.172941+00:00",
+  "source": {
+    "input_hashes": {
+      "CeO2/input/stephsh_2th.txt": "4d13fb458225b84e945f62ad2deebd4c644acf7b0c0017d1027a7bb73dd0dd7e"
+    },
+    "session_container": {
+      "name": "session.jsonl.zstd",
+      "bytes": 1700372,
+      "sha256": "790f53374120ba67ca6389c41453080313e3b84d69755ee9648893344048b519"
+    },
+    "dsh_version": "dsh-portable 0.1.0-rc5-xrd090-zh",
+    "plugin_version": "dsh-xrd 0.9.1",
+    "plugin_commit": null,
+    "model": "DeepSeek V4.1 Flash",
+    "model_ids_in_session": [
+      "deepseek-flash"
+    ],
+    "engine_versions": {}
+  },
+  "execution": {
+    "started_at": "2026-10-05T13:43:27.053000+00:00",
+    "ended_at": "2026-10-06T17:22:14.727000+00:00",
+    "elapsed_seconds": 99527.674,
+    "input_tokens": 138164,
+    "output_tokens": 135061,
+    "cache_read_tokens": 13104384,
+    "token_usage_basis": "DSH session project cache totals",
+    "turns": 1,
+    "goal_rounds": 0,
+    "tool_calls": 118,
+    "tool_errors": 1,
+    "retries": 0
+  },
+  "workflow": {
+    "phase": [
+      {
+        "path": "states/CeO2/workflow_state.json",
+        "value": 5
+      }
+    ],
+    "final_backend": "GSAS-II",
+    "required_stages": [
+      "1",
+      "2",
+      "3",
+      "4-I",
+      "4-II",
+      "4-III",
+      "5"
+    ],
+    "completed_stages": [],
+    "converged": null,
+    "gsas_completed": true,
+    "final_export_completed": true,
+    "warnings": []
+  },
+  "final_metrics": {
+    "rwp": null,
+    "wr": null,
+    "rexp": null,
+    "chi2": null,
+    "gof": null,
+    "source": null,
+    "note": "Not normalized during initial evidence freeze; source values remain in state/result artifacts."
+  },
+  "integrity": {
+    "journal_jsonl_total": 13,
+    "journal_jsonl_valid": 13,
+    "journal_jsonl_invalid": 0,
+    "journal_jsonl_files": 3,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_consistent": null,
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "artifacts": [
+    {
+      "role": "final_cif",
+      "path": "artifacts/CeO2/CeO2_final/CeO2_CeO2.cif",
+      "bytes": 5338,
+      "sha256": "85ca9851cb29ef32f4818bb97bf66195211b6329bcc5cdc22067e687df24b2e4"
+    },
+    {
+      "role": "final_gpx",
+      "path": "artifacts/CeO2/CeO2_final/CeO2_final.gpx",
+      "bytes": 1720418,
+      "sha256": "46dc0777b128f33bd612b58a2ad602bbb3ae3b762b09f72125dbbdad28c96653"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/CeO2/CeO2_final/CeO2_final.lst",
+      "bytes": 9601,
+      "sha256": "2adcf485517ff894f74aa1f6e5a2919feedfe0d93d8a78fa3185db5fe9490992"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/CeO2/CeO2_final/CeO2_finalize.json",
+      "bytes": 2822,
+      "sha256": "5121256581d4ca2261dce4ef0c276c00eb8f7da6ca3fe75cb5ebaf6e963ff345"
+    },
+    {
+      "role": "final_fit_or_figure",
+      "path": "artifacts/CeO2/CeO2_final/CeO2_fit.png",
+      "bytes": 190751,
+      "sha256": "988bffb6372642708830f5ab9ecd2a7e04ae72835b5ffa594096dc4d24a5818d"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/CeO2/CeO2_final/CeO2_report.md",
+      "bytes": 2856,
+      "sha256": "7cf07fc910d99c4633f1a2ff7611b9b2b4bef2fc9b1d6c43c53a937b5815f144"
+    },
+    {
+      "role": "conclusion",
+      "path": "conclusion.md",
+      "bytes": 3407,
+      "sha256": "946a7297d2323876e79398149fb3e5cc71d7ab320dd3651d1d9b9308ad77523f"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/CeO2/work/manual1/xrd_workflow/journal.jsonl",
+      "bytes": 722,
+      "sha256": "57c69a56cff7cc4923deb4fc8bad917f1d999f288f2f253e3cfa31f00980da87"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/CeO2/work/manual1/xrd_workflow/journal.md",
+      "bytes": 614,
+      "sha256": "49cf6ad31120d9d1550cc8538d4ad90e4f0b463ed436daa6571d7ad142e48125"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/CeO2/work/manual2/xrd_workflow/journal.jsonl",
+      "bytes": 721,
+      "sha256": "9f5497056209027bcf57197c45c9d0c6e40b5de183a01c973698f95860de1125"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/CeO2/work/manual2/xrd_workflow/journal.md",
+      "bytes": 613,
+      "sha256": "7c7509f710cecc44e5e8a00a7bba046ccf51b59e7fb539f7d4621099e901ce9d"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/CeO2/xrd_workflow/journal.jsonl",
+      "bytes": 7471,
+      "sha256": "ace41d1a82be07e942c3145b50ff392bc53caa3b780710542b0200fa9887afd9"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/CeO2/xrd_workflow/journal.md",
+      "bytes": 11421,
+      "sha256": "b0489a45b0eca4ac12fe4348c7f927f4e3a12e7c268067f373fcb4d3c96ab62b"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "root_reports/CeO2/CeO2_XRDrefinement report.md",
+      "bytes": 15188,
+      "sha256": "1a7e2ef89ae571c3eea3fe389427681ac8c509af5e8b84284a7bd07451987850"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "root_reports/CeO2/review_judgment.md",
+      "bytes": 4704,
+      "sha256": "80ec6a81df5309bcdda435a584a172977c1078ddd19c483b41911110f1a3a98e"
+    },
+    {
+      "role": "session_core",
+      "path": "session_core.jsonl.gz",
+      "bytes": 718017,
+      "sha256": "b9a83f6d4b9fe6373a477f63d7d5d38379e947845b7403c1bec33f81cf712300"
+    },
+    {
+      "role": "session_extract_stats",
+      "path": "session_extract_stats.json",
+      "bytes": 1783,
+      "sha256": "a148a02179fd04b147d4535971b60ccbda0f788356a4508f91b53c054c66d796"
+    },
+    {
+      "role": "workflow_state",
+      "path": "states/CeO2/workflow_state.json",
+      "bytes": 7748,
+      "sha256": "9574d6805258af75546dc580212df5c7f6386e8ee5e17134e0e034feae444d65"
+    },
+    {
+      "role": "tool_trace",
+      "path": "tool_trace.jsonl",
+      "bytes": 443195,
+      "sha256": "6067965b620505eb6c2e8c2be7c2b2a960a48a30b050b4d27818e524f5fa900e"
+    }
+  ],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  }
+}

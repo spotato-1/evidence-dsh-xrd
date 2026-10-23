@@ -1,0 +1,6 @@
+case,deepseek_wR_percent,gpt56_wR_percent,gpt56_G_negative_fraction_percent,assessment
+Fe2O3_Fe3O4_2ph,2.3483,2.7274,59.7,"same phases; GPT omitted quantitative wt fraction and has profile-domain failure"
+FE50,11.4166,11.7347,12.2,"not strictly blind-equivalent; cubic average is currently better supported than unconstrained P21/c"
+Fluoroapatite,9.7044,12.5348,93.9,"same P63/m and nearly same cell; main difference is refinement/profile stability"
+LayeredOxide,7.7794,14.5521,100.0,"same main family and Na2MoO4 candidate; GPT phase/profile model unstable"
+LiFePO4,6.2228,23.7586,98.5,"same data; GPT recovered a comparable cell and avoided a fixed antisite value, but the final instrument-profile domain remains invalid"

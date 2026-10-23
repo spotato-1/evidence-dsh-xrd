@@ -1,0 +1,34 @@
+﻿{
+  "model": "DEEPSEEK V4.1 FLASH",
+  "case_id": "Amorphous",
+  "run_id": "session-d235dfd1-05e1-4bf6-b84c-04021f9b411e",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 0,
+    "cif": 0
+  },
+  "all_three_types_present": false,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [
+    "amorphous empirical analysis route；GPX/CIFregistered per actual generation，no crystal proxy or input usedCIF补齐。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-d235dfd1-05e1-4bf6-b84c-04021f9b411e\\artifacts\\Amorphous\\work\\W_final_fit.png",
+      "destination": "DEEPSEEK V4.1 FLASH/Amorphous/figures/W_final_fit.png",
+      "role": "image",
+      "bytes": 447337,
+      "sha256": "47521b4a11519fe02a7b20f6c6fe2c85e437585a8e2bd422c76292cf455078ee",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "Amorphous",
+      "run_id": "session-d235dfd1-05e1-4bf6-b84c-04021f9b411e",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/Amorphous/work/W_final_fit.png"
+    }
+  ]
+}

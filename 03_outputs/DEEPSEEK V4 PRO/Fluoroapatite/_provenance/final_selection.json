@@ -1,0 +1,36 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 124107,
+  "result_seq": 124108,
+  "input_gpx": "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\gsas_proj_continued.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\Fluoroapatite_final"
+    ],
+    "gpx": [
+      "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.gpx"
+    ],
+    "lst": [
+      "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.lst"
+    ],
+    "plot": [
+      "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_fit.png"
+    ],
+    "report": [
+      "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_report.md"
+    ],
+    "cif": [
+      "workspace\\DEEPSEEK V4 PRO\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_Ca10_P6_O24_F2.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 9.75,
+    "R": 7.659114232100038,
+    "Rb": 7.467649792015932,
+    "wRb": 9.120199710300488,
+    "wRmin": 5.610439793764994,
+    "chi2": 17369,
+    "gof": 1.74
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "file_count": 21,
+  "files": [
+    {
+      "path": "conclusion.md",
+      "bytes": 131,
+      "sha256": "b830da1864083d1331053904865db44d6b7d7d7cd8ef87f953e116f34fe27cf5"
+    },
+    {
+      "path": "final_selection.json",
+      "bytes": 94,
+      "sha256": "f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f"
+    },
+    {
+      "path": "final_tool_evidence.json",
+      "bytes": 37,
+      "sha256": "5a96e6a63f189c860573886f1b0a0e9c03d023741faef6810e07d1301c8dd338"
+    },
+    {
+      "path": "plugin_logs/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 975,
+      "sha256": "e99bbea532f2aea908edd8829f82de7d3d9ee10b6dcc450b424d58f1ce9b6225"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 84440,
+      "sha256": "2a7abcbcd32beb0868a2f293dceccea2f98d37a4848efedcc4666c531d09edb2"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1647,
+      "sha256": "c838a1ba7978ade9ec91740fd28a6dc3c2c9b5851db2eec927255e972714432b"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 7110,
+      "sha256": "c4dbb5a6b62ff6a9ea50c20df1b9a62ee9fcef5f5d3dd4181a0498f1fae69f83"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 47094,
+      "sha256": "cd9070a8f299c6e24b878ddab58598974840c20535baf720ae618419902357c8"
+    },
+    {
+      "path": "user_messages.json",
+      "bytes": 1473,
+      "sha256": "d415cb5be8119f9bfcad9dc5e18f5d7b1b7f7c064de0ca4c88c413c9669ce1a6"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/pattern_2theta.txt",
+      "bytes": 128544,
+      "sha256": "66c1205ef63c1fd9e1a0edbfc935c18792ff030ff3b8e75b0a2d6a2cd184280c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1010647.cif",
+      "bytes": 2530,
+      "sha256": "864d2f3c0a75ed88658afa63a2bce3634cda34cb5aa3d0725b6efa33b531227b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1010774.cif",
+      "bytes": 1289,
+      "sha256": "de889c997c4feda57dcaf8848653a9a76f834912c3c1541a8d7a69c541b6a02c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1010916.cif",
+      "bytes": 2717,
+      "sha256": "0199879d5c491aedf50d3a58205aa0e7f7b5f57af12924da76e9795cf9d419ed"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1010969.cif",
+      "bytes": 1298,
+      "sha256": "b6b010a4acd9c4c887ded61e5237001dd6e799c0ff4b590a8ab044ff9577931a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1010996.cif",
+      "bytes": 2708,
+      "sha256": "515121b14c430d625fbe78a151379663abd27e14798710b2a36b9af226c3b165"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1010997.cif",
+      "bytes": 2641,
+      "sha256": "819233d4c3e9f07d749a21d05e26404ae4f10623fa50ee876fd2dfa6b5281bc3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1011044.cif",
+      "bytes": 2546,
+      "sha256": "b2d16e4220015afc5f88141eb59713a3d466e64af63fc684fa8bce535ac2b53a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1011137.cif",
+      "bytes": 2631,
+      "sha256": "d5aa4d9a149946ea9b4e063744ccf9cfe453795564334f7ca694e34ddafc9312"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1011138.cif",
+      "bytes": 2604,
+      "sha256": "3d9a46bcb84a9ec96f86a02f0185474acb163979788e691bb172557d0bbeefa8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1011242.cif",
+      "bytes": 2938,
+      "sha256": "363b865272181dfd2ff681a543d2f9eabdb52d9b540f497b73f3ae6c8c6afdce"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 975,
+      "sha256": "e99bbea532f2aea908edd8829f82de7d3d9ee10b6dcc450b424d58f1ce9b6225"
+    }
+  ]
+}

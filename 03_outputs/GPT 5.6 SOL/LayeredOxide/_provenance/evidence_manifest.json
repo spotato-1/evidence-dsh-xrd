@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_final.gpx",
+      "bytes": 343449,
+      "sha256": "ff4e7b29290c012df086194acabecfb380aa9937da4711c351f569e6393268b6"
+    },
+    {
+      "path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_final.lst",
+      "bytes": 19386,
+      "sha256": "4ad5b698b9bae8498ace10342ca70b5870bbbdf7a059b7c7110f8ae82d3e8872"
+    },
+    {
+      "path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_finalize.json",
+      "bytes": 7312,
+      "sha256": "3b843429f85d7e9743811b185a7cad693907d8147f71fc29bff15207d3d012e7"
+    },
+    {
+      "path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_fit.png",
+      "bytes": 279065,
+      "sha256": "290725d08da2c301dabd83bb1038c8ee521b8fea66ae1210c5f26f1c9e6db3b4"
+    },
+    {
+      "path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif",
+      "bytes": 2008,
+      "sha256": "c2535465b80c4b241f17d51ed5c98b62ce60b6220be946e4bbbe95b9f8705de4"
+    },
+    {
+      "path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_Na4_Mo2_O8.cif",
+      "bytes": 2188,
+      "sha256": "1c1729bd358fac1047c2f3c7d9138318c988c6c17663a8c2e6879eeb0a3981e2"
+    },
+    {
+      "path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_report.md",
+      "bytes": 5122,
+      "sha256": "cf0d9ad3623aaab9ab7146c0e7f963a39c905f736ba791bd4836c0ea06baa8d5"
+    },
+    {
+      "path": "conclusion.md",
+      "bytes": 2562,
+      "sha256": "9e1029c2c81177bafdc977d3a32a11353cdf8c8f956702b30a9b2b4237cae38b"
+    },
+    {
+      "path": "plugin_logs/LayeredOxide/manual_P21m/xrd_workflow/journal.jsonl",
+      "bytes": 722,
+      "sha256": "743b3c6ced2ea554f6457cfbd6dee2c648d74865dbf46e8bb7bfc52ee2c0a7ab"
+    },
+    {
+      "path": "plugin_logs/LayeredOxide/manual_P21m/xrd_workflow/journal.md",
+      "bytes": 629,
+      "sha256": "ae0deda54c64fad2089c9791ad587d775b25926e98f693a14c5221ac52f36f9c"
+    },
+    {
+      "path": "plugin_logs/LayeredOxide/manual_P63/xrd_workflow/journal.jsonl",
+      "bytes": 705,
+      "sha256": "b11e637911820bbcc61cb1429cf671f8ccf831a4ae1c64bcd2e805d7727764b5"
+    },
+    {
+      "path": "plugin_logs/LayeredOxide/manual_P63/xrd_workflow/journal.md",
+      "bytes": 615,
+      "sha256": "ea49dbab9c7b95e797baa854fba9858be3b23e6353298f97c575a23aacc6d7a0"
+    },
+    {
+      "path": "plugin_logs/LayeredOxide/manual_twophase_P63/xrd_workflow/journal.jsonl",
+      "bytes": 723,
+      "sha256": "0de71330a973ef2564f0b1bd06ac05482290f74b0b8af90a2c009d7bede66e17"
+    },
+    {
+      "path": "plugin_logs/LayeredOxide/manual_twophase_P63/xrd_workflow/journal.md",
+      "bytes": 630,
+      "sha256": "c50abc1c99f98e11bcd4c2ed8401713ba2e79e72b94eba3c7127218c10c7a6d2"
+    },
+    {
+      "path": "plugin_logs/LayeredOxide/xrd_workflow/journal.jsonl",
+      "bytes": 621,
+      "sha256": "dc4b859a18271a333eda956dd27338cc30851d1146e86bcd95b792663fc12565"
+    },
+    {
+      "path": "plugin_logs/LayeredOxide/xrd_workflow/journal.md",
+      "bytes": 2230,
+      "sha256": "58bb7c8ef3b19889c1a8d7d9cc020bc612bc379e678366f13234eeff1d5853bd"
+    },
+    {
+      "path": "root_reports/LayeredOxide/XRD_refinement_summary.md",
+      "bytes": 4759,
+      "sha256": "24f69d5a629bf5ac8220ff4e04df1954ad619ccf9854d042d534e4f310ad4b27"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 240895,
+      "sha256": "24bf1ecca4c88651e9e1872d52ed815018efe2d2cfe32b341d5278e37d2a0d2e"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1718,
+      "sha256": "3f8a234baa425a247203e74c1f623f30ddba803c085b00812f242c9869fe435d"
+    },
+    {
+      "path": "states/LayeredOxide/workflow_state.json",
+      "bytes": 5141,
+      "sha256": "c73dedb925cf782b1abd36a53000f34697fafdcf575f2bd80f0c309b1646618e"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 7948,
+      "sha256": "5053af2d0f1ce5645aff4a683704fa28b362dfb34805bf70286a610674144364"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 307085,
+      "sha256": "a08e7249d4cfdd5bf6618c272038d9fcdfe27389847a0de75dba17f52fb23d0c"
+    }
+  ]
+}

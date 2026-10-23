@@ -1,0 +1,60 @@
+﻿{
+  "model": "GLM 5.3",
+  "case_id": "LiFePO4",
+  "run_id": "session-1d775c6a-f34e-46d8-ada1-3b542078b25c",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 101711,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-1d775c6a-f34e-46d8-ada1-3b542078b25c\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx",
+      "destination": "GLM 5.3/LiFePO4/GPX/LiFePO4_final.gpx",
+      "role": "gpx",
+      "bytes": 574368,
+      "sha256": "4de05083e1b8bcf4325de2cc8e032dcff7265cfc36837560bd44330a55a0ca66",
+      "model": "GLM 5.3",
+      "case_id": "LiFePO4",
+      "run_id": "session-1d775c6a-f34e-46d8-ada1-3b542078b25c",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\GLM 5.3\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-1d775c6a-f34e-46d8-ada1-3b542078b25c\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_fit.png",
+      "destination": "GLM 5.3/LiFePO4/figures/LiFePO4_fit.png",
+      "role": "image",
+      "bytes": 334395,
+      "sha256": "e61e8d1ee0e74b4a0222d9e688ac123abe3adb2dac9e819b2e4dc339620b33c0",
+      "model": "GLM 5.3",
+      "case_id": "LiFePO4",
+      "run_id": "session-1d775c6a-f34e-46d8-ada1-3b542078b25c",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\GLM 5.3\\LiFePO4\\LiFePO4_final\\LiFePO4_fit.png"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-1d775c6a-f34e-46d8-ada1-3b542078b25c\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_built.cif",
+      "destination": "GLM 5.3/LiFePO4/CIF/LiFePO4_built.cif",
+      "role": "cif",
+      "bytes": 1865,
+      "sha256": "7bdd19d9d44a6a83afb98fe449e473b573f18573c4d4f1f634fb1a3275d46707",
+      "model": "GLM 5.3",
+      "case_id": "LiFePO4",
+      "run_id": "session-1d775c6a-f34e-46d8-ada1-3b542078b25c",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\GLM 5.3\\LiFePO4\\LiFePO4_final\\LiFePO4_built.cif"
+    }
+  ]
+}

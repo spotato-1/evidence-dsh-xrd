@@ -1,0 +1,49 @@
+﻿{
+  "model": "DEEPSEEK V4 PRO",
+  "case_id": "Amorphous",
+  "run_id": "session-d42e59d1-3452-494f-89c3-cf701e16c279",
+  "selection_basis": "last completed xrd_export_cif result; validation verdict is preserved separately",
+  "selection_tool_seq": 63230,
+  "counts": {
+    "image": 2,
+    "gpx": 0,
+    "cif": 0
+  },
+  "all_three_types_present": false,
+  "same_final_state": "export call source and resulting files retained; final answer may conflict",
+  "notes": [
+    "original export state：xrd_export_cif: warn",
+    "amorphous empirical analysis route；GPX/CIFregistered per actual generation，no crystal proxy or input usedCIF补齐。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\workspace_snapshot\\Amorphous\\amorphous_carbon_fit.png",
+      "destination": "DEEPSEEK V4 PRO/Amorphous/figures/amorphous_carbon_fit.png",
+      "role": "image",
+      "bytes": 121331,
+      "sha256": "5234be16a2345fad65522e7af482b78cc46228dc6267bdfed53c93aaa877fb46",
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "Amorphous",
+      "run_id": "session-d42e59d1-3452-494f-89c3-cf701e16c279",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.candidate_files",
+      "declared_original_path": "workspace\\DEEPSEEK V4 PRO\\Amorphous\\amorphous_carbon_fit.png"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\workspace_snapshot\\Amorphous\\amorphous_carbon_fit_fit.png",
+      "destination": "DEEPSEEK V4 PRO/Amorphous/figures/amorphous_carbon_fit_fit.png",
+      "role": "image",
+      "bytes": 152750,
+      "sha256": "ca3bd2385838c41c5a7d1907bfa32866ec32b0ce1ad434c6645752e0a2e660a9",
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "Amorphous",
+      "run_id": "session-d42e59d1-3452-494f-89c3-cf701e16c279",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.candidate_files",
+      "declared_original_path": "workspace\\DEEPSEEK V4 PRO\\Amorphous\\amorphous_carbon_fit_fit.png"
+    }
+  ]
+}

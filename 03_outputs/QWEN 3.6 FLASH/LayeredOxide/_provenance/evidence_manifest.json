@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "file_count": 15,
+  "files": [
+    {
+      "path": "conclusion.md",
+      "bytes": 106,
+      "sha256": "59655d1c8dff2c92d414e9d56367a62e892bf9833c27958b9c31186a73dc6040"
+    },
+    {
+      "path": "final_selection.json",
+      "bytes": 94,
+      "sha256": "f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f"
+    },
+    {
+      "path": "final_tool_evidence.json",
+      "bytes": 37,
+      "sha256": "5a96e6a63f189c860573886f1b0a0e9c03d023741faef6810e07d1301c8dd338"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 126593,
+      "sha256": "4375ce38df41ab9d295a81a12f17ff1efa436dae37aabb3b42bd6fcbd7dac135"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1647,
+      "sha256": "5538689f016fc9b0f5b6d36de198ab29cf7938ef67d7dda730a195c5b89a047e"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 6331,
+      "sha256": "3c3909af5cbdf47a087caabefb038c0da7b442593b1614ba8a7bbaa475b3137f"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 79030,
+      "sha256": "7ee23540f984d8bf8ca69b87bbfc7617faec805c12f1818d0bea8c272dfefb0c"
+    },
+    {
+      "path": "user_messages.json",
+      "bytes": 1671,
+      "sha256": "43a14aa6596f2b5e2883fcffe7b0d68b1ba694f242baf67f560188744d5c0a48"
+    },
+    {
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-muzy0ndz-vbkaa6d7.json",
+      "bytes": 275,
+      "sha256": "49a95be324d9626b82ffb8b3701186f8a54d642338239aceae860a7510dbaad9"
+    },
+    {
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-muzy0rcb-s2cz3xt6.json",
+      "bytes": 275,
+      "sha256": "5083c4da0d19a5fc48e960f9cc426296381d52055cfb6852e3ff5231cd9809bb"
+    },
+    {
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress.json",
+      "bytes": 275,
+      "sha256": "5083c4da0d19a5fc48e960f9cc426296381d52055cfb6852e3ff5231cd9809bb"
+    },
+    {
+      "path": "workspace_snapshot/LayeredOxide/cif_edit_plan.json",
+      "bytes": 209,
+      "sha256": "05e0fd1e2f0407fd778d7bc66422c567260c657d8ea05044e07e16210b50e523"
+    },
+    {
+      "path": "workspace_snapshot/LayeredOxide/cif_edit_result.json",
+      "bytes": 69039,
+      "sha256": "ee7bc36eb4cf4470656bfd0399c63b8d50512d54a402fc4c64756aa12876aeeb"
+    },
+    {
+      "path": "workspace_snapshot/LayeredOxide/pattern.raw",
+      "bytes": 14784,
+      "sha256": "e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8"
+    },
+    {
+      "path": "workspace_snapshot/LayeredOxide/pattern_2theta.txt",
+      "bytes": 92535,
+      "sha256": "4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4"
+    }
+  ]
+}

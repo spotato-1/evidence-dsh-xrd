@@ -1,0 +1,105 @@
+﻿{
+  "model": "DEEPSEEK V4.1 FLASH",
+  "case_id": "LayeredOxide_2ph",
+  "run_id": "session-c4e50f96-987b-4d93-87c4-5d32343274fa",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 0,
+    "cif": 2
+  },
+  "all_three_types_present": false,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [
+    "最终手动双相模型保留O3与P2两份CIF；C2/m检验CIF和相归属/原谱图分列supplementary delivery。",
+    "frozen workflow recordgsas_completed=false。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-c4e50f96-987b-4d93-87c4-5d32343274fa\\artifacts\\LayeredOxide_2ph\\deliverables\\fig_phase_attribution_P2.png",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/supplementary delivery/figures/fig_phase_attribution_P2.png",
+      "role": "image",
+      "bytes": 174197,
+      "sha256": "0e72179123d77b322f10b04dcdc55d7547d5f77bd5ef9129ef14564daaeb6919",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide_2ph",
+      "run_id": "session-c4e50f96-987b-4d93-87c4-5d32343274fa",
+      "primary": false,
+      "output_group": "supplementary delivery图",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/LayeredOxide_2ph/deliverables/fig_phase_attribution_P2.png"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-c4e50f96-987b-4d93-87c4-5d32343274fa\\artifacts\\LayeredOxide_2ph\\deliverables\\fig_raw_pattern.png",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/supplementary delivery/figures/fig_raw_pattern.png",
+      "role": "image",
+      "bytes": 107647,
+      "sha256": "b4a0f0f489019695292494f484f2c1defb1bc0380e28323f5c8582825f845510",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide_2ph",
+      "run_id": "session-c4e50f96-987b-4d93-87c4-5d32343274fa",
+      "primary": false,
+      "output_group": "supplementary delivery图",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/LayeredOxide_2ph/deliverables/fig_raw_pattern.png"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-c4e50f96-987b-4d93-87c4-5d32343274fa\\artifacts\\LayeredOxide_2ph\\deliverables\\fit_Rwp7.81.png",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/figures/fit_Rwp7.81.png",
+      "role": "image",
+      "bytes": 163424,
+      "sha256": "0eba433cd8045a66984790860e74138a0413aa3214a7711fc09cc98b54c639d0",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide_2ph",
+      "run_id": "session-c4e50f96-987b-4d93-87c4-5d32343274fa",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/LayeredOxide_2ph/deliverables/fit_Rwp7.81.png"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-c4e50f96-987b-4d93-87c4-5d32343274fa\\artifacts\\LayeredOxide_2ph\\deliverables\\LayeredOxide_2ph_O3_refined.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/CIF/LayeredOxide_2ph_O3_refined.cif",
+      "role": "cif",
+      "bytes": 2206,
+      "sha256": "008b9d152b3e7a0f864781e5fefb861d45739af2ffbe34989cc2e3508c58160c",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide_2ph",
+      "run_id": "session-c4e50f96-987b-4d93-87c4-5d32343274fa",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/LayeredOxide_2ph/deliverables/LayeredOxide_2ph_O3_refined.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-c4e50f96-987b-4d93-87c4-5d32343274fa\\artifacts\\LayeredOxide_2ph\\deliverables\\O3_C2m_attempt.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/supplementary delivery/CIF/O3_C2m_attempt.cif",
+      "role": "cif",
+      "bytes": 887,
+      "sha256": "d036dec8078ac5ba9a827b35c25c0b598ee9585fec2bc86f16b46c63c7773a6b",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide_2ph",
+      "run_id": "session-c4e50f96-987b-4d93-87c4-5d32343274fa",
+      "primary": false,
+      "output_group": "supplementary check archive",
+      "declaration_basis": "technical_stats.artifacts.final_cif; conclusion labels C2/m attempt",
+      "declared_original_path": "artifacts/LayeredOxide_2ph/deliverables/O3_C2m_attempt.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-c4e50f96-987b-4d93-87c4-5d32343274fa\\artifacts\\LayeredOxide_2ph\\deliverables\\P2_P63mmc.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide_2ph/CIF/P2_P63mmc.cif",
+      "role": "cif",
+      "bytes": 1249,
+      "sha256": "62f521fbaf34f79459d1aacc49b78a084aafce8006b86d97d05764a3430fbf6d",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide_2ph",
+      "run_id": "session-c4e50f96-987b-4d93-87c4-5d32343274fa",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/LayeredOxide_2ph/deliverables/P2_P63mmc.cif"
+    }
+  ]
+}

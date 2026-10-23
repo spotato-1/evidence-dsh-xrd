@@ -1,0 +1,36 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 86561,
+  "result_seq": 86562,
+  "input_gpx": "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\gsas_proj_final.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\FAP_final"
+    ],
+    "gpx": [
+      "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\FAP_final\\FAP_final.gpx"
+    ],
+    "lst": [
+      "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\FAP_final\\FAP_final.lst"
+    ],
+    "plot": [
+      "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\FAP_final\\FAP_fit.png"
+    ],
+    "report": [
+      "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\FAP_final\\FAP_report.md"
+    ],
+    "cif": [
+      "workspace\\QWEN 3.8 MAX\\Fluoroapatite\\FAP_final\\FAP_built.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 11.5,
+    "R": 8.808778640366638,
+    "Rb": 9.154600529728635,
+    "wRb": 11.486743996898422,
+    "wRmin": 5.610439793764994,
+    "chi2": 24160.3,
+    "gof": 2.06
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

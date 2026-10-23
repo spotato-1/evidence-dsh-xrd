@@ -1,0 +1,60 @@
+﻿{
+  "model": "DEEPSEEK V4.1 FLASH",
+  "case_id": "FE60",
+  "run_id": "session-23c57f48-47b8-49e3-a32b-59dc7992f390",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-23c57f48-47b8-49e3-a32b-59dc7992f390\\artifacts\\FE60\\FE60_final_final\\FE60_final_built.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/FE60/CIF/FE60_final_built.cif",
+      "role": "cif",
+      "bytes": 5730,
+      "sha256": "2e9169197636a9e9eb7c87d71bbcb0f7b3a1dd23e59b955792bef089dc9b0e1f",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "FE60",
+      "run_id": "session-23c57f48-47b8-49e3-a32b-59dc7992f390",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/FE60/FE60_final_final/FE60_final_built.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-23c57f48-47b8-49e3-a32b-59dc7992f390\\artifacts\\FE60\\FE60_final_final\\FE60_final_final.gpx",
+      "destination": "DEEPSEEK V4.1 FLASH/FE60/GPX/FE60_final_final.gpx",
+      "role": "gpx",
+      "bytes": 240160,
+      "sha256": "dafc8008a048c90e96a1666e5bc1a558e73cccccfe9bdefa79bc3625d605955e",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "FE60",
+      "run_id": "session-23c57f48-47b8-49e3-a32b-59dc7992f390",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/FE60/FE60_final_final/FE60_final_final.gpx"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-23c57f48-47b8-49e3-a32b-59dc7992f390\\artifacts\\FE60\\FE60_final_final\\FE60_final_fit.png",
+      "destination": "DEEPSEEK V4.1 FLASH/FE60/figures/FE60_final_fit.png",
+      "role": "image",
+      "bytes": 342125,
+      "sha256": "6903142f26a6bcec81e8fb63152667077195ccf4d64ba541ceb9102423487e65",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "FE60",
+      "run_id": "session-23c57f48-47b8-49e3-a32b-59dc7992f390",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/FE60/FE60_final_final/FE60_final_fit.png"
+    }
+  ]
+}

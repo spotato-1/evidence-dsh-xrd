@@ -1,0 +1,19 @@
+{
+  "model": "QWEN 3.6 FLASH",
+  "case_id": "Fluoroapatite",
+  "run_id": "session-61e0a8fe-cd72-4a47-a6f9-2e7322953a1f",
+  "selection_basis": "no successful finalize or fit-export event",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 0,
+    "gpx": 0,
+    "cif": 0
+  },
+  "all_three_types_present": false,
+  "same_final_state": null,
+  "notes": [
+    "frozen workflow recordgsas_completed=false。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": []
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "file_count": 9,
+  "files": [
+    {
+      "path": "conclusion.md",
+      "bytes": 52,
+      "sha256": "33cfd82517ab0f40bc2fefb3da7a3c883c0b2f1acfbabf101125b66056b969be"
+    },
+    {
+      "path": "final_selection.json",
+      "bytes": 94,
+      "sha256": "f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f"
+    },
+    {
+      "path": "final_tool_evidence.json",
+      "bytes": 37,
+      "sha256": "5a96e6a63f189c860573886f1b0a0e9c03d023741faef6810e07d1301c8dd338"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 84458,
+      "sha256": "1979cd8355831aa69325eb5d2d6ba637283fc62d24cbf748a03ad3490e041718"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1645,
+      "sha256": "4bf8f22df84628fddf23d77b330331bf963ecdc2a48d308990bd2a8a17d46a61"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 4588,
+      "sha256": "83ee772688043a08d3df1ff03e76f4b02e078ad9cf72b406d17a74e7e7292543"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 48992,
+      "sha256": "f9f53f6af05f116ac6314b082d86f099bfed958effc118df777a52e0d2f02447"
+    },
+    {
+      "path": "user_messages.json",
+      "bytes": 1279,
+      "sha256": "ab159a3b4e173791f3f105fc7171bd7553141ad3e20fa5909a57516212e9a7d2"
+    },
+    {
+      "path": "workspace_snapshot/LiFePO4/pattern.raw",
+      "bytes": 31162,
+      "sha256": "922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd"
+    }
+  ]
+}

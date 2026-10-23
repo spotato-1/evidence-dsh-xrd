@@ -1,0 +1,2830 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-qwen-3.8-max-ai-agent-v1-2026-10-12",
+  "case_id": "LayeredOxide",
+  "run_id": "session-4850996a-859f-4a74-b525-ca2b7e4e18c9",
+  "collected_at": "2026-10-11T22:49:38.310972+00:00",
+  "source": {
+    "model_label": "QWEN 3.8 MAX",
+    "assistant_model_routes": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.8-max-preview"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.8-max-preview",
+        "reasoningEffort": "high",
+        "maxTokens": 131072
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.8~0020MAX--\\session-4850996a-859f-4a74-b525-ca2b7e4e18c9\\session.jsonl.zstd",
+      "bytes": 6614034,
+      "sha256": "88738878b9941982ed8a3586d5dd20305aea7da134b0e3187a2ff2806ab19b64",
+      "source_mtime_ns": 1791741127531150300,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/LayeredOxide/pattern.raw",
+        "input_sha256": "e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8",
+        "workspace_file_present": true,
+        "workspace_sha256": "e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/LayeredOxide/pattern_2theta.txt",
+        "input_sha256": "4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4",
+        "workspace_file_present": true,
+        "workspace_sha256": "4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-10T09:40:17.761000+00:00",
+    "ended_at": "2026-10-11T17:52:07.221000+00:00",
+    "elapsed_seconds": 115909.46,
+    "turns": 1,
+    "tool_calls": 186,
+    "tool_errors": 5,
+    "retries": 2,
+    "last_turn_reason": {
+      "kind": "completed"
+    },
+    "error_ended_turns": [],
+    "input_tokens": 1354139,
+    "output_tokens": 400884,
+    "cache_read_tokens": 62472192,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 1354139,
+      "outputTokens": 400884,
+      "cacheReadTokens": 62472192
+    },
+    "goal_rounds": 0
+  },
+  "workflow": {
+    "states": [
+      {
+        "path": "workspace_snapshot/LayeredOxide/workflow_state.json",
+        "phase": 5,
+        "recorded_rounds": 21
+      }
+    ],
+    "final_backend": "GSAS-II",
+    "gsas_completed": true,
+    "finalize_completed": true,
+    "export_completed": true,
+    "required_refinement_completed": true,
+    "converged": null,
+    "warnings": []
+  },
+  "final_metrics": {
+    "wr": 6.94,
+    "r": 5.513109762500893,
+    "rb": 7.525344891338432,
+    "wrmin": 4.974489979853109,
+    "chi2": 6676.66,
+    "gof": 1.4,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": "final_selection.json metrics from xrd_finalize tool result",
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 1,
+    "journal_jsonl_total": 20,
+    "journal_jsonl_valid": 20,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": true
+  },
+  "subagent_sessions": [
+    {
+      "run_id": "71901864-f03e-4c25-9877-cc8392dfca02",
+      "models": [
+        {
+          "provider": "qwen-token-plan-cn",
+          "model": "qwen3.8-max-preview"
+        }
+      ],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.8~0020MAX--\\71901864-f03e-4c25-9877-cc8392dfca02\\session.jsonl.zstd",
+        "bytes": 20773,
+        "sha256": "1ae50764371144cfc2eb54545d835189a35af2b226f8cbe8f5726d1571e7b881",
+        "source_mtime_ns": 1791692179685793300,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    }
+  ],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/.xrd-progress-mv2seq4i-882szh6k.json",
+      "bytes": 264,
+      "sha256": "c2107551a2746058fa8cc3261eedcd906c86704b2edf323b210072552ff6a107"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/.xrd-progress.json",
+      "bytes": 264,
+      "sha256": "c2107551a2746058fa8cc3261eedcd906c86704b2edf323b210072552ff6a107"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/fp2k_plan.json",
+      "bytes": 535,
+      "sha256": "488a3e31daf4316d5176301e3343877df0f14ecd5c2c5fcc67b7b2dcaec50fdd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/fp2k_result.json",
+      "bytes": 25760,
+      "sha256": "26ae23d0b40109cd4bae08a3e36d3b435c65ee9180abe97823abc3f0ada613f7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01.cif",
+      "bytes": 1554,
+      "sha256": "c772f34b803be4e4a01a4b7bd30a46b08c2638f42d0924d942bf4ab4c97f65ba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01.dat",
+      "bytes": 61816,
+      "sha256": "1a62adc53e6904c04a644d1429c54a9ab16bbe98f1b11f45663732b4476789b4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01.new",
+      "bytes": 3645,
+      "sha256": "e69b412dc6a87aaad43ffeeabe3971c51f842c374e700cc0f7e65014f51bc6c3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01.out",
+      "bytes": 65699,
+      "sha256": "b4b8a509607f9d13ffe8491babe8af77a3b4188403e041f5a6f5497184600008"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01.pcr",
+      "bytes": 3565,
+      "sha256": "4d4afb82b9e2207714fb42d33a1e53eb0250040edbf394c4e9ea02e3199d43d5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01.prf",
+      "bytes": 174616,
+      "sha256": "db7cab4b1803e1fc87c45f53b94e2315c623fd2106207d6f2faad4c9706ce72d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01.sum",
+      "bytes": 6322,
+      "sha256": "2579a0ecf3f2108382e13c67f4103c7d4d777641459454ba826dc4c2fe1a3068"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_011.fst",
+      "bytes": 659,
+      "sha256": "a24accf1e8e4bd8c31b52fe16a3afa341e6d4191a8e85cb24f53876ecc35d535"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_baseline_end.pcr",
+      "bytes": 3639,
+      "sha256": "6856226c73ef82a6267f115b143f4f4381cf717d27ca1a80674449329096567a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_baseline_start.pcr",
+      "bytes": 3556,
+      "sha256": "8daac3c65985f8d824e7099c6888b66c644ddb116b9fb9a6467f6186108173ef"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_final_end.pcr",
+      "bytes": 3639,
+      "sha256": "3f2f808d959f96423d7c4eeb79d4c26e72012974679e3d12760ced2b2739d054"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_final_start.pcr",
+      "bytes": 3565,
+      "sha256": "937ed7b20cff067a31294cf20f9cc73d4af88b713827044ffbc34e597215cd47"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_fp2kbest.pcr",
+      "bytes": 3565,
+      "sha256": "4d4afb82b9e2207714fb42d33a1e53eb0250040edbf394c4e9ea02e3199d43d5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step00_end.pcr",
+      "bytes": 3639,
+      "sha256": "539a353be3d15f7b1ea39061f922ead692db185f2170a1a6ff79b8cdf04bcc68"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step00_start.pcr",
+      "bytes": 3617,
+      "sha256": "8fee7ccf387564032a18011f2b68d6667c9b516028721ff8a2154861a58a81ff"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step01_end.pcr",
+      "bytes": 3639,
+      "sha256": "3e5c4cf1196425f820f780ff461eca6d0aca1ad58c5b6319ebb24284273f92c6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step01_start.pcr",
+      "bytes": 3601,
+      "sha256": "3fea0d10134c2b6f35b8d7db9788bbd39522119398b8ba68b87b56c7c83d005d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step02_end.pcr",
+      "bytes": 3639,
+      "sha256": "15d93fe9ce0130448f89bfa0b4dbc3e0b2602981f1e5e9df97257e8285f65089"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step02_start.pcr",
+      "bytes": 3565,
+      "sha256": "57832693c8f174289ca1b6a8adf8786d9f391fe123e197dcb5e1ddee4c0885c9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step03_end.pcr",
+      "bytes": 3639,
+      "sha256": "ac26807995bd7ebb570277083cd5a09be0a6de8f050d4f1a7e2c86e9cbbda266"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step03_start.pcr",
+      "bytes": 3565,
+      "sha256": "644300fdc9fd605f83db3eea4585a3fd0be149e93e41dbe9c602904d5b93d2c9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step04_end.pcr",
+      "bytes": 3639,
+      "sha256": "265f489de088716f510f1f33143db8d936c0a0fced5dff1033a7434a2fc13c96"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step04_start.pcr",
+      "bytes": 3586,
+      "sha256": "582611d628c2a560792a8a783389ee2b7634978858468af72696082cbff3f9a9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step05_end.pcr",
+      "bytes": 3639,
+      "sha256": "cfa95a88f04dbefb0e1e6c2ceb08e15cd43475c9323813d3c72b34408c608551"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step05_start.pcr",
+      "bytes": 3586,
+      "sha256": "8911f418228a7fcf4365d86b6be03a81f5a2cc98eba117d653340ac7252737a1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step06_end.pcr",
+      "bytes": 3639,
+      "sha256": "b6ad98a2a0f4ecaf32c94a8d04d49b1fe3071e187ebae8be0265c374eacc9faf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step06_start.pcr",
+      "bytes": 3586,
+      "sha256": "5b41fbb2ee7e31373ebacb4fa2bf8aa3db2ac8da3c09e5f8ae74bac1c4f4fa2b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step07_end.pcr",
+      "bytes": 3572,
+      "sha256": "a0191d48e15790d3d3ff1dd5c747ed38bbedd5902d7e8dd838095391eb612168"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step07_start.pcr",
+      "bytes": 3572,
+      "sha256": "a0191d48e15790d3d3ff1dd5c747ed38bbedd5902d7e8dd838095391eb612168"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step08_end.pcr",
+      "bytes": 3639,
+      "sha256": "474b258fd18c46bdbde290b83ab2cfc332e162395cd9e60a04d80559fe6c8be5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step08_start.pcr",
+      "bytes": 3565,
+      "sha256": "3ab247688b7fc66204bf8318aecca1744929b625e98e1d443ed15377da313010"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step09_end.pcr",
+      "bytes": 3639,
+      "sha256": "5d97cb9fcdcaf2b9b636377b1147e09d49a97bf84d2d2df0ab19bcfcf5eb7be2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step09_start.pcr",
+      "bytes": 3565,
+      "sha256": "4d4afb82b9e2207714fb42d33a1e53eb0250040edbf394c4e9ea02e3199d43d5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step10_end.pcr",
+      "bytes": 3639,
+      "sha256": "a64386abcfb3d1e051752f8cefb1304302c8ad28a37c486814ab0f23bd3fffbc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step10_start.pcr",
+      "bytes": 3564,
+      "sha256": "085bf3d4c6d5b4d113b31dd9a402cc7dde8412a50c6dffebe224879f7a28542c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step11_end.pcr",
+      "bytes": 3639,
+      "sha256": "2f3c73b29955fb24529eb23d2e77ee8785fdaa2020272d876c7d25497f83cae9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step11_start.pcr",
+      "bytes": 3564,
+      "sha256": "3123dac355a1c97c78a03c08f57dabceaa5aa3e856e74fa9610b37cc8eff7dfc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step12_end.pcr",
+      "bytes": 3535,
+      "sha256": "035ba60f1a380e98e58f6409e3df9706538a22f15a4f4574c8d5ef18282a63db"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step12_start.pcr",
+      "bytes": 3535,
+      "sha256": "035ba60f1a380e98e58f6409e3df9706538a22f15a4f4574c8d5ef18282a63db"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step13_end.pcr",
+      "bytes": 3535,
+      "sha256": "39d707838524a6b7c383e08112e727849ef86848132628bac1abad73d8362449"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step13_start.pcr",
+      "bytes": 3535,
+      "sha256": "39d707838524a6b7c383e08112e727849ef86848132628bac1abad73d8362449"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step14_end.pcr",
+      "bytes": 3535,
+      "sha256": "dc912c2e514a93744ac6685c178487212868e36d72625dcf46827684170fcb5d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step14_start.pcr",
+      "bytes": 3535,
+      "sha256": "dc912c2e514a93744ac6685c178487212868e36d72625dcf46827684170fcb5d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step15_end.pcr",
+      "bytes": 3535,
+      "sha256": "07b6495ca8f8eb566828ba8e907bcb12961a5f617da7ab7a9f6be5c21dffa56d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step15_start.pcr",
+      "bytes": 3535,
+      "sha256": "07b6495ca8f8eb566828ba8e907bcb12961a5f617da7ab7a9f6be5c21dffa56d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step16_end.pcr",
+      "bytes": 3639,
+      "sha256": "4ffc8a8e1b4d50459e7d30908bc135206510fe7bcb417357f6e1d994a55530c5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step16_start.pcr",
+      "bytes": 3400,
+      "sha256": "572a392abebaf80093207247d0f226e10da8870f5edf62a998a75c620e01f309"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step17_end.pcr",
+      "bytes": 3639,
+      "sha256": "0d70d3d9c8a434aaf52ee3a129f2668c7bd885d86891c19cbac0afc826f1c4e5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step17_start.pcr",
+      "bytes": 3563,
+      "sha256": "fa3c3f1c937cb94f404399c71ff2530649e54d204be488915d3547989edcc346"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step18_start.pcr",
+      "bytes": 3430,
+      "sha256": "c2ce8c1d5fad352ac2b94612020ee57853f1dccee1aaf29c6ffd09e551dc616e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step19_end.pcr",
+      "bytes": 3535,
+      "sha256": "fc16d9a9bd552c3ffaa7af68a31d6d7c0b8fcf075d2701c3ef913017ac04c011"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step19_start.pcr",
+      "bytes": 3535,
+      "sha256": "fc16d9a9bd552c3ffaa7af68a31d6d7c0b8fcf075d2701c3ef913017ac04c011"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step20_end.pcr",
+      "bytes": 3430,
+      "sha256": "89c7c2fec0901743267abae95ffe1c8ef8955f2c2fc464b482f59583bd2bf324"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/O3_NaNMnMoO2_cand_orbit_01_step20_start.pcr",
+      "bytes": 3430,
+      "sha256": "89c7c2fec0901743267abae95ffe1c8ef8955f2c2fc464b482f59583bd2bf324"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/P2_Na0.72Ni0.33Mn0.62Mo0.05O2.cif",
+      "bytes": 1158,
+      "sha256": "1d9c92422df653453372e5b42943d26bf76cf470939cca507489857e7782411c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/P2_NaNMnMoO2_cand_orbit_01.cif",
+      "bytes": 1050,
+      "sha256": "a73ea9aee50829a714d34008a7991f19ecd02273f762eb7eca76bb0fff13f0b7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-O3_NaNMnMoO2_cand_orbit_01-7ca3f5/P2_NaNMnMoO2_main.cif",
+      "bytes": 1158,
+      "sha256": "1d9c92422df653453372e5b42943d26bf76cf470939cca507489857e7782411c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/.xrd-progress-mv2sdxcs-ruohpaet.json",
+      "bytes": 264,
+      "sha256": "32fc33cd5c04d69be51a2a4634fdcbed7a5d81b06a0841ad90cc64ae9f9bb57a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/.xrd-progress.json",
+      "bytes": 264,
+      "sha256": "32fc33cd5c04d69be51a2a4634fdcbed7a5d81b06a0841ad90cc64ae9f9bb57a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/fp2k_plan.json",
+      "bytes": 508,
+      "sha256": "8033205a493a5ba1446dc4e926c6b1a3c96f707836c7eb28f2b45c648e46709f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/fp2k_result.json",
+      "bytes": 24810,
+      "sha256": "9bb2acccf6f4ff389206f95566d48978909e5f80531f72aaf5e2672a7805031e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/O3_NaNMnMoO2_cand_orbit_01.cif",
+      "bytes": 1554,
+      "sha256": "c772f34b803be4e4a01a4b7bd30a46b08c2638f42d0924d942bf4ab4c97f65ba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_Na0.72Ni0.33Mn0.62Mo0.05O2.cif",
+      "bytes": 1158,
+      "sha256": "1d9c92422df653453372e5b42943d26bf76cf470939cca507489857e7782411c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_cand_orbit_01.cif",
+      "bytes": 1050,
+      "sha256": "a73ea9aee50829a714d34008a7991f19ecd02273f762eb7eca76bb0fff13f0b7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main.cif",
+      "bytes": 1158,
+      "sha256": "1d9c92422df653453372e5b42943d26bf76cf470939cca507489857e7782411c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main.dat",
+      "bytes": 61816,
+      "sha256": "1a62adc53e6904c04a644d1429c54a9ab16bbe98f1b11f45663732b4476789b4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main.new",
+      "bytes": 3672,
+      "sha256": "4cff7d44a96abb5270770c839c04ea749c7e7526b09858b0b9c201f513f95a60"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main.out",
+      "bytes": 32434,
+      "sha256": "c5a625112a17c8c4eb0f390f758af151907c11eee49709fcf3fe019b91e6ee80"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main.pcr",
+      "bytes": 3327,
+      "sha256": "df512748a5214caf24adda2ad381e71261372353ebd4d9cf75f501705311f49e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main.prf",
+      "bytes": 175621,
+      "sha256": "0b6e69b50606081e547b859d404216d149fe1d853e5df5982ae533ca14978b46"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main.sum",
+      "bytes": 6301,
+      "sha256": "05e75f38919fa16b47c5bcfea42456e133b390b859ba49761ecb8c90ec94beb5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main1.fst",
+      "bytes": 659,
+      "sha256": "181d2f597f0b845a60dfc80d5c75b1f829d839858697c0589f2823a6db7387c7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_baseline_end.pcr",
+      "bytes": 3609,
+      "sha256": "f1e12526e432dc729788ffbc57235eeff497505a0293eb9857076af27a619562"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_baseline_start.pcr",
+      "bytes": 3526,
+      "sha256": "59887fdeb141f18eb5cb8657acd5f35f58a1abed301caeee59a0aae1c12927af"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_final_end.pcr",
+      "bytes": 3609,
+      "sha256": "52bce02533007da160bc935202bff756232146b4b5ea44b1275f1756aac2ac01"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_final_start.pcr",
+      "bytes": 3327,
+      "sha256": "03ee791d4c432cae28f0ae941c4bd71f2c366beb62c7f1d5309f14e10865015e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_fp2kbest.pcr",
+      "bytes": 3327,
+      "sha256": "df512748a5214caf24adda2ad381e71261372353ebd4d9cf75f501705311f49e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step00_end.pcr",
+      "bytes": 3609,
+      "sha256": "4a85e90acea2c316634b3ec4c212a03c4831aabb2dcde6ab390305069d61e0a5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step00_start.pcr",
+      "bytes": 3587,
+      "sha256": "2b9f6b09beb85ab8038434c5309db72b29217f0b888f8d0245352ae3dc8137dd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step01_end.pcr",
+      "bytes": 3609,
+      "sha256": "e2a8e70161607257a4c9bdcec448bd3ea3073a7209c5e31b1267f732497ee17e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step01_start.pcr",
+      "bytes": 3571,
+      "sha256": "44712cfa11b1db3f89f1ce006c629a7d0256725a0856b178f65eea948a350c85"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step02_end.pcr",
+      "bytes": 3609,
+      "sha256": "efa70d68e909680f534731d1497571fd8e1966e642dd91a100de542997db6c85"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step02_start.pcr",
+      "bytes": 3542,
+      "sha256": "5a3e0467a71316e5b3fc4d43ca855e3a6b9722004e1ae6fc165bb39d0828b1ec"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step03_end.pcr",
+      "bytes": 3609,
+      "sha256": "f5c30f7cc2e90ba326c696b0cf8377b918fe2095daccc30125e9451b91f935f7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step03_start.pcr",
+      "bytes": 3541,
+      "sha256": "97d92feb684bd54dea7e9507f2919dedb848ea4ea7e681861558bace75210d07"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step04_end.pcr",
+      "bytes": 3609,
+      "sha256": "c4d4644e8f8cb4d75175864facc55e99163ef19325332e05df689ea10c254f3f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step04_start.pcr",
+      "bytes": 3526,
+      "sha256": "3fa1ee6ebd379dbaddc03ea3e78c46922a4b3737adf2c54ef21b02955303f0d9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step05_end.pcr",
+      "bytes": 3609,
+      "sha256": "1d1a1ca3cfae54c87700b3307909ce9026a2624836fb7fea60ef782c88b2569a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step05_start.pcr",
+      "bytes": 3523,
+      "sha256": "11b67af3b3f5435f6cda7c8bc2819de5a27c8094205c58d5f5ad9aeac3de55d5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step06_end.pcr",
+      "bytes": 3609,
+      "sha256": "7b4f511aec8729a7d2f71bee650f84d0e9d5b2792bdeb0c3cf98860d078ca146"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step06_start.pcr",
+      "bytes": 3524,
+      "sha256": "635f4a01222463e6634d5864c016b97bbe3ca4211cace6d2687882ef0cebcb2b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step07_end.pcr",
+      "bytes": 3609,
+      "sha256": "c27103d93df37fd4978b425e6ba37b56d7fac9ba4ae6e9748fe9756c9cf2878d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step07_start.pcr",
+      "bytes": 3494,
+      "sha256": "42b98564965cf51d1663b72c91af80d3e5316862a833f1d5c66dea46955ed7b2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step08_end.pcr",
+      "bytes": 3609,
+      "sha256": "2bd5f71a7c8efb4f936c8e51fcf3d0e403d9fbd62e11537ff36aaf37f9a3a1fd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step08_start.pcr",
+      "bytes": 3493,
+      "sha256": "58dc22d4b9eda418a34898c6512fe3a13d5594bdf309e06e86ac72962c3d96a7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step09_end.pcr",
+      "bytes": 3609,
+      "sha256": "133ae06636ec597513dd7e3487672721d550c310f6bad4c9ab938747c03b1884"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step09_start.pcr",
+      "bytes": 3493,
+      "sha256": "7466817109e3587af1f4ecef114714f6b89889cda1de4d09ed543b4c43681c30"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step10_end.pcr",
+      "bytes": 3609,
+      "sha256": "d577620de24e5ef19d9612b3d3a264df97cae0730134958c12a3fd118956a88a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step10_start.pcr",
+      "bytes": 3493,
+      "sha256": "3319a5ad117c187e6fe0d2ad3a22787a18eddb7fa398ee884e836bfdd6fc8f35"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step11_end.pcr",
+      "bytes": 3609,
+      "sha256": "ce5aaf4697a1baf930289895c4ad5f101e5f7f24d3b3bed40e8a72ff0dc97a1c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step11_start.pcr",
+      "bytes": 3493,
+      "sha256": "da2515a36b788affb6567372ad47f6ef177c0f202eb8b4015c364deeedf0af0b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step12_end.pcr",
+      "bytes": 3609,
+      "sha256": "3ea0f99eca929122dd8ba265bfe2b1c4bd2358bbfb268ce9ae1559f9abce262c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step12_start.pcr",
+      "bytes": 3492,
+      "sha256": "872b565c9cd4667caf16797ea70fd12c0888b8680d09fc83fc7b6a969ea1688e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step13_end.pcr",
+      "bytes": 3609,
+      "sha256": "c2d28775b0bbcee5e78c1e27a6c2264fd11154b115e803195022d64315f52767"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step13_start.pcr",
+      "bytes": 3490,
+      "sha256": "28649f287b9ed424a785b7b2d00b9751470c16a70c1dc190414f8a73e061f502"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step14_end.pcr",
+      "bytes": 3609,
+      "sha256": "b05daf831841076fe9d01a41feb2aa41a6e3d08785872f103d0538608c9e12a1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step14_start.pcr",
+      "bytes": 3490,
+      "sha256": "7bc3d832a73d29ce66298d62f986831866dd2c1c53757bfc984da65bf17b7bc0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step15_end.pcr",
+      "bytes": 3609,
+      "sha256": "a8c07494b3d61c0c01c862600810079a8480486955900281ac9bf070f8fbb23f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step15_start.pcr",
+      "bytes": 3490,
+      "sha256": "3b07158cd665f8c6a6d260f6b1609bb6fcdafa0da04ec668842fbaf65ddc90d4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step16_end.pcr",
+      "bytes": 3609,
+      "sha256": "c56efbe8646c7f53e16c3698d67e45ecb3e9359fcbfe50b0893fb49cc02797c1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step16_start.pcr",
+      "bytes": 3327,
+      "sha256": "df512748a5214caf24adda2ad381e71261372353ebd4d9cf75f501705311f49e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step17_end.pcr",
+      "bytes": 3609,
+      "sha256": "ed0d12b5ab2cfacad43a879a5a18608d5127301738da26d381d03e8c60496b8a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step17_start.pcr",
+      "bytes": 3325,
+      "sha256": "3571afcfa64333c6723a9f5f73eaf863bb933f31fa96421665456a24863363ca"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step18_start.pcr",
+      "bytes": 3312,
+      "sha256": "c30fe9b6372bce48aefe241fb65a45af29573e3a8911ee86d73efc6c73fe1365"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step19_end.pcr",
+      "bytes": 3325,
+      "sha256": "4701b14ebe59ab80e9a32fb91c5c4bb69c39f479a184d1cdaebcde733f0aea95"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step19_start.pcr",
+      "bytes": 3325,
+      "sha256": "4701b14ebe59ab80e9a32fb91c5c4bb69c39f479a184d1cdaebcde733f0aea95"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step20_end.pcr",
+      "bytes": 3312,
+      "sha256": "b3401dfe3123e810c390d578d5ebdd8a2856af6e4abba0619af0debf1f28b443"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-0ecb3e/P2_NaNMnMoO2_main_step20_start.pcr",
+      "bytes": 3312,
+      "sha256": "b3401dfe3123e810c390d578d5ebdd8a2856af6e4abba0619af0debf1f28b443"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/.xrd-progress-mv2sdir6-d29h4i78.json",
+      "bytes": 263,
+      "sha256": "7deb40cb4bf6b2d2b49ce6f1caf46a2c35ab9270e5bfcd6cb2b8e3d7ae55d0e1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "7deb40cb4bf6b2d2b49ce6f1caf46a2c35ab9270e5bfcd6cb2b8e3d7ae55d0e1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/fp2k_plan.json",
+      "bytes": 508,
+      "sha256": "baaf16b6469da616e4599030fe66d7f53619f228687d1bbd7f103481e8ef8b82"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/fp2k_result.json",
+      "bytes": 3871,
+      "sha256": "6f982c6001f57b0d380969eed9761d4235e46fbdf59f556347985a92f379e87f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/O3_NaNMnMoO2_cand_orbit_01.cif",
+      "bytes": 1554,
+      "sha256": "c772f34b803be4e4a01a4b7bd30a46b08c2638f42d0924d942bf4ab4c97f65ba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_Na0.72Ni0.33Mn0.62Mo0.05O2.cif",
+      "bytes": 1158,
+      "sha256": "1d9c92422df653453372e5b42943d26bf76cf470939cca507489857e7782411c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_cand_orbit_01.cif",
+      "bytes": 1050,
+      "sha256": "a73ea9aee50829a714d34008a7991f19ecd02273f762eb7eca76bb0fff13f0b7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_main.cif",
+      "bytes": 1158,
+      "sha256": "1d9c92422df653453372e5b42943d26bf76cf470939cca507489857e7782411c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_main.dat",
+      "bytes": 61816,
+      "sha256": "1a62adc53e6904c04a644d1429c54a9ab16bbe98f1b11f45663732b4476789b4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_main.out",
+      "bytes": 30839,
+      "sha256": "2957c8e2a235dfc695106f024ec5b53e7a0bfca38ec6b330ef1efad90a118dfa"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_main.pcr",
+      "bytes": 3526,
+      "sha256": "59887fdeb141f18eb5cb8657acd5f35f58a1abed301caeee59a0aae1c12927af"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_main.prf",
+      "bytes": 174841,
+      "sha256": "5ce158a8c77a35ca787be5065ae1573eb97aa51c3886dedcab6a7124ae4b9986"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_main.sum",
+      "bytes": 6301,
+      "sha256": "dd63b76a9ea94d009af911d318fd6fa7eb37f9bffb5bfd0db5243059ec92cfa9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_main1.fst",
+      "bytes": 659,
+      "sha256": "bdfdaf868679b9530b248586e5724c0a79db06f0b6a3cfca1d306b92d3c0d23b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_main_baseline_end.pcr",
+      "bytes": 3609,
+      "sha256": "f1e12526e432dc729788ffbc57235eeff497505a0293eb9857076af27a619562"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.fp2k-work-P2_NaNMnMoO2_main-5ee543/P2_NaNMnMoO2_main_baseline_start.pcr",
+      "bytes": 3526,
+      "sha256": "59887fdeb141f18eb5cb8657acd5f35f58a1abed301caeee59a0aae1c12927af"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.mplcache/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "d07fd522f278d001d8a2ab7198cf9e87145cc82d0d65cca42883a406306b9420"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-ladder-best.gpx",
+      "bytes": 279183,
+      "sha256": "3a3c1643f3a78be9915c43269964a18947843f3e81a8ac6754599790d6ccc1ee"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-ladder-snap.gpx",
+      "bytes": 279183,
+      "sha256": "3a3c1643f3a78be9915c43269964a18947843f3e81a8ac6754599790d6ccc1ee"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2qwgim-4u96mdim.json",
+      "bytes": 273,
+      "sha256": "f8f22f0d2fc49a2893573347c2701fe342111ba4fd703463bae894e745ae1072"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2qymdc-b6aa621o.json",
+      "bytes": 269,
+      "sha256": "7d88c87e54fda12ed31ede5774b2dff9cf9bdd9c97f079d08c4d4dde73d0579a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2qzki9-swic8hjh.json",
+      "bytes": 271,
+      "sha256": "8f5d5282df56d7b92f577bfb51f31c1bd0729d4c4ee4773c0ba9bd3e38719ce8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2qzq1e-wc1zp2a4.json",
+      "bytes": 262,
+      "sha256": "f6062f3de34dc2d5c1d1cfbd30b440efa1b5c27c1d31f1bf2ae1bf2e6cebd086"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2r35ux-oy4f0u57.json",
+      "bytes": 275,
+      "sha256": "136577b11aef316d11545f4dd643f8ae890bf4c48aeacac01a4ba58baffa92a9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2r9wsc-dqji0jym.json",
+      "bytes": 269,
+      "sha256": "c7453fe7ba0957a1b072e27a64b0988bdffdd00b5beb5bae3ea5ce855ae2f896"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2r9wzb-8zepgbll.json",
+      "bytes": 275,
+      "sha256": "b6233379369c828c61629d7710c23b0b1dd8914f11391fd9b6425a653e3635dc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2rbl3x-xwyq1r68.json",
+      "bytes": 275,
+      "sha256": "58b82d210b222cbc7046e26ba69bc0263f8bd2ab76dadc76bc17b44379fe76c3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2rfqjb-9bxm4e1o.json",
+      "bytes": 274,
+      "sha256": "43fe3499120e159f60bb8afc10acdb52d8634de03b25f6cd737b3a8462500190"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2rpsge-yj67a2nd.json",
+      "bytes": 269,
+      "sha256": "0896c1cf3b00547d089e885df35c9708b39e71a85b51fa5805ef4436fff97c1b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2rpsmq-053e3vg9.json",
+      "bytes": 277,
+      "sha256": "7a3d4307127b57af99bf8f00145252c0d994e137894f036354f55a8c686bbe2f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2rrw0p-40q6euvs.json",
+      "bytes": 275,
+      "sha256": "5736b80423a610a6f4b076e2dcb795177b8dab3b1e4301717d3aacc411373354"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2rsqth-zj67tihq.json",
+      "bytes": 278,
+      "sha256": "f8bed337bf3a58620d442cbb4a982c4bbafe548c459521a53987abcbb1533766"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2rt9t8-hk6bt5pz.json",
+      "bytes": 275,
+      "sha256": "0b7d63a2ac50713b21a5162a92ecdbb4d9e7f678f4ec70e24800e2a0e1dcccd6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2rtkqd-k4vb65o8.json",
+      "bytes": 275,
+      "sha256": "9f179e057b67b9feafeaa8c81e183326e1f8b39d19805426e98935e12cb87c71"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2ruamh-wlaq6nv9.json",
+      "bytes": 276,
+      "sha256": "7cf048f61b05c7a8ede2ae87d665069be4bb49c489c3056f786213029e08fc10"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2ruqrv-71bznkcr.json",
+      "bytes": 276,
+      "sha256": "1af6e433c4c136ee4b8253a74c2e1c0b99cd9ac4a8621a85b9fa65362382823b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2rv3d0-lnc6o8lt.json",
+      "bytes": 275,
+      "sha256": "d7d50ab5ac91fc119e3cf2dae0021f4e018988f50fb489c1beeb5c313192f8cb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2s51t3-gj670vu2.json",
+      "bytes": 277,
+      "sha256": "e50458651f5d180eb2163499e7ddccb52a15a3c4fef4b100666513ed6e003984"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2s6kv8-kh9kckh4.json",
+      "bytes": 270,
+      "sha256": "70673122f03da4aac6583aeaffb5609acf0d3cb259eff44d979acc5cb6f9741c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2sia93-xtdmqb75.json",
+      "bytes": 274,
+      "sha256": "0caad39745c3b67e518c57a721f520fb810b4244ed40888aab762af5cf24cb5f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2sjcmx-ktkuveh9.json",
+      "bytes": 278,
+      "sha256": "c72fa708b2bf64c4db67b56238a4218cc4037168a115aff9cd5a815163fa37d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2sl07d-cjhrtlu3.json",
+      "bytes": 278,
+      "sha256": "c71564820157f09f9af61ef9728bf349fb6061d820c5447efa3730f8ca1c3ada"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2snexn-bltcgdwy.json",
+      "bytes": 261,
+      "sha256": "b81ea2097d1f013689ece66d5353e3211f19b43809a50f18b49ea8be9b86453f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2tcn49-8mcelig5.json",
+      "bytes": 262,
+      "sha256": "d7a744d554bbade4b1df08a1269dac8dd1433e599539aecdcb91fbdf712ee84c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2tjncb-vq5oil6g.json",
+      "bytes": 276,
+      "sha256": "7e94670d581f34898769031dacf56e7b47e2d43ec31e9c1df10de93e6e809069"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2tnnzr-h9oztifo.json",
+      "bytes": 276,
+      "sha256": "5cdada5d6254a2f9b2fdd692b11957fef9fe7f70405756373aa6afd6de0c534e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2txk1o-d9uzdp4j.json",
+      "bytes": 276,
+      "sha256": "068d16a7aed3d2b421708653f670d5b655e9efd29a55fe04ea615738af14451f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2tycqq-51obnawr.json",
+      "bytes": 276,
+      "sha256": "cba299fb0ee86238fb307eb4b7af1a9c11f91ae4d79f21806cbc5cb39b3dcfba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv2u9eko-5tpp054z.json",
+      "bytes": 275,
+      "sha256": "fd5a3c29d683c21c13e8058ece1fd28a12a73be0c3c8886d62f1cc41124ef953"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3afsa0-0fpfc8tz.json",
+      "bytes": 260,
+      "sha256": "1ba6cc46ff39af2c9b5f8cf34214db1030e439c7a9b076d0ae62094c170ec14b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3aki15-8znqrw0j.json",
+      "bytes": 273,
+      "sha256": "6ef8a8ba970d0d655b3ca2ad1cdd8d274d628a2ccebd90e15617156e57043035"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3amx9v-n3n4btue.json",
+      "bytes": 274,
+      "sha256": "7594cd4f1c822d458b2bc3d75809a130783f944d4de4dbd74007d7b989f5f123"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3asf54-jlgfqx9b.json",
+      "bytes": 270,
+      "sha256": "d490ec4f25da62bf33e3c00147c2059c2890a984bb10f02b594b9ec63248e7bb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3awf4p-4wezu538.json",
+      "bytes": 270,
+      "sha256": "f0b7e157d04bfba0c245c99568dccda9aaa6572d86788a92902ddca679797052"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3axut4-f7yusfxt.json",
+      "bytes": 278,
+      "sha256": "09700372892daebad331ba034e7c1bacd924a94dbbdde456ea654cca566ae5ed"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3axw0n-gp17rq7a.json",
+      "bytes": 277,
+      "sha256": "93b25b4be86e48e46c057e0392e239aeafead9a842734f6c7fa545250f511dc5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3b97pv-ct639itf.json",
+      "bytes": 274,
+      "sha256": "7b1d7b5f67dee41f69d84d1f1daab7f1ac0dae336ed7ced9f373e6422df6b8b4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bbdiu-w925h0k0.json",
+      "bytes": 270,
+      "sha256": "c60225c5181a2377b070b63d340ae25941f7c9c227d8ba68388f6ee6a90c6f68"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bcqow-3c4xzemr.json",
+      "bytes": 271,
+      "sha256": "e8300073d8347a3424bd428ad58f13f1141a249ae18a21e892551f5906f71a73"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bdzkz-4d3tezhk.json",
+      "bytes": 279,
+      "sha256": "0fbf4e8689e7c5b3eb47c975365594a94b4a1c630f0f25fd1ce028e83de26eb7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3be0ve-gk55om5h.json",
+      "bytes": 277,
+      "sha256": "7839c152c18b63b108d3b04e8ec2571c0fc45010ae1c03a016db630567964776"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bg2fj-oxcxlpn8.json",
+      "bytes": 276,
+      "sha256": "ba62e3ed6c90504bdcf65e9fe1773e6f98da2d3cf465ef2bb932228ea4f18a34"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bji51-zs7zjoyy.json",
+      "bytes": 270,
+      "sha256": "9ff6f2f864d5f5ac71c682645ca66e8b49dd0ec92a01487168ba6d4202e12d86"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bmfkt-t5x631rq.json",
+      "bytes": 270,
+      "sha256": "b7da661a61653f66f878b403851999dabb72339efd77779d1a747ba227fb5946"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bokqx-317vx5c5.json",
+      "bytes": 269,
+      "sha256": "ae2dd71e873143b6f1248a2f7f5141ab47ffd480c8ff8604d8fff3f4afc945d2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bq1vx-lc38ujfk.json",
+      "bytes": 271,
+      "sha256": "039cf9201821b6f1fc3e5cad9f07dd30c5682ab50662776b47c335a9299624d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bqw2l-ynqqyeik.json",
+      "bytes": 279,
+      "sha256": "36c6421be36104f7d82e31a8a0013e9c74825cd92640ff519f4406d0ed3fe2b0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bu2g7-3pww4as7.json",
+      "bytes": 270,
+      "sha256": "d151c2a9967bc335c3aa7fd0701864b8ae1ef339eb652e228ab7641a01e3b8cb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3buy5v-i5m9lgza.json",
+      "bytes": 271,
+      "sha256": "bc3db5de72d73ca03f8402299517dba742223cc094c51d40164c30e68a1f4e15"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3bwz13-22iutk3j.json",
+      "bytes": 280,
+      "sha256": "e980a1cc21e07cd7815c9b82bef14f13ea6259026f42b115526c2603193b01f8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3c7xxk-g9m5j5gu.json",
+      "bytes": 274,
+      "sha256": "2064f00a8ba0e7d1e93aa603a319b3978aeeed04e0c8577083de4a86c2649fa4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3c9ai4-5s2r2p5t.json",
+      "bytes": 269,
+      "sha256": "917e0eea2b14136ba904fc5b0b0bdd2ff4bedf477c1c583b5944c3722d9bfe7b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3cbr3q-75b6ia66.json",
+      "bytes": 271,
+      "sha256": "20068c13f177d953f6d2bc2c6f96a814a081bee4375234f87c2c8be6dc52118b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3cczpx-u6vebi24.json",
+      "bytes": 278,
+      "sha256": "2c33b6c02d7fe98833a520a0dc29416ffe23d20398b2c5e24e3355707fee84cb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3cd0vw-7pncipnu.json",
+      "bytes": 280,
+      "sha256": "e8175d7a0a9d6bda60a1ffa9b53955f01989d514f2dedee7c9aa7f6b71ec4cea"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-mv3cg4i4-udv18fk9.json",
+      "bytes": 280,
+      "sha256": "f350dd4e102657f3df07bc571b6534011f424f77a582890a47ff5af79893ad5e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress.json",
+      "bytes": 280,
+      "sha256": "f350dd4e102657f3df07bc571b6534011f424f77a582890a47ff5af79893ad5e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/__pycache__/xrd_engine_custom.cpython-313.pyc",
+      "bytes": 73974,
+      "sha256": "2125bbbd6855ee42c2dd74cb4f273f04bfb312f0ae276100cea88ffd252ca1ec"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/analyze_resid.py",
+      "bytes": 1457,
+      "sha256": "3bac1fed51d06c108807f6a2b76101b909e65676e9ec6f3859675a59f935a0eb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/cif_edit_plan.json",
+      "bytes": 1172,
+      "sha256": "0323332a771bb04cee664f72b00a59d1c6f6d371c75c80926e50a6d3b7a64f26"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/cif_edit_result.json",
+      "bytes": 9693,
+      "sha256": "fb56a60a9c4cb4c3fdff91c6daae84158bd8f439b3455ec19567fe6854d568ee"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/components.json",
+      "bytes": 322573,
+      "sha256": "676bfc661d97ed8b519a08d22e1f0e4443a5e2830ee83a4d2b71d3b92dc93e12"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/data_io_plan.json",
+      "bytes": 896,
+      "sha256": "ba029e1f06aea207f93b1659788864530594d9814a3b1eb31a9cd8f1da9a1d60"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/data_io_result.json",
+      "bytes": 1350,
+      "sha256": "d8a7201a672b2f84067468d043e4c0d595fec0c4aea173730e938d6f9c1c952a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/defect_table.json",
+      "bytes": 7882,
+      "sha256": "d621bcb7e7ef425e9b6ae5f7707dfacaffa0423783422dde4f6834aa8b832d61"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/export_plan.json",
+      "bytes": 698,
+      "sha256": "55259f6c2e8ab28145efbaf0a15d377711e96b362a67266cf7bb64638af072d6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/export_result.json",
+      "bytes": 2646,
+      "sha256": "61472084d056268f2909ad92098ee866862b16053f3971178568c8d7ec734cbf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/finalize_plan.json",
+      "bytes": 564,
+      "sha256": "523a7670684264a59e2578d1a0f26fa7dd2a6af0ceda8a7d9c33b9823e8237a9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/finalize_result.json",
+      "bytes": 5411,
+      "sha256": "5e5cf6fa9693f887a1049f3a9216c28ed7691e2ce8fa4cae9631d0a322586735"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_ops_out.gpx",
+      "bytes": 284807,
+      "sha256": "7f2ed05b8066bdbeed0b1fb6a96462ba538f4e41b288cfab7de67b30f08210b8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_ops_plan.json",
+      "bytes": 1265,
+      "sha256": "0cff2dd39d2cb4e8e2ec9c6719f36f6b3cacc80c8fa567dd9df7fefeb2333c76"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_ops_result.json",
+      "bytes": 9403,
+      "sha256": "9c9873c581a0c7359892da98cc02579d74a4ff2754c67e2e0c0ea5a795180730"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_plan.json",
+      "bytes": 1205,
+      "sha256": "ee624d1ed3d39c7e209328d2c9c15a9ab70dbf8aea325d2f5a8a02ecd077cf4d"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_proj.bak0.gpx",
+      "bytes": 279197,
+      "sha256": "7b37e738cd293104385668a68c2cbf5fbe80ad19eca8e64a306cba258cad016a"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_proj.gpx",
+      "bytes": 279183,
+      "sha256": "a62c97884c5a392f81ca0239dc8a870407b3930d732872af5225e39ae84f30b2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_proj.lst",
+      "bytes": 16203,
+      "sha256": "aff64b6ce4ac0bed53a27e7b668c36e23a1231d8284a13ff347b34b20433dc80"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_result.json",
+      "bytes": 11904,
+      "sha256": "2baa595f47efc4b1e5cd5fd22250cfdee06e3440204efad2240c3b251756c751"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v10.bak0.gpx",
+      "bytes": 286491,
+      "sha256": "bb9c23bc1a353f01b9b0fdc815a18216923af012d5b73bff32a1dc0935ea6d27"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v10.gpx",
+      "bytes": 286529,
+      "sha256": "c1ae1b9b9831682bb0f23717c154dc88ca51213dbf920192dc7c50fabfc5f052"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v10.lst",
+      "bytes": 16972,
+      "sha256": "03985c47e0e9034ef505b59fcded2bf7bbacddf13c6d790665a8444746324850"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v11.bak0.gpx",
+      "bytes": 279106,
+      "sha256": "ac7c722771997ec7aaf0d7b842b6917162d91ac0cd50c096a96fb1b1ccb5feee"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v11.gpx",
+      "bytes": 286348,
+      "sha256": "a84254700179dae59e9cbb3e4bc0ffa8f06625a09cecc209d02b950d6fc2b28d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v11.lst",
+      "bytes": 16972,
+      "sha256": "b3316341a1ff5cf5a890f226c3d78f62cc07b91a6a8178784477b495126c846c"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v12_splitna.bak0.gpx",
+      "bytes": 269536,
+      "sha256": "3b9e6279fc7f5ef87a7afb737d6e6581d4e7b561f546324efbe826a40b683a76"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v12_splitna.gpx",
+      "bytes": 277584,
+      "sha256": "34e3efa7f0f53df8887810daafd2a68e1054b9780d2f5dd2af040d2a47634716"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v12_splitna.lst",
+      "bytes": 11328,
+      "sha256": "cd74fa1ed7ea9fc3f863d73fbff18db2e9b403a0cbae3d2a5d65ec790bdde12a"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v13.bak0.gpx",
+      "bytes": 282412,
+      "sha256": "6c3093adea26c450475015dee41a5fb746f8f079e658a5eb5dd7544efb05e7a0"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v13.gpx",
+      "bytes": 290435,
+      "sha256": "62729246b1316e3394534b0aeb9c3f146b5e7887b45acd7991dcf37531a07a39"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v13.lst",
+      "bytes": 17571,
+      "sha256": "01b0b890005a2c54040378fb5662fbc594850b495eadbe084eaf26bf90831e62"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v1_handoff_backup.gpx",
+      "bytes": 284804,
+      "sha256": "a9f42ea68dde66b808aafd2a2022ae2f31710b3b8d8c23faff49021bd514e98c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v1_handoff_backup.lst",
+      "bytes": 17357,
+      "sha256": "ede5a9d87994df7482fc34542bb0b89709ff4ed309193a2051e5a84f2b94bbba"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v2_atoms.bak0.gpx",
+      "bytes": 285267,
+      "sha256": "2d7fee94e1b9c4d1ab92c8191b362742ddb3adab0efc9a22c250061741582101"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v2_atoms.gpx",
+      "bytes": 291870,
+      "sha256": "3fe899873a32a5f67c30e946487a3523b56627e91408cb275e4160ce9d834dde"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v2_atoms.lst",
+      "bytes": 17115,
+      "sha256": "3f088c87c9cc5a69b5c09a9f4407eab96117e2dc530139d592b2fd3d7e2b40fb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v3_check_built.cif",
+      "bytes": 1341,
+      "sha256": "35f191733fe1c637d89243adef93bf7a1ca40d61925ee3c8875f76c7f0bc3b28"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v3_check_exported.gpx",
+      "bytes": 290167,
+      "sha256": "8a920bcadd7145d92a2c83036545906aca64c3ff3dd7d38069d65beda402629f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v3_check_sodium_molybdate.cif",
+      "bytes": 4907,
+      "sha256": "684f9d29a5285968e9d525ffb7701d50e8d7c379da3ff0c9402b0b2408eac82f"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v3_md.bak0.gpx",
+      "bytes": 290230,
+      "sha256": "b3b3dcfef1ecf559fd0513d471843a79895d86498597ad44e0bc5d61a232b4d1"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v3_md.gpx",
+      "bytes": 290167,
+      "sha256": "8a920bcadd7145d92a2c83036545906aca64c3ff3dd7d38069d65beda402629f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v3_md.lst",
+      "bytes": 17162,
+      "sha256": "5d5220660e2ba7b4562e38f200c1c3318ef0e19b8cec6e836c029e3d13ef590a"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v4.bak0.gpx",
+      "bytes": 281559,
+      "sha256": "64a909f25b6d4d968e823999ba914d3ba328a5b68e52e1b76a1c54d5aa5373cc"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v4.gpx",
+      "bytes": 281799,
+      "sha256": "69ffe7f6e1b73f9bcf16bfa6de7ed61450f7c6d728163be62cabbc7746af3124"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v4.lst",
+      "bytes": 17263,
+      "sha256": "fc02ca1ac20f80026511eed2da7100d8a598b6d2f0a752bec7c89c2617e95d79"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v5.bak0.gpx",
+      "bytes": 286630,
+      "sha256": "c574c939c2d16dd98d2c5bb76b459c4c113081b94b9dadb57fc48e7d5bfed54f"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v5.gpx",
+      "bytes": 285181,
+      "sha256": "b4026e25bc33dd44931c495a86d73601dd376e8dfa978b07f90ff3cb13f467c7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v5.lst",
+      "bytes": 16973,
+      "sha256": "079aa87e826b9ff74d670366bcebe53f873c086ef0ec71bd0cde497b7aa5caf1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v5_check_built.cif",
+      "bytes": 1340,
+      "sha256": "51afa80ec28cb375f46c66cba22a417f2862bf8021771e65efde5d89bce00524"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v5_check_exported.gpx",
+      "bytes": 285181,
+      "sha256": "b4026e25bc33dd44931c495a86d73601dd376e8dfa978b07f90ff3cb13f467c7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v5_check_sodium_molybdate.cif",
+      "bytes": 4906,
+      "sha256": "95cb2c9b007b22a657d689c91ed5d1dc72640b4fbf6b7d1ca86ee9cec83ff338"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v6_tert.bak0.gpx",
+      "bytes": 293971,
+      "sha256": "d1ebd1a4f360dd843daafa6315be27c59e2f502873a63efade98ed07fa9a587f"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v6_tert.gpx",
+      "bytes": 368789,
+      "sha256": "16bfcbaf2a705152f3b970cae8a44d623f1820ad9439dea2b0b40e3754275b37"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v6_tert.lst",
+      "bytes": 25929,
+      "sha256": "0bfabc6006cff1710e2b58ed9f4850fbf8e0e41d2c7ed8c04a26c78fe4c73a0f"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v7_ama2.bak0.gpx",
+      "bytes": 292966,
+      "sha256": "73d491b32f4160018b1d09e1f217574cefe07c5af4b086cd26832562a29fa20c"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v7_ama2.gpx",
+      "bytes": 352959,
+      "sha256": "f3b1d752073793438aefa0b2abbdacb526bcc7ace2725d7825e102b074d7712c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v7_ama2.lst",
+      "bytes": 24633,
+      "sha256": "91fe229311cd597e39f44b78363bdd2fac4ee8be57c5702dbea8de34c6441751"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v8_naocc.bak0.gpx",
+      "bytes": 285124,
+      "sha256": "114d69f5dfb824214150b0fc2961ef0282ab643ee5cbceee75c3f7d4f3c4e17a"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v8_naocc.gpx",
+      "bytes": 285103,
+      "sha256": "df1c73ae15f7ba343d19f87898cfda0b2c8dec0345eee3dc2b8de9c4e7caf6d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v8_naocc.lst",
+      "bytes": 16972,
+      "sha256": "d9a8ec327f4c4d8a50a29ea3f053a4ad496051623ca6cc794263860ed6c29ea6"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v9.bak0.gpx",
+      "bytes": 279361,
+      "sha256": "24943eba67e7c343700f6caea90ac933ca3f781633f2aed725a84320a3909ed1"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v9.gpx",
+      "bytes": 285054,
+      "sha256": "f1cca5b928c7034e587e5a151a5079d81012f2fe7882854453310f59270442a3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/gsas_v9.lst",
+      "bytes": 16972,
+      "sha256": "9f3fdadb30db0b978ad8a045d6f27ac157c6410239f4506e4101c00a69e95e03"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/INST_CuKa.instprm",
+      "bytes": 251,
+      "sha256": "346e981d1ff35912d7234236d90a0ebd98d1e97091cb2d4c0c1e4a01b67bbd09"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/INST_CuKa2.instprm",
+      "bytes": 284,
+      "sha256": "8752db9e1671f6f988448d6e92eed22d10d070904715d228250c1794ae66fefd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/LayeredOxide_final/LayeredOxide_built.cif",
+      "bytes": 2039,
+      "sha256": "e63383684aa5b9cf04fa33af604393c1f75c04f0ea409de7a0bf1c25cac999af"
+    },
+    {
+      "role": "final_gpx",
+      "path": "workspace_snapshot/LayeredOxide/LayeredOxide_final/LayeredOxide_final.gpx",
+      "bytes": 289503,
+      "sha256": "c170a89a931af7d63b21eb29ac79dc560bcdc080e100a72acc8bacb78e683d18"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/LayeredOxide_final/LayeredOxide_final.lst",
+      "bytes": 17571,
+      "sha256": "01b0b890005a2c54040378fb5662fbc594850b495eadbe084eaf26bf90831e62"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/LayeredOxide_final/LayeredOxide_finalize.json",
+      "bytes": 5378,
+      "sha256": "d43d5015ee1f2291334e7e2fd19ccadb133cbd1305c5e7d548b31a657794de28"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/LayeredOxide_final/LayeredOxide_fit.png",
+      "bytes": 305102,
+      "sha256": "6d60b80a305954c53d917572d3a39aa8c5e41c8030ee7acbb8c414b6cff88782"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/LayeredOxide_final/LayeredOxide_report.md",
+      "bytes": 4291,
+      "sha256": "7d1e49da544ebfd993cf5276768552e04e262cf1031594968136739d1dfa761c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/LayeredOxide_final/LayeredOxide_sodium_molybdate.cif",
+      "bytes": 6411,
+      "sha256": "3cbe6f059961d2ab4c3009d82d22bb027cb825ebed6160ac5b56299e30b5009e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/O3_NaNMnMoO2_cand_orbit_01.cif",
+      "bytes": 1554,
+      "sha256": "c772f34b803be4e4a01a4b7bd30a46b08c2638f42d0924d942bf4ab4c97f65ba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/O3_NaNMnMoO2_cand_orbit_01.dat",
+      "bytes": 61816,
+      "sha256": "1a62adc53e6904c04a644d1429c54a9ab16bbe98f1b11f45663732b4476789b4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/O3_NaNMnMoO2_cand_orbit_01.pcr",
+      "bytes": 4090,
+      "sha256": "4360604b6cf28bed21086b9e8ba84d72217b3937427bebf979a571562ec17026"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/O3_NaNMnMoO2_cand_orbit_01.pcr.prewavelength",
+      "bytes": 4101,
+      "sha256": "a5524cfb165266e3840ae85d9cd4f77f500f1a9b902e7cec93c090227a84031c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/O3_NaNMnMoO2_cand_orbit_01.pcr_check.json",
+      "bytes": 2065,
+      "sha256": "19eab26b5e5fe22da834762e70604d374cd89866593eebedf8522f962d9b7105"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/O3_NaNMnMoO2_cand_orbit_01.wavelength.json",
+      "bytes": 403,
+      "sha256": "ce1420e815e8d133559a987ba3824ca56573b8f0695e677f25169340e9930f9a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_Na0.72Ni0.33Mn0.62Mo0.05O2.cif",
+      "bytes": 1158,
+      "sha256": "1d9c92422df653453372e5b42943d26bf76cf470939cca507489857e7782411c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_Na0.72Ni0.33Mn0.62Mo0.05O2.pcr.prewavelength",
+      "bytes": 4113,
+      "sha256": "92e8603e65639d55238d6733f1fb2572440861f15cee44d54a3ed6c4f2a0db88"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_Na0.72Ni0.33Mn0.62Mo0.05O2.pcr_check.json",
+      "bytes": 2069,
+      "sha256": "9b84ede3159b3cd9e23a1f9405d5318f5af2966f3781c5fe98c90985510ace9c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_Na0.72Ni0.33Mn0.62Mo0.05O2.wavelength.json",
+      "bytes": 406,
+      "sha256": "c2c71b29713af3a93ead5d4d5125b5dccdcba93a07f3c520ea1b9bc13cda31ab"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_NaNMnMoO2_cand_orbit_01.cif",
+      "bytes": 1050,
+      "sha256": "a73ea9aee50829a714d34008a7991f19ecd02273f762eb7eca76bb0fff13f0b7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_NaNMnMoO2_main.cif",
+      "bytes": 1158,
+      "sha256": "1d9c92422df653453372e5b42943d26bf76cf470939cca507489857e7782411c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_NaNMnMoO2_main.dat",
+      "bytes": 61816,
+      "sha256": "1a62adc53e6904c04a644d1429c54a9ab16bbe98f1b11f45663732b4476789b4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_NaNMnMoO2_main.pcr",
+      "bytes": 4054,
+      "sha256": "718b314704f256893d282569394a20d04d81bb4587bc4721523f353b0ce16f4d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_NaNMnMoO2_main.pcr.prewavelength",
+      "bytes": 4065,
+      "sha256": "6fd4c2fc25681fddab4a1bc3a5b893f8132a97163249ea441ad52920646bc185"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_NaNMnMoO2_main.pcr_check.json",
+      "bytes": 2069,
+      "sha256": "9b84ede3159b3cd9e23a1f9405d5318f5af2966f3781c5fe98c90985510ace9c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_NaNMnMoO2_main.wavelength.json",
+      "bytes": 394,
+      "sha256": "595038c4a6c92eac5413ece4656ab720659dd2fff35b5998022a48047031e5f8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/P2_NaNMnMoO2_splitNa_orbit_01.cif",
+      "bytes": 1151,
+      "sha256": "e52a6145b9855ea414b6a9bc80bba05ab687074a604155f2c5137e99108734b0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/pattern.dat",
+      "bytes": 61816,
+      "sha256": "1a62adc53e6904c04a644d1429c54a9ab16bbe98f1b11f45663732b4476789b4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/pattern.fxye",
+      "bytes": 68697,
+      "sha256": "51b38333be695281074cf3ea369d5c36b48206fc42177c3b983a44abde757b99"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/pattern.raw",
+      "bytes": 14784,
+      "sha256": "e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/pattern_2theta.txt",
+      "bytes": 92535,
+      "sha256": "4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/pattern_twocol.txt",
+      "bytes": 65249,
+      "sha256": "77e3ecf598d010bd8a8f3a62400302aa9a114323ecbf74d37d033594ee594c8c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/phase_screen_plan.json",
+      "bytes": 381,
+      "sha256": "756fdef31f06969831d5c9246e0dd1194a5e493677ab7bcf25e42ecf33b8079c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/phase_screen_result.json",
+      "bytes": 1732,
+      "sha256": "682eb1dfc6979c09a35ea161b2dbb22379f25c4f5d93eb67e2adcbe00866d5d1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/phase_summary.json",
+      "bytes": 3482,
+      "sha256": "d26c4d83296cc92158207a75e244ef5450f75fdca7d196ead164f5397828a42e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_r10_extras.json",
+      "bytes": 1480,
+      "sha256": "02b9e555b39afab00a4998d3b70022885f2fdb2fa7183d5c83f6bfdd13160ae5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_r11_struct.json",
+      "bytes": 1462,
+      "sha256": "3da9c3f5cb0f28fc3db5e8ac092e98edd0d5bc62a07927216a7f339e6dd399b6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_r12_oz.json",
+      "bytes": 1324,
+      "sha256": "0281ba41699ca1b9cd63c79b6ecc7393824cffc793b03daaf0eb3e911cbf1a7b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_r13_oz_phys.json",
+      "bytes": 1416,
+      "sha256": "c48083746c8a617dbc2ee9a25e6891b440e50895e506b8679e3a2596296e720c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_r6_twophase.json",
+      "bytes": 1318,
+      "sha256": "8bc469bd0ae329625d419f67ab66372fc2e275a3a00612df9dc4d1c0255c9c26"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_r7_twophase.json",
+      "bytes": 1279,
+      "sha256": "60a0164dfff420e54cf8c6d32a752ca7d9599cbe1abe9a455da8a08771090731"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_r8_ama2.json",
+      "bytes": 1290,
+      "sha256": "604fe3d3d4be3a6bacff7396b324d0725040a9c90699b1597bd1f7e399eb8dcd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_r9_asym.json",
+      "bytes": 1348,
+      "sha256": "beb4a68412a4ba5d1ab5bbe770996ca5778b656907555c883b3b5d3ad1ce6e90"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_r9s.json",
+      "bytes": 1288,
+      "sha256": "033d59ae121977998a96c8710bde8e74ea0509ee5643f3771f23053fee9549c5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/plan_twophase.json",
+      "bytes": 819,
+      "sha256": "1c46196a75110b2c6c45b155dd413bfb78238aa2a63620ea92ac7edc799840a6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/proc_guard.py",
+      "bytes": 21936,
+      "sha256": "9cba1e22a28b69f442f1a6f61d72572ae575a431fde41333f53ee2fd680156ab"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/cod_1534905.cif",
+      "bytes": 2441,
+      "sha256": "4aad9677d61525d25d35def5a23cc36c24e414e8300bbe1d958058f0974ec3b1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/cod_1560391.cif",
+      "bytes": 14804,
+      "sha256": "e1130d0e2ac2445d86940894a129a852ffcd37ec005ab7e666a683f3cf5bf5bc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/cod_1560392.cif",
+      "bytes": 14754,
+      "sha256": "9de9ecc4a2ac65ac3f7ae17f287bcb29518797972d654ef54360ace8aef609e7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/cod_1560393.cif",
+      "bytes": 13999,
+      "sha256": "173517b95118a139b02bb671b4e99b143b3a245e665a4b1a754f25033e746d1d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/cod_1567893.cif",
+      "bytes": 3102,
+      "sha256": "4be2aecc5d81b1fb54c010dc7ad84868e8b7d4a1ddf0c4d940a190ff2689d285"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/cod_2240655.cif",
+      "bytes": 313305,
+      "sha256": "1b2fffda7d382594b77f694d353abe5713b01c4af6de61df1177da0c3fa384c4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/cod_2240857.cif",
+      "bytes": 300355,
+      "sha256": "c54509fd5cd7ec50c055d37d924413b4c787db25afa0dabd2ca3214e94be3d97"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/cod_7205682.cif",
+      "bytes": 27387,
+      "sha256": "0eabcb181b1536a44d6ab96a9ee6437a74518c99d8ef6ec5336697481e8ce775"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaaaaeoc.cif",
+      "bytes": 1333,
+      "sha256": "6883c8c2c51dc311e96be23c4c39a1d689041ff3c3f3b7210f3db202539c5bd1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaaabbxc.cif",
+      "bytes": 1452,
+      "sha256": "9b40af1cb137ae0c144acd7a7af5c04ee830fd794a72a8590dba1dbec49ae901"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaaabeih.cif",
+      "bytes": 1335,
+      "sha256": "4a175e6815cdfda8e81bcdc630b756d4a360d6705e5d003ac23bba816eb5ffc7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaaabhqg.cif",
+      "bytes": 1446,
+      "sha256": "31e6deea98500844201970187f89e04181299787bce15ee3fbce9a440fadbbcf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaabthya.cif",
+      "bytes": 1107,
+      "sha256": "29c1db49c0abb2675ec18086ec5b7dfc024756e2d6ed3359d6212731e957abcf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaacksat.cif",
+      "bytes": 1332,
+      "sha256": "c40c8798ce37c1f4ce3cebdb8933c2a62bf178ebc524b074bc07fc808b1a2559"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaacoufw.cif",
+      "bytes": 1447,
+      "sha256": "3d0fe05573e37b7447dede28045d8c8f3061c316d1adfce1d19d2992129edbf8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaacqirj.cif",
+      "bytes": 8599,
+      "sha256": "e080b9acc6477448211a290ab1d466646d0202c5f47c293ca4f33de74628baa8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaacsvri.cif",
+      "bytes": 6125,
+      "sha256": "bdbfb583d2cab1a819dacc8a30bbc63a46161fbf81eca0e932d2ac36bd2b9105"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/mp_mp-aaafxxed.cif",
+      "bytes": 1541,
+      "sha256": "dea8ca822b3ddfe2833f3e7de72b46fe736b9d2d0be12a03a8d8564ef1f9f694"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Ama2_mp-aaacoufw.cif",
+      "bytes": 1447,
+      "sha256": "3d0fe05573e37b7447dede28045d8c8f3061c316d1adfce1d19d2992129edbf8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C222_1_mp-aaacfdtw.cif",
+      "bytes": 2215,
+      "sha256": "79496b0280d7c6b78d672efdc2cf42469a9b874e1c16e741e3e600ef7818a1ad"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_c_mp-aaaabhqg.cif",
+      "bytes": 1446,
+      "sha256": "31e6deea98500844201970187f89e04181299787bce15ee3fbce9a440fadbbcf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_c_mp-aaabfvbd.cif",
+      "bytes": 2338,
+      "sha256": "abdbd278c6a657a0adf8ac34f6d8da88cd72ec7405b4576777a56c2854ffdbce"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_c_mp-aaabhcvn.cif",
+      "bytes": 6488,
+      "sha256": "22c3f416b7216369cf1c9d8db123bf3e96f1ac2e0cc3b00658d2f2f70540085a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_c_mp-aaabqvif.cif",
+      "bytes": 1559,
+      "sha256": "8921ee50f60e5ef5eef336377bde280413657130724b6b0817783504eaeb4353"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_c_mp-aaabrfzc.cif",
+      "bytes": 2989,
+      "sha256": "20055e69057bd2c020601791a81bcb884a739cea53f867c5b4de8375aa077329"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_c_mp-aaacjlyo.cif",
+      "bytes": 2873,
+      "sha256": "bff0cb7062c479646229542d628ca96db9bba08a58b0fc5ee0465733a6af9b98"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_c_mp-aaacoydi.cif",
+      "bytes": 1893,
+      "sha256": "d2ef2bf656ca9f577324d79bccdc7a45f0b798e9a5b8a14249c2c6d0bef84096"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_m_mp-aaaabcbd.cif",
+      "bytes": 901,
+      "sha256": "570d9b8b6ab016fe062d66e902d02f12a83396316e38631e69fe8eea949ad74b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_m_mp-aaabraec.cif",
+      "bytes": 1341,
+      "sha256": "7a8e30f46bc7c2c99837928c984c33d2820aa83f179cc3f15ad2d6464ce8169e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_m_mp-aaabrhnf.cif",
+      "bytes": 3762,
+      "sha256": "43409f6edad805bd1c24654fd547b51583959bb5b52c37ea875030804551ec61"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_m_mp-aaabrool.cif",
+      "bytes": 2220,
+      "sha256": "e787d1e598bb19a1b2c9d99c9fe84523cf1f1364e39f69b52b80b665d24e94c5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_m_mp-aaacfvex.cif",
+      "bytes": 1390,
+      "sha256": "743b0e8b7b44d31f8ab1f79db809aa7f5a8bad49f7ca65f0f97f211f78b5437b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_m_mp-aaackrsi.cif",
+      "bytes": 3759,
+      "sha256": "0a37e20d2b8fea0b25319240f60940dfb2161ccdff6d70dba7a7232fce2b372c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_m_mp-aaacukio.cif",
+      "bytes": 1785,
+      "sha256": "7f7e12c190660aa4be53b16876d4955c53392a89c37d7badb96c8aa0cf53af16"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_mp-aaabrhwn.cif",
+      "bytes": 4527,
+      "sha256": "9171009b29d595cd0597c11be9e01274fba881a2710c5659ee9af5208f8ead19"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_C2_mp-aaacrnks.cif",
+      "bytes": 1722,
+      "sha256": "2df6c4613775fe9c20d05cdf655a0f4f41b5c0808dd66bc8168d5de92b915ba0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cc_mp-aaaabpsc.cif",
+      "bytes": 1447,
+      "sha256": "1953c58475f66b7ce9d779f6d5a7402da077b85fc44800fb857b8cca77650594"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cc_mp-aaacfcwl.cif",
+      "bytes": 2985,
+      "sha256": "e98716a86ec691a2f0f9e9be1e8b27cab407fafeb443c405495923210eb7c7b1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cm_mp-aaaaceiz.cif",
+      "bytes": 3224,
+      "sha256": "27794c83ce2655ece923f2d3078b05e581dbd0eff92866d8520d90fdad7ad94f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cm_mp-aaabrhoc.cif",
+      "bytes": 2879,
+      "sha256": "6d367de403a32a941a6e5fafc430ccbf01478635c927cb61cc31a200de2fc78d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cm_mp-aaabrhwc.cif",
+      "bytes": 2936,
+      "sha256": "94b8e7062d7890927b13a78816c2ef5fba9fedf582b342af3183149acd00ddd3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cm_mp-aaabscef.cif",
+      "bytes": 1953,
+      "sha256": "ad4d750cd7da89e0997e81bc58eccf0a0c96abcee0db608c71366bfb2792d592"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cm_mp-aaacklvy.cif",
+      "bytes": 1670,
+      "sha256": "1e1572386f2e2646372ea04f9a2a9053c9ef80cda70ef7af3b247f06dfcf8165"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cm_mp-aaacrnhi.cif",
+      "bytes": 1666,
+      "sha256": "ec4e92b35d7d06c0eb02f774a832ea0718e420cd873dc23d136f788388778690"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cmc2_1_mp-aaaabcpd.cif",
+      "bytes": 3113,
+      "sha256": "53e9dbb5e20ec64e61aa85492eb0a3ca527922880faed76040c447d2157c8774"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cmce_mp-aaaabdga.cif",
+      "bytes": 3091,
+      "sha256": "55ac496dbbf9d0bc6b4c3e7db85639d065fb19c91a982e1ed7e1e56736494c40"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cmce_mp-aaabribp.cif",
+      "bytes": 5316,
+      "sha256": "649a57813c9179792ac3a51622df1e6deb5131c16012792074a320586b3e4289"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cmcm_mp-aaabrfyw.cif",
+      "bytes": 1333,
+      "sha256": "b2bc96573a26231d169b1b7f5670d8a03b55c5ebea79da5740d36ae7e31f3ef4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cmcm_mp-aaabsbfy.cif",
+      "bytes": 1447,
+      "sha256": "456608e1a12835e0fd4a1c1eedd935df40152e4b09842f4adb39b45a6b2e1a1e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Cmmm_mp-aaacrber.cif",
+      "bytes": 1235,
+      "sha256": "265378cedcb9357593def396175bc3645dc6f43a4027b38777241395f4ac99d7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Fd-3m_mp-aaaabbxc.cif",
+      "bytes": 1452,
+      "sha256": "9b40af1cb137ae0c144acd7a7af5c04ee830fd794a72a8590dba1dbec49ae901"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Fd-3m_mp-aaabrgtw.cif",
+      "bytes": 1446,
+      "sha256": "6fe025b6a5e5bd8bda7cad216cc4e73accef04a3d731694be8a7533a64d3e149"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Fddd_mp-aaaabbxt.cif",
+      "bytes": 1895,
+      "sha256": "9397f43765e430643cc2b949f1137b4c5ef7386bdfde9d5f89d93dd7faff5d07"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Fddd_mp-aaabricb.cif",
+      "bytes": 1999,
+      "sha256": "b3197184af59a78686a31a18217483c9cf611d5fb99b80202e3030d1de635709"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Fddd_mp-aaabrpza.cif",
+      "bytes": 2874,
+      "sha256": "9a3772f65dbb0c3570bfb3d5aec48e10b116faea2f261fa523ce4f07b1bf7a07"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Fddd_mp-aaacqxll.cif",
+      "bytes": 1785,
+      "sha256": "b4ffb54df6a381faae47ceaddb8e5541888a7562accc18117274e7ec76d9ca60"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_I-42m_mp-aaabrhnn.cif",
+      "bytes": 3707,
+      "sha256": "b98388c6900045932ccf259ee5103c64c22ff3e615c0f7ffd968d282961d167f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_I4_1_a_mp-aaabrhnd.cif",
+      "bytes": 4080,
+      "sha256": "23e07cc2d9d25dcd613f696b2dcba99640ead089943a08f533c8cb5d7ab85dd5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_I4_1_amd_mp-aaabrfov.cif",
+      "bytes": 1556,
+      "sha256": "35906f9ba3fe74fec1bb0d9378d8fe94ed1217bbf028bb0f4482563541943ad9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_I4_1_amd_mp-aaabrmfl.cif",
+      "bytes": 1448,
+      "sha256": "f8a65f1fe47f2ad5a157b3a77fc03dd8912a596945c7610f31b0030258470438"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Ibam_mp-aaabsbjc.cif",
+      "bytes": 1782,
+      "sha256": "aa03037d52e3723b9a8f59332c2e721e056eb1038230813469f69390b4bd7dd3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Ibca_mp-aaabscem.cif",
+      "bytes": 2450,
+      "sha256": "a0bb9f428b4d0d52d92a6929e3c0d4544910ef53d6ca6219dba53308dab54ae5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Im-3_mp-aaaabcct.cif",
+      "bytes": 1780,
+      "sha256": "7c6d10ed0ce10ff55c2f4eefa8ca77eb370eae6ed1b86d1cd8930be71902119e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Ima2_mp-aaackpax.cif",
+      "bytes": 1671,
+      "sha256": "a107fc9641dd618c2f753f657fa3f3c1769e77a6b5a4e05567e6a1f61b0c002a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Imma_mp-aaacvotv.cif",
+      "bytes": 1447,
+      "sha256": "5b855eaec072ff8bb29ad9516688bbc5375e26296dfe0cc4c1c84c8aa4d82748"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P-1_mp-aaaabcfw.cif",
+      "bytes": 2000,
+      "sha256": "0f1290295d7f0fe1bd6c2814e284bd9cd0759aea2cdb25311946dab7f35f80ab"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P-1_mp-aaaabsjg.cif",
+      "bytes": 2881,
+      "sha256": "2be79bb72c39ae101a4deb00440f70c67e6e83823f84511eee0e05ce76a9b677"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P-1_mp-aaabkybg.cif",
+      "bytes": 3365,
+      "sha256": "77c1e406a276be75471d5e069a3e7a49a43105ec2831093d51012274b83be17f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P-1_mp-aaabrfga.cif",
+      "bytes": 2225,
+      "sha256": "5bf93dfe130e30922550e976efed4a2e560586693eec8b1c8c0de981102353be"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P-1_mp-aaabrgai.cif",
+      "bytes": 3760,
+      "sha256": "3bb615b6f9e0adb0eec867e5971c4f5832555d0204c8b4386ff3b4b7d74ace1f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P-1_mp-aaabroom.cif",
+      "bytes": 2993,
+      "sha256": "1f48410f1c32a7f7c87ab357ba36bd08e8d99244b20bb0b88fa95fc7abf605e2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P-1_mp-aaacfbcl.cif",
+      "bytes": 1065,
+      "sha256": "c0c92710680537bc3930e3a9a07ddee5ab3615a894498f7055f7f4989e4c930b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaabrgnj.cif",
+      "bytes": 5245,
+      "sha256": "02ca9c0f411078e6bb7dc0de1bf14e53f063f502e0d74f00b5e176630bce0450"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaabrhna.cif",
+      "bytes": 3763,
+      "sha256": "a6de89a5d3302dc6510c4ac7d1563d99d3ee7e7bdfc53fb5b111f7e3831147a3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaabrhxe.cif",
+      "bytes": 4138,
+      "sha256": "1ba2f022fa02274a780655df52282b3d8855f17115859be472d18f296ea8f432"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaabrmzh.cif",
+      "bytes": 3760,
+      "sha256": "ea06bfaf8d65c37de3466c1dbbdf71f651f062ec11f1d7abf3581312f15960ea"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaabrqax.cif",
+      "bytes": 3705,
+      "sha256": "1eac8664fae40a6f1b2d8c195c2dbf3beb7a98fb21d9f25db02c0ae4f4db2080"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaabsicv.cif",
+      "bytes": 3003,
+      "sha256": "07f3b5bc399873bf6772c5deb918d928a6c83b8aa74c9561c78fea0dc3e06016"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaabwijo.cif",
+      "bytes": 1672,
+      "sha256": "e2d64303662b1eeb539a50fbfa43505ab66b77d392adb00efd8c54d2fc3cf756"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaackmdi.cif",
+      "bytes": 3419,
+      "sha256": "70946093437ba9fc76e1d977b06d2f40247db61a97a710b193145f7692fb4640"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaacoumi.cif",
+      "bytes": 4679,
+      "sha256": "5f327afb2bf3dda5708bccc41552afe0e8c95b1a593dcb6b17422fcac89183d9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaactabl.cif",
+      "bytes": 2167,
+      "sha256": "796005331ed611e43398344fe20ad39e9d0ba282f8e594a859355bed9bbb66ff"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P1_mp-aaacvbaf.cif",
+      "bytes": 1558,
+      "sha256": "7fc0ca60b3ab91258e8c4b0d9a53ae75f72bca036d81fe59898b014fbfe1e8a6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_12_12_1_mp-aaabfuaa.cif",
+      "bytes": 2225,
+      "sha256": "61cc653ff574c85167cf230aff42ce7e7120e12c45120bc56c3e447d9e80cced"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_13_mp-aaacqwrw.cif",
+      "bytes": 2440,
+      "sha256": "c91d37042b097e7e9180654c737fd3f2704e34d251dde9b22ea802d477e24f2d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_1_c_mp-aaabqytw.cif",
+      "bytes": 1453,
+      "sha256": "84f8fc762c3300c5acd4e181d02c079ba592aa229cd15131a9bbfaa14d4e43e2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_1_c_mp-aaabraii.cif",
+      "bytes": 2225,
+      "sha256": "aff4dd49e59d057c8de831b5d5603ecd23e6853b69135a18c0122b3fdf73bea9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_1_c_mp-aaabroub.cif",
+      "bytes": 1989,
+      "sha256": "ed8a12f68d267acdb5f5098d3d1b0b0618b69aa2770bd84a3273b309ae02264f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_1_c_mp-aaabscds.cif",
+      "bytes": 2889,
+      "sha256": "5b90c4afa99cd8a2c14134784916a682b8aa3d37cba3e342246c9f6a311677cb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_1_c_mp-aaacfcrk.cif",
+      "bytes": 3529,
+      "sha256": "eab587c5acb77707be5548b466480c8b0377c16c8b038f08be7a3d6fa034a72b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_1_m_mp-aaacqwmg.cif",
+      "bytes": 3303,
+      "sha256": "bc76c229896a4cc331ac0bec8857b3ee1efbb07670151b0e711d0b2804efe19c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_1_m_mp-aaacukdl.cif",
+      "bytes": 1557,
+      "sha256": "a5a2c562e9183efc3e3d0706c13e4f64c5967c15139e6049693b259503b63df7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_c_mp-aaabrmfx.cif",
+      "bytes": 2216,
+      "sha256": "47c725005153d171e702b0da58d191eaeafb788c5c27d662274a93bfe647fdc5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_m_mp-aaabrmrg.cif",
+      "bytes": 2219,
+      "sha256": "95c2844fdb817e15deee5af760fcae2bb24ccaebf70f306d4094ebd6ccfd2d02"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_m_mp-aaabwjsm.cif",
+      "bytes": 1779,
+      "sha256": "8eee69a0eb32278fd7ad8038579f57c244d14f1d581795d88cf1da0f853f54d6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P2_m_mp-aaaellbj.cif",
+      "bytes": 1069,
+      "sha256": "6c4a194da106e388fc70e0d04d5506779ea331b70f3f8a75eac0487435a5f7f4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P3_mp-aaaabouj.cif",
+      "bytes": 2067,
+      "sha256": "7fdb380b30bdf4b7cb863fe21b7fd6cd0bec99d536aa6807e9a7c23bc74ebdba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P4_2_mnm_mp-aaabwijj.cif",
+      "bytes": 2224,
+      "sha256": "efb2794da7cae0bb18e8967d6b6591a105e9705044ac1a008d8c14f0607ecae2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P4_2_n_mp-aaacfcvg.cif",
+      "bytes": 3754,
+      "sha256": "7fc9f86f271dacf0d2e233206c54858d3e67b510eb95977896f212f1c4391312"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P4_2_nmc_mp-aaabsbmg.cif",
+      "bytes": 3113,
+      "sha256": "b70733ace890ffbde924fe67eb4bc89f3c0afdea8eab1cc7febdf9ebff12f810"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P4_332_mp-aaabskql.cif",
+      "bytes": 3755,
+      "sha256": "6a19c1fd6a09fcd76a5753b07ded60c903afa24e8e020ca7a0cc592506c1a0d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P4_m_mp-aaacfcrj.cif",
+      "bytes": 3374,
+      "sha256": "11218cb849651b0f4d6f5c58f9b4ff4575c0c38074547dfef717daaa93045524"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P4_mbm_mp-aaacpvbs.cif",
+      "bytes": 1895,
+      "sha256": "ebcd44ba9f046d0eabbed04c1031804844c97e28f4c9c3073a6ceb2360e231f8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_P6_3_mmc_mp-aaacdhjb.cif",
+      "bytes": 1119,
+      "sha256": "80871c8902917ba90fc16afc0c742acda05b7bb53ba3335930db108ba230c893"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pbca_mp-aaacqgsc.cif",
+      "bytes": 4619,
+      "sha256": "1534ae65dcd1175d3213fa41fb18620637a0c2109898b15227e065bbcfd6f213"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pbcm_mp-aaackrkr.cif",
+      "bytes": 3752,
+      "sha256": "563a8ca2f8513fea16658d450c0a4955855b5fd9daf6809443ca82088a499a2c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pc_mp-aaabrabw.cif",
+      "bytes": 2665,
+      "sha256": "9522c4f34c337392799dead8f7e0d88abd319aa625c118b6cd3b7df3fd069402"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pc_mp-aaacfcrm.cif",
+      "bytes": 3418,
+      "sha256": "0c05406a3099cc9997cc9c34c9097bd5a790a1e2844d06b45f2f282b18926d13"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pm-3m_mp-aaachfed.cif",
+      "bytes": 954,
+      "sha256": "b6b0e894ba650d485c613ea8bc4603b73e47cc7978809b1c8909a96c34ec39cd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pm_mp-aaacfvdn.cif",
+      "bytes": 1557,
+      "sha256": "737dc9258086a58a4ff0a4ca203f4b5f76e29baded3830ba7fda2bfe9b6637e4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pmc2_1_mp-aaacfcwk.cif",
+      "bytes": 1446,
+      "sha256": "674c1d7e8ea187f7f00e599b3b08bd89539aa97c12b15d39c76a5b69ea9c23be"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pmc2_1_mp-aaackgop.cif",
+      "bytes": 4085,
+      "sha256": "5335d50f81d2b46ac5fa0916d0db40d1f152809a289f7227d46885a8897cc435"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pmmn_mp-aaaabfdc.cif",
+      "bytes": 1117,
+      "sha256": "123308632ebf9922d1b3f01977c83019118f1740d8facd2879fbaaa95ab3eec7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pmmn_mp-aaabrgjd.cif",
+      "bytes": 3419,
+      "sha256": "6d6490e7d0c57a187df8e26f69bff3b786665cab9e2d91c49edf4ea9122fa7c9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pmmn_mp-aaabrhru.cif",
+      "bytes": 2216,
+      "sha256": "a3b9b06bf51bc559100324811f644247b7a83ce4f5b67dfafa57f552563d92db"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pmmn_mp-aaabrpfv.cif",
+      "bytes": 3645,
+      "sha256": "0fb925a1f9b6a3cab719a63d35e962478778a24b7fd0398a064a2978ec99d0ce"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pmn2_1_mp-aaaabpva.cif",
+      "bytes": 2889,
+      "sha256": "5388d120706b5ed75a479ce34091b94026373bde2d2007b768931efb8233fa9b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pmn2_1_mp-aaacqwjo.cif",
+      "bytes": 1559,
+      "sha256": "60e583530f64b4f74ec70785451b09951408bf2bc747c8c4fb837cbd17877db6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pnma_mp-aaabewvm.cif",
+      "bytes": 2216,
+      "sha256": "afd3cede6d5b26852efc0ef7cea2a49939714ef1ee1013261b1b7b4ccb1ed538"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pnma_mp-aaabqyrw.cif",
+      "bytes": 1990,
+      "sha256": "7a3fc5ecc851225a2cea74b63b4b4aa812c8c30150d529cfc4dfd4b96c550d3b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pnma_mp-aaabskto.cif",
+      "bytes": 7299,
+      "sha256": "4493fa16473d97faeb5a9d418887058dd070996d0d7d2e1a642d456201881628"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pnma_mp-aaacfveu.cif",
+      "bytes": 1557,
+      "sha256": "c7d57f54c9e02be16a5cd9f3db952e19a3e142fad8b1e0b0900c401f830c2306"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pnma_mp-aaacqnny.cif",
+      "bytes": 3955,
+      "sha256": "125101b4a16674ec6eadd9127f53d7a061097a60a08c62aac6a6dd9f496579dd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pnma_mp-aaacqwlo.cif",
+      "bytes": 2441,
+      "sha256": "17dcfcd2f50246082a3c46253ce4b08fcc1cf514962bc50fd02555f6ad72fb72"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_Pnma_mp-aaacqwwd.cif",
+      "bytes": 2880,
+      "sha256": "72e582285093c7802a122a9b8ec490f2daea932d027b6c92c3cb48951dfe721b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_R-3m_mp-aaabgxyb.cif",
+      "bytes": 901,
+      "sha256": "3e104e39089f6d9763f5810eb1fcf048f28a7e31f6508425bccd3ccb4249aa31"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_R-3m_mp-aaacrmsd.cif",
+      "bytes": 1130,
+      "sha256": "db155cec2e97e354848a6e1f305329e52c2033371ecb957fb2f6389f46634926"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/ref/poly_R3c_mp-aaacevgt.cif",
+      "bytes": 1224,
+      "sha256": "ac64b69a27ada6cfe089e5719a36a3d2731109c20b3df5c6bddde79439667d49"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/result.json",
+      "bytes": 10033,
+      "sha256": "a54b49291c17c2a276fccff643734a8fc9f7584f20a66afa7d600f1c60d9d4c0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/result_io.py",
+      "bytes": 4723,
+      "sha256": "1d5cada7fab77ed9bfc0acf1f1e47d33e48ec241a6cfc0fbad9c629b2b783092"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/review_judgment.md",
+      "bytes": 4525,
+      "sha256": "afa79a52d0bbe552fe640f7bb6990576c1fafeae31bc62b651a3664a713e1a16"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/review_mechanical_LayeredOxide.json",
+      "bytes": 1064,
+      "sha256": "0e050ed00df225ffb6b7ebf6457e0b7190b7b858e2a44a18c7c416e935793e0f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/V1_full_pattern_fit.png",
+      "bytes": 220323,
+      "sha256": "a99dce08ad7fd8e6115551d803a583bac9fd696a306e665c2f45d93480d04d12"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/V3_twophase_r13p31_fit.png",
+      "bytes": 225837,
+      "sha256": "cea6af009b8c18e2c598e2e8f9d992e80c6f75888b05a37b5c8487fb5441b5ab"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/V3_twophase_r9p52_fit.png",
+      "bytes": 254913,
+      "sha256": "89f24aa4e4a12fc5262575ea024d91cbf31ed173e5519f9932fb1fe0ce2e5b5a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/workflow_state.json",
+      "bytes": 8489,
+      "sha256": "f1510da78a3db9e5a5334d2ca25fc7c4056c4bb5b76864296d8e250fb396c1e2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/xrd_engine_custom.py",
+      "bytes": 71086,
+      "sha256": "a919e17845f5e2d6a61adb59b5e129433d3d208272662247941d341ee4998067"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/xrd_workflow/journal.jsonl",
+      "bytes": 12889,
+      "sha256": "14bac722f76317602d5e5c1afbc3157fb61d2a81876d1111aa96af1adfdae63e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/xrd_workflow/journal.md",
+      "bytes": 9642,
+      "sha256": "ecd90f9f10c3997b9c51d21f8cfffe699378ab973506ae381bd899917a25191f"
+    }
+  ]
+}

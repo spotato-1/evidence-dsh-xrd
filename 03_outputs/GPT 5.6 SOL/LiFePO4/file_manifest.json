@@ -1,0 +1,62 @@
+﻿{
+  "model": "GPT 5.6 SOL",
+  "case_id": "LiFePO4",
+  "run_id": "session-e03ae580-d18c-423f-806e-9920746a5e8e",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [
+    "使用用户指定的新LiFePO4重测session-e03ae580；旧测试不纳入。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\LiFePO4_best_physical_final\\LiFePO4_best_physical_final.gpx",
+      "destination": "GPT 5.6 SOL/LiFePO4/GPX/LiFePO4_best_physical_final.gpx",
+      "role": "gpx",
+      "bytes": 561540,
+      "sha256": "20b1e0212d52a8bc6bb5a5ac4282bd3e4cd6f6ca26ab8953d373bd825f941f83",
+      "model": "GPT 5.6 SOL",
+      "case_id": "LiFePO4",
+      "run_id": "session-e03ae580-d18c-423f-806e-9920746a5e8e",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "original conclusion.md named final package; current primary rerun",
+      "declared_original_path": "workspace_snapshot/LiFePO4_best_physical_final/LiFePO4_best_physical_final.gpx"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\LiFePO4_best_physical_final\\LiFePO4_best_physical_fit.png",
+      "destination": "GPT 5.6 SOL/LiFePO4/figures/LiFePO4_best_physical_fit.png",
+      "role": "image",
+      "bytes": 336082,
+      "sha256": "30f1fb071da59109f119568ca44cb14b09b37ecb3c18f54d7ebfa0a0fc169640",
+      "model": "GPT 5.6 SOL",
+      "case_id": "LiFePO4",
+      "run_id": "session-e03ae580-d18c-423f-806e-9920746a5e8e",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "original conclusion.md named final package; current primary rerun",
+      "declared_original_path": "workspace_snapshot/LiFePO4_best_physical_final/LiFePO4_best_physical_fit.png"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\LiFePO4_best_physical_final\\LiFePO4_best_physical_Li4_Fe4_P4_O16.cif",
+      "destination": "GPT 5.6 SOL/LiFePO4/CIF/LiFePO4_best_physical_Li4_Fe4_P4_O16.cif",
+      "role": "cif",
+      "bytes": 1737,
+      "sha256": "a52b773a345c1c992c93be419ae635cce9194c18f4d7aac745c5db6ff54c7744",
+      "model": "GPT 5.6 SOL",
+      "case_id": "LiFePO4",
+      "run_id": "session-e03ae580-d18c-423f-806e-9920746a5e8e",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "original conclusion.md named final package; current primary rerun",
+      "declared_original_path": "workspace_snapshot/LiFePO4_best_physical_final/LiFePO4_best_physical_Li4_Fe4_P4_O16.cif"
+    }
+  ]
+}

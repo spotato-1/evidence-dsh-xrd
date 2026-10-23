@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "campaign_id": "dsh-xrd-gpt-5.6-sol-ai-agent-v1-2026-10-08",
+  "case_id": "Amorphous",
+  "case_ids": [
+    "Amorphous"
+  ],
+  "run_id": "session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7",
+  "collected_at": "2026-10-08T10:22:14.300146+00:00",
+  "source": {
+    "input_hashes": {
+      "agent_input/Amorphous/pattern.raw": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2",
+      "agent_input/Amorphous/pattern_2theta.txt": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714"
+    },
+    "input_correspondence": [
+      {
+        "input_path": "agent_input/Amorphous/pattern.raw",
+        "workspace_path": "Amorphous/pattern.raw",
+        "workspace_file_present": true,
+        "input_sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2",
+        "workspace_sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2",
+        "hash_match": true
+      },
+      {
+        "input_path": "agent_input/Amorphous/pattern_2theta.txt",
+        "workspace_path": "Amorphous/pattern_2theta.txt",
+        "workspace_file_present": true,
+        "input_sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714",
+        "workspace_sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714",
+        "hash_match": true
+      }
+    ],
+    "session_container": {
+      "name": "session.jsonl.zstd",
+      "bytes": 358182,
+      "sha256": "e838e30206235aa4a33030ca8e36845299190ad46b83d20d039266d035a2ae62"
+    },
+    "dsh_version": "dsh-portable 0.1.0-rc5-xrd090-zh",
+    "plugin_version": "dsh-xrd 0.9.1",
+    "plugin_commit": null,
+    "model": "GPT 5.6 SOL",
+    "model_ids_in_session": [
+      "gpt-5.6-sol"
+    ],
+    "engine_versions": {}
+  },
+  "execution": {
+    "started_at": "2026-10-08T00:53:38.891000+00:00",
+    "ended_at": "2026-10-08T01:44:46.029000+00:00",
+    "elapsed_seconds": 3067.138,
+    "input_tokens": 90,
+    "output_tokens": 12060,
+    "cache_read_tokens": 2957291,
+    "token_usage_basis": "DSH session project cache totals",
+    "turns": 1,
+    "goal_rounds": 0,
+    "tool_calls": 40,
+    "tool_errors": 1,
+    "retries": 0
+  },
+  "workflow": {
+    "phase": [
+      {
+        "path": "states/Amorphous/workflow_state.json",
+        "value": 5
+      }
+    ],
+    "final_backend": "manual_full_pattern_model",
+    "required_stages": [
+      "1",
+      "2",
+      "3",
+      "4-I",
+      "4-II",
+      "4-III",
+      "5"
+    ],
+    "completed_stages": [],
+    "converged": null,
+    "gsas_completed": false,
+    "final_export_completed": true,
+    "warnings": []
+  },
+  "final_metrics": {
+    "rwp": null,
+    "wr": null,
+    "rexp": null,
+    "chi2": null,
+    "gof": null,
+    "source": null,
+    "note": "Not normalized during initial evidence freeze; source values remain in state/result artifacts."
+  },
+  "integrity": {
+    "journal_jsonl_total": 1,
+    "journal_jsonl_valid": 1,
+    "journal_jsonl_invalid": 0,
+    "journal_jsonl_files": 1,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_consistent": null,
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "artifacts": [
+    {
+      "role": "final_fit_or_figure",
+      "path": "artifacts/Amorphous/Amorphous_empirical_fit.png",
+      "bytes": 357020,
+      "sha256": "ad7b01d9377d58e54583875100e8b46c402e0f37394c2b9adc53aa478aa5bea5"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/Amorphous/Amorphous_peak_parameters.csv",
+      "bytes": 554,
+      "sha256": "5c9d59dbb8622318c17fc7e19b77130a5dabd5816c24bbecff74474f5add5a7e"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/Amorphous/Amorphous_twocol.xy",
+      "bytes": 65829,
+      "sha256": "8af4419822c49799d07c31e5ee9167e375eb055830e1eb8c1a843bd9261ff496"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/Amorphous/analysis_report.md",
+      "bytes": 5525,
+      "sha256": "9ba8ac63955b65d0ff23dad2229410efb7ceb2574c76c3ed40f2352384c718ae"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/Amorphous/components.json",
+      "bytes": 320126,
+      "sha256": "6e18219ada306ff02c26a28da9e0f3694058937960a52a2f1f0d6e06df170860"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/Amorphous/result.json",
+      "bytes": 9566,
+      "sha256": "64981b115b88f866a24614ffa3b75a79f1c17f1a67af14d6b260ca862b5fb9cb"
+    },
+    {
+      "role": "conclusion",
+      "path": "conclusion.md",
+      "bytes": 2320,
+      "sha256": "a433179c9457b1bf650b362306d7180205ff2e2412baf6876dd2c58ee10520ee"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/Amorphous/xrd_workflow/journal.jsonl",
+      "bytes": 639,
+      "sha256": "d005598fbb9d6177faabe19953f03d59e7629e6101c7029e48d7e7e98dce08c2"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/Amorphous/xrd_workflow/journal.md",
+      "bytes": 2336,
+      "sha256": "715c54516d02fa98998bd286327c3ceb197df471b38a709e45596508110bbe60"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "root_reports/Amorphous/analysis_report.md",
+      "bytes": 5525,
+      "sha256": "9ba8ac63955b65d0ff23dad2229410efb7ceb2574c76c3ed40f2352384c718ae"
+    },
+    {
+      "role": "session_core",
+      "path": "session_core.jsonl.gz",
+      "bytes": 181713,
+      "sha256": "ec9e6ec6f0b96b527f620c338cdc73e136c2cb342e3f34a314e234af5a569263"
+    },
+    {
+      "role": "session_extract_stats",
+      "path": "session_extract_stats.json",
+      "bytes": 1660,
+      "sha256": "530c8fa010bbffc75921257e5ca8cdc19da4e95f714e87643f045b93f00d743e"
+    },
+    {
+      "role": "workflow_state",
+      "path": "states/Amorphous/workflow_state.json",
+      "bytes": 4445,
+      "sha256": "9d09fb3256b458819d6b0fc457f3bf3995c801dae2533a99e5663be72c4dd1dc"
+    },
+    {
+      "role": "tool_trace",
+      "path": "tool_trace.jsonl",
+      "bytes": 172903,
+      "sha256": "51b77bb53adffb545828abdd244a222f3eb2e5fc0405a8cd8c54df09d53a3f04"
+    }
+  ],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  }
+}

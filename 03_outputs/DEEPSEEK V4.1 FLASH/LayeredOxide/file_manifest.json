@@ -1,0 +1,74 @@
+﻿{
+  "model": "DEEPSEEK V4.1 FLASH",
+  "case_id": "LayeredOxide",
+  "run_id": "session-d37ffd1b-04a6-460e-8f04-733091bb8cf4",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 2
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-d37ffd1b-04a6-460e-8f04-733091bb8cf4\\artifacts\\LayeredOxide\\LO_final\\LO_final.gpx",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide/GPX/LO_final.gpx",
+      "role": "gpx",
+      "bytes": 284185,
+      "sha256": "bd0b46f68eb73ea59f9ab9568fcf8c45e34ecd8d1585833c025f740c69221a28",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide",
+      "run_id": "session-d37ffd1b-04a6-460e-8f04-733091bb8cf4",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/LayeredOxide/LO_final/LO_final.gpx"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-d37ffd1b-04a6-460e-8f04-733091bb8cf4\\artifacts\\LayeredOxide\\LO_final\\LO_fit.png",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide/figures/LO_fit.png",
+      "role": "image",
+      "bytes": 294709,
+      "sha256": "4f9f70213c6a0799a05b5473bb5f9e569bb0c89828a8430352302ac2bd588e6a",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide",
+      "run_id": "session-d37ffd1b-04a6-460e-8f04-733091bb8cf4",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/LayeredOxide/LO_final/LO_fit.png"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-d37ffd1b-04a6-460e-8f04-733091bb8cf4\\artifacts\\LayeredOxide\\LO_final\\LO_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide/CIF/LO_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif",
+      "role": "cif",
+      "bytes": 2079,
+      "sha256": "c590931b906a0d0849205b0d2202d89670ff619f4677439db0f2273c1bb38133",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide",
+      "run_id": "session-d37ffd1b-04a6-460e-8f04-733091bb8cf4",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/LayeredOxide/LO_final/LO_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-d37ffd1b-04a6-460e-8f04-733091bb8cf4\\artifacts\\LayeredOxide\\LO_final\\LO_Na16_Mo8_O32.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/LayeredOxide/CIF/LO_Na16_Mo8_O32.cif",
+      "role": "cif",
+      "bytes": 5958,
+      "sha256": "8592ce90681567e05568be41aee6a56e8f5a7562b6fc7755472ddd0697ecc572",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "LayeredOxide",
+      "run_id": "session-d37ffd1b-04a6-460e-8f04-733091bb8cf4",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/LayeredOxide/LO_final/LO_Na16_Mo8_O32.cif"
+    }
+  ]
+}

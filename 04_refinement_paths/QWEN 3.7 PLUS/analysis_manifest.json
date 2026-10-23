@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.1",
+  "hash_algorithm": "SHA-256",
+  "file_count": 21,
+  "files": [
+    {
+      "path": "collection_audit.json",
+      "bytes": 2037,
+      "sha256": "d8d2b180bf378d2dbbc07a86bc409af34e471db9cd6a181b94f8f669e62f4bfe"
+    },
+    {
+      "path": "collection_audit.md",
+      "bytes": 1105,
+      "sha256": "dd7fb1696a4d724c4525b24aaffe40d15709ae72ce35e2154aec0c458742a429"
+    },
+    {
+      "path": "configuration_audit.json",
+      "bytes": 7725,
+      "sha256": "7e21f2a4a9759c27f04a804201548c31c768e7976806096c6615b0e766b50f96"
+    },
+    {
+      "path": "model_reports/Amorphous/XRD_Analysis_Report.md",
+      "bytes": 7963,
+      "sha256": "b8fc324ad2cd30bd4a7f467f4aa81843dca3070a13a8cc8c1be1615eb0c54105"
+    },
+    {
+      "path": "model_reports/Amorphous/xrd_workflow/journal.md",
+      "bytes": 3899,
+      "sha256": "6dafa8e6ac6e49bf8983a6cd439332f1e3d0551d530f707b6f33f8a01ef366fd"
+    },
+    {
+      "path": "model_reports/Fe2O3_Fe3O4_2ph/review_judgment.md",
+      "bytes": 4280,
+      "sha256": "7d2bcbce686dcfc3e9b27d341cb326b9f36dc031211ba47838f57e668e8dc5b0"
+    },
+    {
+      "path": "model_reports/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md",
+      "bytes": 3781,
+      "sha256": "049afc90c91f334bbcdb930d6b0c68ed7b489952f0d6c2be04074dca0727acf5"
+    },
+    {
+      "path": "model_reports/FE50/FE50_final_final/FE50_final_report.md",
+      "bytes": 3338,
+      "sha256": "e30957a1a7155a1036e72d97554af883e019337c43363fbe2de965842c21a85d"
+    },
+    {
+      "path": "model_reports/FE50/review_judgment.md",
+      "bytes": 4036,
+      "sha256": "262816dd76e53f23d6b3ff60686250fdbfb4baa1d80753d5ef186aaa18768dc8"
+    },
+    {
+      "path": "model_reports/FE50/xrd_workflow/journal.md",
+      "bytes": 852,
+      "sha256": "52b7f5358e170c5115a16a656acc78510724918ded3033dbe5344b8e47e18c3f"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/FAP_final/FAP_report.md",
+      "bytes": 3236,
+      "sha256": "9b166dcf35ebfcb44f4228189ab102f8272d34795e09d62e4d4d0bc0a0fdfc87"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/review_judgment.md",
+      "bytes": 2404,
+      "sha256": "972abdf0d5b3f7fc7a4921702e9cbd383aac7ad08ca9aa5eccc8010980b7c60f"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 5992,
+      "sha256": "98678763ff661e67c364f37a1fb062ac6dafaf9c345b89612de1375e1122db37"
+    },
+    {
+      "path": "model_reports/LayeredOxide/LayeredOxide_final_final/LayeredOxide_final_report.md",
+      "bytes": 3266,
+      "sha256": "89abda7190d8fa9c5c1ec649a608574bcc804a4641d291b1da30bfaec6fdf09a"
+    },
+    {
+      "path": "model_reports/LayeredOxide/review_judgment.md",
+      "bytes": 2007,
+      "sha256": "80cfc4a133e26e30025231cd943e28c277533320e3f29a46a81c57407fc5ede9"
+    },
+    {
+      "path": "model_reports/LayeredOxide/xrd_workflow/journal.md",
+      "bytes": 1310,
+      "sha256": "03e1f1a119f5b07ab495a71b0339885afeaee6675b071b4c970bf069b308d5ce"
+    },
+    {
+      "path": "model_reports/LayeredOxide/XRD_refinement report.md",
+      "bytes": 4589,
+      "sha256": "3bf48ca670d7ce70eb9c0179784d9fe41f79f1ebed8975896a2bdb82c2fb9b75"
+    },
+    {
+      "path": "model_reports/LayeredOxide/final report.md",
+      "bytes": 3238,
+      "sha256": "1cc5c0fe611209c8483ddb08ebcc0e04c65ff1488c9079ce48989b64627740b2"
+    },
+    {
+      "path": "model_reports/LiFePO4/report.md",
+      "bytes": 2921,
+      "sha256": "6c7d333756e2248e84a2a98c17177d612f06c0056021dc81ea08c0194fc9da0b"
+    },
+    {
+      "path": "model_reports/LiFePO4/review_judgment.md",
+      "bytes": 2685,
+      "sha256": "606a00b041b3ce8d311e4e79664f0857313f6fff23b3d03a6c6128296f5ad4bc"
+    },
+    {
+      "path": "model_reports/LiFePO4/xrd_workflow/journal.md",
+      "bytes": 859,
+      "sha256": "1802bd1ed97397f0b86519ed95a33c00b44799e236b0245d0a1641bd2bc012ae"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.1",
+  "hash_algorithm": "SHA-256",
+  "file_count": 39,
+  "files": [
+    {
+      "path": "collection_audit.json",
+      "bytes": 1648,
+      "sha256": "2c35972cfd46ba6f1a392f4e1cbf7692e85f9a3c30cd6cb71f25d296da4054a0"
+    },
+    {
+      "path": "collection_audit.md",
+      "bytes": 1050,
+      "sha256": "649f50aee20149f759a4d9d2b605a032ca47b5dfaef412e70ca561a8d271f7fa"
+    },
+    {
+      "path": "configuration_audit.json",
+      "bytes": 7052,
+      "sha256": "e67892357d83e647f4b4572a3a98625a7ec114e1bbf6bc3f35160090aead3e6f"
+    },
+    {
+      "path": "model_reports/Amorphous/report.md",
+      "bytes": 9534,
+      "sha256": "29b8d135301ba15a4b2c8c673ef73f27e63bae3de55c074b99c1bc79aec1a4f7"
+    },
+    {
+      "path": "model_reports/Amorphous/xrd_workflow/journal.md",
+      "bytes": 8515,
+      "sha256": "eb3c65874b96a7fbd468f1460ae355ceb07312066d2b98c8ecdfdb2754a98b9e"
+    },
+    {
+      "path": "model_reports/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_report.md",
+      "bytes": 3858,
+      "sha256": "31f3d882dc243a2473c20e4bceeba71127a55df1fede2fc90a57a5e7a192496e"
+    },
+    {
+      "path": "model_reports/Fe2O3_Fe3O4_2ph/REPORT_Fe2O3_Fe3O4_2ph.md",
+      "bytes": 7466,
+      "sha256": "5426e31d8b007cd8fbcb05eb35cc810ca5688a2f5c597de613d9f0a10e55296c"
+    },
+    {
+      "path": "model_reports/Fe2O3_Fe3O4_2ph/review_judgment.md",
+      "bytes": 3137,
+      "sha256": "1a1191ba064e944291f122f91d4d1631b1ce7327580e4a8b589560a687c00a1e"
+    },
+    {
+      "path": "model_reports/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md",
+      "bytes": 6910,
+      "sha256": "f3293256ae800e960d31e47a6a32077f96f51c29423d9d05bce5a2ebe7a14bc8"
+    },
+    {
+      "path": "model_reports/FE50/FE50_final/FE50_report.md",
+      "bytes": 4616,
+      "sha256": "3eb555752ef14b0da569274a2591f7e36f0f4812282b4ac72e0d974763ed94ca"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h1_kocc/xrd_workflow/journal.md",
+      "bytes": 785,
+      "sha256": "a269de9c8085a6806d318b8b42b9c411a1947579104423677f359ac6dbba6803"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h2_fe1occ/xrd_workflow/journal.md",
+      "bytes": 674,
+      "sha256": "f0b7a3f995e30a4decb7e201fb413256a95fc74eac80f75530c89fd25b2a17e7"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h2b_fe1occ/xrd_workflow/journal.md",
+      "bytes": 843,
+      "sha256": "91281556387e18f8748e976eee88907ef16dc0b4ab27d2fb7efe68e027cfe85c"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h3_femnocc/xrd_workflow/journal.md",
+      "bytes": 709,
+      "sha256": "c4ec1f2edfa38c2224f5ab785a30dc8b51bb0e0871640cc003c62c28017be7c0"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h3b_femnocc/xrd_workflow/journal.md",
+      "bytes": 812,
+      "sha256": "c313a61796246ba1b1113ed1786caa6d7e2554ba97807105df6420d266cc81b1"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h4_k2co3a/xrd_workflow/journal.md",
+      "bytes": 781,
+      "sha256": "bbbfb5860ce14b5c58549fbb16be1c2d1ffff6653d7361184f5ac7aa3f8e7551"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h5_k2co3b/xrd_workflow/journal.md",
+      "bytes": 610,
+      "sha256": "3b86abcfb136f4208ec8f11f7873ffffda7e3260aece851ec9c6287aacc02977"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h6_khco3/xrd_workflow/journal.md",
+      "bytes": 621,
+      "sha256": "88cc018d03fc33c41630928a2745472f0350c5d4a9bd1c4029d05ae4e1f308af"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h7_mnco3/xrd_workflow/journal.md",
+      "bytes": 621,
+      "sha256": "f93a232e08baecfee0575d48b2b88bcf44e88d355dc92d33d249897c10a83bf0"
+    },
+    {
+      "path": "model_reports/FE50/models/cubic_H/h8_mn3o4/xrd_workflow/journal.md",
+      "bytes": 621,
+      "sha256": "d7e48c4a9157829c315a4e3b83c7ea44ba5a836e5c967d8beacb2ecba24240a5"
+    },
+    {
+      "path": "model_reports/FE50/models/manual_cubic/xrd_workflow/journal.md",
+      "bytes": 1217,
+      "sha256": "c627aa626de0bb1782178541abd941bea58a74b8613bf77658860a40e0a2afd5"
+    },
+    {
+      "path": "model_reports/FE50/models/manual_cubic_v3/xrd_workflow/journal.md",
+      "bytes": 745,
+      "sha256": "a1e3a2438cd8c57b2c8c2771c3308dc6592d9b1cb0773476730b61a353a02388"
+    },
+    {
+      "path": "model_reports/FE50/models/manual_cubic_v5/xrd_workflow/journal.md",
+      "bytes": 910,
+      "sha256": "96c02616a310491bb3ba9dc49941f40d3669c88047d43280cc483205823e4a7f"
+    },
+    {
+      "path": "model_reports/FE50/models/manual_mono/xrd_workflow/journal.md",
+      "bytes": 630,
+      "sha256": "e78177670f87e29f1b55dfb182a87c28d3fe3956fa7fd0d30e0b9bd7542d1c30"
+    },
+    {
+      "path": "model_reports/FE50/models/manual_mono_v3/xrd_workflow/journal.md",
+      "bytes": 664,
+      "sha256": "921b861b0de55f254939f2b885fddf425b0c61a52e9c31e682959489ffaa3c80"
+    },
+    {
+      "path": "model_reports/FE50/models/mono_h1_kocc/xrd_workflow/journal.md",
+      "bytes": 723,
+      "sha256": "1be04392840699066b235d916afed12dc13ad24716dce56236c299aefa927619"
+    },
+    {
+      "path": "model_reports/FE50/models/mono_T15m_bondcoord/xrd_workflow/journal.md",
+      "bytes": 933,
+      "sha256": "535b521126c519a0b84c8cb2e519e994a43eeae1a9e984f57c39b1bfbdb7d699"
+    },
+    {
+      "path": "model_reports/FE50/review_judgment.md",
+      "bytes": 4854,
+      "sha256": "4fbe78cfae74aa7e4b4da447ace6e0eef04ad2b7e09d9af133b4c7b420add485"
+    },
+    {
+      "path": "model_reports/FE50/xrd_workflow/journal.md",
+      "bytes": 9555,
+      "sha256": "63c44e7178649103ebe8e82c87e72b9dcb10ce2ccf885c0a882ca18aadbd7612"
+    },
+    {
+      "path": "model_reports/FE50/xrd_workflow/peak_survey.md",
+      "bytes": 2243,
+      "sha256": "f8ce243931d3237d4ef7d5792a042d094998d8b86127094fa003516bd5c4c4f4"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/FAP_final/FAP_report.md",
+      "bytes": 3250,
+      "sha256": "bbf6f4e3f50eb71dbfccb2ed0bcda804a3cc3e98b9756e5e9fdfc683dc4ae1dc"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/review_judgment.md",
+      "bytes": 4186,
+      "sha256": "eb07ad37bb8a64bdc759245ba364c5d080c6aad29e2326d347fce5b241edd608"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 12902,
+      "sha256": "b40da54643f87e81107a3b92b150659f1fd5d8b955c923f24669bf33c48d96bc"
+    },
+    {
+      "path": "model_reports/LayeredOxide/LayeredOxide_final/LayeredOxide_report.md",
+      "bytes": 4291,
+      "sha256": "7d1e49da544ebfd993cf5276768552e04e262cf1031594968136739d1dfa761c"
+    },
+    {
+      "path": "model_reports/LayeredOxide/review_judgment.md",
+      "bytes": 4525,
+      "sha256": "afa79a52d0bbe552fe640f7bb6990576c1fafeae31bc62b651a3664a713e1a16"
+    },
+    {
+      "path": "model_reports/LayeredOxide/xrd_workflow/journal.md",
+      "bytes": 9642,
+      "sha256": "ecd90f9f10c3997b9c51d21f8cfffe699378ab973506ae381bd899917a25191f"
+    },
+    {
+      "path": "model_reports/LiFePO4/LiFePO4_final/LiFePO4_report.md",
+      "bytes": 3598,
+      "sha256": "41971eb3e83e0aba3a6915560c963c22d93ff0d97290fe04c06f89e448467f3e"
+    },
+    {
+      "path": "model_reports/LiFePO4/review_judgment.md",
+      "bytes": 3914,
+      "sha256": "3e70eddd2092f5a627046353653d8c8f1ba2c807c99cd0503a61f4eb5b219a2d"
+    },
+    {
+      "path": "model_reports/LiFePO4/xrd_workflow/journal.md",
+      "bytes": 8456,
+      "sha256": "2d351e546a18452e7cf4882ff923db7998bc7c3f997b4935a060721886629329"
+    }
+  ]
+}

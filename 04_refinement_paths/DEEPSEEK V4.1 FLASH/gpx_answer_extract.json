@@ -1,0 +1,3008 @@
+﻿{
+  "note": "Read-only extraction; source GPX files were not modified.",
+  "projects": [
+    {
+      "path": "workspace\\测试\\测试集\\LayeredOxide_2ph\\answer\\20251121.gpx",
+      "size": 578023,
+      "phases": [
+        {
+          "name": "O3",
+          "space_group": "C 2/m",
+          "cell": {
+            "length_a": 5.294634923016171,
+            "length_b": 9.177480692258644,
+            "length_c": 5.6442913860952535,
+            "angle_alpha": 90.0,
+            "angle_beta": 107.91965863648454,
+            "angle_gamma": 90.0,
+            "volume": 260.9592212854768
+          },
+          "composition_per_cell": {
+            "Ni": 1.6,
+            "Mn": 0.6,
+            "Cu": 0.4,
+            "Mg": 0.4,
+            "Sb": 1.0,
+            "Na": 3.7681973715540824,
+            "O": 12.0,
+            "K": 0.1974390387806637
+          },
+          "density": 3.6277432663627462,
+          "atoms": [
+            {
+              "label": "Ni1",
+              "element": "Ni",
+              "coordinates": [
+                0.0,
+                0.66667,
+                0.0
+              ],
+              "occupancy": 0.4,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Mn2",
+              "element": "Mn",
+              "coordinates": [
+                0.0,
+                0.66667,
+                0.0
+              ],
+              "occupancy": 0.15,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Cu3",
+              "element": "Cu",
+              "coordinates": [
+                0.0,
+                0.66667,
+                0.0
+              ],
+              "occupancy": 0.1,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Mg4",
+              "element": "Mg",
+              "coordinates": [
+                0.0,
+                0.66667,
+                0.0
+              ],
+              "occupancy": 0.1,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Sb5",
+              "element": "Sb",
+              "coordinates": [
+                0.0,
+                0.66667,
+                0.0
+              ],
+              "occupancy": 0.25,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Na6",
+              "element": "Na",
+              "coordinates": [
+                0.5,
+                0.3214122152961449,
+                0.5
+              ],
+              "occupancy": 0.5986695510514878,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Na7",
+              "element": "Na",
+              "coordinates": [
+                0.0,
+                0.5,
+                0.5
+              ],
+              "occupancy": 0.6867595836740656,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O8",
+              "element": "O",
+              "coordinates": [
+                0.2874777664169867,
+                0.35053704322663476,
+                0.795971788481246
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O9",
+              "element": "O",
+              "coordinates": [
+                0.49731001199679653,
+                0.5,
+                0.01
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "K10",
+              "element": "K",
+              "coordinates": [
+                0.0,
+                0.5,
+                0.5
+              ],
+              "occupancy": 0.09871951939033186,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.01
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR Na0.9K0.1.csv": {
+              "Scale": [
+                0.8735891105899303,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [
+                  ""
+                ],
+                0.1
+              ]
+            }
+          }
+        },
+        {
+          "name": "P2",
+          "space_group": "P 63/m m c",
+          "cell": {
+            "length_a": 2.7798109415334027,
+            "length_b": 2.7798109415334027,
+            "length_c": 11.18786429231162,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 120.00000000000001,
+            "volume": 74.87008763825104
+          },
+          "composition_per_cell": {
+            "Ni": 0.8,
+            "Mn": 0.3,
+            "Cu": 0.2,
+            "Mg": 0.2,
+            "Sb": 0.5,
+            "O": 4.0,
+            "Na": 1.2200000000000002
+          },
+          "density": 5.188331187892702,
+          "atoms": [
+            {
+              "label": "Ni1",
+              "element": "Ni",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.4,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Mn2",
+              "element": "Mn",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.15,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Cu3",
+              "element": "Cu",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.1,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Mg4",
+              "element": "Mg",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.1,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Sb5",
+              "element": "Sb",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.25,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O6",
+              "element": "O",
+              "coordinates": [
+                0.33333,
+                0.66667,
+                0.04766182758430416
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Na7",
+              "element": "Na",
+              "coordinates": [
+                0.33333,
+                0.66667,
+                0.75
+              ],
+              "occupancy": 0.56,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Na8",
+              "element": "Na",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.25
+              ],
+              "occupancy": 0.05,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.01
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR Na0.9K0.1.csv": {
+              "Scale": [
+                0.12641088941006973,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [
+                  ""
+                ],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR Na0.9K0.1.csv",
+          "residuals": {
+            "Nobs": 6861,
+            "R": 5.994986086954201,
+            "Rb": 7.799122990149901,
+            "wR": 8.199450894235527,
+            "wRb": 11.063150882449778,
+            "wRmin": 4.355263869154674,
+            "Durbin-Watson": 0.5802811006143431
+          },
+          "mass_fractions": {
+            "O3": [
+              0.9439527423899671,
+              0.0
+            ],
+            "P2": [
+              0.05604725761003305,
+              0.0
+            ]
+          },
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "1:0:Nref",
+            "1:0:Rf",
+            "1:0:Rf^2",
+            "1:0:sumInt",
+            "1::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Magnification",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "histTitle",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\测试\\测试集\\LiFePO4\\answer\\精修完成版.bak17.bak0.bak0.gpx",
+      "size": 645170,
+      "phases": [
+        {
+          "name": "LiFePO4 (triphylite) with Fe-Li antisite",
+          "space_group": "P n m a",
+          "cell": {
+            "length_a": 10.329445678026937,
+            "length_b": 6.007305715657824,
+            "length_c": 4.691860531925058,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 291.1399774908534
+          },
+          "composition_per_cell": {
+            "Li": 4.0,
+            "Fe": 3.9999830633977407,
+            "P": 4.0,
+            "O": 16.0
+          },
+          "density": 3.5991359938702434,
+          "atoms": [
+            {
+              "label": "Li1",
+              "element": "Li",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.9963,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Fe1",
+              "element": "Fe",
+              "coordinates": [
+                0.28227361727099326,
+                0.25,
+                0.9722668923162309
+              ],
+              "occupancy": 0.9962957658494351,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "P1",
+              "element": "P",
+              "coordinates": [
+                0.0957271628260206,
+                0.25,
+                0.42533116396390264
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O1",
+              "element": "O",
+              "coordinates": [
+                0.0895967889290128,
+                0.25,
+                0.746838138918773
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O2",
+              "element": "O",
+              "coordinates": [
+                0.45370867243804475,
+                0.25,
+                0.22207295721382178
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O3",
+              "element": "O",
+              "coordinates": [
+                0.15855365926964457,
+                0.050948853079937136,
+                0.28146598947815893
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Fe7",
+              "element": "Fe",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.0037,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Li8",
+              "element": "Li",
+              "coordinates": [
+                0.28227,
+                0.25,
+                0.97227
+              ],
+              "occupancy": 0.0037,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR 24.txt": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [
+                  ""
+                ],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR 24.txt",
+          "residuals": {
+            "Nobs": 7001,
+            "R": 5.006563659126355,
+            "Rb": 5.496693861897688,
+            "wR": 6.443125150313615,
+            "wRb": 6.697034608903738,
+            "wRmin": 2.7519943256899246,
+            "Durbin-Watson": 0.42380945822289395
+          },
+          "mass_fractions": {},
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Magnification",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "histTitle",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\测试\\测试集\\LayeredOxide\\raw\\手动精修结构\\20260813 SG+BM.gpx",
+      "size": 278821,
+      "phases": [
+        {
+          "name": "P2",
+          "space_group": "P 63/m m c",
+          "cell": {
+            "length_a": 2.887675572962277,
+            "length_b": 2.887675572962277,
+            "length_c": 11.153051797773506,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 120.00000000000001,
+            "volume": 80.54176623096474
+          },
+          "composition_per_cell": {
+            "Mn": 1.34,
+            "Ni": 0.66,
+            "Na": 0.81750569694794,
+            "O": 4.0
+          },
+          "density": 4.023420148684708,
+          "atoms": [
+            {
+              "label": "Mn1",
+              "element": "Mn",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.67,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": -0.033915227021371945
+            },
+            {
+              "label": "Ni2",
+              "element": "Ni",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.33,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": -0.02703782824926645
+            },
+            {
+              "label": "Na3",
+              "element": "Na",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.25
+              ],
+              "occupancy": 0.20296632604291967,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": -0.009143102739454316
+            },
+            {
+              "label": "Na4",
+              "element": "Na",
+              "coordinates": [
+                0.66667,
+                0.33333,
+                0.25
+              ],
+              "occupancy": 0.20578652243105033,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.03356234292134975
+            },
+            {
+              "label": "O5",
+              "element": "O",
+              "coordinates": [
+                0.66667,
+                0.33333,
+                0.11577152650277625
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.04267190312179068
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR Mo.raw Scan 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  10.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  7687.499682669408,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [
+                  ""
+                ],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR Mo.raw Scan 1",
+          "residuals": {
+            "Nobs": 3432,
+            "R": 9.316968345053459,
+            "Rb": 13.22448606717843,
+            "wR": 12.106004290601232,
+            "wRb": 18.102576816181696,
+            "wRmin": 4.974489979853109,
+            "Durbin-Watson": 0.36076351410274626
+          },
+          "mass_fractions": {},
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Magnification",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "histTitle",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-2c4aff20-e5cf-458d-920f-f19ab4d4277f\\artifacts\\CeO2\\CeO2_final\\CeO2_final.gpx",
+      "size": 1720418,
+      "phases": [
+        {
+          "name": "CeO2",
+          "space_group": "F m -3 m",
+          "cell": {
+            "length_a": 5.410894181783033,
+            "length_b": 5.410894181783033,
+            "length_c": 5.410894181783033,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 158.41894698312288
+          },
+          "composition_per_cell": {
+            "Ce": 4.0,
+            "O": 8.0
+          },
+          "density": 7.216531786255433,
+          "atoms": [
+            {
+              "label": "Ce1",
+              "element": "Ce",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O2",
+              "element": "O",
+              "coordinates": [
+                0.25,
+                0.25,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.005
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR CeO2.xy": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  0.6019387530745199,
+                  1.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  777.2834962399173,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR CeO2.xy",
+          "residuals": {
+            "Nobs": 24000,
+            "R": 12.669750022506074,
+            "Rb": 12.448437840928296,
+            "wR": 16.095167109329036,
+            "wRb": 15.55367519119835,
+            "wRmin": 4.406497080192005,
+            "Durbin-Watson": 0.4210309354345001
+          },
+          "mass_fractions": {},
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-588a939a-a652-444f-9fd7-b5e427b2d84f\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx",
+      "size": 373080,
+      "phases": [
+        {
+          "name": "built",
+          "space_group": "R -3 c",
+          "cell": {
+            "length_a": 5.038816666907599,
+            "length_b": 5.038816666907599,
+            "length_c": 13.76143763776762,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 120.00000000000001,
+            "volume": 302.58789665504264
+          },
+          "composition_per_cell": {
+            "Fe": 12.0,
+            "O": 18.0
+          },
+          "density": 5.258108060601314,
+          "atoms": [
+            {
+              "label": "Fe1",
+              "element": "Fe",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.3538032680003361
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 12,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O1",
+              "element": "O",
+              "coordinates": [
+                0.3133729783430183,
+                0.0,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 18,
+              "adp_type": "I",
+              "adp": 0.005
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR Fe2O3_Fe3O4_70-30.fxye Bank 1": {
+              "Scale": [
+                3.8183571876980587,
+                true
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        },
+        {
+          "name": "Fe3 O4",
+          "space_group": "F d -3 m",
+          "cell": {
+            "length_a": 8.391043003419403,
+            "length_b": 8.391043003419403,
+            "length_c": 8.391043003419403,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 590.8100039854697
+          },
+          "composition_per_cell": {
+            "Fe": 24.0,
+            "O": 32.0
+          },
+          "density": 5.206092942982083,
+          "atoms": [
+            {
+              "label": "Fe1",
+              "element": "Fe",
+              "coordinates": [
+                -0.125,
+                -0.125,
+                -0.125
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "Fe2",
+              "element": "Fe",
+              "coordinates": [
+                0.5,
+                0.5,
+                0.5
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 16,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O1",
+              "element": "O",
+              "coordinates": [
+                0.25572349629486374,
+                0.25572349629486374,
+                0.25572349629486374
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 32,
+              "adp_type": "I",
+              "adp": 0.005
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR Fe2O3_Fe3O4_70-30.fxye Bank 1": {
+              "Scale": [
+                0.7546519336584849,
+                true
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR Fe2O3_Fe3O4_70-30.fxye Bank 1",
+          "residuals": {
+            "Nobs": 4230,
+            "R": 1.62815247084746,
+            "Rb": 3.8286418072057242,
+            "wR": 2.3482965971677063,
+            "wRb": 6.584301363891552,
+            "wRmin": 0.8926286509475634,
+            "Durbin-Watson": 0.20526968086460615
+          },
+          "mass_fractions": {
+            "built": [
+              0.7235496367020899,
+              0.004504882216172144
+            ],
+            "Fe3 O4": [
+              0.27645036329791,
+              0.004504882216172144
+            ]
+          },
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "1:0:Nref",
+            "1:0:Rf",
+            "1:0:Rf^2",
+            "1:0:sumInt",
+            "1::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-92f1897c-c6c8-4c4d-b45f-37dcd4ea2d63\\artifacts\\Fluoroapatite\\FAP_final\\FAP_final.gpx",
+      "size": 514133,
+      "phases": [
+        {
+          "name": "Ca5 F O12 P3",
+          "space_group": "P 63/m",
+          "cell": {
+            "length_a": 9.370519005615401,
+            "length_b": 9.370519005615401,
+            "length_c": 6.884920051346311,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 120.00000000000001,
+            "volume": 523.5483858258079
+          },
+          "composition_per_cell": {
+            "F": 2.0,
+            "Ca": 10.0,
+            "P": 6.0,
+            "O": 24.0
+          },
+          "density": 3.1990306203446823,
+          "atoms": [
+            {
+              "label": "F1",
+              "element": "F",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.025415068509808774
+            },
+            {
+              "label": "Ca1",
+              "element": "Ca",
+              "coordinates": [
+                0.3333,
+                0.6667,
+                0.0015451721667596177
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.012392826423137474
+            },
+            {
+              "label": "Ca2",
+              "element": "Ca",
+              "coordinates": [
+                0.24134277597122353,
+                -0.008338421367705278,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 6,
+              "adp_type": "I",
+              "adp": 0.010959023014717137
+            },
+            {
+              "label": "P1",
+              "element": "P",
+              "coordinates": [
+                0.3974774652166857,
+                0.3679009793039597,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 6,
+              "adp_type": "I",
+              "adp": 0.011318034329166355
+            },
+            {
+              "label": "O1",
+              "element": "O",
+              "coordinates": [
+                0.32418123268842625,
+                0.4875853285816409,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 6,
+              "adp_type": "I",
+              "adp": 0.02317316945733718
+            },
+            {
+              "label": "O2",
+              "element": "O",
+              "coordinates": [
+                0.5918393483493937,
+                0.47000564748796686,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 6,
+              "adp_type": "I",
+              "adp": 0.019987784668724008
+            },
+            {
+              "label": "O3",
+              "element": "O",
+              "coordinates": [
+                0.34070199623100655,
+                0.2581681936498383,
+                0.06906995554895383
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 12,
+              "adp_type": "I",
+              "adp": 0.02217492081297061
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR FAP.fxye Bank 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  0.3755643512095404,
+                  1.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  659.1190586210455,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR FAP.fxye Bank 1",
+          "residuals": {
+            "Nobs": 5752,
+            "R": 7.536840237028751,
+            "Rb": 7.617051030280787,
+            "wR": 9.70437505842444,
+            "wRb": 9.372309309377352,
+            "wRmin": 5.610439793764994,
+            "Durbin-Watson": 0.9452963427201296
+          },
+          "mass_fractions": {},
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-d37ffd1b-04a6-460e-8f04-733091bb8cf4\\artifacts\\LayeredOxide\\LO_final\\LO_final.gpx",
+      "size": 284185,
+      "phases": [
+        {
+          "name": "Na1.44 Mn1.24 Ni0.66 Mo0.1 O4",
+          "space_group": "P 63/m m c",
+          "cell": {
+            "length_a": 2.8874502195000216,
+            "length_b": 2.8874502195000216,
+            "length_c": 11.156121248623277,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 119.99999999999999,
+            "volume": 80.55135838437441
+          },
+          "composition_per_cell": {
+            "Na": 1.44,
+            "Mn": 1.24,
+            "Ni": 0.66,
+            "Mo": 0.1,
+            "O": 4.0
+          },
+          "density": 4.402484915237594,
+          "atoms": [
+            {
+              "label": "Na0",
+              "element": "Na",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.25
+              ],
+              "occupancy": 0.36,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "Na1",
+              "element": "Na",
+              "coordinates": [
+                0.33333333,
+                0.66666667,
+                0.75
+              ],
+              "occupancy": 0.36,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "Mn2",
+              "element": "Mn",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.62,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "Ni3",
+              "element": "Ni",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.33,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "Mo4",
+              "element": "Mo",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.05,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O5",
+              "element": "O",
+              "coordinates": [
+                0.33333333,
+                0.66666667,
+                0.3889261920588041
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR LO.fxye Bank 1": {
+              "Scale": [
+                30.982616138172794,
+                true
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        },
+        {
+          "name": "Na16 Mo8 O32",
+          "space_group": "F d -3 m",
+          "cell": {
+            "length_a": 9.11726145155126,
+            "length_b": 9.11726145155126,
+            "length_c": 9.11726145155126,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 757.8674017975358
+          },
+          "composition_per_cell": {
+            "Na": 16.0,
+            "Mo": 8.0,
+            "O": 32.0
+          },
+          "density": 3.6094100391135187,
+          "atoms": [
+            {
+              "label": "Na0",
+              "element": "Na",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 16,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "Mo1",
+              "element": "Mo",
+              "coordinates": [
+                -0.125,
+                -0.125,
+                0.375
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O2",
+              "element": "O",
+              "coordinates": [
+                0.005555759279546996,
+                0.005555759279546996,
+                0.244444240720453
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 32,
+              "adp_type": "I",
+              "adp": 0.01
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR LO.fxye Bank 1": {
+              "Scale": [
+                0.39682776738272,
+                true
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR LO.fxye Bank 1",
+          "residuals": {
+            "Nobs": 3432,
+            "R": 5.809696961965424,
+            "Rb": 9.472927489385125,
+            "wR": 7.779404286161191,
+            "wRb": 15.292456943827684,
+            "wRmin": 4.974489979853109,
+            "Durbin-Watson": 0.8807883451275433
+          },
+          "mass_fractions": {
+            "Na1.44 Mn1.24 Ni0.66 Mo0.1 O4": [
+              0.9100864171101665,
+              0.003675231071462031
+            ],
+            "Na16 Mo8 O32": [
+              0.08991358288983343,
+              0.0036752310714620313
+            ]
+          },
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "1:0:Nref",
+            "1:0:Rf",
+            "1:0:Rf^2",
+            "1:0:sumInt",
+            "1::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0\\artifacts\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx",
+      "size": 567671,
+      "phases": [
+        {
+          "name": "built",
+          "space_group": "P n m a",
+          "cell": {
+            "length_a": 10.325357685694183,
+            "length_b": 6.0050136890644,
+            "length_c": 4.6900597012206084,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 290.8020595281678
+          },
+          "composition_per_cell": {
+            "Li": 4.0,
+            "Fe": 4.0,
+            "P": 4.0,
+            "O": 16.0
+          },
+          "density": 3.6033236648251976,
+          "atoms": [
+            {
+              "label": "Li1",
+              "element": "Li",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.96,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.03600397200255629
+            },
+            {
+              "label": "Fe2",
+              "element": "Fe",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.04,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.03600397200255629
+            },
+            {
+              "label": "Fe1",
+              "element": "Fe",
+              "coordinates": [
+                0.28234964792772105,
+                0.25,
+                0.972957292362899
+              ],
+              "occupancy": 0.96,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "Li2",
+              "element": "Li",
+              "coordinates": [
+                0.28224,
+                0.25,
+                0.97032
+              ],
+              "occupancy": 0.04,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "P1",
+              "element": "P",
+              "coordinates": [
+                0.09518879778296183,
+                0.25,
+                0.4247956747526856
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.011963464839265428
+            },
+            {
+              "label": "O1",
+              "element": "O",
+              "coordinates": [
+                0.09077539778685063,
+                0.25,
+                0.7486905293551206
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.0061550349101135255
+            },
+            {
+              "label": "O2",
+              "element": "O",
+              "coordinates": [
+                0.45222029133745406,
+                0.25,
+                0.22536200461436975
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O3",
+              "element": "O",
+              "coordinates": [
+                0.16072275254359297,
+                0.045866574721407115,
+                0.2806745194719757
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.014616651713468789
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR LiFePO4.fxye Bank 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR LiFePO4.fxye Bank 1",
+          "residuals": {
+            "Nobs": 7001,
+            "R": 4.865669054780738,
+            "Rb": 5.289159013852979,
+            "wR": 6.222757781306784,
+            "wRb": 6.452643089788873,
+            "wRmin": 6.153646393924564,
+            "Durbin-Watson": 0.45893369778346677
+          },
+          "mass_fractions": {},
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-a94a7058-4f31-488d-bfd1-dac63c3ef338\\artifacts\\PbSO4\\PbSO4_final\\PbSO4_final.gpx",
+      "size": 531813,
+      "phases": [
+        {
+          "name": "O4 Pb S",
+          "space_group": "P b n m",
+          "cell": {
+            "length_a": 6.960892948151613,
+            "length_b": 8.48136643888877,
+            "length_c": 5.399204401021195,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 318.75760222972326
+          },
+          "composition_per_cell": {
+            "Pb": 4.0,
+            "S": 4.0,
+            "O": 16.0
+          },
+          "density": 6.319143402283435,
+          "atoms": [
+            {
+              "label": "Pb",
+              "element": "Pb",
+              "coordinates": [
+                0.16740153019712906,
+                0.1879687596118366,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "A",
+              "adp": [
+                0.028645535047160945,
+                0.021365646475256017,
+                0.025037309314285244,
+                0.0008795097831644815,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "label": "S",
+              "element": "S",
+              "coordinates": [
+                0.18210516964138565,
+                0.43670582743907316,
+                0.75
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "A",
+              "adp": [
+                0.02341970601800066,
+                0.017034157894198276,
+                0.012400391374736258,
+                -0.014479478878710724,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "label": "O1",
+              "element": "O",
+              "coordinates": [
+                0.09438594020227323,
+                0.5924662094577461,
+                0.75
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.02001845695359678
+            },
+            {
+              "label": "O2",
+              "element": "O",
+              "coordinates": [
+                0.041771355754099876,
+                0.31405536644737514,
+                0.75
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.024296923348182762
+            },
+            {
+              "label": "O3",
+              "element": "O",
+              "coordinates": [
+                0.3129061108036321,
+                0.421138091800009,
+                0.9730865633279956
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.017050209174213782
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR PBSO4.fxye Bank 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR PBSO4.fxye Bank 1",
+          "residuals": {
+            "Nobs": 6000,
+            "R": 7.282606958172683,
+            "Rb": 7.254238446371579,
+            "wR": 9.505859178422659,
+            "wRb": 9.549686379055002,
+            "wRmin": 4.944659600065327,
+            "Durbin-Watson": 0.7835400218472377
+          },
+          "mass_fractions": {},
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-82c8a1fe-ea71-462a-8f49-87004ac99588\\artifacts\\Y2O3\\xrd_workflow\\Y2O3_final\\Y2O3_final.gpx",
+      "size": 605398,
+      "phases": [
+        {
+          "name": "Y40 O48",
+          "space_group": "I a -3",
+          "cell": {
+            "length_a": 10.60006611972279,
+            "length_b": 10.60006611972279,
+            "length_c": 10.60006611972279,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 1191.038287775181
+          },
+          "composition_per_cell": {
+            "Y": 32.0,
+            "O": 48.0
+          },
+          "density": 5.037194525313721,
+          "atoms": [
+            {
+              "label": "Y1",
+              "element": "Y",
+              "coordinates": [
+                0.25,
+                0.25,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "Y2",
+              "element": "Y",
+              "coordinates": [
+                0.9677304119847163,
+                0.0,
+                0.25
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 24,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O1",
+              "element": "O",
+              "coordinates": [
+                0.39153939964505874,
+                0.15418583219505816,
+                0.37882108260995856
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 48,
+              "adp_type": "I",
+              "adp": 0.005
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR Y2O3.fxye Bank 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  0.14714328897921547,
+                  1.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  -1612.2079314560551,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR Y2O3.fxye Bank 1",
+          "residuals": {
+            "Nobs": 7351,
+            "R": 11.831982852201122,
+            "Rb": 16.89831574047707,
+            "wR": 16.937539682080573,
+            "wRb": 24.22217510474683,
+            "wRmin": 3.121631334087984,
+            "Durbin-Watson": 0.3427153221305445
+          },
+          "mass_fractions": {},
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-79f76a24-3904-4839-9908-6f8c38360173\\artifacts\\ZnO\\ZnO_final\\ZnO_final.gpx",
+      "size": 3369204,
+      "phases": [
+        {
+          "name": "built",
+          "space_group": "P 63 m c",
+          "cell": {
+            "length_a": 3.2502493018564844,
+            "length_b": 3.2502493018564844,
+            "length_c": 5.209375083006016,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 120.00000000000001,
+            "volume": 47.65951379045923
+          },
+          "composition_per_cell": {
+            "Zn": 2.0,
+            "O": 2.0
+          },
+          "density": 5.670770948848985,
+          "atoms": [
+            {
+              "label": "Zn1",
+              "element": "Zn",
+              "coordinates": [
+                0.33333333,
+                0.66666667,
+                -0.0020482979185265275
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.005223403045780862
+            },
+            {
+              "label": "O2",
+              "element": "O",
+              "coordinates": [
+                0.33333333,
+                0.66666667,
+                0.38117829791852686
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 2,
+              "adp_type": "I",
+              "adp": 0.002770586421303475
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR ZnO_corr.fxye Bank 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  9.221187485863798,
+                  1.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  2165.5921278974515,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ],
+      "histograms": [
+        {
+          "name": "PWDR ZnO_corr.fxye Bank 1",
+          "residuals": {
+            "Nobs": 45504,
+            "R": 8.08255304254126,
+            "Rb": 8.117621790812157,
+            "wR": 10.431264512477508,
+            "wRb": 10.526553477313016,
+            "wRmin": 5.477866708605125,
+            "Durbin-Watson": 0.2362636527102903
+          },
+          "mass_fractions": {},
+          "metadata_keys": [
+            "0:0:Nref",
+            "0:0:Rf",
+            "0:0:Rf^2",
+            "0:0:sumInt",
+            "0::Name",
+            "Dummy",
+            "Durbin-Watson",
+            "Nobs",
+            "Offset",
+            "R",
+            "Rb",
+            "Yminmax",
+            "delOffset",
+            "hId",
+            "ranId",
+            "refDelt",
+            "refOffset",
+            "sumwYo",
+            "wR",
+            "wRb",
+            "wRmin",
+            "wtFactor"
+          ]
+        }
+      ]
+    }
+  ]
+}

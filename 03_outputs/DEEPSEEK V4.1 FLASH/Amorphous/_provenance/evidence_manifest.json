@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "artifacts/Amorphous/work/derived.json",
+      "bytes": 2136,
+      "sha256": "58c7faf6cd24325407c2024c6c5be105466466c4c52901fdc59a9d2e6ab0fc82"
+    },
+    {
+      "path": "artifacts/Amorphous/work/hump_model.json",
+      "bytes": 1560,
+      "sha256": "759050609c7af55bbd2299bbe61606485c5004fcb347cf8e5c7020c32507da55"
+    },
+    {
+      "path": "artifacts/Amorphous/work/W_final_fit.png",
+      "bytes": 447337,
+      "sha256": "47521b4a11519fe02a7b20f6c6fe2c85e437585a8e2bd422c76292cf455078ee"
+    },
+    {
+      "path": "conclusion.md",
+      "bytes": 3623,
+      "sha256": "9f24bbda4a541d8951eadfdc64d70390ab8fd0adc2ee86c94df9d7c9fe2d2385"
+    },
+    {
+      "path": "plugin_logs/Amorphous/work/r1/xrd_workflow/journal.jsonl",
+      "bytes": 716,
+      "sha256": "d069cceaa029daf7c067eb94738f3a2ab14421ef26b24874b9bd01490b8ac083"
+    },
+    {
+      "path": "plugin_logs/Amorphous/work/r1/xrd_workflow/journal.md",
+      "bytes": 546,
+      "sha256": "238dd42a0abd39c410f523823b3bdd1bc085dd2eb47d2310379331f8c790fed3"
+    },
+    {
+      "path": "plugin_logs/Amorphous/work/r2/xrd_workflow/journal.jsonl",
+      "bytes": 805,
+      "sha256": "dadb59c2633aa2834f682a76726a17c2cc328ec62a44b5f393ac344b2379ff36"
+    },
+    {
+      "path": "plugin_logs/Amorphous/work/r2/xrd_workflow/journal.md",
+      "bytes": 631,
+      "sha256": "fe708803b75401dfaeb4bfeb0f5ab319eaf26d8c32dc97d7981edccf30cadde9"
+    },
+    {
+      "path": "plugin_logs/Amorphous/work/xrd_workflow/journal.jsonl",
+      "bytes": 2730,
+      "sha256": "4e6ec12c7be70135f1ca9993f312e90eee9264d0321b5af7cdc6d260ca81a323"
+    },
+    {
+      "path": "plugin_logs/Amorphous/work/xrd_workflow/journal.md",
+      "bytes": 4235,
+      "sha256": "4d64aed233960c24077d45b10283325b323fe599786387301f67196d3c21f6a7"
+    },
+    {
+      "path": "root_reports/Amorphous/W_XRD_report.md",
+      "bytes": 9514,
+      "sha256": "d3ffe02729e1976bde8819d9b1f7a3802655b17e90e2195091b6f670035d29e2"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 372146,
+      "sha256": "4c324b49b7d3228627efbff73f06c6a5c2bac0110fe390bad435dd3e4d386975"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1798,
+      "sha256": "f9c1e2036d5366208100519fde37f8a720f125674a40657b2eeeea4d8cf4318e"
+    },
+    {
+      "path": "states/Amorphous/workflow_state.json",
+      "bytes": 6264,
+      "sha256": "49752038b1f87f4fd9a77c5f5b3077cc819922e1883cbf2e14d2c82f70da018b"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 5575,
+      "sha256": "3c9ad91f1142514453cfa3a9601190186427ed9884129c6714dbcecbb6931f85"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 277919,
+      "sha256": "80bb04ad5645aaf7d9275b32ac0ced503863766292c6d4119f0b4d71be552081"
+    }
+  ]
+}

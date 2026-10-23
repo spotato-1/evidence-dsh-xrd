@@ -1,0 +1,1973 @@
+﻿{
+  "summary": {
+    "model": "QWEN 3.7 PLUS",
+    "cases": 6,
+    "A": 24,
+    "A_unknown": 0,
+    "B": 10,
+    "B_unknown": 0,
+    "C": 27,
+    "C_unknown": 0,
+    "D": 14,
+    "D_unknown": 0,
+    "E": 20,
+    "E_unknown": 0,
+    "F": 17,
+    "F_unknown": 0,
+    "accuracy_50": 23.333333333333336,
+    "accuracy_unknown": 0.0,
+    "key_50": 23,
+    "key_unknown": 0,
+    "answer_100": 46.333333333333336,
+    "answer_upper": 46.333333333333336,
+    "time_hours": 3.313430277777778,
+    "time_score": 80.89871221182794,
+    "cost_usd": 9.8846473828,
+    "cost_score": 91.88348139494371,
+    "B_gates": 4,
+    "F_gates": 0
+  },
+  "cases": [
+    {
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "Amorphous",
+      "run_id": "session-2f769795-b21d-4c3d-b2d2-5007564bdac1",
+      "score_path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Amorphous\\score.json",
+      "status": {
+        "completion": "delivered_with_boundary_errors",
+        "original_eligibility": {
+          "status": "eligible",
+          "reason": null
+        }
+      },
+      "findings": [
+        "Rwp=4.535711%；三峰模型，高阶背景20；额外合成/TEM信息明确来自第二用户回合。",
+        "最终峰→空间层一一对应及谢乐修正方向不成立；不把额外信息更丰富等同更准确。"
+      ],
+      "uncertainties": [
+        "第一套未用可见思维字数/次数代替协调判断；第二套仅final delivery和随附工程，不从内部调用补科学分。",
+        "工具/历史文件时间戳部分为AI写的旧日期，不视为真实执行时间；执行时段由根代理按主session重算。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；科学错误/正常漂移/诚实失败不自动否决。",
+          "evidence": [],
+          "authorization": "v1.1 B：确认具体既有硬边界后否决，不以低R/负U/V/调用次数判违规。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "无确认FP2K引擎滥用；FE50普通ladder属于当时允许流程，不按次数否决。",
+          "evidence": [],
+          "authorization": "当时xrd-workflow允许单次筛选及阶梯初步优化；v1.1历史正常ladder不自动滥用。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-2f769795-b21d-4c3d-b2d2-5007564bdac1\\conclusion.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-2f769795-b21d-4c3d-b2d2-5007564bdac1\\workspace_snapshot\\Amorphous\\XRD_Analysis_Report.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-2f769795-b21d-4c3d-b2d2-5007564bdac1\\workspace_snapshot\\Amorphous\\result.json"
+      ],
+      "A": 5,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 3,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 3,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 5.0,
+      "key_score": 3,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 8.0,
+      "resource": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "Amorphous",
+        "run_id": "session-2f769795-b21d-4c3d-b2d2-5007564bdac1",
+        "time_seconds": 868.906,
+        "observed_time_seconds": 868.906,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-2f769795-b21d-4c3d-b2d2-5007564bdac1\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 3799,
+            "start_ms": 1791519510518,
+            "end_ms": 1791519986088,
+            "seconds": 475.57,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-2f769795-b21d-4c3d-b2d2-5007564bdac1\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 3801,
+            "end_seq": 8816,
+            "start_ms": 1791520019881,
+            "end_ms": 1791520413217,
+            "seconds": 393.336,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791519510518,
+            1791519986088
+          ],
+          [
+            1791520019881,
+            1791520413217
+          ]
+        ],
+        "ledger_lifetime_seconds": 31664.807,
+        "tool_calls_including_children": 65,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 320224,
+          "outputTokens": 31543,
+          "cacheReadTokens": 4421632
+        },
+        "actual_model_counts": {
+          "qwen3.7-plus": 49
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-2f769795-b21d-4c3d-b2d2-5007564bdac1\\session_core.jsonl.gz",
+            "request_count": 49,
+            "usage": {
+              "inputTokens": 320224,
+              "outputTokens": 31543,
+              "cacheReadTokens": 4421632
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 49
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/Amorphous/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 7
+            }
+          ],
+          "final_backend": "manual_full_pattern_model",
+          "gsas_completed": false,
+          "finalize_completed": false,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": []
+        },
+        "source_stats": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-2f769795-b21d-4c3d-b2d2-5007564bdac1\\technical_stats.json",
+        "approval_waits": [],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791519510518,
+            1791519986088
+          ],
+          [
+            1791520019881,
+            1791520413217
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.3671847533999999,
+        "missing_priced_requests": 0,
+        "priced_requests": 49,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 320224,
+          "cache_read": 4421632,
+          "cache_write": 0,
+          "output": 31543
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.3671847533999999,
+        "time_reference_max": 2776.69,
+        "time_normalization_coverage": 6,
+        "time_score": 68.70712971199522,
+        "cost_reference_max": 4.283583199999999,
+        "cost_normalization_coverage": 6,
+        "cost_score": 91.4280933448427
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "Amorphous",
+        "run_id": "session-2f769795-b21d-4c3d-b2d2-5007564bdac1",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": 4.535711027809168,
+        "manual_fit_flags": [
+          "1 parameter(s) sit on a bound (scale) - the value is box-limited"
+        ],
+        "space_groups": [],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 65,
+        "phase_compositions": [],
+        "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-2f769795-b21d-4c3d-b2d2-5007564bdac1\\workspace_snapshot\\Amorphous\\result.json"
+      }
+    },
+    {
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-94796291-69ce-4e65-8fb8-c6845c81b051",
+      "score_path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Fe2O3_Fe3O4_2ph\\score.json",
+      "status": {
+        "completion": "partial_scientific_output",
+        "original_eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "invalid_workflow_state_json; original bytes preserved"
+        }
+      },
+      "findings": [
+        "手动Rwp=5.498711%，非GSAS结果；视觉严重低估最强峰，模型诚实标注非发表级。",
+        "无可接受质量分数，不据标度推定相比例。状态JSON损坏，原字节保留。"
+      ],
+      "uncertainties": [
+        "第一套未用可见思维字数/次数代替协调判断；第二套仅final delivery和随附工程，不从内部调用补科学分。",
+        "工具/历史文件时间戳部分为AI写的旧日期，不视为真实执行时间；执行时段由根代理按主session重算。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；科学错误/正常漂移/诚实失败不自动否决。",
+          "evidence": [],
+          "authorization": "v1.1 B：确认具体既有硬边界后否决，不以低R/负U/V/调用次数判违规。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "无确认FP2K引擎滥用；FE50普通ladder属于当时允许流程，不按次数否决。",
+          "evidence": [],
+          "authorization": "当时xrd-workflow允许单次筛选及阶梯初步优化；v1.1历史正常ladder不自动滥用。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\conclusion.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\review_judgment.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\result.json"
+      ],
+      "A": 3,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 4,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 3,
+      "F_unknown": 0,
+      "answer_D": 4,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 6.666666666666667,
+      "key_score": 4,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 10.666666666666668,
+      "resource": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "Fe2O3_Fe3O4_2ph",
+        "run_id": "session-94796291-69ce-4e65-8fb8-c6845c81b051",
+        "time_seconds": 1995.243,
+        "observed_time_seconds": 2001.562,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 11837,
+            "start_ms": 1791520439434,
+            "end_ms": 1791522440996,
+            "seconds": 2001.562,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\subagents\\91ec5f26-a1c8-40d9-a4a8-5b62f3a6eab5\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791521231947,
+            "end_ms": 1791521233189,
+            "seconds": 1.242,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791520439434,
+            1791522440996
+          ]
+        ],
+        "ledger_lifetime_seconds": 2059.488,
+        "tool_calls_including_children": 96,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 883074,
+          "outputTokens": 43758,
+          "cacheReadTokens": 8371072
+        },
+        "actual_model_counts": {
+          "qwen3.7-plus": 76
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\session_core.jsonl.gz",
+            "request_count": 75,
+            "usage": {
+              "inputTokens": 875975,
+              "outputTokens": 43757,
+              "cacheReadTokens": 8371072
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 75
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\subagents\\91ec5f26-a1c8-40d9-a4a8-5b62f3a6eab5\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 7099,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [],
+          "final_backend": "manual_full_pattern_model",
+          "gsas_completed": false,
+          "finalize_completed": false,
+          "export_completed": true,
+          "required_refinement_completed": false,
+          "converged": null,
+          "warnings": [
+            "invalid_workflow_state_json; original bytes preserved"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 4.362,
+            "asked_seq": 1227,
+            "decided_seq": 1228,
+            "start_ms": 1791520620936,
+            "end_ms": 1791520625298,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\session_core.jsonl.gz",
+            "data": {
+              "id": "9418fdf2-cbe3-49c2-ab8a-49bd1ef65e52",
+              "outcome": "allowed-once"
+            }
+          },
+          {
+            "seconds": 1.957,
+            "asked_seq": 6586,
+            "decided_seq": 6587,
+            "start_ms": 1791521344105,
+            "end_ms": 1791521346062,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\session_core.jsonl.gz",
+            "data": {
+              "id": "c8eeeef5-8942-4cc0-8b8a-efdf169d03e6",
+              "outcome": "allowed-once"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 6.31899999999996,
+        "active_intervals_after_pause_ms": [
+          [
+            1791520439434,
+            1791520620936
+          ],
+          [
+            1791520625298,
+            1791521344105
+          ],
+          [
+            1791521346062,
+            1791522440996
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.7539891563999999,
+        "missing_priced_requests": 0,
+        "priced_requests": 76,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 883074,
+          "cache_read": 8371072,
+          "cache_write": 0,
+          "output": 43758
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.7539891563999999,
+        "time_reference_max": 7859.71,
+        "time_normalization_coverage": 6,
+        "time_score": 74.61429238483353,
+        "cost_reference_max": 11.389744400000009,
+        "cost_normalization_coverage": 6,
+        "cost_score": 93.38010468083903
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "Fe2O3_Fe3O4_2ph",
+        "run_id": "session-94796291-69ce-4e65-8fb8-c6845c81b051",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": 5.498710624537917,
+        "manual_fit_flags": [
+          "2 parameter(s) sit on a bound (W, eta) - the value is box-limited"
+        ],
+        "space_groups": [],
+        "eligibility": {
+          "status": "excluded/incomplete_refinement",
+          "reason": "invalid_workflow_state_json; original bytes preserved"
+        },
+        "tool_calls": 96,
+        "phase_compositions": [],
+        "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\result.json"
+      }
+    },
+    {
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "FE50",
+      "run_id": "session-0c9a843c-46fd-4a76-9e36-2d98a8eed553",
+      "score_path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\FE50\\score.json",
+      "status": {
+        "completion": "delivered_with_scientific_errors",
+        "original_eligibility": {
+          "status": "eligible_with_warnings",
+          "reason": "recorded_workflow_phase_not_5"
+        }
+      },
+      "findings": [
+        "最终wR=13.900684%，非总结顶部12.71；Fm-3m合法候选不是失败原因。",
+        "4b Mn1+Fe2=1.47，工具两次NOT HELD且导出CIF解析失败，仍宣称当前物理结果；B5否决。",
+        "N位与金属近距约.874Å；单一负U/V或反射触底不作为门控依据。"
+      ],
+      "uncertainties": [
+        "第一套未用可见思维字数/次数代替协调判断；第二套仅final delivery和随附工程，不从内部调用补科学分。",
+        "工具/历史文件时间戳部分为AI写的旧日期，不视为真实执行时间；执行时段由根代理按主session重算。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": true,
+          "reason": "已收到overoccupancy1.47/CIF不能解析警告和NOT HELD，最终仍把相同1.47超占位作为当前物理结果交付；确认B5。",
+          "evidence": [
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\tool_trace.jsonl",
+              "locator": "seq22808：解析失败occupancy1.47；22900/23308：Mn1+Fe2=1.47 NOT HELD；24774仍finalize"
+            },
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\workspace_snapshot\\FE50\\FE50_final_final\\FE50_final_K4.8_Mn2_Fe6_C24_N24.cif",
+              "locator": "最终实际位点/配方/坐标"
+            },
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\conclusion.md",
+              "locator": "最终称当前物理解/发表级/已正确约束"
+            }
+          ],
+          "authorization": "先前工具已明确：不合物理/不合法占位或SANITY FAILED仅保留诊断产物，不得报成finished；v1.1 B5。",
+          "core_rules": [
+            {
+              "skill": "xrd-workflow",
+              "section": "§1.1；§6.5/§6.6",
+              "core_excerpt": "正常交付必须严格遵守物理限制；review/anomalies fail先修再交，不得把非物理试算态当完成结构。",
+              "evidence": {
+                "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\session_core.jsonl.gz",
+                "locator": "实际skill回包seq162 §1.1；informed_exception未获选择"
+              }
+            },
+            {
+              "skill": "xrd-refinement",
+              "section": "§4.5；§5.0",
+              "core_excerpt": "工具不拦不等于可以交付；AI必须根据anomalies交付前修掉，fail不得当完成结构报告。",
+              "evidence": {
+                "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\session_core.jsonl.gz",
+                "locator": "实际skill回包seq166"
+              }
+            },
+            {
+              "skill": "xrd-refinement",
+              "section": "§4.6停止纪律",
+              "core_excerpt": "禁止无意义反复尝试；不得因未到目标在同一模型硬磨。",
+              "evidence": {
+                "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\session_core.jsonl.gz",
+                "locator": "回包seq166；相同来态/参数/终值重跑23547/23893/24227/24647与各自result"
+              }
+            }
+          ],
+          "redline_ids": [
+            "RL-PHYSICAL-DELIVERY",
+            "RL-MEANINGLESS-REFINEMENT"
+          ]
+        },
+        "F": {
+          "triggered": false,
+          "reason": "无确认FP2K引擎滥用；FE50普通ladder属于当时允许流程，不按次数否决。",
+          "evidence": [],
+          "authorization": "当时xrd-workflow允许单次筛选及阶梯初步优化；v1.1历史正常ladder不自动滥用。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\conclusion.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\workspace_snapshot\\FE50\\FE50_final_final\\FE50_final_report.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\workspace_snapshot\\FE50\\FE50_final_final\\FE50_final_K4.8_Mn2_Fe6_C24_N24.cif"
+      ],
+      "A": 4,
+      "A_unknown": 0,
+      "B": 0,
+      "B_unknown": 0,
+      "C": 3,
+      "C_unknown": 0,
+      "D": 1,
+      "D_unknown": 0,
+      "E": 3,
+      "E_unknown": 0,
+      "F": 1,
+      "F_unknown": 0,
+      "answer_D": 1,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 1.6666666666666667,
+      "key_score": 6,
+      "key_unknown": 0,
+      "key_max": 15,
+      "answer_contribution": 7.666666666666667,
+      "resource": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "FE50",
+        "run_id": "session-0c9a843c-46fd-4a76-9e36-2d98a8eed553",
+        "time_seconds": 3720.746,
+        "observed_time_seconds": 3759.144,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 21250,
+            "start_ms": 1791522668298,
+            "end_ms": 1791524902840,
+            "seconds": 2234.542,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 21252,
+            "end_seq": 25425,
+            "start_ms": 1791524902848,
+            "end_ms": 1791526427450,
+            "seconds": 1524.602,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\10ca3298-0224-4eb5-9b10-5e305d29bcf2\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791523318566,
+            "end_ms": 1791523320103,
+            "seconds": 1.537,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\762216d2-0aa9-4fd6-8926-2b9c5c04fa35\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791524277892,
+            "end_ms": 1791524279321,
+            "seconds": 1.429,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\8058fc09-c9d3-42bf-8dd7-5f0b6075ec66\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791524065410,
+            "end_ms": 1791524068138,
+            "seconds": 2.728,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\a54daef4-3e57-4d23-a6ba-88ea0eca97f8\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791524578324,
+            "end_ms": 1791524579689,
+            "seconds": 1.365,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\e504a7bd-e699-4ea3-9b19-aba86e2b516e\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791523896903,
+            "end_ms": 1791523898362,
+            "seconds": 1.459,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\f4ff50d6-c27d-4a24-bdb5-d2b42e246502\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791523488503,
+            "end_ms": 1791523489958,
+            "seconds": 1.455,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\fefd6a72-cdf9-448c-8d79-47eb42affa52\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791523741953,
+            "end_ms": 1791523743407,
+            "seconds": 1.454,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791522668298,
+            1791524902840
+          ],
+          [
+            1791524902848,
+            1791526427450
+          ]
+        ],
+        "ledger_lifetime_seconds": 3825.456,
+        "tool_calls_including_children": 205,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 2505345,
+          "outputTokens": 94752,
+          "cacheReadTokens": 32300544
+        },
+        "actual_model_counts": {
+          "qwen3.7-plus": 169
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\session_core.jsonl.gz",
+            "request_count": 162,
+            "usage": {
+              "inputTokens": 2457370,
+              "outputTokens": 94745,
+              "cacheReadTokens": 32300544
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 162
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\10ca3298-0224-4eb5-9b10-5e305d29bcf2\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 7158,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\762216d2-0aa9-4fd6-8926-2b9c5c04fa35\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 7167,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\8058fc09-c9d3-42bf-8dd7-5f0b6075ec66\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 7077,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\a54daef4-3e57-4d23-a6ba-88ea0eca97f8\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 7272,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\e504a7bd-e699-4ea3-9b19-aba86e2b516e\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 6754,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\f4ff50d6-c27d-4a24-bdb5-d2b42e246502\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 6113,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\subagents\\fefd6a72-cdf9-448c-8d79-47eb42affa52\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 6434,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/FE50/workflow_state.json",
+              "phase": 4,
+              "recorded_rounds": 9
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "gsas_completed": true,
+          "finalize_completed": true,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": [
+            "recorded_workflow_phase_not_5"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 38.398,
+            "asked_seq": 1412,
+            "decided_seq": 1413,
+            "start_ms": 1791522891740,
+            "end_ms": 1791522930138,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\session_core.jsonl.gz",
+            "data": {
+              "id": "1a5c5522-64f0-4698-a6a8-7e69a16507b8",
+              "outcome": "allowed-once"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 38.39799999999968,
+        "active_intervals_after_pause_ms": [
+          [
+            1791522668298,
+            1791522891740
+          ],
+          [
+            1791522930138,
+            1791524902840
+          ],
+          [
+            1791524902848,
+            1791526427450
+          ]
+        ],
+        "cost_known_subtotal_usd": 5.342598030800001,
+        "missing_priced_requests": 0,
+        "priced_requests": 169,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 2505345,
+          "cache_read": 32300544,
+          "cache_write": 0,
+          "output": 94752
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 5.342598030800001,
+        "time_reference_max": 36408.112,
+        "time_normalization_coverage": 6,
+        "time_score": 89.78044782986825,
+        "cost_reference_max": 32.46989159999997,
+        "cost_normalization_coverage": 6,
+        "cost_score": 83.54599363429965
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "FE50",
+        "run_id": "session-0c9a843c-46fd-4a76-9e36-2d98a8eed553",
+        "gpx_wR_percent": 13.900684338943176,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "F m -3 m"
+        ],
+        "eligibility": {
+          "status": "eligible_with_warnings",
+          "reason": "recorded_workflow_phase_not_5"
+        },
+        "tool_calls": 205,
+        "phase_compositions": [
+          {
+            "K": 4.8,
+            "Mn": 2.0,
+            "Fe": 7.68,
+            "C": 23.52,
+            "N": 23.52
+          }
+        ],
+        "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\workspace_snapshot\\FE50\\FE50_final_final\\FE50_final_final.gpx",
+        "saved_reflection_rows": 23,
+        "sigma2_floor_rows": 23,
+        "gamma_floor_rows": 0
+      }
+    },
+    {
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-e8820552-bb5a-48f9-b0fd-e038821dd937",
+      "score_path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Fluoroapatite\\score.json",
+      "status": {
+        "completion": "delivered_with_scientific_errors",
+        "original_eligibility": {
+          "status": "eligible_with_warnings",
+          "reason": "session_contains_error_ended_turns; finalize_reported_missing_lst_log; chi2_and_gof_omitted"
+        }
+      },
+      "findings": [
+        "wR=20.945264%；P63/m，正确Ca10P6O24F2总计量/接近参考晶胞，但PO4几何失败。",
+        "只读最终CIF周期邻接核验见physical_checks.json；未重跑精修。"
+      ],
+      "uncertainties": [
+        "第一套未用可见思维字数/次数代替协调判断；第二套仅final delivery和随附工程，不从内部调用补科学分。",
+        "工具/历史文件时间戳部分为AI写的旧日期，不视为真实执行时间；执行时段由根代理按主session重算。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": true,
+          "reason": "收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+          "evidence": [
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+              "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+            },
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+              "locator": "rounds1–5 artifacts.result/components均点名同路径"
+            }
+          ],
+          "authorization": "历史核心§1.4及当次客户决定，不追溯全面先问新要求。",
+          "core_rules": [
+            {
+              "skill": "xrd-workflow",
+              "section": "§1.4收尾清理",
+              "core_excerpt": "确认精修完成之后才清理，分析/精修中一律不清理；journal日志、artifacts点名拟合记录及final delivery必留；保留不确定必须先问，不得自行判断后删除。",
+              "evidence": {
+                "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+                "locator": "实际历史核心回包seq94；§1.4收尾清理"
+              },
+              "excerpt_kind": "paraphrase; actual original receipt linked and preserved",
+              "core_verbatim": "### 1.4 收尾清理约定（用户定 2026-09-20）\n\n> 原话：\"**在确认精修完成后清理工作目录，仅保留日志，拟合记录文件，最终要求输出的结果\n> （保留内容不确定时询问）。具体工作文件不保留。**\"\n\n**触发时机**：**确认精修完成之后**才清理。**分析/精修进行中一律不清理** ——\n中间产物是判读与回档的依据（`.out`/`.prf`/`.gpx`/`.fp2k-work-*`/`.verify-*` 等），\n提前删掉等于毁掉现场。\n\n**保留（三类）**：\n1. **日志**：`xrd_workflow/journal.jsonl` + `journal.md`（**权威记录，必留**）；\n2. **拟合记录文件**：精修留下的记录性产物 —— **以 `journal.jsonl` 的 `artifacts` 字段点过名的为准**\n   （`.out`/`.sum`/`.lst` 等）；**原话里的\"拟合记录文件\"指的是这一类，不是\"随手看哪份留哪份\"**。\n3. **最终要求输出的结果**：用户要求的交付物（报告、图、CIF、交付包 `*_final/`、GSAS 工程等）。\n\n**不保留**：**具体工作文件**（中间工作副本、临时计划/结果 JSON、scratch 副本、一次性的 `.prf`、\n`backup_*`、精修过程目录等）。\n\n**不确定时先问**：**保留内容不确定的，必须问用户**，不要自行判断后删除 ——\n删除是不可逆的，问一句的成本远低于误删一个交付物。\n\n**与\"产物只追加不可变\"的关系**：清理发生在**任务收尾**，不是过程中的回档 ——\n回档靠 §1.2 的 `snapshot`，清理时**至少保留最终采用的那份快照/交付物**。"
+            }
+          ],
+          "redline_ids": [
+            "RL-CLEANUP-REQUIRED-RECORD"
+          ]
+        },
+        "F": {
+          "triggered": false,
+          "reason": "无确认FP2K引擎滥用；FE50普通ladder属于当时允许流程，不按次数否决。",
+          "evidence": [],
+          "authorization": "当时xrd-workflow允许单次筛选及阶梯初步优化；v1.1历史正常ladder不自动滥用。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif"
+      ],
+      "A": 5,
+      "A_unknown": 0,
+      "B": 0,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 3,
+      "D_unknown": 0,
+      "E": 3,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 3,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 5.0,
+      "key_score": 3,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 8.0,
+      "resource": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "Fluoroapatite",
+        "run_id": "session-e8820552-bb5a-48f9-b0fd-e038821dd937",
+        "time_seconds": 1774.692,
+        "observed_time_seconds": 2254.713,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 12504,
+            "start_ms": 1791526502509,
+            "end_ms": 1791528550414,
+            "seconds": 2047.905,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "Connection error.",
+                "code": "TRANSPORT"
+              }
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 12506,
+            "end_seq": 14401,
+            "start_ms": 1791528615668,
+            "end_ms": 1791528822476,
+            "seconds": 206.808,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\subagents\\1a7dc461-19cf-4a23-844f-ee1016d242e4\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791527918117,
+            "end_ms": 1791527919406,
+            "seconds": 1.289,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\subagents\\376a0ef1-6840-40ed-a4a1-823a05c81f42\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791528008288,
+            "end_ms": 1791528009609,
+            "seconds": 1.321,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\subagents\\e233ea4a-136c-449d-8f87-f9d38f806aa7\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791528302622,
+            "end_ms": 1791528304194,
+            "seconds": 1.572,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791526502509,
+            1791528550414
+          ],
+          [
+            1791528615668,
+            1791528822476
+          ]
+        ],
+        "ledger_lifetime_seconds": 2377.492,
+        "tool_calls_including_children": 84,
+        "llm_retries": 2,
+        "usage": {
+          "inputTokens": 821525,
+          "outputTokens": 52159,
+          "cacheReadTokens": 7061248
+        },
+        "actual_model_counts": {
+          "qwen3.7-plus": 82
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+            "request_count": 79,
+            "usage": {
+              "inputTokens": 802660,
+              "outputTokens": 52156,
+              "cacheReadTokens": 7058944
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 79
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\subagents\\1a7dc461-19cf-4a23-844f-ee1016d242e4\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 6639,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\subagents\\376a0ef1-6840-40ed-a4a1-823a05c81f42\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 4736,
+              "outputTokens": 1,
+              "cacheReadTokens": 2304
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\subagents\\e233ea4a-136c-449d-8f87-f9d38f806aa7\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 7490,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/Fluoroapatite/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 11
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "gsas_completed": true,
+          "finalize_completed": true,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": [
+            "session_contains_error_ended_turns",
+            "finalize_reported_missing_lst_log; chi2_and_gof_omitted"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 120.004,
+            "asked_seq": 4233,
+            "decided_seq": 4234,
+            "start_ms": 1791526887444,
+            "end_ms": 1791527007448,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+            "data": {
+              "id": "2aa4e9f5-e38d-4d46-8a0a-bef928ef3f7c",
+              "outcome": "cancelled"
+            }
+          },
+          {
+            "seconds": 119.999,
+            "asked_seq": 4312,
+            "decided_seq": 4313,
+            "start_ms": 1791527014998,
+            "end_ms": 1791527134997,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+            "data": {
+              "id": "c8515a27-1843-4ff1-b22f-83c81aa4f8ec",
+              "outcome": "cancelled"
+            }
+          },
+          {
+            "seconds": 120.005,
+            "asked_seq": 4431,
+            "decided_seq": 4432,
+            "start_ms": 1791527144394,
+            "end_ms": 1791527264399,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+            "data": {
+              "id": "1c96156d-e9a2-4a0b-a230-9e5ec86ef90c",
+              "outcome": "cancelled"
+            }
+          },
+          {
+            "seconds": 120.013,
+            "asked_seq": 4626,
+            "decided_seq": 4627,
+            "start_ms": 1791527276834,
+            "end_ms": 1791527396847,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+            "data": {
+              "id": "24d4f423-1440-48e0-bb8e-0948ad4a553d",
+              "outcome": "cancelled"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 480.0210000000002,
+        "active_intervals_after_pause_ms": [
+          [
+            1791526502509,
+            1791526887444
+          ],
+          [
+            1791527007448,
+            1791527014998
+          ],
+          [
+            1791527134997,
+            1791527144394
+          ],
+          [
+            1791527264399,
+            1791527276834
+          ],
+          [
+            1791527396847,
+            1791528550414
+          ],
+          [
+            1791528615668,
+            1791528822476
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.6739488486,
+        "missing_priced_requests": 0,
+        "priced_requests": 82,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 821525,
+          "cache_read": 7061248,
+          "cache_write": 0,
+          "output": 52159
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "llm retries present; no extra unreported token inferred",
+        "cost_usd": 0.6739488486,
+        "time_reference_max": 11162.67,
+        "time_normalization_coverage": 6,
+        "time_score": 84.10154559796177,
+        "cost_reference_max": 24.18346829050943,
+        "cost_normalization_coverage": 6,
+        "cost_score": 97.2131836488297
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "Fluoroapatite",
+        "run_id": "session-e8820552-bb5a-48f9-b0fd-e038821dd937",
+        "gpx_wR_percent": 20.945263613111752,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P 63/m"
+        ],
+        "eligibility": {
+          "status": "eligible_with_warnings",
+          "reason": "session_contains_error_ended_turns; finalize_reported_missing_lst_log; chi2_and_gof_omitted"
+        },
+        "tool_calls": 84,
+        "phase_compositions": [
+          {
+            "Ca": 10.0,
+            "P": 6.0,
+            "O": 24.0,
+            "F": 2.0
+          }
+        ],
+        "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_final.gpx",
+        "saved_reflection_rows": 325,
+        "sigma2_floor_rows": 93,
+        "gamma_floor_rows": 0
+      }
+    },
+    {
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "LayeredOxide",
+      "run_id": "session-1598c1dd-025f-4348-992e-ed66cbdfc16a",
+      "score_path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\LayeredOxide\\score.json",
+      "status": {
+        "completion": "delivered_with_scientific_errors",
+        "original_eligibility": {
+          "status": "eligible",
+          "reason": null
+        }
+      },
+      "findings": [
+        "最终cachedGPX wR=8.797825%，报告/工具LST8.65%；真实P63而非报告P63/m。",
+        "最终每胞Na1.44TM2O6=Na.72TMO3；Ni/Mn/Mo失共位，巨大z不仅是可简单包回[0,1)的展示问题。",
+        "未知正确杂相量不要求9%唯一真值；此模型却没有给出可成立的排除/定量证据。"
+      ],
+      "uncertainties": [
+        "第一套未用可见思维字数/次数代替协调判断；第二套仅final delivery和随附工程，不从内部调用补科学分。",
+        "工具/历史文件时间戳部分为AI写的旧日期，不视为真实执行时间；执行时段由根代理按主session重算。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": true,
+          "reason": "交付Na.72TMO3而非O2、混占TM失共位、坐标巨幅不稳定，此前导出SANITY FAILED仍最终称发表级且键长合理；确认B5。",
+          "evidence": [
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\tool_trace.jsonl",
+              "locator": "seq17246/17347导出SANITY FAILED不得finished；20778/21735最终发表级；CIF配方与TM共位仍错误"
+            },
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif",
+              "locator": "最终实际位点/配方/坐标"
+            },
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+              "locator": "最终称当前物理解/发表级/已正确约束"
+            }
+          ],
+          "authorization": "先前工具已明确：不合物理/不合法占位或SANITY FAILED仅保留诊断产物，不得报成finished；v1.1 B5。",
+          "core_rules": [
+            {
+              "skill": "xrd-workflow",
+              "section": "§1.1；§6.5/§6.6",
+              "core_excerpt": "正常交付必须严格遵守物理限制；review/anomalies fail先修再交，不得把非物理试算态当完成结构。",
+              "evidence": {
+                "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\session_core.jsonl.gz",
+                "locator": "实际skill回包seq165 §1.1；informed_exception未获选择"
+              }
+            },
+            {
+              "skill": "xrd-refinement",
+              "section": "§4.5；§5.0",
+              "core_excerpt": "工具不拦不等于可以交付；AI必须根据anomalies交付前修掉，fail不得当完成结构报告。",
+              "evidence": {
+                "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\session_core.jsonl.gz",
+                "locator": "实际skill回包seq169"
+              }
+            }
+          ],
+          "redline_ids": [
+            "RL-PHYSICAL-DELIVERY"
+          ]
+        },
+        "F": {
+          "triggered": false,
+          "reason": "无确认FP2K引擎滥用；FE50普通ladder属于当时允许流程，不按次数否决。",
+          "evidence": [],
+          "authorization": "当时xrd-workflow允许单次筛选及阶梯初步优化；v1.1历史正常ladder不自动滥用。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\conclusion.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\final report.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif"
+      ],
+      "A": 4,
+      "A_unknown": 0,
+      "B": 0,
+      "B_unknown": 0,
+      "C": 4,
+      "C_unknown": 0,
+      "D": 1,
+      "D_unknown": 0,
+      "E": 2,
+      "E_unknown": 0,
+      "F": 2,
+      "F_unknown": 0,
+      "answer_D": 1,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 1.6666666666666667,
+      "key_score": 4,
+      "key_unknown": 0,
+      "key_max": 10,
+      "answer_contribution": 5.666666666666667,
+      "resource": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "LayeredOxide",
+        "run_id": "session-1598c1dd-025f-4348-992e-ed66cbdfc16a",
+        "time_seconds": 2003.99,
+        "observed_time_seconds": 2123.995,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 22010,
+            "start_ms": 1791550444302,
+            "end_ms": 1791552568297,
+            "seconds": 2123.995,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\subagents\\0c441e98-edfe-449e-81e9-c07f313742e1\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 7990,
+            "start_ms": 1791552428523,
+            "end_ms": 1791552548524,
+            "seconds": 120.001,
+            "reason": {
+              "kind": "aborted",
+              "reason": {
+                "kind": "parent"
+              }
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\subagents\\d6b811cd-dff5-4a13-b203-9d023e9ff4ba\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 6980,
+            "start_ms": 1791552108327,
+            "end_ms": 1791552228333,
+            "seconds": 120.006,
+            "reason": {
+              "kind": "aborted",
+              "reason": {
+                "kind": "parent"
+              }
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\subagents\\de5e4d50-419f-4cc5-b110-9edebbe1f97f\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 7455,
+            "start_ms": 1791551427089,
+            "end_ms": 1791551547097,
+            "seconds": 120.008,
+            "reason": {
+              "kind": "aborted",
+              "reason": {
+                "kind": "parent"
+              }
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791550444302,
+            1791552568297
+          ]
+        ],
+        "ledger_lifetime_seconds": 2647.177,
+        "tool_calls_including_children": 95,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 1119701,
+          "outputTokens": 79898,
+          "cacheReadTokens": 9824640
+        },
+        "actual_model_counts": {
+          "qwen3.7-plus": 70
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\session_core.jsonl.gz",
+            "request_count": 70,
+            "usage": {
+              "inputTokens": 1119701,
+              "outputTokens": 79898,
+              "cacheReadTokens": 9824640
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 70
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\subagents\\0c441e98-edfe-449e-81e9-c07f313742e1\\session_core.jsonl.gz",
+            "request_count": 0,
+            "usage": {},
+            "actual_model_counts": {}
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\subagents\\d6b811cd-dff5-4a13-b203-9d023e9ff4ba\\session_core.jsonl.gz",
+            "request_count": 0,
+            "usage": {},
+            "actual_model_counts": {}
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\subagents\\de5e4d50-419f-4cc5-b110-9edebbe1f97f\\session_core.jsonl.gz",
+            "request_count": 0,
+            "usage": {},
+            "actual_model_counts": {}
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/LayeredOxide/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 7
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "gsas_completed": true,
+          "finalize_completed": true,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": []
+        },
+        "source_stats": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 120.005,
+            "asked_seq": 2500,
+            "decided_seq": 2501,
+            "start_ms": 1791550768472,
+            "end_ms": 1791550888477,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\session_core.jsonl.gz",
+            "data": {
+              "id": "15e9568a-836b-4d0d-80cc-99b74e0f51bd",
+              "outcome": "cancelled"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 120.00499999999988,
+        "active_intervals_after_pause_ms": [
+          [
+            1791550444302,
+            1791550768472
+          ],
+          [
+            1791550888477,
+            1791552568297
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.9393253020000001,
+        "missing_priced_requests": 0,
+        "priced_requests": 70,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 1119701,
+          "cache_read": 9824640,
+          "cache_write": 0,
+          "output": 79898
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.9393253020000001,
+        "time_reference_max": 11921.629,
+        "time_normalization_coverage": 6,
+        "time_score": 83.19030058727712,
+        "cost_reference_max": 20.697823239999984,
+        "cost_normalization_coverage": 6,
+        "cost_score": 95.46171937450558
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "LayeredOxide",
+        "run_id": "session-1598c1dd-025f-4348-992e-ed66cbdfc16a",
+        "gpx_wR_percent": 8.79782497688896,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P 63"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 95,
+        "phase_compositions": [
+          {
+            "Ni": 0.66,
+            "Mn": 1.24,
+            "Mo": 0.1,
+            "Na": 1.44,
+            "O": 6.0
+          }
+        ],
+        "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-1598c1dd-025f-4348-992e-ed66cbdfc16a\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_final.gpx",
+        "saved_reflection_rows": 22,
+        "sigma2_floor_rows": 0,
+        "gamma_floor_rows": 0
+      }
+    },
+    {
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "LiFePO4",
+      "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+      "score_path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\LiFePO4\\score.json",
+      "status": {
+        "completion": "delivered_with_scientific_errors",
+        "original_eligibility": {
+          "status": "eligible_with_warnings",
+          "reason": "last_export_source_gsas_final_fixed.gpx_differs_from_final_answer_gsas_antisite8.gpx; export_tool_reported_structural_anomalies; retained as observed tool verdict"
+        }
+      },
+      "findings": [
+        "wR=7.490033%；反位5.4239% vs10.8691%，不等量交换；胞组成为Li4.21781Fe3.78219P4O20。",
+        "Fe2_Li模1坐标仍不等Fe2，间距不是周期平移可以修复；最终export fail提示仍在，报告却声称已修好。",
+        "未提供旧低R工程，不用旧量表要求，也不与任意固定真反位率比。"
+      ],
+      "uncertainties": [
+        "第一套未用可见思维字数/次数代替协调判断；第二套仅final delivery和随附工程，不从内部调用补科学分。",
+        "工具/历史文件时间戳部分为AI写的旧日期，不视为真实执行时间；执行时段由根代理按主session重算。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": true,
+          "reason": "final export仍verdict=fail且伙伴非共位，明确不得finished警告后仍声称正确约束/精修完成，确认B5。",
+          "evidence": [
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\tool_trace.jsonl",
+              "locator": "seq12258/12770 export fail不得finished；12709/12710修旗未修坐标；全轨迹无FP实跑"
+            },
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\workspace_snapshot\\LiFePO4\\LiFePO4_final_built.cif",
+              "locator": "最终实际位点/配方/坐标"
+            },
+            {
+              "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\conclusion.md",
+              "locator": "最终称当前物理解/发表级/已正确约束"
+            }
+          ],
+          "authorization": "先前工具已明确：不合物理/不合法占位或SANITY FAILED仅保留诊断产物，不得报成finished；v1.1 B5。另B3报告虚称26晶型已FP打分与伙伴修复。",
+          "core_rules": [
+            {
+              "skill": "xrd-workflow",
+              "section": "§1.1；§6.5/§6.6",
+              "core_excerpt": "正常交付必须严格遵守物理限制；review/anomalies fail先修再交，不得把非物理试算态当完成结构。",
+              "evidence": {
+                "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\session_core.jsonl.gz",
+                "locator": "实际skill回包seq124 §1.1；informed_exception未获选择"
+              }
+            },
+            {
+              "skill": "xrd-refinement",
+              "section": "§4.5；§5.0",
+              "core_excerpt": "工具不拦不等于可以交付；AI必须根据anomalies交付前修掉，fail不得当完成结构报告。",
+              "evidence": {
+                "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\session_core.jsonl.gz",
+                "locator": "实际skill回包seq128"
+              }
+            }
+          ],
+          "redline_ids": [
+            "RL-PHYSICAL-DELIVERY"
+          ]
+        },
+        "F": {
+          "triggered": false,
+          "reason": "无确认FP2K引擎滥用；FE50普通ladder属于当时允许流程，不按次数否决。",
+          "evidence": [],
+          "authorization": "当时xrd-workflow允许单次筛选及阶梯初步优化；v1.1历史正常ladder不自动滥用。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\conclusion.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\workspace_snapshot\\LiFePO4\\report.md",
+        "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\workspace_snapshot\\LiFePO4\\LiFePO4_final_built.cif"
+      ],
+      "A": 3,
+      "A_unknown": 0,
+      "B": 0,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 2,
+      "D_unknown": 0,
+      "E": 2,
+      "E_unknown": 0,
+      "F": 1,
+      "F_unknown": 0,
+      "answer_D": 2,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 3.3333333333333335,
+      "key_score": 3,
+      "key_unknown": 0,
+      "key_max": 10,
+      "answer_contribution": 6.333333333333334,
+      "resource": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "LiFePO4",
+        "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+        "time_seconds": 1564.772,
+        "observed_time_seconds": 1804.786,
+        "turn_intervals": [
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 14035,
+            "start_ms": 1791529557335,
+            "end_ms": 1791531362121,
+            "seconds": 1804.786,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\subagents\\e69ac450-efad-4cb7-917f-a76947f7eeca\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 20,
+            "start_ms": 1791530673146,
+            "end_ms": 1791530675154,
+            "seconds": 2.008,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791529557335,
+            1791531362121
+          ]
+        ],
+        "ledger_lifetime_seconds": 2403.637,
+        "tool_calls_including_children": 84,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 1408939,
+          "outputTokens": 52188,
+          "cacheReadTokens": 14085248
+        },
+        "actual_model_counts": {
+          "qwen3.7-plus": 71
+        },
+        "sources": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\session_core.jsonl.gz",
+            "request_count": 70,
+            "usage": {
+              "inputTokens": 1402863,
+              "outputTokens": 52187,
+              "cacheReadTokens": 14085248
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 70
+            }
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\subagents\\e69ac450-efad-4cb7-917f-a76947f7eeca\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 6076,
+              "outputTokens": 1
+            },
+            "actual_model_counts": {
+              "qwen3.7-plus": 1
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/LiFePO4/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 5
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "gsas_completed": true,
+          "finalize_completed": false,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": [
+            "last_export_source_gsas_final_fixed.gpx_differs_from_final_answer_gsas_antisite8.gpx",
+            "export_tool_reported_structural_anomalies; retained as observed tool verdict"
+          ]
+        },
+        "source_stats": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 120.011,
+            "asked_seq": 7155,
+            "decided_seq": 7156,
+            "start_ms": 1791530075565,
+            "end_ms": 1791530195576,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\session_core.jsonl.gz",
+            "data": {
+              "id": "adf8e5da-e1a7-4b09-aafe-649000d1c26c",
+              "outcome": "cancelled"
+            }
+          },
+          {
+            "seconds": 120.003,
+            "asked_seq": 7640,
+            "decided_seq": 7641,
+            "start_ms": 1791530266313,
+            "end_ms": 1791530386316,
+            "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\session_core.jsonl.gz",
+            "data": {
+              "id": "2334c878-063a-4e2a-a702-d9633656e436",
+              "outcome": "cancelled"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 240.01400000000012,
+        "active_intervals_after_pause_ms": [
+          [
+            1791529557335,
+            1791530075565
+          ],
+          [
+            1791530195576,
+            1791530266313
+          ],
+          [
+            1791530386316,
+            1791531362121
+          ]
+        ],
+        "cost_known_subtotal_usd": 1.8076012916000002,
+        "missing_priced_requests": 0,
+        "priced_requests": 71,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 1408939,
+          "cache_read": 14085248,
+          "cache_write": 0,
+          "output": 52188
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 1.8076012916000002,
+        "time_reference_max": 10430.81,
+        "time_normalization_coverage": 6,
+        "time_score": 84.99855715903175,
+        "cost_reference_max": 18.581033679999997,
+        "cost_normalization_coverage": 6,
+        "cost_score": 90.27179368634566
+      },
+      "cached_metrics": {
+        "model": "QWEN 3.7 PLUS",
+        "case_id": "LiFePO4",
+        "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+        "gpx_wR_percent": 7.490032996942995,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P n m a"
+        ],
+        "eligibility": {
+          "status": "eligible_with_warnings",
+          "reason": "last_export_source_gsas_final_fixed.gpx_differs_from_final_answer_gsas_antisite8.gpx; export_tool_reported_structural_anomalies; retained as observed tool verdict"
+        },
+        "tool_calls": 84,
+        "phase_compositions": [
+          {
+            "Li": 4.217810213921634,
+            "Fe": 3.782189786078365,
+            "P": 4.0,
+            "O": 20.0
+          }
+        ],
+        "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\workspace_snapshot\\LiFePO4\\gsas_final_fixed.gpx",
+        "saved_reflection_rows": 101,
+        "sigma2_floor_rows": 0,
+        "gamma_floor_rows": 0
+      }
+    }
+  ],
+  "pricing": {
+    "verified_at": "2026-10-12",
+    "comparison_currency": "USD",
+    "basis": "official standard public pay-as-you-go API equivalent; no subscription, free quota or private discount; international USD vendor table where directly listed",
+    "rates_per_million": {
+      "gpt-5.6-sol": {
+        "threshold": 272000,
+        "tiers": [
+          {
+            "input": 4,
+            "cache_read": 0.4,
+            "cache_write": 5,
+            "output": 20
+          },
+          {
+            "input": 8,
+            "cache_read": 0.8,
+            "cache_write": 10,
+            "output": 30
+          }
+        ],
+        "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+        "region": "OpenAI standard"
+      },
+      "glm-5.3": {
+        "tiers": [
+          {
+            "input": 1.4,
+            "cache_read": 0.26,
+            "cache_write": 0,
+            "output": 4.4
+          }
+        ],
+        "url": "https://docs.z.ai/guides/overview/pricing",
+        "region": "Z.ai public USD",
+        "note": "Exact GLM-5.3 listed; does not use GLM-5/5.2 substitute."
+      },
+      "qwen3.6-flash": {
+        "threshold": 256000,
+        "tiers": [
+          {
+            "input": 0.165,
+            "cache_read": 0.033,
+            "cache_write": 0.20625,
+            "output": 0.99
+          },
+          {
+            "input": 0.66,
+            "cache_read": 0.132,
+            "cache_write": 0.825,
+            "output": 3.961
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "Global public USD",
+        "note": "Implicit cache 20%; no cache records in current Flash sessions, input charged as recorded."
+      },
+      "qwen3.7-plus": {
+        "threshold": 256000,
+        "tiers": [
+          {
+            "input": 0.276,
+            "cache_read": 0.0552,
+            "cache_write": 0.345,
+            "output": 1.101
+          },
+          {
+            "input": 0.826,
+            "cache_read": 0.1652,
+            "cache_write": 1.0325,
+            "output": 3.301
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "Global public USD list prices",
+        "note": "Use standard list prices, not temporary subscription/night credits multiplier; implicit cache 20%."
+      },
+      "qwen3.8-max-preview": {
+        "mapped_official_model": "qwen3.8-max",
+        "tiers": [
+          {
+            "input": 1.7822664488341007,
+            "cache_read": 0.22278330610426259,
+            "cache_write": 2.227833061042626,
+            "output": 5.346799346502302
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "mapping_url": "https://www.alibabacloud.com/en/notice/alibaba_cloud_model_studio_model_upgrade_notice_81a?_p_lc=1",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "user-supplied mainland official CNY quote converted to USD",
+        "status": "user_official_price_supplied",
+        "note": "Implicit cache price from user official console text; source/FX/date frozen in pricing_user_addendum.json; no generic cache discount guessed.",
+        "currency": "USD",
+        "user_source": "workspace\\benchmark\\scoring_v1.1_20261012\\qwen_max_user_price.md"
+      },
+      "deepseek-v4-pro": {
+        "tiers": [
+          {
+            "input": 1.32,
+            "cache_read": 0.044,
+            "cache_write": 0,
+            "output": 3.96
+          },
+          {
+            "input": 0.66,
+            "cache_read": 0.022,
+            "cache_write": 0,
+            "output": 1.98
+          }
+        ],
+        "time_tiers": "Peak Mon-Fri UTC 01:00-04:00 and 06:00-10:00 excluding Chinese public holidays; otherwise off-peak",
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "region": "DeepSeek public USD",
+        "note": "Official English page fetched directly 2026-10-12 after web-reader timeout. All current DeepSeek sessions occurred on 2026-10-11 (Sunday), off-peak; no FX conversion required."
+      },
+      "kimi-k3": {
+        "tiers": [],
+        "status": "excluded_by_user",
+        "note": "User explicitly said Kimi is not considered during this scoring turn. Three recorded GPT FE50 child requests retained in exclusion ledger, not billed or independently ranked."
+      }
+    },
+    "fx": {
+      "date": "2026-10-09",
+      "cny_per_usd": 6.733,
+      "source_url": "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+      "source_basis": "Official China Foreign Exchange Trade System rate dated 2026-10-09 returned by web search snapshot; dynamic page was opened. Latest actually retrieved common FX snapshot, not claimed to be 2026-10-12 quote."
+    }
+  },
+  "master": "workspace\\benchmark\\scoring_v1.3_20261012"
+}

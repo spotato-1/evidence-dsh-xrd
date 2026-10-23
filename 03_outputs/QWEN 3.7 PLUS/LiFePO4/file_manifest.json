@@ -1,0 +1,91 @@
+﻿{
+  "model": "QWEN 3.7 PLUS",
+  "case_id": "LiFePO4",
+  "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+  "selection_basis": "last completed xrd_export_cif result; validation verdict is preserved separately",
+  "selection_tool_seq": 12769,
+  "counts": {
+    "image": 1,
+    "gpx": 2,
+    "cif": 2
+  },
+  "all_three_types_present": true,
+  "same_final_state": false,
+  "notes": [
+    "original final answergsas_antisite8.gpx；最后导出来自gsas_final_fixed.gpx且验证verdict=fail。两组分开保留，三类文件存在不等于同一接受状态。",
+    "original export state：xrd_export_cif: fail"
+  ],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\workspace_snapshot\\LiFePO4\\LiFePO4_final_built.cif",
+      "destination": "QWEN 3.7 PLUS/LiFePO4/CIF/LiFePO4_final_built.cif",
+      "role": "cif",
+      "bytes": 1345,
+      "sha256": "0e01505e80e3dcb847b53c0c127e7127f2bb84579aafa973ceadefbd74932e68",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "LiFePO4",
+      "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.candidate_files",
+      "declared_original_path": "workspace\\QWEN 3.7 PLUS\\LiFePO4\\LiFePO4_final_built.cif"
+    },
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\workspace_snapshot\\LiFePO4\\LiFePO4_final_built_gsas.cif",
+      "destination": "QWEN 3.7 PLUS/LiFePO4/CIF/LiFePO4_final_built_gsas.cif",
+      "role": "cif",
+      "bytes": 1886,
+      "sha256": "8491e401160ce07841e797b8d6d480911d429ccf7be6fa9d36bfc2aee154b67a",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "LiFePO4",
+      "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.candidate_files",
+      "declared_original_path": "workspace\\QWEN 3.7 PLUS\\LiFePO4\\LiFePO4_final_built_gsas.cif"
+    },
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\workspace_snapshot\\LiFePO4\\LiFePO4_final_exported.gpx",
+      "destination": "QWEN 3.7 PLUS/LiFePO4/final export/GPX/LiFePO4_final_exported.gpx",
+      "role": "gpx",
+      "bytes": 574383,
+      "sha256": "7b5c354c0d2027edb8c6e6e11fbca926a446b96d55a61258a69f06d148313542",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "LiFePO4",
+      "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.candidate_files",
+      "declared_original_path": "workspace\\QWEN 3.7 PLUS\\LiFePO4\\LiFePO4_final_exported.gpx"
+    },
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\workspace_snapshot\\LiFePO4\\LiFePO4_final_fit.png",
+      "destination": "QWEN 3.7 PLUS/LiFePO4/figures/LiFePO4_final_fit.png",
+      "role": "image",
+      "bytes": 377513,
+      "sha256": "255b57d9ed6c6a2f07c2456f8c2490c40fadefa0d9f29f71f01dad140307fcd7",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "LiFePO4",
+      "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.candidate_files",
+      "declared_original_path": "workspace\\QWEN 3.7 PLUS\\LiFePO4\\LiFePO4_final_fit.png"
+    },
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-a3936e9f-120b-47ba-a257-a591d76852a1\\workspace_snapshot\\LiFePO4\\gsas_antisite8.gpx",
+      "destination": "QWEN 3.7 PLUS/LiFePO4/final answer project/GPX/gsas_antisite8.gpx",
+      "role": "gpx",
+      "bytes": 576992,
+      "sha256": "ffce6f47a27a573b193bb2a5cf6748ab4e155624602d5282e70509fd9f928003",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "LiFePO4",
+      "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+      "primary": true,
+      "output_group": "final answer project",
+      "declaration_basis": "original conclusion.md and workflow_state report this final project",
+      "declared_original_path": "workspace_snapshot/LiFePO4/gsas_antisite8.gpx"
+    }
+  ]
+}

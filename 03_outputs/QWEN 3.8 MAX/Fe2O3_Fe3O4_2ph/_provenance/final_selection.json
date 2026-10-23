@@ -1,0 +1,37 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 60032,
+  "result_seq": 60033,
+  "input_gpx": "workspace\\QWEN 3.8 MAX\\Fe2O3_Fe3O4_2ph\\gsas_proj_bgfinal.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\QWEN 3.8 MAX\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final"
+    ],
+    "gpx": [
+      "workspace\\QWEN 3.8 MAX\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx"
+    ],
+    "lst": [
+      "workspace\\QWEN 3.8 MAX\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.lst"
+    ],
+    "plot": [
+      "workspace\\QWEN 3.8 MAX\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_fit.png"
+    ],
+    "report": [
+      "workspace\\QWEN 3.8 MAX\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_report.md"
+    ],
+    "cif": [
+      "workspace\\QWEN 3.8 MAX\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_Fe12_O18.cif",
+      "workspace\\QWEN 3.8 MAX\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_Fe24_O32.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 1.58,
+    "R": 1.217928664733217,
+    "Rb": 1.8358078510432234,
+    "wRb": 2.7461326343256114,
+    "wRmin": 0.8926286509475634,
+    "chi2": 13317.3,
+    "gof": 1.78
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

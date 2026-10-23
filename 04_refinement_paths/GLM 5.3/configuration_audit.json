@@ -1,0 +1,153 @@
+﻿{
+  "model_folder_label": "GLM 5.3",
+  "cases": [
+    {
+      "case_id": "Amorphous",
+      "run_id": "session-34b1bf5e-7437-4c4a-a61c-4abada2036eb",
+      "assistant_routes": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "recorded_request_configs": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "gpt-5.6-sol"
+        },
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "first_actual_user_prompt": "\"workspace\\GLM 5.3\\Amorphous\"这里保存了一份XRD数据，其成分为无定形碳负极。严格按照xrd插件进行数据处理。工作内容保存在该数据的文件夹下。",
+      "subagent_routes": []
+    },
+    {
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3",
+      "assistant_routes": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "recorded_request_configs": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "first_actual_user_prompt": "\"workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\"这里保存了一份XRD数据，其成分为Fe2O3+Fe3O4组成的两相材料。严格按照xrd插件进行数据处理，目标是达到发表级（R小于等于10）。工作内容保存在该数据的文件夹下。",
+      "subagent_routes": [
+        []
+      ]
+    },
+    {
+      "case_id": "FE50",
+      "run_id": "session-9fc4ad1d-2730-4b46-909b-2af2962b68b2",
+      "assistant_routes": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "recorded_request_configs": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "first_actual_user_prompt": "\"workspace\\GLM 5.3\\FE50\"这里保存了一份XRD数据，其为一种普鲁士蓝晶体，其理论化学式为KxFe0.5Mn0.5[Fe(CN)6]，合成方法为Fe4[Fe(CN)6]3、四水和氧化锰，柠檬酸钾在50%乙醇水溶液下球磨形成。\"workspace\\GLM 5.3\\FE50\\CIF\"这里提供了两个相似材料的CIF文件作为参考。该材料需要考虑存在大量缺陷，特别是晶格畸变，空位，分裂位等。严格按照xrd插件进行精修，强制要求介入复杂问题检查表，严格遵循规划工作流，考虑所有缺陷及可能发生的拟合变化等实际问题。存在实际疑问时应该首先考虑拟合思路问题以及科学事实自洽性，在进入最终GSAS引擎前，一切调整均以降低R值为目标。目标是尽可能达到发表级（R小于等于10）。工作内容保存在该数据的文件夹下。",
+      "subagent_routes": [
+        []
+      ]
+    },
+    {
+      "case_id": "Fluoroapatite",
+      "run_id": "session-66eabb35-f2ef-4e5d-b74c-837793b8fd00",
+      "assistant_routes": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "recorded_request_configs": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "first_actual_user_prompt": "\"workspace\\GLM 5.3\\Fluoroapatite\"这里保存了一份XRD数据，其成分为氟磷灰石矿石粉末样品。严格按照xrd插件进行数据处理。工作内容保存在该数据的文件夹下。",
+      "subagent_routes": [
+        [
+          {
+            "provider": "qwen-token-plan-cn",
+            "model": "qwen3.7-plus"
+          }
+        ],
+        [
+          {
+            "provider": "qwen-token-plan-cn",
+            "model": "qwen3.7-plus"
+          }
+        ]
+      ]
+    },
+    {
+      "case_id": "LayeredOxide",
+      "run_id": "session-f1242229-b198-4a67-b23e-64a2f4460d5b",
+      "assistant_routes": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "recorded_request_configs": [
+        {
+          "provider": "office-modlens-poke-api",
+          "model": "glm-5.3"
+        }
+      ],
+      "first_actual_user_prompt": "\"workspace\\GLM 5.3\\LayeredOxide\"这里保存了一份XRD数据，其成分为一种层状氧化物晶体，理论化学式为Na0.72Ni0.33Mn0.62Mo0.05O2（投料比），合成原料为NaOH、NaMnO4·2H2O、Ni(CH3COO)2·4H2O、Mn(CH3COO)2·4H2O、柠檬酸，合成方法为先使用溶胶凝胶法后球磨，球磨产物使用450℃ 5H+900℃ 12H煅烧得到。该材料需要考虑存在部分钼酸钠杂质。严格按照xrd插件进行数据处理，目标是达到发表级（R小于等于10）。工作内容保存在该数据的文件夹下。",
+      "subagent_routes": [
+        [
+          {
+            "provider": "office-modlens-poke-api",
+            "model": "glm-5.3"
+          }
+        ],
+        [
+          {
+            "provider": "office-modlens-poke-api",
+            "model": "glm-5.3"
+          }
+        ],
+        []
+      ]
+    },
+    {
+      "case_id": "LiFePO4",
+      "run_id": "session-1d775c6a-f34e-46d8-ada1-3b542078b25c",
+      "assistant_routes": [
+        {
+          "provider": "qwen-token-plan-cn",
+          "model": "glm-5.3"
+        }
+      ],
+      "recorded_request_configs": [
+        {
+          "provider": "qwen-token-plan-cn",
+          "model": "glm-5.3"
+        },
+        {
+          "provider": "qwen-token-plan-cn",
+          "model": "glm-5.3"
+        }
+      ],
+      "first_actual_user_prompt": "\"workspace\\GLM 5.3\\LiFePO4\"这里保存了一份XRD数据，其成分为LiFePO4，需要考虑Li/Fe反位缺陷。严格按照xrd插件进行数据处理，完整载入复杂问题检查表，目标是达到尽可能低的R值。工作内容保存在该数据的文件夹下。",
+      "subagent_routes": []
+    }
+  ],
+  "note": "Folder label retained from the operator; actual API model IDs, routes and reasoningEffort are recorded without assuming equivalence."
+}

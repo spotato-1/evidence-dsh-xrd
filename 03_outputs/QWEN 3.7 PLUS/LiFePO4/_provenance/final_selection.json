@@ -1,0 +1,17 @@
+﻿{
+  "basis": "last completed xrd_export_cif result; validation verdict is preserved separately",
+  "tool_seq": 12769,
+  "result_seq": 12770,
+  "input_gpx": "workspace\\QWEN 3.7 PLUS\\LiFePO4\\gsas_final_fixed.gpx",
+  "components": null,
+  "result": null,
+  "candidate_files": [
+    "workspace\\QWEN 3.7 PLUS\\LiFePO4\\LiFePO4_final_built.cif",
+    "workspace\\QWEN 3.7 PLUS\\LiFePO4\\LiFePO4_final_built_gsas.cif",
+    "workspace\\QWEN 3.7 PLUS\\LiFePO4\\LiFePO4_final_exported.gpx",
+    "workspace\\QWEN 3.7 PLUS\\LiFePO4\\LiFePO4_final_fit.png"
+  ],
+  "metrics": null,
+  "same_source_link": "export call source and resulting files retained; final answer may conflict",
+  "verdict_line": "xrd_export_cif: fail"
+}

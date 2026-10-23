@@ -1,0 +1,40 @@
+{
+  "generated_utc": "2026-10-22T15:40:53+00:00",
+  "root": "D:\\AI\\DSH\\workspace\\XRD\\投稿证据包",
+  "total_files": 665,
+  "total_bytes": 87388172,
+  "top_level": {
+    "PROVENANCE.md": {
+      "files": 1,
+      "bytes": 235
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 350
+    },
+    "01_input": {
+      "files": 84,
+      "bytes": 16276694
+    },
+    "02_prompts": {
+      "files": 2,
+      "bytes": 5972
+    },
+    "03_outputs": {
+      "files": 349,
+      "bytes": 35849596
+    },
+    "04_refinement_paths": {
+      "files": 202,
+      "bytes": 12801691
+    },
+    "05_supplementary_tools": {
+      "files": 20,
+      "bytes": 22440654
+    },
+    "06_scoring": {
+      "files": 6,
+      "bytes": 12980
+    }
+  }
+}

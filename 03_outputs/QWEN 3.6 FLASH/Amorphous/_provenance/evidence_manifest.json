@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "file_count": 13,
+  "files": [
+    {
+      "path": "conclusion.md",
+      "bytes": 2341,
+      "sha256": "913b1581454c4220b055b0afa2935956f5d7efa4c95ee50724ac6d290d52ca3f"
+    },
+    {
+      "path": "final_selection.json",
+      "bytes": 94,
+      "sha256": "f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f"
+    },
+    {
+      "path": "final_tool_evidence.json",
+      "bytes": 37,
+      "sha256": "5a96e6a63f189c860573886f1b0a0e9c03d023741faef6810e07d1301c8dd338"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 209369,
+      "sha256": "6264436a6e5cd91f3f393cd06be0e2f467f4a1b6b13517f30170006b0ccd58e9"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1679,
+      "sha256": "5274a92bfc697e7ce99b59c4c69a9df8d21888e118cb474c4f00247f4a24825c"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 5027,
+      "sha256": "159d27acfee93ffce48697a1f5114e2ea6fa1ac6dffcab628be8bf6f946328b9"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 294748,
+      "sha256": "be3785ba3377047fed2d4305dda0971559f5233f841b7a20213796c17e9d5f14"
+    },
+    {
+      "path": "user_messages.json",
+      "bytes": 2630,
+      "sha256": "74bb77c55958bb38d6be261ff5cd837f11e1526e62c0d424c84357c12d69e34c"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/analysis_report.md",
+      "bytes": 1740,
+      "sha256": "d888fc3a36c4dd7dffdb1204305626c7f60ce8b37b77dccedcdc03b9216a914f"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/pattern.raw",
+      "bytes": 14784,
+      "sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/pattern_2theta.txt",
+      "bytes": 92555,
+      "sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/plot_xrd.py",
+      "bytes": 773,
+      "sha256": "dfbba0a8acaea4c6de7476557a748310f5be6aa07c683817ef9d9235277fd641"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/script.py",
+      "bytes": 665,
+      "sha256": "61c6420fbbc739942cc61a482d8b01593412003bf77251edd1e2d287a32d16c5"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+﻿{
+  "model": "GPT 5.6 SOL",
+  "case_id": "FE50",
+  "run_id": "session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\artifacts\\FE50\\deliverables\\FE50_final\\FE50_built.cif",
+      "destination": "GPT 5.6 SOL/FE50/CIF/FE50_built.cif",
+      "role": "cif",
+      "bytes": 2760,
+      "sha256": "7e0889bfb3f594ba904201ecbd2fc9405bd2907a0f655f60e80351d77aab3501",
+      "model": "GPT 5.6 SOL",
+      "case_id": "FE50",
+      "run_id": "session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/FE50/deliverables/FE50_final/FE50_built.cif"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\artifacts\\FE50\\deliverables\\FE50_final\\FE50_final.gpx",
+      "destination": "GPT 5.6 SOL/FE50/GPX/FE50_final.gpx",
+      "role": "gpx",
+      "bytes": 313874,
+      "sha256": "86e2da46970923f10e615a61006a6b2b77577ea00c02d32a4e9d06f65992f4c3",
+      "model": "GPT 5.6 SOL",
+      "case_id": "FE50",
+      "run_id": "session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/FE50/deliverables/FE50_final/FE50_final.gpx"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\artifacts\\FE50\\deliverables\\FE50_final\\FE50_fit.png",
+      "destination": "GPT 5.6 SOL/FE50/figures/FE50_fit.png",
+      "role": "image",
+      "bytes": 341417,
+      "sha256": "ac4203d400f6de73855445624b5fd382ce05d0b70bbd3225e5a24b54cf587d60",
+      "model": "GPT 5.6 SOL",
+      "case_id": "FE50",
+      "run_id": "session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/FE50/deliverables/FE50_final/FE50_fit.png"
+    }
+  ]
+}

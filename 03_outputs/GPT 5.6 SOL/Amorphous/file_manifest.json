@@ -1,0 +1,34 @@
+﻿{
+  "model": "GPT 5.6 SOL",
+  "case_id": "Amorphous",
+  "run_id": "session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 0,
+    "cif": 0
+  },
+  "all_three_types_present": false,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [
+    "amorphous empirical analysis route；GPX/CIFregistered per actual generation，no crystal proxy or input usedCIF补齐。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7\\artifacts\\Amorphous\\Amorphous_empirical_fit.png",
+      "destination": "GPT 5.6 SOL/Amorphous/figures/Amorphous_empirical_fit.png",
+      "role": "image",
+      "bytes": 357020,
+      "sha256": "ad7b01d9377d58e54583875100e8b46c402e0f37394c2b9adc53aa478aa5bea5",
+      "model": "GPT 5.6 SOL",
+      "case_id": "Amorphous",
+      "run_id": "session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/Amorphous/Amorphous_empirical_fit.png"
+    }
+  ]
+}

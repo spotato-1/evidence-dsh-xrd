@@ -1,0 +1,885 @@
+﻿{
+  "schema_version": "dsh-xrd-score-v1.1-20261012",
+  "rubric_version": "v1.3",
+  "rubric_sha256": "2c74e6459d92541755e29f09c81babd5a6d44a678e594338c7649553161008fb",
+  "model": "QWEN 3.8 MAX",
+  "case_id": "Amorphous",
+  "run_id": "session-f1105b27-2348-44b9-a5e8-ba8daf885a5d",
+  "status": "eligible",
+  "final_deliverables": [
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md"
+  ],
+  "agent_points": [
+    {
+      "id": "A1",
+      "score": 1,
+      "reason": "有skill工具实际加载xrd-workflow，非口头声称。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "skill tool_call seq=78; corresponding result=79"
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "score": 1,
+      "reason": "非晶C类或当前晶态/多相路线与实际输入一致。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "score": 1,
+      "reason": "执行适用Ⅰ/Ⅱ/Ⅲ及报告阶段，有依据回退/有限诊断。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "score": 1,
+      "reason": "对本例适用复杂/异常情况有实际核验，而非只提检查表名称。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "A5",
+      "score": 1,
+      "reason": "有当前状态、接受态、未试项和可继续工作的交付索引。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\workflow_state.json",
+          "locator": "phase/artifacts/rounds/open_questions"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-result-analysis\\collection_audit.json",
+          "locator": "冻结hash与完整性/保留清单"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "B5",
+      "score": 1,
+      "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "score": 1,
+      "reason": "调用围绕当前谱形、结构或异常问题。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "score": 1,
+      "reason": "判断转成候选、参数或约束试算，不停留口头计划。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "score": 1,
+      "reason": "根据返回/残差调整、修复或回退。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "score": 1,
+      "reason": "重复调用有新诊断/控制条件，有限重试不因数量直接判空转。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "score": 1,
+      "reason": "取得可复核阶段进展或基于限制停止；不以低R等同科学正确。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "按非晶经验宽包处理，不强行晶体Rietveld。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 1,
+      "reason": "占位晶体只作近零/零scale脚手架，经验模型无非物理占位。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 1,
+      "reason": "参数可复核且承认宽峰/背景分解非唯一。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 1,
+      "reason": "最终Rwp及参数与随附JSON对应，未混合晶态R口径。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 1,
+      "reason": "表观相干长度、面积分配和互补表征限制已说明。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "E1",
+      "score": 1,
+      "reason": "假设来自当前数据/样品先验和材料结构知识。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "score": 1,
+      "reason": "有竞争模型、基线或参数族对照以检验判断。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "score": 1,
+      "reason": "CIF/经验模型建立或改建满足化学与结构要求。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "score": 1,
+      "reason": "晶胞、位点、峰形/热参初值有数据/文献或结构族依据。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "score": 1,
+      "reason": "根据失败、改善或物理审查修正、接受/回退假设。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "score": 1,
+      "reason": "引擎按实际收到工作流角色用于筛相、初步拟合、终修；普通合法FP ladder不是滥用。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "score": 1,
+      "reason": "参数/单位/格式错误能通过有效诊断修正，最终输入可追溯。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "score": 1,
+      "reason": "区分真执行、回滚、失败、缓存与工具返回ok，不以ok直接证明科学正确。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "score": 1,
+      "reason": "排障有根因、改动和退出条件，非无止境重复。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "score": 1,
+      "reason": "最终转换、接受态、工程/CIF/图导出来自已标记源。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "按非晶经验宽包处理，不强行晶体Rietveld。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 1,
+      "reason": "占位晶体只作近零/零scale脚手架，经验模型无非物理占位。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 1,
+      "reason": "参数可复核且承认宽峰/背景分解非唯一。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 1,
+      "reason": "最终Rwp及参数与随附JSON对应，未混合晶态R口径。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 1,
+      "reason": "表观相干长度、面积分配和互补表征限制已说明。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    {
+      "id": "K01.1",
+      "score": 1,
+      "reason": "结合当前数据或产物识别材料关键问题，不只重复样品名。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K01.2",
+      "score": 1,
+      "reason": "采用适合关键问题的模型、约束或竞争对照。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K01.3",
+      "score": 1,
+      "reason": "最终随附报告/工程/参数可复核处理证据。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K01.4",
+      "score": 1,
+      "reason": "基于比较或物理结果合理接受、回退或保留结论。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K01.5",
+      "score": 1,
+      "reason": "说明固定参数、可辨识性、模型依赖和适用范围。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\result_round4_final.json",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\round4_final_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "B": {
+      "triggered": false,
+      "reason": "未确认B红线；数值/科学失误不自动作为造假。",
+      "evidence": [],
+      "authorization": [],
+      "core_rules": [],
+      "redline_ids": []
+    },
+    "F": {
+      "triggered": false,
+      "reason": "没有确认FP2K引擎滥用；历史普通ladder/有限诊断合法。",
+      "evidence": [],
+      "authorization": []
+    }
+  },
+  "findings": [
+    "经验宽包3分量、主相scale=0，Rwp=3.8083926；明确面积不是相分数、谢乐仅表观相干长度及分解模型依赖。"
+  ],
+  "uncertainties": [],
+  "revisions": [
+    {
+      "point_id": "B_gate",
+      "old_score": false,
+      "new_score": false,
+      "reason": "用户确认v1.2：B仅实际核心红线5或0；具体核心条款和一般问题分离。",
+      "evidence": []
+    },
+    {
+      "point_id": "B1",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-result-analysis\\collection_audit.json",
+          "locator": "冻结hash与完整性/保留清单"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        }
+      ]
+    },
+    {
+      "point_id": "B2",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B3",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B4",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B5",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        }
+      ]
+    }
+  ],
+  "grader": {
+    "model": null,
+    "reasoning_effort": null,
+    "configuration_note": "当前Codex专家式统一评审；精确模型ID与推理档位未提供，不虚构。",
+    "prompt_sha256": "f903da80c4cff6d24185c8ed6d10cfdff9c9a2c765dd3b0afc4a3ec030752c80",
+    "graded_at": "2026-10-12"
+  },
+  "evidence_scope": {
+    "agent": "实际输入、工具动作及返回、状态、部分与最终科学产物",
+    "answer": "实际输入、最终原始答复、随附科学报告/工程/图及交付日志；不以完整内部工具轨迹补分"
+  },
+  "B_mode": "core_skill_binary_5_or_0",
+  "supersedes_score_path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-result-analysis\\benchmark_v1.2_20261012\\Amorphous\\score.json",
+  "ordinary_compliance_issues": [],
+  "redline_candidates": [],
+  "revised_at": "2026-10-13",
+  "core_prompt_addendum_sha256": "3be20f20f31e4baeed390da06034aa09219707153a7eaaf46942f90843831d38",
+  "workflow_construction_issues": []
+}

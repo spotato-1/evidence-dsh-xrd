@@ -1,0 +1,310 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-qwen-3.7-plus-ai-agent-v1-2026-10-12",
+  "case_id": "Fe2O3_Fe3O4_2ph",
+  "run_id": "session-94796291-69ce-4e65-8fb8-c6845c81b051",
+  "collected_at": "2026-10-11T22:48:44.118039+00:00",
+  "source": {
+    "model_label": "QWEN 3.7 PLUS",
+    "assistant_model_routes": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.7-plus"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.7-plus",
+        "reasoningEffort": "high",
+        "maxTokens": 65536
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.7~0020PLUS--\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\session.jsonl.zstd",
+      "bytes": 936888,
+      "sha256": "c32d557ed3d2be55513ebf955fc781bb9daa5dd1bd2e1ef9d4ab0a7aa6a2955f",
+      "source_mtime_ns": 1791522441002890300,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/Fe2O3_Fe3O4_2ph/pattern_2theta.txt",
+        "input_sha256": "8a40f5caef9fcb5368fdb3bc9015dfba7a79282b1c8f265482d29c97ce7258bf",
+        "workspace_file_present": true,
+        "workspace_sha256": "8a40f5caef9fcb5368fdb3bc9015dfba7a79282b1c8f265482d29c97ce7258bf",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-09T04:33:01.508000+00:00",
+    "ended_at": "2026-10-09T05:07:20.996000+00:00",
+    "elapsed_seconds": 2059.488,
+    "turns": 1,
+    "tool_calls": 96,
+    "tool_errors": 4,
+    "retries": 0,
+    "last_turn_reason": {
+      "kind": "completed"
+    },
+    "error_ended_turns": [],
+    "input_tokens": 875975,
+    "output_tokens": 43757,
+    "cache_read_tokens": 8371072,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 875975,
+      "outputTokens": 43757,
+      "cacheReadTokens": 8371072
+    },
+    "goal_rounds": null
+  },
+  "workflow": {
+    "states": [],
+    "final_backend": "manual_full_pattern_model",
+    "gsas_completed": false,
+    "finalize_completed": false,
+    "export_completed": true,
+    "required_refinement_completed": false,
+    "converged": null,
+    "warnings": [
+      "invalid_workflow_state_json; original bytes preserved"
+    ]
+  },
+  "final_metrics": {
+    "wr": null,
+    "r": null,
+    "rb": null,
+    "wrmin": null,
+    "chi2": null,
+    "gof": null,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": null,
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 1,
+    "journal_jsonl_total": 5,
+    "journal_jsonl_valid": 5,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [
+      {
+        "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/workflow_state.json",
+        "error": "Expecting value: line 72 column 13 (char 2382)"
+      }
+    ],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [
+    {
+      "run_id": "91ec5f26-a1c8-40d9-a4a8-5b62f3a6eab5",
+      "models": [
+        {
+          "provider": "qwen-token-plan-cn",
+          "model": "qwen3.7-plus"
+        }
+      ],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.7~0020PLUS--\\91ec5f26-a1c8-40d9-a4a8-5b62f3a6eab5\\session.jsonl.zstd",
+        "bytes": 18700,
+        "sha256": "f43940f3dcf792b15faf4ab8ecdc5b5f262ef2fdbd3cb44788b38b922f61391b",
+        "source_mtime_ns": 1791521233201501900,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    }
+  ],
+  "eligibility": {
+    "status": "excluded/incomplete_refinement",
+    "reason": "invalid_workflow_state_json; original bytes preserved"
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/.xrd-progress-mv0h0spk-7sfx9bb0.json",
+      "bytes": 269,
+      "sha256": "3276fc4bc4a51150306cbfefc2e9546637b51e97c5690da70e51c944b1472a64"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/.xrd-progress-mv0h2g3g-ggchad09.json",
+      "bytes": 270,
+      "sha256": "6210b602e12c46471e7fe2186eb5aa990c4dcce5ea14456aa78fbc4520d45c45"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/.xrd-progress-mv0h2gpr-66isxmq5.json",
+      "bytes": 270,
+      "sha256": "894092f207ef04e87b72ec1111dcc489db8259db52fdefebe11798c0b0669201"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/.xrd-progress-mv0h2hhe-weh1ndem.json",
+      "bytes": 269,
+      "sha256": "d0d20cef5cbd508a08252917a70d8f8e9201a823cba56bb9adc5b53069395e22"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/.xrd-progress-mv0hd7dr-5qg0sd0c.json",
+      "bytes": 272,
+      "sha256": "2334cd9a963647c03a00995bc5732076a8bf44e75e3737e178e7d56dc283fe99"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/.xrd-progress-mv0hmpxn-j84n109s.json",
+      "bytes": 269,
+      "sha256": "a1d3888418599b8532342edd8a383f84ccbb8aad7ece75387f44b407a2373c49"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/.xrd-progress.json",
+      "bytes": 269,
+      "sha256": "a1d3888418599b8532342edd8a383f84ccbb8aad7ece75387f44b407a2373c49"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/cif_edit_plan.json",
+      "bytes": 285,
+      "sha256": "332b73de0e658f4d37210f7ce18c5166c803b573a0c15443831df30453d09a8e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/cif_edit_result.json",
+      "bytes": 3579,
+      "sha256": "0c3b93e4b203a546f5e96db8be5a813b592ddf9737cd5ae6e0268f97e8be709e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/components.json",
+      "bytes": 467801,
+      "sha256": "62d079c57615867d3501e17930a31ae8711779a30c4c00ca90e3367a9b4b4e7d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/data_io_plan.json",
+      "bytes": 407,
+      "sha256": "88c5cf68ecb4603d2f9090eb32cd5fe0ec56fdf0d22f583befbc2144eb2312f7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/data_io_result.json",
+      "bytes": 2040,
+      "sha256": "5f51556f2817874f41c8832c2cbc3b29e073267c10634c9a87b63a487598c107"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final_fit.png",
+      "bytes": 225137,
+      "sha256": "6138e77ccb47e22ad6e0549565bf754faeec86f99c7456dd83cddc74cbf2b3ea"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_v2_fit.png",
+      "bytes": 227087,
+      "sha256": "ffca32ed057cae3e0cb34c16cf0b6de630a98d44da4fc016ca552ee508951b08"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_v3_fit.png",
+      "bytes": 219828,
+      "sha256": "271c648609b1dbb2af777d56fe79cdae3c23aa9c1cb1e52776fce97329edc5c9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/pattern.fxye",
+      "bytes": 93862,
+      "sha256": "2177f7c7c1bf499e87bd36e26b8ca2a1ff54d8e18aeb13a075eb9eca8e6767be"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/pattern_2theta.txt",
+      "bytes": 127623,
+      "sha256": "8a40f5caef9fcb5368fdb3bc9015dfba7a79282b1c8f265482d29c97ce7258bf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/pattern_2theta_fit.png",
+      "bytes": 197364,
+      "sha256": "c4aee32af56df078f1ebf3f41373d388c14126c29bced9e8e69d39edf0d569ec"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/plan_calibrate.json",
+      "bytes": 908,
+      "sha256": "4ae6399595f797f4cdaef82789a5d5529324cec6f3d24be503642a08ef47b46d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/plan_structure.json",
+      "bytes": 906,
+      "sha256": "c128967827505fb1b26d64f85b355f530689ca4b12b2f9343403ab3e1fb8e74d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/plan_twophase.json",
+      "bytes": 842,
+      "sha256": "126ecaf91809721af25318b57c9403795ea3553d62ae03d6deaf8b3aab07d004"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/Fe2O3_R-3c_hex_build_01.cif",
+      "bytes": 1870,
+      "sha256": "b11cfc08e651ed4fb10a825940cc021912f559e3d37476af1d7ae2e34f758ee8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/ref/Fe3O4_Fd-3m_cubic_build_01.cif",
+      "bytes": 6269,
+      "sha256": "7b34f5fb28baa706b3ff62bc464f0eafacabd541f7bcd2ab78a4557714596bbe"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/result.json",
+      "bytes": 14639,
+      "sha256": "6b866786cc0138a25a0d201d962bd89f8654b37dd13070e6129bdbd7d41f3df7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/review_judgment.md",
+      "bytes": 4280,
+      "sha256": "7d2bcbce686dcfc3e9b27d341cb326b9f36dc031211ba47838f57e668e8dc5b0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/review_mechanical_Fe2O3_Fe3O4_2ph.json",
+      "bytes": 1133,
+      "sha256": "727a2c30b69b460406798f0499f7f3307556163ce95a46432a1808a452cb2769"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/workflow_state.json",
+      "bytes": 3550,
+      "sha256": "de3cd396ad28cb4e72161a7da5420ed7bb8342386dfda3ea6bc9e7f68b381045"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.jsonl",
+      "bytes": 3544,
+      "sha256": "49a8eea4a78fa82b1737365e1f9bb2d46aed7977e9dc7e45125f5ae4b9b1c293"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md",
+      "bytes": 3781,
+      "sha256": "049afc90c91f334bbcdb930d6b0c68ed7b489952f0d6c2be04074dca0727acf5"
+    }
+  ]
+}

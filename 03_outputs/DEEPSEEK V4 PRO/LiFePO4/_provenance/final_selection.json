@@ -1,0 +1,36 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 135144,
+  "result_seq": 135145,
+  "input_gpx": "workspace\\DEEPSEEK V4 PRO\\LiFePO4\\gsas_ops_continued.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\DEEPSEEK V4 PRO\\LiFePO4\\LiFePO4_final"
+    ],
+    "gpx": [
+      "workspace\\DEEPSEEK V4 PRO\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx"
+    ],
+    "lst": [
+      "workspace\\DEEPSEEK V4 PRO\\LiFePO4\\LiFePO4_final\\LiFePO4_final.lst"
+    ],
+    "plot": [
+      "workspace\\DEEPSEEK V4 PRO\\LiFePO4\\LiFePO4_final\\LiFePO4_fit.png"
+    ],
+    "report": [
+      "workspace\\DEEPSEEK V4 PRO\\LiFePO4\\LiFePO4_final\\LiFePO4_report.md"
+    ],
+    "cif": [
+      "workspace\\DEEPSEEK V4 PRO\\LiFePO4\\LiFePO4_final\\LiFePO4_built.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 10.08,
+    "R": 7.388393379945406,
+    "Rb": 10.24784296971281,
+    "wRb": 13.306762974257918,
+    "wRmin": 6.153646394923089,
+    "chi2": 18769.3,
+    "gof": 1.64
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

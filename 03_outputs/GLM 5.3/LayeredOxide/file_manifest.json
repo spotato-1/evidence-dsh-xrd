@@ -1,0 +1,74 @@
+﻿{
+  "model": "GLM 5.3",
+  "case_id": "LayeredOxide",
+  "run_id": "session-f1242229-b198-4a67-b23e-64a2f4460d5b",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 112502,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 2
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-f1242229-b198-4a67-b23e-64a2f4460d5b\\workspace_snapshot\\LayeredOxide\\NNMO_final\\NNMO_final.gpx",
+      "destination": "GLM 5.3/LayeredOxide/GPX/NNMO_final.gpx",
+      "role": "gpx",
+      "bytes": 291863,
+      "sha256": "71855cd7b6d53804502d940adf5c3f201d85cdc699eb01322f8796f342feac6e",
+      "model": "GLM 5.3",
+      "case_id": "LayeredOxide",
+      "run_id": "session-f1242229-b198-4a67-b23e-64a2f4460d5b",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_final.gpx"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-f1242229-b198-4a67-b23e-64a2f4460d5b\\workspace_snapshot\\LayeredOxide\\NNMO_final\\NNMO_fit.png",
+      "destination": "GLM 5.3/LayeredOxide/figures/NNMO_fit.png",
+      "role": "image",
+      "bytes": 253068,
+      "sha256": "d6c81a2da30d52625ca29196693abac495a5cd2ce8bb515cda8c05f92365c151",
+      "model": "GLM 5.3",
+      "case_id": "LayeredOxide",
+      "run_id": "session-f1242229-b198-4a67-b23e-64a2f4460d5b",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_fit.png"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-f1242229-b198-4a67-b23e-64a2f4460d5b\\workspace_snapshot\\LayeredOxide\\NNMO_final\\NNMO_built.cif",
+      "destination": "GLM 5.3/LayeredOxide/CIF/NNMO_built.cif",
+      "role": "cif",
+      "bytes": 2031,
+      "sha256": "f6c7de5a9ed0567a38e42f29f2b66e7093e2bcdeb280d397454ab6da473eed81",
+      "model": "GLM 5.3",
+      "case_id": "LayeredOxide",
+      "run_id": "session-f1242229-b198-4a67-b23e-64a2f4460d5b",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_built.cif"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-f1242229-b198-4a67-b23e-64a2f4460d5b\\workspace_snapshot\\LayeredOxide\\NNMO_final\\NNMO_sodium_molybdate.cif",
+      "destination": "GLM 5.3/LayeredOxide/CIF/NNMO_sodium_molybdate.cif",
+      "role": "cif",
+      "bytes": 6403,
+      "sha256": "0bb03bee6fbe8cb6dd278d21880e9eabbf1eeec5fed54c0a7f41570935412802",
+      "model": "GLM 5.3",
+      "case_id": "LayeredOxide",
+      "run_id": "session-f1242229-b198-4a67-b23e-64a2f4460d5b",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_sodium_molybdate.cif"
+    }
+  ]
+}

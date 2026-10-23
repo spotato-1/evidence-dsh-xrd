@@ -1,0 +1,36 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 20778,
+  "result_seq": 20779,
+  "input_gpx": "workspace\\QWEN 3.7 PLUS\\LayeredOxide\\gsas_proj_continued.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\QWEN 3.7 PLUS\\LayeredOxide\\LayeredOxide_final_final"
+    ],
+    "gpx": [
+      "workspace\\QWEN 3.7 PLUS\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_final.gpx"
+    ],
+    "lst": [
+      "workspace\\QWEN 3.7 PLUS\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_final.lst"
+    ],
+    "plot": [
+      "workspace\\QWEN 3.7 PLUS\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_fit.png"
+    ],
+    "report": [
+      "workspace\\QWEN 3.7 PLUS\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_report.md"
+    ],
+    "cif": [
+      "workspace\\QWEN 3.7 PLUS\\LayeredOxide\\LayeredOxide_final_final\\LayeredOxide_final_built.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 8.65,
+    "R": 6.551024695552399,
+    "Rb": 11.709071979223527,
+    "wRb": 17.100649068883268,
+    "wRmin": 4.974489979853109,
+    "chi2": 10380.5,
+    "gof": 1.75
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

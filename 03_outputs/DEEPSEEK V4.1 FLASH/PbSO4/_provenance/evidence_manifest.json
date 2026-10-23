@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_final.gpx",
+      "bytes": 531813,
+      "sha256": "911b64d6a0d03e5ac92133d03afaf686298eeb582a8801a1aee2f62eb40b5200"
+    },
+    {
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_final.lst",
+      "bytes": 10030,
+      "sha256": "d04b87e25fb27a72190110e5289a063f3d32624c311ed2bfe20d9f9861a7d0ca"
+    },
+    {
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_finalize.json",
+      "bytes": 3616,
+      "sha256": "7cc7c66c444d22871ad4dbecf2fa71b2561edf6ce0a28459719a32eb23b61d06"
+    },
+    {
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_fit.png",
+      "bytes": 319229,
+      "sha256": "fc6358c9c7e8a64fd490cd34fc1d7f3e9734f340d2ef40789e9ee07dbaf88aac"
+    },
+    {
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_fit_export.png",
+      "bytes": 328036,
+      "sha256": "842c1eb4e5d69127f3809d2de4f615252d21c7eeb3dd5b3e610b712b7b3cd10d"
+    },
+    {
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_O4_Pb_S.cif",
+      "bytes": 1964,
+      "sha256": "13b323f94de92c7b39dd83e9de96502c4c5b5156bda3d87daf5ac9fd82d73c22"
+    },
+    {
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_report.md",
+      "bytes": 3130,
+      "sha256": "138d7349efa30b0eec445f318e47422ed3251de8c1bdd4dbc43aa01c7c68e04c"
+    },
+    {
+      "path": "conclusion.md",
+      "bytes": 3649,
+      "sha256": "5d024fe5702dd4ae1c738f53cbaf0c06843881e570f126a3850d936d4d0294e8"
+    },
+    {
+      "path": "plugin_logs/PbSO4/xrd_workflow/journal.jsonl",
+      "bytes": 14948,
+      "sha256": "4fc4b8b35f48f151067d3c3d637d5bc2da469a0970b759ee7752577697beb846"
+    },
+    {
+      "path": "plugin_logs/PbSO4/xrd_workflow/journal.md",
+      "bytes": 13821,
+      "sha256": "df6be7f3f6fa81168d24969c969a68c4923249a96492fd67df5748d25113253f"
+    },
+    {
+      "path": "root_reports/PbSO4/review_judgment.md",
+      "bytes": 6254,
+      "sha256": "7aaa31a1cfd01e9e711f86b7fbf042cdfd19ae9f672b034dd3ad1b3f579ca651"
+    },
+    {
+      "path": "root_reports/PbSO4/XRD_analysis and refinement report.md",
+      "bytes": 12789,
+      "sha256": "a45f1592996d1b1c4f7d2ccb1600425ac1d5e6373c5a241f056bb58808d4a3a6"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 683890,
+      "sha256": "84f54192d2d30cb21d352653dcb1b942d754e9f7db4b8488f374c5051ed586e8"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1766,
+      "sha256": "34ca2c03d1c6c5ff61f0f12dbf5ea7f6f3d0ee5c7c43b460fc8268e2401097a3"
+    },
+    {
+      "path": "states/PbSO4/workflow_state.json",
+      "bytes": 9933,
+      "sha256": "4df2a73581a2d0acc1f549e2cb1c76aa7777fb203c04574084d4f281ab7d6d83"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 5641,
+      "sha256": "27209b93ec2a0bd0ad5eabbf2cff48cc2983d11296925b07968751a1fdffa5f2"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 545954,
+      "sha256": "1b67f37795437b824b6d8d012bdf1b925c398781f1d8473e696050db39d4fbbc"
+    }
+  ]
+}

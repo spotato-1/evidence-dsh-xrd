@@ -1,0 +1,1045 @@
+﻿{
+  "score_schema_version": "dsh-xrd-score-v1.1-20261012",
+  "rubric_version": "v1.3",
+  "rubric_sha256": "2c74e6459d92541755e29f09c81babd5a6d44a678e594338c7649553161008fb",
+  "model": "QWEN 3.7 PLUS",
+  "case_id": "Fluoroapatite",
+  "run_id": "session-e8820552-bb5a-48f9-b0fd-e038821dd937",
+  "status": {
+    "completion": "delivered_with_scientific_errors",
+    "original_eligibility": {
+      "status": "eligible_with_warnings",
+      "reason": "session_contains_error_ended_turns; finalize_reported_missing_lst_log; chi2_and_gof_omitted"
+    }
+  },
+  "final_deliverables": [
+    "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+    "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+    "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif"
+  ],
+  "agent_points": [
+    {
+      "id": "A1",
+      "score": 1,
+      "reason": "实际载入workflow/preflight/refinement，seq93/342/4993。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "score": 1,
+      "reason": "按高结晶单相FAp进行CIF建立、手动和GSAS精修。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "score": 1,
+      "reason": "手动得到success/有限基线后按阶梯进入GSAS并finalize，必要阶段实际执行。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "score": 1,
+      "reason": "实际检查参数/结构异常、回退坐标/热参分支并记录判断栏。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "A5",
+      "score": 1,
+      "reason": "最终接受Round10 wR20.95，报告/工程/状态/未试项支持继续检查。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "id": "B5",
+      "score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "score": 1,
+      "reason": "围绕候选FAp、坐标/热参、峰形和失败原因调用。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "score": 1,
+      "reason": "假设落实为build_orbit、分步GSAS及固定/开放热参对照。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "score": 1,
+      "reason": "原子发散后钳位/回退，认识坐标固定后R恶化，反馈影响后续。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "score": 1,
+      "reason": "各阶梯调整或重试有新控制/诊断；未以同参数无限调用代替探索。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "score": 1,
+      "reason": "基于尝试范围及模型系统偏差诚实停止，不强迫R<10。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "主相FAp、P63/m及晶胞约9.3703/6.8848相符。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 0,
+      "reason": "虽然Ca10P6O24F2总计量正确，最终P只有一个约1.480Å近O，其余最近O=2.407/2.510/2.510Å，不是PO4四面体。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.1_20261012\\physical_checks.json",
+          "locator": "case=Fluoroapatite/P_O_geometry：周期邻接，仅1个1.48Å近邻O"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 0,
+      "reason": "没有识别/修正核心磷酸根几何错误，晶胞匹配不能代替结构正确。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.1_20261012\\physical_checks.json",
+          "locator": "case=Fluoroapatite/P_O_geometry：周期邻接，仅1个1.48Å近邻O"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 1,
+      "reason": "最终wR20.945264%及胞参数与交付GPX/报告对应。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 1,
+      "reason": "明确不达标、坐标初值可能系统偏差、默认仪器及高/钳位ADP限制。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "E1",
+      "score": 1,
+      "reason": "FAp结构假设来自样品和数据库/COD结构知识。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "score": 1,
+      "reason": "通过放开/固定坐标和热参、回退对照检查误差耦合。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "score": 0,
+      "reason": "原子模型虽对称/计量合法，却未核验正确PO4配位；最终几何不合理。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "实际交付模型/原子参数/metrics"
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "score": 0,
+      "reason": "初始晶胞来源合理，但关键O/P坐标未得到结构化学依据和正确验证，整体起点不能算合理。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "score": 1,
+      "reason": "根据失败回退、承认初值系统偏差，并保留需要改模的判断。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "score": 1,
+      "reason": "使用CIF/手动及GSAS阶梯、ops/finalize正确角色，无FP滥用。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "score": 1,
+      "reason": "仪器/数据格式错误得到修复，Uiso操作首次格式错后有效改为正确标量并实跑。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "score": 1,
+      "reason": "理解分支拒绝、回滚和缺日志后不提供chi2的状态。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "score": 1,
+      "reason": "错误诊断具有实际修正与回退/退出条件，不按总轮数处罚。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "score": 1,
+      "reason": "最终包GPX、CIF、图及20.95报告来源一致，缺lst披露。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "主相FAp、P63/m及晶胞约9.3703/6.8848相符。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 0,
+      "reason": "虽然Ca10P6O24F2总计量正确，最终P只有一个约1.480Å近O，其余最近O=2.407/2.510/2.510Å，不是PO4四面体。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 0,
+      "reason": "没有识别/修正核心磷酸根几何错误，晶胞匹配不能代替结构正确。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 1,
+      "reason": "最终wR20.945264%及胞参数与交付GPX/报告对应。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 1,
+      "reason": "明确不达标、坐标初值可能系统偏差、默认仪器及高/钳位ADP限制。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report：指标、结构参数、结论及边界"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "同态随附产物参数"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    {
+      "id": "K03.1",
+      "score": 1,
+      "reason": "列出正确Wyckoff/多重性/42原子计量，并认识坐标初值可能偏差。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K03.2",
+      "score": 0,
+      "reason": "虽然build_orbit保证对称，最终P-O不能形成四面体，适用结构模型未完成。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K03.3",
+      "score": 1,
+      "reason": "交付CIF/GPX和原子参数表可复核对称、计量及错误几何。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K03.4",
+      "score": 0,
+      "reason": "未以配位证据修复P/O结构错误，只靠ADP/回退降R而未解决坑。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    },
+    {
+      "id": "K03.5",
+      "score": 1,
+      "reason": "明确未达目标、模型初值问题和默认仪器限制，没有虚称全部结构验证通过。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final report/随附判断栏及对应参数与比较"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答的模型、比较与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_built.cif",
+          "locator": "随附科学产物：可复核实际参数"
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "B": {
+      "triggered": true,
+      "reason": "收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ],
+      "authorization": "历史核心§1.4及当次客户决定，不追溯全面先问新要求。",
+      "core_rules": [
+        {
+          "skill": "xrd-workflow",
+          "section": "§1.4收尾清理",
+          "core_excerpt": "确认精修完成之后才清理，分析/精修中一律不清理；journal日志、artifacts点名拟合记录及final delivery必留；保留不确定必须先问，不得自行判断后删除。",
+          "evidence": {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+            "locator": "实际历史核心回包seq94；§1.4收尾清理"
+          },
+          "excerpt_kind": "paraphrase; actual original receipt linked and preserved",
+          "core_verbatim": "### 1.4 收尾清理约定（用户定 2026-09-20）\n\n> 原话：\"**在确认精修完成后清理工作目录，仅保留日志，拟合记录文件，最终要求输出的结果\n> （保留内容不确定时询问）。具体工作文件不保留。**\"\n\n**触发时机**：**确认精修完成之后**才清理。**分析/精修进行中一律不清理** ——\n中间产物是判读与回档的依据（`.out`/`.prf`/`.gpx`/`.fp2k-work-*`/`.verify-*` 等），\n提前删掉等于毁掉现场。\n\n**保留（三类）**：\n1. **日志**：`xrd_workflow/journal.jsonl` + `journal.md`（**权威记录，必留**）；\n2. **拟合记录文件**：精修留下的记录性产物 —— **以 `journal.jsonl` 的 `artifacts` 字段点过名的为准**\n   （`.out`/`.sum`/`.lst` 等）；**原话里的\"拟合记录文件\"指的是这一类，不是\"随手看哪份留哪份\"**。\n3. **最终要求输出的结果**：用户要求的交付物（报告、图、CIF、交付包 `*_final/`、GSAS 工程等）。\n\n**不保留**：**具体工作文件**（中间工作副本、临时计划/结果 JSON、scratch 副本、一次性的 `.prf`、\n`backup_*`、精修过程目录等）。\n\n**不确定时先问**：**保留内容不确定的，必须问用户**，不要自行判断后删除 ——\n删除是不可逆的，问一句的成本远低于误删一个交付物。\n\n**与\"产物只追加不可变\"的关系**：清理发生在**任务收尾**，不是过程中的回档 ——\n回档靠 §1.2 的 `snapshot`，清理时**至少保留最终采用的那份快照/交付物**。"
+        }
+      ],
+      "redline_ids": [
+        "RL-CLEANUP-REQUIRED-RECORD"
+      ]
+    },
+    "F": {
+      "triggered": false,
+      "reason": "无确认FP2K引擎滥用；FE50普通ladder属于当时允许流程，不按次数否决。",
+      "evidence": [],
+      "authorization": "当时xrd-workflow允许单次筛选及阶梯初步优化；v1.1历史正常ladder不自动滥用。"
+    }
+  },
+  "findings": [
+    "wR=20.945264%；P63/m，正确Ca10P6O24F2总计量/接近参考晶胞，但PO4几何失败。",
+    "只读最终CIF周期邻接核验见physical_checks.json；未重跑精修。"
+  ],
+  "uncertainties": [
+    "第一套未用可见思维字数/次数代替协调判断；第二套仅final delivery和随附工程，不从内部调用补科学分。",
+    "工具/历史文件时间戳部分为AI写的旧日期，不视为真实执行时间；执行时段由根代理按主session重算。"
+  ],
+  "revisions": [
+    {
+      "point_id": "B_gate",
+      "old_score": false,
+      "new_score": false,
+      "reason": "用户确认v1.2：B仅实际核心红线5或0；具体核心条款和一般问题分离。",
+      "evidence": []
+    },
+    {
+      "point_id": "B1",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B2",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B3",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B4",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "point_id": "B5",
+      "old_score": 1,
+      "new_score": 1,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+          "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+          "locator": "最终合并回答全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+          "locator": "final delivery报告/判断栏相应章节"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B_gate",
+      "old_score": false,
+      "new_score": true,
+      "previous_gate": {
+        "triggered": false,
+        "reason": "未确认B红线；科学错误/正常漂移/诚实失败不自动否决。",
+        "evidence": [],
+        "authorization": "v1.1 B：确认具体既有硬边界后否决，不以低R/负U/V/调用次数判违规。",
+        "core_rules": [],
+        "redline_ids": []
+      },
+      "reason": "收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B1",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "previous_point": {
+        "id": "B1",
+        "score": 1,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+            "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+            "locator": "最终合并回答全文"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+            "locator": "final delivery报告/判断栏相应章节"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B2",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "previous_point": {
+        "id": "B2",
+        "score": 1,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+            "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+            "locator": "最终合并回答全文"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+            "locator": "final delivery报告/判断栏相应章节"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B3",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "previous_point": {
+        "id": "B3",
+        "score": 1,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+            "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+            "locator": "最终合并回答全文"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+            "locator": "final delivery报告/判断栏相应章节"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B4",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "previous_point": {
+        "id": "B4",
+        "score": 1,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+            "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+            "locator": "最终合并回答全文"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+            "locator": "final delivery报告/判断栏相应章节"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B5",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "B二值承载：已确认核心红线，整格0。收尾删除journal五轮artifacts均明确点名的result.json/components.json拟合记录，违反历史§1.4的具体必留条件，B整格0；同时删除机械审查JSON，记录状态丢失事实。",
+      "previous_point": {
+        "id": "B5",
+        "score": 1,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。未确认核心红线，整格5；普通问题另计。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\tool_trace.jsonl",
+            "locator": "全轨迹skill加载；5133–6407；7044–11407；12593"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\conclusion.md",
+            "locator": "最终合并回答全文"
+          },
+          {
+            "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\workspace_snapshot\\Fluoroapatite\\FAP_final\\FAP_report.md",
+            "locator": "final delivery报告/判断栏相应章节"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\session_core.jsonl.gz",
+          "locator": "13833清理前目录有result/components及review_mechanical_FAP_P63m_orbit_01.json；14049/14050删components；14150/14151删result及review_mechanical_*.json；14187清理后完整目录与冻结快照均不再含这些文件。"
+        },
+        {
+          "path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-e8820552-bb5a-48f9-b0fd-e038821dd937\\plugin_logs\\Fluoroapatite\\xrd_workflow\\journal.jsonl",
+          "locator": "rounds1–5 artifacts.result/components均点名同路径"
+        }
+      ]
+    }
+  ],
+  "grader": {
+    "model": null,
+    "model_note": "当前Codex评审代理继承根代理同一模型配置，精确ID未暴露",
+    "reasoning_effort": null,
+    "prompt_sha256": "f903da80c4cff6d24185c8ed6d10cfdff9c9a2c765dd3b0afc4a3ec030752c80",
+    "graded_at": "2026-10-12T11:11:37.888708+00:00"
+  },
+  "B_mode": "core_skill_binary_5_or_0",
+  "supersedes_score_path": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-result-analysis\\benchmark_v1.2_20261012\\Fluoroapatite\\score.json",
+  "ordinary_compliance_issues": [],
+  "redline_candidates": [],
+  "revised_at": "2026-10-13",
+  "core_prompt_addendum_sha256": "3be20f20f31e4baeed390da06034aa09219707153a7eaaf46942f90843831d38",
+  "workflow_construction_issues": []
+}

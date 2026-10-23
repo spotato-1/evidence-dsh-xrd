@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "artifacts/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_Ca10_P6_O24_F2.cif",
+      "bytes": 1866,
+      "sha256": "8aa6d0550115b0b8abfee5a5e62c424852120d447333518a07a907c44966e0d0"
+    },
+    {
+      "path": "artifacts/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_final.gpx",
+      "bytes": 509654,
+      "sha256": "d47fd9bab609a03036195de67aee1c8a0fa5887eecb591e34610f684a00d2e3f"
+    },
+    {
+      "path": "artifacts/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_final.lst",
+      "bytes": 11201,
+      "sha256": "ce47c4531f12d3bcdf258a4703ca37d3e76b48bf009124aaa27aeddeb139c0f1"
+    },
+    {
+      "path": "artifacts/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_finalize.json",
+      "bytes": 4320,
+      "sha256": "a38c740486dd1d4a213469028090d71979106d202c15a323010775999dfa315f"
+    },
+    {
+      "path": "artifacts/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_fit.png",
+      "bytes": 256748,
+      "sha256": "64ca3edce4ba301ac40d0fee1c3d9f2d56816b6644558873c692b4884756c6c6"
+    },
+    {
+      "path": "artifacts/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_report.md",
+      "bytes": 3436,
+      "sha256": "0d4d296bfd5d15fc014d2074ddc3aeb5124a35697dd0ce2e3348d22f1ab97e5d"
+    },
+    {
+      "path": "conclusion.md",
+      "bytes": 2277,
+      "sha256": "3f7fc6acd25901ba701c440463bb4f173a09ec2161b65ad5ba46d2d103f72fc7"
+    },
+    {
+      "path": "plugin_logs/Fluoroapatite/manual_main/xrd_workflow/journal.jsonl",
+      "bytes": 886,
+      "sha256": "db48159fe90fc177aebfd85ad64098dbc54bb1871c081686ca6fef282c8c0c30"
+    },
+    {
+      "path": "plugin_logs/Fluoroapatite/manual_main/xrd_workflow/journal.md",
+      "bytes": 786,
+      "sha256": "f1db429c10371ab04f37690d925817b618d2ba52a317778e1d27050814210eac"
+    },
+    {
+      "path": "plugin_logs/Fluoroapatite/manual_reduced/xrd_workflow/journal.jsonl",
+      "bytes": 701,
+      "sha256": "c9c99ba2ea3314baafd2033ea962d4f68db5d4549ea594b6a574104dcbca507d"
+    },
+    {
+      "path": "plugin_logs/Fluoroapatite/manual_reduced/xrd_workflow/journal.md",
+      "bytes": 616,
+      "sha256": "9fc5d82e35241fc2f804a6e73babb46b26d35e8220f694a60be13b48d14186bc"
+    },
+    {
+      "path": "plugin_logs/Fluoroapatite/xrd_workflow/journal.jsonl",
+      "bytes": 2476,
+      "sha256": "0e80a98c90f3958346384400b043afd561d50d1d0e9dfa929370adfe61bfef87"
+    },
+    {
+      "path": "plugin_logs/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 3528,
+      "sha256": "b246f6c4f93f7f09e50d8ad4678e6e1ff9cc1fc6ae5a2f9c1be59a3af20c9ed7"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 179949,
+      "sha256": "c2e90aa440085e7c9a090ec583f8a4967968e3cd7062a04f4c79d6977a34f888"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1714,
+      "sha256": "a2239c0bc3a0df456e2105da560233b52ff058e96e6591d973e97c20bab9237a"
+    },
+    {
+      "path": "states/Fluoroapatite/workflow_state.json",
+      "bytes": 4109,
+      "sha256": "b5f00998e13fb0ac1ef2105eefc5b1212b6bb55ed4149b61e8adf68e2c4d5eee"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 6545,
+      "sha256": "71ac2faf3949e03629c9ef31af3c95148e62083777aff1c3122bb072fbeb22f5"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 214524,
+      "sha256": "3193a4e08341338f2c9b9f1c943dfc35cde105d2a1de8c22b31e179a78ad239e"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "file_count": 60,
+  "files": [
+    {
+      "path": "conclusion.md",
+      "bytes": 1613,
+      "sha256": "37999e40255971f3a77eb50d7f8757043a85f43f85e235077f91967fc92ee73e"
+    },
+    {
+      "path": "final_selection.json",
+      "bytes": 575,
+      "sha256": "22a7e433468b27d02b7011a616d207d865895b8e9b715024b372fbbf0cf48d74"
+    },
+    {
+      "path": "final_tool_evidence.json",
+      "bytes": 5676,
+      "sha256": "6473432322388a84fa858caa2cd04fe899526fadcfc0f81df9bbc3e4f3fed833"
+    },
+    {
+      "path": "plugin_logs/Amorphous/xrd_workflow/journal.jsonl",
+      "bytes": 5553,
+      "sha256": "49b4271b019998d0a259e2f1ea5c589f4e607b546ce679d9f7438aa2bafd3a7e"
+    },
+    {
+      "path": "plugin_logs/Amorphous/xrd_workflow/journal.md",
+      "bytes": 3899,
+      "sha256": "6dafa8e6ac6e49bf8983a6cd439332f1e3d0551d530f707b6f33f8a01ef366fd"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 211083,
+      "sha256": "a06c5af0e186fde785c4b16fe01c629e194938074a644045cd32908132a72335"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1676,
+      "sha256": "5d98b856bbfa4e4b52447778ef89595c63eebb8257daf9773bd3bb2eb5493897"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 15307,
+      "sha256": "f4f826894ab35cc6875869b16badf01c82e3c1cfbfde1c8a00526e40984d82f4"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 221305,
+      "sha256": "4b33b73f91c10f8d391ce4c64c55c17bbcbe164b5a46c2799b80b1a71637cf86"
+    },
+    {
+      "path": "user_messages.json",
+      "bytes": 516,
+      "sha256": "d526c7091e2ef8528431b799a214b37061a45bc51b39796676e79fd1c4b92a35"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.mplcache/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "ce8191fbd2f1d5eab3c0fa4b657b9ad7a512bb5fd3421a3681c90ff5b4002974"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0ggvhd-p7gk7gjv.json",
+      "bytes": 269,
+      "sha256": "dc385043cdb4502093a74d61137260a465c900643213d8366b4a938b1262aa71"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gh1ys-x49gyieu.json",
+      "bytes": 269,
+      "sha256": "dc7b57affaa64a4400da33cac70120d5a9c85c12555ab7793cc0ccbcae096d57"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gh24z-8nbekajb.json",
+      "bytes": 270,
+      "sha256": "65fe7a8c6b249abbbc23d7c203ecd744c9940f3d7e1daebe1a01dee5b16fb4b2"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0ghf7x-menycoei.json",
+      "bytes": 272,
+      "sha256": "86166013ca0be14a2ea4889bf0f7eea52f026e4032e024834daecd1fdf42a894"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0ghfey-jtopkgki.json",
+      "bytes": 269,
+      "sha256": "5bc54c10827e812f29372fc323847f15ebb71a6dc02d68cac2d0524b380a8fbd"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0ghke3-zwoe3gf2.json",
+      "bytes": 262,
+      "sha256": "a71e36081d3926ac14dba3999385c812f58a3b1ec0d0e5951f4a8dfd32770abf"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gjhxo-n6cpsevs.json",
+      "bytes": 261,
+      "sha256": "cab5ba200c8989ad4a9e389c4682e5a51e33b99973b6ba17f8a3bc88c58782ab"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gjpom-nbo7wl1r.json",
+      "bytes": 275,
+      "sha256": "45de29f586edc65d0bf563678df62452e2c57e87184a1fe4739c75f6f12e1814"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gjzze-w30kfh6f.json",
+      "bytes": 262,
+      "sha256": "8914025896766f4ba0bd94f1699b344e7db958a9e18e50e56dc733d331f66c21"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0glh0r-8q8bcbwj.json",
+      "bytes": 276,
+      "sha256": "75221154f811ea2b6eb748a0be170428f1f976b88c105cae6ea6ae829c818cab"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0glte4-6kalhsc3.json",
+      "bytes": 262,
+      "sha256": "6315466e2430312c0004005600077bb55d647d5411341b349728aa807034cf5b"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gmyc3-0rghen8s.json",
+      "bytes": 276,
+      "sha256": "7c36577901fbc880ac1235ff8533ab8cf968845e3a2fc139a5fd07ce55b238cd"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gna6o-0i0r774p.json",
+      "bytes": 278,
+      "sha256": "d5549fa69dbf8da93e124770b34909354bbf0ef8722ee17f98432a6df1838673"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0go4il-lng28dc9.json",
+      "bytes": 262,
+      "sha256": "6b28e54b373665b8d04be16542d33218aabc04704cb6675cb6e066859b7e2138"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gta0c-e4iy41xg.json",
+      "bytes": 276,
+      "sha256": "c51a9c2d883f1fd7311dd7ba64e34d21404383e43ac39a8f6f23c646c3b5f110"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gtt7k-3hpfib0a.json",
+      "bytes": 276,
+      "sha256": "b682f281cf21dc8ef78df4118e87ae3675e3ad0d9a403a75d990d18a85af1014"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0guajy-19280ihu.json",
+      "bytes": 276,
+      "sha256": "a9ff8b5dd4ddb6067566d088ea4da3ef38729c05f5f29a091addb8aed74af875"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0guper-6j4znwxv.json",
+      "bytes": 273,
+      "sha256": "de4d7da6461954245ad50f16296f8e23c45c640c36ef1c7d4a5eae9943821b88"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0guvc7-5dwk95tk.json",
+      "bytes": 273,
+      "sha256": "e751f45cc8283e0ee47248e05ecf3f991f8115aea678165347c8d9f459946046"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gvmbm-x98pcdt5.json",
+      "bytes": 277,
+      "sha256": "9b862ad3a9e471a3a403d6f859e98633c15f6a3231cc72c448de104625c71d61"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv0gzkor-me8cy2sw.json",
+      "bytes": 262,
+      "sha256": "8b7cb1a2346efbf118dd11acd637895ead0e137d82818cb639c5a83154a02eb2"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/.xrd-progress.json",
+      "bytes": 262,
+      "sha256": "8b7cb1a2346efbf118dd11acd637895ead0e137d82818cb639c5a83154a02eb2"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/amorphous_carbon_fit.png",
+      "bytes": 289044,
+      "sha256": "b707ab122e38b839f6fbf37875db6ae78b994ffa1e68404f2fec71a9fa2220ed"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/amorphous_carbon_fit1_fit.png",
+      "bytes": 324781,
+      "sha256": "29f317d6cb55468339a0f6a2f237880bb250b48a7d2c3c337dbf6feee581ee72"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/amorphous_carbon_fit2_fit.png",
+      "bytes": 338950,
+      "sha256": "646190244f047e0ff8068df7d9596dbe1defd85604c8f14b501b2f4d030bbfb4"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/amorphous_carbon_fit3_fit.png",
+      "bytes": 344038,
+      "sha256": "d3beceab204c7422a8e1c02fa1d72a7ad455c60291a47038fc62aa9015cb29d7"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/bg_n06.txt",
+      "bytes": 61472,
+      "sha256": "58b5f2b575075ef768aec946247b1571c22b3ecf4cfb00a8cd296f0ae027eabb"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/bg_n08.txt",
+      "bytes": 61436,
+      "sha256": "02781c1d1ae3e81ed9d56d4374606f95666013f5aaf168cae7e5d02c06d05e1b"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/bg_n10.txt",
+      "bytes": 61420,
+      "sha256": "3e31133c95cbd42df132437e023ce406408033ea6e7998a597acb3ee7d05d2fd"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/bg_n12.txt",
+      "bytes": 61459,
+      "sha256": "23165db7c9cabf630db1444636a440d986c82364d85b7e3427c86a3cc4dfe6e3"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/bg_n14.txt",
+      "bytes": 61466,
+      "sha256": "7421483648d75a07e4485354483ffe9613190f8c244e4366e96d673cfe38839d"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/bg_n16.txt",
+      "bytes": 61424,
+      "sha256": "883d3709d57b5a4acf5eb7f702a8f01d80cbb6f2efc5bf820720119741d56dfc"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/bg_n18.txt",
+      "bytes": 61430,
+      "sha256": "6d0211d88c8d3468a8787fbdaa934f98ca0d5213b54c343ddecdaf3fe43f9528"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/bg_n20.txt",
+      "bytes": 61457,
+      "sha256": "4e42124877bbcce330280ab32eb2adbfbf566376b576b9b9f4a945faf566a8de"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/components.json",
+      "bytes": 322379,
+      "sha256": "8b8fe0adf807245165701bcece52291111fd0104d45e0dd5046cc0329c4b8abe"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/data_io_plan.json",
+      "bytes": 418,
+      "sha256": "c1be4cf950d13bf8ae371dc585c20e8fbbffad5f413621cfe150e8c1fcd69b00"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/data_io_result.json",
+      "bytes": 3933,
+      "sha256": "db0c34a63f0110bfd7ba7011b1bada91770c5c8d732536d797d1553df4648704"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/export_plan.json",
+      "bytes": 767,
+      "sha256": "48adaf90cbbd1d81b2f6abf3cd1a350bcc904110177be7f5dd7e006509045535"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/export_result.json",
+      "bytes": 889,
+      "sha256": "8eb5cff8b4a7a855bf114b8523d5aefa45782333e9156028a360255ed913dc4f"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/gC3N4_carbon_final_fit.png",
+      "bytes": 343829,
+      "sha256": "32e0f9d26633ab82759484984d316d8fbd656aef311a2dcfa19d52f981c1a1bc"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/pattern.raw",
+      "bytes": 14784,
+      "sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/pattern_2theta.txt",
+      "bytes": 92555,
+      "sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/pattern_twocol.dat",
+      "bytes": 65829,
+      "sha256": "8af4419822c49799d07c31e5ee9167e375eb055830e1eb8c1a843bd9261ff496"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/plan_extras.json",
+      "bytes": 1114,
+      "sha256": "9ed60dbd0269de73ec48899ede8a9a731378afbecff702d129c9d0f49a754655"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/result.json",
+      "bytes": 13918,
+      "sha256": "568275a7fbcceb1c950a6e3b26c352006b2ba0881cf3a6d08f521ee405b62f9a"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/workflow_state.json",
+      "bytes": 4395,
+      "sha256": "282d38b8220aafca683c3a2c6d5084949c104e75885b69227e1b4fb18e81f842"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/XRD_Analysis_Report.md",
+      "bytes": 7963,
+      "sha256": "b8fc324ad2cd30bd4a7f467f4aa81843dca3070a13a8cc8c1be1615eb0c54105"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/xrd_workflow/journal.jsonl",
+      "bytes": 5553,
+      "sha256": "49b4271b019998d0a259e2f1ea5c589f4e607b546ce679d9f7438aa2bafd3a7e"
+    },
+    {
+      "path": "workspace_snapshot/Amorphous/xrd_workflow/journal.md",
+      "bytes": 3899,
+      "sha256": "6dafa8e6ac6e49bf8983a6cd439332f1e3d0551d530f707b6f33f8a01ef366fd"
+    }
+  ]
+}

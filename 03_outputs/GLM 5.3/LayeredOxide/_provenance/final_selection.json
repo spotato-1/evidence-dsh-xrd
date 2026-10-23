@@ -1,0 +1,37 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 112502,
+  "result_seq": 112503,
+  "input_gpx": "workspace\\GLM 5.3\\LayeredOxide\\gsas2\\NNMO_delivery.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final"
+    ],
+    "gpx": [
+      "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_final.gpx"
+    ],
+    "lst": [
+      "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_final.lst"
+    ],
+    "plot": [
+      "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_fit.png"
+    ],
+    "report": [
+      "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_report.md"
+    ],
+    "cif": [
+      "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_built.cif",
+      "workspace\\GLM 5.3\\LayeredOxide\\NNMO_final\\NNMO_sodium_molybdate.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 13.05,
+    "R": 7.758756625605326,
+    "Rb": 23.242001207226313,
+    "wRb": 46.230014947099164,
+    "wRmin": 4.974489979853109,
+    "chi2": 23633.1,
+    "gof": 2.63
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

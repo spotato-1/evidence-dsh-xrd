@@ -1,0 +1,40 @@
+data_LiFePO4_final_built
+
+# built / LiFePO4_final (GSAS-II), wR = 7.49%
+_cell_length_a  10.326323
+_cell_length_b  6.004852
+_cell_length_c  4.690069
+_cell_angle_alpha  90.000000
+_cell_angle_beta  90.000000
+_cell_angle_gamma  90.000000
+_space_group_name_H-M_alt  'P n m a'
+
+loop_
+_space_group_symop_operation_xyz
+   'x,y,z'
+   '1/2-x,1/2+y,1/2+z'
+   'x,1/2-y,z'
+   '1/2-x,-y,1/2+z'
+   '-x,-y,-z'
+   '1/2+x,1/2-y,1/2-z'
+   '-x,1/2+y,-z'
+   '1/2+x,y,1/2-z'
+
+loop_
+   _atom_site_label
+   _atom_site_type_symbol
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_occupancy
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   Li1        Li       0.000000     0.000000     0.000000   0.9458  Uiso  0.00558
+   Fe2        Fe       0.781552     0.250000     0.526113   0.8913  Uiso  0.00399
+   P3         P        0.095912     0.250000     0.417519   1.0000  Uiso  0.00500
+   O4         O        0.111731     0.250000     0.764257   1.0000  Uiso  0.00500
+   O5         O        1.047861     0.833720     0.727767   1.0000  Uiso  0.20144
+   O6         O        0.175378     0.023405     0.273048   1.0000  Uiso  0.00500
+   Li1_Fe     Fe       0.000000     0.000000     0.000000   0.0542  Uiso  0.01000
+   Fe2_Li     Li      -0.707499     0.250000     2.656461   0.1087  Uiso  0.01000
+

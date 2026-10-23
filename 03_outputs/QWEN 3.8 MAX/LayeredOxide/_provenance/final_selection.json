@@ -1,0 +1,37 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 104908,
+  "result_seq": 104909,
+  "input_gpx": "workspace\\QWEN 3.8 MAX\\LayeredOxide\\gsas_v13.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final"
+    ],
+    "gpx": [
+      "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx"
+    ],
+    "lst": [
+      "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.lst"
+    ],
+    "plot": [
+      "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png"
+    ],
+    "report": [
+      "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_report.md"
+    ],
+    "cif": [
+      "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_built.cif",
+      "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_sodium_molybdate.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 6.94,
+    "R": 5.513109762500893,
+    "Rb": 7.525344891338432,
+    "wRb": 9.259809196706849,
+    "wRmin": 4.974489979853109,
+    "chi2": 6676.66,
+    "gof": 1.4
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

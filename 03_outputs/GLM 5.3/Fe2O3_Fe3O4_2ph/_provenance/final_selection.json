@@ -1,0 +1,37 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 97229,
+  "result_seq": 97230,
+  "input_gpx": "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\work\\gsas\\gsas_proj_continued.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final"
+    ],
+    "gpx": [
+      "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_final.gpx"
+    ],
+    "lst": [
+      "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_final.lst"
+    ],
+    "plot": [
+      "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_fit.png"
+    ],
+    "report": [
+      "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_report.md"
+    ],
+    "cif": [
+      "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_built.cif",
+      "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_built_1.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 2.35,
+    "R": 1.763492961718757,
+    "Rb": 2.5745573356068903,
+    "wRb": 3.2847488089002987,
+    "wRmin": 0.8926286509610258,
+    "chi2": 29235.1,
+    "gof": 2.63
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

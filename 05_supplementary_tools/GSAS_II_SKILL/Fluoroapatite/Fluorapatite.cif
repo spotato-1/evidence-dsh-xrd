@@ -1,0 +1,41 @@
+data_Fluorapatite
+_cell_length_a 9.3973
+_cell_length_b 9.3973
+_cell_length_c 6.8782
+_cell_angle_alpha 90.0
+_cell_angle_beta 90.0
+_cell_angle_gamma 120.0
+_space_group_name_H-M_alt 'P 63/m'
+_space_group_IT_number 176
+_audit_creation_method 'Prepared before the only AutoFP E2E; see inputs.json for source and adaptations'
+
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+x-y,x,z+1/2
+-y,x-y,z
+-x,-y,z+1/2
+-x+y,-x,z
+y,-x+y,z+1/2
+-x,-y,-z
+-x+y,-x,-z+1/2
+y,-x+y,-z
+x,y,-z+1/2
+x-y,x,-z
+-y,x-y,-z+1/2
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Ca1 Ca 0.666670000 0.333330000 0.001000000 1.0 0.5
+Ca2 Ca -0.007120000 0.242270000 0.250000000 1.0 0.5
+P P 0.368950000 0.398500000 0.250000000 1.0 0.5
+O1 O 0.484900000 0.327300000 0.250000000 1.0 0.5
+O2 O 0.466700000 0.587500000 0.250000000 1.0 0.5
+O3 O 0.257500000 0.342100000 0.070500000 1.0 0.5
+F F 0.000000000 0.000000000 0.250000000 1.0 0.5

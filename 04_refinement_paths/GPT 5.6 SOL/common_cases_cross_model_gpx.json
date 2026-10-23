@@ -1,0 +1,1681 @@
+﻿{
+  "note": "Read-only extraction; source GPX files were not modified.",
+  "cases": {
+    "Fe2O3_Fe3O4_2ph": {
+      "projects": {
+        "deepseek": {
+          "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-588a939a-a652-444f-9fd7-b5e427b2d84f\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx",
+          "bytes": 373080,
+          "histogram": "PWDR Fe2O3_Fe3O4_70-30.fxye Bank 1",
+          "residuals": {
+            "Nobs": 4230,
+            "R": 1.62815247084746,
+            "Rb": 3.8286418072057242,
+            "wR": 2.3482965971677063,
+            "wRb": 6.584301363891552,
+            "wRmin": 0.8926286509475634,
+            "Durbin-Watson": 0.20526968086460615
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.54051,
+            "Lam2": 1.54433,
+            "Zero": 0.1975083332406223,
+            "U": 0.0,
+            "V": 0.0,
+            "W": 7.132327061239355,
+            "X": 0.0,
+            "Y": 0.0,
+            "SH/L": 0.09340960265630732
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 10.01313,
+            "two_theta_max": 119.96713,
+            "gaussian_width_term_min": 7.132327061239355,
+            "gaussian_width_term_max": 7.132327061239355,
+            "gaussian_nonpositive_fraction": 0.0,
+            "lorentz_width_term_min": 0.0,
+            "lorentz_width_term_max": 0.0,
+            "lorentz_nonpositive_fraction": 1.0,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "built",
+              "space_group": "R -3 c",
+              "cell": {
+                "length_a": 5.038816666907599,
+                "length_b": 5.038816666907599,
+                "length_c": 13.76143763776762,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 120.00000000000001,
+                "volume": 302.58789665504264
+              },
+              "composition_per_cell": {
+                "Fe": 12.0,
+                "O": 18.0
+              },
+              "density": 5.258108060601314,
+              "scale": [
+                3.8183571876980587,
+                true
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Fe1",
+                  "element": "Fe",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "O1",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                }
+              ]
+            },
+            {
+              "name": "Fe3 O4",
+              "space_group": "F d -3 m",
+              "cell": {
+                "length_a": 8.391043003419403,
+                "length_b": 8.391043003419403,
+                "length_c": 8.391043003419403,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 90.0,
+                "volume": 590.8100039854697
+              },
+              "composition_per_cell": {
+                "Fe": 24.0,
+                "O": 32.0
+              },
+              "density": 5.206092942982083,
+              "scale": [
+                0.7546519336584849,
+                true
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Fe1",
+                  "element": "Fe",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Fe2",
+                  "element": "Fe",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "O1",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                }
+              ]
+            }
+          ]
+        },
+        "gpt56": {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx",
+          "bytes": 370784,
+          "histogram": "PWDR pattern.fxye Bank 1",
+          "residuals": {
+            "Nobs": 4230,
+            "R": 1.7286045306637414,
+            "Rb": 4.754725756082119,
+            "wR": 2.7273638204805812,
+            "wRb": 10.210185305201119,
+            "wRmin": 0.8926286509475634,
+            "Durbin-Watson": 0.24044087976879863
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.54051,
+            "Lam2": 1.54433,
+            "Zero": 0.18844243687759202,
+            "U": -948.1054039098402,
+            "V": 297.7668145751139,
+            "W": 96.48617410134348,
+            "X": 3.1112056340331637,
+            "Y": 6.724337067196877,
+            "SH/L": 0.002
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 10.01313,
+            "two_theta_max": 119.96713,
+            "gaussian_width_term_min": -2228.6590092614906,
+            "gaussian_width_term_max": 119.86570773978478,
+            "gaussian_nonpositive_fraction": 0.5973995271867613,
+            "lorentz_width_term_min": 3.7122009111485097,
+            "lorentz_width_term_max": 17.858503491749083,
+            "lorentz_nonpositive_fraction": 0.0,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "built",
+              "space_group": "R -3 c",
+              "cell": {
+                "length_a": 5.0401186321349885,
+                "length_b": 5.0401186321349885,
+                "length_c": 13.76924987588399,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 120.00000000000001,
+                "volume": 302.9161515462082
+              },
+              "composition_per_cell": {
+                "Fe": 12.0,
+                "O": 18.0
+              },
+              "density": 5.252410115211611,
+              "scale": [
+                1.0,
+                false
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Fe1",
+                  "element": "Fe",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O2",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                }
+              ]
+            },
+            {
+              "name": "Fe21.3334 O32.0001",
+              "space_group": "F d -3 m",
+              "cell": {
+                "length_a": 8.4053,
+                "length_b": 8.4053,
+                "length_c": 8.4053,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 90.0,
+                "volume": 593.8266120168768
+              },
+              "composition_per_cell": {
+                "O": 32.0,
+                "Fe": 24.0
+              },
+              "density": 5.179646263991541,
+              "scale": [
+                0.2655677015394185,
+                true
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "O1",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Fe2",
+                  "element": "Fe",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Fe1",
+                  "element": "Fe",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "x": {
+          "same_shape": true,
+          "n": 4230,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "yobs": {
+          "same_shape": true,
+          "n": 4230,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "weight": {
+          "same_shape": true,
+          "n": 4230,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "ycalc": {
+          "same_shape": true,
+          "n": 4230,
+          "exact_equal": false,
+          "max_abs_diff": 6403.8486118568435,
+          "mean_abs_diff": 56.03252276710176,
+          "correlation": 0.9617430742268439
+        },
+        "ybkg": {
+          "same_shape": true,
+          "n": 4230,
+          "exact_equal": false,
+          "max_abs_diff": 37.528026720165144,
+          "mean_abs_diff": 13.465171896040857,
+          "correlation": 0.9998601757304508
+        },
+        "ydiff": {
+          "same_shape": true,
+          "n": 4230,
+          "exact_equal": false,
+          "max_abs_diff": 6403.8486118568435,
+          "mean_abs_diff": 56.03252276710176,
+          "correlation": 0.7142464866465664
+        }
+      }
+    },
+    "FE50": {
+      "projects": {
+        "deepseek": {
+          "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-23c57f48-47b8-49e3-a32b-59dc7992f390\\artifacts\\FE50\\FE50_final\\FE50_final.gpx",
+          "bytes": 239158,
+          "histogram": "PWDR fe50.fxye Bank 1",
+          "residuals": {
+            "Nobs": 2802,
+            "R": 9.030562183193778,
+            "Rb": 10.545304206266476,
+            "wR": 11.416643093205163,
+            "wRb": 12.39288091025716,
+            "wRmin": 7.9169244690920095,
+            "Durbin-Watson": 0.9578496543524269
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.5406,
+            "Lam2": 1.54439,
+            "Zero": -0.15428537653939914,
+            "U": 2.0,
+            "V": -2.0,
+            "W": 8.0,
+            "X": 0.0,
+            "Y": 0.0,
+            "SH/L": 0.002
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 10.0,
+            "two_theta_max": 70.0011,
+            "gaussian_width_term_min": 7.5000000192851415,
+            "gaussian_width_term_max": 7.840331205439257,
+            "gaussian_nonpositive_fraction": 0.0,
+            "lorentz_width_term_min": 0.0,
+            "lorentz_width_term_max": 0.0,
+            "lorentz_nonpositive_fraction": 1.0,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "built",
+              "space_group": "F m -3 m",
+              "cell": {
+                "length_a": 10.109069734854712,
+                "length_b": 10.109069734854712,
+                "length_c": 10.109069734854712,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 90.0,
+                "volume": 1033.079104184401
+              },
+              "composition_per_cell": {
+                "Fe": 5.6,
+                "Mn": 2.0,
+                "C": 21.6,
+                "N": 21.6,
+                "K": 8.0
+              },
+              "density": 2.0853886578693333,
+              "scale": [
+                1.0,
+                false
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Fe1",
+                  "element": "Fe",
+                  "occupancy": 0.9,
+                  "adp_type": "I",
+                  "adp": 0.14923565599011673
+                },
+                {
+                  "label": "Mn1",
+                  "element": "Mn",
+                  "occupancy": 0.5,
+                  "adp_type": "I",
+                  "adp": 0.015236800344214891
+                },
+                {
+                  "label": "Fe2",
+                  "element": "Fe",
+                  "occupancy": 0.5,
+                  "adp_type": "I",
+                  "adp": 0.014986780845980615
+                },
+                {
+                  "label": "C1",
+                  "element": "C",
+                  "occupancy": 0.9,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "N1",
+                  "element": "N",
+                  "occupancy": 0.9,
+                  "adp_type": "I",
+                  "adp": 0.14898349772381536
+                },
+                {
+                  "label": "K1",
+                  "element": "K",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.13200706765199133
+                }
+              ]
+            }
+          ]
+        },
+        "gpt56": {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\artifacts\\FE50\\deliverables\\FE50_final\\FE50_final.gpx",
+          "bytes": 313874,
+          "histogram": "PWDR FE50.fxye Bank 1",
+          "residuals": {
+            "Nobs": 2802,
+            "R": 9.202374578195315,
+            "Rb": 11.963082538730452,
+            "wR": 11.734684850007005,
+            "wRb": 14.09590785246272,
+            "wRmin": 7.9169244690920095,
+            "Durbin-Watson": 0.9122799507020065
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.5406,
+            "Lam2": 1.54439,
+            "Zero": 0.012435525021028092,
+            "U": -4747.8261532690585,
+            "V": 5973.555670793146,
+            "W": -798.8769453456383,
+            "X": 65.9623018367428,
+            "Y": -350.4884042056656,
+            "SH/L": 0.002
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 10.0,
+            "two_theta_max": 70.0011,
+            "gaussian_width_term_min": -312.59966867495945,
+            "gaussian_width_term_max": 1080.0549168977873,
+            "gaussian_nonpositive_fraction": 0.12169878658101356,
+            "lorentz_width_term_min": -164.89399356143494,
+            "lorentz_width_term_max": 35.55050504845687,
+            "lorentz_nonpositive_fraction": 0.8051391862955032,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "built",
+              "space_group": "P 21/c",
+              "cell": {
+                "length_a": 10.25518992221009,
+                "length_b": 10.1514675999852,
+                "length_c": 10.16455758801629,
+                "angle_alpha": 90.0,
+                "angle_beta": 92.282997,
+                "angle_gamma": 90.0,
+                "volume": 1069.3306306676195
+              },
+              "composition_per_cell": {
+                "K": 8.0,
+                "Fe": 6.0,
+                "Mn": 2.0,
+                "C": 24.0,
+                "N": 23.0
+              },
+              "density": 2.1245965534409335,
+              "scale": [
+                1.0,
+                false
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "K1",
+                  "element": "K",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "K2",
+                  "element": "K",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Fe3",
+                  "element": "Fe",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Fe4",
+                  "element": "Fe",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Mn5",
+                  "element": "Mn",
+                  "occupancy": 0.5,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Fe6",
+                  "element": "Fe",
+                  "occupancy": 0.5,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Mn7",
+                  "element": "Mn",
+                  "occupancy": 0.5,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Fe8",
+                  "element": "Fe",
+                  "occupancy": 0.5,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "C9",
+                  "element": "C",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "C10",
+                  "element": "C",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "C11",
+                  "element": "C",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "C12",
+                  "element": "C",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "C13",
+                  "element": "C",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "C14",
+                  "element": "C",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "N15",
+                  "element": "N",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "N16",
+                  "element": "N",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "N17",
+                  "element": "N",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "N18",
+                  "element": "N",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "N19",
+                  "element": "N",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "N20",
+                  "element": "N",
+                  "occupancy": 0.75,
+                  "adp_type": "I",
+                  "adp": 0.01
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "x": {
+          "same_shape": true,
+          "n": 2802,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "yobs": {
+          "same_shape": true,
+          "n": 2802,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 0.9999999999999998
+        },
+        "weight": {
+          "same_shape": true,
+          "n": 2802,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "ycalc": {
+          "same_shape": true,
+          "n": 2802,
+          "exact_equal": false,
+          "max_abs_diff": 156.21017144574006,
+          "mean_abs_diff": 7.409593574285699,
+          "correlation": 0.9793826274849582
+        },
+        "ybkg": {
+          "same_shape": true,
+          "n": 2802,
+          "exact_equal": false,
+          "max_abs_diff": 26.020568168050374,
+          "mean_abs_diff": 6.202631971387372,
+          "correlation": 0.9844421456704119
+        },
+        "ydiff": {
+          "same_shape": true,
+          "n": 2802,
+          "exact_equal": false,
+          "max_abs_diff": 156.21017144574006,
+          "mean_abs_diff": 7.409593574285699,
+          "correlation": 0.7830956083747912
+        }
+      }
+    },
+    "Fluoroapatite": {
+      "projects": {
+        "deepseek": {
+          "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-92f1897c-c6c8-4c4d-b45f-37dcd4ea2d63\\artifacts\\Fluoroapatite\\FAP_final\\FAP_final.gpx",
+          "bytes": 514133,
+          "histogram": "PWDR FAP.fxye Bank 1",
+          "residuals": {
+            "Nobs": 5752,
+            "R": 7.536840237028751,
+            "Rb": 7.617051030280787,
+            "wR": 9.70437505842444,
+            "wRb": 9.372309309377352,
+            "wRmin": 5.610439793764994,
+            "Durbin-Watson": 0.9452963427201296
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.5405,
+            "Lam2": 1.5443,
+            "Zero": -0.051137045454373774,
+            "U": 1.9830472457493282,
+            "V": -1.8970209326491971,
+            "W": 4.510448113654615,
+            "X": 1.3117542882079516,
+            "Y": -1.7858579100021488,
+            "SH/L": 0.002
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 15.0,
+            "two_theta_max": 130.02,
+            "gaussian_width_term_min": 4.05676648926841,
+            "gaussian_width_term_max": 9.568591170770809,
+            "gaussian_nonpositive_fraction": 0.0,
+            "lorentz_width_term_min": -0.7264931343015069,
+            "lorentz_width_term_max": 1.0879607100637547,
+            "lorentz_nonpositive_fraction": 0.30858831710709317,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "Ca5 F O12 P3",
+              "space_group": "P 63/m",
+              "cell": {
+                "length_a": 9.370519005615401,
+                "length_b": 9.370519005615401,
+                "length_c": 6.884920051346311,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 120.00000000000001,
+                "volume": 523.5483858258079
+              },
+              "composition_per_cell": {
+                "F": 2.0,
+                "Ca": 10.0,
+                "P": 6.0,
+                "O": 24.0
+              },
+              "density": 3.1990306203446823,
+              "scale": [
+                1.0,
+                false
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "F1",
+                  "element": "F",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.025415068509808774
+                },
+                {
+                  "label": "Ca1",
+                  "element": "Ca",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.012392826423137474
+                },
+                {
+                  "label": "Ca2",
+                  "element": "Ca",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.010959023014717137
+                },
+                {
+                  "label": "P1",
+                  "element": "P",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.011318034329166355
+                },
+                {
+                  "label": "O1",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.02317316945733718
+                },
+                {
+                  "label": "O2",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.019987784668724008
+                },
+                {
+                  "label": "O3",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.02217492081297061
+                }
+              ]
+            }
+          ]
+        },
+        "gpt56": {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\artifacts\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.gpx",
+          "bytes": 509654,
+          "histogram": "PWDR Fluoroapatite.fxye Bank 1",
+          "residuals": {
+            "Nobs": 5752,
+            "R": 10.119847741650782,
+            "Rb": 10.924336063706328,
+            "wR": 12.534763899378602,
+            "wRb": 13.425712612597476,
+            "wRmin": 5.610439793764994,
+            "Durbin-Watson": 1.279562177429764
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.5405,
+            "Lam2": 1.5443,
+            "Zero": -0.05142942764889721,
+            "U": 26.0926039055617,
+            "V": -113.40410540464751,
+            "W": 21.065898918245022,
+            "X": 3.6343897701331453,
+            "Y": -3.1311099661531787,
+            "SH/L": 0.002
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 15.0,
+            "two_theta_max": 130.02,
+            "gaussian_width_term_min": -102.13388881848188,
+            "gaussian_width_term_max": 6.588212134296748,
+            "gaussian_nonpositive_fraction": 0.9389777468706537,
+            "lorentz_width_term_min": 1.845247787458586,
+            "lorentz_width_term_max": 3.2535323289276823,
+            "lorentz_nonpositive_fraction": 0.0,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "Ca10 P6 O24 F2",
+              "space_group": "P 63/m",
+              "cell": {
+                "length_a": 9.370456859139928,
+                "length_b": 9.370456859139928,
+                "length_c": 6.884841097006426,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 120.00000000000001,
+                "volume": 523.5354375426876
+              },
+              "composition_per_cell": {
+                "Ca": 10.0,
+                "P": 6.0,
+                "O": 24.0,
+                "F": 2.0
+              },
+              "density": 3.199109740020664,
+              "scale": [
+                1.0,
+                false
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Ca0",
+                  "element": "Ca",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.011145336284717736
+                },
+                {
+                  "label": "Ca1",
+                  "element": "Ca",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.011926643190812965
+                },
+                {
+                  "label": "P2",
+                  "element": "P",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.011486739256486623
+                },
+                {
+                  "label": "O3",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.012333061498857194
+                },
+                {
+                  "label": "O4",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.013027429906822862
+                },
+                {
+                  "label": "O5",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.011280927504476117
+                },
+                {
+                  "label": "F6",
+                  "element": "F",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.02031078447003293
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "x": {
+          "same_shape": true,
+          "n": 5752,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "yobs": {
+          "same_shape": true,
+          "n": 5752,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "weight": {
+          "same_shape": true,
+          "n": 5752,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 0.9999999999999998
+        },
+        "ycalc": {
+          "same_shape": true,
+          "n": 5752,
+          "exact_equal": false,
+          "max_abs_diff": 3080.0884718764246,
+          "mean_abs_diff": 22.119759000046994,
+          "correlation": 0.9930151432449462
+        },
+        "ybkg": {
+          "same_shape": true,
+          "n": 5752,
+          "exact_equal": false,
+          "max_abs_diff": 40.626373239748546,
+          "mean_abs_diff": 6.553862321609994,
+          "correlation": 0.9973525156321944
+        },
+        "ydiff": {
+          "same_shape": true,
+          "n": 5752,
+          "exact_equal": false,
+          "max_abs_diff": 3080.0884718764246,
+          "mean_abs_diff": 22.119759000046994,
+          "correlation": 0.6167738601868531
+        }
+      }
+    },
+    "LayeredOxide": {
+      "projects": {
+        "deepseek": {
+          "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-d37ffd1b-04a6-460e-8f04-733091bb8cf4\\artifacts\\LayeredOxide\\LO_final\\LO_final.gpx",
+          "bytes": 284185,
+          "histogram": "PWDR LO.fxye Bank 1",
+          "residuals": {
+            "Nobs": 3432,
+            "R": 5.809696961965424,
+            "Rb": 9.472927489385125,
+            "wR": 7.779404286161191,
+            "wRb": 15.292456943827684,
+            "wRmin": 4.974489979853109,
+            "Durbin-Watson": 0.8807883451275433
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.5406,
+            "Lam2": 1.54439,
+            "Zero": -0.1352677475797129,
+            "U": 579.7686551355998,
+            "V": -116.1835986414914,
+            "W": 19.973442280299288,
+            "X": 5.0,
+            "Y": 2.0,
+            "SH/L": 0.002
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 10.0,
+            "two_theta_max": 79.9967,
+            "gaussian_width_term_min": 14.152747230424385,
+            "gaussian_width_term_max": 330.6500475500204,
+            "gaussian_nonpositive_fraction": 0.0,
+            "lorentz_width_term_min": 5.194076514768585,
+            "lorentz_width_term_max": 8.204979847978047,
+            "lorentz_nonpositive_fraction": 0.0,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "Na1.44 Mn1.24 Ni0.66 Mo0.1 O4",
+              "space_group": "P 63/m m c",
+              "cell": {
+                "length_a": 2.8874502195000216,
+                "length_b": 2.8874502195000216,
+                "length_c": 11.156121248623277,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 119.99999999999999,
+                "volume": 80.55135838437441
+              },
+              "composition_per_cell": {
+                "Na": 1.44,
+                "Mn": 1.24,
+                "Ni": 0.66,
+                "Mo": 0.1,
+                "O": 4.0
+              },
+              "density": 4.402484915237594,
+              "scale": [
+                30.982616138172794,
+                true
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Na0",
+                  "element": "Na",
+                  "occupancy": 0.36,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Na1",
+                  "element": "Na",
+                  "occupancy": 0.36,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Mn2",
+                  "element": "Mn",
+                  "occupancy": 0.62,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Ni3",
+                  "element": "Ni",
+                  "occupancy": 0.33,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Mo4",
+                  "element": "Mo",
+                  "occupancy": 0.05,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "O5",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                }
+              ]
+            },
+            {
+              "name": "Na16 Mo8 O32",
+              "space_group": "F d -3 m",
+              "cell": {
+                "length_a": 9.11726145155126,
+                "length_b": 9.11726145155126,
+                "length_c": 9.11726145155126,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 90.0,
+                "volume": 757.8674017975358
+              },
+              "composition_per_cell": {
+                "Na": 16.0,
+                "Mo": 8.0,
+                "O": 32.0
+              },
+              "density": 3.6094100391135187,
+              "scale": [
+                0.39682776738272,
+                true
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Na0",
+                  "element": "Na",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Mo1",
+                  "element": "Mo",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O2",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                }
+              ]
+            }
+          ]
+        },
+        "gpt56": {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+          "bytes": 343449,
+          "histogram": "PWDR LayeredOxide.fxye Bank 1",
+          "residuals": {
+            "Nobs": 3432,
+            "R": 8.509420540805236,
+            "Rb": 13.813291835690181,
+            "wR": 14.55213727520904,
+            "wRb": 34.3320886995647,
+            "wRmin": 4.974489979853109,
+            "Durbin-Watson": 0.2673195243129865
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.5406,
+            "Lam2": 1.54439,
+            "Zero": -0.34161367168238177,
+            "U": 2495.401226211984,
+            "V": -3418.5863896901733,
+            "W": -3995.532071654622,
+            "X": 408.7360737148444,
+            "Y": -447.4685421686802,
+            "SH/L": 0.002
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 10.0,
+            "two_theta_max": 79.9967,
+            "gaussian_width_term_min": -5166.359103843997,
+            "gaussian_width_term_max": -4275.5191606616245,
+            "gaussian_nonpositive_fraction": 1.0,
+            "lorentz_width_term_min": 158.1054272209775,
+            "lorentz_width_term_max": 371.14895439030937,
+            "lorentz_nonpositive_fraction": 0.0,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "Na1.44 Mn1.24 Ni0.66 Mo0.1 O4",
+              "space_group": "P 63/m m c",
+              "cell": {
+                "length_a": 2.878341717919883,
+                "length_b": 2.878341717919883,
+                "length_c": 11.125379775314165,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 120.00000000000001,
+                "volume": 79.82339246868253
+              },
+              "composition_per_cell": {
+                "Na": 1.44,
+                "Ni": 0.66,
+                "Mn": 1.24,
+                "Mo": 0.1,
+                "O": 4.0
+              },
+              "density": 4.442634285785808,
+              "scale": [
+                1.0,
+                false
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Na0",
+                  "element": "Na",
+                  "occupancy": 0.72,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Ni1",
+                  "element": "Ni",
+                  "occupancy": 0.33,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Mn2",
+                  "element": "Mn",
+                  "occupancy": 0.62,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Mo3",
+                  "element": "Mo",
+                  "occupancy": 0.05,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "O4",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                }
+              ]
+            },
+            {
+              "name": "Na4 Mo2 O8",
+              "space_group": "P 1",
+              "cell": {
+                "length_a": 8.14809892,
+                "length_b": 7.07124275,
+                "length_c": 6.04664667,
+                "angle_alpha": 76.35232975,
+                "angle_beta": 57.51100116,
+                "angle_gamma": 46.11094058,
+                "volume": 206.38174922894274
+              },
+              "composition_per_cell": {
+                "Na": 4.0,
+                "Mo": 2.0,
+                "O": 8.0
+              },
+              "density": 3.3135854049410387,
+              "scale": [
+                0.5306140354579325,
+                false
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Na0",
+                  "element": "Na",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Na1",
+                  "element": "Na",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Na2",
+                  "element": "Na",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Na3",
+                  "element": "Na",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Mo4",
+                  "element": "Mo",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "Mo5",
+                  "element": "Mo",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O6",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O7",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O8",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O9",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O10",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O11",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O12",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                },
+                {
+                  "label": "O13",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.01
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "x": {
+          "same_shape": true,
+          "n": 3432,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "yobs": {
+          "same_shape": true,
+          "n": 3432,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "weight": {
+          "same_shape": true,
+          "n": 3432,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "ycalc": {
+          "same_shape": true,
+          "n": 3432,
+          "exact_equal": false,
+          "max_abs_diff": 1838.5945169200195,
+          "mean_abs_diff": 29.14408232142095,
+          "correlation": 0.5777866990239984
+        },
+        "ybkg": {
+          "same_shape": true,
+          "n": 3432,
+          "exact_equal": false,
+          "max_abs_diff": 158.57859151088354,
+          "mean_abs_diff": 73.78930482859218,
+          "correlation": 0.792985767783135
+        },
+        "ydiff": {
+          "same_shape": true,
+          "n": 3432,
+          "exact_equal": false,
+          "max_abs_diff": 1838.5945169200195,
+          "mean_abs_diff": 29.14408232142095,
+          "correlation": 0.4502821004160581
+        }
+      }
+    },
+    "LiFePO4": {
+      "projects": {
+        "deepseek": {
+          "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0\\artifacts\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx",
+          "bytes": 567671,
+          "histogram": "PWDR LiFePO4.fxye Bank 1",
+          "residuals": {
+            "Nobs": 7001,
+            "R": 4.865669054780738,
+            "Rb": 5.289159013852979,
+            "wR": 6.222757781306784,
+            "wRb": 6.452643089788873,
+            "wRmin": 6.153646393924564,
+            "Durbin-Watson": 0.45893369778346677
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.540593,
+            "Lam2": 1.544414,
+            "Zero": -0.05337159737001415,
+            "U": 34.3324372634546,
+            "V": -18.009189409094038,
+            "W": 11.22803970091447,
+            "X": 8.055304203892971,
+            "Y": -7.223433779455778,
+            "SH/L": 0.002
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 10.0,
+            "two_theta_max": 80.0,
+            "gaussian_width_term_min": 8.86634529374389,
+            "gaussian_width_term_max": 20.289599156825343,
+            "gaussian_nonpositive_fraction": 0.0,
+            "lorentz_width_term_min": 4.454272205375984,
+            "lorentz_width_term_max": 7.454105589881485,
+            "lorentz_nonpositive_fraction": 0.0,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "built",
+              "space_group": "P n m a",
+              "cell": {
+                "length_a": 10.325357685694183,
+                "length_b": 6.0050136890644,
+                "length_c": 4.6900597012206084,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 90.0,
+                "volume": 290.8020595281678
+              },
+              "composition_per_cell": {
+                "Li": 4.0,
+                "Fe": 4.0,
+                "P": 4.0,
+                "O": 16.0
+              },
+              "density": 3.6033236648251976,
+              "scale": [
+                1.0,
+                false
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Li1",
+                  "element": "Li",
+                  "occupancy": 0.96,
+                  "adp_type": "I",
+                  "adp": 0.03600397200255629
+                },
+                {
+                  "label": "Fe2",
+                  "element": "Fe",
+                  "occupancy": 0.04,
+                  "adp_type": "I",
+                  "adp": 0.03600397200255629
+                },
+                {
+                  "label": "Fe1",
+                  "element": "Fe",
+                  "occupancy": 0.96,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "Li2",
+                  "element": "Li",
+                  "occupancy": 0.04,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "P1",
+                  "element": "P",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.011963464839265428
+                },
+                {
+                  "label": "O1",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.0061550349101135255
+                },
+                {
+                  "label": "O2",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "O3",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.014616651713468789
+                }
+              ]
+            }
+          ]
+        },
+        "gpt56": {
+          "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\LiFePO4_best_physical_final\\LiFePO4_best_physical_final.gpx",
+          "bytes": 561540,
+          "histogram": "PWDR LiFePO4.fxye Bank 1",
+          "residuals": {
+            "Nobs": 7001,
+            "R": 17.06709505037938,
+            "Rb": 24.994363251350592,
+            "wR": 23.75855404591911,
+            "wRb": 34.423578416882556,
+            "wRmin": 6.153646394423826,
+            "Durbin-Watson": 0.04558299330270539
+          },
+          "instrument": {
+            "Lam": null,
+            "Lam1": 1.54059302806854,
+            "Lam2": 1.54441404342651,
+            "Zero": -0.05626074235649432,
+            "U": -13493.190976165024,
+            "V": 991.0084610185627,
+            "W": 30.1030666553166,
+            "X": -39.1811189535773,
+            "Y": 228.72809075003403,
+            "SH/L": 0.002
+          },
+          "profile_domain_diagnostic": {
+            "two_theta_min": 10.0,
+            "two_theta_max": 80.0,
+            "gaussian_width_term_min": -8638.738525000652,
+            "gaussian_width_term_max": 13.524596219061952,
+            "gaussian_nonpositive_fraction": 0.985287816026282,
+            "lorentz_width_term_min": -19.31966949218979,
+            "lorentz_width_term_max": 140.77833830204207,
+            "lorentz_nonpositive_fraction": 0.13898014569347236,
+            "formula_note": "Diagnostic only: G=U*tan(theta)^2+V*tan(theta)+W; L=X/cos(theta)+Y*tan(theta)."
+          },
+          "phases": [
+            {
+              "name": "Li4 Fe4 P4 O16",
+              "space_group": "P n m a",
+              "cell": {
+                "length_a": 10.333764263729567,
+                "length_b": 6.005758128602801,
+                "length_c": 4.68885397986745,
+                "angle_alpha": 90.0,
+                "angle_beta": 90.0,
+                "angle_gamma": 90.0,
+                "volume": 291.00007172159957
+              },
+              "composition_per_cell": {
+                "Li": 4.0,
+                "Fe": 4.0,
+                "P": 4.0,
+                "O": 16.0
+              },
+              "density": 3.6008717684449123,
+              "scale": [
+                1.0,
+                false
+              ],
+              "phase_fraction": null,
+              "atoms": [
+                {
+                  "label": "Li0",
+                  "element": "Li",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.02
+                },
+                {
+                  "label": "Fe1",
+                  "element": "Fe",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "P2",
+                  "element": "P",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "O3",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "O4",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                },
+                {
+                  "label": "O5",
+                  "element": "O",
+                  "occupancy": 1.0,
+                  "adp_type": "I",
+                  "adp": 0.005
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "comparison": {
+        "x": {
+          "same_shape": true,
+          "n": 7001,
+          "exact_equal": true,
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "correlation": 1.0
+        },
+        "yobs": {
+          "same_shape": true,
+          "n": 7001,
+          "exact_equal": false,
+          "max_abs_diff": 0.00010000000020227162,
+          "mean_abs_diff": 4.427938865739119e-07,
+          "correlation": 0.9999999999999992
+        },
+        "weight": {
+          "same_shape": true,
+          "n": 7001,
+          "exact_equal": false,
+          "max_abs_diff": 5.8870024306767466e-09,
+          "mean_abs_diff": 8.95038434301593e-12,
+          "correlation": 0.9999999999999948
+        },
+        "ycalc": {
+          "same_shape": true,
+          "n": 7001,
+          "exact_equal": false,
+          "max_abs_diff": 1633.758650524215,
+          "mean_abs_diff": 42.37452249247014,
+          "correlation": 0.894493245708891
+        },
+        "ybkg": {
+          "same_shape": true,
+          "n": 7001,
+          "exact_equal": false,
+          "max_abs_diff": 58.7599613210177,
+          "mean_abs_diff": 29.193863804640653,
+          "correlation": 0.9450785593472536
+        },
+        "ydiff": {
+          "same_shape": true,
+          "n": 7001,
+          "exact_equal": false,
+          "max_abs_diff": 1633.758650524215,
+          "mean_abs_diff": 42.37452239248442,
+          "correlation": 0.344825376351683
+        }
+      }
+    }
+  }
+}

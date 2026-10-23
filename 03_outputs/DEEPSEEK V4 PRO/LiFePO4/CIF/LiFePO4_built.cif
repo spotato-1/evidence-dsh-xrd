@@ -1,0 +1,57 @@
+ 
+######################################################################
+data_LiFePO4_final
+
+# phase info for built follows
+_pd_phase_name  built
+_cell_length_a  10.3366
+_cell_length_b  6.01181
+_cell_length_c  4.69655
+_cell_angle_alpha  90.0000
+_cell_angle_beta  90.0000
+_cell_angle_gamma  90.0000
+_cell_volume  291.852
+_symmetry_cell_setting  orthorhombic
+_symmetry_space_group_name_H-M  "P n m a"
+loop_
+    _space_group_symop_id
+    _space_group_symop_operation_xyz
+     1  x,y,z
+     2  1/2-x,1/2+y,1/2+z
+     3  x,1/2-y,z
+     4  1/2-x,-y,1/2+z
+     5  -x,-y,-z
+     6  1/2+x,1/2-y,1/2-z
+     7  -x,1/2+y,-z
+     8  1/2+x,y,1/2-z
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+loop_ 
+   _atom_site_label
+   _atom_site_type_symbol
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_occupancy
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_site_symmetry_multiplicity
+Li1    Li   0.00000     0.00000     0.00000     0.9509     Uiso 0.0050     4   
+Fe2    Fe   0.28193(16) 0.25000     0.9732(5)   0.9509     Uiso 0.0050     4   
+P3     P    0.0937(3)   0.25000     0.4273(7)   1.0000     Uiso 0.0158(14) 4   
+O4     O    0.0922(8)   0.25000     0.7503(14)  1.0000     Uiso 0.0050     4   
+O5     O    0.4478(9)   0.25000     0.2304(13)  1.0000     Uiso 0.0050     4   
+O6     O    0.1589(6)   0.0460(9)   0.2811(9)   1.0000     Uiso 0.0199(21) 8   
+Li1_Fe Fe   0.00000     0.00000     0.00000     0.0491     Uiso 0.0050     4   
+Fe2_Li Li   0.28191     0.25000     0.97332     0.0491     Uiso 0.0050     4   
+
+loop_  _atom_type_symbol _atom_type_number_in_cell
+  Fe      4
+  Li      4
+  O       16
+  P       4
+
+# Note that Z affects _cell_formula_sum and _weight
+_cell_formula_units_Z  4
+_chemical_formula_sum  "Fe Li O4 P"
+_chemical_formula_weight  157.76

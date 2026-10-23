@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "artifacts/LiFePO4/LiFePO4_final/LiFePO4_built.cif",
+      "bytes": 1865,
+      "sha256": "8011af0c8dbe853a0864c3722b180b95970c773e079999d498a574f15f8f5a9c"
+    },
+    {
+      "path": "artifacts/LiFePO4/LiFePO4_final/LiFePO4_final.gpx",
+      "bytes": 567671,
+      "sha256": "4dad73ad5be64264675b46cd84a5017ad4298c7724ff34c3ca9b119523a1d12a"
+    },
+    {
+      "path": "artifacts/LiFePO4/LiFePO4_final/LiFePO4_final.lst",
+      "bytes": 11311,
+      "sha256": "89bde5d066c1e98dafc348220c650afed90641452530a25eec2d27ffea70acb9"
+    },
+    {
+      "path": "artifacts/LiFePO4/LiFePO4_final/LiFePO4_finalize.json",
+      "bytes": 4468,
+      "sha256": "818e4ce1e1c25d8af170dda750af0744a56137b7555106fde6a87c2bde86cc5f"
+    },
+    {
+      "path": "artifacts/LiFePO4/LiFePO4_final/LiFePO4_fit.png",
+      "bytes": 387252,
+      "sha256": "018d51f7da0dc2e1873c7c31f6052caabd3c91c574dd749b0ab0ae2b84549a1b"
+    },
+    {
+      "path": "artifacts/LiFePO4/LiFePO4_final/LiFePO4_report.md",
+      "bytes": 3512,
+      "sha256": "030a6919c5e39a595dc4a9dc19c8dffdde2bd5bf1e6c83b4c988eb5f7a255bb1"
+    },
+    {
+      "path": "conclusion.md",
+      "bytes": 3895,
+      "sha256": "2bd69ac28b6a55c7045ded671911ee94638dc36bc438f7176057f3035163200c"
+    },
+    {
+      "path": "plugin_logs/LiFePO4/xrd_workflow/journal.jsonl",
+      "bytes": 6925,
+      "sha256": "82922f797843df32bcf478c8d79affea92dd8e96aef9b26ba87cd2588311bb54"
+    },
+    {
+      "path": "plugin_logs/LiFePO4/xrd_workflow/journal.md",
+      "bytes": 5560,
+      "sha256": "0e05cd2cd00c1d061379d419f94521f7429cbaac34de7a4bdef858bd9767d395"
+    },
+    {
+      "path": "root_reports/LiFePO4/REPORT.md",
+      "bytes": 15179,
+      "sha256": "b556fab787a52f0e083bca6f8c1bd457e3242fb3774f7f5a3a3a593553cafacf"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 933119,
+      "sha256": "e28bd52c11dfab1083d2c78c09e1e0896f5db00423fbd444be5d857dfc90a0b9"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1789,
+      "sha256": "aa5be0dd437b24f789025ef60665c2de6bbf3bd7a4abdcf2819ad0e968c69550"
+    },
+    {
+      "path": "states/LiFePO4/workflow_state.json",
+      "bytes": 6865,
+      "sha256": "16628290e0e9c8090d783583113d61a4992246bffe94c48b2e843947fc1584f9"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 5337,
+      "sha256": "69fbb525fa9f32c9239a3820406c95d01c50c4607a3c0d7e96954a8a3dbff527"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 641154,
+      "sha256": "e248fc78ddd8b50d25f338d6142ed73ea35677da5b4f70c5d0b8aa5290092b12"
+    }
+  ]
+}

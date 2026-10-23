@@ -1,0 +1,31 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 113603,
+  "result_seq": 113604,
+  "input_gpx": "workspace\\GLM 5.3\\FE50\\work\\gsas\\FE50_final2.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\GLM 5.3\\FE50\\FE50_final"
+    ],
+    "gpx": [
+      "workspace\\GLM 5.3\\FE50\\FE50_final\\FE50_final.gpx"
+    ],
+    "plot": [
+      "workspace\\GLM 5.3\\FE50\\FE50_final\\FE50_fit.png"
+    ],
+    "report": [
+      "workspace\\GLM 5.3\\FE50\\FE50_final\\FE50_report.md"
+    ],
+    "cif": [
+      "workspace\\GLM 5.3\\FE50\\FE50_final\\FE50_New_structure.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 10.997323816741917,
+    "R": 8.720330366984529,
+    "Rb": 10.245320359992194,
+    "wRb": 12.117045615441608,
+    "wRmin": 7.9169244690920095
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

@@ -1,0 +1,64 @@
+ 
+######################################################################
+data_PbSO4_final
+
+# phase info for O4 Pb S follows
+_pd_phase_name  "O4 Pb S"
+_cell_length_a  6.96089
+_cell_length_b  8.48137
+_cell_length_c  5.39920
+_cell_angle_alpha  90.0000
+_cell_angle_beta  90.0000
+_cell_angle_gamma  90.0000
+_cell_volume  318.758
+_symmetry_cell_setting  orthorhombic
+_symmetry_space_group_name_H-M  "P b n m"
+loop_
+    _space_group_symop_id
+    _space_group_symop_operation_xyz
+     1  x,y,z
+     2  1/2-x,1/2+y,z
+     3  1/2+x,1/2-y,1/2+z
+     4  -x,-y,1/2+z
+     5  -x,-y,-z
+     6  1/2+x,1/2-y,-z
+     7  1/2-x,1/2+y,1/2-z
+     8  x,y,1/2-z
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+loop_ 
+   _atom_site_label
+   _atom_site_type_symbol
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_occupancy
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_site_symmetry_multiplicity
+Pb     Pb   0.16740(13) 0.18797(8)  0.25000     1.0000     Uani 0.0250     4   
+S      S    0.1821(7)   0.4367(5)   0.75000     1.0000     Uani 0.0176     4   
+O1     O    0.0944(14)  0.5925(11)  0.75000     1.0000     Uiso 0.0200(31) 4   
+O2     O    0.0418(16)  0.3141(13)  0.75000     1.0000     Uiso 0.0243(30) 4   
+O3     O    0.3129(11)  0.4211(7)   0.9731(11)  1.0000     Uiso 0.0171(20) 8   
+
+loop_
+   _atom_site_aniso_label
+   _atom_site_aniso_U_11
+   _atom_site_aniso_U_22
+   _atom_site_aniso_U_33
+   _atom_site_aniso_U_12
+   _atom_site_aniso_U_13
+   _atom_site_aniso_U_23
+Pb     0.0286(5)   0.0214(4)   0.0250(4)   0.0009(12)  0.0000      0.0000      
+S      0.0234(30)  0.0170(24)  0.0124(24)  -0.014(6)   0.0000      0.0000      
+
+loop_  _atom_type_symbol _atom_type_number_in_cell
+  O       16
+  Pb      4
+  S       4
+
+# Note that Z affects _cell_formula_sum and _weight
+_cell_formula_units_Z  4
+_chemical_formula_sum  "O4 Pb S"
+_chemical_formula_weight  303.26

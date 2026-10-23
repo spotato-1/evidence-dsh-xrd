@@ -1,0 +1,135 @@
+[
+  {
+    "run_id": "session-23c57f48-47b8-49e3-a32b-59dc7992f390",
+    "case_ids": [
+      "FE50",
+      "FE60"
+    ],
+    "user_messages": 15,
+    "assistant_text_messages": 235,
+    "assistant_turn_answers": 15,
+    "user_text_chars": 999,
+    "assistant_text_chars": 73818,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-2c4aff20-e5cf-458d-920f-f19ab4d4277f",
+    "case_ids": [
+      "CeO2"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 50,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 116,
+    "assistant_text_chars": 10484,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-588a939a-a652-444f-9fd7-b5e427b2d84f",
+    "case_ids": [
+      "Fe2O3_Fe3O4_2ph"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 65,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 159,
+    "assistant_text_chars": 15569,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-79f76a24-3904-4839-9908-6f8c38360173",
+    "case_ids": [
+      "ZnO"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 53,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 116,
+    "assistant_text_chars": 10984,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-82c8a1fe-ea71-462a-8f49-87004ac99588",
+    "case_ids": [
+      "Y2O3"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 30,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 118,
+    "assistant_text_chars": 4185,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-92f1897c-c6c8-4c4d-b45f-37dcd4ea2d63",
+    "case_ids": [
+      "Fluoroapatite"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 64,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 131,
+    "assistant_text_chars": 14000,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-a94a7058-4f31-488d-bfd1-dac63c3ef338",
+    "case_ids": [
+      "PbSO4"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 2,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 120,
+    "assistant_text_chars": 2143,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0",
+    "case_ids": [
+      "LiFePO4"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 81,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 161,
+    "assistant_text_chars": 14058,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-c4e50f96-987b-4d93-87c4-5d32343274fa",
+    "case_ids": [
+      "LayeredOxide_2ph"
+    ],
+    "user_messages": 2,
+    "assistant_text_messages": 115,
+    "assistant_turn_answers": 2,
+    "user_text_chars": 331,
+    "assistant_text_chars": 19550,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-d235dfd1-05e1-4bf6-b84c-04021f9b411e",
+    "case_ids": [
+      "Amorphous"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 37,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 123,
+    "assistant_text_chars": 9373,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-d37ffd1b-04a6-460e-8f04-733091bb8cf4",
+    "case_ids": [
+      "LayeredOxide"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 78,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 306,
+    "assistant_text_chars": 12308,
+    "invalid_core_lines": 0
+  }
+]

@@ -1,0 +1,136 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-qwen-3.6-flash-ai-agent-v1-2026-10-12",
+  "case_id": "LiFePO4",
+  "run_id": "session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b",
+  "collected_at": "2026-10-11T22:48:41.312445+00:00",
+  "source": {
+    "model_label": "QWEN 3.6 FLASH",
+    "assistant_model_routes": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.6-flash"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.6-flash",
+        "reasoningEffort": "high",
+        "maxTokens": 65536
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.6~0020FLASH--\\session-27986ba0-f18a-4c9f-ae61-f00a6071bc9b\\session.jsonl.zstd",
+      "bytes": 132410,
+      "sha256": "7e317c7a14ac2c1d94e4c65da1767a41af14d7ea3313341aa452ffb349abad37",
+      "source_mtime_ns": 1791488718464638000,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/LiFePO4/pattern.raw",
+        "input_sha256": "922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd",
+        "workspace_file_present": true,
+        "workspace_sha256": "922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-08T19:44:03.663000+00:00",
+    "ended_at": "2026-10-08T19:45:18.462000+00:00",
+    "elapsed_seconds": 74.799,
+    "turns": 1,
+    "tool_calls": 25,
+    "tool_errors": 20,
+    "retries": 0,
+    "last_turn_reason": {
+      "kind": "error",
+      "error": {
+        "message": "Repetitive tool calls detected in the conversation history. The same tool call with identical name and arguments has been repeated across multiple consecutive rounds. Please modify your request or adjust the tool call arguments to avoid infinite loops.",
+        "code": "PI_AI_ERROR"
+      }
+    },
+    "error_ended_turns": [
+      {
+        "seq": 1032,
+        "time": 1791488718462,
+        "turn": 1,
+        "reason": {
+          "kind": "error",
+          "error": {
+            "message": "Repetitive tool calls detected in the conversation history. The same tool call with identical name and arguments has been repeated across multiple consecutive rounds. Please modify your request or adjust the tool call arguments to avoid infinite loops.",
+            "code": "PI_AI_ERROR"
+          }
+        }
+      }
+    ],
+    "input_tokens": 1148788,
+    "output_tokens": 2734,
+    "cache_read_tokens": 0,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 1148788,
+      "outputTokens": 2734
+    },
+    "goal_rounds": null
+  },
+  "workflow": {
+    "states": [],
+    "final_backend": null,
+    "gsas_completed": false,
+    "finalize_completed": false,
+    "export_completed": false,
+    "required_refinement_completed": false,
+    "converged": null,
+    "warnings": [
+      "missing_workflow_state",
+      "missing_journal_jsonl",
+      "session_contains_error_ended_turns"
+    ]
+  },
+  "final_metrics": {
+    "wr": null,
+    "r": null,
+    "rb": null,
+    "wrmin": null,
+    "chi2": null,
+    "gof": null,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": null,
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 0,
+    "journal_jsonl_total": 0,
+    "journal_jsonl_valid": 0,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": false,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "eligibility": {
+    "status": "excluded/incomplete_refinement",
+    "reason": "missing_workflow_state; missing_journal_jsonl; session_contains_error_ended_turns"
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/pattern.raw",
+      "bytes": 31162,
+      "sha256": "922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd"
+    }
+  ]
+}

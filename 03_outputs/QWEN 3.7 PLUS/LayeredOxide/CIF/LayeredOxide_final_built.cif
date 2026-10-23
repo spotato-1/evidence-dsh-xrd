@@ -1,0 +1,53 @@
+ 
+######################################################################
+data_LayeredOxide_final_final
+
+# phase info for built follows
+_pd_phase_name  built
+_cell_length_a  2.88973
+_cell_length_b  2.88973
+_cell_length_c  11.1958
+_cell_angle_alpha  90.0000
+_cell_angle_beta  90.0000
+_cell_angle_gamma  120.000
+_cell_volume  80.9654
+_symmetry_cell_setting  hexagonal
+_symmetry_space_group_name_H-M  "P 63"
+loop_
+    _space_group_symop_id
+    _space_group_symop_operation_xyz
+     1  x,y,z
+     2  x-y,x,1/2+z
+     3  -y,x-y,z
+     4  -x,-y,1/2+z
+     5  y-x,-x,z
+     6  y,y-x,1/2+z
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+loop_ 
+   _atom_site_label
+   _atom_site_type_symbol
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_occupancy
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_site_symmetry_multiplicity
+Ni1    Ni   0.00000     0.00000     8.4647246981376103(6)e13 0.3300     Uiso 0.0050     2   
+Mn2    Mn   0.00000     0.00000     3.16604636381380855(17)e13 0.6200     Uiso 0.0050     2   
+Mo3    Mo   0.00000     0.00000     -4.61883161074043169(31)e14 0.0500     Uiso 0.0050     2   
+Na4    Na   0.33330     0.66670     -6.1529179565213497(6)e13 0.7200     Uiso 0.0050     2   
+O5     O    1.2(4)      4.8(5)      -6.32738221490191055(11)e13 1.0000     Uiso 0.35(13)   6   
+
+loop_  _atom_type_symbol _atom_type_number_in_cell
+  Mn      1.24
+  Mo      0.1
+  Na      1.44
+  Ni      0.66
+  O       6
+
+# Note that Z affects _cell_formula_sum and _weight
+_cell_formula_units_Z  6
+_chemical_formula_sum  "Mn0.207 Mo0.017 Na0.24 Ni0.11 O"
+_chemical_formula_weight  40.93

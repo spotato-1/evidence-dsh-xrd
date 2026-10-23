@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "campaign_id": "dsh-xrd-deepseek-v4.1-flash-full12-2026-10",
+  "case_id": "LayeredOxide",
+  "case_ids": [
+    "LayeredOxide"
+  ],
+  "run_id": "session-d37ffd1b-04a6-460e-8f04-733091bb8cf4",
+  "collected_at": "2026-10-06T19:35:04.635806+00:00",
+  "source": {
+    "input_hashes": {
+      "LayeredOxide/raw/Mo.raw": "e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8",
+      "LayeredOxide/raw/sol-gel ball milling.txt": "4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4",
+      "LayeredOxide/data/.xrd-progress-muwhs16l-5hdnbvd3.json": "09e53c9040cd69b92f165c73acc1ad4b23e5164b4de061b8e53ae8a633e7fb6e",
+      "LayeredOxide/data/.xrd-progress-muwhvoum-87icynaf.json": "e9c0c49a862730dece47f4d0a974d1424959cd06105e34ab4469b0e694a2795d",
+      "LayeredOxide/data/.xrd-progress.json": "e9c0c49a862730dece47f4d0a974d1424959cd06105e34ab4469b0e694a2795d",
+      "LayeredOxide/data/data_io_plan.json": "02ea0ffa524ce86e8d5f7fef3d07ceb7f770e7d81a3816666038c1918be68be1",
+      "LayeredOxide/data/data_io_result.json": "8c1ff308b2ba3b1ff23fb65892ecfcdca782696bda2e47f3c03830137a1e5e24",
+      "LayeredOxide/data/LO.fxye": "3c3c833938c3401902ea6a342f69061e61799ec707e31e110988bb8697eafef3",
+      "LayeredOxide/data/LO_twocol.txt": "77e3ecf598d010bd8a8f3a62400302aa9a114323ecbf74d37d033594ee594c8c"
+    },
+    "session_container": {
+      "name": "session.jsonl.zstd",
+      "bytes": 2420564,
+      "sha256": "f962efbb3858e2f2bcfd379049e2f37b6d5a52969949ef869b9d628725e31478"
+    },
+    "dsh_version": "dsh-portable 0.1.0-rc5-xrd090-zh",
+    "plugin_version": "dsh-xrd 0.9.1",
+    "plugin_commit": null,
+    "model": "DeepSeek V4.1 Flash",
+    "model_ids_in_session": [
+      "deepseek-flash"
+    ],
+    "engine_versions": {}
+  },
+  "execution": {
+    "started_at": "2026-10-06T09:28:05.705000+00:00",
+    "ended_at": "2026-10-06T13:57:07.563000+00:00",
+    "elapsed_seconds": 16141.858,
+    "input_tokens": 188411,
+    "output_tokens": 210222,
+    "cache_read_tokens": 29335936,
+    "token_usage_basis": "DSH session project cache totals",
+    "turns": 1,
+    "goal_rounds": 0,
+    "tool_calls": 144,
+    "tool_errors": 1,
+    "retries": 0
+  },
+  "workflow": {
+    "phase": [
+      {
+        "path": "states/LayeredOxide/workflow_state.json",
+        "value": 5
+      }
+    ],
+    "final_backend": "GSAS-II",
+    "required_stages": [
+      "1",
+      "2",
+      "3",
+      "4-I",
+      "4-II",
+      "4-III",
+      "5"
+    ],
+    "completed_stages": [],
+    "converged": null,
+    "gsas_completed": true,
+    "final_export_completed": true,
+    "warnings": []
+  },
+  "final_metrics": {
+    "rwp": null,
+    "wr": null,
+    "rexp": null,
+    "chi2": null,
+    "gof": null,
+    "source": null,
+    "note": "Not normalized during initial evidence freeze; source values remain in state/result artifacts."
+  },
+  "integrity": {
+    "journal_jsonl_total": 11,
+    "journal_jsonl_valid": 11,
+    "journal_jsonl_invalid": 0,
+    "journal_jsonl_files": 3,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_consistent": null,
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "artifacts": [
+    {
+      "role": "final_gpx",
+      "path": "artifacts/LayeredOxide/LO_final/LO_final.gpx",
+      "bytes": 284185,
+      "sha256": "bd0b46f68eb73ea59f9ab9568fcf8c45e34ecd8d1585833c025f740c69221a28"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/LayeredOxide/LO_final/LO_final.lst",
+      "bytes": 16995,
+      "sha256": "e3a5001cbd22272d4722c59f6150ac3931c543104f864b89bf62e158eb796ec3"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/LayeredOxide/LO_final/LO_finalize.json",
+      "bytes": 5378,
+      "sha256": "5c4515d776e42308b697dbd3f0c4b71625d2fdc481f620d9e21e1ce667f121b4"
+    },
+    {
+      "role": "final_fit_or_figure",
+      "path": "artifacts/LayeredOxide/LO_final/LO_fit.png",
+      "bytes": 294709,
+      "sha256": "4f9f70213c6a0799a05b5473bb5f9e569bb0c89828a8430352302ac2bd588e6a"
+    },
+    {
+      "role": "final_cif",
+      "path": "artifacts/LayeredOxide/LO_final/LO_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif",
+      "bytes": 2079,
+      "sha256": "c590931b906a0d0849205b0d2202d89670ff619f4677439db0f2273c1bb38133"
+    },
+    {
+      "role": "final_cif",
+      "path": "artifacts/LayeredOxide/LO_final/LO_Na16_Mo8_O32.cif",
+      "bytes": 5958,
+      "sha256": "8592ce90681567e05568be41aee6a56e8f5a7562b6fc7755472ddd0697ecc572"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/LayeredOxide/LO_final/LO_report.md",
+      "bytes": 4452,
+      "sha256": "dc17b0ac13c9ac9e03c55d5172976136d91ad62ec8f21ccc2c44b5060037e7db"
+    },
+    {
+      "role": "conclusion",
+      "path": "conclusion.md",
+      "bytes": 3691,
+      "sha256": "05999049204680792d675bbfd147386932de89d99a3a419a6ee9849cbbe552f3"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/LayeredOxide/work/round01_single/xrd_workflow/journal.jsonl",
+      "bytes": 763,
+      "sha256": "d3f3e1c4a6e04332411134bf12f9841712be802ba1318eee24baefeac5da62de"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/LayeredOxide/work/round01_single/xrd_workflow/journal.md",
+      "bytes": 634,
+      "sha256": "7e5a30ff05e6ee782b460f764285361e082e66e46587e4e33b815ae32a8e09ed"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/LayeredOxide/work/round02_twophase/xrd_workflow/journal.jsonl",
+      "bytes": 696,
+      "sha256": "65e7f17ec482857817f287ac0671fec0fcb2077349e2975812b982d83d653e2b"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/LayeredOxide/work/round02_twophase/xrd_workflow/journal.md",
+      "bytes": 561,
+      "sha256": "0baabd4d73a995fbd8464513832075a4e28aabb8a39959d14abf705f6c18999c"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/LayeredOxide/xrd_workflow/journal.jsonl",
+      "bytes": 5056,
+      "sha256": "426d3b69cd594c30c7dff3d7eac17a3f4b529d7d11ec1a2747bfa2b0ce302543"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/LayeredOxide/xrd_workflow/journal.md",
+      "bytes": 10280,
+      "sha256": "322854245aa4e122ac8bf61a21cc10d67caf854581fa9e26436be3b34fd3c0c2"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "root_reports/LayeredOxide/LO_analysis_report.md",
+      "bytes": 13852,
+      "sha256": "76451eda425e56726a05f1420c66bc02a6a00cd3f6df6c8a5f2580940ce8d4cd"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "root_reports/LayeredOxide/review_judgment.md",
+      "bytes": 11578,
+      "sha256": "2ed25ba190773b91478d465fdaab3728374a4c55610f99b06a1bd052c2af96c1"
+    },
+    {
+      "role": "session_core",
+      "path": "session_core.jsonl.gz",
+      "bytes": 1057539,
+      "sha256": "e8adc6855178813050ce217038b2cb91df118dc19055c0454a37f35a6df899d1"
+    },
+    {
+      "role": "session_extract_stats",
+      "path": "session_extract_stats.json",
+      "bytes": 1790,
+      "sha256": "8f9f9a1247d19c5fb0f90666841166a209189c69402a975b5488af8c24880ca4"
+    },
+    {
+      "role": "workflow_state",
+      "path": "states/LayeredOxide/workflow_state.json",
+      "bytes": 6389,
+      "sha256": "0b30592dcb625bd9ec47c0dd35d9c6230e2800e131519e368066943d36da6b91"
+    },
+    {
+      "role": "tool_trace",
+      "path": "tool_trace.jsonl",
+      "bytes": 599550,
+      "sha256": "1f1d4fe746018ea5738b1948f6f113ca90dbb12f7858df4679e5a1454e70e884"
+    }
+  ],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  }
+}

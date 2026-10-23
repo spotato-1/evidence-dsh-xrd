@@ -1,0 +1,74 @@
+﻿{
+  "model": "GPT 5.6 SOL",
+  "case_id": "LayeredOxide",
+  "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 2
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+      "destination": "GPT 5.6 SOL/LayeredOxide/GPX/LayeredOxide_final.gpx",
+      "role": "gpx",
+      "bytes": 343449,
+      "sha256": "ff4e7b29290c012df086194acabecfb380aa9937da4711c351f569e6393268b6",
+      "model": "GPT 5.6 SOL",
+      "case_id": "LayeredOxide",
+      "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_final.gpx"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+      "destination": "GPT 5.6 SOL/LayeredOxide/figures/LayeredOxide_fit.png",
+      "role": "image",
+      "bytes": 279065,
+      "sha256": "290725d08da2c301dabd83bb1038c8ee521b8fea66ae1210c5f26f1c9e6db3b4",
+      "model": "GPT 5.6 SOL",
+      "case_id": "LayeredOxide",
+      "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_fit.png"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif",
+      "destination": "GPT 5.6 SOL/LayeredOxide/CIF/LayeredOxide_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif",
+      "role": "cif",
+      "bytes": 2008,
+      "sha256": "c2535465b80c4b241f17d51ed5c98b62ce60b6220be946e4bbbe95b9f8705de4",
+      "model": "GPT 5.6 SOL",
+      "case_id": "LayeredOxide",
+      "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_Na1.44_Mn1.24_Ni0.66_Mo0.1_O4.cif"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_Na4_Mo2_O8.cif",
+      "destination": "GPT 5.6 SOL/LayeredOxide/CIF/LayeredOxide_Na4_Mo2_O8.cif",
+      "role": "cif",
+      "bytes": 2188,
+      "sha256": "1c1729bd358fac1047c2f3c7d9138318c988c6c17663a8c2e6879eeb0a3981e2",
+      "model": "GPT 5.6 SOL",
+      "case_id": "LayeredOxide",
+      "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/LayeredOxide/LayeredOxide_final/LayeredOxide_Na4_Mo2_O8.cif"
+    }
+  ]
+}

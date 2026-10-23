@@ -1,0 +1,60 @@
+﻿{
+  "model": "GPT 5.6 SOL",
+  "case_id": "Fluoroapatite",
+  "run_id": "session-d219da8b-d575-4d6b-982c-b91137ef5b2f",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\artifacts\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_Ca10_P6_O24_F2.cif",
+      "destination": "GPT 5.6 SOL/Fluoroapatite/CIF/Fluoroapatite_Ca10_P6_O24_F2.cif",
+      "role": "cif",
+      "bytes": 1866,
+      "sha256": "8aa6d0550115b0b8abfee5a5e62c424852120d447333518a07a907c44966e0d0",
+      "model": "GPT 5.6 SOL",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-d219da8b-d575-4d6b-982c-b91137ef5b2f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_Ca10_P6_O24_F2.cif"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\artifacts\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.gpx",
+      "destination": "GPT 5.6 SOL/Fluoroapatite/GPX/Fluoroapatite_final.gpx",
+      "role": "gpx",
+      "bytes": 509654,
+      "sha256": "d47fd9bab609a03036195de67aee1c8a0fa5887eecb591e34610f684a00d2e3f",
+      "model": "GPT 5.6 SOL",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-d219da8b-d575-4d6b-982c-b91137ef5b2f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_final.gpx"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\artifacts\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_fit.png",
+      "destination": "GPT 5.6 SOL/Fluoroapatite/figures/Fluoroapatite_fit.png",
+      "role": "image",
+      "bytes": 256748,
+      "sha256": "64ca3edce4ba301ac40d0fee1c3d9f2d56816b6644558873c692b4884756c6c6",
+      "model": "GPT 5.6 SOL",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-d219da8b-d575-4d6b-982c-b91137ef5b2f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/Fluoroapatite/Fluoroapatite_final/Fluoroapatite_fit.png"
+    }
+  ]
+}

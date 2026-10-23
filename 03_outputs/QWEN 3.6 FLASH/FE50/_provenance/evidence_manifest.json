@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "file_count": 12,
+  "files": [
+    {
+      "path": "conclusion.md",
+      "bytes": 103,
+      "sha256": "9a92303145d851189fb223203908fcd07a918f3bf23a01a05c0f6d89d8eb562e"
+    },
+    {
+      "path": "final_selection.json",
+      "bytes": 94,
+      "sha256": "f3115ae28cfadbbeeb56947164c4b9ad0a09cdc940dc9083c8a01bb836a6b26f"
+    },
+    {
+      "path": "final_tool_evidence.json",
+      "bytes": 37,
+      "sha256": "5a96e6a63f189c860573886f1b0a0e9c03d023741faef6810e07d1301c8dd338"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 228766,
+      "sha256": "ad4370e7deed8bc0e82e1fc33721fac769bebd57b952c7d9312f768fddf79790"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1678,
+      "sha256": "3feabcbfed0b38e7077612046b3e6c2305ebc62f02c50a50708b6782a7b3d50b"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 5398,
+      "sha256": "be1f08aa9bfce9d1a7e9f4a1a9625fc7f9d9062f6c219e3ae2a2a8c9cf6aeefa"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 151703,
+      "sha256": "15cf5ffd6d46440e0d664fdfb5e66457a7cb7cc13a311fe9f1cfbdf9ba9cb509"
+    },
+    {
+      "path": "user_messages.json",
+      "bytes": 6055,
+      "sha256": "f5887ab4d04a28cdc7875ab9165d2fc2dfcba921d54589e5d6df55c29c7432bb"
+    },
+    {
+      "path": "workspace_snapshot/FE50/CIF/candidate_A.cif",
+      "bytes": 5457,
+      "sha256": "f5d7315967f6e619db7fb1a6ec2ee44833c3f7c2ff8f5e2932a2aac67e443555"
+    },
+    {
+      "path": "workspace_snapshot/FE50/CIF/candidate_B.cif",
+      "bytes": 2736,
+      "sha256": "fbb3811a61d3f07d8945cc210c8fd4f00e2748aca40fb5e6779fb8ee60c42e4b"
+    },
+    {
+      "path": "workspace_snapshot/FE50/pattern.raw",
+      "bytes": 12264,
+      "sha256": "410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809"
+    },
+    {
+      "path": "workspace_snapshot/FE50/pattern_2theta.txt",
+      "bytes": 77425,
+      "sha256": "ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿{
+  "model": "QWEN 3.7 PLUS",
+  "case_id": "Amorphous",
+  "run_id": "session-2f769795-b21d-4c3d-b2d2-5007564bdac1",
+  "selection_basis": "last completed xrd_export_cif result; validation verdict is preserved separately",
+  "selection_tool_seq": 8617,
+  "counts": {
+    "image": 1,
+    "gpx": 0,
+    "cif": 0
+  },
+  "all_three_types_present": false,
+  "same_final_state": "export call source and resulting files retained; final answer may conflict",
+  "notes": [
+    "original export state：xrd_export_cif: skipped",
+    "amorphous empirical analysis route；GPX/CIFregistered per actual generation，no crystal proxy or input usedCIF补齐。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-2f769795-b21d-4c3d-b2d2-5007564bdac1\\workspace_snapshot\\Amorphous\\gC3N4_carbon_final_fit.png",
+      "destination": "QWEN 3.7 PLUS/Amorphous/figures/gC3N4_carbon_final_fit.png",
+      "role": "image",
+      "bytes": 343829,
+      "sha256": "32e0f9d26633ab82759484984d316d8fbd656aef311a2dcfa19d52f981c1a1bc",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "Amorphous",
+      "run_id": "session-2f769795-b21d-4c3d-b2d2-5007564bdac1",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.candidate_files",
+      "declared_original_path": "workspace\\QWEN 3.7 PLUS\\Amorphous\\gC3N4_carbon_final_fit.png"
+    }
+  ]
+}

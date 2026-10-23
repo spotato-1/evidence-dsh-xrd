@@ -1,0 +1,63 @@
+{
+  "model": "DEEPSEEK V4 PRO",
+  "case_count": 6,
+  "cases": [
+    {
+      "case_id": "Amorphous",
+      "run_id": "session-d42e59d1-3452-494f-89c3-cf701e16c279",
+      "status": "eligible_with_warnings",
+      "final_backend": "manual_full_pattern_model",
+      "tool_calls": 62,
+      "wr": null,
+      "warnings": [
+        "session_contains_error_ended_turns"
+      ]
+    },
+    {
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-9aab4111-b098-4117-a9bc-7c656970b88d",
+      "status": "eligible",
+      "final_backend": "GSAS-II",
+      "tool_calls": 90,
+      "wr": 1.6,
+      "warnings": []
+    },
+    {
+      "case_id": "FE50",
+      "run_id": "session-8ef8889f-8ece-410d-b94a-4d8335d16d48",
+      "status": "eligible",
+      "final_backend": "GSAS-II",
+      "tool_calls": 115,
+      "wr": 11.71,
+      "warnings": []
+    },
+    {
+      "case_id": "Fluoroapatite",
+      "run_id": "session-d9162799-3154-4901-a387-9dad7b0d0888",
+      "status": "eligible",
+      "final_backend": "GSAS-II",
+      "tool_calls": 98,
+      "wr": 9.75,
+      "warnings": []
+    },
+    {
+      "case_id": "LayeredOxide",
+      "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+      "status": "eligible",
+      "final_backend": "GSAS-II",
+      "tool_calls": 138,
+      "wr": 9.82,
+      "warnings": []
+    },
+    {
+      "case_id": "LiFePO4",
+      "run_id": "session-72017660-8389-4b36-ad47-b6f978e74439",
+      "status": "eligible",
+      "final_backend": "GSAS-II",
+      "tool_calls": 105,
+      "wr": 10.08,
+      "warnings": []
+    }
+  ],
+  "scoring_performed": false
+}

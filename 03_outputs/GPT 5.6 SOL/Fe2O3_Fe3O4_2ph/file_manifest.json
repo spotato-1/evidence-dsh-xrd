@@ -1,0 +1,74 @@
+﻿{
+  "model": "GPT 5.6 SOL",
+  "case_id": "Fe2O3_Fe3O4_2ph",
+  "run_id": "session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 2
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_built.cif",
+      "destination": "GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_built.cif",
+      "role": "cif",
+      "bytes": 2091,
+      "sha256": "65541b8ecd4f914c807e188018d34c819026adcd597392eedb0b6e586d74049b",
+      "model": "GPT 5.6 SOL",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_built.cif"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_Fe21.3334_O32.0001.cif",
+      "destination": "GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_Fe21.3334_O32.0001.cif",
+      "role": "cif",
+      "bytes": 5967,
+      "sha256": "d9cf76b852c1ccb1d02abc2651d3e67bf7e86e657c2ab741c05fe97c00a258e2",
+      "model": "GPT 5.6 SOL",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_Fe21.3334_O32.0001.cif"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx",
+      "destination": "GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/GPX/Fe2O3_Fe3O4_2ph_final.gpx",
+      "role": "gpx",
+      "bytes": 370784,
+      "sha256": "e35fa6e08061a81d2e42e378dfab0de6578b63a300f161c0c839f5de1d25fd01",
+      "model": "GPT 5.6 SOL",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_final.gpx"
+    },
+    {
+      "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_fit.png",
+      "destination": "GPT 5.6 SOL/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_2ph_fit.png",
+      "role": "image",
+      "bytes": 280354,
+      "sha256": "4a32a665739a6a5e5fc9e5f1d0ca702cbe21f328509b8be72a4bc4b8af122951",
+      "model": "GPT 5.6 SOL",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_fit.png"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+﻿{
+  "model": "DEEPSEEK V4.1 FLASH",
+  "case_id": "PbSO4",
+  "run_id": "session-a94a7058-4f31-488d-bfd1-dac63c3ef338",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 2,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-a94a7058-4f31-488d-bfd1-dac63c3ef338\\artifacts\\PbSO4\\PbSO4_final\\PbSO4_final.gpx",
+      "destination": "DEEPSEEK V4.1 FLASH/PbSO4/GPX/PbSO4_final.gpx",
+      "role": "gpx",
+      "bytes": 531813,
+      "sha256": "911b64d6a0d03e5ac92133d03afaf686298eeb582a8801a1aee2f62eb40b5200",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "PbSO4",
+      "run_id": "session-a94a7058-4f31-488d-bfd1-dac63c3ef338",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/PbSO4/PbSO4_final/PbSO4_final.gpx"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-a94a7058-4f31-488d-bfd1-dac63c3ef338\\artifacts\\PbSO4\\PbSO4_final\\PbSO4_fit.png",
+      "destination": "DEEPSEEK V4.1 FLASH/PbSO4/figures/PbSO4_fit.png",
+      "role": "image",
+      "bytes": 319229,
+      "sha256": "fc6358c9c7e8a64fd490cd34fc1d7f3e9734f340d2ef40789e9ee07dbaf88aac",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "PbSO4",
+      "run_id": "session-a94a7058-4f31-488d-bfd1-dac63c3ef338",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/PbSO4/PbSO4_final/PbSO4_fit.png"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-a94a7058-4f31-488d-bfd1-dac63c3ef338\\artifacts\\PbSO4\\PbSO4_final\\PbSO4_fit_export.png",
+      "destination": "DEEPSEEK V4.1 FLASH/PbSO4/figures/PbSO4_fit_export.png",
+      "role": "image",
+      "bytes": 328036,
+      "sha256": "842c1eb4e5d69127f3809d2de4f615252d21c7eeb3dd5b3e610b712b7b3cd10d",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "PbSO4",
+      "run_id": "session-a94a7058-4f31-488d-bfd1-dac63c3ef338",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/PbSO4/PbSO4_final/PbSO4_fit_export.png"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-a94a7058-4f31-488d-bfd1-dac63c3ef338\\artifacts\\PbSO4\\PbSO4_final\\PbSO4_O4_Pb_S.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/PbSO4/CIF/PbSO4_O4_Pb_S.cif",
+      "role": "cif",
+      "bytes": 1964,
+      "sha256": "13b323f94de92c7b39dd83e9de96502c4c5b5156bda3d87daf5ac9fd82d73c22",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "PbSO4",
+      "run_id": "session-a94a7058-4f31-488d-bfd1-dac63c3ef338",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/PbSO4/PbSO4_final/PbSO4_O4_Pb_S.cif"
+    }
+  ]
+}

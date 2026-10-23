@@ -1,0 +1,37 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 123924,
+  "result_seq": 123925,
+  "input_gpx": "workspace\\DEEPSEEK V4 PRO\\Fe2O3_Fe3O4_2ph\\gsas_proj_continued.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\DEEPSEEK V4 PRO\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final"
+    ],
+    "gpx": [
+      "workspace\\DEEPSEEK V4 PRO\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx"
+    ],
+    "lst": [
+      "workspace\\DEEPSEEK V4 PRO\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.lst"
+    ],
+    "plot": [
+      "workspace\\DEEPSEEK V4 PRO\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_fit.png"
+    ],
+    "report": [
+      "workspace\\DEEPSEEK V4 PRO\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_report.md"
+    ],
+    "cif": [
+      "workspace\\DEEPSEEK V4 PRO\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_built.cif",
+      "workspace\\DEEPSEEK V4 PRO\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_built_1.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 1.6,
+    "R": 1.2259557980680935,
+    "Rb": 1.826455654853176,
+    "wRb": 2.9303700561736674,
+    "wRmin": 0.8926286509475634,
+    "chi2": 13585.5,
+    "gof": 1.8
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

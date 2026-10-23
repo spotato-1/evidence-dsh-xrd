@@ -1,0 +1,74 @@
+﻿{
+  "model": "DEEPSEEK V4 PRO",
+  "case_id": "LayeredOxide",
+  "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 151659,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 2
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+      "destination": "DEEPSEEK V4 PRO/LayeredOxide/GPX/LayeredOxide_final.gpx",
+      "role": "gpx",
+      "bytes": 287414,
+      "sha256": "2171972145c55cc2666da2d756a0e417dafab5bf1fcf624ede3dd13add5eb4a6",
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "LayeredOxide",
+      "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+      "destination": "DEEPSEEK V4 PRO/LayeredOxide/figures/LayeredOxide_fit.png",
+      "role": "image",
+      "bytes": 259770,
+      "sha256": "5cd552b3c5b74d9afb0745d1446168124ca30d73b0cac7178413b1f7ceddec9b",
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "LayeredOxide",
+      "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_built.cif",
+      "destination": "DEEPSEEK V4 PRO/LayeredOxide/CIF/LayeredOxide_built.cif",
+      "role": "cif",
+      "bytes": 2039,
+      "sha256": "612b2d72a8f8812b156e48535219d12d7bae4cdb409d01516aef3432cbbb00e1",
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "LayeredOxide",
+      "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_built.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_sodium_molybdate.cif",
+      "destination": "DEEPSEEK V4 PRO/LayeredOxide/CIF/LayeredOxide_sodium_molybdate.cif",
+      "role": "cif",
+      "bytes": 5976,
+      "sha256": "bbcaff1be17c1e886d365153eaf39fe3dc9e7ad1d6919462a8b0b5359976bafc",
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "LayeredOxide",
+      "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\DEEPSEEK V4 PRO\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_sodium_molybdate.cif"
+    }
+  ]
+}

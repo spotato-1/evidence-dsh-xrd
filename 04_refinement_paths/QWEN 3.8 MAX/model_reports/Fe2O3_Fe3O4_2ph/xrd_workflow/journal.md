@@ -1,0 +1,45 @@
+# XRD refinement journal (regenerated in full from journal.jsonl)
+
+> The rounds follow journal.jsonl (authoritative, append-only). rounds 1-2 are fp2k (recorded by hand by the AI), rounds 3-5 the manual engine (written automatically by the engine), rounds 6-8 GSAS-II/delivery (recorded by hand by the AI).
+> Plan-file correspondence: plan_r4.json→round3 (invalid round), plan_r5.json→round4, plan_r6.json→round5.
+
+| Round | Engine | Stage | Model | Rwp | Baseline R | Verdict | Why | Artifacts |
+|---|---|---|---|---|---|---|---|---|
+| 1 | xrd_refine_auto(fp2k) | I-baseline | physical | 7.68 | 98.5 | invalid - degenerate solution (model-related failure) | hematite single phase against a two-phase pattern: W=30.8 deg²+Bck2=7643 absorb the whole pattern, R_Bragg=92.8% with zero structural content; the mechanical chain was verified | .fp2k-work-hematite-d0e060/ |
+| 2 | xrd_refine_auto(fp2k) | I-baseline | physical | 7.72 | 98.7 | invalid - degenerate solution (model-related failure) | magnetite_fp degenerate in the same way; the frame-transformed CIF is read normally by fp2k (occupancy audit pass); the two-phase adjudication moves to the manual engine | .fp2k-work-magnetite_fp-8adfa1/ |
+| 3 | xrd_refine_manual | (explicit vary) | physical | 5.330 | 98.79 | not yet at the plateau; ⚠ not converged + hit max_nfev=8000 + 3 parameters at bounds (V, eta, zero) | under the default bounds/initial values zero runs away (0.5) and a drifts to 5.16; numerical treatment: tighten the bounds + physical initial values + raise nfev (§4.6.2) | result_r3_hitmaxnfev_INVALID.json |
+| 4 | xrd_refine_manual | (explicit vary) | physical | 1.743 | 98.82 | not yet at the plateau; ⚠ eta at the bound 0.95 (box-limited) | key fix: second-phase Y released (originally fixed at 0.5 ⇒ magnetite peaks forced to broaden 3-fold) + physical initial values for a/c + zero±0.3; a=5.0369 (literature value), zero=+0.153° as measured, k=0.9935 | result_r5.json |
+| 5 | xrd_refine_manual | (explicit vary) | physical | 1.745 | 98.82 | no improvement (Δ+0.002); eta saturated at 0.995 ⇒ manual side complete, handed over to GSAS | the pure-L preference of eta = the engine lacks an asym term, raising the bound is ineffective; both phases are real (20.3/16.2); V3 image reading passed; the target is already better than 10 (manual protocol) | result_r6_handoff.json |
+| 6 | xrd_refine_gsas | III-handoff-ladder | physical | wR 1.687 | (manual 1.745, not comparable across protocols) | target achieved (GSAS wR protocol) | handoff seeding (mag Scale 0.792, W transferred, the bad U/V seeds rejected by the safeguard and then self-corrected in inst); 8-step ladder, 7 accepted, 1 rolled back (cell:hem early attempt); Uiso physical | gsas_proj.gpx/.lst |
+| 7 | xrd_refine_gsas(continued) | III-cell+size-retry | physical | wR 1.584 | wR 1.687 | improved (same protocol) | after scale/atoms converge: cell:hem accepted (c→13.7539, the literature value); Size accepted for both phases; cell:mag rolled back as a separate step | gsas_proj_continued.gpx/.lst |
+| 8 | gsas_ops(auto_background)+finalize | III-review + V-deliver | physical | wR 1.584 (cached) | — | delivery complete (review pass, GOF 1.78) | 6th-order background finish with no improvement; weight fractions hem 60.52(69)/mag 39.48(69) wt%; density sentinel pass; Size(mag)=113(8)nm; Size(hem) cannot be determined independently (99.5% collinear with X) | Fe2O3_Fe3O4_2ph_final/ |
+
+## Materials and objective
+Weighed two-phase mixture α-Fe2O3 (hematite) + Fe3O4 (magnetite) (Zenodo 14959531, X'Pert PRO Bragg-Brentano, Cu 40kV/30mA without monochromator, 10.013–119.967°/0.026°/4230 points, background ~12000cps). User objective: strictly follow the xrd plugin workflow, publication grade, R≤10. Phase identity and content are judge-only (to be decided by this work).
+
+## Phases and crystal families (conclusion + basis + excluded families and why)
+- **α-Fe2O3 hematite, R-3c (#167) hexagonal setting**: conclusion basis = MP polymorphs retrieving the DFT structure (mp-aaaabdgk) + symmetrize restoring the space group; the refined a=5.0365(2)/c=13.7539(5) Å agree with the literature (5.0356/13.7489); Fe z=0.14488(17) (literature 0.1447), O y=0.31357(150); density 5.266 (literature 5.26).
+- **Fe3O4 magnetite, Fd-3m (#227) inverse spinel**: MP DFT (mp-aaaabcoo) + machine frame transformation to the published setting (Fe 8a ⅛⅛⅛/Fe 16d ½½½/O 32e u); refined a=8.3866(5) Å (literature 8.397, −0.12%); O u=0.24761(156); density 5.214 (literature 5.18).
+- **Excluded**: γ-Fe2O3 (maghemite, Fd-3m vacancy type) — the data header explicitly states α-Fe2O3, and the R-3c model already explains all hematite peaks down to Rb 1.84%, with no vacancy-superstructure residual; the 56 non-target polymorphs such as P1/Pm-3m/Cmcm/Pnma returned by the MP formula search (phase identity is locked by the measurement metadata, the polymorph list is in phase_screen/decisions); COD 1011267/1011032/1011084 (1926–1928 idealized coordinates, insufficient precision, used only as frame circumstantial evidence); the build_orbit gemmi :1/:2 expansion (16c+8b non-spinel topology, rejected by coordination bookkeeping).
+- **Fd-3m origin-frame conflict (the biggest technical pitfall of this sample, resolved)**: the Fd-3m table of CIFs_to_PCR = gemmi hall '-F 4vw 2vw 3' (:2) setting, whereas the pymatgen default = :1; after point-by-point multiplicity evidence ((0,0,0)→16, (⅛,⅛,⅝)→8, (0.1186,0.1186,0.3814)→96 all consistent with :2), the machine frame transformation x'=-x+(⅛,⅛,⅛) was used to generate magnetite_fp/gsas.cif (self-consistency PASS + 27-peak pattern equivalence PASS + occupancy audit pass + GSAS empirically reads it correctly).
+
+## Defect master table (exhaustive → screening → execution)
+See defect_table.json (10-field scheme): applicable and executed = T-01 two phases / T-05 size (isotropic) / T-06 peak shape (taken over by GSAS) / T-07 background (6th order) / X-01 zero-point offset (+0.1433(1)°); not applicable (reason given) = T-02 vacancies / T-03 antisite / T-08 stacking faults / T-09 water·carbonate·amorphous; undecided, not tried = T-04 preferred orientation (insufficient evidence).
+
+## Achieved results (R and protocol written separately)
+- **GSAS-II (delivery protocol)**: wR=1.58%, R=1.22%, Rb=1.84%, wRb=2.75%, wRmin=0.89%, GOF=1.78 — **target R≤10 achieved (margin >6×)**.
+- Manual engine (process protocol, Poisson-weighted): Rwp=1.745 (baseline 98.82) — not directly comparable with the GSAS wR.
+- fp2k (process protocol): the single-phase baseline degenerates into a non-structural solution against a two-phase pattern (Rwp 7.68/7.72 are artifacts, R_Bragg 92.8%), which does not constitute a valid score, only mechanical verification.
+- Weight fractions: **hematite 60.52(69) wt% / magnetite 39.48(69) wt%** (GSAS phase fractions, Σ=1, no third phase / amorphous term).
+- Per-phase RF (raw lst values): hematite 19.2% (53 refl) / magnetite 28.3% (34 refl) — an unweighted protocol dominated by weak-reflection noise in high-background data, read together with the weighted Rb=1.84%.
+
+## Not tried · undecided items
+- Not tried: preferred orientation (march-dollase); anisotropic microstrain (mustrain, to avoid collinearity with X/Y); SH/L refinement (fixed 0.002); background order escalation (the 6th-order finish showed no improvement and the target is achieved, so the escalation condition was not triggered); anisotropic ADP (Uij); fp2k cross-validation (xrd_verify_fp2k: a single-phase pcr cannot express the two-phase delivery, and the skill notes it is not a mandatory item); evaluation of magnetite occupancy/antisite degrees of freedom (the end-member model already gives Rb 1.84%).
+- Undecided: hematite Size cannot be determined independently (99.5% collinear with instrumental X, sig 50 ≫ the value) — if the hematite crystallite size is to be reported, instrumental X should be fixed or a standard sample used; the part of the high per-phase RF coming from weak reflections originates from background noise, not from a model defect (a judgement, not a measured conclusion).
+- Conclusion protocol: none of the "not tried" items above **constitutes** a claim of "cannot be improved" — within what was tried, wR=1.58% already meets the target.
+
+## Handover recommendations
+1. The deliverables are in Fe2O3_Fe3O4_2ph_final/ (clean gpx + lst + 2 official CIFs + figure + report); **do not refine that gpx again** (the constraints have been cleared and the cached wR would be lost).
+2. Room for further optimization (if needed): open pref/mustrain/SH/L/Uij in GSAS, or use xrd_gsas_ops on a copy gsas_proj_bgfinal.gpx; the expected gain is <0.1% wR (GOF 1.78 is already close to the statistical limit wRmin 0.89%).
+3. The final values of hematite c and magnetite a are subject to the lst esd; magnetite u=0.2476(16) being low + Uiso (Fe1/O) being high is a data-driven result and must be noted if published.
+4. The frame-transformation script transform_magnetite_frame.py can be reused for any pymatgen-frame Fd-3m CIF → FullProf/GSAS published setting.

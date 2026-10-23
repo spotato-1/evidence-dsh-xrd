@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "artifacts/CeO2/CeO2_final/CeO2_CeO2.cif",
+      "bytes": 5338,
+      "sha256": "85ca9851cb29ef32f4818bb97bf66195211b6329bcc5cdc22067e687df24b2e4"
+    },
+    {
+      "path": "artifacts/CeO2/CeO2_final/CeO2_final.gpx",
+      "bytes": 1720418,
+      "sha256": "46dc0777b128f33bd612b58a2ad602bbb3ae3b762b09f72125dbbdad28c96653"
+    },
+    {
+      "path": "artifacts/CeO2/CeO2_final/CeO2_final.lst",
+      "bytes": 9601,
+      "sha256": "2adcf485517ff894f74aa1f6e5a2919feedfe0d93d8a78fa3185db5fe9490992"
+    },
+    {
+      "path": "artifacts/CeO2/CeO2_final/CeO2_finalize.json",
+      "bytes": 2822,
+      "sha256": "5121256581d4ca2261dce4ef0c276c00eb8f7da6ca3fe75cb5ebaf6e963ff345"
+    },
+    {
+      "path": "artifacts/CeO2/CeO2_final/CeO2_fit.png",
+      "bytes": 190751,
+      "sha256": "988bffb6372642708830f5ab9ecd2a7e04ae72835b5ffa594096dc4d24a5818d"
+    },
+    {
+      "path": "artifacts/CeO2/CeO2_final/CeO2_report.md",
+      "bytes": 2856,
+      "sha256": "7cf07fc910d99c4633f1a2ff7611b9b2b4bef2fc9b1d6c43c53a937b5815f144"
+    },
+    {
+      "path": "conclusion.md",
+      "bytes": 3407,
+      "sha256": "946a7297d2323876e79398149fb3e5cc71d7ab320dd3651d1d9b9308ad77523f"
+    },
+    {
+      "path": "plugin_logs/CeO2/work/manual1/xrd_workflow/journal.jsonl",
+      "bytes": 722,
+      "sha256": "57c69a56cff7cc4923deb4fc8bad917f1d999f288f2f253e3cfa31f00980da87"
+    },
+    {
+      "path": "plugin_logs/CeO2/work/manual1/xrd_workflow/journal.md",
+      "bytes": 614,
+      "sha256": "49cf6ad31120d9d1550cc8538d4ad90e4f0b463ed436daa6571d7ad142e48125"
+    },
+    {
+      "path": "plugin_logs/CeO2/work/manual2/xrd_workflow/journal.jsonl",
+      "bytes": 721,
+      "sha256": "9f5497056209027bcf57197c45c9d0c6e40b5de183a01c973698f95860de1125"
+    },
+    {
+      "path": "plugin_logs/CeO2/work/manual2/xrd_workflow/journal.md",
+      "bytes": 613,
+      "sha256": "7c7509f710cecc44e5e8a00a7bba046ccf51b59e7fb539f7d4621099e901ce9d"
+    },
+    {
+      "path": "plugin_logs/CeO2/xrd_workflow/journal.jsonl",
+      "bytes": 7471,
+      "sha256": "ace41d1a82be07e942c3145b50ff392bc53caa3b780710542b0200fa9887afd9"
+    },
+    {
+      "path": "plugin_logs/CeO2/xrd_workflow/journal.md",
+      "bytes": 11421,
+      "sha256": "b0489a45b0eca4ac12fe4348c7f927f4e3a12e7c268067f373fcb4d3c96ab62b"
+    },
+    {
+      "path": "root_reports/CeO2/CeO2_XRDrefinement report.md",
+      "bytes": 15188,
+      "sha256": "1a7e2ef89ae571c3eea3fe389427681ac8c509af5e8b84284a7bd07451987850"
+    },
+    {
+      "path": "root_reports/CeO2/review_judgment.md",
+      "bytes": 4704,
+      "sha256": "80ec6a81df5309bcdda435a584a172977c1078ddd19c483b41911110f1a3a98e"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 718017,
+      "sha256": "b9a83f6d4b9fe6373a477f63d7d5d38379e947845b7403c1bec33f81cf712300"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1783,
+      "sha256": "a148a02179fd04b147d4535971b60ccbda0f788356a4508f91b53c054c66d796"
+    },
+    {
+      "path": "states/CeO2/workflow_state.json",
+      "bytes": 7748,
+      "sha256": "9574d6805258af75546dc580212df5c7f6386e8ee5e17134e0e034feae444d65"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 6267,
+      "sha256": "b3377cc2c174c3b49ad5e824dc899d2ebb1af83d3f0762a0096fded007197787"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 443195,
+      "sha256": "6067965b620505eb6c2e8c2be7c2b2a960a48a30b050b4d27818e524f5fa900e"
+    }
+  ]
+}

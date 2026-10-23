@@ -1,0 +1,160 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-qwen-3.6-flash-ai-agent-v1-2026-10-12",
+  "case_id": "FE50",
+  "run_id": "session-985a7e63-82b6-4e7c-8787-51413bd6ce2c",
+  "collected_at": "2026-10-11T22:48:39.985652+00:00",
+  "source": {
+    "model_label": "QWEN 3.6 FLASH",
+    "assistant_model_routes": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.6-flash"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.6-flash",
+        "reasoningEffort": "high",
+        "maxTokens": 65536
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.6~0020FLASH--\\session-985a7e63-82b6-4e7c-8787-51413bd6ce2c\\session.jsonl.zstd",
+      "bytes": 402461,
+      "sha256": "1b4fffbc1d54ec22ead7b6b92d41cb3bb0b5c6fa27f08052294bceb8ce17d9ba",
+      "source_mtime_ns": 1791488461757648500,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/FE50/CIF/candidate_A.cif",
+        "input_sha256": "f5d7315967f6e619db7fb1a6ec2ee44833c3f7c2ff8f5e2932a2aac67e443555",
+        "workspace_file_present": true,
+        "workspace_sha256": "f5d7315967f6e619db7fb1a6ec2ee44833c3f7c2ff8f5e2932a2aac67e443555",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/FE50/CIF/candidate_B.cif",
+        "input_sha256": "fbb3811a61d3f07d8945cc210c8fd4f00e2748aca40fb5e6779fb8ee60c42e4b",
+        "workspace_file_present": true,
+        "workspace_sha256": "fbb3811a61d3f07d8945cc210c8fd4f00e2748aca40fb5e6779fb8ee60c42e4b",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/FE50/pattern.raw",
+        "input_sha256": "410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809",
+        "workspace_file_present": true,
+        "workspace_sha256": "410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/FE50/pattern_2theta.txt",
+        "input_sha256": "ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44",
+        "workspace_file_present": true,
+        "workspace_sha256": "ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-08T19:37:21.765000+00:00",
+    "ended_at": "2026-10-08T19:41:01.753000+00:00",
+    "elapsed_seconds": 219.988,
+    "turns": 4,
+    "tool_calls": 55,
+    "tool_errors": 34,
+    "retries": 0,
+    "last_turn_reason": {
+      "kind": "aborted",
+      "reason": {
+        "kind": "user"
+      }
+    },
+    "error_ended_turns": [],
+    "input_tokens": 7093791,
+    "output_tokens": 15574,
+    "cache_read_tokens": 0,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 7093791,
+      "outputTokens": 15574
+    },
+    "goal_rounds": 3
+  },
+  "workflow": {
+    "states": [],
+    "final_backend": null,
+    "gsas_completed": false,
+    "finalize_completed": false,
+    "export_completed": false,
+    "required_refinement_completed": false,
+    "converged": null,
+    "warnings": [
+      "missing_workflow_state",
+      "missing_journal_jsonl"
+    ]
+  },
+  "final_metrics": {
+    "wr": null,
+    "r": null,
+    "rb": null,
+    "wrmin": null,
+    "chi2": null,
+    "gof": null,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": null,
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 0,
+    "journal_jsonl_total": 0,
+    "journal_jsonl_valid": 0,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": false,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "eligibility": {
+    "status": "excluded/incomplete_refinement",
+    "reason": "missing_workflow_state; missing_journal_jsonl"
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/CIF/candidate_A.cif",
+      "bytes": 5457,
+      "sha256": "f5d7315967f6e619db7fb1a6ec2ee44833c3f7c2ff8f5e2932a2aac67e443555"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/CIF/candidate_B.cif",
+      "bytes": 2736,
+      "sha256": "fbb3811a61d3f07d8945cc210c8fd4f00e2748aca40fb5e6779fb8ee60c42e4b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/pattern.raw",
+      "bytes": 12264,
+      "sha256": "410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/pattern_2theta.txt",
+      "bytes": 77425,
+      "sha256": "ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44"
+    }
+  ]
+}

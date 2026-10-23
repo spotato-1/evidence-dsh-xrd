@@ -1,0 +1,3622 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "file_count": 723,
+  "files": [
+    {
+      "path": "conclusion.md",
+      "bytes": 3263,
+      "sha256": "d19162c13019c2285369380d65b70b0a513c57e11f36666c4cc03727c1bee38b"
+    },
+    {
+      "path": "final_selection.json",
+      "bytes": 1250,
+      "sha256": "19456756c7964118b0516d534dbd7bbfa45096e4a4b58ea5522b0f6a1940130e"
+    },
+    {
+      "path": "final_tool_evidence.json",
+      "bytes": 4662,
+      "sha256": "daba0a7c3d5739c20dc5d446898a34c6ce1e2d05f21e5e3f06610aa01a9da4ca"
+    },
+    {
+      "path": "plugin_logs/Fluoroapatite/xrd_workflow/journal.jsonl",
+      "bytes": 14870,
+      "sha256": "4e6b0e4b53c6ac410e557eb6effbb11edab5f1861399fb061f53d5fb0a8f8d94"
+    },
+    {
+      "path": "plugin_logs/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 7553,
+      "sha256": "bf6d236f58dc02c43a368fab5ad69ddefe373f623882be178c71544bd0e9a084"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 1116388,
+      "sha256": "850266b140c3c899f2ebd1313241d2ffde45b6b56479a370d3fe9c5ecf6315aa"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1743,
+      "sha256": "eb5f1cb059227484045e45096ad0723749a14382c7e59891d967cbedb01fc263"
+    },
+    {
+      "path": "subagents/a7df37cf-76e0-4185-abf3-dec1abdb9778/conclusion.md",
+      "bytes": 2,
+      "sha256": "7c447aa2524264a3e24df73a6fddd8db360840f895bcb5e54d643c18de26a8ae"
+    },
+    {
+      "path": "subagents/a7df37cf-76e0-4185-abf3-dec1abdb9778/identity.json",
+      "bytes": 567,
+      "sha256": "e02bf1a8291b195d8038f6112626c12faedff864d4b4a77e2d85ce248eb8fa54"
+    },
+    {
+      "path": "subagents/a7df37cf-76e0-4185-abf3-dec1abdb9778/session_core.jsonl.gz",
+      "bytes": 12310,
+      "sha256": "7e80f2b9d435455c22e63d99988f765075c78f198b7c2baafaa6701a9560eac3"
+    },
+    {
+      "path": "subagents/a7df37cf-76e0-4185-abf3-dec1abdb9778/session_extract_stats.json",
+      "bytes": 1460,
+      "sha256": "2e5ffff59630d6dba1224dfea7f2fdac7989a3a4c395189fdcf8ee13c823cd22"
+    },
+    {
+      "path": "subagents/a7df37cf-76e0-4185-abf3-dec1abdb9778/tool_trace.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "subagents/de0ca07a-e6d0-4bc7-8708-0885a4865278/conclusion.md",
+      "bytes": 2,
+      "sha256": "7c447aa2524264a3e24df73a6fddd8db360840f895bcb5e54d643c18de26a8ae"
+    },
+    {
+      "path": "subagents/de0ca07a-e6d0-4bc7-8708-0885a4865278/identity.json",
+      "bytes": 567,
+      "sha256": "941af69e5ca9e73193a568b397f1002efb1b6f74e23eccf4e8f5a4ceb099e279"
+    },
+    {
+      "path": "subagents/de0ca07a-e6d0-4bc7-8708-0885a4865278/session_core.jsonl.gz",
+      "bytes": 12147,
+      "sha256": "75bee52eb563e57f829ae59b5fd9094eba1c32d250a98db6722f948c5b257a08"
+    },
+    {
+      "path": "subagents/de0ca07a-e6d0-4bc7-8708-0885a4865278/session_extract_stats.json",
+      "bytes": 1460,
+      "sha256": "7b2c60c41489fe3b784847aeb21631447dbca7cc6640c7610db8a020df170df4"
+    },
+    {
+      "path": "subagents/de0ca07a-e6d0-4bc7-8708-0885a4865278/tool_trace.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 192129,
+      "sha256": "43ec768e4819c10e0e22f4a031ee47dc8f8e008e0ce06beead2cb95b2cef5433"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 799142,
+      "sha256": "1d2e0c566e5a56fe7897c1eb7d0c1d03d5d292dfbbdfc3d4aac5592ca1a62789"
+    },
+    {
+      "path": "user_messages.json",
+      "bytes": 4095,
+      "sha256": "bb9964fae451f9c851d0f69614a92a0b1b94173890390d73f4ad35daf6d500a3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.mplcache/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "77d1c4b2a89e89decbbde33b62fc67f0f15ab765bedc27c467b07f21b148e809"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0sutcx-j9wu6uki.json",
+      "bytes": 269,
+      "sha256": "3e7d6ed7e837ef423b5ca172e30bb27438e77aed5e0dfb80a9f4abe877ea2ba0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0sw086-kol2l70q.json",
+      "bytes": 262,
+      "sha256": "28c2a77f73e8aae476be57f7fa8b53b7396a137e69273b86430b89ef7685867e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0sy79f-dnl11rrd.json",
+      "bytes": 275,
+      "sha256": "bfc0cad3fd06caeaee396a5dbb04f575115710a5489944b7fb902d64265c872a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0sy7in-jw2cxf4z.json",
+      "bytes": 276,
+      "sha256": "d86737a87b6869f9042986b420eb4ca1d8077c0fd246efd11411927471f74893"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0t0ml7-uhca7kxf.json",
+      "bytes": 276,
+      "sha256": "2ca667632d225ac4750af6bb8ac4d339dbdc9913cf18ecdd5ce4718b063105ef"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0t11fw-u1cdgp6n.json",
+      "bytes": 276,
+      "sha256": "855d3afcc354f0a2294c9364a4d318dfc9179d71cfb0874eb488fe5d5e717746"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0t1eeu-6v4ljapo.json",
+      "bytes": 276,
+      "sha256": "db49b9a1b211fd9a56bc1ca4afa68708691c42df0c4b35827b99c669bba923c5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0u28yo-4cym0upc.json",
+      "bytes": 264,
+      "sha256": "75f6579d5afb03cb9e7005ffb535e4e9daa51e3ffada9f651dd82c10fdc54d8b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0u5owv-wiai25o5.json",
+      "bytes": 272,
+      "sha256": "80d40d732ad6eb89d656630b68c63ccd3fe5b926feec80c8f54fe8be93b3cb4c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0w24yk-jr7dwb2h.json",
+      "bytes": 269,
+      "sha256": "2211e1ce7a8361fa6686f6e37943f8760aadec5848177f2f393b9dfb3479e386"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0xfb86-dct3p5uq.json",
+      "bytes": 272,
+      "sha256": "757a22add52f9c4992ef37b30bae3eb858808118f98e53dbbd50b6645e8c70fe"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress-mv0yk2qh-ik65lmu8.json",
+      "bytes": 271,
+      "sha256": "a0a2ec01654895ecde7fa1528d4b2ead645744f61c1611025ff286ea27b98815"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/.xrd-progress.json",
+      "bytes": 271,
+      "sha256": "a0a2ec01654895ecde7fa1528d4b2ead645744f61c1611025ff286ea27b98815"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/cif_edit_plan.json",
+      "bytes": 353,
+      "sha256": "b058b38c8445623eb56b654a4139cf49642db4a21db630223905cc362aab3c5e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/cif_edit_result.json",
+      "bytes": 52635,
+      "sha256": "9f0d6faadac66881669ceac5265d334d20cd400804e920017e5381a4876e0025"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/data_io_plan.json",
+      "bytes": 388,
+      "sha256": "97161800e9204e8257ee8f918113a6eebe211e17418a1730b19b5d0b6021e40e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/data_io_result.json",
+      "bytes": 631,
+      "sha256": "3577155d09ad606323963dc1b5c0eeaacf0864ae2fad946ec0f8c090d1b11311"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/export_plan.json",
+      "bytes": 741,
+      "sha256": "87873cda3856e6e3875ff6a273356f3757a325ec80f81317fff55c3eb5ad9e89"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/export_result.json",
+      "bytes": 631,
+      "sha256": "3782fe7417bd0a59842f8119c4a73c1e0cc386e900d8edea037c4848ee7a9ee3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/.mplcache/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "6c0b63e3df33d8ae8c320015fedbad6be0ff4177814a7bdf917e96bbbda00a6a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/.xrd-progress-mv0ylvh6-bg6atisp.json",
+      "bytes": 274,
+      "sha256": "d4bf644bca71cd6afd6e339f0d0a5a78998ea9ed6923b2cd7f7d8fd61b51bfe6"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/.xrd-progress.json",
+      "bytes": 274,
+      "sha256": "d4bf644bca71cd6afd6e339f0d0a5a78998ea9ed6923b2cd7f7d8fd61b51bfe6"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/export_plan.json",
+      "bytes": 1048,
+      "sha256": "5932ab685a1c34844000015007d52075e29ef20d1ed38fd4673cb1772cb7061e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/export_result.json",
+      "bytes": 1460,
+      "sha256": "4d599ee74125c2876d8e3f0cb0d8b5cb962972cbd30d00d73a14a754150316f0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_built.cif",
+      "bytes": 1838,
+      "sha256": "dc8160b6b766f0c41c9cba7881ebe63129a2dfcf362d2a71d7bf43116f4b20b0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_final.gpx",
+      "bytes": 508806,
+      "sha256": "4b70847bb153a870da57b7c9d4c9532edd74bf96312f015c6866220a868bd654"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_final.lst",
+      "bytes": 11072,
+      "sha256": "9e782eae62be4d8b36a12b86eb5c7871b5de7f5616eaf187663e590da0b7505b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_finalize.json",
+      "bytes": 3995,
+      "sha256": "ea379df1429a2c5fbbf905e5d12385f65e3ce2d21da99ccbe3b127da408b7056"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_fit.png",
+      "bytes": 269758,
+      "sha256": "1ca122f58bf51bd8cb8e20e16f2808b74039b5525c98d4058554530f51c6af65"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_refined_built.cif",
+      "bytes": 1457,
+      "sha256": "73d008807be610e8ede93daa5c71e19332c9ca99829528555c19031c16239e8a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_refined_exported.gpx",
+      "bytes": 508802,
+      "sha256": "18c5c7b808ec77c003f3ecd54e1c903aa707a25dcb69b41f4e7a47bd5880dd6c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_refined_fit.png",
+      "bytes": 259653,
+      "sha256": "3102a958e948d3050b8ad41fead03c2863dd8cf2b242c261ff6f5d7765f7e8b0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_final/FAP_report.md",
+      "bytes": 3239,
+      "sha256": "d964b1939f81cd4018698d6d8588ed446e1efa571cb2dc2a296a948868fa3b10"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_fit.png",
+      "bytes": 91577,
+      "sha256": "8429668738f47e6eca94abec65cae6da48bb1b0a35bfdf1a167ae6bdb1976c42"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/FAP_template.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/finalize_plan.json",
+      "bytes": 523,
+      "sha256": "34afac66e053100b6ae905e7abe9eb1adec9fa4632c20aeee0dc8e7769c1e2a1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/finalize_result.json",
+      "bytes": 4028,
+      "sha256": "03d0236719c28d441f60de0dea61a4b09b240f3585b21da342caa177b5cfdf4c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/M6_fit.png",
+      "bytes": 112740,
+      "sha256": "77c18f2f1bb6aabad534fa4f981ded21d8a835ad82d4b120704b6526598aa25c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/pattern_2theta.txt",
+      "bytes": 128544,
+      "sha256": "66c1205ef63c1fd9e1a0edbfc935c18792ff030ff3b8e75b0a2d6a2cd184280c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/phase_screen_plan.json",
+      "bytes": 3224,
+      "sha256": "61044459979f2b656c1a53ba61df7b74565e60ca6adda8557fcb8ac60741acb0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/phase_screen_result.json",
+      "bytes": 34883,
+      "sha256": "5444c15e20c56efbedb6952fc0cb7247947cead9f28c5f11d315d8cb9964f27a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1010996.cif",
+      "bytes": 2708,
+      "sha256": "515121b14c430d625fbe78a151379663abd27e14798710b2a36b9af226c3b165"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1011044.cif",
+      "bytes": 2546,
+      "sha256": "b2d16e4220015afc5f88141eb59713a3d466e64af63fc684fa8bce535ac2b53a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1533064.cif",
+      "bytes": 2265,
+      "sha256": "93e4818b438f0f01c47fae0a61986fc73adf586d527f8e81690b3185c5be3df5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/cod_1549763.cif",
+      "bytes": 3320,
+      "sha256": "dde6be6dc391677925cb27aedf7b26400c7ab9659a78a59debb2aeaebec81fd4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/mp_mp-aaaaajoz.cif",
+      "bytes": 2975,
+      "sha256": "d55334b748ab609213fab089cbcbf36e925d58598b99410387de467ac7d10412"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/ref/mp_mp-aaacrvgo.cif",
+      "bytes": 2975,
+      "sha256": "550fa938e80ae6623795ed0ae131ad0a6f1591403b3873bcfdb62931b6d24f19"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/review_judgment.md",
+      "bytes": 3115,
+      "sha256": "76a0022da6bd39360689d7080ad28719a478c6067adc9875112056b96ee24d96"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/.xrd-progress-mv0w9vwu-qykyfgxm.json",
+      "bytes": 264,
+      "sha256": "bd44a566ef7e344b34c6c20b648df0b9940fa1c9e362555236a950ae67e65b05"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/.xrd-progress.json",
+      "bytes": 264,
+      "sha256": "bd44a566ef7e344b34c6c20b648df0b9940fa1c9e362555236a950ae67e65b05"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01.new",
+      "bytes": 3897,
+      "sha256": "129255a9610a7764a71cab6912bb7d1351cc184a2602fc336b00db359f19da90"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01.out",
+      "bytes": 170900,
+      "sha256": "60ca1209047b112b1a8922bcb31732857f8170b0552871b6c0c6aa6c7ccd7d26"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01.pcr",
+      "bytes": 3858,
+      "sha256": "6ebb945000ac56a73a91a891ab8da5e4d76fb9466c46abcad0a59a40a78a6b38"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01.prf",
+      "bytes": 340777,
+      "sha256": "71562db64de6030a345a82387a1b7a777d876f62219afc16326d0e05c47d9ef3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "938b88693bb2d61a5b4dd43bd8c6d7d2e8795c4c5a1000f43754fc71ff0cd3f9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "48fc922ade190ae55ce18551060b66fc90167132589fcf18153e3c9ba6cc7816"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "9f2715af405cabcbfdf9fd37c870c15bae418662e6ce399753e9f50af2cf0e27"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3804,
+      "sha256": "47dece5874673bca892da42d49937187b166e7cc647de681dee1f8f26a124fb1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_final_end.pcr",
+      "bytes": 3887,
+      "sha256": "9912060ae456872c1e7b0d4c590d660d672cb5654d509be476acad9ff3f35543"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_final_start.pcr",
+      "bytes": 3858,
+      "sha256": "6ebb945000ac56a73a91a891ab8da5e4d76fb9466c46abcad0a59a40a78a6b38"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_fp2kbest.pcr",
+      "bytes": 3865,
+      "sha256": "e7be2d5be1f6f2ab67964d4c5c7ec7465b75f5b69c2a1e2896dd50d6d000b967"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step00_end.pcr",
+      "bytes": 3887,
+      "sha256": "9912060ae456872c1e7b0d4c590d660d672cb5654d509be476acad9ff3f35543"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step00_start.pcr",
+      "bytes": 3865,
+      "sha256": "e7be2d5be1f6f2ab67964d4c5c7ec7465b75f5b69c2a1e2896dd50d6d000b967"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step01_end.pcr",
+      "bytes": 3850,
+      "sha256": "1051ae8f9a918082974da1d91e7ca5f50c2a96cbacc0bbc48d5681618ea82e12"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step01_start.pcr",
+      "bytes": 3850,
+      "sha256": "1051ae8f9a918082974da1d91e7ca5f50c2a96cbacc0bbc48d5681618ea82e12"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step02_end.pcr",
+      "bytes": 3887,
+      "sha256": "97432e6a237e15d1b293b72b4d392edce52ebca6139dd9f8e1e91402ff19caa5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step02_start.pcr",
+      "bytes": 3821,
+      "sha256": "2a8707e015e5ae5be1fdc87cab9e829f5f373473b6c0009f6a4e97c5af5d90a7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step03_end.pcr",
+      "bytes": 3887,
+      "sha256": "714926bdd0728ac5ad98d40f8fe4f37f1e1dbecabf2e7f1a660d42df7b21439e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step03_start.pcr",
+      "bytes": 3821,
+      "sha256": "56076960386fade0fa1f059b6160015a56fabc35b81863be78cfb8231101b5ca"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step04_end.pcr",
+      "bytes": 3887,
+      "sha256": "e36c313ff570eeeaea0dabe73bd11795373800d1c46b80821cc7f0e62556a8d2"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step04_start.pcr",
+      "bytes": 3842,
+      "sha256": "5011502ee3faf3120f395c70974758173b464e4064916dbf50cc8ece6a5d4364"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step05_end.pcr",
+      "bytes": 3887,
+      "sha256": "9912060ae456872c1e7b0d4c590d660d672cb5654d509be476acad9ff3f35543"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step05_start.pcr",
+      "bytes": 3842,
+      "sha256": "302800c8b9ec63a68ee150c0cce6ea29fe49a251f78fcccd3f031aae91673c31"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step06_end.pcr",
+      "bytes": 3887,
+      "sha256": "379793cf37984f7723505d74e2c80595686e0306edb71554b9177bf9a3444f61"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step06_start.pcr",
+      "bytes": 3842,
+      "sha256": "fa76a4d87199a4af674331ef182fe825c8c10569e7d3bc88e0b253f0a74f98f9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step07_end.pcr",
+      "bytes": 3887,
+      "sha256": "15d12cf8de9880b916617c0959885d9ac6d9a70f4aafcf214c5b8a8aa467d776"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step07_start.pcr",
+      "bytes": 3828,
+      "sha256": "8b61bf62e976c5328904c67204341581ab1f329bef4b741a9b13f24ff4a02330"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step08_end.pcr",
+      "bytes": 3887,
+      "sha256": "44fd1494a0739f45f5bc74ecec5e54109f5654e895f653e1367ccb14d5516315"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step08_start.pcr",
+      "bytes": 3821,
+      "sha256": "619f945b077716a86b5bcc09f8cd3c078bdf13e76f1ec110c1b1c8d65a50d36c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step09_end.pcr",
+      "bytes": 3887,
+      "sha256": "8ad8fd1546a9c62a918f8cb90deed5adedd1b31f229793038af491c8009aa3dc"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step09_start.pcr",
+      "bytes": 3821,
+      "sha256": "3a74712b7516e33351cdc5cfa869e13c20bf52bbf68bdacc3f754d144c154396"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step10_end.pcr",
+      "bytes": 3887,
+      "sha256": "4387a23da5959d80b54de66d43c2aba2f1e79c8c3736138d7f8b761cc0ce958d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step10_start.pcr",
+      "bytes": 3821,
+      "sha256": "41bb9d7d90a05309b0eb0d2f991e245a8c7244cac6985279022848ebc7345373"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step11_end.pcr",
+      "bytes": 3887,
+      "sha256": "005790d96ad5e87144b0d21c9ac8a5c0fefa5a772f80a22845afc951a760cac8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step11_start.pcr",
+      "bytes": 3821,
+      "sha256": "303b7980f27f8f19e346298b3ab56d1d24ea29476bd6418606d8b9e59e08ccb3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step12_start.pcr",
+      "bytes": 3828,
+      "sha256": "56c4f4bcb1357b4a80a94bf0a6ecaee2b91b5bbe0e712bf18c4f0e20c9637fc5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step13_start.pcr",
+      "bytes": 3828,
+      "sha256": "066f9a21de9484adbdd4611c22372b7d8b1c96ca7d99eedb119b72d187473d1a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step14_end.pcr",
+      "bytes": 3887,
+      "sha256": "b952b973f6e386d745ddb52aefa3d5acf0076a98cf1591c334a4b0128fb6d8fb"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step14_start.pcr",
+      "bytes": 3828,
+      "sha256": "93d324473a7592f11db9d67db002be3251f8ae7d984e195d40effe44b8ba19c6"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step15_end.pcr",
+      "bytes": 3828,
+      "sha256": "c0995eb93f07f0494b460072b5a06ae541a36c5a7603b6accb168241e8433bac"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step15_start.pcr",
+      "bytes": 3828,
+      "sha256": "c0995eb93f07f0494b460072b5a06ae541a36c5a7603b6accb168241e8433bac"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step16_end.pcr",
+      "bytes": 3627,
+      "sha256": "33c55f0adf5e5da476ce1dcbf2e42ee82b6af0777096ee6988b3de08dda93dd8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step16_start.pcr",
+      "bytes": 3627,
+      "sha256": "33c55f0adf5e5da476ce1dcbf2e42ee82b6af0777096ee6988b3de08dda93dd8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step17_end.pcr",
+      "bytes": 3856,
+      "sha256": "3843c5019e3df7f7aa635ea074675e7f3c8c8182f24df11e15a69e12a398e54d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step17_start.pcr",
+      "bytes": 3856,
+      "sha256": "3843c5019e3df7f7aa635ea074675e7f3c8c8182f24df11e15a69e12a398e54d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step18_end.pcr",
+      "bytes": 3669,
+      "sha256": "23d1c1769dabeecdf9155467a1128fa23cbc2d19580a30a647725e8064688220"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step18_start.pcr",
+      "bytes": 3669,
+      "sha256": "23d1c1769dabeecdf9155467a1128fa23cbc2d19580a30a647725e8064688220"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step19_end.pcr",
+      "bytes": 3887,
+      "sha256": "5e84e0368a2bc37be1a6f472adcbf3e26c48d3ed61662f807c6bd4dda0b1546f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step19_start.pcr",
+      "bytes": 3828,
+      "sha256": "e253198f1850d3db3fe7e491ef70aa634e8165b441824973efabe912ad66325a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step20_end.pcr",
+      "bytes": 3887,
+      "sha256": "838ed129d7af99c42acae06f1044dbddd617b0ba413ce84c58b8779e0a8b00ae"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/FAP_pure_orbit_01_step20_start.pcr",
+      "bytes": 3669,
+      "sha256": "3e323ddb90ae98e0dca955b525c45ac49d3d39ca5b65d2f7878c5940d9024b47"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "a95e0c27cc03ab528b984461751d0aee3bbab88235618af0b9f2af8ed7ffb578"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-33dbf4/fp2k_result.json",
+      "bytes": 24810,
+      "sha256": "b90df806610ddc9d2eb6c247aef6a7917dbab5a93e8563eb79a2c1ad5e5c767c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/.xrd-progress-mv0wgjvr-x6djxgv1.json",
+      "bytes": 263,
+      "sha256": "203be325dbfea2f889849e143044a8271007efa6bf1ccc929eb2a24c0d3b1116"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "203be325dbfea2f889849e143044a8271007efa6bf1ccc929eb2a24c0d3b1116"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/FAP_pure_orbit_01.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/FAP_pure_orbit_01.out",
+      "bytes": 75641,
+      "sha256": "3171470609348fcbad679d70df5927376741237c629c42eeae0bb0d61ee5b8b0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/FAP_pure_orbit_01.pcr",
+      "bytes": 3804,
+      "sha256": "47dece5874673bca892da42d49937187b166e7cc647de681dee1f8f26a124fb1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/FAP_pure_orbit_01.prf",
+      "bytes": 340777,
+      "sha256": "aa21d989e4fc62fa78c8b88e8adf391db56c152230e52bc4cb739c1f5b630828"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "218adeb7f555c10254cad28b7796c6aeae0e036374c5accefdb20c41b8bd71cb"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "48fc922ade190ae55ce18551060b66fc90167132589fcf18153e3c9ba6cc7816"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "9f2715af405cabcbfdf9fd37c870c15bae418662e6ce399753e9f50af2cf0e27"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3804,
+      "sha256": "47dece5874673bca892da42d49937187b166e7cc647de681dee1f8f26a124fb1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "5afad3e770600011546ccfdc8267cc41385a39985a2e3e3063d9fb005aefc0cb"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-41a465/fp2k_result.json",
+      "bytes": 3904,
+      "sha256": "21158764d07ea45deeff0650fb9a3840363b1db8dc2cc8995d601e5453a3b051"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/.xrd-progress-mv0x5i8v-6rd5m5nj.json",
+      "bytes": 262,
+      "sha256": "6b4c9a36e0d0188c92ce038afe37702942d28b6523169eb8f3cc8fecd505cf2c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/.xrd-progress.json",
+      "bytes": 262,
+      "sha256": "6b4c9a36e0d0188c92ce038afe37702942d28b6523169eb8f3cc8fecd505cf2c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_01.new",
+      "bytes": 3954,
+      "sha256": "c71874eff9d2e4a2cf0d8e14279275688184d3f08fe7e2765e12e6a6607d08fd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_01.out",
+      "bytes": 398440,
+      "sha256": "69b5e6c0b6a564ef932ba93d3546685bf42cb42bf4ef90e57f4af6286a5730fe"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_01.pcr",
+      "bytes": 3886,
+      "sha256": "20dd448aaa121a20ad47783f862ea4b955064987bb6cadfc6fbf72ead48a3ce4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_01.prf",
+      "bytes": 339763,
+      "sha256": "81e5661eb0ff69e5eaf095f3bc2ffdf176a55fe4bc01bc22eb6d2ba01a6cbb47"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "67a29315466acb350ede7877646fd446fc274c2d5b9b95f268ce40de8364a08b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "ad7dcbaead5667a5a10f481c3f54edb9413d867567384ca2121a3cdbd27b3083"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3886,
+      "sha256": "20dd448aaa121a20ad47783f862ea4b955064987bb6cadfc6fbf72ead48a3ce4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3886,
+      "sha256": "20dd448aaa121a20ad47783f862ea4b955064987bb6cadfc6fbf72ead48a3ce4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "c20b5b023baffc0bbbe31510e9ed1790ef90d86af8108e0f013d9f1b2bda6721"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-531359/fp2k_result.json",
+      "bytes": 3666,
+      "sha256": "fd7de3ecf83bcca0f7288badca17829fdd93c9c3050652bcac1509269f650c8e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/.xrd-progress-mv0wwyt5-kxj40sma.json",
+      "bytes": 263,
+      "sha256": "6175fb9da061dd083288ee9a423fccbebc5e0fb4331e5020ca8390abd9ae281a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "6175fb9da061dd083288ee9a423fccbebc5e0fb4331e5020ca8390abd9ae281a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/FAP_pure_orbit_01.out",
+      "bytes": 129139,
+      "sha256": "936430e8400f2adef3518a690dddbbe2e9c5d58d3eab4aed53dd9bbc5ad66668"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/FAP_pure_orbit_01.pcr",
+      "bytes": 3798,
+      "sha256": "cd39d01ded4aadbc54a2f59c35e7f7105f1fb21ad686b261a427b3a30563b519"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/FAP_pure_orbit_01.prf",
+      "bytes": 340777,
+      "sha256": "42762e0bc7e15a8efb9525f9f4b1fd29491a6b8b2548a058498703bab1631377"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "48931273daeb79bd27f55d5413b8940b53755e76c118d12f4eca89cc1949e197"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "f39cd783e2ae8ae75f208b9cc7a95aed477d734852f43b84ecfb92e4d4d5668d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "6efe6a8308a0dee73c20be53f6f672e63aeb4fa122506096e42f2f610f6d3ae3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3798,
+      "sha256": "cd39d01ded4aadbc54a2f59c35e7f7105f1fb21ad686b261a427b3a30563b519"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "cc45d2079e5b2a517c930c5d831f7a8883cf0c85a1c93a8e355d7a695f564012"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-5cddff/fp2k_result.json",
+      "bytes": 3666,
+      "sha256": "bb76615a4d5485adf3ab1d58c84e0929b5e8a003c3a7345cfff637cc4493579e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/.xrd-progress-mv0wmfbz-uudoex91.json",
+      "bytes": 263,
+      "sha256": "93ee71d2364ca4c645021a567cd799c71ae7db2a0ddbabb26b0a102832d6b476"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "93ee71d2364ca4c645021a567cd799c71ae7db2a0ddbabb26b0a102832d6b476"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/FAP_pure_orbit_01.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/FAP_pure_orbit_01.out",
+      "bytes": 170237,
+      "sha256": "da93a74ee33cdc0f2cf6cd2d4bd13e3d6893d1e774ad88ff55b74703ed433015"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/FAP_pure_orbit_01.pcr",
+      "bytes": 3797,
+      "sha256": "489007f4296bf6480fa1fa53ce8b6fd6e05ea0e36a45a54afaaa47cf7c97e4be"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/FAP_pure_orbit_01.prf",
+      "bytes": 340777,
+      "sha256": "2cd8510d75d0d3bf820e0ebeb7378650461320e946e5ce21c5dc232fb58e4c2f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "dc9225407897862293e7f6510bf8eff8daa25d608aae5659e976506799865853"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "48fc922ade190ae55ce18551060b66fc90167132589fcf18153e3c9ba6cc7816"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "9d3c6236a40dabc5849754365d111744ffeadef417f173d0bb4999588f24fb0d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3797,
+      "sha256": "489007f4296bf6480fa1fa53ce8b6fd6e05ea0e36a45a54afaaa47cf7c97e4be"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "c0bf3aa4123f9feb5f363a81117db1c13b8816d0791e18af446046489d940e3e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6b02ab/fp2k_result.json",
+      "bytes": 3689,
+      "sha256": "7d6c5215857b7d63c8ceb83b9cfada4c0b11a3e6bddbbe8302e283262880f57a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/.xrd-progress-mv0xaoj1-louqmon6.json",
+      "bytes": 263,
+      "sha256": "37d9119ff5ef2986a3b1664f67c2585a6928ebed0bed6761c8996d1d12f97128"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "37d9119ff5ef2986a3b1664f67c2585a6928ebed0bed6761c8996d1d12f97128"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_01.new",
+      "bytes": 3954,
+      "sha256": "d3d3a8dc3c74cd0883973a15cf5df85c15fd2331d2f4396492134c50d1b683d4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_01.out",
+      "bytes": 396339,
+      "sha256": "69dba0dfc352d467ff09f3b7c6520e1d0d2a29f539547ec45a117390350d4242"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_01.pcr",
+      "bytes": 3884,
+      "sha256": "2feb60e92cf74bd716ae8ef9912a7edbde19ede2efe06ad0266d67b15ec2bdcd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_01.prf",
+      "bytes": 339763,
+      "sha256": "82752edadcb4c7d1dcb6bb811133ca2bee3b0e19b1826159579a88cac3c376d7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "944fc009782d6dfda6435acbd7baf71742fd35f83c14e98d0d00712d582ec189"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "d8505bd047d3e33bc839770ee130383a403946842caa2957e4f259c0da5afb70"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3884,
+      "sha256": "2feb60e92cf74bd716ae8ef9912a7edbde19ede2efe06ad0266d67b15ec2bdcd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3884,
+      "sha256": "2feb60e92cf74bd716ae8ef9912a7edbde19ede2efe06ad0266d67b15ec2bdcd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "607c78dc9c9eff5644af99aae403a73a1a24fb778d6f5f2227cb26643679e43c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-6eef42/fp2k_result.json",
+      "bytes": 3663,
+      "sha256": "40c0517c852a48e12afb5a163ad933aadecf0423e33ec703d70ba692b15ff2aa"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/.xrd-progress-mv0wzmtw-tj3bzhkn.json",
+      "bytes": 263,
+      "sha256": "21ad46d159beb5d6647fefa7e3e2117835fc24512fe6d6f991b4e4c420ba7c95"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "21ad46d159beb5d6647fefa7e3e2117835fc24512fe6d6f991b4e4c420ba7c95"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/FAP_pure_orbit_01.out",
+      "bytes": 113792,
+      "sha256": "a60d5ee84806dde18313effb094d8d22a26f390ee0cd9b6444e947048a422875"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/FAP_pure_orbit_01.pcr",
+      "bytes": 3880,
+      "sha256": "6fdb009044a3bb3c5ae131bf031986e05ca630a93b6fcd99b358168511719d86"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/FAP_pure_orbit_01.prf",
+      "bytes": 340543,
+      "sha256": "3324ceffc242735b70a3d1f7c931940f77fcce34da1fa50d0e95be25802ecdb0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "5f458cb403c545b2a62f4b7bc4066ae47893e043c488fc699bc12c9beb23da71"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "0d0856d131eea81372614e74542a14cad6a8e029201b748e57215ac013722a6c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "ae76042e5303770c2074e7cfabbb3ef536d62e4f32e3854bef67053b1574437e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3880,
+      "sha256": "6fdb009044a3bb3c5ae131bf031986e05ca630a93b6fcd99b358168511719d86"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "b12c6fbb18723fdac70c6fca9fa3d86c3e8b90a1950f4ae1e915ffc903dab053"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-9e71e2/fp2k_result.json",
+      "bytes": 3666,
+      "sha256": "92f86ff3d9c2029c417bdec6bee34b02813817b08b413734113e1152b469b137"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/.xrd-progress-mv0x41r0-ql7nwlum.json",
+      "bytes": 263,
+      "sha256": "a187dfda8bd8666a7c84408f64465df4cdaea2c725d94bf1ba9f4b2bcb4ef1ab"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "a187dfda8bd8666a7c84408f64465df4cdaea2c725d94bf1ba9f4b2bcb4ef1ab"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/FAP_pure_orbit_01.out",
+      "bytes": 412478,
+      "sha256": "ae3ee1292575ce43f65171fb1db43ed8b52993ef9db6e1c42be737b68c9068c7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/FAP_pure_orbit_01.pcr",
+      "bytes": 3880,
+      "sha256": "45a9bd65c458f62d19dda0cd9710069a55d97a513d1ef70e7d103cc46e40ea3f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/FAP_pure_orbit_01.prf",
+      "bytes": 340621,
+      "sha256": "e2fa16bb3aca41868ecb846df127b8f52e5a6aca288d0538cdfcefa7228356fa"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "1e9f04aa91f953377a23a9a48c5623acf7c50d7bdc686829a794980eba11cfd4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "87330da22711c72e011ef879a93ef8e3fc3a584b2895a3f387e682b165e061da"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "159a4a3866dbf6fe046572e8720aeea2f2a2eb57c50c8acef04d3e8a8770cc0f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3880,
+      "sha256": "45a9bd65c458f62d19dda0cd9710069a55d97a513d1ef70e7d103cc46e40ea3f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "f249f58f0ae88e494a83ff4a4076f917616a499a62c977388c960252742aec77"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a15868/fp2k_result.json",
+      "bytes": 3666,
+      "sha256": "4c42da8a0bd87fbbfe950fc2787f5acd168f68111a2d91233a601081e6f549ce"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/.xrd-progress-mv0x68ad-gc6hj9ab.json",
+      "bytes": 263,
+      "sha256": "89be44535bf25fefc91d28ec8a870edab5f776c46f41e1cdaf3b881b16c8ff8e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "89be44535bf25fefc91d28ec8a870edab5f776c46f41e1cdaf3b881b16c8ff8e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_01.new",
+      "bytes": 3954,
+      "sha256": "d82c8441cb937ddbfc6b876062bc40a941c09c19d202dfed652c0f91adebbe19"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_01.out",
+      "bytes": 397103,
+      "sha256": "75532f8565372e319f7a0c6d35646a49e748a8d08bfa94bc7282e0ac4636631c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_01.pcr",
+      "bytes": 3883,
+      "sha256": "8da71edf9e6bd8925b9982e4697b020c5eae372ad85d3b98e538f7d86f454158"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_01.prf",
+      "bytes": 339763,
+      "sha256": "4dfa038ab51d9dfae8ee873e0f755a5393d3d48b32bdca3dc023ed191724b9e9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "523e99c1ce2f6fb229bcce4a5f53083c71364bea2ef5adb4d47847e2ee9fdba7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "ace5a36f50846dde27b300fa348a30fe12dddc72da56c8af8382d5be9290586b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3883,
+      "sha256": "8da71edf9e6bd8925b9982e4697b020c5eae372ad85d3b98e538f7d86f454158"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3883,
+      "sha256": "8da71edf9e6bd8925b9982e4697b020c5eae372ad85d3b98e538f7d86f454158"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "4e8bfbe96dd73838232f2c8d3564a3e98c44a8a1014dc02e51d3dd72475cbd52"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a3f892/fp2k_result.json",
+      "bytes": 3666,
+      "sha256": "b05831acc41f0d09aee3515f46cb99184600159394feaa8e82d5cc0a47cc1b5e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/.xrd-progress-mv0x1ehc-6mbzx1zj.json",
+      "bytes": 263,
+      "sha256": "075ba74b4f03847f33922568cc757d14439d6b0e1c21a148fb0fc91a466856a9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "075ba74b4f03847f33922568cc757d14439d6b0e1c21a148fb0fc91a466856a9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/FAP_pure_orbit_01.out",
+      "bytes": 161502,
+      "sha256": "126c907f1824cf56c238b3fba2b7e84cf7da9ff342b199aef90e9e1dac62d79f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/FAP_pure_orbit_01.pcr",
+      "bytes": 3880,
+      "sha256": "b2617f201f8b6a8d1e92ea9642f1597c1dd73ce1e2aa0c0871153d0e8e0578bd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/FAP_pure_orbit_01.prf",
+      "bytes": 340543,
+      "sha256": "3a315d51953ee797c822371c4589ae9352aa933b916de94d0e517ea12c833b43"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "19c6833d1d43fe14abf83d989a4353ead4dcf42363e5dba0d7f8832b4cf7d838"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "56a576b96e567f93874c88b047ab58c2b5e157613638dcd3d9218069cd5466eb"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "fa45906867ec71569bdc5dcdb1457606e2f76f3920d40eaf9978e606ca3fb2a4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3880,
+      "sha256": "b2617f201f8b6a8d1e92ea9642f1597c1dd73ce1e2aa0c0871153d0e8e0578bd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "300e60f1b73d750405ef806bc3cd7195b41e3905be68a1e892d462a5013ac19e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6b09f/fp2k_result.json",
+      "bytes": 3663,
+      "sha256": "35778885603688e83180c5e48663b20e503e97c029310d917dc6418b11513620"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/.xrd-progress-mv0x0r5i-umiy3ed0.json",
+      "bytes": 263,
+      "sha256": "b825442f5e0c8f6dad73028e59e82cf2526f6b7199d05d200d1b5462783f65ae"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "b825442f5e0c8f6dad73028e59e82cf2526f6b7199d05d200d1b5462783f65ae"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/FAP_pure_orbit_01.out",
+      "bytes": 119560,
+      "sha256": "ad2af82027e6bf50b330fb856419dd960a95f7153d1fb3ea0bae39d6e1cd2f2e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/FAP_pure_orbit_01.pcr",
+      "bytes": 3880,
+      "sha256": "2691a5b7e2b9e6bfe6ee6078922b95fb08f7a4ed77ab21e606e04fc1ef94bb29"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/FAP_pure_orbit_01.prf",
+      "bytes": 340543,
+      "sha256": "9610c632c330f3d27c80c98cae5cedfb6bc7471936427964eea0653b9ba84668"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "dd0ebeeeaa9fd44a5268e76565ef2a2a2cf52145d51b4c4b90889263f80bd6b1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "a5b0c88778700dd2864a9b490eb519b294cb57c11bf6db0dfe2b4618036519a3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "695afeb208ec79ac83d96e13c668853aab6b0914c96370efb38e5d28c3d50ff0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3880,
+      "sha256": "2691a5b7e2b9e6bfe6ee6078922b95fb08f7a4ed77ab21e606e04fc1ef94bb29"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "beaa6b235d5d61e22c2e50c9783bb428bcf5d6622159a9bfb764c8fb2be997ce"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-a6f10a/fp2k_result.json",
+      "bytes": 3666,
+      "sha256": "b5bdad6efd47f63d10168431c30393fd6da26e63501da90826f551267aa27aaa"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/.xrd-progress-mv0x2t64-3hccf0yo.json",
+      "bytes": 263,
+      "sha256": "0cff4b196a48b295ba190815c7adf3ec1c1381efd251b636c6e4913ba3836592"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "0cff4b196a48b295ba190815c7adf3ec1c1381efd251b636c6e4913ba3836592"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/FAP_pure_orbit_01.out",
+      "bytes": 15739,
+      "sha256": "ff9d2577cdf6ec4b49c5085afb20b6558130a30058748f3e612ad1207f19f921"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/FAP_pure_orbit_01.pcr",
+      "bytes": 3881,
+      "sha256": "2fdc1a519f65a90662f5fb36cb0f936b5e6c46620196ba1ee1a4e16b3059047e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/FAP_pure_orbit_01.sum",
+      "bytes": 1923,
+      "sha256": "c37641170b4712f26036345be25a81a33b5accc67aefcef6111b7ec2e22c0ddd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3881,
+      "sha256": "2fdc1a519f65a90662f5fb36cb0f936b5e6c46620196ba1ee1a4e16b3059047e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "b8d963cde064e1b423720c577a60984c1b3c53f0b81be33bb02c351afe6751c5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ad1028/fp2k_result.json",
+      "bytes": 1286,
+      "sha256": "8f5bd2ad638791aa6de606ef77b6154bb3c1481d2178ff2f8e6e39325c7223bc"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/.xrd-progress-mv0xboea-ozb8ql6o.json",
+      "bytes": 263,
+      "sha256": "bab6a338a6883e947e5c70b94aad03d9c61be6d01f4deeb73c9d119b4e00fb13"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "bab6a338a6883e947e5c70b94aad03d9c61be6d01f4deeb73c9d119b4e00fb13"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_01.new",
+      "bytes": 3954,
+      "sha256": "ee9cc9ed3dcfeb0839f1ff8f5f1c6554f3caedebd4d6c74b0e07157f8ea4c8ec"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_01.out",
+      "bytes": 343690,
+      "sha256": "51b0b71cdcb46b3d8227bc65515cae7e9ad82c538657ef77fe63fc71517da67e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_01.pcr",
+      "bytes": 3887,
+      "sha256": "b0a4938c0dc184d79d94929ed143a00edfbb839aa5f3794b0b76f1f30eba2286"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_01.prf",
+      "bytes": 339763,
+      "sha256": "1189a0fe0899aabac9e8b356a4b3a0677e9d06c756bb3ca179fe612de2498b21"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "b2576971e0b0bfdaff4d9e6344a942e55b9f2c8346d483686f9e4cdc887f12bf"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "633c8936741c1865bf3e919972d38d056756fb44474669b95257b99dc8b8e580"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "b0a4938c0dc184d79d94929ed143a00edfbb839aa5f3794b0b76f1f30eba2286"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3887,
+      "sha256": "b0a4938c0dc184d79d94929ed143a00edfbb839aa5f3794b0b76f1f30eba2286"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "6db3e2952800707369a83cc71ee5fecdcd0eb6954ad1818b0883134ec9f51482"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-ec13c6/fp2k_result.json",
+      "bytes": 3666,
+      "sha256": "201df5da36bf58763b236ebf167585e9859bd4d19f64343cca12e6467721e70a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/.xrd-progress-mv0wua5k-x9lea8iv.json",
+      "bytes": 263,
+      "sha256": "5d34f548886f6a0b6597ac7e9f21f3e0bfc097156e7310e15fa1994c7dec7935"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "5d34f548886f6a0b6597ac7e9f21f3e0bfc097156e7310e15fa1994c7dec7935"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/FAP_pure_orbit_01.out",
+      "bytes": 128757,
+      "sha256": "fc464945040646927acfb2fd10838ef022ead31ab749f2cac13ff94f7225f773"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/FAP_pure_orbit_01.pcr",
+      "bytes": 3797,
+      "sha256": "489007f4296bf6480fa1fa53ce8b6fd6e05ea0e36a45a54afaaa47cf7c97e4be"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/FAP_pure_orbit_01.prf",
+      "bytes": 340777,
+      "sha256": "45cfdb5621fafe7d31cfbb9dc3d7ab6a0060c48d28d1294d16f57515c29db314"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/FAP_pure_orbit_01.sum",
+      "bytes": 6467,
+      "sha256": "e23d532a436313bfed4c7bf531986ba8ea30476533d2e2e7d91b65f959c3ba32"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/FAP_pure_orbit_011.fst",
+      "bytes": 759,
+      "sha256": "48fc922ade190ae55ce18551060b66fc90167132589fcf18153e3c9ba6cc7816"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/FAP_pure_orbit_01_baseline_end.pcr",
+      "bytes": 3887,
+      "sha256": "e31126925011af33593cfb8faa58a9e1d87a503fb9d5f0300622b2be5ac5f7c5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/FAP_pure_orbit_01_baseline_start.pcr",
+      "bytes": 3797,
+      "sha256": "489007f4296bf6480fa1fa53ce8b6fd6e05ea0e36a45a54afaaa47cf7c97e4be"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/fp2k_plan.json",
+      "bytes": 512,
+      "sha256": "6b246bd1e31fcd7ec93feb6674760eea38533ba240788b18bafc69169722eb93"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.fp2k-work-FAP_pure_orbit_01-eed193/fp2k_result.json",
+      "bytes": 3666,
+      "sha256": "e9c4884ada21bcb8ec788e536de6c81cc87538aa2e0c41f6daa69e876fc08455"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.mpl/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "0827bfd8e651bfee42d6ddca04cc48f0637bc24f1f3c6bd02e2ec086da59b66a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-ladder-best.gpx",
+      "bytes": 495772,
+      "sha256": "2f56a2720319a2ce63fa622251342be4d40b7f456377220a635e2c5f573ffd1f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-ladder-snap.gpx",
+      "bytes": 490993,
+      "sha256": "7b24f597f360029ee97aa41cc0180bfccf4460b2cbf9f73a5e12ca38146faddb"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0w6mt5-s9lk3u11.json",
+      "bytes": 276,
+      "sha256": "5afca0919e5ee93315cf88eb55b153f76241921eab77b42a71d5f6561ee6417d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0w88dx-pzvr6h7j.json",
+      "bytes": 273,
+      "sha256": "cc616b6da69cc5e2110e7435ec09008834b465f03e9a67cc8d24df44e315f87f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0xhfrg-uru9h274.json",
+      "bytes": 274,
+      "sha256": "e19252fb120bce4d5649bf6a223bd1f18ae4c4b1549e9a3fa6e5187aa3e13b38"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0xv48k-2sg5d8gi.json",
+      "bytes": 274,
+      "sha256": "90bc308499cba4378f81d5130d80febf5314e9b05a14e58c8dc831d8b7b48397"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0xvz5q-izo52j7j.json",
+      "bytes": 274,
+      "sha256": "3221d1ca278d71c3559599cf35c4ee7aa7638cca6f65c4ee49e16a8bccec193a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0y4c0c-cuxswr0v.json",
+      "bytes": 276,
+      "sha256": "9ee2bc7d6f904c48569a44fd72bfa6defb1be4c48095b15c6888adf25928d261"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0y8eml-lepzdghx.json",
+      "bytes": 276,
+      "sha256": "8dadc5c2cf9f3904ddd171c225c5f3146f1e5de08a69d9334c34401dd5e18374"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0yaxui-nsqm0nrr.json",
+      "bytes": 275,
+      "sha256": "03ffd73e3f0d7027449157bac23cd2e728e5a47e8fade5ad48e73a79006d4e23"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0ycmnu-dil8jvkj.json",
+      "bytes": 271,
+      "sha256": "32d7421884e00c1308ad34cade947fccd9feb3ed2ef31b7597365bb246c2cbf4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0yiast-f9t9hm9z.json",
+      "bytes": 269,
+      "sha256": "21b8653670649081bb630de7286294646208c4095e93deea052704cc2411cca2"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0yiki6-gk7vdjge.json",
+      "bytes": 270,
+      "sha256": "c3deffce8c67c447dade35fef930ec9e95e2f8fb7c2aeb9839691441c87c9777"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0yiuaw-vn2vdkmn.json",
+      "bytes": 270,
+      "sha256": "96b53fe62cea14ec95906774d0f1a8c78d3cb606904bf8f29ed3963e8cfb9916"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0yj61r-ou8u6ziq.json",
+      "bytes": 269,
+      "sha256": "40068988924d4475e51ac34982b58dbab59ae62218f924a955a68ea7f0b08501"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress-mv0yjfqw-6978vhfq.json",
+      "bytes": 270,
+      "sha256": "a26c135013a93731cce87b16b364feb98c3b6d5802281724d69b225e4bc38050"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/.xrd-progress.json",
+      "bytes": 270,
+      "sha256": "a26c135013a93731cce87b16b364feb98c3b6d5802281724d69b225e4bc38050"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cif_edit_plan.json",
+      "bytes": 292,
+      "sha256": "240a805ac1d1351f9eca56850a62e8f5f2547a36653985455c3ec52126ed3632"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cif_edit_result.json",
+      "bytes": 5782,
+      "sha256": "17aec4e75471b8760677f7bd3b758c49551479fc74c8065c99e25997e92efbd4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/.xrd-progress-mv0updak-47nii5kc.json",
+      "bytes": 263,
+      "sha256": "ae7cdf1c745d185e009e2411b24dc4b2d148696f1b7d3b8d3327873dd56ef947"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "ae7cdf1c745d185e009e2411b24dc4b2d148696f1b7d3b8d3327873dd56ef947"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/cod_1010996.cif",
+      "bytes": 2708,
+      "sha256": "515121b14c430d625fbe78a151379663abd27e14798710b2a36b9af226c3b165"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/cod_1010996.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/cod_1010996.out",
+      "bytes": 75623,
+      "sha256": "2d8dd95e0755f3171bf40e527bf13fe4d6beae9bf54a968e62fe2c9de5908520"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/cod_1010996.pcr",
+      "bytes": 3780,
+      "sha256": "06d275709e31483c0de71bcc19d357803e5da745965658c50f3a13e50b8174c7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/cod_1010996.prf",
+      "bytes": 339757,
+      "sha256": "0381ece7aa18d84ccb61107fabad58c2bca2861024c019c0755819d56c5a10d2"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/cod_1010996.sum",
+      "bytes": 6449,
+      "sha256": "d08d3a82c53a4d6d7ffe9cea918877bfd9eed5e7d0ea7d51d0015f676c3af78c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/cod_10109961.fst",
+      "bytes": 759,
+      "sha256": "8d11efaf23594f1b21b50e01266f6fdcd7a738c1d786565f9a1be98d032b3918"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/cod_1010996_baseline_end.pcr",
+      "bytes": 3863,
+      "sha256": "45c207bf1714cb3d5cce5a7346eb4054b796fb57f6cec132926c28e7f5623403"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/cod_1010996_baseline_start.pcr",
+      "bytes": 3780,
+      "sha256": "06d275709e31483c0de71bcc19d357803e5da745965658c50f3a13e50b8174c7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/fp2k_plan.json",
+      "bytes": 520,
+      "sha256": "a9e68181d680931fb9783ae69a517079d52c5b45c2bfb49e5ad89429c62ed170"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-d40a7b/fp2k_result.json",
+      "bytes": 3891,
+      "sha256": "411b9b15ddfb7c5740e8dc58389ea16084b92bee40e810010cf1d892c7fe92fe"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/.xrd-progress-mv0uuunp-me8rvxfj.json",
+      "bytes": 264,
+      "sha256": "bab4a305abac99f46f3eb3d8266425224dcf32bd96bb30470d96b6c1c273c37c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/.xrd-progress.json",
+      "bytes": 264,
+      "sha256": "bab4a305abac99f46f3eb3d8266425224dcf32bd96bb30470d96b6c1c273c37c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996.cif",
+      "bytes": 2708,
+      "sha256": "515121b14c430d625fbe78a151379663abd27e14798710b2a36b9af226c3b165"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996.new",
+      "bytes": 3930,
+      "sha256": "240aa49c8555cef615a17721043ab509ce0b00433fa3077d02a55c059c5abf41"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996.out",
+      "bytes": 172505,
+      "sha256": "d6245458a443f05f0e1f937a7c7e915cdec7584a7fceac6b8ba61c215a62061a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996.pcr",
+      "bytes": 3537,
+      "sha256": "7800d17d9e2080e6df24c012c7a353b3e8693bfdecf0998c45394f48afd94ab9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996.prf",
+      "bytes": 339757,
+      "sha256": "ef828a3220fc19cfe86b0ab5fa55c048f7cfaca85e764bfe6cf2dc506bed3b85"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996.sum",
+      "bytes": 6449,
+      "sha256": "d5cdc582e0305ecfc3a8ea8b98131f3a6fda12beb70dd3552b7e0a1c364058a0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_10109961.fst",
+      "bytes": 759,
+      "sha256": "05b274ecfedf433fbcb98b00fae17f0e3743fad37d2d427e9bffe480a8e5d455"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_baseline_end.pcr",
+      "bytes": 3863,
+      "sha256": "45c207bf1714cb3d5cce5a7346eb4054b796fb57f6cec132926c28e7f5623403"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_baseline_start.pcr",
+      "bytes": 3780,
+      "sha256": "06d275709e31483c0de71bcc19d357803e5da745965658c50f3a13e50b8174c7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_final_end.pcr",
+      "bytes": 3863,
+      "sha256": "2efb3aa170f2531877b41542c9eede093934c9cac478634585cb3c7fd772e65c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_final_start.pcr",
+      "bytes": 3537,
+      "sha256": "0ff7afea3aa30cb831f4b4c2ea41672979e8c363251e5a4d017f19433bae4147"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_fp2kbest.pcr",
+      "bytes": 3537,
+      "sha256": "7800d17d9e2080e6df24c012c7a353b3e8693bfdecf0998c45394f48afd94ab9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step00_end.pcr",
+      "bytes": 3863,
+      "sha256": "115c485b445330df2b861de23860cbdc6e8e92b34b4bf5051c2a92f73b9118b0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step00_start.pcr",
+      "bytes": 3841,
+      "sha256": "fb51ea1070cc8494473d51deab44640fb547fccbf367aaeefe4410579bd7e3e6"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step01_end.pcr",
+      "bytes": 3855,
+      "sha256": "4420fb167f83c11641107851ad8f819a6416541beca5f1c415067429d344d95e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step01_start.pcr",
+      "bytes": 3855,
+      "sha256": "4420fb167f83c11641107851ad8f819a6416541beca5f1c415067429d344d95e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step02_end.pcr",
+      "bytes": 3863,
+      "sha256": "bc4259d7be1b81154d291da64112eafd167f025019417ec56af8bc48d8f405af"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step02_start.pcr",
+      "bytes": 3826,
+      "sha256": "b3aa151d72323b64ff967d31ee09045c75e245d4e932c96fb0762fdaf5d0bb90"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step03_end.pcr",
+      "bytes": 3863,
+      "sha256": "8ca6cec4bcc954653e6f14984737f0236209413ec5394ec3648089145f3852e3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step03_start.pcr",
+      "bytes": 3818,
+      "sha256": "e4aa10c68b1c91f73e157617ed773e8f77cf2d2aa59d1f33d48592dc3f0eb0f7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step04_end.pcr",
+      "bytes": 3863,
+      "sha256": "a21abe494bb6e3c49322f1b1957eb222d2536464962696e4044fe42659236c40"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step04_start.pcr",
+      "bytes": 3802,
+      "sha256": "0b8e1b4885f2d73c1f688afb9527a01ed6740fd0bd839c70b095fdf739596c3a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step05_end.pcr",
+      "bytes": 3863,
+      "sha256": "28a9eca02ca1168acbb05210588594ae3ea45cd881dabe64b0504dfbbe6e6dd6"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step05_start.pcr",
+      "bytes": 3802,
+      "sha256": "eaa63d1d839792fdddcae03a68991593f34053dd2a6dddda1daae2e2b105ff2e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step06_end.pcr",
+      "bytes": 3863,
+      "sha256": "b55a53a19b732915aab3bc2393c0ef8b2d3a544bc04903b3b9033e895c919629"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step06_start.pcr",
+      "bytes": 3798,
+      "sha256": "c81b3d0ac4c78b4e5f48802563a2d85cd075becb9299240cb2401bbe8759c2e7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step07_end.pcr",
+      "bytes": 3863,
+      "sha256": "0a910001d2caf01b1fdbb321e1c6ad43368098a790226f1694580fa2f8bab8b7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step07_start.pcr",
+      "bytes": 3768,
+      "sha256": "3f4e56b464314367b0d0ca2025e9f0f6f8722fa598e1640e1f0bbe4e39c22710"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step08_end.pcr",
+      "bytes": 3797,
+      "sha256": "4148e92c662d3dd6241c635b92b5930adf98f912a914a06ebfa3d39bf6579e11"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step08_start.pcr",
+      "bytes": 3797,
+      "sha256": "4148e92c662d3dd6241c635b92b5930adf98f912a914a06ebfa3d39bf6579e11"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step09_end.pcr",
+      "bytes": 3797,
+      "sha256": "5b90ee67c0b43b1df4e422f18553f530c043f690c2a7f811453a892423bad562"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step09_start.pcr",
+      "bytes": 3797,
+      "sha256": "5b90ee67c0b43b1df4e422f18553f530c043f690c2a7f811453a892423bad562"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step10_end.pcr",
+      "bytes": 3797,
+      "sha256": "e299ed89049b6c075308798a39267eb96335f154b13a495cfa5bdeb25877ac76"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step10_start.pcr",
+      "bytes": 3797,
+      "sha256": "e299ed89049b6c075308798a39267eb96335f154b13a495cfa5bdeb25877ac76"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step11_end.pcr",
+      "bytes": 3863,
+      "sha256": "895f84da789ad75192b39b349682499923b4771863c8977e1e41d18d21955c31"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step11_start.pcr",
+      "bytes": 3797,
+      "sha256": "ebdf4d2915d0e1926027c158f8c4c4aabf58734b950a34e1a5dd306d32fd18cd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step12_end.pcr",
+      "bytes": 3863,
+      "sha256": "7a48837207c9e0db2c78f1223c8fe74993721149b3d00586fb3071c503e16e76"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step12_start.pcr",
+      "bytes": 3768,
+      "sha256": "6597a95ab4a0d7d6318c1a61858dc1a41703feec484ca007e950771a34d38713"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step13_end.pcr",
+      "bytes": 3863,
+      "sha256": "9411e4abd69356f336e6f31e1b833cd0a28da68d3a97cf5b03ec2062e3d2dc92"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step13_start.pcr",
+      "bytes": 3768,
+      "sha256": "295661feb9b47afe9e014363a172ec69b904b440a8fc36190148b3613fd3e29b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step14_end.pcr",
+      "bytes": 3863,
+      "sha256": "9a6e14351c98233353c7e3f6e01534a987c92b07c0a0335892eac11f58d920b0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step14_start.pcr",
+      "bytes": 3768,
+      "sha256": "a7f3ab4690cd9d170b03a2189d521683c8356590aaab9d5632721642836870e8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step15_end.pcr",
+      "bytes": 3863,
+      "sha256": "898796a10973e95c7bbd8a38e6f2b7e27c3c97c8f11321ce88b86181cb2bb9c9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step15_start.pcr",
+      "bytes": 3768,
+      "sha256": "81b57261acac166f6b7f6081e487163e5d9d2f8e7ca9d70d6d5b63a235a2c840"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step16_end.pcr",
+      "bytes": 3863,
+      "sha256": "127f22ad9ec331b03d2e263f91aa77adf862916ca4635d4246d812435e546145"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step16_start.pcr",
+      "bytes": 3537,
+      "sha256": "7800d17d9e2080e6df24c012c7a353b3e8693bfdecf0998c45394f48afd94ab9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step17_end.pcr",
+      "bytes": 3517,
+      "sha256": "b43605a1814e0d49ac034b043bfda842efe8a24a07ac694ce6a3766d35065b0d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step17_start.pcr",
+      "bytes": 3517,
+      "sha256": "b43605a1814e0d49ac034b043bfda842efe8a24a07ac694ce6a3766d35065b0d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step18_end.pcr",
+      "bytes": 3516,
+      "sha256": "a21b1bbcdac33d3af737a7070c53203509af8ee89f5d96e530f1b1f5d967ff62"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step18_start.pcr",
+      "bytes": 3516,
+      "sha256": "a21b1bbcdac33d3af737a7070c53203509af8ee89f5d96e530f1b1f5d967ff62"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step19_end.pcr",
+      "bytes": 3535,
+      "sha256": "c27ecd5b5d576ad024cd2d4ab4ef2696c752e07821ca7610437fa807df2c6dbc"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step19_start.pcr",
+      "bytes": 3535,
+      "sha256": "c27ecd5b5d576ad024cd2d4ab4ef2696c752e07821ca7610437fa807df2c6dbc"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step20_end.pcr",
+      "bytes": 3516,
+      "sha256": "e98d85c7c80f0d9f7e744fe7448e13acecef34395cdee18ee2240ae57814d119"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/cod_1010996_step20_start.pcr",
+      "bytes": 3516,
+      "sha256": "e98d85c7c80f0d9f7e744fe7448e13acecef34395cdee18ee2240ae57814d119"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/fp2k_plan.json",
+      "bytes": 520,
+      "sha256": "7d30b5604730e7dfeb873c68abdae0d1e7aeeb2434279ef842504abf055fe477"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/.fp2k-work-cod_1010996-fef6c4/fp2k_result.json",
+      "bytes": 25190,
+      "sha256": "11f05985bbece06e46f7545983f08b12774b960f91304d991bbc2f4c4a2923f8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/cod_1010996.cif",
+      "bytes": 2708,
+      "sha256": "515121b14c430d625fbe78a151379663abd27e14798710b2a36b9af226c3b165"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/cod_1010996.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/cod_1010996.pcr",
+      "bytes": 4312,
+      "sha256": "55596ff742b580e7b74aec71d915f08c4991162ef1e585f9121202ca7440ab97"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/cod_1010996.pcr.prewavelength",
+      "bytes": 4323,
+      "sha256": "5b585650207fda31afd056902013fda5a5f1ea6f0996eb71b8c9202111f562ee"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/cod_1010996.pcr_check.json",
+      "bytes": 2549,
+      "sha256": "940eac3677cc8a23330927b7aa310789128d9c8c9336d994ae620f15368e8e7b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1010996/cod_1010996.wavelength.json",
+      "bytes": 403,
+      "sha256": "ae58bb73110dba64e65aa1762988c3169f8bd0f99f0d037ed93cdec5eaba6fda"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/.xrd-progress-mv0uwd7a-8u57defh.json",
+      "bytes": 263,
+      "sha256": "769a8f043a8096396691a8eb076fe5e3f14ebef52abed7925a840d3d940472a7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "769a8f043a8096396691a8eb076fe5e3f14ebef52abed7925a840d3d940472a7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064.cif",
+      "bytes": 2369,
+      "sha256": "ebb4acf25ad3a2df2f76e6e4eb9d58e08cf602f5402c5af77ce5ed3c71000345"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064.new",
+      "bytes": 4071,
+      "sha256": "1106f3b5453d10b724f02f0e23a94c4f9dcdd312296054acdf66f4dffae9710e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064.out",
+      "bytes": 77171,
+      "sha256": "1823bf626657f0a24d7fd2c605078b920c38e29c9e65d345cd9d9a37ff318b58"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064.pcr",
+      "bytes": 3907,
+      "sha256": "0b0e6c745aba1ce596093424bb53b8894add4955c3314b4626cb64a733d9cb99"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064.prf",
+      "bytes": 339757,
+      "sha256": "1fccab25df2ac435064e9aa718817c7812b7058c8718932c60b4ced35267eb46"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064.sum",
+      "bytes": 6532,
+      "sha256": "7500d417b9163e1b0ab497da984439a7d327f897792999c5842a1674ccbd99a2"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_15330641.fst",
+      "bytes": 809,
+      "sha256": "fadd7044b21661fd596b506ddbdfb6223fba36479cf148b9c56a72bfb229a812"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_baseline_end.pcr",
+      "bytes": 4002,
+      "sha256": "a99b0b7555df5c45a8d7b1f4ff03abc96a6292db24e33916a2d2f3d16c7cd8c5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_baseline_start.pcr",
+      "bytes": 3919,
+      "sha256": "0d5b3f9feded7b8515f3a095ee225466561c7197b3ebc43f29f725141af38474"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_final_end.pcr",
+      "bytes": 4002,
+      "sha256": "031b8335139406c1295786e34d3a416ca6cb5b8389a029cf214dba0beec1dc73"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_final_start.pcr",
+      "bytes": 3907,
+      "sha256": "0b0e6c745aba1ce596093424bb53b8894add4955c3314b4626cb64a733d9cb99"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_fp2kbest.pcr",
+      "bytes": 3907,
+      "sha256": "bd2df335cabe6057ca7bd13b461f927c7e6408103661ad8151dfc18d96435573"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step00_end.pcr",
+      "bytes": 4002,
+      "sha256": "19eaefe26226d3c388138be6f4ef28a7c777c7831966fa6edc0135812c146c48"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step00_start.pcr",
+      "bytes": 3980,
+      "sha256": "c930238b01c6f878cad6a3b246bcbd8aa498d6470503488e9d895c402d90da43"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step01_end.pcr",
+      "bytes": 3994,
+      "sha256": "bd25c577f08d9b3bf108814450d2e41299c1cce7a66cde1d78a51969b35e2c48"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step01_start.pcr",
+      "bytes": 3994,
+      "sha256": "bd25c577f08d9b3bf108814450d2e41299c1cce7a66cde1d78a51969b35e2c48"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step02_end.pcr",
+      "bytes": 4002,
+      "sha256": "e6e17366f6d0709725d22a2a9c994b71fca2928be11bc2469a2e36fb6d4fa646"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step02_start.pcr",
+      "bytes": 3965,
+      "sha256": "9cac2d960c865ef87c6c7f7492bf662a1a7c6b4a8a3791d007fc51932320a62a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step03_end.pcr",
+      "bytes": 4002,
+      "sha256": "91bfc57c4b41eb3e7092c060fd072128f0ec00e814e2094745f3ac304c401f0a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step03_start.pcr",
+      "bytes": 3957,
+      "sha256": "b2e7a7c66cfe16a692c87d05a12e49ba3c84e423be2f9d414ed4686e25aa055c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step04_end.pcr",
+      "bytes": 4002,
+      "sha256": "9163cbbedb611f7a2bbb8c0802823b198c3c5b9e30a0ce9b5e5795ddc13fd626"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step04_start.pcr",
+      "bytes": 3941,
+      "sha256": "4164b36b8325fe4f03763717f04e93f77511f7411396a1a98bbff30b34e7d974"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step05_end.pcr",
+      "bytes": 4002,
+      "sha256": "2816ac9bc24f88113cd5b32df30402d20741d15aa952b09a95fbab7c1063fa6c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step05_start.pcr",
+      "bytes": 3941,
+      "sha256": "eaddbdfe70df3504e93ccb8e7a82f405e924062ea0efc0fba6faacf6cdded4b1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step06_end.pcr",
+      "bytes": 4002,
+      "sha256": "0e9e52454a18f9ed0c7b26e4e24c1bc47bbf3089d75f092d17d8eac208eb61cf"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step06_start.pcr",
+      "bytes": 3937,
+      "sha256": "533418dde49d214786198379fad51300b5763019dee47a28c49e4aeff880e92c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step07_end.pcr",
+      "bytes": 4002,
+      "sha256": "250edaca59c8b2b31d14901be52537759022d070ba1dc2367cbe464399411200"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step07_start.pcr",
+      "bytes": 3907,
+      "sha256": "d859c0ca6b56ce69b423f11d5c44ce6f1acb56fdecdfdcd0e51dce8a58f10eeb"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step08_end.pcr",
+      "bytes": 3936,
+      "sha256": "9f8acbedb5d75edb636ed6654554d7bfd7d8150aa24f2aed5c1766689c3cf17c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step08_start.pcr",
+      "bytes": 3936,
+      "sha256": "9f8acbedb5d75edb636ed6654554d7bfd7d8150aa24f2aed5c1766689c3cf17c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step09_end.pcr",
+      "bytes": 3936,
+      "sha256": "cd8c846d1b41f85c6aaf26524da3baa893836baa787654cebf22777773e58063"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step09_start.pcr",
+      "bytes": 3936,
+      "sha256": "cd8c846d1b41f85c6aaf26524da3baa893836baa787654cebf22777773e58063"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step10_end.pcr",
+      "bytes": 3936,
+      "sha256": "c68003fa83a279a6fae9a117a42502f4adf63f354d6c62011a0d5684a32c036c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step10_start.pcr",
+      "bytes": 3936,
+      "sha256": "c68003fa83a279a6fae9a117a42502f4adf63f354d6c62011a0d5684a32c036c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step11_end.pcr",
+      "bytes": 4002,
+      "sha256": "d1a2fa64a985cff2d020083cab5648f675e4b64954571896b9c6599710b4f48d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step11_start.pcr",
+      "bytes": 3936,
+      "sha256": "92919ca10fd6ea1ddaa8908f78868b33bacd66b7710b96a22cb434654d719423"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step12_end.pcr",
+      "bytes": 4002,
+      "sha256": "5d9b705c316e851d160febd4c7dd435789647a87ab8f41c85c88609ff5aadd40"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step12_start.pcr",
+      "bytes": 3907,
+      "sha256": "f562372bafdeda7798d19832ea32614ff58fd6a68f2eab5c8df5330704cd3d29"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step13_end.pcr",
+      "bytes": 4002,
+      "sha256": "70dae21f2965c5c518deb436b8c141ebc440eae906e43634c74cb49555a8c6b7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step13_start.pcr",
+      "bytes": 3907,
+      "sha256": "bd2df335cabe6057ca7bd13b461f927c7e6408103661ad8151dfc18d96435573"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step14_end.pcr",
+      "bytes": 4002,
+      "sha256": "57467fc7c42ef442df2c3ed8c22b58c36202decc89231573cbb320fb4b58cc8e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step14_start.pcr",
+      "bytes": 3905,
+      "sha256": "83def87eb8cb23b6f4c83df25da77ac65cf5ef20749ae7d8b3a979116da1ca82"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step15_end.pcr",
+      "bytes": 3905,
+      "sha256": "6134700a534075fb8579d85f34c2c82c95e617fb0950b68e937a4204130cd2ab"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step15_start.pcr",
+      "bytes": 3905,
+      "sha256": "6134700a534075fb8579d85f34c2c82c95e617fb0950b68e937a4204130cd2ab"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step16_end.pcr",
+      "bytes": 4002,
+      "sha256": "27c6908ea89ae5cef73480cc9128a34dc73f01a9f018c0816ed72757df66e61b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step16_start.pcr",
+      "bytes": 3643,
+      "sha256": "a722f659e52a1b151f48735ea603c1bc14c422f709c5eb88d5a568c6acfc8532"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step17_end.pcr",
+      "bytes": 3887,
+      "sha256": "0179d0e2ffbb15f45e939301157d9304eb69e4949fc3ef2a8b3684cf86b9d066"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step17_start.pcr",
+      "bytes": 3887,
+      "sha256": "0179d0e2ffbb15f45e939301157d9304eb69e4949fc3ef2a8b3684cf86b9d066"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step18_start.pcr",
+      "bytes": 3691,
+      "sha256": "76c74484f0e1452be211db96bb9313ee78a486c85b8e0c8faffe51a45a60e954"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step19_end.pcr",
+      "bytes": 4002,
+      "sha256": "fc11e082dd9305e95ca26fa85397e02e13360c5cdc00c1824d4cd017db000efe"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step19_start.pcr",
+      "bytes": 3905,
+      "sha256": "fb6e8eb357cb9d38f67fcc2ee361e2fbf366f50d897cbac8d5b5624d381a4b63"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step20_end.pcr",
+      "bytes": 3691,
+      "sha256": "02962968b523662f77d6d16ceb3028624987504d198642b10466c0b5546936cf"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/cod_1533064_step20_start.pcr",
+      "bytes": 3691,
+      "sha256": "02962968b523662f77d6d16ceb3028624987504d198642b10466c0b5546936cf"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/fp2k_plan.json",
+      "bytes": 520,
+      "sha256": "b84bb192760988f8f2c77f16f56529802e97829592d14c56ab9be664f5bc77cf"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/.fp2k-work-cod_1533064-aaa677/fp2k_result.json",
+      "bytes": 24539,
+      "sha256": "8704dde8834f8c6b95e0ed65dc313a7efa2cffacba8e445144fd4e1741607206"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/cod_1533064.cif",
+      "bytes": 2369,
+      "sha256": "ebb4acf25ad3a2df2f76e6e4eb9d58e08cf602f5402c5af77ce5ed3c71000345"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/cod_1533064.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/cod_1533064.pcr",
+      "bytes": 4453,
+      "sha256": "e283227e87c6a23cecd92b7a9d7feae4aff53e240ae4ddcc0f95c9bdc894ab9c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/cod_1533064.pcr.prewavelength",
+      "bytes": 4464,
+      "sha256": "50b04d04b3cb38cd60eb090ed0831183680b390bba6c9769130882f90f6f06b8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/cod_1533064.pcr_check.json",
+      "bytes": 2833,
+      "sha256": "1555ad3339f1f2c542d3934b9965950a1336d203f8ba4acae6407f9871a16bbe"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1533064/cod_1533064.wavelength.json",
+      "bytes": 403,
+      "sha256": "60428f3e05c49e59d1f2bb075f44fd70c0f88eeaf533d004fa1341c322f87656"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/.xrd-progress-mv0upe0w-qkzoa2mq.json",
+      "bytes": 263,
+      "sha256": "18f6c0a6e50c06ecd2749650bbc16f7150761591ecffab2cbad2fc1a52b0e2d3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "18f6c0a6e50c06ecd2749650bbc16f7150761591ecffab2cbad2fc1a52b0e2d3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/cod_1549763.cif",
+      "bytes": 3320,
+      "sha256": "dde6be6dc391677925cb27aedf7b26400c7ab9659a78a59debb2aeaebec81fd4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/cod_1549763.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/cod_1549763.out",
+      "bytes": 87776,
+      "sha256": "5dfa2aa6aa7010d49cc633403aa0936056fab970fc61ec6e68fef1a6c5028d3b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/cod_1549763.pcr",
+      "bytes": 4898,
+      "sha256": "a3ea0f0512555c5f2e26052fb7bd595715f397ed09312b5dbe5e45c9211b7d57"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/cod_1549763.prf",
+      "bytes": 339757,
+      "sha256": "21d38a3cd9872c5237525e6cc0ec6e5b186451d01b38379d9b428d44a5daa341"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/cod_1549763.sum",
+      "bytes": 7815,
+      "sha256": "b1c6ed5ebfeff459385ee30337eb4b2f90b79621ed33b0de2968d0fe1edc8b77"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/cod_15497631.fst",
+      "bytes": 859,
+      "sha256": "3172b900c685e54990c984f64a7cb08b8220eb53918fd2a18558e0dbe30d03ec"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/cod_1549763_baseline_end.pcr",
+      "bytes": 5046,
+      "sha256": "413e1c019b95e927cdc90bb5d07b54070cc6011806bd1aaab5f501ef64a05781"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/cod_1549763_baseline_start.pcr",
+      "bytes": 4898,
+      "sha256": "a3ea0f0512555c5f2e26052fb7bd595715f397ed09312b5dbe5e45c9211b7d57"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/fp2k_plan.json",
+      "bytes": 520,
+      "sha256": "c277b5e1b8ea3c731d330fec7251ae0a677bb9e0245fd71a0b8865100e92ddac"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-2b90f4/fp2k_result.json",
+      "bytes": 3891,
+      "sha256": "c0ebf717ff35d0cb0a025f2438658de650fd5b6da511489a46696e78193c6c1d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/.xrd-progress-mv0uxi0c-89uotnqp.json",
+      "bytes": 264,
+      "sha256": "9b4f09c5955c549667b3be48894ed98697e33a9232259150f40e32b85c49b7d1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/.xrd-progress.json",
+      "bytes": 264,
+      "sha256": "9b4f09c5955c549667b3be48894ed98697e33a9232259150f40e32b85c49b7d1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763.cif",
+      "bytes": 3320,
+      "sha256": "dde6be6dc391677925cb27aedf7b26400c7ab9659a78a59debb2aeaebec81fd4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763.new",
+      "bytes": 5075,
+      "sha256": "796b71746ddfd0ebd22fea8c65e24fb78f108ba65b31a815578872a910be6571"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763.out",
+      "bytes": 223571,
+      "sha256": "54d91964215615b67c27a888d54735a29710f785785fcc6ae1ee8b66b325a727"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763.pcr",
+      "bytes": 5017,
+      "sha256": "54e9b9ba987194d854c6676ead6bdc7c800c82051542ac69f872e3bcb0d14322"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763.prf",
+      "bytes": 339757,
+      "sha256": "05e15356c7b3c073512aa2220ae75200cde7b3cf3e385bd6ddbee6dd12ecb72f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763.sum",
+      "bytes": 7815,
+      "sha256": "80fd6bc550edf046cc1d8ffd0761131dc703991756defc3e5c1c42a05cfe3d77"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_15497631.fst",
+      "bytes": 859,
+      "sha256": "3172b900c685e54990c984f64a7cb08b8220eb53918fd2a18558e0dbe30d03ec"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_baseline_end.pcr",
+      "bytes": 5046,
+      "sha256": "413e1c019b95e927cdc90bb5d07b54070cc6011806bd1aaab5f501ef64a05781"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_baseline_start.pcr",
+      "bytes": 4898,
+      "sha256": "a3ea0f0512555c5f2e26052fb7bd595715f397ed09312b5dbe5e45c9211b7d57"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_final_end.pcr",
+      "bytes": 5046,
+      "sha256": "24fc2c9e92e57741b7dd8bd15705d82461d93879a17feedaed09ac95872253e3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_final_start.pcr",
+      "bytes": 5017,
+      "sha256": "54e9b9ba987194d854c6676ead6bdc7c800c82051542ac69f872e3bcb0d14322"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_fp2kbest.pcr",
+      "bytes": 5024,
+      "sha256": "ef0df63b91e32ebfad4b2c0bdf64303ac3df31730dc6407f71da9bf507735e5b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step00_end.pcr",
+      "bytes": 5046,
+      "sha256": "24fc2c9e92e57741b7dd8bd15705d82461d93879a17feedaed09ac95872253e3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step00_start.pcr",
+      "bytes": 5024,
+      "sha256": "ef0df63b91e32ebfad4b2c0bdf64303ac3df31730dc6407f71da9bf507735e5b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step01_end.pcr",
+      "bytes": 5009,
+      "sha256": "d25b481ee37788e4a67abb10a64490900e95f2dba83205cfc9e185d783e1267a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step01_start.pcr",
+      "bytes": 5009,
+      "sha256": "d25b481ee37788e4a67abb10a64490900e95f2dba83205cfc9e185d783e1267a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step02_end.pcr",
+      "bytes": 5046,
+      "sha256": "60a96d608029024cc7dcdd3e7f583deba1da15d7137740280e9aff12dd694904"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step02_start.pcr",
+      "bytes": 4980,
+      "sha256": "04c7b485345213425150aad6d363c334fd4e635aa94ec944bd0f86e804fd3b09"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step03_end.pcr",
+      "bytes": 5046,
+      "sha256": "e9868aea2e1977e95e8989b85d1d6a4d98f2c433a21762123526ad25a8f4938b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step03_start.pcr",
+      "bytes": 4980,
+      "sha256": "6413dd2d54683be2cce1811d1134b9de82de8aa504810b67d8cad23d9225d62e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step04_end.pcr",
+      "bytes": 5046,
+      "sha256": "97d13ecca996be61f877d1a0355612204067546ea2f2e2dcd1351739cb1436ba"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step04_start.pcr",
+      "bytes": 5001,
+      "sha256": "171aeee9d9b4f114a2264727d4ab6697728d8cb34f935e5c5d87871fd1adf250"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step05_end.pcr",
+      "bytes": 5046,
+      "sha256": "24fc2c9e92e57741b7dd8bd15705d82461d93879a17feedaed09ac95872253e3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step05_start.pcr",
+      "bytes": 5001,
+      "sha256": "49913f3362eeaa26f2968ba4e4505ebda4f416b91613963128db3b2f9f5b4760"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step06_end.pcr",
+      "bytes": 5046,
+      "sha256": "79b2d818d7c87a1b167932d804a980d50578130120ab5723a701d88960263c03"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step06_start.pcr",
+      "bytes": 5001,
+      "sha256": "3808a1f9acfad83534fcde5aae4f0f6cedb4aac65ea526b4ce764cfcdd81dc18"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step07_end.pcr",
+      "bytes": 5046,
+      "sha256": "ec352d17fce93053d4b8e8cf0e6c9c35cfd7cf247260b89c4073298b4c3f6bf4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step07_start.pcr",
+      "bytes": 4987,
+      "sha256": "f49252d02b72562adedac712f46c5a158ade2d7cbae0b8f811fa1536cf60f87f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step08_end.pcr",
+      "bytes": 5046,
+      "sha256": "e22e83da11334cbcaf93767e573777efab3c68b98af601fe5a150cbc3d7032cd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step08_start.pcr",
+      "bytes": 4980,
+      "sha256": "99030d05451b243adab033882c5cd236369889a1ec592cb2b7ae867a7b91fb23"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step09_end.pcr",
+      "bytes": 5046,
+      "sha256": "73db70309ba95a1c574170b6572f59226c7f03d4640f1e94a1972c532ac3ff6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step09_start.pcr",
+      "bytes": 4980,
+      "sha256": "7692a8de29567f06815a17533602407a951e10b7dc91d4109159c5558e4e8061"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step10_end.pcr",
+      "bytes": 5046,
+      "sha256": "24ee94594b84f0f7354b5e3c3b2e7e84d4cb7c2deb4c2b53d70aa3a869d22264"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step10_start.pcr",
+      "bytes": 4980,
+      "sha256": "49ad7364333aa8e7d62794d560c9f2926f2a281bc101491185ba4bd6ed33eb31"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step11_end.pcr",
+      "bytes": 5046,
+      "sha256": "ed7f4f6ac21e0f78042ee334a3cbcfe837e2138a58b3c07f2ec0c4b22c34266d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step11_start.pcr",
+      "bytes": 4980,
+      "sha256": "92957b8054ae0807eacc806d5724fe6ea52b34ea0397fade8aac909e80a852a4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step12_end.pcr",
+      "bytes": 5046,
+      "sha256": "8b789c4e3dfcd1cd3288702ab9995d9554f7e30449d4bf2eebf33fc2718573f7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step12_start.pcr",
+      "bytes": 4987,
+      "sha256": "f608821afd82caeca4e37dcf325b9612105c97108b125dd327d7e0d7e046b820"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step13_start.pcr",
+      "bytes": 4987,
+      "sha256": "58f48b5d277282c9282efd8ff1e35a15f42d88cac52b216b1bb4615ea00b76d3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step14_end.pcr",
+      "bytes": 5046,
+      "sha256": "c431c53789ef88b28f43bc91c03aa7d8dfdc638e77312b169d44c5a3bf73bd46"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step14_start.pcr",
+      "bytes": 4987,
+      "sha256": "6165144eebbb9114148e907c984db55e9be2ca7cbafe752dcce78140dca583ad"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step15_end.pcr",
+      "bytes": 5046,
+      "sha256": "917345a949b784dcf4794d975662dc74ca7dc9c8d540a13f5d57782f11940e4a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step15_start.pcr",
+      "bytes": 4987,
+      "sha256": "e2473a62a63bd9a12b3ea518264ad89681530d0e7171f2d9687d7bbd0bb3a6a8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step16_end.pcr",
+      "bytes": 4720,
+      "sha256": "3587309a2887fbde68497a4b344b1c11034499eefa473c19f2cbf670e2a8a82a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step16_start.pcr",
+      "bytes": 4720,
+      "sha256": "3587309a2887fbde68497a4b344b1c11034499eefa473c19f2cbf670e2a8a82a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step17_end.pcr",
+      "bytes": 5015,
+      "sha256": "25beaf906db564675bf56d1ce93f358b4c4a934c0fa6c569a22547324c3f403a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step17_start.pcr",
+      "bytes": 5015,
+      "sha256": "25beaf906db564675bf56d1ce93f358b4c4a934c0fa6c569a22547324c3f403a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step18_end.pcr",
+      "bytes": 4774,
+      "sha256": "31340ebb2ac02c6283ec03a458237827f3093a52a9a3b6e4fe715b0af17b5e37"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step18_start.pcr",
+      "bytes": 4774,
+      "sha256": "31340ebb2ac02c6283ec03a458237827f3093a52a9a3b6e4fe715b0af17b5e37"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step19_end.pcr",
+      "bytes": 5046,
+      "sha256": "4ea1c3a3ae028bbafcee180d8d73cc4856a60a1b334936e822f57a46e3f84805"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step19_start.pcr",
+      "bytes": 4987,
+      "sha256": "a126c616e98e319f386b87e2af7bb881da9a601b039ed8439a471a484d8cb713"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step20_end.pcr",
+      "bytes": 4774,
+      "sha256": "1cf2b354d83d4ef20202c891b0003451d00fa884b50591aa32e41181a2dd6374"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/cod_1549763_step20_start.pcr",
+      "bytes": 4774,
+      "sha256": "1cf2b354d83d4ef20202c891b0003451d00fa884b50591aa32e41181a2dd6374"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/fp2k_plan.json",
+      "bytes": 520,
+      "sha256": "233642e0bba6cd841ef08fdad48eb8251878f9926bac577edcc2706b9efe2db2"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/.fp2k-work-cod_1549763-ff4bfd/fp2k_result.json",
+      "bytes": 25032,
+      "sha256": "37a3e5ce1fd30887ac14650f76263ab18cfccb9e4838dd5e7dcac572675a1916"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/cod_1549763.cif",
+      "bytes": 3320,
+      "sha256": "dde6be6dc391677925cb27aedf7b26400c7ab9659a78a59debb2aeaebec81fd4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/cod_1549763.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/cod_1549763.pcr",
+      "bytes": 5448,
+      "sha256": "c932d7105137be6d620be65288b88e68a9898dcedfe54a593ab09cebf22ef91b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/cod_1549763.pcr.prewavelength",
+      "bytes": 5459,
+      "sha256": "17826320dbd58cca54ee75237d7579d1dda022284b2526375e133334a55aa8e6"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/cod_1549763.pcr_check.json",
+      "bytes": 2980,
+      "sha256": "5ac5f0373ec06b39c6027bf8cd919a8e04962c6139ca99611f9ba2a17b0fc48a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/cod_1549763/cod_1549763.wavelength.json",
+      "bytes": 403,
+      "sha256": "83617ae44b511602af5fd42004a746c3edec34ea2086011f044e90508f56f6b9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/dbg_err.txt",
+      "bytes": 1877,
+      "sha256": "40e43988e07adf03c83a30ff809d89d1cc0b31ad96acffc060b0e94d871c8a11"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/dbg_gsas.py",
+      "bytes": 911,
+      "sha256": "8b8a58d2e930e09faafd5c147c762ca37f1faf8604fe4e9016fb9aa05c867bf1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/dbg_out.txt",
+      "bytes": 1222,
+      "sha256": "cadddbcc51fd37f8056adbcf2923943fdd67837797e25060c2eb802e96683f20"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/FAP.fxye",
+      "bytes": 115164,
+      "sha256": "91337ab9245b243768b8745027e828d87b224b9c648112399353502e7670f8c9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/FAP.instprm",
+      "bytes": 198,
+      "sha256": "ea0a0abc98b47e490b18a805e8e69f1320c317dd5365a2893c9ffd925929eaea"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/FAP_pure.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/FAP_pure_orbit_01.cif",
+      "bytes": 935,
+      "sha256": "a474d73a94c2b3a7e1a6ab2242aaec56bfa2438c35bc91e107615d5c5e594ef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/FAP_pure_orbit_01.dat",
+      "bytes": 153911,
+      "sha256": "150a3f95e434fe61ab341dad1d1cbce0203b52ad6cb0f8c3f23fac2fe8423c6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/FAP_pure_orbit_01.pcr",
+      "bytes": 3887,
+      "sha256": "159a4a3866dbf6fe046572e8720aeea2f2a2eb57c50c8acef04d3e8a8770cc0f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/FAP_pure_orbit_01.pcr.prewavelength",
+      "bytes": 4347,
+      "sha256": "7fcda0702725f82a8d0368874e45a0f6e985d7701a3f692742b34d1be667474f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/FAP_pure_orbit_01.pcr_check.json",
+      "bytes": 2556,
+      "sha256": "d8e160b3103de7990bc184a544061f28c31d7ec23914d23955548479b8cbba3e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/FAP_pure_orbit_01.wavelength.json",
+      "bytes": 396,
+      "sha256": "463679d672331e3571d7ffe813b366780d9ad16ab9c7667f8782c48c3813dca3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_atoms.bak0.gpx",
+      "bytes": 490719,
+      "sha256": "0e5d7449e0dee1daa90e7ec3f24292362c7277c1075bfc3b35a09ffe4311db5e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_atoms.gpx",
+      "bytes": 494776,
+      "sha256": "7fcc6499daaa422842c76dd84ebd11f8a7f77d4319fb51865e384bc738ab6013"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_atoms.lst",
+      "bytes": 11074,
+      "sha256": "3bad4722a9b42ddc6c99521abdedb48604b8670311935a916f5f9b6518acf75d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_final.bak0.gpx",
+      "bytes": 501701,
+      "sha256": "51a2e57ad612ce3583ac6787027f998625a065ecb44a4e8986b53a3898c47b33"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_final.gpx",
+      "bytes": 508802,
+      "sha256": "18c5c7b808ec77c003f3ecd54e1c903aa707a25dcb69b41f4e7a47bd5880dd6c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_final.lst",
+      "bytes": 11072,
+      "sha256": "9e782eae62be4d8b36a12b86eb5c7871b5de7f5616eaf187663e590da0b7505b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_ops_continued.bak0.gpx",
+      "bytes": 494785,
+      "sha256": "255dc32a08331167d411344b626dc1bafdbb83b126c0be259c76ddfd5b02ea36"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_ops_continued.gpx",
+      "bytes": 501656,
+      "sha256": "344894dcc888f3210d36f2fad2a2dbef3c13c6d83115845dc2b2ae1fe866b471"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_ops_continued.lst",
+      "bytes": 11072,
+      "sha256": "7461ed6ee53429d5a2bf9dc607a34228d3bf1e33e13f501cb4da6198e7716a7a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_ops_plan.json",
+      "bytes": 713,
+      "sha256": "275d215af99d3b3b09d45c66c064dfc938a83dbfdf6aa578fa3e2178ba16a436"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_ops_result.json",
+      "bytes": 6432,
+      "sha256": "37849ae11dd428114102701e74bbeaeedad04eaeafbdc7d8aeba0c1f5d728b3b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_plan.json",
+      "bytes": 737,
+      "sha256": "af3525c2cddb72de7dfed965709b2bfc692da10a14524dc57ff52e7405ded69a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_po.bak0.gpx",
+      "bytes": 490804,
+      "sha256": "fc3d1ad0902abed2ca80271a3f0f15ff2fd9afe78c632caf4d3c4a9b560a0b42"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_po.gpx",
+      "bytes": 490704,
+      "sha256": "240cb9f91335be66d04792718cea85505bea459154f740cf9f98fcf3021687b8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_po.lst",
+      "bytes": 11074,
+      "sha256": "95076c182b50710ee168ec4a76e6a286f3072c25b5219b05ae0b49c7f6382828"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_proj.bak0.gpx",
+      "bytes": 487462,
+      "sha256": "d57cca8dbb9107a57a828eb3baa9d71870cfcb4de4fa223629b95ffbdd9bebca"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_proj.gpx",
+      "bytes": 487389,
+      "sha256": "d22b7d35b6fae17717fdfec430d744b4cee85095b1a84cb84186a2feda54b8a5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_proj.lst",
+      "bytes": 10651,
+      "sha256": "a61a2083c323ba3db1b008451a222b263943a80994c032a105bd87d183025c00"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_proj_continued.bak0.gpx",
+      "bytes": 490993,
+      "sha256": "7b24f597f360029ee97aa41cc0180bfccf4460b2cbf9f73a5e12ca38146faddb"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_proj_continued.gpx",
+      "bytes": 495772,
+      "sha256": "2f56a2720319a2ce63fa622251342be4d40b7f456377220a635e2c5f573ffd1f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_proj_continued.lst",
+      "bytes": 11132,
+      "sha256": "66420db599bf232823500f662d5f81892c0f62931ff038ef2abdc36782f0674f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_rebuild.bak0.gpx",
+      "bytes": 490016,
+      "sha256": "342693de29a240af561da5dbca3e2153d13473ebb42e93e1ce225177a354607e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_rebuild.gpx",
+      "bytes": 489919,
+      "sha256": "ada3d09c69eb023a207b376e24f6956f049cc62df0833f86456d4a03edc94a3f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_rebuild.lst",
+      "bytes": 11122,
+      "sha256": "b7ef52816efd19026854436033477c8c85e35fa5f73a31042fe1c071d1787323"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/gsas_result.json",
+      "bytes": 10591,
+      "sha256": "094e5b6c608c805835c77ba8f9c926860b2cc69539fcd413959f913593342650"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/.xrd-progress-mv0upeew-0crq1ajz.json",
+      "bytes": 263,
+      "sha256": "344f7c030ab952e24efd2c06bf1794679323f106eb17adb8ce03268ed89f8ef5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "344f7c030ab952e24efd2c06bf1794679323f106eb17adb8ce03268ed89f8ef5"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/fp2k_plan.json",
+      "bytes": 520,
+      "sha256": "cb0213c1221ea99a6bd6ffa0e678fa7b8d1bd8f89818a733c72da46468ea3c48"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/fp2k_result.json",
+      "bytes": 3894,
+      "sha256": "791dabcac69a621bff3c46205a204b57da6cc1852fcff35d82a0f56d4a7eaadd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/mp_aaaaajoz.cif",
+      "bytes": 2975,
+      "sha256": "d55334b748ab609213fab089cbcbf36e925d58598b99410387de467ac7d10412"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/mp_aaaaajoz.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/mp_aaaaajoz.out",
+      "bytes": 304347,
+      "sha256": "26243a1fd6c1afa9e43418f67829131f421efb9ad8f239a740751514c605dd9d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/mp_aaaaajoz.pcr",
+      "bytes": 8645,
+      "sha256": "53f41b8b68f4243daf08a90ae7079a37c20d82c99475bd96ccc16de2cf7496fd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/mp_aaaaajoz.prf",
+      "bytes": 568453,
+      "sha256": "2d3f6c3a331f93ff0a022bc158358fe73aeca3f279e8c5d282bc7d6361433d58"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/mp_aaaaajoz.sum",
+      "bytes": 9354,
+      "sha256": "b5cee47df9008b4a7e07985813af7a8e29f216bc190cc8a93b3bbf812f2193da"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/mp_aaaaajoz1.fst",
+      "bytes": 2509,
+      "sha256": "5684dcde4683b61a8f7bb7739344d322ef93ce4548d21c12f16719a685692040"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/mp_aaaaajoz_baseline_end.pcr",
+      "bytes": 8728,
+      "sha256": "885bf33cf8b215fe3f477afef4c35aa60638e7be2ae2d38d6b20cb4924399d29"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-351365/mp_aaaaajoz_baseline_start.pcr",
+      "bytes": 8645,
+      "sha256": "53f41b8b68f4243daf08a90ae7079a37c20d82c99475bd96ccc16de2cf7496fd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/.xrd-progress-mv0uzm7u-btev897y.json",
+      "bytes": 265,
+      "sha256": "97f838125072330e4fe8c721ca238b83a736842c5a1ec2082917f52fcb5af389"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/.xrd-progress.json",
+      "bytes": 265,
+      "sha256": "97f838125072330e4fe8c721ca238b83a736842c5a1ec2082917f52fcb5af389"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/fp2k_plan.json",
+      "bytes": 520,
+      "sha256": "b25f00f193f443f721c94dfc4d3eed75b424296566efdd9f79c2c027d546c85c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/fp2k_result.json",
+      "bytes": 24621,
+      "sha256": "3ce9d3f827b7be70ef1c9e6a203059252867c7f32c2040531965a7e46fe7cd5f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz.cif",
+      "bytes": 2975,
+      "sha256": "d55334b748ab609213fab089cbcbf36e925d58598b99410387de467ac7d10412"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz.new",
+      "bytes": 8865,
+      "sha256": "08423b1d1e3e7ff7944217cedec0eb0ab2dda6752750d77d8951670153946c4c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz.out",
+      "bytes": 484656,
+      "sha256": "74791f7e024dbb5b697555f57cec2953da42a16d2af70065687ba298e8567f97"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz.pcr",
+      "bytes": 8699,
+      "sha256": "a138f65b693646968521f78be7f196ae944547a54681fbef1d62a97e78ba3f3b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz.prf",
+      "bytes": 568453,
+      "sha256": "6f78302a61a92ff2bdd64cec219c12bef0570aa67cf526bedd8bd2e888e95415"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz.sum",
+      "bytes": 9354,
+      "sha256": "d09a1f18fc8df2ffa839c8902428c939f0e1c35a37516d9830dd66739c2b00e4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz1.fst",
+      "bytes": 2509,
+      "sha256": "611f68a5194c402ebb43d50abcad21604926186c536c0c29b1eebe78cbe54a5d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_baseline_end.pcr",
+      "bytes": 8728,
+      "sha256": "885bf33cf8b215fe3f477afef4c35aa60638e7be2ae2d38d6b20cb4924399d29"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_baseline_start.pcr",
+      "bytes": 8645,
+      "sha256": "53f41b8b68f4243daf08a90ae7079a37c20d82c99475bd96ccc16de2cf7496fd"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_final_end.pcr",
+      "bytes": 8728,
+      "sha256": "9eaaaa6affc1dd0c0a10940d5d4881fb9662aa66044c47c70cc9764dbb68a9a0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_final_start.pcr",
+      "bytes": 8699,
+      "sha256": "a138f65b693646968521f78be7f196ae944547a54681fbef1d62a97e78ba3f3b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_fp2kbest.pcr",
+      "bytes": 8706,
+      "sha256": "a756859e3ab7d7655bf02e403a682b1e785d8ec8d57b1951a1a88e2c78e3d397"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step00_end.pcr",
+      "bytes": 8728,
+      "sha256": "e7fff06a174f97b3c6ec2ac147b7e3b50867617a5a6a16d60123c7d9bbe0d85e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step00_start.pcr",
+      "bytes": 8706,
+      "sha256": "a756859e3ab7d7655bf02e403a682b1e785d8ec8d57b1951a1a88e2c78e3d397"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step01_end.pcr",
+      "bytes": 8691,
+      "sha256": "9ccd1405330b57a1e74ef0d91b765e9b6ca750b32eaea5473e7d89069fce63af"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step01_start.pcr",
+      "bytes": 8691,
+      "sha256": "9ccd1405330b57a1e74ef0d91b765e9b6ca750b32eaea5473e7d89069fce63af"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step02_end.pcr",
+      "bytes": 8728,
+      "sha256": "d7e43da792be98ed4ac2da0d1f329a7b02bb088a794b7c295ecae0d79b3ca93b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step02_start.pcr",
+      "bytes": 8662,
+      "sha256": "12d38f47ffb6cdb99c72c298f41f80e1672feb3f2a23402b45c9bb1b317d7af3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step03_end.pcr",
+      "bytes": 8728,
+      "sha256": "6ee5a6a924252a84183d039a7bd0d09c4a7724d4e8e6f03fb569a35d1c20ddd9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step03_start.pcr",
+      "bytes": 8662,
+      "sha256": "a2e04eb60bdcb3255370d5de135d6e2526642f0b200b53df31502f215739e371"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step04_end.pcr",
+      "bytes": 8683,
+      "sha256": "f33a59a7d7552aa8978ef2f218b9e25ad334df5f87c5f17e7a8c45af8ab32fe1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step04_start.pcr",
+      "bytes": 8683,
+      "sha256": "f33a59a7d7552aa8978ef2f218b9e25ad334df5f87c5f17e7a8c45af8ab32fe1"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step05_end.pcr",
+      "bytes": 8683,
+      "sha256": "64fd927ecb24c946964e0ca3dc5c7280f23713ccc706bf7db6e385c02e3a190c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step05_start.pcr",
+      "bytes": 8683,
+      "sha256": "64fd927ecb24c946964e0ca3dc5c7280f23713ccc706bf7db6e385c02e3a190c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step06_end.pcr",
+      "bytes": 8728,
+      "sha256": "c9e7f473a02f04c45c0c76e83ad6f8e957d702bd7ce2e85fbb0d1102d943b473"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step06_start.pcr",
+      "bytes": 8683,
+      "sha256": "31917f3358af6e8a321d157d23d952f4d9c7a547a23f29bb94d13858759b7e78"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step07_end.pcr",
+      "bytes": 8728,
+      "sha256": "a9f8feebaf092a52bdc99be1e25bf9ad2c06b92c970ed78a4fb174444e72800e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step07_start.pcr",
+      "bytes": 8669,
+      "sha256": "4a73bccaefd6935247ba965c0cab9d27ce24110b2953498ebc76919499c31bb9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step08_end.pcr",
+      "bytes": 8728,
+      "sha256": "5611525573c6661f970784ddd2310a9793acea5fbb8fc235216569b885f8b86d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step08_start.pcr",
+      "bytes": 8662,
+      "sha256": "78bfca4e451a4d64c2e2204ea90b986e945c71f9043c7bce1f75e37b07bd296f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step09_end.pcr",
+      "bytes": 8728,
+      "sha256": "f8f46c71547c96c6a891fe73c4ac4d05b4872dc997d3c6187aad85a0ccebf345"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step09_start.pcr",
+      "bytes": 8662,
+      "sha256": "2cb038746da34931230696e242e56d3825d24f107e13217965b130d543db6bb8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step10_end.pcr",
+      "bytes": 8728,
+      "sha256": "dca2b935148f88d538136f7abe9f22407528e97437fcb71973319c83506cd6b3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step10_start.pcr",
+      "bytes": 8662,
+      "sha256": "5e762248a90c2525296dea75afdd703eaa0ec310da06c25edfa724e8b5136bb7"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step11_end.pcr",
+      "bytes": 8728,
+      "sha256": "26a2a088d855914af78d77c4b41e77a648532aa7cd113e1cb3becac3e920f7f3"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step11_start.pcr",
+      "bytes": 8662,
+      "sha256": "dfe24e9dd8758853829c71eba856506a9bfd27ef994bdf99e81daefbab0bbe52"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step12_end.pcr",
+      "bytes": 8728,
+      "sha256": "a6a6142e2df7e3939f35ce0ddd1d4508eaf31548b2d02c1e9b7165bcd24ee89d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step12_start.pcr",
+      "bytes": 8669,
+      "sha256": "26646bedfae5fbb1732ef719bbb58eb5f4753fd2d896886988e05dacea730fca"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step13_end.pcr",
+      "bytes": 8728,
+      "sha256": "c6fca5e123dd81bc26c23701517960917c1a0421c5e94e43463222b9ac49adae"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step13_start.pcr",
+      "bytes": 8669,
+      "sha256": "a05a7d6eaaea59c60ba7269c9686620856a801c6bc124129f344d11e91c331de"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step14_end.pcr",
+      "bytes": 8728,
+      "sha256": "474a28e096ae6c08e4b1104db99a7acecade538ba670213c078c1890f4978ba9"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step14_start.pcr",
+      "bytes": 8669,
+      "sha256": "a360be81edcb12225f2be9dff408de3a622ad471578455a4a6f2ac1c7590f69b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step15_end.pcr",
+      "bytes": 8728,
+      "sha256": "2f0ec9eafa9510c974a55352c265f15263a9207c4a9b1b619d5d5a7968b56868"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step15_start.pcr",
+      "bytes": 8669,
+      "sha256": "244c37c7e8b7a7502e7a265326210a8e04b275c1d24e45884b5e07e52125bb03"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step16_end.pcr",
+      "bytes": 7313,
+      "sha256": "0a4aec38c8b393f46ba72db8b152b8c864fa656bb82f328702a6bbdb629104ae"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step16_start.pcr",
+      "bytes": 7313,
+      "sha256": "0a4aec38c8b393f46ba72db8b152b8c864fa656bb82f328702a6bbdb629104ae"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step17_end.pcr",
+      "bytes": 8697,
+      "sha256": "1b6834dbc79a61285cc0d2e47725cd1c6c92ef5d3457d4e78eca0ba199b9e6bc"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step17_start.pcr",
+      "bytes": 8697,
+      "sha256": "1b6834dbc79a61285cc0d2e47725cd1c6c92ef5d3457d4e78eca0ba199b9e6bc"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step18_start.pcr",
+      "bytes": 7565,
+      "sha256": "4191b36643104d0bc79713530d8f4fba8bb48cdacaf188bf8cca19ea49396d1a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step19_end.pcr",
+      "bytes": 8728,
+      "sha256": "79b60444faf88ce6ef212e5a5dc3eede0858d22429f2f307827b2687259b4478"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step19_start.pcr",
+      "bytes": 8669,
+      "sha256": "2cb0efd83e208c2094208a6d9564ebbfce412dddcbfb50763f657fe4e78cd97b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/.fp2k-work-mp_aaaaajoz-bf9369/mp_aaaaajoz_step20_start.pcr",
+      "bytes": 7565,
+      "sha256": "4dc98171ff9da4142a3517fadbcdd246d6b20eddaa9d387ae5e3ac1dfb20b344"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/mp_aaaaajoz.cif",
+      "bytes": 2975,
+      "sha256": "d55334b748ab609213fab089cbcbf36e925d58598b99410387de467ac7d10412"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/mp_aaaaajoz.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/mp_aaaaajoz.pcr",
+      "bytes": 9247,
+      "sha256": "6acc2d1173ac15ad8b3f5dc32d98a7ec0a9f53a3a3153e912071c2abfc43a76e"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/mp_aaaaajoz.pcr.prewavelength",
+      "bytes": 9258,
+      "sha256": "e4586979b5b5c5ae36001c5c5bf3829ea7ac7b88d31f00ad32c83409a47ccd21"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/mp_aaaaajoz.pcr_check.json",
+      "bytes": 11903,
+      "sha256": "608799c7d8b5872d148a11d3ef568ef08f4bd9352107fdf3287afe361cf2b360"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/mp_aaaaajoz/mp_aaaaajoz.wavelength.json",
+      "bytes": 403,
+      "sha256": "ffd66be6d7ed42d37dbfe6adacd6871a600605922ed1dc75523b6be93e3cf9ca"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/plot_prf.py",
+      "bytes": 1298,
+      "sha256": "df8cf32cb1bbdad3a979d90ca46360bc7948349dd9cd0230e1e5603661ca55de"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/.xrd-progress-mv0vsmq0-2ry6pv61.json",
+      "bytes": 263,
+      "sha256": "bb422cec6ed8a6877cf447f17ad46c23b6962a0e5002ecd8b78fb8650004fb61"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "bb422cec6ed8a6877cf447f17ad46c23b6962a0e5002ecd8b78fb8650004fb61"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/fp2k_plan.json",
+      "bytes": 505,
+      "sha256": "2da2a30d991cf185a9196138229e165d8e055617b8521ab8865c401aaf86cde6"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/fp2k_result.json",
+      "bytes": 1483,
+      "sha256": "38da2f8a43452b38180fef6b0f85308f09dab343ca9dd6d9e0505ca92ac2e2ad"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/probe_s0.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/probe_s0.new",
+      "bytes": 3924,
+      "sha256": "794f54fcaa923f5e625555d343bbee0dc2139cfb5592b81731c73ab97dfe92ef"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/probe_s0.out",
+      "bytes": 75620,
+      "sha256": "17fd8b9646fc13d458a7df18313db474df5973cbc3ea8750950cc2e8095bdc12"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/probe_s0.pcr",
+      "bytes": 3780,
+      "sha256": "a922eba4bbbb4781c13a7aa1b5ce662edd0765a2e908a1bfef9596338b1a7354"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/probe_s0.prf",
+      "bytes": 339757,
+      "sha256": "92c43e42b3b1472b6dca98d9b11e70bfb9016ac8f3a4d028ee947b2810847cbe"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/probe_s0.sum",
+      "bytes": 6446,
+      "sha256": "d67814b75a2d5e81bf9b9980cdbf305d443bc80d404dfd7f220dc76f35bbeef8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/probe_s01.fst",
+      "bytes": 759,
+      "sha256": "8d11efaf23594f1b21b50e01266f6fdcd7a738c1d786565f9a1be98d032b3918"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/.fp2k-work-probe_s0-215859/probe_s0_baseline_start.pcr",
+      "bytes": 3780,
+      "sha256": "a922eba4bbbb4781c13a7aa1b5ce662edd0765a2e908a1bfef9596338b1a7354"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/probe_s0.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s0/probe_s0.pcr",
+      "bytes": 4312,
+      "sha256": "8e2a66e1ed39a7f0d2b8ef9c37508bb185470b78296746a790f6b1ea1b65a77d"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/.xrd-progress-mv0vsn4a-s87btyjr.json",
+      "bytes": 262,
+      "sha256": "44f0e49f811478428c7f28fe3797fcfd6545e68d2e1e2897c5a492eab126bf22"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/.xrd-progress.json",
+      "bytes": 262,
+      "sha256": "44f0e49f811478428c7f28fe3797fcfd6545e68d2e1e2897c5a492eab126bf22"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/fp2k_plan.json",
+      "bytes": 505,
+      "sha256": "9d63c792039ce8e40bfdc62356af1defb07119c958c233f1095fc2f44fc09beb"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/fp2k_result.json",
+      "bytes": 1483,
+      "sha256": "510f6e03a2ecdef6296fb6f53352d465b2a10ea470128fba448c8cd5d955ac1f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/probe_s1.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/probe_s1.new",
+      "bytes": 3924,
+      "sha256": "3e88582c2f58ef4662e2ccb6423b22962d73c9434e7421b6ab67c2caac84179b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/probe_s1.out",
+      "bytes": 75620,
+      "sha256": "12fe5d64e0988d70510af3267c4b67716d0f3ed00108f0a378d381eedd1f39ca"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/probe_s1.pcr",
+      "bytes": 3780,
+      "sha256": "7f46beeadb51f57c3a568bdec305ac8b1e3d98d373b22f11f4a4a65e14102e99"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/probe_s1.prf",
+      "bytes": 339757,
+      "sha256": "63ab2e2d20f51fe4b7e1336c09a3818d5d96914f655b1a9a4565566dad9f7d9c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/probe_s1.sum",
+      "bytes": 6446,
+      "sha256": "868cfc5d6a99d58867721ded9b12c0534d45820d018394025772a5fb8ab8f464"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/probe_s11.fst",
+      "bytes": 759,
+      "sha256": "8d11efaf23594f1b21b50e01266f6fdcd7a738c1d786565f9a1be98d032b3918"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/.fp2k-work-probe_s1-0092b7/probe_s1_baseline_start.pcr",
+      "bytes": 3780,
+      "sha256": "7f46beeadb51f57c3a568bdec305ac8b1e3d98d373b22f11f4a4a65e14102e99"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/probe_s1.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s1/probe_s1.pcr",
+      "bytes": 4312,
+      "sha256": "b7c11ab6f8ef2ada9bdcbfbd4b058f77d5ebc5c624dee4e231a7ababe963ff63"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/.xrd-progress-mv0vsni5-d9g95utg.json",
+      "bytes": 263,
+      "sha256": "4fa699b8a3890dad0018697be2c1b9d6460500a0e529800757492a45749bce36"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "4fa699b8a3890dad0018697be2c1b9d6460500a0e529800757492a45749bce36"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/fp2k_plan.json",
+      "bytes": 505,
+      "sha256": "eae78d26a23be9812c532772cc5e93eadb09540fdc971922c45b4580e90438b8"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/fp2k_result.json",
+      "bytes": 3824,
+      "sha256": "469e52557dbe854810ba066e7e370ca3b97c45cbc0cb856e709cd2d6fac47671"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/probe_s2.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/probe_s2.out",
+      "bytes": 75620,
+      "sha256": "0ee0d55cedc0f2275e549d95ac62ec5adf6ce28d0d042d0713499b2cd4fa22de"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/probe_s2.pcr",
+      "bytes": 3780,
+      "sha256": "05f8df5cc545c5c68a2de3b88defbed55832ff8f0638770cb9f1966028e6371c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/probe_s2.prf",
+      "bytes": 339757,
+      "sha256": "0a4a02763c7da3ea8a340e26cb4880bb566f2f742b4b4b826007220d36a9bf6b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/probe_s2.sum",
+      "bytes": 6446,
+      "sha256": "83d4f57e79909f7efdf7aaea665a9d9bcdd8bbd7028b45be6fa3c738badcc0a6"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/probe_s21.fst",
+      "bytes": 759,
+      "sha256": "8d11efaf23594f1b21b50e01266f6fdcd7a738c1d786565f9a1be98d032b3918"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/probe_s2_baseline_end.pcr",
+      "bytes": 3857,
+      "sha256": "d479883cd97760ebfad1563133340adbe83cf9161ce26e01dfb6c8164c551955"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/.fp2k-work-probe_s2-611fa8/probe_s2_baseline_start.pcr",
+      "bytes": 3780,
+      "sha256": "05f8df5cc545c5c68a2de3b88defbed55832ff8f0638770cb9f1966028e6371c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/probe_s2.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s2/probe_s2.pcr",
+      "bytes": 4312,
+      "sha256": "c709bc3c45d61d887848dfbda9f472a54dfe6cbc4b4b4dd3981566b91f8cd625"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/.xrd-progress-mv0vsnw9-8kbtjw0k.json",
+      "bytes": 263,
+      "sha256": "4277ded8211dbd50fdd13df390dfa847e70110269a6184a8394c8d47c796250a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "4277ded8211dbd50fdd13df390dfa847e70110269a6184a8394c8d47c796250a"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/fp2k_plan.json",
+      "bytes": 505,
+      "sha256": "b25669786ecf90e9b5a218a3a81bee9aa62fbd3e745e233e3471c81f37a33c8c"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/fp2k_result.json",
+      "bytes": 3819,
+      "sha256": "dc64342945513e5bb2f02b6067f021d4263b098736584d246f009c47b0603338"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/probe_s3.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/probe_s3.out",
+      "bytes": 75620,
+      "sha256": "63730fb50f2a65ee5233617d5f20c719098eead7473c0985e8e9d0984524e908"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/probe_s3.pcr",
+      "bytes": 3780,
+      "sha256": "f71608a3b3d6ffd450a8e44144e89a1888baf5f071a4b736fea72ee996a51a38"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/probe_s3.prf",
+      "bytes": 339757,
+      "sha256": "e4152fba59fe3e5ebdbf97d48e3a0fcfb74a92991feee94fd84179a98c6e7b96"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/probe_s3.sum",
+      "bytes": 6446,
+      "sha256": "7defe202ecb07296f769a8b0c3c22fcf20ff0d1f8f560260ea1da6b7b239d954"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/probe_s31.fst",
+      "bytes": 759,
+      "sha256": "8d11efaf23594f1b21b50e01266f6fdcd7a738c1d786565f9a1be98d032b3918"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/probe_s3_baseline_end.pcr",
+      "bytes": 3857,
+      "sha256": "a68af318d899147b5640bbb575b1f3cfc85fd9e27a089e23fb0b472da8eb4326"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/.fp2k-work-probe_s3-991aba/probe_s3_baseline_start.pcr",
+      "bytes": 3780,
+      "sha256": "f71608a3b3d6ffd450a8e44144e89a1888baf5f071a4b736fea72ee996a51a38"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/probe_s3.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s3/probe_s3.pcr",
+      "bytes": 4312,
+      "sha256": "e1b4ff6d0d6fc8225e99a02e891e13e9edaa680811ec0a430f5ae5a1f0fe7857"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/.xrd-progress-mv0vsoan-5wkq15pw.json",
+      "bytes": 263,
+      "sha256": "30e74f0ff735814e17f03138ae6e32b783cb5cbe81ecb7f1fb91cf87fac0ced4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "30e74f0ff735814e17f03138ae6e32b783cb5cbe81ecb7f1fb91cf87fac0ced4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/fp2k_plan.json",
+      "bytes": 505,
+      "sha256": "2c9b0fe6ab1daa9eedb19a6d6765b7e0716490a6b1225228caecad4dabcc32f0"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/fp2k_result.json",
+      "bytes": 3822,
+      "sha256": "f221d1081b6162b47d9bac10937a807dda7310a02373ecfb7c2114449d74426b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/probe_s5.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/probe_s5.out",
+      "bytes": 75620,
+      "sha256": "715ddf15f069640040acda3259e9dd93c6c37a874a3a94a062db6d175a77d8d2"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/probe_s5.pcr",
+      "bytes": 3780,
+      "sha256": "519272119ac815bb0f563a25a76386da1852ba67f035616e2863fb147418557f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/probe_s5.prf",
+      "bytes": 339757,
+      "sha256": "e6ffcaf443e5b7591b10a905c38263e2d2d0362280c5adb548e9426dea0e1db4"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/probe_s5.sum",
+      "bytes": 6446,
+      "sha256": "837e4bd2be71570f642ecb1cb121b84015adfdf2ad61a5172186357f8744b472"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/probe_s51.fst",
+      "bytes": 759,
+      "sha256": "8d11efaf23594f1b21b50e01266f6fdcd7a738c1d786565f9a1be98d032b3918"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/probe_s5_baseline_end.pcr",
+      "bytes": 3857,
+      "sha256": "f38fd4176389bcafdf5575cc41e9ba775fd5976f170404ee2c6c9d779e802f8b"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/.fp2k-work-probe_s5-e38093/probe_s5_baseline_start.pcr",
+      "bytes": 3780,
+      "sha256": "519272119ac815bb0f563a25a76386da1852ba67f035616e2863fb147418557f"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/probe_s5.dat",
+      "bytes": 109492,
+      "sha256": "f121e58ea923bc97eec34099ea754e4ef21f777c1bffee4f469bda5039f28367"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/probe_s5/probe_s5.pcr",
+      "bytes": 4312,
+      "sha256": "196d0efe890019e98e1b0bacdb377ef67492ff3b72e9f064dc354a3b19e54009"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/work/review_mechanical_FAP.json",
+      "bytes": 1483,
+      "sha256": "d45ee0c749cb5ec13c2f1751026b70af6b09bd244cd50f4a3c9155eb74144403"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/workflow_state.json",
+      "bytes": 6916,
+      "sha256": "7f4eb02c1179c5862c297f0674a57ec828994fbfc07174c26fc321f090214233"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/xrd_workflow/journal.jsonl",
+      "bytes": 14870,
+      "sha256": "4e6b0e4b53c6ac410e557eb6effbb11edab5f1861399fb061f53d5fb0a8f8d94"
+    },
+    {
+      "path": "workspace_snapshot/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 7553,
+      "sha256": "bf6d236f58dc02c43a368fab5ad69ddefe373f623882be178c71544bd0e9a084"
+    }
+  ]
+}

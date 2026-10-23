@@ -1,0 +1,74 @@
+﻿{
+  "model": "GLM 5.3",
+  "case_id": "Fe2O3_Fe3O4_2ph",
+  "run_id": "session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 97229,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 2
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_final.gpx",
+      "destination": "GLM 5.3/Fe2O3_Fe3O4_2ph/GPX/Fe2O3_Fe3O4_final.gpx",
+      "role": "gpx",
+      "bytes": 368765,
+      "sha256": "fca1d2d05cebe860c3f5614a8c26951dbb5831acb833b6246a842a887c2f048c",
+      "model": "GLM 5.3",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_final.gpx"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_fit.png",
+      "destination": "GLM 5.3/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_fit.png",
+      "role": "image",
+      "bytes": 308991,
+      "sha256": "3be86628ef90aa0e8d3928234005f0df9996b618c77e0ecf6416f5225c2b2195",
+      "model": "GLM 5.3",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_fit.png"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_built.cif",
+      "destination": "GLM 5.3/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_built.cif",
+      "role": "cif",
+      "bytes": 2087,
+      "sha256": "51ba4ada04956d2afb19db8939518c9ba23ec669f5b5b67255945ebde134f5bf",
+      "model": "GLM 5.3",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_built.cif"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_built_1.cif",
+      "destination": "GLM 5.3/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_built_1.cif",
+      "role": "cif",
+      "bytes": 5939,
+      "sha256": "787486ee0d245d647b4c43b4397ca5aa68d15ffb39c83cae9d1d79e3847533ca",
+      "model": "GLM 5.3",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-e927023b-6a0c-4e4a-ba06-4b257a6bbcc3",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\GLM 5.3\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_final\\Fe2O3_Fe3O4_built_1.cif"
+    }
+  ]
+}

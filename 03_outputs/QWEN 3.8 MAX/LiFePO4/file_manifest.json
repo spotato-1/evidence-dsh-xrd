@@ -1,0 +1,60 @@
+﻿{
+  "model": "QWEN 3.8 MAX",
+  "case_id": "LiFePO4",
+  "run_id": "session-31d3ad15-08cb-4298-9049-60b8b98c599c",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 84587,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-31d3ad15-08cb-4298-9049-60b8b98c599c\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx",
+      "destination": "QWEN 3.8 MAX/LiFePO4/GPX/LiFePO4_final.gpx",
+      "role": "gpx",
+      "bytes": 557356,
+      "sha256": "14437f782cc99aed74661518f486558dcbd350c80b6ce9b9539d7cf92b36418e",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "LiFePO4",
+      "run_id": "session-31d3ad15-08cb-4298-9049-60b8b98c599c",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx"
+    },
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-31d3ad15-08cb-4298-9049-60b8b98c599c\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_fit.png",
+      "destination": "QWEN 3.8 MAX/LiFePO4/figures/LiFePO4_fit.png",
+      "role": "image",
+      "bytes": 385567,
+      "sha256": "2876b8743315831174553a72f08339c8d91ffb9f43f3db968c8c90246202577a",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "LiFePO4",
+      "run_id": "session-31d3ad15-08cb-4298-9049-60b8b98c599c",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_final\\LiFePO4_fit.png"
+    },
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-31d3ad15-08cb-4298-9049-60b8b98c599c\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_Li4_Fe4_P4_O16.cif",
+      "destination": "QWEN 3.8 MAX/LiFePO4/CIF/LiFePO4_Li4_Fe4_P4_O16.cif",
+      "role": "cif",
+      "bytes": 1885,
+      "sha256": "0b8996ddec5713ea9c45ed7592979b6e0abc79b8be05ba54726857c10c6c308f",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "LiFePO4",
+      "run_id": "session-31d3ad15-08cb-4298-9049-60b8b98c599c",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_final\\LiFePO4_Li4_Fe4_P4_O16.cif"
+    }
+  ]
+}

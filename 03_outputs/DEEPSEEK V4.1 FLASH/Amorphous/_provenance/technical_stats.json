@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "campaign_id": "dsh-xrd-deepseek-v4.1-flash-full12-2026-10",
+  "case_id": "Amorphous",
+  "case_ids": [
+    "Amorphous"
+  ],
+  "run_id": "session-d235dfd1-05e1-4bf6-b84c-04021f9b411e",
+  "collected_at": "2026-10-06T19:34:55.187918+00:00",
+  "source": {
+    "input_hashes": {
+      "Amorphous/raw/W.raw": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2",
+      "Amorphous/raw/W.txt": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714"
+    },
+    "session_container": {
+      "name": "session.jsonl.zstd",
+      "bytes": 822326,
+      "sha256": "b4c01e4f92e0be54660bdd2cbe618e2f3d5392ec67b3abdfb65fac6a95fa191f"
+    },
+    "dsh_version": "dsh-portable 0.1.0-rc5-xrd090-zh",
+    "plugin_version": "dsh-xrd 0.9.1",
+    "plugin_commit": null,
+    "model": "DeepSeek V4.1 Flash",
+    "model_ids_in_session": [
+      "deepseek-flash"
+    ],
+    "engine_versions": {}
+  },
+  "execution": {
+    "started_at": "2026-10-05T11:16:47.267000+00:00",
+    "ended_at": "2026-10-06T17:22:18.910000+00:00",
+    "elapsed_seconds": 108331.643,
+    "input_tokens": 144870,
+    "output_tokens": 51544,
+    "cache_read_tokens": 9399936,
+    "token_usage_basis": "DSH session project cache totals",
+    "turns": 1,
+    "goal_rounds": 0,
+    "tool_calls": 71,
+    "tool_errors": 2,
+    "retries": 0
+  },
+  "workflow": {
+    "phase": [
+      {
+        "path": "states/Amorphous/workflow_state.json",
+        "value": 5
+      }
+    ],
+    "final_backend": "manual_full_pattern_model",
+    "required_stages": [
+      "1",
+      "2",
+      "3",
+      "4-I",
+      "4-II",
+      "4-III",
+      "5"
+    ],
+    "completed_stages": [],
+    "converged": null,
+    "gsas_completed": false,
+    "final_export_completed": true,
+    "warnings": []
+  },
+  "final_metrics": {
+    "rwp": null,
+    "wr": null,
+    "rexp": null,
+    "chi2": null,
+    "gof": null,
+    "source": null,
+    "note": "Not normalized during initial evidence freeze; source values remain in state/result artifacts."
+  },
+  "integrity": {
+    "journal_jsonl_total": 5,
+    "journal_jsonl_valid": 5,
+    "journal_jsonl_invalid": 0,
+    "journal_jsonl_files": 3,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_consistent": null,
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "artifacts": [
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/Amorphous/work/derived.json",
+      "bytes": 2136,
+      "sha256": "58c7faf6cd24325407c2024c6c5be105466466c4c52901fdc59a9d2e6ab0fc82"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/Amorphous/work/hump_model.json",
+      "bytes": 1560,
+      "sha256": "759050609c7af55bbd2299bbe61606485c5004fcb347cf8e5c7020c32507da55"
+    },
+    {
+      "role": "final_fit_or_figure",
+      "path": "artifacts/Amorphous/work/W_final_fit.png",
+      "bytes": 447337,
+      "sha256": "47521b4a11519fe02a7b20f6c6fe2c85e437585a8e2bd422c76292cf455078ee"
+    },
+    {
+      "role": "conclusion",
+      "path": "conclusion.md",
+      "bytes": 3623,
+      "sha256": "9f24bbda4a541d8951eadfdc64d70390ab8fd0adc2ee86c94df9d7c9fe2d2385"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/Amorphous/work/r1/xrd_workflow/journal.jsonl",
+      "bytes": 716,
+      "sha256": "d069cceaa029daf7c067eb94738f3a2ab14421ef26b24874b9bd01490b8ac083"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/Amorphous/work/r1/xrd_workflow/journal.md",
+      "bytes": 546,
+      "sha256": "238dd42a0abd39c410f523823b3bdd1bc085dd2eb47d2310379331f8c790fed3"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/Amorphous/work/r2/xrd_workflow/journal.jsonl",
+      "bytes": 805,
+      "sha256": "dadb59c2633aa2834f682a76726a17c2cc328ec62a44b5f393ac344b2379ff36"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/Amorphous/work/r2/xrd_workflow/journal.md",
+      "bytes": 631,
+      "sha256": "fe708803b75401dfaeb4bfeb0f5ab319eaf26d8c32dc97d7981edccf30cadde9"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/Amorphous/work/xrd_workflow/journal.jsonl",
+      "bytes": 2730,
+      "sha256": "4e6ec12c7be70135f1ca9993f312e90eee9264d0321b5af7cdc6d260ca81a323"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/Amorphous/work/xrd_workflow/journal.md",
+      "bytes": 4235,
+      "sha256": "4d64aed233960c24077d45b10283325b323fe599786387301f67196d3c21f6a7"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "root_reports/Amorphous/W_XRD_report.md",
+      "bytes": 9514,
+      "sha256": "d3ffe02729e1976bde8819d9b1f7a3802655b17e90e2195091b6f670035d29e2"
+    },
+    {
+      "role": "session_core",
+      "path": "session_core.jsonl.gz",
+      "bytes": 372146,
+      "sha256": "4c324b49b7d3228627efbff73f06c6a5c2bac0110fe390bad435dd3e4d386975"
+    },
+    {
+      "role": "session_extract_stats",
+      "path": "session_extract_stats.json",
+      "bytes": 1798,
+      "sha256": "f9c1e2036d5366208100519fde37f8a720f125674a40657b2eeeea4d8cf4318e"
+    },
+    {
+      "role": "workflow_state",
+      "path": "states/Amorphous/workflow_state.json",
+      "bytes": 6264,
+      "sha256": "49752038b1f87f4fd9a77c5f5b3077cc819922e1883cbf2e14d2c82f70da018b"
+    },
+    {
+      "role": "tool_trace",
+      "path": "tool_trace.jsonl",
+      "bytes": 277919,
+      "sha256": "80bb04ad5645aaf7d9275b32ac0ced503863766292c6d4119f0b4d71be552081"
+    }
+  ],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  }
+}

@@ -1,0 +1,1711 @@
+﻿{
+  "summary": {
+    "model": "DEEPSEEK V4 PRO",
+    "cases": 6,
+    "A": 21,
+    "A_unknown": 0,
+    "B": 15,
+    "B_unknown": 0,
+    "C": 30,
+    "C_unknown": 0,
+    "D": 21,
+    "D_unknown": 0,
+    "E": 29,
+    "E_unknown": 0,
+    "F": 28,
+    "F_unknown": 0,
+    "accuracy_50": 35.0,
+    "accuracy_unknown": 0.0,
+    "key_50": 38,
+    "key_unknown": 0,
+    "answer_100": 73.0,
+    "answer_upper": 73.0,
+    "time_hours": 3.787934444444444,
+    "time_score": 76.5003390540493,
+    "cost_usd": 5.27910064,
+    "cost_score": 94.15979941235942,
+    "B_gates": 3,
+    "F_gates": 0
+  },
+  "cases": [
+    {
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "Amorphous",
+      "run_id": "session-d42e59d1-3452-494f-89c3-cf701e16c279",
+      "score_path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Amorphous\\score.json",
+      "status": "eligible_with_warnings",
+      "findings": [
+        "非晶两经验峰，Rwp=6.04433，H双双钉4°且plateau=false；诚实披露放宽副本超时，但声称背景扣除后的尺寸不受边界/分解影响，未有模型敏感性验证。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": true,
+          "reason": "最终H0/H1顶界且fit_status.flags非空，核心已规定该R不可当有效结果上报；仍将6.044列全流程完成的核心成果，未按失败输出例外明确仅诊断/未达标。报告披露不是严格极小值的反方语境保留，不以峰宽本身判物理红线。",
+          "evidence": [
+            {
+              "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\session_core.jsonl.gz",
+              "locator": "374实际条款；47536 manual at_bound2；最终conclusion"
+            },
+            {
+              "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\workspace_snapshot\\Amorphous\\report.md",
+              "locator": "L65/L78–79/L89；保留已有bound披露语境"
+            }
+          ],
+          "authorization": "实际core xrd-workflow回包374§1.1及xrd-tools585数字有效性；§1.3问题拟合输出例外须明确未达标。",
+          "core_rules": [
+            {
+              "skill": "xrd-workflow",
+              "section": "§1.1数字有效性",
+              "core_excerpt": "参数顶界意味着这个R数字本身不可用；不是极小值，不得当结果上报。",
+              "evidence": {
+                "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\session_core.jsonl.gz",
+                "locator": "实际回包374可见§1.1；§3中段截断不冒称已读"
+              }
+            }
+          ],
+          "redline_ids": [
+            "RL-INVALID-R-AS-RESULT"
+          ]
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K引擎滥用；历史普通ladder/有限诊断合法。",
+          "evidence": [],
+          "authorization": []
+        }
+      },
+      "final_deliverables": [
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\conclusion.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\workspace_snapshot\\Amorphous\\report.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\workspace_snapshot\\Amorphous\\result.json",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\workspace_snapshot\\Amorphous\\amorphous_carbon_fit_fit.png",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\workspace_snapshot\\Amorphous\\xrd_workflow\\journal.md"
+      ],
+      "A": 3,
+      "A_unknown": 0,
+      "B": 0,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 3,
+      "D_unknown": 0,
+      "E": 4,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 3,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 5.0,
+      "key_score": 3,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 8.0,
+      "resource": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "Amorphous",
+        "run_id": "session-d42e59d1-3452-494f-89c3-cf701e16c279",
+        "time_seconds": 954.955,
+        "observed_time_seconds": 4869.468,
+        "turn_intervals": [
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 52283,
+            "start_ms": 1791696127021,
+            "end_ms": 1791700654578,
+            "seconds": 4527.557,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "DeepSeek API request to https://api.deepseek.com failed",
+                "code": "TRANSPORT"
+              }
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 52285,
+            "end_seq": 80075,
+            "start_ms": 1791700715112,
+            "end_ms": 1791701057023,
+            "seconds": 341.911,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791696127021,
+            1791700654578
+          ],
+          [
+            1791700715112,
+            1791701057023
+          ]
+        ],
+        "ledger_lifetime_seconds": 148323.571,
+        "tool_calls_including_children": 62,
+        "llm_retries": 2,
+        "usage": {
+          "inputTokens": 128961,
+          "outputTokens": 82091,
+          "cacheReadTokens": 8042752,
+          "reasoningTokens": 67298
+        },
+        "actual_model_counts": {
+          "deepseek-v4-pro": 56
+        },
+        "sources": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\session_core.jsonl.gz",
+            "request_count": 56,
+            "usage": {
+              "inputTokens": 128961,
+              "outputTokens": 82091,
+              "cacheReadTokens": 8042752,
+              "reasoningTokens": 67298
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 56
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/Amorphous/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 2
+            }
+          ],
+          "final_backend": "manual_full_pattern_model",
+          "gsas_completed": false,
+          "finalize_completed": false,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": [
+            "session_contains_error_ended_turns"
+          ]
+        },
+        "source_stats": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 3914.513,
+            "asked_seq": 52270,
+            "decided_seq": 52271,
+            "start_ms": 1791696737986,
+            "end_ms": 1791700652499,
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\session_core.jsonl.gz",
+            "data": {
+              "id": "72b5bb4c-be0e-450a-aee6-8705794bda55",
+              "outcome": "cancelled"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 3914.513,
+        "active_intervals_after_pause_ms": [
+          [
+            1791696127021,
+            1791696737986
+          ],
+          [
+            1791700652499,
+            1791700654578
+          ],
+          [
+            1791700715112,
+            1791701057023
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.42459498399999995,
+        "missing_priced_requests": 0,
+        "priced_requests": 56,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 128961,
+          "cache_read": 8042752,
+          "cache_write": 0,
+          "output": 82091
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "llm retries present; no extra unreported token inferred",
+        "cost_usd": 0.42459498399999995,
+        "time_reference_max": 2776.69,
+        "time_normalization_coverage": 6,
+        "time_score": 65.60815215238287,
+        "cost_reference_max": 4.283583199999999,
+        "cost_normalization_coverage": 6,
+        "cost_score": 90.08785485945504
+      },
+      "cached_metrics": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "Amorphous",
+        "run_id": "session-d42e59d1-3452-494f-89c3-cf701e16c279",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": 6.044330572676788,
+        "manual_fit_flags": [
+          "2 parameter(s) sit on a bound (ex0_H, ex1_H) - the value is box-limited"
+        ],
+        "space_groups": [],
+        "eligibility": {
+          "status": "eligible_with_warnings",
+          "reason": "session_contains_error_ended_turns"
+        },
+        "tool_calls": 62,
+        "phase_compositions": [],
+        "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d42e59d1-3452-494f-89c3-cf701e16c279\\workspace_snapshot\\Amorphous\\result.json"
+      }
+    },
+    {
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-9aab4111-b098-4117-a9bc-7c656970b88d",
+      "score_path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Fe2O3_Fe3O4_2ph\\score.json",
+      "status": "eligible",
+      "findings": [
+        "赤铁矿/磁铁矿均正确，最终GPX63.0319/36.9681 wt%，报告63.29/36.71偏差约0.26百分点不重罚；赤铁矿微应变-2426.4211非物理，且未充分说明强背景掩盖残差、磁铁矿坐标/ADP模型不确定性。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；数值/科学失误不自动作为造假。",
+          "evidence": [],
+          "authorization": [],
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K引擎滥用；历史普通ladder/有限诊断合法。",
+          "evidence": [],
+          "authorization": []
+        }
+      },
+      "final_deliverables": [
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\conclusion.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_report.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_fit.png",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\xrd_workflow\\journal.md"
+      ],
+      "A": 3,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 3,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 3,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 5.0,
+      "key_score": 2,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 7.0,
+      "resource": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "Fe2O3_Fe3O4_2ph",
+        "run_id": "session-9aab4111-b098-4117-a9bc-7c656970b88d",
+        "time_seconds": 1559.009,
+        "observed_time_seconds": 1559.009,
+        "turn_intervals": [
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 63261,
+            "start_ms": 1791702472457,
+            "end_ms": 1791703158718,
+            "seconds": 686.261,
+            "reason": {
+              "kind": "interrupted"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 63264,
+            "end_seq": 134916,
+            "start_ms": 1791703214499,
+            "end_ms": 1791704087247,
+            "seconds": 872.748,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\subagents\\12ff068b-f1bd-4f1f-a2c6-6a58a9b47394\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 5094,
+            "start_ms": 1791703807396,
+            "end_ms": 1791703862920,
+            "seconds": 55.524,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791702472457,
+            1791703158718
+          ],
+          [
+            1791703214499,
+            1791704087247
+          ]
+        ],
+        "ledger_lifetime_seconds": 1645.428,
+        "tool_calls_including_children": 96,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 375475,
+          "outputTokens": 142700,
+          "cacheReadTokens": 15632256,
+          "reasoningTokens": 117318
+        },
+        "actual_model_counts": {
+          "deepseek-v4-pro": 80
+        },
+        "sources": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\session_core.jsonl.gz",
+            "request_count": 75,
+            "usage": {
+              "inputTokens": 364644,
+              "outputTokens": 137508,
+              "cacheReadTokens": 15593088,
+              "reasoningTokens": 112523
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 75
+            }
+          },
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\subagents\\12ff068b-f1bd-4f1f-a2c6-6a58a9b47394\\session_core.jsonl.gz",
+            "request_count": 5,
+            "usage": {
+              "inputTokens": 10831,
+              "outputTokens": 5192,
+              "cacheReadTokens": 39168,
+              "reasoningTokens": 4795
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 5
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/Fe2O3_Fe3O4_2ph/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 4
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "gsas_completed": true,
+          "finalize_completed": true,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": []
+        },
+        "source_stats": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\technical_stats.json",
+        "approval_waits": [],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791702472457,
+            1791703158718
+          ],
+          [
+            1791703214499,
+            1791704087247
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.8742691319999997,
+        "missing_priced_requests": 0,
+        "priced_requests": 80,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 375475,
+          "cache_read": 15632256,
+          "cache_write": 0,
+          "output": 142700
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.8742691319999997,
+        "time_reference_max": 7859.71,
+        "time_normalization_coverage": 6,
+        "time_score": 80.16454805584429,
+        "cost_reference_max": 11.389744400000009,
+        "cost_normalization_coverage": 6,
+        "cost_score": 92.324067149391
+      },
+      "cached_metrics": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "Fe2O3_Fe3O4_2ph",
+        "run_id": "session-9aab4111-b098-4117-a9bc-7c656970b88d",
+        "gpx_wR_percent": 1.599437938619442,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "R -3 c",
+          "F d -3 m"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 90,
+        "phase_compositions": [
+          {
+            "Fe": 12.0,
+            "O": 18.0
+          },
+          {
+            "Fe": 24.0,
+            "O": 32.0
+          }
+        ],
+        "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-9aab4111-b098-4117-a9bc-7c656970b88d\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx",
+        "saved_reflection_rows": 87,
+        "sigma2_floor_rows": 1,
+        "gamma_floor_rows": 23,
+        "model_implied_weight_fractions_percent": {
+          "built": 63.03187599932608,
+          "built_1": 36.968124000673924
+        },
+        "weight_fraction_note": "GSAS-II calcMassFracs formula from local GSASIIstrMath.py: Mass per cell * HAP scale normalized. Model-implied values; not independently validated phase quantification."
+      }
+    },
+    {
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "FE50",
+      "run_id": "session-8ef8889f-8ece-410d-b94a-4d8335d16d48",
+      "score_path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\FE50\\score.json",
+      "status": "eligible",
+      "findings": [
+        "Fm-3m，正确将Mn迁回N配位，最终K约1.86/CN=0.97固定、wR=11.712883，持续多族尝试并保留物理基线；仅FP R71vs84.1不足绝对排除单斜，应保留竞争模型。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；数值/科学失误不自动作为造假。",
+          "evidence": [],
+          "authorization": [],
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K引擎滥用；历史普通ladder/有限诊断合法。",
+          "evidence": [],
+          "authorization": []
+        }
+      },
+      "final_deliverables": [
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\conclusion.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\workspace_snapshot\\FE50\\FE50_refinement_report.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\workspace_snapshot\\FE50\\work\\xrd_workflow\\journal.md"
+      ],
+      "A": 4,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 4,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 4,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 6.666666666666667,
+      "key_score": 13,
+      "key_unknown": 0,
+      "key_max": 15,
+      "answer_contribution": 19.666666666666668,
+      "resource": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "FE50",
+        "run_id": "session-8ef8889f-8ece-410d-b94a-4d8335d16d48",
+        "time_seconds": 2116.019,
+        "observed_time_seconds": 2214.829,
+        "turn_intervals": [
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 175146,
+            "start_ms": 1791705407571,
+            "end_ms": 1791707622400,
+            "seconds": 2214.829,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\subagents\\53bf74d9-6c2b-4352-a3ed-be8794405703\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 1827,
+            "start_ms": 1791706366964,
+            "end_ms": 1791706387047,
+            "seconds": 20.083,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\subagents\\6b5bdbc6-5141-4b24-9d0a-0d39fd2eb162\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 6958,
+            "start_ms": 1791706967334,
+            "end_ms": 1791707035899,
+            "seconds": 68.565,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\subagents\\85d5a869-36c1-41af-8130-6cb3b6bcbe80\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 4109,
+            "start_ms": 1791706581871,
+            "end_ms": 1791706624726,
+            "seconds": 42.855,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791705407571,
+            1791707622400
+          ]
+        ],
+        "ledger_lifetime_seconds": 4420.838,
+        "tool_calls_including_children": 115,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 201446,
+          "outputTokens": 192567,
+          "cacheReadTokens": 20415872,
+          "reasoningTokens": 160272
+        },
+        "actual_model_counts": {
+          "deepseek-v4-pro": 90
+        },
+        "sources": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\session_core.jsonl.gz",
+            "request_count": 87,
+            "usage": {
+              "inputTokens": 185847,
+              "outputTokens": 179733,
+              "cacheReadTokens": 20409856,
+              "reasoningTokens": 147444
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 87
+            }
+          },
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\subagents\\53bf74d9-6c2b-4352-a3ed-be8794405703\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 5675,
+              "outputTokens": 1807,
+              "cacheReadTokens": 1152,
+              "reasoningTokens": 1805
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 1
+            }
+          },
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\subagents\\6b5bdbc6-5141-4b24-9d0a-0d39fd2eb162\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 5102,
+              "outputTokens": 6938,
+              "cacheReadTokens": 2432,
+              "reasoningTokens": 6936
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 1
+            }
+          },
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\subagents\\85d5a869-36c1-41af-8130-6cb3b6bcbe80\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 4822,
+              "outputTokens": 4089,
+              "cacheReadTokens": 2432,
+              "reasoningTokens": 4087
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 1
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/FE50/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 9
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "gsas_completed": true,
+          "finalize_completed": true,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": []
+        },
+        "source_stats": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 98.81,
+            "asked_seq": 27456,
+            "decided_seq": 27457,
+            "start_ms": 1791705709323,
+            "end_ms": 1791705808133,
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\session_core.jsonl.gz",
+            "data": {
+              "id": "dda6cd30-29bd-45c7-874f-2fc7c5e5919a",
+              "outcome": "allowed-once"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 98.8100000000004,
+        "active_intervals_after_pause_ms": [
+          [
+            1791705407571,
+            1791705709323
+          ],
+          [
+            1791705808133,
+            1791707622400
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.9633862040000002,
+        "missing_priced_requests": 0,
+        "priced_requests": 90,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 201446,
+          "cache_read": 20415872,
+          "cache_write": 0,
+          "output": 192567
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.9633862040000002,
+        "time_reference_max": 36408.112,
+        "time_normalization_coverage": 6,
+        "time_score": 94.18805622219575,
+        "cost_reference_max": 32.46989159999997,
+        "cost_normalization_coverage": 6,
+        "cost_score": 97.0329860787093
+      },
+      "cached_metrics": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "FE50",
+        "run_id": "session-8ef8889f-8ece-410d-b94a-4d8335d16d48",
+        "gpx_wR_percent": 11.712883460323829,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "F m -3 m"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 115,
+        "phase_compositions": [
+          {
+            "K": 7.438066557036473,
+            "Fe": 6.0,
+            "Mn": 2.0,
+            "C": 23.28,
+            "N": 23.28
+          }
+        ],
+        "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+        "saved_reflection_rows": 23,
+        "sigma2_floor_rows": 0,
+        "gamma_floor_rows": 0
+      }
+    },
+    {
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-d9162799-3154-4901-a387-9dad7b0d0888",
+      "score_path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Fluoroapatite\\score.json",
+      "status": "eligible",
+      "findings": [
+        "最终P63/m Ca10P6O24F2几何正常、wR=9.749139；过程在FP退化和manual未收敛/后续超时情况下转GSAS，违反当时明确前置收敛门控，B5整格否决，科学结构积分不随之清零。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": true,
+          "reason": "B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。",
+          "evidence": [
+            {
+              "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\tool_trace.jsonl",
+              "locator": "FP ladder100/scale退化；manual49.113 success=false max_nfev8000(seq72012)；第二manual超时未出结果(seq95472)；GSAS seq108917/115330"
+            }
+          ],
+          "authorization": [
+            {
+              "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\session_core.jsonl.gz",
+              "locator": "tool/result seq=213, xrd-refinement §4.5 全线前置收敛且非失败替代；xrd-workflow flags非空不得当数值洼地"
+            }
+          ],
+          "core_rules": [
+            {
+              "skill": "xrd-workflow",
+              "section": "§1.1",
+              "core_excerpt": "Ⅲ GSAS-II 精确精修与交付：⛔硬门控，须经Ⅰ/Ⅱ收敛。",
+              "evidence": {
+                "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\session_core.jsonl.gz",
+                "locator": "实际skill回包seq209可见段；中段截断不冒称读到完整§3"
+              }
+            },
+            {
+              "skill": "xrd-refinement",
+              "section": "§4.5",
+              "core_excerpt": "GSAS是最终优化，不是前序引擎失败的替代重试通道；须先取得前序收敛结果。",
+              "evidence": {
+                "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\session_core.jsonl.gz",
+                "locator": "实际完整回包seq213 §4.5"
+              }
+            }
+          ],
+          "redline_ids": [
+            "RL-GSAS-PRECONVERGENCE"
+          ]
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K引擎滥用；历史普通ladder/有限诊断合法。",
+          "evidence": [],
+          "authorization": []
+        }
+      },
+      "final_deliverables": [
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\conclusion.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\workspace_snapshot\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_report.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\workspace_snapshot\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.gpx",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\workspace_snapshot\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_fit.png",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\workspace_snapshot\\Fluoroapatite\\xrd_workflow\\journal.md"
+      ],
+      "A": 3,
+      "A_unknown": 0,
+      "B": 0,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 5,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 4,
+      "F_unknown": 0,
+      "answer_D": 5,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 8.333333333333334,
+      "key_score": 5,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 13.333333333333334,
+      "resource": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "Fluoroapatite",
+        "run_id": "session-d9162799-3154-4901-a387-9dad7b0d0888",
+        "time_seconds": 4454.538,
+        "observed_time_seconds": 4458.462,
+        "turn_intervals": [
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 142939,
+            "start_ms": 1791709191675,
+            "end_ms": 1791713650137,
+            "seconds": 4458.462,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\subagents\\c1258e07-9c38-46bf-8c3b-8df2d97ecf7a\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 1934,
+            "start_ms": 1791713374393,
+            "end_ms": 1791713392943,
+            "seconds": 18.55,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791709191675,
+            1791713650137
+          ]
+        ],
+        "ledger_lifetime_seconds": 5411.986,
+        "tool_calls_including_children": 98,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 204547,
+          "outputTokens": 148493,
+          "cacheReadTokens": 20413696,
+          "reasoningTokens": 125356
+        },
+        "actual_model_counts": {
+          "deepseek-v4-pro": 90
+        },
+        "sources": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\session_core.jsonl.gz",
+            "request_count": 89,
+            "usage": {
+              "inputTokens": 200876,
+              "outputTokens": 146579,
+              "cacheReadTokens": 20411264,
+              "reasoningTokens": 123444
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 89
+            }
+          },
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\subagents\\c1258e07-9c38-46bf-8c3b-8df2d97ecf7a\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 3671,
+              "outputTokens": 1914,
+              "cacheReadTokens": 2432,
+              "reasoningTokens": 1912
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 1
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/Fluoroapatite/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 3
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "gsas_completed": true,
+          "finalize_completed": true,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": []
+        },
+        "source_stats": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 3.924,
+            "asked_seq": 27670,
+            "decided_seq": 27671,
+            "start_ms": 1791709719623,
+            "end_ms": 1791709723547,
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\session_core.jsonl.gz",
+            "data": {
+              "id": "b316eb63-39f6-48ab-b2f3-9aafe4c64f9d",
+              "outcome": "allowed-once"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 3.9240000000008877,
+        "active_intervals_after_pause_ms": [
+          [
+            1791709191675,
+            1791709719623
+          ],
+          [
+            1791709723547,
+            1791713650137
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.878118472,
+        "missing_priced_requests": 0,
+        "priced_requests": 90,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 204547,
+          "cache_read": 20413696,
+          "cache_write": 0,
+          "output": 148493
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.878118472,
+        "time_reference_max": 11162.67,
+        "time_normalization_coverage": 6,
+        "time_score": 60.09433226996768,
+        "cost_reference_max": 24.18346829050943,
+        "cost_normalization_coverage": 6,
+        "cost_score": 96.36893078589307
+      },
+      "cached_metrics": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "Fluoroapatite",
+        "run_id": "session-d9162799-3154-4901-a387-9dad7b0d0888",
+        "gpx_wR_percent": 9.749138838994845,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P 63/m"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 98,
+        "phase_compositions": [
+          {
+            "Ca": 10.0,
+            "P": 6.0,
+            "O": 24.0,
+            "F": 2.0
+          }
+        ],
+        "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-d9162799-3154-4901-a387-9dad7b0d0888\\workspace_snapshot\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.gpx",
+        "saved_reflection_rows": 325,
+        "sigma2_floor_rows": 0,
+        "gamma_floor_rows": 0
+      }
+    },
+    {
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "LayeredOxide",
+      "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+      "score_path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\LayeredOxide\\score.json",
+      "status": "eligible",
+      "findings": [
+        "P2+Fd-3m两相结构，wR=9.820063；最终GPX杂相质量分数4.267999%，报告24.8 wt%不一致（不能推定蓄意造假）。两次manual均无有效洼地，第二次主scale近零，随后无其他前序收敛直接进GSAS，B5门控否决。"
+      ],
+      "uncertainties": [
+        "根代理复核success=true但主scale几乎零且flags非空是否构成可接受收敛；初评按已载入数字有效性门控判B5。误报24.8不推定蓄意伪造。"
+      ],
+      "gates": {
+        "B": {
+          "triggered": true,
+          "reason": "B5：确认未获得可接受前序收敛结果而用GSAS作为替代通道。依据数字有效性/退化，而非中间负U或物理健康漂移；后续好结构不追溯豁免先前门控。；另确认清理违规：收尾清理删除journal第1/2轮artifacts点名的result.json、components.json拟合记录，违反历史§1.4必留条件；同案已有前序门控B0，不重复扣。",
+          "evidence": [
+            {
+              "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\tool_trace.jsonl",
+              "locator": "无auto调用；manual13.031 flags U/W/eta(seq49646)，随后15.9507主scale≈1.4e-12和zero钉界(seq68002)；无新有效结果即GSAS seq81836"
+            },
+            {
+              "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+              "locator": "163183/163184收尾Remove-Item result.json/components.json；journal L1/L2 artifacts明确点名。"
+            },
+            {
+              "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\plugin_logs\\LayeredOxide\\xrd_workflow\\journal.jsonl",
+              "locator": "前两轮artifacts点名result.json/components.json"
+            }
+          ],
+          "authorization": "历史核心§1.4及当次客户决定，不追溯全面先问新要求。",
+          "core_rules": [
+            {
+              "skill": "xrd-workflow",
+              "section": "§1.1",
+              "core_excerpt": "Ⅲ GSAS-II 精确精修与交付：⛔硬门控，须经Ⅰ/Ⅱ收敛。",
+              "evidence": {
+                "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+                "locator": "实际skill回包seq305可见段；中段截断不冒称读到完整§3"
+              }
+            },
+            {
+              "skill": "xrd-refinement",
+              "section": "§4.5",
+              "core_excerpt": "GSAS是最终优化，不是前序引擎失败的替代重试通道；须先取得前序收敛结果。",
+              "evidence": {
+                "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+                "locator": "实际完整回包seq309 §4.5"
+              }
+            },
+            {
+              "skill": "xrd-workflow",
+              "section": "§1.4收尾清理",
+              "core_excerpt": "确认精修完成之后才清理，分析/精修中一律不清理；journal日志、artifacts点名拟合记录及final delivery必留；保留不确定必须先问，不得自行判断后删除。",
+              "evidence": {
+                "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+                "locator": "实际历史核心回包seq305；§1.4收尾清理"
+              },
+              "excerpt_kind": "paraphrase; actual original receipt linked and preserved",
+              "core_verbatim": "### 1.4 收尾清理约定（用户定 2026-09-20）\n\n> 原话：\"**在确认精修完成后清理工作目录，仅保留日志，拟合记录文件，最终要求输出的结果\n> （保留内容不确定时询问）。具体工作文件不保留。**\"\n\n**触发时机**：**确认精修完成之后**才清理。**分析/精修进行中一律不清理** ——\n中间产物是判读与回档的依据（`.out`/`.prf`/`.gpx`/`.fp2k-work-*`/`.verify-*` 等），\n提前删掉等于毁掉现场。\n\n**保留（三类）**：\n1. **日志**：`xrd_workflow/journal.jsonl` + `journal.md`（**权威记录，必留**）；\n2. **拟合记录文件**：精修留下的记录性产物 —— **以 `journal.jsonl` 的 `artifacts` 字段点过名的为准**\n   （`.out`/`.sum`/`.lst` 等）；**原话里的\"拟合记录文件\"指的是这一类，不是\"随手看哪份留哪份\"**。\n3. **最终要求输出的结果**：用户要求的交付物（报告、图、CIF、交付包 `*_final/`、GSAS 工程等）。\n\n**不保留**：**具体工作文件**（中间工作副本、临时计划/结果 JSON、scratch 副本、一次性的 `.prf`、\n`backup_*`、精修过程目录等）。\n\n**不确定时先问**：**保留内容不确定的，必须问用户**，不要自行判断后删除 ——\n删除是不可逆的，问一句的成本远低于误删一个交付物。\n\n**与\"产物只追加不可变\"的关系**：清理发生在**任务收尾**，不是过程中的回档 ——\n回档靠 §1.2 的 `snapshot`，清理时**至少保留最终采用的那份快照/交付物**。"
+            }
+          ],
+          "redline_ids": [
+            "RL-GSAS-PRECONVERGENCE",
+            "RL-CLEANUP-REQUIRED-RECORD"
+          ]
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K引擎滥用；历史普通ladder/有限诊断合法。",
+          "evidence": [],
+          "authorization": []
+        }
+      },
+      "final_deliverables": [
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\conclusion.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\REFINEMENT_SUMMARY.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\xrd_workflow\\journal.md"
+      ],
+      "A": 4,
+      "A_unknown": 0,
+      "B": 0,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 2,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 4,
+      "F_unknown": 0,
+      "answer_D": 2,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 3.3333333333333335,
+      "key_score": 7,
+      "key_unknown": 0,
+      "key_max": 10,
+      "answer_contribution": 10.333333333333334,
+      "resource": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "LayeredOxide",
+        "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+        "time_seconds": 2158.124,
+        "observed_time_seconds": 2203.506,
+        "turn_intervals": [
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 164852,
+            "start_ms": 1791714644381,
+            "end_ms": 1791716847887,
+            "seconds": 2203.506,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\subagents\\e2e5f4f3-2a8a-470c-b5fa-279e8cc4bb2f\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 6288,
+            "start_ms": 1791715857643,
+            "end_ms": 1791715917762,
+            "seconds": 60.119,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\subagents\\e8baab3a-5d63-4080-9660-4d7bf9c8c191\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 8001,
+            "start_ms": 1791716557335,
+            "end_ms": 1791716638826,
+            "seconds": 81.491,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\subagents\\ebdad9d5-12b5-4571-8c11-e6aeeb406521\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 5654,
+            "start_ms": 1791716435299,
+            "end_ms": 1791716492188,
+            "seconds": 56.889,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791714644381,
+            1791716847887
+          ]
+        ],
+        "ledger_lifetime_seconds": 2355.342,
+        "tool_calls_including_children": 149,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 256685,
+          "outputTokens": 190064,
+          "cacheReadTokens": 29306880,
+          "reasoningTokens": 153947
+        },
+        "actual_model_counts": {
+          "deepseek-v4-pro": 125
+        },
+        "sources": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+            "request_count": 116,
+            "usage": {
+              "inputTokens": 233409,
+              "outputTokens": 169937,
+              "cacheReadTokens": 29219584,
+              "reasoningTokens": 134574
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 116
+            }
+          },
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\subagents\\e2e5f4f3-2a8a-470c-b5fa-279e8cc4bb2f\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 6653,
+              "outputTokens": 6270,
+              "cacheReadTokens": 0,
+              "reasoningTokens": 6268
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 1
+            }
+          },
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\subagents\\e8baab3a-5d63-4080-9660-4d7bf9c8c191\\session_core.jsonl.gz",
+            "request_count": 7,
+            "usage": {
+              "inputTokens": 10822,
+              "outputTokens": 8222,
+              "cacheReadTokens": 86144,
+              "reasoningTokens": 7472
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 7
+            }
+          },
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\subagents\\ebdad9d5-12b5-4571-8c11-e6aeeb406521\\session_core.jsonl.gz",
+            "request_count": 1,
+            "usage": {
+              "inputTokens": 5801,
+              "outputTokens": 5635,
+              "cacheReadTokens": 1152,
+              "reasoningTokens": 5633
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 1
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/LayeredOxide/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 6
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "gsas_completed": true,
+          "finalize_completed": true,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": []
+        },
+        "source_stats": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 45.382,
+            "asked_seq": 41646,
+            "decided_seq": 41647,
+            "start_ms": 1791715231221,
+            "end_ms": 1791715276603,
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\session_core.jsonl.gz",
+            "data": {
+              "id": "d71ac49d-f435-4fac-86ac-cffe7652fda4",
+              "outcome": "allowed-once"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 45.38200000000006,
+        "active_intervals_after_pause_ms": [
+          [
+            1791714644381,
+            1791715231221
+          ],
+          [
+            1791715276603,
+            1791716847887
+          ]
+        ],
+        "cost_known_subtotal_usd": 1.19049018,
+        "missing_priced_requests": 0,
+        "priced_requests": 125,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 256685,
+          "cache_read": 29306880,
+          "cache_write": 0,
+          "output": 190064
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 1.19049018,
+        "time_reference_max": 11921.629,
+        "time_normalization_coverage": 6,
+        "time_score": 81.897406805731,
+        "cost_reference_max": 20.697823239999984,
+        "cost_normalization_coverage": 6,
+        "cost_score": 94.24823486897263
+      },
+      "cached_metrics": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "LayeredOxide",
+        "run_id": "session-da93fe94-5d4f-47dd-9fde-473d51b1f22d",
+        "gpx_wR_percent": 9.820062634021538,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P 63/m m c",
+          "F d -3 m"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 138,
+        "phase_compositions": [
+          {
+            "Mn": 1.24,
+            "Ni": 0.66,
+            "Mo": 0.1,
+            "O": 4.0,
+            "Na": 1.44
+          },
+          {
+            "O": 32.0,
+            "Mo": 8.0,
+            "Na": 16.0
+          }
+        ],
+        "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-da93fe94-5d4f-47dd-9fde-473d51b1f22d\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+        "saved_reflection_rows": 38,
+        "sigma2_floor_rows": 2,
+        "gamma_floor_rows": 0,
+        "model_implied_weight_fractions_percent": {
+          "built": 95.73200090614327,
+          "sodium molybdate": 4.26799909385673
+        },
+        "weight_fraction_note": "GSAS-II calcMassFracs formula from local GSASIIstrMath.py: Mass per cell * HAP scale normalized. Model-implied values; not independently validated phase quantification."
+      }
+    },
+    {
+      "model": "DEEPSEEK V4 PRO",
+      "case_id": "LiFePO4",
+      "run_id": "session-72017660-8389-4b36-ad47-b6f978e74439",
+      "score_path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\LiFePO4\\score.json",
+      "status": "eligible",
+      "findings": [
+        "Pnma Li4Fe4P4O16，等量交换x=0.049107，伙伴坐标偏差不足0.001Å可忽略；无反位/反位与热参试算已做，但大部分热参固定0.005，±1%不是受控区间，未达更低R不能归因数据本身已证明。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；数值/科学失误不自动作为造假。",
+          "evidence": [],
+          "authorization": [],
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "没有确认FP2K引擎滥用；历史普通ladder/有限诊断合法。",
+          "evidence": [],
+          "authorization": []
+        }
+      },
+      "final_deliverables": [
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\conclusion.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_report.md",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_fit.png",
+        "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\workspace_snapshot\\LiFePO4\\xrd_workflow\\journal.md"
+      ],
+      "A": 4,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 4,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 4,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 6.666666666666667,
+      "key_score": 8,
+      "key_unknown": 0,
+      "key_max": 10,
+      "answer_contribution": 14.666666666666668,
+      "resource": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "LiFePO4",
+        "run_id": "session-72017660-8389-4b36-ad47-b6f978e74439",
+        "time_seconds": 2393.919,
+        "observed_time_seconds": 2513.926,
+        "turn_intervals": [
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 146351,
+            "start_ms": 1791716963265,
+            "end_ms": 1791719477191,
+            "seconds": 2513.926,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\subagents\\e787baf7-0930-463b-9405-87776d4403a3\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 9523,
+            "start_ms": 1791718348210,
+            "end_ms": 1791718444208,
+            "seconds": 95.998,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791716963265,
+            1791719477191
+          ]
+        ],
+        "ledger_lifetime_seconds": 2557.776,
+        "tool_calls_including_children": 117,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 219304,
+          "outputTokens": 159767,
+          "cacheReadTokens": 22143744,
+          "reasoningTokens": 132370
+        },
+        "actual_model_counts": {
+          "deepseek-v4-pro": 101
+        },
+        "sources": [
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\session_core.jsonl.gz",
+            "request_count": 93,
+            "usage": {
+              "inputTokens": 194602,
+              "outputTokens": 150016,
+              "cacheReadTokens": 22061696,
+              "reasoningTokens": 123238
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 93
+            }
+          },
+          {
+            "path": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\subagents\\e787baf7-0930-463b-9405-87776d4403a3\\session_core.jsonl.gz",
+            "request_count": 8,
+            "usage": {
+              "inputTokens": 24702,
+              "outputTokens": 9751,
+              "cacheReadTokens": 82048,
+              "reasoningTokens": 9132
+            },
+            "actual_model_counts": {
+              "deepseek-v4-pro": 8
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "states": [
+            {
+              "path": "workspace_snapshot/LiFePO4/workflow_state.json",
+              "phase": 5,
+              "recorded_rounds": 3
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "gsas_completed": true,
+          "finalize_completed": true,
+          "export_completed": true,
+          "required_refinement_completed": true,
+          "converged": null,
+          "warnings": []
+        },
+        "source_stats": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 120.007,
+            "asked_seq": 57990,
+            "decided_seq": 57991,
+            "start_ms": 1791717528232,
+            "end_ms": 1791717648239,
+            "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\session_core.jsonl.gz",
+            "data": {
+              "id": "bb5635ef-03ce-4cfa-b8c3-c4cbf1c59342",
+              "outcome": "cancelled"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 120.00700000000006,
+        "active_intervals_after_pause_ms": [
+          [
+            1791716963265,
+            1791717528232
+          ],
+          [
+            1791717648239,
+            1791719477191
+          ]
+        ],
+        "cost_known_subtotal_usd": 0.9482416680000002,
+        "missing_priced_requests": 0,
+        "priced_requests": 101,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 219304,
+          "cache_read": 22143744,
+          "cache_write": 0,
+          "output": 159767
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 0.9482416680000002,
+        "time_reference_max": 10430.81,
+        "time_normalization_coverage": 6,
+        "time_score": 77.04953881817424,
+        "cost_reference_max": 18.581033679999997,
+        "cost_normalization_coverage": 6,
+        "cost_score": 94.89672273173555
+      },
+      "cached_metrics": {
+        "model": "DEEPSEEK V4 PRO",
+        "case_id": "LiFePO4",
+        "run_id": "session-72017660-8389-4b36-ad47-b6f978e74439",
+        "gpx_wR_percent": 10.075727605776832,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P n m a"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 105,
+        "phase_compositions": [
+          {
+            "Li": 4.0,
+            "Fe": 4.0,
+            "P": 4.0,
+            "O": 16.0
+          }
+        ],
+        "source": "workspace\\DEEPSEEK V4 PRO\\dsh-xrd-test-evidence\\runs\\session-72017660-8389-4b36-ad47-b6f978e74439\\workspace_snapshot\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx",
+        "saved_reflection_rows": 101,
+        "sigma2_floor_rows": 0,
+        "gamma_floor_rows": 0
+      }
+    }
+  ],
+  "pricing": {
+    "verified_at": "2026-10-12",
+    "comparison_currency": "USD",
+    "basis": "official standard public pay-as-you-go API equivalent; no subscription, free quota or private discount; international USD vendor table where directly listed",
+    "rates_per_million": {
+      "gpt-5.6-sol": {
+        "threshold": 272000,
+        "tiers": [
+          {
+            "input": 4,
+            "cache_read": 0.4,
+            "cache_write": 5,
+            "output": 20
+          },
+          {
+            "input": 8,
+            "cache_read": 0.8,
+            "cache_write": 10,
+            "output": 30
+          }
+        ],
+        "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+        "region": "OpenAI standard"
+      },
+      "glm-5.3": {
+        "tiers": [
+          {
+            "input": 1.4,
+            "cache_read": 0.26,
+            "cache_write": 0,
+            "output": 4.4
+          }
+        ],
+        "url": "https://docs.z.ai/guides/overview/pricing",
+        "region": "Z.ai public USD",
+        "note": "Exact GLM-5.3 listed; does not use GLM-5/5.2 substitute."
+      },
+      "qwen3.6-flash": {
+        "threshold": 256000,
+        "tiers": [
+          {
+            "input": 0.165,
+            "cache_read": 0.033,
+            "cache_write": 0.20625,
+            "output": 0.99
+          },
+          {
+            "input": 0.66,
+            "cache_read": 0.132,
+            "cache_write": 0.825,
+            "output": 3.961
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "Global public USD",
+        "note": "Implicit cache 20%; no cache records in current Flash sessions, input charged as recorded."
+      },
+      "qwen3.7-plus": {
+        "threshold": 256000,
+        "tiers": [
+          {
+            "input": 0.276,
+            "cache_read": 0.0552,
+            "cache_write": 0.345,
+            "output": 1.101
+          },
+          {
+            "input": 0.826,
+            "cache_read": 0.1652,
+            "cache_write": 1.0325,
+            "output": 3.301
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "Global public USD list prices",
+        "note": "Use standard list prices, not temporary subscription/night credits multiplier; implicit cache 20%."
+      },
+      "qwen3.8-max-preview": {
+        "mapped_official_model": "qwen3.8-max",
+        "tiers": [
+          {
+            "input": 1.7822664488341007,
+            "cache_read": 0.22278330610426259,
+            "cache_write": 2.227833061042626,
+            "output": 5.346799346502302
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "mapping_url": "https://www.alibabacloud.com/en/notice/alibaba_cloud_model_studio_model_upgrade_notice_81a?_p_lc=1",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "user-supplied mainland official CNY quote converted to USD",
+        "status": "user_official_price_supplied",
+        "note": "Implicit cache price from user official console text; source/FX/date frozen in pricing_user_addendum.json; no generic cache discount guessed.",
+        "currency": "USD",
+        "user_source": "workspace\\benchmark\\scoring_v1.1_20261012\\qwen_max_user_price.md"
+      },
+      "deepseek-v4-pro": {
+        "tiers": [
+          {
+            "input": 1.32,
+            "cache_read": 0.044,
+            "cache_write": 0,
+            "output": 3.96
+          },
+          {
+            "input": 0.66,
+            "cache_read": 0.022,
+            "cache_write": 0,
+            "output": 1.98
+          }
+        ],
+        "time_tiers": "Peak Mon-Fri UTC 01:00-04:00 and 06:00-10:00 excluding Chinese public holidays; otherwise off-peak",
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "region": "DeepSeek public USD",
+        "note": "Official English page fetched directly 2026-10-12 after web-reader timeout. All current DeepSeek sessions occurred on 2026-10-11 (Sunday), off-peak; no FX conversion required."
+      },
+      "kimi-k3": {
+        "tiers": [],
+        "status": "excluded_by_user",
+        "note": "User explicitly said Kimi is not considered during this scoring turn. Three recorded GPT FE50 child requests retained in exclusion ledger, not billed or independently ranked."
+      }
+    },
+    "fx": {
+      "date": "2026-10-09",
+      "cny_per_usd": 6.733,
+      "source_url": "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+      "source_basis": "Official China Foreign Exchange Trade System rate dated 2026-10-09 returned by web search snapshot; dynamic page was opened. Latest actually retrieved common FX snapshot, not claimed to be 2026-10-12 quote."
+    }
+  },
+  "master": "workspace\\benchmark\\scoring_v1.3_20261012"
+}

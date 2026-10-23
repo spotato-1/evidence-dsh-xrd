@@ -1,0 +1,35 @@
+﻿{
+  "model": "QWEN 3.7 PLUS",
+  "case_id": "Fe2O3_Fe3O4_2ph",
+  "run_id": "session-94796291-69ce-4e65-8fb8-c6845c81b051",
+  "selection_basis": "last completed xrd_export_cif result; validation verdict is preserved separately",
+  "selection_tool_seq": 9121,
+  "counts": {
+    "image": 1,
+    "gpx": 0,
+    "cif": 0
+  },
+  "all_three_types_present": false,
+  "same_final_state": "export call source and resulting files retained; final answer may conflict",
+  "notes": [
+    "original export state：xrd_export_cif: skipped",
+    "frozen workflow recordgsas_completed=false。"
+  ],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-94796291-69ce-4e65-8fb8-c6845c81b051\\workspace_snapshot\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_v3_fit.png",
+      "destination": "QWEN 3.7 PLUS/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_2ph_v3_fit.png",
+      "role": "image",
+      "bytes": 219828,
+      "sha256": "271c648609b1dbb2af777d56fe79cdae3c23aa9c1cb1e52776fce97329edc5c9",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-94796291-69ce-4e65-8fb8-c6845c81b051",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.candidate_files",
+      "declared_original_path": "workspace\\QWEN 3.7 PLUS\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_v3_fit.png"
+    }
+  ]
+}

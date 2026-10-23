@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.1",
+  "hash_algorithm": "SHA-256",
+  "file_count": 5,
+  "files": [
+    {
+      "path": "collection_audit.json",
+      "bytes": 2181,
+      "sha256": "8bdcc6b74c71dd86ef7a81deb1011017d199ecfcba83e1d011bef1c8613c9af4"
+    },
+    {
+      "path": "collection_audit.md",
+      "bytes": 1120,
+      "sha256": "22dc1c816b9b7223cf063934510a9fc910f16b3feda02f3d81df9765e6ef8a98"
+    },
+    {
+      "path": "configuration_audit.json",
+      "bytes": 6207,
+      "sha256": "6edab4d3fa2f577b227b9919d3e7ab8520a2a0cfeba60eff1e240a27ddd6b64f"
+    },
+    {
+      "path": "model_reports/Amorphous/analysis_report.md",
+      "bytes": 1740,
+      "sha256": "d888fc3a36c4dd7dffdb1204305626c7f60ce8b37b77dccedcdc03b9216a914f"
+    },
+    {
+      "path": "model_reports/Fluoroapatite/xrd_workflow/journal.md",
+      "bytes": 975,
+      "sha256": "e99bbea532f2aea908edd8829f82de7d3d9ee10b6dcc450b424d58f1ce9b6225"
+    }
+  ]
+}

@@ -1,0 +1,1554 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-qwen-3.8-max-ai-agent-v1-2026-10-12",
+  "case_id": "LiFePO4",
+  "run_id": "session-31d3ad15-08cb-4298-9049-60b8b98c599c",
+  "collected_at": "2026-10-11T22:49:45.339139+00:00",
+  "source": {
+    "model_label": "QWEN 3.8 MAX",
+    "assistant_model_routes": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.8-max-preview"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.8-max-preview",
+        "reasoningEffort": "high",
+        "maxTokens": 131072
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.8~0020MAX--\\session-31d3ad15-08cb-4298-9049-60b8b98c599c\\session.jsonl.zstd",
+      "bytes": 5781154,
+      "sha256": "2d29d16c1f504df097830cf19eca8972947ca93d7696771e26c9d37a1f6dbcfb",
+      "source_mtime_ns": 1791737906511401100,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/LiFePO4/pattern.raw",
+        "input_sha256": "922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd",
+        "workspace_file_present": true,
+        "workspace_sha256": "922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-11T14:03:24.829000+00:00",
+    "ended_at": "2026-10-11T16:58:26.506000+00:00",
+    "elapsed_seconds": 10501.677,
+    "turns": 2,
+    "tool_calls": 126,
+    "tool_errors": 5,
+    "retries": 4,
+    "last_turn_reason": {
+      "kind": "completed"
+    },
+    "error_ended_turns": [
+      {
+        "seq": 23983,
+        "time": 1791731385887,
+        "turn": 1,
+        "reason": {
+          "kind": "error",
+          "error": {
+            "message": "Connection error.",
+            "code": "TRANSPORT"
+          }
+        }
+      }
+    ],
+    "input_tokens": 681417,
+    "output_tokens": 344901,
+    "cache_read_tokens": 38485504,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 681417,
+      "outputTokens": 344901,
+      "cacheReadTokens": 38485504
+    },
+    "goal_rounds": 0
+  },
+  "workflow": {
+    "states": [
+      {
+        "path": "workspace_snapshot/LiFePO4/workflow_state.json",
+        "phase": 5,
+        "recorded_rounds": 8
+      }
+    ],
+    "final_backend": "GSAS-II",
+    "gsas_completed": true,
+    "finalize_completed": true,
+    "export_completed": true,
+    "required_refinement_completed": true,
+    "converged": null,
+    "warnings": [
+      "session_contains_error_ended_turns"
+    ]
+  },
+  "final_metrics": {
+    "wr": 6.26,
+    "r": 4.888191316719852,
+    "rb": 5.250323020928825,
+    "wrmin": 6.153646394923089,
+    "chi2": 7236.36,
+    "gof": 1.02,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": "final_selection.json metrics from xrd_finalize tool result",
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 1,
+    "journal_jsonl_total": 8,
+    "journal_jsonl_valid": 8,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": true
+  },
+  "subagent_sessions": [
+    {
+      "run_id": "7756c3a3-1915-42db-bdd9-935e6c8206b4",
+      "models": [
+        {
+          "provider": "qwen-token-plan-cn",
+          "model": "qwen3.8-max-preview"
+        }
+      ],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.8~0020MAX--\\7756c3a3-1915-42db-bdd9-935e6c8206b4\\session.jsonl.zstd",
+        "bytes": 15482,
+        "sha256": "bceddc327b090d9a29298b13aee4c04688e70b0a08648e674e508b343a57764e",
+        "source_mtime_ns": 1791733650315036000,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    }
+  ],
+  "eligibility": {
+    "status": "eligible_with_warnings",
+    "reason": "session_contains_error_ended_turns"
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/.xrd-progress-mv3x69ha-fk91yrjl.json",
+      "bytes": 265,
+      "sha256": "873df0acad26212d0497a299ffa7ae1e455cd3a03a9411150d4c900db722b59d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/.xrd-progress.json",
+      "bytes": 265,
+      "sha256": "873df0acad26212d0497a299ffa7ae1e455cd3a03a9411150d4c900db722b59d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/fp2k_plan.json",
+      "bytes": 483,
+      "sha256": "6fed8c25b546e0176a6cdffe1a7a1ed43f37e70334fc68c9ea1bd68781553cbc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma.cif",
+      "bytes": 1187,
+      "sha256": "82937f12f2d83d85a3485f4eaaf1dd976302b1b23b6c16ce0a58efd77a0e642d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma.dat",
+      "bytes": 133238,
+      "sha256": "f712aff524e91395ff7a286f1b11d5b70f22fa3b05fbd839442a02cd2ca2c01d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma.new",
+      "bytes": 3793,
+      "sha256": "5cd4d395faf64ee878b260cd373e5c1cc4648a40d0bf770a2677ea0e479366e9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma.out",
+      "bytes": 259005,
+      "sha256": "bd607ec25961710fdf0f9bc1b86355623c9cf6f57dd7d4dc0179a33c77ff1577"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma.pcr",
+      "bytes": 3404,
+      "sha256": "17ed2c3b3e0aea7d05b2e38e786ccdbd8bf00de3a6339a71c12207baf08dda28"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma.prf",
+      "bytes": 391054,
+      "sha256": "3fd4a4e1b99b6da6f95325c1a65cae86e84e76c2467f5c4e045773a1d05bae54"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma.sum",
+      "bytes": 1727,
+      "sha256": "0f74c387cc231cbdda2860cbee1dbffe5de12955381446f06272000f8afa5d23"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma1.fst",
+      "bytes": 709,
+      "sha256": "dbae7f3bdd7232b4275d4359ad2212bddcaeb15d7d66cea5b69ba044f112df71"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_baseline_end.pcr",
+      "bytes": 3728,
+      "sha256": "adfbab523356292395b3b28827093c61e93157de56cd8b6277d0e9868815d924"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_baseline_start.pcr",
+      "bytes": 3645,
+      "sha256": "31e06dfc7205b147c64b5b97cc0439b83eeedb741483c74e787b3499e69f7086"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_final_start.pcr",
+      "bytes": 3404,
+      "sha256": "17ed2c3b3e0aea7d05b2e38e786ccdbd8bf00de3a6339a71c12207baf08dda28"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_fp2kbest.pcr",
+      "bytes": 3404,
+      "sha256": "9abeefdcedd0f57c249d3089971ba4d94f336714eea0e8428f4512041179175e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step00_end.pcr",
+      "bytes": 3728,
+      "sha256": "48fe0a6917ba9ca3a5bd1546da71f3dc91be51db795791fd1df719317b9b20f0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step00_start.pcr",
+      "bytes": 3706,
+      "sha256": "d3ed2b2f187f2a04a6aa8b83b156b523fc3bb3b1ac7efe5c9b153b84cd91e6c1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step01_end.pcr",
+      "bytes": 3728,
+      "sha256": "27f27131878badf745c62a45f895b164e40d3f12cf15cdf724e03c913cbd119c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step01_start.pcr",
+      "bytes": 3690,
+      "sha256": "7bb407e667bbddc8189488d73acafbba7e5d3d1a9fbf3b1ca9672c02434259ca"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step02_end.pcr",
+      "bytes": 3728,
+      "sha256": "294dffd5142e4ba8878b9593455bc1b679aa10e96501b0ce6a2cc566a424d034"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step02_start.pcr",
+      "bytes": 3661,
+      "sha256": "f35b1e5322d92565ec6d01c9ab96737764834c1f0f8a8ce99deaa4bf672b6855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step03_end.pcr",
+      "bytes": 3728,
+      "sha256": "7ff0240e5ea9866852ea19fc02784ad6fd080a1cd387684747337eecd209b4c9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step03_start.pcr",
+      "bytes": 3661,
+      "sha256": "96117feb542082c733b763240ae23e6471fe76d99f587e40e4430db7c285570f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step04_end.pcr",
+      "bytes": 3728,
+      "sha256": "2f6e3e7e7f5fa6b23f1fe16f33e51d9a8ce4dfabccfc3aad79ef9ad8e97c12a4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step04_start.pcr",
+      "bytes": 3682,
+      "sha256": "f50cc2142f0bc0fe4c97343920ee98f204884ecb05ec9e8a2c44687a5e7817b6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step05_end.pcr",
+      "bytes": 3728,
+      "sha256": "15bd5911783feb88342c210cd25ebb92693a3e3a8079611c2390d9d1dcf6c0f0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step05_start.pcr",
+      "bytes": 3682,
+      "sha256": "7558f917048dc7f330ea0f2ba0d0c5a8e014165c791f8ae2512fadb6af6a0063"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step06_end.pcr",
+      "bytes": 3728,
+      "sha256": "cb8e7488dc212a47018ef71984f471b76e1b03e945213c47abfd4a258fa17025"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step06_start.pcr",
+      "bytes": 3678,
+      "sha256": "2bfe9fb6baa8a7f9227fa9e9d66eaff68fd2fa0c8770093a5b827871fb71e75f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step07_end.pcr",
+      "bytes": 3728,
+      "sha256": "bbd48674cc0d96238d9e09b3e8018be5bb40bf88b14036fbd412eddf63d7fed1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step07_start.pcr",
+      "bytes": 3648,
+      "sha256": "59bfaa3e9ae1c375031dc108727edd0f9650ff57c90fb1c8e33eace79c6f127c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step08_end.pcr",
+      "bytes": 3728,
+      "sha256": "28fc732a45dfe21a66c6522fdbd3a8e6a5d7c231fead0d35c5c18bb8babb2769"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step08_start.pcr",
+      "bytes": 3611,
+      "sha256": "44c095e375311c5cc882bb2028e4e136f1d25c768f18f58215964e2151e98183"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step09_end.pcr",
+      "bytes": 3728,
+      "sha256": "ce3077e408b563233a56e79d7a553bf000e71cc9d7d2b8a8373b254ab32226ee"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step09_start.pcr",
+      "bytes": 3611,
+      "sha256": "443382991b3ce0f2ee636302bcce4bfbbc24034fc1eac2c84e76a372c8ee5b3b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step10_end.pcr",
+      "bytes": 3728,
+      "sha256": "f200c90acf90f5cc8802faa9c0c4fbda39e3a25127913bf7bd5e12eb4fc67823"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step10_start.pcr",
+      "bytes": 3610,
+      "sha256": "2c7db32a6dafefbe57f4328f3a79df04f14b8c8493f07369d31e836767f1682d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step11_end.pcr",
+      "bytes": 3728,
+      "sha256": "f5a754ac9a48e3a916b6aaa1f7f9e6d227eb134d970f743951ecb75f82517c66"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step11_start.pcr",
+      "bytes": 3609,
+      "sha256": "79582ab530e7ef1da70aaed58acb0a330a51dae5306fed03025d76282ebb5268"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step12_end.pcr",
+      "bytes": 3728,
+      "sha256": "2a9e352e775a0110e1af55d864e32f17e079e21b1012db18900193196509991a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step12_start.pcr",
+      "bytes": 3608,
+      "sha256": "0006c86402f0b6c2369fb9da3b95711b0ce014db43a2776bd84d12c57178b4f4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step13_end.pcr",
+      "bytes": 3606,
+      "sha256": "6cc6c6c8f571812c5a40f8feb975d4aab911ec684a8d8427b6403dd5dcc1ffad"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step13_start.pcr",
+      "bytes": 3606,
+      "sha256": "6cc6c6c8f571812c5a40f8feb975d4aab911ec684a8d8427b6403dd5dcc1ffad"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step14_end.pcr",
+      "bytes": 3728,
+      "sha256": "105907b28aaf50f9a5bfc5ea404bbf614cd440df8cdda1b4f8f5d9c999041917"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step14_start.pcr",
+      "bytes": 3606,
+      "sha256": "42984110a38d6c529c44502cdf35120778c25fbbc5e94eb18d33a77478b37433"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step15_end.pcr",
+      "bytes": 3728,
+      "sha256": "67b67e980718033c5dd914c5c3cc9688da54ef1e6e22a6946d4390f637800bb9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step15_start.pcr",
+      "bytes": 3604,
+      "sha256": "e7fe5f0cc0b47e42951c57ca938dc9d0d97974289a2abcfeeee48d3c737188be"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step16_end.pcr",
+      "bytes": 3728,
+      "sha256": "d40df2cd7f018c44725521279c9ab3d0f56333cbb52b0bc90c18e4bf59a5b924"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step16_start.pcr",
+      "bytes": 3408,
+      "sha256": "54704df5c972cca9dc9402aa27763d2d9535566498efca616d4f3e738e0266ad"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step17_end.pcr",
+      "bytes": 3728,
+      "sha256": "4d3082d2c440086fed975e74f91d29cc2d6674ce913874adcc8b013c53877027"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step17_start.pcr",
+      "bytes": 3406,
+      "sha256": "537eff2017d33dda2f217ac762caedd03f2f0c39d2dd53efdac214e52de5513d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step18_end.pcr",
+      "bytes": 3388,
+      "sha256": "3411fed3b3398bb586276d168268d3a38bdc1a162c916a5888cecf579cdcd173"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step18_start.pcr",
+      "bytes": 3388,
+      "sha256": "3411fed3b3398bb586276d168268d3a38bdc1a162c916a5888cecf579cdcd173"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step19_end.pcr",
+      "bytes": 3728,
+      "sha256": "0db8965df9b64143b486e57f7c2ba87fc3c92b380d8f96feae05de1c6195af96"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step19_start.pcr",
+      "bytes": 3404,
+      "sha256": "9abeefdcedd0f57c249d3089971ba4d94f336714eea0e8428f4512041179175e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step20_end.pcr",
+      "bytes": 3386,
+      "sha256": "e75bc47590bec87979d246ebb4ef56ecbfc542c33c72c9a9e7df7c702726d82b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-107f39/LiFePO4_Pnma_step20_start.pcr",
+      "bytes": 3386,
+      "sha256": "e75bc47590bec87979d246ebb4ef56ecbfc542c33c72c9a9e7df7c702726d82b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/.xrd-progress-mv3x504j-wfn5h21f.json",
+      "bytes": 263,
+      "sha256": "d4a1f688e5ae35758826579f1a5049b4d6c7a0e00d88dd71012f6d13662e8136"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "d4a1f688e5ae35758826579f1a5049b4d6c7a0e00d88dd71012f6d13662e8136"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/fp2k_plan.json",
+      "bytes": 483,
+      "sha256": "5b31119c11a2eca44c4ffc4a281a7e4532e999797d25760a0ed1a36bee2d47fd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/fp2k_result.json",
+      "bytes": 3728,
+      "sha256": "1851fdde60fbe7fc91e1bb1e7ca5c0b77144f7171d99d215e8be6ab8766a76d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/LiFePO4_Pnma.cif",
+      "bytes": 1187,
+      "sha256": "82937f12f2d83d85a3485f4eaaf1dd976302b1b23b6c16ce0a58efd77a0e642d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/LiFePO4_Pnma.dat",
+      "bytes": 133238,
+      "sha256": "f712aff524e91395ff7a286f1b11d5b70f22fa3b05fbd839442a02cd2ca2c01d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/LiFePO4_Pnma.out",
+      "bytes": 42109,
+      "sha256": "e008cc25d1b2bd58ad268c3aa44ace4c7001dfe2afa177d0cfbe889e64c467cc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/LiFePO4_Pnma.pcr",
+      "bytes": 3645,
+      "sha256": "1642d3eb8f1e6176400f4108ad17eb991f249ca4313b1080168ae51363cdf587"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/LiFePO4_Pnma.prf",
+      "bytes": 366406,
+      "sha256": "d59f3e1dee2c69a4978dd4864b35da09e62c00e869b2859847f9801e99868677"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/LiFePO4_Pnma.sum",
+      "bytes": 6369,
+      "sha256": "8c7ab3e76c7a5127dc9c8ca576240d7aa5a9495659d42dde301e6f1475080145"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/LiFePO4_Pnma1.fst",
+      "bytes": 709,
+      "sha256": "fa2826874d2715b4207307cf24f46af6f81cf17e6cde72eabf3b422d9312c3b1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/LiFePO4_Pnma_baseline_end.pcr",
+      "bytes": 3728,
+      "sha256": "7769490ecd20844225e64f02cd5c435194b057abe36aa574e5144d266d54e2fe"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.fp2k-work-LiFePO4_Pnma-b08746/LiFePO4_Pnma_baseline_start.pcr",
+      "bytes": 3645,
+      "sha256": "1642d3eb8f1e6176400f4108ad17eb991f249ca4313b1080168ae51363cdf587"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.mplcache/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "b5ffb9b5066aca532b7e10769b6eb66e4f0ddc5d2d783aacc06b071ea7fe90ea"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/.xrd-ladder-best.gpx",
+      "bytes": 567203,
+      "sha256": "5ed7e7725c0e75e462ab686b623b7bbf22da8217a29f4b5061c0f11cfd6d807f"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/.xrd-ladder-snap.gpx",
+      "bytes": 566910,
+      "sha256": "6fd91449ae2e3ad96be4608defbc03aca24c053969a35a164b6761db7d5cc0f7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3wd9n5-jlx7vma2.json",
+      "bytes": 269,
+      "sha256": "eb56cc9f5ea4fd22bd7a89a6f6f9ef27cfcf19de637649c8a213864a4e965002"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3wuaus-pgoecysl.json",
+      "bytes": 268,
+      "sha256": "044690ad6cdff8ed3927515ff47b0abae3afebff3832ecf80a2c43c8c59b559f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3wvo57-1bcsy3kg.json",
+      "bytes": 262,
+      "sha256": "e4594fae5d0e18095866cd7bfb0602e2dcbc9e0b5b81bd917ef5ecf678d85c1a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3wvr9u-wpntrarv.json",
+      "bytes": 276,
+      "sha256": "a9d9d02f4854a1df19a4415e59bac6b16271b4a96f1d975f695357a1ff17e18f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3wysv0-dqq1olhj.json",
+      "bytes": 270,
+      "sha256": "c6305191d9f0319faff65460a9d9a60d7fbfe69dfa306a28da1ab517b2d626d4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3x2640-y57qd2zd.json",
+      "bytes": 269,
+      "sha256": "046196a4e9b70239c15a868b14577e3531f5b205a53afc1a216cd8b35a791b0f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3xukyq-nukq7naz.json",
+      "bytes": 275,
+      "sha256": "d249c006da38e4291b987144d867e3b9cd31d33870532a5592ad13ecc6e76c5c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3xydbl-xa6n8bgf.json",
+      "bytes": 276,
+      "sha256": "ce229d6ad7bb150da9341a11c6ad1026f7d9413271d63c415d3ef04814ef4f9f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3y1gfx-5c4ctgem.json",
+      "bytes": 276,
+      "sha256": "e9ae8a263efcc60548878adaa02ff820f0141c02f601a96627e7f021de715201"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3y5r79-rlauwta7.json",
+      "bytes": 274,
+      "sha256": "df667580a8b7a57d2b2f8a752740d46c1cddbc803ea882c5933d35b4def2f1a3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3y6fxl-uxultrwa.json",
+      "bytes": 276,
+      "sha256": "86d9ea31d55a6635c7443b51621e75a211e17ac1acdd47d2a8e9f5a1f9c0f113"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3yykfh-lza48fuv.json",
+      "bytes": 273,
+      "sha256": "b41eb19423aa6a966cc40daf3f11bc30adafaa02b9329d362c9e103a8e26b449"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3z52ks-u7ichjmh.json",
+      "bytes": 273,
+      "sha256": "b26b0cb9ad6611dc13eb38b406b34842d1ba3d0a482767648c7ef411b5c3de9e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3zsgoo-oxex9uoo.json",
+      "bytes": 273,
+      "sha256": "eda374152da2f105b2f630e8f4dbf8ed7652daa9842b0400033004487adbcd8d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv3zy89e-yewoqlg7.json",
+      "bytes": 272,
+      "sha256": "52b24487b1642bdd100ac06002f3d9cc272c3ab585bcbd6ccf697c561d8a1e09"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv401kmy-lvext6s8.json",
+      "bytes": 274,
+      "sha256": "f3f9feb39387a0a45189b2d1c422b6a6b1f89cb3b560be8da7f78fe699052c39"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv405tjv-6rry4tn5.json",
+      "bytes": 274,
+      "sha256": "77d8d05365ceb5f3320442c7849acc77729f6ce99484e0b0f396e41b523daad8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv40h46e-gfe2u87u.json",
+      "bytes": 274,
+      "sha256": "4b3d60af23626132fbfce171912277adb49ad477322741f21c6128ac5afa1660"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv40mdwd-qbf98dlk.json",
+      "bytes": 274,
+      "sha256": "00b23227bc52f4e4266188fd2ec467dbd4a7c4a66cfcbec89b926d86b8ab3aef"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv40wm11-l9mu0p3p.json",
+      "bytes": 274,
+      "sha256": "08ddf7ea748149a1b6f5c70be6d7a9b0df4b7b91f0f3443f258f00aec069df57"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv412e5m-ms3jpqse.json",
+      "bytes": 274,
+      "sha256": "32f6310542eabf66c4cf1c24225b465b7af4587b72934e74ff6100acea34a6e6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv414zrv-chicfr2f.json",
+      "bytes": 277,
+      "sha256": "e36ca3d5ac1aebdd3ea0f59a43af62117ec506aa86b4dab503394829fe95ac59"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv41ckdv-uwprwqxu.json",
+      "bytes": 274,
+      "sha256": "6cf3c46c353a7f59724ee4ca6b6990b639746ae008ac4eb2f1ceef611c9b45b6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv41guoq-fdm7lf0e.json",
+      "bytes": 274,
+      "sha256": "ef9bd240eabdeadfbc5ff1eec9ccaf7fe448db71ad4ffb977df68f65cdad0e99"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv41ius4-kw5y0haz.json",
+      "bytes": 274,
+      "sha256": "e9958f9f688bd7d377abbe02de5cbcfacbdb5fcc5613d190ea5cc9082849e28d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv41lbqd-ddlrt1k0.json",
+      "bytes": 279,
+      "sha256": "bdf13cb5c0cbb63c578e8a7441225a4674f5c2b0bb9b994096f6613f568f7dbe"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv41nrlg-es4yoxau.json",
+      "bytes": 278,
+      "sha256": "9ddd63d5990b077e70fefa6afa6edf12839fcd0b3f8cb4047a8cba356a510baf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress-mv41qdj3-o7bx49pr.json",
+      "bytes": 275,
+      "sha256": "fdddac0e4d41b923ea2ad3a13a616b3c66a266fb3b46a57bd7ac1e09ea16ac3e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/.xrd-progress.json",
+      "bytes": 275,
+      "sha256": "fdddac0e4d41b923ea2ad3a13a616b3c66a266fb3b46a57bd7ac1e09ea16ac3e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/cif_edit_plan.json",
+      "bytes": 242,
+      "sha256": "97e8eb97f98f648773f2a03d9ee5f9c19a44ef2e88a90dc68b05f2c8dd956f67"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/cif_edit_result.json",
+      "bytes": 255560,
+      "sha256": "e59b240038eeba1ee1f033b109dce5d178e30f0ed0d83a90d622ff35b248554f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/components.json",
+      "bytes": 577858,
+      "sha256": "936563d860f9a0ba25007b3277bfe3f9f1663a87bfed4a2c487b9350e1dce804"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/data_io_plan.json",
+      "bytes": 523,
+      "sha256": "01a7d8e772e8d2d137f47a7dcb0c5be68188db4cf42894a19ccfbc05c0fcf912"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/data_io_result.json",
+      "bytes": 1001,
+      "sha256": "b2e7e62aba2ed8897cd82ef2e0c79a9ee7f30d683c5029e7b835e75821edcf6d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/defect_table.json",
+      "bytes": 7490,
+      "sha256": "7f6f1457438ba17de58ff1828b21dd3c3dcbff1bf67f9d1d10c8a5e09f6ec2d4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/export_plan.json",
+      "bytes": 774,
+      "sha256": "4312017f1ca812ee7f31cf827b7fd37f3291d3680f38519edd8ebf5700c8fb86"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/export_result.json",
+      "bytes": 2604,
+      "sha256": "d6e345c336ebb7619363375fd00dc43cb54696ce1575c59d8e685753f1e6928d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/finalize_plan.json",
+      "bytes": 505,
+      "sha256": "9cba40113c2c4e1867aa52ec9530a162e11362eb0f22a87de079a8689028245a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/finalize_result.json",
+      "bytes": 4516,
+      "sha256": "1a4e2f073f3978b2f1902b0737f4229efed95c0ce4b223808a2d64d77a2ff033"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/gsas_ops_out.gpx",
+      "bytes": 409152,
+      "sha256": "5d1f2ad24b746f66c67f764fa195fa5a9c6c5b993333476a37d07b46b6dd2329"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/gsas_ops_plan.json",
+      "bytes": 636,
+      "sha256": "e8679e02eaf0f3c4e1bf03396ecad2eea5cd20104aaba2ed246818f7ec897a05"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/gsas_ops_result.json",
+      "bytes": 6760,
+      "sha256": "abd57d1e0d613856c08c5f2ad8da0a828070c3ff5c23d80a4c6f0912bf975d9c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/gsas_plan.json",
+      "bytes": 696,
+      "sha256": "f634b232208275c7a694d8f6a3a833ba636ca9f8c6b6af2d8c2cb8d7233db8b7"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/gsas_proj.bak0.gpx",
+      "bytes": 550381,
+      "sha256": "78c84bf2f1a9ef78612e1ba635017d8ef03d00ece36e77b9af1e53762894184f"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/gsas_proj.gpx",
+      "bytes": 566918,
+      "sha256": "c3b675aeece05dfa8fd3500cd0abbcba6c2e0ab4461deee8070ceb78992b35ec"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/gsas_proj.lst",
+      "bytes": 10644,
+      "sha256": "2765db48cad67c7e2ef718f5e3b2d32b23c30d7e2aeb75f3a9398d657918b0c6"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/gsas_proj_continued.bak0.gpx",
+      "bytes": 567121,
+      "sha256": "440d1e68f84678a2f97cdc2e1e8e96ad7538f2169f03581edda32ce3e3e99099"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/gsas_proj_continued.gpx",
+      "bytes": 565093,
+      "sha256": "f3bb71137941eb0c18e03fca50f1bdf5094386a7ea4d3f6f6da282f8db1303ee"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/gsas_proj_continued.lst",
+      "bytes": 10644,
+      "sha256": "aca30d6ceb8268ce5e4bfa6c26454472f36472fa5041db94f948ae9e900d6f41"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/gsas_result.json",
+      "bytes": 10677,
+      "sha256": "b197ca78abbbebadb3626e3d032b3f0a4c13a4b1e8c6d9afb5a6c13e03d9fbf9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_Cu.prm",
+      "bytes": 881,
+      "sha256": "8805c14878170489e223dea5d709ba1dc7724e9a9c19253ce47378120bb542c8"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect.gpx",
+      "bytes": 565429,
+      "sha256": "241a0e8a73c6a2afa68499f6d29d71c10c189d5b9c6e8886d1902ccfb5e14bc0"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect2.gpx",
+      "bytes": 565994,
+      "sha256": "2bf8d56ae54a18904adb2e95c69d3d6339ea3c75b072ae76ad5ed74cb0f6739d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect2.lst",
+      "bytes": 6652,
+      "sha256": "7a47acfcd3e9f6fd4dd788fd7c5bfd5e20efcba69f7f8cd9328f784ba6913e7d"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect3.bak0.gpx",
+      "bytes": 565770,
+      "sha256": "9d3799bb1faee8ed873a23ce491ace87b091a9d707c85b9ff7a795d3f75b4a39"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect3.gpx",
+      "bytes": 570103,
+      "sha256": "f932f8c1797ddc3253af9410e46b661e4315e727fd054faacecbecfaf5f081d6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect3.lst",
+      "bytes": 11419,
+      "sha256": "7d7decf510c7839c74f18462e1554479f1b5a6612de66c4d4f5f50d4a878bbb7"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect4.bak0.gpx",
+      "bytes": 566221,
+      "sha256": "6ddcd218f7fa07f1190b9c27d7f321fa63847016312063acbd0c54913759c9e7"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect4.gpx",
+      "bytes": 570963,
+      "sha256": "9d70368d6e1a75d24e627d6fd0e0de5e508a0d2ac330285908923462b324096d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect4.lst",
+      "bytes": 11419,
+      "sha256": "08a9cf0aec500362bea2987248386f8f77adf8014d23ef028bc452b7a1f45fe8"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect5.bak0.gpx",
+      "bytes": 566219,
+      "sha256": "ef21c1210c297cf01c688e38d8d8202d8bda050943758426194a07eb151ea486"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect5.gpx",
+      "bytes": 562038,
+      "sha256": "e731a71120a799841295b840ab6d530930af97eb0cf13dda3302c70d3c6ffd99"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect5.lst",
+      "bytes": 11419,
+      "sha256": "c9f5dd82cb11f4b904170cd82c1ec3b52c6d1b7442f6b04a3869c93d96b32067"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect6.bak0.gpx",
+      "bytes": 566195,
+      "sha256": "6d7b4112effc0caa882580cfcb211efb140c839c153a8321e29c9469f484d3b1"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect6.gpx",
+      "bytes": 558404,
+      "sha256": "5e093dee32f31437ec830e36bcb1abf2bb31c4e8c71134d878b1bbf33fa7a76f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect6.lst",
+      "bytes": 11419,
+      "sha256": "6e5fe75cc01151eed8b7fe4e8ceb75aee57092fab01baa5b9d87ef738f2a8f68"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect_refined.bak0.gpx",
+      "bytes": 566221,
+      "sha256": "ca5ed460ac294a07c59ee582bbb2712ee8a26956fb22b388f4992544800958de"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect_refined.gpx",
+      "bytes": 570470,
+      "sha256": "2414be304c00cd01ad17531be97025ff3ee34c47edb78239992c26c703c454c8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_defect_refined.lst",
+      "bytes": 11419,
+      "sha256": "2fda0bea75a67579c82d0c31a06840d59f7544539385dea61c8552d02607e9b3"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_deliver.bak0.gpx",
+      "bytes": 547631,
+      "sha256": "5e696047607ab8815b3a60920e61b87ee3f8cfaf3432f82d08f67191d61f2b90"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_deliver.gpx",
+      "bytes": 558107,
+      "sha256": "61e967200027f3b15d76425bfb3aa04410b0285baf49e0f2933ce1230551bff6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_deliver.lst",
+      "bytes": 11419,
+      "sha256": "cae77df5199d32c89ae37cc5bc213389de7e5fbc2321b4d9de7bcfb34495da69"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_deliver_exported.gpx",
+      "bytes": 558107,
+      "sha256": "61e967200027f3b15d76425bfb3aa04410b0285baf49e0f2933ce1230551bff6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_deliver_fit.png",
+      "bytes": 390481,
+      "sha256": "2b55fd8e2a0c4aa898c6a792ba2c893dd9287d3fe53130fbea253dd4504965cd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_deliver_Li4_Fe4_P4_O16.cif",
+      "bytes": 1367,
+      "sha256": "b49f6e7f47ca196e23f5324813066a865cec7d227f8a258a0710a15dcd6498cf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_deliver_Li4_Fe4_P4_O16_gsas.cif",
+      "bytes": 1887,
+      "sha256": "2fe8ffbd5e0c9b26adc1e76095ea784fde9c9727cb59d6afd5d81006fbed270f"
+    },
+    {
+      "role": "final_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final/LiFePO4_final.gpx",
+      "bytes": 557356,
+      "sha256": "14437f782cc99aed74661518f486558dcbd350c80b6ce9b9539d7cf92b36418e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final/LiFePO4_final.lst",
+      "bytes": 11419,
+      "sha256": "cae77df5199d32c89ae37cc5bc213389de7e5fbc2321b4d9de7bcfb34495da69"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final/LiFePO4_finalize.json",
+      "bytes": 4483,
+      "sha256": "264855d98db27d0b8174fc583cf64d9154bc3ff173aa97ebccb174e6185bf5d2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final/LiFePO4_fit.png",
+      "bytes": 385567,
+      "sha256": "2876b8743315831174553a72f08339c8d91ffb9f43f3db968c8c90246202577a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final/LiFePO4_Li4_Fe4_P4_O16.cif",
+      "bytes": 1885,
+      "sha256": "0b8996ddec5713ea9c45ed7592979b6e0abc79b8be05ba54726857c10c6c308f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final/LiFePO4_report.md",
+      "bytes": 3598,
+      "sha256": "41971eb3e83e0aba3a6915560c963c22d93ff0d97290fe04c06f89e448467f3e"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final.bak0.gpx",
+      "bytes": 547605,
+      "sha256": "cb1009a763a0b750e6858bd0343e087d24e03177bf493456fee18c3cb7779f80"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final.gpx",
+      "bytes": 570374,
+      "sha256": "05f64b361f0cf4f9111fed4a5fb29fc2fdc010279a2084b727c51de42bc57e68"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final.lst",
+      "bytes": 11419,
+      "sha256": "8e26e9447631d25645b9cecb51257ae002768b1d495002d15cdc45410d897676"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final_exported.gpx",
+      "bytes": 570374,
+      "sha256": "05f64b361f0cf4f9111fed4a5fb29fc2fdc010279a2084b727c51de42bc57e68"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final_fit.png",
+      "bytes": 385764,
+      "sha256": "0d5c44c2d4d0a910469eaea9091be1e2c2029a37d7ede68e3c04c23bd8df4398"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final_Li4_Fe4_P4_O16.cif",
+      "bytes": 1363,
+      "sha256": "1a439ecda9d5791a17ced0b1c968f8080dbeec3d0e6f902449b4e25554541fa8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_final_Li4_Fe4_P4_O16_gsas.cif",
+      "bytes": 1885,
+      "sha256": "9b9262ec532b939c67acf3433e7f1c05738ca39153f597c815ef41043cf5bb88"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_Pnma.cif",
+      "bytes": 1187,
+      "sha256": "82937f12f2d83d85a3485f4eaaf1dd976302b1b23b6c16ce0a58efd77a0e642d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_Pnma.dat",
+      "bytes": 133238,
+      "sha256": "f712aff524e91395ff7a286f1b11d5b70f22fa3b05fbd839442a02cd2ca2c01d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_Pnma.pcr",
+      "bytes": 4175,
+      "sha256": "d3e2b219d43065fc6d34fdae3d1bd80b408923ccd52ac852056d0823378b19d6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_Pnma.pcr.prewavelength",
+      "bytes": 4186,
+      "sha256": "9c0932170aff6e12d4aef7b1f0d3434f2014bbd05a5760df160eb122581d7eb7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_Pnma.pcr_check.json",
+      "bytes": 2244,
+      "sha256": "76852bd7410ff217e37842c84c0073cff1a8401e6669922b1562bab0041fe5a9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_Pnma.wavelength.json",
+      "bytes": 384,
+      "sha256": "9dc7e9ebf0c9171ddc9e88cddb53c9b2e9468796450bebcbff648968c1d3db7d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_Pnma_exp.cif",
+      "bytes": 1175,
+      "sha256": "b7e3e0cf4d1a9889a64e5ff2365111ddeb2e3a87e8f9169ceb609127f99aa561"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/LiFePO4_raw_fit.png",
+      "bytes": 262521,
+      "sha256": "79c36d89ef0895c345b4302c2b9f06cc0b1ea0f65243030866e82a1be8b6a108"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/pattern.dat",
+      "bytes": 133238,
+      "sha256": "f712aff524e91395ff7a286f1b11d5b70f22fa3b05fbd839442a02cd2ca2c01d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/pattern.fxye",
+      "bytes": 140151,
+      "sha256": "647de8d74347e4b3420b817aef6d24458fa880033388fe914ad057d9519cdc16"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/pattern.raw",
+      "bytes": 31162,
+      "sha256": "922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/pattern.xy",
+      "bytes": 140387,
+      "sha256": "9381f34cbf462aac1206f39439836b38365e9bd6459e258faf5fa4ffa14153b8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/plan_calibrate.json",
+      "bytes": 686,
+      "sha256": "fa15c309ace21b80b0257e0dde63d264cd7f1988dcad1e45338016f2e8c7254c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/plan_structure.json",
+      "bytes": 641,
+      "sha256": "c46522fd6bfbd8c87891563a0af2b53f4c4c411e4824ae447ba71bc48b628f60"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_C2_c_mp-aaabrcck.cif",
+      "bytes": 2211,
+      "sha256": "f25797c6c3df43270afa929df4dda3b5fc104e9f32d73b61429a3ec17822f072"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_C2_mp-aaabrily.cif",
+      "bytes": 2210,
+      "sha256": "9526ac8f6ff4ac6282e10b97832d66e70e088f22dc7c90653e969ef288a3dd33"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_Cc_mp-aaabryik.cif",
+      "bytes": 2211,
+      "sha256": "b7967eca1640f29230568cb910f3aeb911057bf4b56874fccdfa492cfe92b967"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_Cmcm_mp-aaaabcax.cif",
+      "bytes": 2210,
+      "sha256": "68610b0b1922e40d5f1b0156bebb2423f69dba164d05d173971ad611f11414e7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_Fdd2_mp-aaabrerm.cif",
+      "bytes": 1446,
+      "sha256": "2c9c97acd0136b96e88d7d799401a2d580d412a79e5ffa49ade388ec0315e741"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_I-4_mp-aaabqxxt.cif",
+      "bytes": 1447,
+      "sha256": "c644a34a12c67bcebce7d8b7d80e2cb97c5110d2e1a340c00f2af43dc0651d0a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_Imma_mp-aaabrydx.cif",
+      "bytes": 2210,
+      "sha256": "d116c439a65e5cf83f0b43cf1fd8242e0f7857b435747d16bacc93e1f8bd204e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P-1_mp-aaabrerh.cif",
+      "bytes": 2210,
+      "sha256": "ce642124f6c6fe0a2ee22464178ff91399e0cac1ac639ccc68c69479fa5def07"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P1_mp-aaabrbtu.cif",
+      "bytes": 2211,
+      "sha256": "622c559735079cb24c87d07d09b966c6ce127bb21d43196793c9eae672743512"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P2_12_12_1_mp-aaadqnyo.cif",
+      "bytes": 2210,
+      "sha256": "c7782821780c83a4f7f6474a63d1b8dcd6dda782cdd6905596c36904be4f1b08"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P2_13_mp-aaabrons.cif",
+      "bytes": 2210,
+      "sha256": "bce9f0157b7bf3da0f339772ce19f49d0efaa987abaaef3ff1517b804429b07b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P2_1_c_mp-aaabcrvs.cif",
+      "bytes": 2211,
+      "sha256": "07c53b5d9374e303764d1e47cd162ea36814162195a8fcef122da308b6fa32c7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P2_1_mp-aaabronv.cif",
+      "bytes": 2210,
+      "sha256": "2d61c6790a3522a50a72dc654eb71c38784903b10958757f4a2d20c79bff7b50"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P2_mp-aaabrexw.cif",
+      "bytes": 5274,
+      "sha256": "8e7cf803e2abe1fcbc617a0bb802feae9c4600886551637db353a708aaef0b99"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P31c_mp-aaaabnjn.cif",
+      "bytes": 2975,
+      "sha256": "7103dc34902e37c254119f58bfa81130c3e8a168ff6dcde829e0537ba1534100"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P4_322_mp-aaabronx.cif",
+      "bytes": 2210,
+      "sha256": "ed11d2764caf6434f5bb9817fca230ef6c141fbc2801b373faa87bfee2826dc0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P6_1_mp-aaabreew.cif",
+      "bytes": 9927,
+      "sha256": "0d2403523cbf10a6cde15dbb8c74583534b16fc11f084eceb65ce506f06da977"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P6_222_mp-aaabrcyk.cif",
+      "bytes": 2976,
+      "sha256": "e3caefc11de5288c0bb1c2a6962c00f7dc3935682ba061b473cfb0eb2bbee817"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P6_422_mp-aaabryfy.cif",
+      "bytes": 5275,
+      "sha256": "b44b65d631e3685b1872d486bfd7a56b4ff64174a06214867c92b23f00874dcc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_P6_5_mp-aaabrdhw.cif",
+      "bytes": 9927,
+      "sha256": "9c37d5b34c0958e6de1cdf3f31381a9d6ac2c39c3bff16ee9b7a07b19c585cdb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_Pbca_mp-aaabrooi.cif",
+      "bytes": 3739,
+      "sha256": "8dedad993a43f12b68db6aad1cddd7fad7970d209ee1d8c7160ca928f581b0af"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_Pc_mp-aaaabnhn.cif",
+      "bytes": 2211,
+      "sha256": "b9ffbe9dd5b075664cb658181b7d985e5addd4c8bc258143aeded23e2052f6ad"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_Pca2_1_mp-aaabrony.cif",
+      "bytes": 3740,
+      "sha256": "dc4878f385571729ae0118c484e9db54c9825a0e7e72cf075cf6c1a0784d94d4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_Pna2_1_mp-aaaabmnp.cif",
+      "bytes": 2211,
+      "sha256": "71ec46a2a80a5738afa8d17789fab5eebf7da82e00d5ec6e6236da065ae5cce1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_Pnma_mp-aaaabcdl.cif",
+      "bytes": 2211,
+      "sha256": "f7253e3e6240077182a3a21f0531a0b02c0526dffd5e9989db9e639685432f88"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/ref/poly_R3_mp-aaabhhzk.cif",
+      "bytes": 2977,
+      "sha256": "0f56a3eaf2f2963e69f000448e97eed1ccacfb281106e0aa7ad83682fb1cf1f5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/result.json",
+      "bytes": 12737,
+      "sha256": "b60d96298f33c38cddcd42fc3191e0f6cc9c831c3e1c2696f835a2be631a729e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/review_judgment.md",
+      "bytes": 3914,
+      "sha256": "3e70eddd2092f5a627046353653d8c8f1ba2c807c99cd0503a61f4eb5b219a2d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/review_mechanical_LiFePO4.json",
+      "bytes": 1044,
+      "sha256": "1612f41975d52741ed09cf91e2f0db959032fd80c371d61abc7997b7f4dd1192"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/diag_gsas.py",
+      "bytes": 1722,
+      "sha256": "33433f5414e07b2f861a55ccc07fd1acf56b4439f1653dcea083fefdc1800109"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/diag_gsas_out.txt",
+      "bytes": 2360,
+      "sha256": "a071f10185e29db8c8d8d92825edea9b34ee4321b2fd4f6d523abbd1b7f78c01"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/extract.py",
+      "bytes": 2111,
+      "sha256": "c288e988e3ee5af6802d9d2f86d17a020c9ff7b054590455b252b47f34bb72b4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/extract_out.txt",
+      "bytes": 663,
+      "sha256": "5844e74b7761fb8cfae034664a8c86472a7bbfc368b839233039e7f0eaeb253f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/gen_instprm.py",
+      "bytes": 1904,
+      "sha256": "ee9cdd14ee973ecb439653891819d3f0d9332edd4663a92b0147e17f69c47ad1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/gen_instprm_out.txt",
+      "bytes": 1005,
+      "sha256": "ed6dc419a913ed6feb42a8cb2e3528569f210a820c8abb175ec20ffa18cf7be0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/inspect2.py",
+      "bytes": 2967,
+      "sha256": "e52460247a1cca7efe270a17ec2f77bc795a0582100e511679cba2b972135c7c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/inspect2_out.txt",
+      "bytes": 5828,
+      "sha256": "4eb45eeb32309d4cd785cd8eec6a424277b197c59fdd43f6ee86e2d775dd9a0b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/inspect3.py",
+      "bytes": 1262,
+      "sha256": "f036a6084787e6fc316f402d450d427180c20a416b008a8bd667a77181c6eb28"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/inspect3_out.txt",
+      "bytes": 5637,
+      "sha256": "bf7a20dddbbc8782673be0b72d3f7ea3db2b613cee34be73bda781e554f36172"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/inspect_out.txt",
+      "bytes": 56796,
+      "sha256": "1f9a48d8f395c7006565986e54d2b42a4942561887f17fbb1e9f533472021c88"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/inspect_raw.py",
+      "bytes": 847,
+      "sha256": "8f19dce36fdcf9959a82ceb9d03c4c284e1c8251bbd801b14cdff2d3231ecdab"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/se.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/se2.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/se3.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/se_diag.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/se_gen.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/se_gen2.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/seE.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/so.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/so2.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/so3.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/so_diag.txt",
+      "bytes": 324,
+      "sha256": "7a3a7987f98f7acb200a58a27096f340fe816657d316c6cc5743343f06d0d3ac"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/so_gen.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/so_gen2.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/work/soE.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/workflow_state.json",
+      "bytes": 7418,
+      "sha256": "88c118a888d214d831359e3c0f40f8691c59e8feae422769c8c03acbb5d15000"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/xrd_workflow/journal.jsonl",
+      "bytes": 7263,
+      "sha256": "c5daba6432f86880410d8c1fa5cc83ae387cae2d6ad93c7cb25e9dad0205fd83"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LiFePO4/xrd_workflow/journal.md",
+      "bytes": 8456,
+      "sha256": "2d351e546a18452e7cf4882ff923db7998bc7c3f997b4935a060721886629329"
+    }
+  ]
+}

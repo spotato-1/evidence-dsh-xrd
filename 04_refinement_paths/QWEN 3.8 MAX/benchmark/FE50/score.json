@@ -1,0 +1,1960 @@
+﻿{
+  "schema_version": "dsh-xrd-score-v1.1-20261012",
+  "rubric_version": "v1.3",
+  "rubric_sha256": "2c74e6459d92541755e29f09c81babd5a6d44a678e594338c7649553161008fb",
+  "model": "QWEN 3.8 MAX",
+  "case_id": "FE50",
+  "run_id": "session-609f2b1a-1e81-407c-a653-31a782caede2",
+  "status": "eligible_with_warnings",
+  "final_deliverables": [
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+    "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md"
+  ],
+  "agent_points": [
+    {
+      "id": "A1",
+      "score": 1,
+      "reason": "有skill工具实际加载xrd-workflow，非口头声称。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "skill tool_call seq=145; corresponding result=146"
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "score": 1,
+      "reason": "非晶C类或当前晶态/多相路线与实际输入一致。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "score": 0,
+      "reason": "A3=0：wR9.401已达到本案R≤10参考目标且自述当前最佳，仍主动做6→20阶背景扫描。按用户最终更正仅记工作流条件升级错误，撤销v1.2背景B否决。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "246完整续读源行342–344；83572 T23 wR9.40112955；83920当前最佳；83921/83922扫描；84281拒绝并回退；84282/84283夹限N后终值9.4044。"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "实际历史核心回包seq246；§3背景条件升级"
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "score": 1,
+      "reason": "对本例适用复杂/异常情况有实际核验，而非只提检查表名称。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\defect_table.json",
+          "locator": "逐条缺陷假设、exec、verdict"
+        }
+      ]
+    },
+    {
+      "id": "A5",
+      "score": 1,
+      "reason": "有当前状态、接受态、未试项和可继续工作的交付索引。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\workflow_state.json",
+          "locator": "phase/artifacts/rounds/open_questions"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "id": "B5",
+      "score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "score": 1,
+      "reason": "调用围绕当前谱形、结构或异常问题。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "score": 1,
+      "reason": "判断转成候选、参数或约束试算，不停留口头计划。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "score": 1,
+      "reason": "根据返回/残差调整、修复或回退。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "score": 1,
+      "reason": "重复调用有新诊断/控制条件，有限重试不因数量直接判空转。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "score": 1,
+      "reason": "取得可复核阶段进展或基于限制停止；不以低R等同科学正确。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "采用经数据比较的PBA平均模型；不要求预定立方/单斜赢家。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 0,
+      "reason": "最终Mn–N3约1.54Å/C3–N3约1.73Å与负Mustrain共同使最终平均结构物理自洽不足；不是仅因大正ADP扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 1,
+      "reason": "对空位/分裂/畸变给出试算与未辨识结论，不要求唯一缺陷真值。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 1,
+      "reason": "最终GSAS wR和接受态工程对应，不用最低中间R偷换交付。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 0,
+      "reason": "将全还原Fe²⁺、空位仅0.6–2%与静态无序写成实证结论；局部ICP提醒不足纠正主结论强度。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "E1",
+      "score": 1,
+      "reason": "假设来自当前数据/样品先验和材料结构知识。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "score": 1,
+      "reason": "有竞争模型、基线或参数族对照以检验判断。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "score": 0,
+      "reason": "最终Mn–N3约1.54Å/C3–N3约1.73Å与负Mustrain共同使最终平均结构物理自洽不足；不是仅因大正ADP扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "score": 1,
+      "reason": "晶胞、位点、峰形/热参初值有数据/文献或结构族依据。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "score": 1,
+      "reason": "根据失败、改善或物理审查修正、接受/回退假设。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "score": 1,
+      "reason": "引擎按实际收到工作流角色用于筛相、初步拟合、终修；普通合法FP ladder不是滥用。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "score": 0,
+      "reason": "通用addp修改超出模型编辑区；实际core编辑范围约定存在，但未把该通用helper修改列为B红线。作为工具调用范围问题扣F2，不B整格否决。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "score": 1,
+      "reason": "区分真执行、回滚、失败、缓存与工具返回ok，不以ok直接证明科学正确。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "F4",
+      "score": 1,
+      "reason": "排障有根因、改动和退出条件，非无止境重复。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "id": "F5",
+      "score": 1,
+      "reason": "最终转换、接受态、工程/CIF/图导出来自已标记源。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "D1",
+      "score": 1,
+      "reason": "采用经数据比较的PBA平均模型；不要求预定立方/单斜赢家。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "score": 0,
+      "reason": "最终Mn–N3约1.54Å/C3–N3约1.73Å与负Mustrain共同使最终平均结构物理自洽不足；不是仅因大正ADP扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "score": 1,
+      "reason": "对空位/分裂/畸变给出试算与未辨识结论，不要求唯一缺陷真值。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "score": 1,
+      "reason": "最终GSAS wR和接受态工程对应，不用最低中间R偷换交付。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "score": 0,
+      "reason": "将全还原Fe²⁺、空位仅0.6–2%与静态无序写成实证结论；局部ICP提醒不足纠正主结论强度。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    {
+      "id": "K04.1",
+      "score": 1,
+      "reason": "结合当前数据或产物识别材料关键问题，不只重复样品名。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K04.2",
+      "score": 1,
+      "reason": "采用适合关键问题的模型、约束或竞争对照。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K04.3",
+      "score": 1,
+      "reason": "最终随附报告/工程/参数可复核处理证据。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K04.4",
+      "score": 0,
+      "reason": "虽然回退更低R坏C/N解，最终文献几何仍失真并用静态无序概括，未完全完成化学一致迁移。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K04.5",
+      "score": 0,
+      "reason": "将全还原/富K结构作为实证结论，C/N与K模型依赖没有在主结论保持条件性。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K05.1",
+      "score": 1,
+      "reason": "结合当前数据或产物识别材料关键问题，不只重复样品名。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K05.2",
+      "score": 1,
+      "reason": "采用适合关键问题的模型、约束或竞争对照。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K05.3",
+      "score": 1,
+      "reason": "最终随附报告/工程/参数可复核处理证据。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K05.4",
+      "score": 1,
+      "reason": "基于比较或物理结果合理接受、回退或保留结论。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K05.5",
+      "score": 0,
+      "reason": "最终断言单斜畸变全部实证，未让受限数据下竞争平均模型与结构假设保持应有不确定性。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K06.1",
+      "score": 1,
+      "reason": "多轮不同模型/参数尝试，未因一次失败即放弃。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K06.2",
+      "score": 1,
+      "reason": "根据反馈调整合理参数/模型，持续争取R≈10而非盲重复。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K06.3",
+      "score": 0,
+      "reason": "报告虽提弱数据与ICP，但主结论仍宣称空位仅0.6–2%及全还原实证，未充分约束缺陷定量结论。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K06.4",
+      "score": 1,
+      "reason": "自然漂移回退或约束修正，不主动采用非物理自由度强求低R。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    },
+    {
+      "id": "K06.5",
+      "score": 0,
+      "reason": "尝试范围很完整且拒绝8.97%解，但最终CN几何/微应变仍未通过有效物理核验，不能用工具pass代替。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\conclusion.md",
+          "locator": "最终原始答复全文"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_report.md",
+          "locator": "科学报告/最终参数与限制"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+          "locator": "最终已接受工程缓存参数/metrics/atoms"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+          "locator": "最终全谱与差谱"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "随交付提供的逐轮科学比较/总结，不使用完整内部工具轨迹"
+        }
+      ]
+    }
+  ],
+  "gates": {
+    "B": {
+      "triggered": false,
+      "reason": "v1.3用户明确背景不是B红线，撤销仅背景条件升级否决；通用addp范围问题保留F2。",
+      "evidence": [],
+      "authorization": "用户最终判定背景归A3；未确认其他历史核心红线。",
+      "core_rules": [],
+      "redline_ids": []
+    },
+    "F": {
+      "triggered": false,
+      "reason": "没有确认FP2K引擎滥用；历史普通ladder/有限诊断合法。",
+      "evidence": [],
+      "authorization": []
+    }
+  },
+  "findings": [
+    "最终P21/c，wR=9.404446；修复Mn/Sb迁移并对比候选及回退8.97%坏几何解，但最终仍短Mn–N/长C–N及负微应变，全还原/轻微K缺位实证断言过强。通用addp范围修改仅扣F2，不是B红线；背景条件升级仅扣A3，本案B=5。"
+  ],
+  "uncertainties": [
+    "负Mustrain/大正ADP/局部键长不单独触发B；addp范围问题仅F2，背景仅A3。未确认本案其他历史核心红线，B=5。"
+  ],
+  "revisions": [
+    {
+      "point_id": "F2",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "通用addp修改超出模型编辑区；实际core编辑范围约定存在，但未把该通用helper修改列为B红线。作为工具调用范围问题扣F2，不B整格否决。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        }
+      ]
+    },
+    {
+      "point_id": "B_gate",
+      "old_score": true,
+      "new_score": true,
+      "reason": "用户确认v1.2：B仅实际核心红线5或0；具体核心条款和一般问题分离。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "point_id": "B1",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-result-analysis\\collection_audit.json",
+          "locator": "冻结hash与完整性/保留清单"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        }
+      ]
+    },
+    {
+      "point_id": "B2",
+      "old_score": 0,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "point_id": "B3",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "point_id": "B4",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "point_id": "B5",
+      "old_score": 0,
+      "new_score": 0,
+      "reason": "v1.2二值B分值承载，不再五类单项扣分。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "工具调用/返回seq与真实执行"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+          "locator": "逐轮表与总结章节"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "A3",
+      "old_score": 1,
+      "new_score": 0,
+      "reason": "A3=0：wR9.401已达到本案R≤10参考目标且自述当前最佳，仍主动做6→20阶背景扫描。按用户最终更正仅记工作流条件升级错误，撤销v1.2背景B否决。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "246完整续读源行342–344；83572 T23 wR9.40112955；83920当前最佳；83921/83922扫描；84281拒绝并回退；84282/84283夹限N后终值9.4044。"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "实际历史核心回包seq246；§3背景条件升级"
+        }
+      ],
+      "previous_point": {
+        "id": "A3",
+        "score": 1,
+        "reason": "执行适用Ⅰ/Ⅱ/Ⅲ及报告阶段，有依据回退/有限诊断。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+            "locator": "工具调用/返回seq与真实执行"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\xrd_workflow\\journal.md",
+            "locator": "逐轮表与总结章节"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+            "locator": "edit seq=34461, generic addp value precedence reversal"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+            "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+            "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+            "locator": "edit seq=34461, generic addp value precedence reversal"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+            "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+            "locator": "tool/result seq=150, xrd-refinement §4.3 模型区==EDITABLE==授权"
+          }
+        ]
+      }
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B_gate",
+      "old_score": true,
+      "new_score": false,
+      "previous_gate": {
+        "triggered": true,
+        "reason": "此前wR9.401已满足输入R≤10且模型自述当前最佳物理基线，仍主动6→20背景迭代；违反实际core条件升级条款。不是因addp或试验分支reviewfail清零。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+            "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+            "locator": "seq7 R小于等于10"
+          }
+        ],
+        "authorization": "core xrd-workflow实际完整续读seq246源行342–344：只在其他条件全优化仍达不到目标时启用背景迭代。",
+        "core_rules": [
+          {
+            "skill": "xrd-workflow",
+            "section": "§3背景条款",
+            "core_excerpt": "背景默认6阶且必须最后拟合；其他条件全部优化仍达不到目标才启用迭代。",
+            "evidence": {
+              "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+              "locator": "完整续读seq246源行342–344"
+            }
+          }
+        ],
+        "redline_ids": [
+          "RL-BACKGROUND-CONDITION"
+        ]
+      },
+      "reason": "v1.3用户明确背景不是B红线，撤销仅背景条件升级否决；通用addp范围问题保留F2。",
+      "evidence": []
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B1",
+      "old_score": 0,
+      "new_score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "previous_point": {
+        "id": "B1",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：此前wR9.401已满足输入R≤10且模型自述当前最佳物理基线，仍主动6→20背景迭代；违反实际core条件升级条款。不是因addp或试验分支reviewfail清零。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+            "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+            "locator": "seq7 R小于等于10"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B2",
+      "old_score": 0,
+      "new_score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "previous_point": {
+        "id": "B2",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：此前wR9.401已满足输入R≤10且模型自述当前最佳物理基线，仍主动6→20背景迭代；违反实际core条件升级条款。不是因addp或试验分支reviewfail清零。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+            "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+            "locator": "seq7 R小于等于10"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B3",
+      "old_score": 0,
+      "new_score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "previous_point": {
+        "id": "B3",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：此前wR9.401已满足输入R≤10且模型自述当前最佳物理基线，仍主动6→20背景迭代；违反实际core条件升级条款。不是因addp或试验分支reviewfail清零。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+            "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+            "locator": "seq7 R小于等于10"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B4",
+      "old_score": 0,
+      "new_score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "previous_point": {
+        "id": "B4",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：此前wR9.401已满足输入R≤10且模型自述当前最佳物理基线，仍主动6→20背景迭代；违反实际core条件升级条款。不是因addp或试验分支reviewfail清零。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+            "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+            "locator": "seq7 R小于等于10"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "point_id": "B5",
+      "old_score": 0,
+      "new_score": 1,
+      "reason": "B二值承载：未确认历史核心红线，整格5。背景问题仅计A3。",
+      "previous_point": {
+        "id": "B5",
+        "score": 0,
+        "reason": "B按核心红线二值判定，本行只承载1分，不代表独立合规主题判决。确认触线整格0：此前wR9.401已满足输入R≤10且模型自述当前最佳物理基线，仍主动6→20背景迭代；违反实际core条件升级条款。不是因addp或试验分支reviewfail清零。",
+        "evidence": [
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+            "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+          },
+          {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+            "locator": "seq7 R小于等于10"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "seq246核心条款；83572 wR9.401；83920当前最佳自述；83921扫描；83922实跑；84281回退"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\user_messages.json",
+          "locator": "seq7 R小于等于10"
+        }
+      ]
+    },
+    {
+      "version": "v1.3",
+      "field": "findings",
+      "old_content": [
+        "最终P21/c，wR=9.404446；修复Mn/Sb迁移并对比候选及回退8.97%坏几何解，但最终仍短Mn–N/长C–N及负微应变，全还原/轻微K缺位实证断言过强。通用addp初值优先级越授权模型区修改触发B2。"
+      ],
+      "new_content": [
+        "最终P21/c，wR=9.404446；修复Mn/Sb迁移并对比候选及回退8.97%坏几何解，但最终仍短Mn–N/长C–N及负微应变，全还原/轻微K缺位实证断言过强。通用addp范围修改仅扣F2，不是B红线；背景条件升级仅扣A3，本案B=5。"
+      ],
+      "reason": "同步陈旧初评叙述至当前门控，原文留修订史，不改变科学或行为积分。"
+    },
+    {
+      "version": "v1.3",
+      "field": "uncertainties",
+      "old_content": [
+        "负Mustrain/大正ADP/局部键长不单独触发额外B5；根代理须复核科学自洽与已知越界的区别。B已由越范围addp修改确认。"
+      ],
+      "new_content": [
+        "负Mustrain/大正ADP/局部键长不单独触发B；addp范围问题仅F2，背景仅A3。未确认本案其他历史核心红线，B=5。"
+      ],
+      "reason": "去除与v1.2/v1.3裁定冲突的旧越范围B描述，历史保留。"
+    }
+  ],
+  "grader": {
+    "model": null,
+    "reasoning_effort": null,
+    "configuration_note": "当前Codex专家式统一评审；精确模型ID与推理档位未提供，不虚构。",
+    "prompt_sha256": "f903da80c4cff6d24185c8ed6d10cfdff9c9a2c765dd3b0afc4a3ec030752c80",
+    "graded_at": "2026-10-12"
+  },
+  "evidence_scope": {
+    "agent": "实际输入、工具动作及返回、状态、部分与最终科学产物",
+    "answer": "实际输入、最终原始答复、随附科学报告/工程/图及交付日志；不以完整内部工具轨迹补分"
+  },
+  "B_mode": "core_skill_binary_5_or_0",
+  "supersedes_score_path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-result-analysis\\benchmark_v1.2_20261012\\FE50\\score.json",
+  "ordinary_compliance_issues": [
+    {
+      "reason": "通用addp修改超出模型编辑区；实际core编辑范围约定存在，但未把该通用helper修改列为B红线。作为工具调用范围问题扣F2，不B整格否决。",
+      "evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\tool_trace.jsonl",
+          "locator": "edit seq=34461, generic addp value precedence reversal"
+        },
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\models\\engine\\xrd_engine_custom.py",
+          "locator": "header lines14–26; generic addp lines约253–270; ==EDITABLE== model seams约679/692"
+        }
+      ],
+      "classification": "ordinary_edit_scope_violation"
+    }
+  ],
+  "redline_candidates": [],
+  "revised_at": "2026-10-13",
+  "core_prompt_addendum_sha256": "3be20f20f31e4baeed390da06034aa09219707153a7eaaf46942f90843831d38",
+  "workflow_construction_issues": [
+    {
+      "model": "QWEN 3.8 MAX",
+      "case_id": "FE50",
+      "run_id": "session-609f2b1a-1e81-407c-a653-31a782caede2",
+      "classification": "workflow_construction_not_B",
+      "point_id": "A3",
+      "reason": "A3=0：wR9.401已达到本案R≤10参考目标且自述当前最佳，仍主动做6→20阶背景扫描。按用户最终更正仅记工作流条件升级错误，撤销v1.2背景B否决。",
+      "core_rules": [
+        {
+          "skill": "xrd-workflow",
+          "section": "§3背景条件升级",
+          "core_excerpt": "背景默认6阶且必须最后拟合；其他条件全优化仍达不到目标才启用迭代。",
+          "evidence": {
+            "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+            "locator": "实际历史核心回包seq246；§3背景条件升级"
+          },
+          "excerpt_kind": "paraphrase; actual original receipt linked and preserved"
+        }
+      ],
+      "action_evidence": [
+        {
+          "path": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\session_core.jsonl.gz",
+          "locator": "246完整续读源行342–344；83572 T23 wR9.40112955；83920当前最佳；83921/83922扫描；84281拒绝并回退；84282/84283夹限N后终值9.4044。"
+        }
+      ],
+      "counterevidence": "扫描坏分支已拒绝回退，不因其占位异常交付清零B；通用addp范围修改仍仅扣F2。"
+    }
+  ]
+}

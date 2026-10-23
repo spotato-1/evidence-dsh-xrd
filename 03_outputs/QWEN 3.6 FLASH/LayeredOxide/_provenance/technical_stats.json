@@ -1,0 +1,179 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-qwen-3.6-flash-ai-agent-v1-2026-10-12",
+  "case_id": "LayeredOxide",
+  "run_id": "session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889",
+  "collected_at": "2026-10-11T22:48:40.965650+00:00",
+  "source": {
+    "model_label": "QWEN 3.6 FLASH",
+    "assistant_model_routes": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.6-flash"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.6-flash",
+        "reasoningEffort": "high",
+        "maxTokens": 65536
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.6~0020FLASH--\\session-b0d06e9e-bca2-42f1-a709-c7ea1a4c6889\\session.jsonl.zstd",
+      "bytes": 197139,
+      "sha256": "9219ad1467c22af65647e7a806f5a39b60002eaa04ac5c51805af861097b7c25",
+      "source_mtime_ns": 1791488687589637100,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/LayeredOxide/pattern.raw",
+        "input_sha256": "e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8",
+        "workspace_file_present": true,
+        "workspace_sha256": "e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/LayeredOxide/pattern_2theta.txt",
+        "input_sha256": "4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4",
+        "workspace_file_present": true,
+        "workspace_sha256": "4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-08T19:42:06.112000+00:00",
+    "ended_at": "2026-10-08T19:44:47.587000+00:00",
+    "elapsed_seconds": 161.475,
+    "turns": 1,
+    "tool_calls": 22,
+    "tool_errors": 0,
+    "retries": 0,
+    "last_turn_reason": {
+      "kind": "error",
+      "error": {
+        "message": "Repetitive tool calls detected in the conversation history. The same tool call with identical name and arguments has been repeated across multiple consecutive rounds. Please modify your request or adjust the tool call arguments to avoid infinite loops.",
+        "code": "PI_AI_ERROR"
+      }
+    },
+    "error_ended_turns": [
+      {
+        "seq": 2083,
+        "time": 1791488687587,
+        "turn": 1,
+        "reason": {
+          "kind": "error",
+          "error": {
+            "message": "Repetitive tool calls detected in the conversation history. The same tool call with identical name and arguments has been repeated across multiple consecutive rounds. Please modify your request or adjust the tool call arguments to avoid infinite loops.",
+            "code": "PI_AI_ERROR"
+          }
+        }
+      }
+    ],
+    "input_tokens": 1416921,
+    "output_tokens": 4547,
+    "cache_read_tokens": 0,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 1416921,
+      "outputTokens": 4547
+    },
+    "goal_rounds": null
+  },
+  "workflow": {
+    "states": [],
+    "final_backend": null,
+    "gsas_completed": false,
+    "finalize_completed": false,
+    "export_completed": false,
+    "required_refinement_completed": false,
+    "converged": null,
+    "warnings": [
+      "missing_workflow_state",
+      "missing_journal_jsonl",
+      "session_contains_error_ended_turns"
+    ]
+  },
+  "final_metrics": {
+    "wr": null,
+    "r": null,
+    "rb": null,
+    "wrmin": null,
+    "chi2": null,
+    "gof": null,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": null,
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 0,
+    "journal_jsonl_total": 0,
+    "journal_jsonl_valid": 0,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": false,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "eligibility": {
+    "status": "excluded/incomplete_refinement",
+    "reason": "missing_workflow_state; missing_journal_jsonl; session_contains_error_ended_turns"
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-muzy0ndz-vbkaa6d7.json",
+      "bytes": 275,
+      "sha256": "49a95be324d9626b82ffb8b3701186f8a54d642338239aceae860a7510dbaad9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress-muzy0rcb-s2cz3xt6.json",
+      "bytes": 275,
+      "sha256": "5083c4da0d19a5fc48e960f9cc426296381d52055cfb6852e3ff5231cd9809bb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/.xrd-progress.json",
+      "bytes": 275,
+      "sha256": "5083c4da0d19a5fc48e960f9cc426296381d52055cfb6852e3ff5231cd9809bb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/cif_edit_plan.json",
+      "bytes": 209,
+      "sha256": "05e0fd1e2f0407fd778d7bc66422c567260c657d8ea05044e07e16210b50e523"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/cif_edit_result.json",
+      "bytes": 69039,
+      "sha256": "ee7bc36eb4cf4470656bfd0399c63b8d50512d54a402fc4c64756aa12876aeeb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/pattern.raw",
+      "bytes": 14784,
+      "sha256": "e1a4499ad8b51a9a3a174ec1df202d412e7a69edb9f7342f5664463e6ef6a6b8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/LayeredOxide/pattern_2theta.txt",
+      "bytes": 92535,
+      "sha256": "4ad49571f3dbfe0e55d8ecd243a03b7df7642f5d09b8f32490a5339b5469b3a4"
+    }
+  ]
+}

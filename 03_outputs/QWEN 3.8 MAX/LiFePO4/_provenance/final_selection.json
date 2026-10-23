@@ -1,0 +1,36 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 84587,
+  "result_seq": 84588,
+  "input_gpx": "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_deliver.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_final"
+    ],
+    "gpx": [
+      "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx"
+    ],
+    "lst": [
+      "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_final\\LiFePO4_final.lst"
+    ],
+    "plot": [
+      "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_final\\LiFePO4_fit.png"
+    ],
+    "report": [
+      "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_final\\LiFePO4_report.md"
+    ],
+    "cif": [
+      "workspace\\QWEN 3.8 MAX\\LiFePO4\\LiFePO4_final\\LiFePO4_Li4_Fe4_P4_O16.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 6.26,
+    "R": 4.888191316719852,
+    "Rb": 5.250323020928825,
+    "wRb": 6.433737635884927,
+    "wRmin": 6.153646394923089,
+    "chi2": 7236.36,
+    "gof": 1.02
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

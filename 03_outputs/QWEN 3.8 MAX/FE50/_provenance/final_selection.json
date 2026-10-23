@@ -1,0 +1,36 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 87251,
+  "result_seq": 87252,
+  "input_gpx": "workspace\\QWEN 3.8 MAX\\FE50\\gsas\\gsas_T25_NUclamp.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\QWEN 3.8 MAX\\FE50\\FE50_final"
+    ],
+    "gpx": [
+      "workspace\\QWEN 3.8 MAX\\FE50\\FE50_final\\FE50_final.gpx"
+    ],
+    "lst": [
+      "workspace\\QWEN 3.8 MAX\\FE50\\FE50_final\\FE50_final.lst"
+    ],
+    "plot": [
+      "workspace\\QWEN 3.8 MAX\\FE50\\FE50_final\\FE50_fit.png"
+    ],
+    "report": [
+      "workspace\\QWEN 3.8 MAX\\FE50\\FE50_final\\FE50_report.md"
+    ],
+    "cif": [
+      "workspace\\QWEN 3.8 MAX\\FE50\\FE50_final\\FE50_t14_litcn.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 9.4,
+    "R": 7.431212290201218,
+    "Rb": 7.792131334298825,
+    "wRb": 8.87714665724833,
+    "wRmin": 7.9169244690920095,
+    "chi2": 3953.86,
+    "gof": 1.19
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

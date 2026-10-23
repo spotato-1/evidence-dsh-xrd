@@ -1,0 +1,15 @@
+﻿{
+  "basis": "last completed xrd_export_cif result; validation verdict is preserved separately",
+  "tool_seq": 63230,
+  "result_seq": 63231,
+  "input_gpx": null,
+  "components": "workspace\\DEEPSEEK V4 PRO\\Amorphous\\components.json",
+  "result": null,
+  "candidate_files": [
+    "workspace\\DEEPSEEK V4 PRO\\Amorphous\\amorphous_carbon_fit.png",
+    "workspace\\DEEPSEEK V4 PRO\\Amorphous\\amorphous_carbon_fit_fit.png"
+  ],
+  "metrics": null,
+  "same_source_link": "export call source and resulting files retained; final answer may conflict",
+  "verdict_line": "xrd_export_cif: warn"
+}

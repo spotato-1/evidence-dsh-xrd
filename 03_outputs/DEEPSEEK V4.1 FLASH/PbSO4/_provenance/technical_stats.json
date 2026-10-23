@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "campaign_id": "dsh-xrd-deepseek-v4.1-flash-full12-2026-10",
+  "case_id": "PbSO4",
+  "case_ids": [
+    "PbSO4"
+  ],
+  "run_id": "session-a94a7058-4f31-488d-bfd1-dac63c3ef338",
+  "collected_at": "2026-10-06T19:35:05.674243+00:00",
+  "source": {
+    "input_hashes": {
+      "PbSO4/input/PBSO4_2th.txt": "e35b3566b0ddaf4d444176a3de735d11cf730c9c9b9c8e3c4f617f33f63e8350"
+    },
+    "session_container": {
+      "name": "session.jsonl.zstd",
+      "bytes": 1652690,
+      "sha256": "041851aa54d2baec2919811fca349573be81f1293e877c47ef0a4b94cdb17bea"
+    },
+    "dsh_version": "dsh-portable 0.1.0-rc5-xrd090-zh",
+    "plugin_version": "dsh-xrd 0.9.1",
+    "plugin_commit": null,
+    "model": "DeepSeek V4.1 Flash",
+    "model_ids_in_session": [
+      "deepseek-flash"
+    ],
+    "engine_versions": {}
+  },
+  "execution": {
+    "started_at": "2026-10-06T13:02:52.652000+00:00",
+    "ended_at": "2026-10-06T15:06:07.456000+00:00",
+    "elapsed_seconds": 7394.804,
+    "input_tokens": 167230,
+    "output_tokens": 120109,
+    "cache_read_tokens": 16898816,
+    "token_usage_basis": "DSH session project cache totals",
+    "turns": 1,
+    "goal_rounds": null,
+    "tool_calls": 138,
+    "tool_errors": 1,
+    "retries": 0
+  },
+  "workflow": {
+    "phase": [
+      {
+        "path": "states/PbSO4/workflow_state.json",
+        "value": 5
+      }
+    ],
+    "final_backend": "GSAS-II",
+    "required_stages": [
+      "1",
+      "2",
+      "3",
+      "4-I",
+      "4-II",
+      "4-III",
+      "5"
+    ],
+    "completed_stages": [],
+    "converged": null,
+    "gsas_completed": true,
+    "final_export_completed": true,
+    "warnings": []
+  },
+  "final_metrics": {
+    "rwp": null,
+    "wr": null,
+    "rexp": null,
+    "chi2": null,
+    "gof": null,
+    "source": null,
+    "note": "Not normalized during initial evidence freeze; source values remain in state/result artifacts."
+  },
+  "integrity": {
+    "journal_jsonl_total": 14,
+    "journal_jsonl_valid": 14,
+    "journal_jsonl_invalid": 0,
+    "journal_jsonl_files": 1,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_consistent": null,
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "artifacts": [
+    {
+      "role": "final_gpx",
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_final.gpx",
+      "bytes": 531813,
+      "sha256": "911b64d6a0d03e5ac92133d03afaf686298eeb582a8801a1aee2f62eb40b5200"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_final.lst",
+      "bytes": 10030,
+      "sha256": "d04b87e25fb27a72190110e5289a063f3d32624c311ed2bfe20d9f9861a7d0ca"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_finalize.json",
+      "bytes": 3616,
+      "sha256": "7cc7c66c444d22871ad4dbecf2fa71b2561edf6ce0a28459719a32eb23b61d06"
+    },
+    {
+      "role": "final_fit_or_figure",
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_fit.png",
+      "bytes": 319229,
+      "sha256": "fc6358c9c7e8a64fd490cd34fc1d7f3e9734f340d2ef40789e9ee07dbaf88aac"
+    },
+    {
+      "role": "final_fit_or_figure",
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_fit_export.png",
+      "bytes": 328036,
+      "sha256": "842c1eb4e5d69127f3809d2de4f615252d21c7eeb3dd5b3e610b712b7b3cd10d"
+    },
+    {
+      "role": "final_cif",
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_O4_Pb_S.cif",
+      "bytes": 1964,
+      "sha256": "13b323f94de92c7b39dd83e9de96502c4c5b5156bda3d87daf5ac9fd82d73c22"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "artifacts/PbSO4/PbSO4_final/PbSO4_report.md",
+      "bytes": 3130,
+      "sha256": "138d7349efa30b0eec445f318e47422ed3251de8c1bdd4dbc43aa01c7c68e04c"
+    },
+    {
+      "role": "conclusion",
+      "path": "conclusion.md",
+      "bytes": 3649,
+      "sha256": "5d024fe5702dd4ae1c738f53cbaf0c06843881e570f126a3850d936d4d0294e8"
+    },
+    {
+      "role": "journal_jsonl",
+      "path": "plugin_logs/PbSO4/xrd_workflow/journal.jsonl",
+      "bytes": 14948,
+      "sha256": "4fc4b8b35f48f151067d3c3d637d5bc2da469a0970b759ee7752577697beb846"
+    },
+    {
+      "role": "journal_markdown",
+      "path": "plugin_logs/PbSO4/xrd_workflow/journal.md",
+      "bytes": 13821,
+      "sha256": "df6be7f3f6fa81168d24969c969a68c4923249a96492fd67df5748d25113253f"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "root_reports/PbSO4/review_judgment.md",
+      "bytes": 6254,
+      "sha256": "7aaa31a1cfd01e9e711f86b7fbf042cdfd19ae9f672b034dd3ad1b3f579ca651"
+    },
+    {
+      "role": "supporting_artifact",
+      "path": "root_reports/PbSO4/XRD_analysis and refinement report.md",
+      "bytes": 12789,
+      "sha256": "a45f1592996d1b1c4f7d2ccb1600425ac1d5e6373c5a241f056bb58808d4a3a6"
+    },
+    {
+      "role": "session_core",
+      "path": "session_core.jsonl.gz",
+      "bytes": 683890,
+      "sha256": "84f54192d2d30cb21d352653dcb1b942d754e9f7db4b8488f374c5051ed586e8"
+    },
+    {
+      "role": "session_extract_stats",
+      "path": "session_extract_stats.json",
+      "bytes": 1766,
+      "sha256": "34ca2c03d1c6c5ff61f0f12dbf5ea7f6f3d0ee5c7c43b460fc8268e2401097a3"
+    },
+    {
+      "role": "workflow_state",
+      "path": "states/PbSO4/workflow_state.json",
+      "bytes": 9933,
+      "sha256": "4df2a73581a2d0acc1f549e2cb1c76aa7777fb203c04574084d4f281ab7d6d83"
+    },
+    {
+      "role": "tool_trace",
+      "path": "tool_trace.jsonl",
+      "bytes": 545954,
+      "sha256": "1b67f37795437b824b6d8d012bdf1b925c398781f1d8473e696050db39d4fbbc"
+    }
+  ],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  }
+}

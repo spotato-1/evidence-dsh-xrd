@@ -1,0 +1,60 @@
+﻿{
+  "model": "QWEN 3.8 MAX",
+  "case_id": "FE50",
+  "run_id": "session-609f2b1a-1e81-407c-a653-31a782caede2",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 87251,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+      "destination": "QWEN 3.8 MAX/FE50/GPX/FE50_final.gpx",
+      "role": "gpx",
+      "bytes": 323377,
+      "sha256": "50830144ddb8ea9ab5ee90052c8ed9329d636fd31fd0d34d4c918b44991011db",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "FE50",
+      "run_id": "session-609f2b1a-1e81-407c-a653-31a782caede2",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\FE50\\FE50_final\\FE50_final.gpx"
+    },
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+      "destination": "QWEN 3.8 MAX/FE50/figures/FE50_fit.png",
+      "role": "image",
+      "bytes": 394487,
+      "sha256": "84e2b09cf2c49256026127e61abe5d7407c2dbbec9558b70d5855321070f23ef",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "FE50",
+      "run_id": "session-609f2b1a-1e81-407c-a653-31a782caede2",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\FE50\\FE50_final\\FE50_fit.png"
+    },
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-609f2b1a-1e81-407c-a653-31a782caede2\\workspace_snapshot\\FE50\\FE50_final\\FE50_t14_litcn.cif",
+      "destination": "QWEN 3.8 MAX/FE50/CIF/FE50_t14_litcn.cif",
+      "role": "cif",
+      "bytes": 2772,
+      "sha256": "1a681547faf89847ef3c0c2ca8fc4731fe0e6fce801871031674a1fd17dfb289",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "FE50",
+      "run_id": "session-609f2b1a-1e81-407c-a653-31a782caede2",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\FE50\\FE50_final\\FE50_t14_litcn.cif"
+    }
+  ]
+}

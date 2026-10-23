@@ -1,0 +1,60 @@
+﻿{
+  "model": "QWEN 3.7 PLUS",
+  "case_id": "FE50",
+  "run_id": "session-0c9a843c-46fd-4a76-9e36-2d98a8eed553",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 24774,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\workspace_snapshot\\FE50\\FE50_final_final\\FE50_final_final.gpx",
+      "destination": "QWEN 3.7 PLUS/FE50/GPX/FE50_final_final.gpx",
+      "role": "gpx",
+      "bytes": 236552,
+      "sha256": "f81aadf73438d295968b11a6c316dc15c9af3c36f2afa9eef98b92e4298231a8",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "FE50",
+      "run_id": "session-0c9a843c-46fd-4a76-9e36-2d98a8eed553",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\QWEN 3.7 PLUS\\FE50\\FE50_final_final\\FE50_final_final.gpx"
+    },
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\workspace_snapshot\\FE50\\FE50_final_final\\FE50_final_fit.png",
+      "destination": "QWEN 3.7 PLUS/FE50/figures/FE50_final_fit.png",
+      "role": "image",
+      "bytes": 368223,
+      "sha256": "6e91bf1bf2101ad15e29416c99d54cca6bd8010fa84eb04d2d0725492cd847ca",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "FE50",
+      "run_id": "session-0c9a843c-46fd-4a76-9e36-2d98a8eed553",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\QWEN 3.7 PLUS\\FE50\\FE50_final_final\\FE50_final_fit.png"
+    },
+    {
+      "source": "workspace\\QWEN 3.7 PLUS\\dsh-xrd-test-evidence\\runs\\session-0c9a843c-46fd-4a76-9e36-2d98a8eed553\\workspace_snapshot\\FE50\\FE50_final_final\\FE50_final_K4.8_Mn2_Fe6_C24_N24.cif",
+      "destination": "QWEN 3.7 PLUS/FE50/CIF/FE50_final_K4.8_Mn2_Fe6_C24_N24.cif",
+      "role": "cif",
+      "bytes": 5475,
+      "sha256": "7c57206672d4374af8f7a1f87ac2ae6a44178c791573fd44ef9d7a48d907b268",
+      "model": "QWEN 3.7 PLUS",
+      "case_id": "FE50",
+      "run_id": "session-0c9a843c-46fd-4a76-9e36-2d98a8eed553",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\QWEN 3.7 PLUS\\FE50\\FE50_final_final\\FE50_final_K4.8_Mn2_Fe6_C24_N24.cif"
+    }
+  ]
+}

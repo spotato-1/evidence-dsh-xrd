@@ -1,0 +1,111 @@
+﻿{
+  "sources": {
+    "csv": "workspace\\测试\\测试集\\LayeredOxide_2ph\\raw\\Na0.9K0.1.csv",
+    "txt": "workspace\\测试\\测试集\\LayeredOxide_2ph\\raw\\91.txt",
+    "answer_gpx": "workspace\\测试\\测试集\\LayeredOxide_2ph\\answer\\20251121.gpx",
+    "answer_histogram_name": "PWDR Na0.9K0.1.csv"
+  },
+  "row_counts": {
+    "csv": 6861,
+    "txt": 6861,
+    "gpx": 6861
+  },
+  "comparisons": {
+    "csv_vs_txt_x": {
+      "same_shape": true,
+      "n": 6861,
+      "exact_equal": false,
+      "allclose_1e-12": false,
+      "max_abs_diff": 0.0004997339999874839,
+      "mean_abs_diff": 0.0002499777662440769,
+      "correlation": 0.9999999998980035
+    },
+    "csv_vs_txt_yobs": {
+      "same_shape": true,
+      "n": 6861,
+      "exact_equal": true,
+      "allclose_1e-12": true,
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "correlation": 1.0
+    },
+    "csv_vs_gpx_x": {
+      "same_shape": true,
+      "n": 6861,
+      "exact_equal": true,
+      "allclose_1e-12": true,
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "correlation": 0.9999999999999998
+    },
+    "csv_vs_gpx_yobs": {
+      "same_shape": true,
+      "n": 6861,
+      "exact_equal": true,
+      "allclose_1e-12": true,
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "correlation": 1.0
+    },
+    "txt_vs_gpx_x": {
+      "same_shape": true,
+      "n": 6861,
+      "exact_equal": false,
+      "allclose_1e-12": false,
+      "max_abs_diff": 0.0004997339999874839,
+      "mean_abs_diff": 0.0002499777662440769,
+      "correlation": 0.9999999998980035
+    },
+    "txt_vs_gpx_yobs": {
+      "same_shape": true,
+      "n": 6861,
+      "exact_equal": true,
+      "allclose_1e-12": true,
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "correlation": 1.0
+    },
+    "txt_vs_gpx_weight": {
+      "same_shape": true,
+      "n": 6861,
+      "exact_equal": false,
+      "allclose_1e-12": false,
+      "max_abs_diff": 4.993849938499367e-06,
+      "mean_abs_diff": 2.535887441569724e-06,
+      "correlation": 0.9999661091073776
+    },
+    "txt_vs_gpx_ycalc": {
+      "same_shape": true,
+      "n": 6861,
+      "exact_equal": false,
+      "allclose_1e-12": false,
+      "max_abs_diff": 885.7717163906354,
+      "mean_abs_diff": 42.3554936989543,
+      "correlation": 0.9310585346203822
+    },
+    "txt_vs_gpx_ybkg": {
+      "same_shape": true,
+      "n": 6861,
+      "exact_equal": false,
+      "allclose_1e-12": false,
+      "max_abs_diff": 84.62484851060947,
+      "mean_abs_diff": 29.42506064427381,
+      "correlation": 0.6988145225907866
+    }
+  },
+  "fingerprints": {
+    "csv_yobs_float64": "aac717b7f4a70d43aff62d760222c18bc6fbe61205d589964cef62b6253af1d3",
+    "txt_yobs_float64": "aac717b7f4a70d43aff62d760222c18bc6fbe61205d589964cef62b6253af1d3",
+    "gpx_yobs_float64": "aac717b7f4a70d43aff62d760222c18bc6fbe61205d589964cef62b6253af1d3"
+  },
+  "gpx_residuals": {
+    "Nobs": 6861,
+    "R": 5.994986086954201,
+    "Rb": 7.799122990149901,
+    "wR": 8.199450894235527,
+    "wRb": 11.063150882449778,
+    "wRmin": 4.355263869154674,
+    "Durbin-Watson": 0.5802811006143431
+  },
+  "interpretation": "Observed intensities are the identity criterion. Small x differences are expected if 91.txt is a rounded export of the CSV/GPX grid."
+}

@@ -1,0 +1,60 @@
+﻿{
+  "model": "DEEPSEEK V4.1 FLASH",
+  "case_id": "CeO2",
+  "run_id": "session-2c4aff20-e5cf-458d-920f-f19ab4d4277f",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-2c4aff20-e5cf-458d-920f-f19ab4d4277f\\artifacts\\CeO2\\CeO2_final\\CeO2_CeO2.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/CeO2/CIF/CeO2_CeO2.cif",
+      "role": "cif",
+      "bytes": 5338,
+      "sha256": "85ca9851cb29ef32f4818bb97bf66195211b6329bcc5cdc22067e687df24b2e4",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "CeO2",
+      "run_id": "session-2c4aff20-e5cf-458d-920f-f19ab4d4277f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/CeO2/CeO2_final/CeO2_CeO2.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-2c4aff20-e5cf-458d-920f-f19ab4d4277f\\artifacts\\CeO2\\CeO2_final\\CeO2_final.gpx",
+      "destination": "DEEPSEEK V4.1 FLASH/CeO2/GPX/CeO2_final.gpx",
+      "role": "gpx",
+      "bytes": 1720418,
+      "sha256": "46dc0777b128f33bd612b58a2ad602bbb3ae3b762b09f72125dbbdad28c96653",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "CeO2",
+      "run_id": "session-2c4aff20-e5cf-458d-920f-f19ab4d4277f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/CeO2/CeO2_final/CeO2_final.gpx"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-2c4aff20-e5cf-458d-920f-f19ab4d4277f\\artifacts\\CeO2\\CeO2_final\\CeO2_fit.png",
+      "destination": "DEEPSEEK V4.1 FLASH/CeO2/figures/CeO2_fit.png",
+      "role": "image",
+      "bytes": 190751,
+      "sha256": "988bffb6372642708830f5ab9ecd2a7e04ae72835b5ffa594096dc4d24a5818d",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "CeO2",
+      "run_id": "session-2c4aff20-e5cf-458d-920f-f19ab4d4277f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/CeO2/CeO2_final/CeO2_fit.png"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "run_id": "session-3c0c083d-6e54-4a2b-896f-5e4e320ea939",
+    "case_ids": [
+      "LiFePO4"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 65,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 153,
+    "assistant_text_chars": 1656,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7",
+    "case_ids": [
+      "FE50"
+    ],
+    "user_messages": 2,
+    "assistant_text_messages": 138,
+    "assistant_turn_answers": 12,
+    "user_text_chars": 450,
+    "assistant_text_chars": 5320,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7",
+    "case_ids": [
+      "Amorphous"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 1,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 115,
+    "assistant_text_chars": 1548,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-d219da8b-d575-4d6b-982c-b91137ef5b2f",
+    "case_ids": [
+      "Fluoroapatite"
+    ],
+    "user_messages": 1,
+    "assistant_text_messages": 39,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 123,
+    "assistant_text_chars": 1475,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2",
+    "case_ids": [
+      "Fe2O3_Fe3O4_2ph"
+    ],
+    "user_messages": 2,
+    "assistant_text_messages": 40,
+    "assistant_turn_answers": 1,
+    "user_text_chars": 153,
+    "assistant_text_chars": 1212,
+    "invalid_core_lines": 0
+  },
+  {
+    "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+    "case_ids": [
+      "LayeredOxide"
+    ],
+    "user_messages": 2,
+    "assistant_text_messages": 58,
+    "assistant_turn_answers": 2,
+    "user_text_chars": 300,
+    "assistant_text_chars": 1828,
+    "invalid_core_lines": 0
+  }
+]

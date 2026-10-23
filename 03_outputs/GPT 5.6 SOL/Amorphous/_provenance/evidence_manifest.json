@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "artifacts/Amorphous/Amorphous_empirical_fit.png",
+      "bytes": 357020,
+      "sha256": "ad7b01d9377d58e54583875100e8b46c402e0f37394c2b9adc53aa478aa5bea5"
+    },
+    {
+      "path": "artifacts/Amorphous/Amorphous_peak_parameters.csv",
+      "bytes": 554,
+      "sha256": "5c9d59dbb8622318c17fc7e19b77130a5dabd5816c24bbecff74474f5add5a7e"
+    },
+    {
+      "path": "artifacts/Amorphous/Amorphous_twocol.xy",
+      "bytes": 65829,
+      "sha256": "8af4419822c49799d07c31e5ee9167e375eb055830e1eb8c1a843bd9261ff496"
+    },
+    {
+      "path": "artifacts/Amorphous/analysis_report.md",
+      "bytes": 5525,
+      "sha256": "9ba8ac63955b65d0ff23dad2229410efb7ceb2574c76c3ed40f2352384c718ae"
+    },
+    {
+      "path": "artifacts/Amorphous/components.json",
+      "bytes": 320126,
+      "sha256": "6e18219ada306ff02c26a28da9e0f3694058937960a52a2f1f0d6e06df170860"
+    },
+    {
+      "path": "artifacts/Amorphous/result.json",
+      "bytes": 9566,
+      "sha256": "64981b115b88f866a24614ffa3b75a79f1c17f1a67af14d6b260ca862b5fb9cb"
+    },
+    {
+      "path": "conclusion.md",
+      "bytes": 2320,
+      "sha256": "a433179c9457b1bf650b362306d7180205ff2e2412baf6876dd2c58ee10520ee"
+    },
+    {
+      "path": "plugin_logs/Amorphous/xrd_workflow/journal.jsonl",
+      "bytes": 639,
+      "sha256": "d005598fbb9d6177faabe19953f03d59e7629e6101c7029e48d7e7e98dce08c2"
+    },
+    {
+      "path": "plugin_logs/Amorphous/xrd_workflow/journal.md",
+      "bytes": 2336,
+      "sha256": "715c54516d02fa98998bd286327c3ceb197df471b38a709e45596508110bbe60"
+    },
+    {
+      "path": "root_reports/Amorphous/analysis_report.md",
+      "bytes": 5525,
+      "sha256": "9ba8ac63955b65d0ff23dad2229410efb7ceb2574c76c3ed40f2352384c718ae"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 181713,
+      "sha256": "ec9e6ec6f0b96b527f620c338cdc73e136c2cb342e3f34a314e234af5a569263"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1660,
+      "sha256": "530c8fa010bbffc75921257e5ca8cdc19da4e95f714e87643f045b93f00d743e"
+    },
+    {
+      "path": "states/Amorphous/workflow_state.json",
+      "bytes": 4445,
+      "sha256": "9d09fb3256b458819d6b0fc457f3bf3995c801dae2533a99e5663be72c4dd1dc"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 6155,
+      "sha256": "0c094b35123d1a442f921b5affd6e01eb4b506082859460d64024bd1268a734d"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 172903,
+      "sha256": "51b77bb53adffb545828abdd244a222f3eb2e5fc0405a8cd8c54df09d53a3f04"
+    }
+  ]
+}

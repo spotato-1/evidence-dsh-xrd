@@ -1,0 +1,123 @@
+﻿{
+  "schema_version": "1.0",
+  "evidence_kind": "single-case rerun freeze",
+  "model_label": "GPT 5.6 SOL",
+  "case_id": "LiFePO4",
+  "run_id": "session-e03ae580-d18c-423f-806e-9920746a5e8e",
+  "source_workspace": "workspace\\LiFePO4-GPT-5-6-SOL",
+  "source_workspace_modified": false,
+  "session": {
+    "provider": "office-modlens-poke-api",
+    "model": "gpt-5.6-sol",
+    "request_header_config": {
+      "provider": "office-modlens-poke-api",
+      "model": "gpt-5.6-sol"
+    },
+    "reasoning_effort_observation": "reasoningEffort is absent from the recorded request header; the provider default was used. The session contains no field proving that an effective reasoning level was lowered dynamically.",
+    "started_at": "2026-10-08T19:25:40.624+08:00",
+    "ended_at": "2026-10-08T20:21:45.657+08:00",
+    "elapsed_seconds": 3365.0,
+    "turns": 3,
+    "assistant_messages": 71,
+    "tool_calls": 116,
+    "tool_result_errors": 0,
+    "llm_retry_events": 0,
+    "assistant_usage_arithmetic_sum": {
+      "input_tokens": 213,
+      "output_tokens": 36615,
+      "note": "Arithmetic sum of assistant/message usage events; not asserted as billing usage. No reasoning-token field was emitted."
+    },
+    "upstream_failures": [
+      {
+        "turn": 1,
+        "ended_at": "2026-10-08T19:57:32.473+08:00",
+        "code": "PI_AI_ERROR",
+        "message": "upstream model service temporarily unavailable，please retry later or switch to another available channel。 responsible party：OpenAI。"
+      },
+      {
+        "turn": 2,
+        "ended_at": "2026-10-08T20:07:43.334+08:00",
+        "code": "PI_AI_ERROR",
+        "message": "upstream model service temporarily unavailable，please retry later or switch to another available channel。 responsible party：OpenAI。"
+      }
+    ],
+    "completed": true
+  },
+  "source_hashes": {
+    "session_jsonl_zstd": {
+      "bytes": 691061,
+      "sha256": "12ad65781d689ae6c14b0bf4250c56b5681be622e686ecc21a3ec40d3a268d96"
+    },
+    "workspace_pattern_raw": {
+      "bytes": 31162,
+      "sha256": "922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd"
+    },
+    "testset_pattern_raw": {
+      "bytes": 31162,
+      "sha256": "922b80d830628ed03d7407561fc634eea1116b8b3e9afc331b197bf230e2e1dd"
+    },
+    "final_gpx": {
+      "bytes": 561540,
+      "sha256": "20b1e0212d52a8bc6bb5a5ac4282bd3e4cd6f6ca26ab8953d373bd825f941f83"
+    },
+    "final_report_zh": {
+      "bytes": 6411,
+      "sha256": "867802dc01381ece5acc8ac59ca618e45677fef5fbf6c9d3eced3a17bfa5ccf6"
+    }
+  },
+  "final_result": {
+    "backend": "GSAS-II",
+    "space_group": "P n m a",
+    "wr_percent": 23.75855404591911,
+    "r_percent": 17.06709505037938,
+    "rb_percent": 24.994363251350592,
+    "wrmin_percent": 6.153646394423826,
+    "cell_angstrom": {
+      "a": 10.333764263729567,
+      "b": 6.005758128602801,
+      "c": 4.68885397986745,
+      "volume": 291.00007172159957
+    },
+    "final_antisite_value_in_gpx": null,
+    "reported_sensitivity_range_percent": "1-4",
+    "antisite_interpretation": "No precise antisite value was accepted for the final CIF/GPX; the report treats the branch results as model-sensitive and non-quantitative."
+  },
+  "instrument_profile_audit": {
+    "zero": -0.05626074235649432,
+    "U": -13493.190976165024,
+    "V": 991.0084610185627,
+    "W": 30.1030666553166,
+    "X": -39.1811189535773,
+    "Y": 228.72809075003403,
+    "two_theta_range_deg": [
+      10.0,
+      80.0
+    ],
+    "gaussian_term_formula": "U*tan(theta)^2 + V*tan(theta) + W",
+    "gaussian_term_min": -8638.738525002,
+    "gaussian_term_max": 13.524596219061966,
+    "gaussian_nonpositive_fraction": 0.985287816026282,
+    "lorentz_term_formula": "X/cos(theta) + Y*tan(theta)",
+    "lorentz_term_min": -19.31966949218979,
+    "lorentz_term_max": 140.77833830205475,
+    "lorentz_nonpositive_fraction": 0.13898014569347236,
+    "warning": "The atom/CIF review passed, but the nominal Caglioti/profile-domain diagnostic is physically invalid over most of the fitted range. The final project must not be described as fully physical on the basis of the structure-only review."
+  },
+  "evidence_integrity": {
+    "session_frames": 1108,
+    "session_bad_frames": 0,
+    "decoded_jsonl_lines": 2037,
+    "decoded_invalid_json_lines": 0,
+    "workspace_snapshot_files_before_copy": 387,
+    "workspace_snapshot_bytes_before_copy": 38168044,
+    "status": "eligible_with_warnings",
+    "warnings": [
+      "two upstream PI_AI_ERROR turn interruptions",
+      "reasoning effort not explicitly recorded",
+      "final instrument-profile parameters fail a nominal physical-domain check"
+    ]
+  },
+  "campaign_id": "dsh-xrd-gpt-5.6-sol-ai-agent-v1-2026-10-08",
+  "active_campaign_status": "primary",
+  "supersedes_run_id": "session-3c0c083d-6e54-4a2b-896f-5e4e320ea939"
+}

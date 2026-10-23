@@ -1,0 +1,2519 @@
+﻿{
+  "summary": {
+    "model": "GPT 5.6 SOL",
+    "cases": 6,
+    "A": 26,
+    "A_unknown": 0,
+    "B": 30,
+    "B_unknown": 0,
+    "C": 30,
+    "C_unknown": 0,
+    "D": 23,
+    "D_unknown": 0,
+    "E": 27,
+    "E_unknown": 0,
+    "F": 29,
+    "F_unknown": 0,
+    "accuracy_50": 38.333333333333336,
+    "accuracy_unknown": 0.0,
+    "key_50": 42,
+    "key_unknown": 0,
+    "answer_100": 80.33333333333334,
+    "answer_upper": 80.33333333333334,
+    "time_hours": 7.758459166666667,
+    "time_score": 58.38211145572503,
+    "cost_usd": 55.23392239999997,
+    "cost_score": 54.66585062343455,
+    "B_gates": 0,
+    "F_gates": 0
+  },
+  "cases": [
+    {
+      "model": "GPT 5.6 SOL",
+      "case_id": "Amorphous",
+      "run_id": "session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7",
+      "score_path": "workspace\\GPT 5.6 SOL\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Amorphous\\score.json",
+      "status": "completed",
+      "findings": [
+        "C类经验宽峰路线正确；最终Rwp6.5000%，两宽峰与默认背景；明确表观Scherrer值不是晶粒尺寸，低R不证明相纯度。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；科学不足与自然试算不自动成为否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7\\tool_trace.jsonl",
+              "locator": "tool calls/results and actual skill authorization"
+            }
+          ],
+          "authorization": "当时实际加载工作流及实际用户输入；按v1.1保守确认。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "未确认引擎滥用；普通历史允许ladder/有依据诊断不自动否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7\\tool_trace.jsonl",
+              "locator": "xrd-refinement skill content; xrd_refine_auto calls"
+            }
+          ],
+          "authorization": "当时skill允许阶段Ⅱ普通FP初步迭代；最终结构交付仍GSAS。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7\\artifacts\\Amorphous\\analysis_report.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7\\conclusion.md"
+      ],
+      "A": 5,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 5,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 5,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 8.333333333333334,
+      "key_score": 5,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 13.333333333333334,
+      "resource": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "Amorphous",
+        "run_id": "session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7",
+        "time_seconds": 1925.291,
+        "observed_time_seconds": 1925.291,
+        "turn_intervals": [
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 9068,
+            "start_ms": 1791421960738,
+            "end_ms": 1791423886029,
+            "seconds": 1925.291,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791421960738,
+            1791423886029
+          ]
+        ],
+        "ledger_lifetime_seconds": 3067.138,
+        "tool_calls_including_children": 40,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 90,
+          "outputTokens": 12060,
+          "cacheWriteTokens": 126120,
+          "cacheReadTokens": 2957291
+        },
+        "actual_model_counts": {
+          "gpt-5.6-sol": 30
+        },
+        "sources": [
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7\\session_core.jsonl.gz",
+            "request_count": 30,
+            "usage": {
+              "inputTokens": 90,
+              "outputTokens": 12060,
+              "cacheWriteTokens": 126120,
+              "cacheReadTokens": 2957291
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 30
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "phase": [
+            {
+              "path": "states/Amorphous/workflow_state.json",
+              "value": 5
+            }
+          ],
+          "final_backend": "manual_full_pattern_model",
+          "required_stages": [
+            "1",
+            "2",
+            "3",
+            "4-I",
+            "4-II",
+            "4-III",
+            "5"
+          ],
+          "completed_stages": [],
+          "converged": null,
+          "gsas_completed": false,
+          "final_export_completed": true,
+          "warnings": []
+        },
+        "source_stats": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7\\technical_stats.json",
+        "approval_waits": [],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791421960738,
+            1791423886029
+          ]
+        ],
+        "cost_known_subtotal_usd": 2.0550764,
+        "missing_priced_requests": 0,
+        "priced_requests": 30,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 90,
+          "cache_read": 2957291,
+          "cache_write": 126120,
+          "output": 12060
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 2.0550764,
+        "time_reference_max": 2776.69,
+        "time_normalization_coverage": 6,
+        "time_score": 30.662371384634223,
+        "cost_reference_max": 4.283583199999999,
+        "cost_normalization_coverage": 6,
+        "cost_score": 52.024361287064515
+      },
+      "cached_metrics": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "Amorphous",
+        "run_id": "session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7",
+        "gpx_wR_percent": null,
+        "manual_Rwp_percent": 6.5000287738096745,
+        "manual_fit_flags": [],
+        "space_groups": [],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 40,
+        "phase_compositions": [],
+        "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-6f163abe-cc53-4660-acfe-1cd9ebaf23d7\\artifacts\\Amorphous\\result.json"
+      }
+    },
+    {
+      "model": "GPT 5.6 SOL",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2",
+      "score_path": "workspace\\GPT 5.6 SOL\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Fe2O3_Fe3O4_2ph\\score.json",
+      "status": "completed_with_scientific_limitations",
+      "findings": [
+        "两相R-3c/Fd-3m和晶胞正确；GPX模型蕴含质量分数66.08/33.92%，在±10个百分点范围内，未因偏差扣分。",
+        "最终答案和报告未给归一化质量分数；低全谱wR2.73%下强峰仍明显欠拟合。",
+        "最终GPX赤铁矿isotropic Mustrain约−446，不能作为正物理微应变；未见模型明知该异常仍绕过拒绝，暂不B整格否决。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；科学不足与自然试算不自动成为否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\tool_trace.jsonl",
+              "locator": "tool calls/results and actual skill authorization"
+            }
+          ],
+          "authorization": "当时实际加载工作流及实际用户输入；按v1.1保守确认。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "未确认引擎滥用；普通历史允许ladder/有依据诊断不自动否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\tool_trace.jsonl",
+              "locator": "xrd-refinement skill content; xrd_refine_auto calls"
+            }
+          ],
+          "authorization": "当时skill允许阶段Ⅱ普通FP初步迭代；最终结构交付仍GSAS。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_report.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\conclusion.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx"
+      ],
+      "A": 4,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 2,
+      "D_unknown": 0,
+      "E": 4,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 2,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 3.3333333333333335,
+      "key_score": 2,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 5.333333333333334,
+      "resource": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "Fe2O3_Fe3O4_2ph",
+        "run_id": "session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2",
+        "time_seconds": 1890.472,
+        "observed_time_seconds": 3027.514,
+        "turn_intervals": [
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 1086,
+            "start_ms": 1791423941118,
+            "end_ms": 1791424218577,
+            "seconds": 277.459,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "upstream model service temporarily unavailable，please retry later or switch to another available channel。 responsible party：OpenAI。",
+                "code": "PI_AI_ERROR"
+              }
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 1088,
+            "end_seq": 10085,
+            "start_ms": 1791424428317,
+            "end_ms": 1791427178372,
+            "seconds": 2750.055,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791423941118,
+            1791424218577
+          ],
+          [
+            1791424428317,
+            1791427178372
+          ]
+        ],
+        "ledger_lifetime_seconds": 3270.612,
+        "tool_calls_including_children": 75,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 150,
+          "outputTokens": 16981,
+          "cacheWriteTokens": 392887,
+          "cacheReadTokens": 7864596
+        },
+        "actual_model_counts": {
+          "gpt-5.6-sol": 50
+        },
+        "sources": [
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\session_core.jsonl.gz",
+            "request_count": 50,
+            "usage": {
+              "inputTokens": 150,
+              "outputTokens": 16981,
+              "cacheWriteTokens": 392887,
+              "cacheReadTokens": 7864596
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 50
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "phase": [
+            {
+              "path": "states/Fe2O3_Fe3O4_2ph/workflow_state.json",
+              "value": 5
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "required_stages": [
+            "1",
+            "2",
+            "3",
+            "4-I",
+            "4-II",
+            "4-III",
+            "5"
+          ],
+          "completed_stages": [],
+          "converged": null,
+          "gsas_completed": true,
+          "final_export_completed": true,
+          "warnings": []
+        },
+        "source_stats": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 3.718,
+            "asked_seq": 1651,
+            "decided_seq": 1652,
+            "start_ms": 1791424537747,
+            "end_ms": 1791424541465,
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\session_core.jsonl.gz",
+            "data": {
+              "id": "b0c3c88e-d075-4f9d-af1f-6f5387cdd039",
+              "outcome": "allowed-once"
+            }
+          },
+          {
+            "seconds": 1133.324,
+            "asked_seq": 2734,
+            "decided_seq": 2735,
+            "start_ms": 1791424818891,
+            "end_ms": 1791425952215,
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\session_core.jsonl.gz",
+            "data": {
+              "id": "5a091607-4601-42fb-b78a-4c30570e9b7b",
+              "outcome": "allowed-once"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 1137.0420000000001,
+        "active_intervals_after_pause_ms": [
+          [
+            1791423941118,
+            1791424218577
+          ],
+          [
+            1791424428317,
+            1791424537747
+          ],
+          [
+            1791424541465,
+            1791424818891
+          ],
+          [
+            1791425952215,
+            1791427178372
+          ]
+        ],
+        "cost_known_subtotal_usd": 5.450493399999999,
+        "missing_priced_requests": 0,
+        "priced_requests": 50,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 150,
+          "cache_read": 7864596,
+          "cache_write": 392887,
+          "output": 16981
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 5.450493399999999,
+        "time_reference_max": 7859.71,
+        "time_normalization_coverage": 6,
+        "time_score": 75.94730594385798,
+        "cost_reference_max": 11.389744400000009,
+        "cost_normalization_coverage": 6,
+        "cost_score": 52.14560389959237
+      },
+      "cached_metrics": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "Fe2O3_Fe3O4_2ph",
+        "run_id": "session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2",
+        "gpx_wR_percent": 2.7273638204805812,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "R -3 c",
+          "F d -3 m"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 75,
+        "phase_compositions": [
+          {
+            "Fe": 12.0,
+            "O": 18.0
+          },
+          {
+            "O": 32.0,
+            "Fe": 24.0
+          }
+        ],
+        "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d40fa1a9-2b14-44eb-9eef-3f176c3101e2\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx",
+        "saved_reflection_rows": 87,
+        "sigma2_floor_rows": 72,
+        "gamma_floor_rows": 0,
+        "model_implied_weight_fractions_percent": {
+          "built": 66.07648296030128,
+          "Fe21.3334 O32.0001": 33.923517039698716
+        },
+        "weight_fraction_note": "GSAS-II calcMassFracs formula from local GSASIIstrMath.py: Mass per cell * HAP scale normalized. Model-implied values; not independently validated phase quantification."
+      }
+    },
+    {
+      "model": "GPT 5.6 SOL",
+      "case_id": "FE50",
+      "run_id": "session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7",
+      "score_path": "workspace\\GPT 5.6 SOL\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\FE50\\score.json",
+      "status": "completed_with_scientific_limitations",
+      "findings": [
+        "有立方/单斜可比干净手动对照14.4416/12.9158%；最终单斜wR11.7347%，持续优化并没有强迫小于10。",
+        "缺陷漂移拒绝、Fe/Mn名义固定、空位与K分裂不可分辨的边界较好。",
+        "交付结构C24/N23；C–N/金属–N异常已承认，未完成合理氰基骨架修复，不能当完整自洽结构。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；科学不足与自然试算不自动成为否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\tool_trace.jsonl",
+              "locator": "tool calls/results and actual skill authorization"
+            }
+          ],
+          "authorization": "当时实际加载工作流及实际用户输入；按v1.1保守确认。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "未确认引擎滥用；普通历史允许ladder/有依据诊断不自动否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\tool_trace.jsonl",
+              "locator": "xrd-refinement skill content; xrd_refine_auto calls"
+            }
+          ],
+          "authorization": "当时skill允许阶段Ⅱ普通FP初步迭代；最终结构交付仍GSAS。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\artifacts\\FE50\\deliverables\\FE50_final\\FE50_scientific_assessment.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\conclusion.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\artifacts\\FE50\\deliverables\\FE50_final\\FE50_final.gpx"
+      ],
+      "A": 5,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 4,
+      "D_unknown": 0,
+      "E": 4,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 4,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 6.666666666666667,
+      "key_score": 13,
+      "key_unknown": 0,
+      "key_max": 15,
+      "answer_contribution": 19.666666666666668,
+      "resource": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "FE50",
+        "run_id": "session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7",
+        "time_seconds": 9404.302,
+        "observed_time_seconds": 9404.302,
+        "turn_intervals": [
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 3181,
+            "start_ms": 1791427374825,
+            "end_ms": 1791432139670,
+            "seconds": 4764.845,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 3182,
+            "end_seq": 5734,
+            "start_ms": 1791432139670,
+            "end_ms": 1791432455163,
+            "seconds": 315.493,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 5736,
+            "end_seq": 10188,
+            "start_ms": 1791432455168,
+            "end_ms": 1791432712461,
+            "seconds": 257.293,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 4,
+            "start_seq": 10190,
+            "end_seq": 11892,
+            "start_ms": 1791432712467,
+            "end_ms": 1791432899474,
+            "seconds": 187.007,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 5,
+            "start_seq": 11894,
+            "end_seq": 13222,
+            "start_ms": 1791432899480,
+            "end_ms": 1791433020362,
+            "seconds": 120.882,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 6,
+            "start_seq": 13224,
+            "end_seq": 14626,
+            "start_ms": 1791433020366,
+            "end_ms": 1791433126696,
+            "seconds": 106.33,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 7,
+            "start_seq": 14628,
+            "end_seq": 21025,
+            "start_ms": 1791433126701,
+            "end_ms": 1791434338460,
+            "seconds": 1211.759,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 8,
+            "start_seq": 21027,
+            "end_seq": 22128,
+            "start_ms": 1791434338466,
+            "end_ms": 1791434480573,
+            "seconds": 142.107,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 9,
+            "start_seq": 22130,
+            "end_seq": 23261,
+            "start_ms": 1791434480578,
+            "end_ms": 1791434609845,
+            "seconds": 129.267,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 10,
+            "start_seq": 23263,
+            "end_seq": 24418,
+            "start_ms": 1791434609851,
+            "end_ms": 1791434747085,
+            "seconds": 137.234,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 11,
+            "start_seq": 24420,
+            "end_seq": 26865,
+            "start_ms": 1791434747090,
+            "end_ms": 1791435879295,
+            "seconds": 1132.205,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "turn": 12,
+            "start_seq": 26867,
+            "end_seq": 37274,
+            "start_ms": 1791435879301,
+            "end_ms": 1791436779181,
+            "seconds": 899.88,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\02c72114-46ca-43c2-8b08-e22b7279ec79\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 6657,
+            "start_ms": 1791427587334,
+            "end_ms": 1791428267287,
+            "seconds": 679.953,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\02c72114-46ca-43c2-8b08-e22b7279ec79\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 6658,
+            "end_seq": 9854,
+            "start_ms": 1791428267288,
+            "end_ms": 1791428787551,
+            "seconds": 520.263,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\02c72114-46ca-43c2-8b08-e22b7279ec79\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 9855,
+            "end_seq": 9862,
+            "start_ms": 1791428787551,
+            "end_ms": 1791428852616,
+            "seconds": 65.065,
+            "reason": {
+              "kind": "aborted",
+              "reason": {
+                "kind": "parent"
+              }
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\124c8185-3587-4cdb-8d39-bcd1dff327a2\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 4539,
+            "start_ms": 1791427603959,
+            "end_ms": 1791427832634,
+            "seconds": 228.675,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\124c8185-3587-4cdb-8d39-bcd1dff327a2\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 4540,
+            "end_seq": 7202,
+            "start_ms": 1791427832634,
+            "end_ms": 1791427897055,
+            "seconds": 64.421,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\344b4585-cd54-42e1-a31c-b3a96826c94c\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 2141,
+            "start_ms": 1791427591431,
+            "end_ms": 1791428855377,
+            "seconds": 1263.946,
+            "reason": {
+              "kind": "aborted",
+              "reason": {
+                "kind": "parent"
+              }
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\344b4585-cd54-42e1-a31c-b3a96826c94c\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 2143,
+            "end_seq": 4943,
+            "start_ms": 1791428939951,
+            "end_ms": 1791429018256,
+            "seconds": 78.305,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\344b4585-cd54-42e1-a31c-b3a96826c94c\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 4944,
+            "end_seq": 5457,
+            "start_ms": 1791429018256,
+            "end_ms": 1791429049251,
+            "seconds": 30.995,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\3850cc95-f6c2-42c4-904c-c331a49ee05b\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 5282,
+            "start_ms": 1791427591428,
+            "end_ms": 1791428003083,
+            "seconds": 411.655,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\421062bb-7828-4273-ac05-245f374b1445\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 6562,
+            "start_ms": 1791427544203,
+            "end_ms": 1791429134160,
+            "seconds": 1589.957,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\421062bb-7828-4273-ac05-245f374b1445\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 6563,
+            "end_seq": 6896,
+            "start_ms": 1791429134160,
+            "end_ms": 1791429182946,
+            "seconds": 48.786,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\421062bb-7828-4273-ac05-245f374b1445\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 6897,
+            "end_seq": 7486,
+            "start_ms": 1791429182946,
+            "end_ms": 1791429219451,
+            "seconds": 36.505,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\421062bb-7828-4273-ac05-245f374b1445\\session_core.jsonl.gz",
+            "turn": 4,
+            "start_seq": 7487,
+            "end_seq": 12360,
+            "start_ms": 1791429219451,
+            "end_ms": 1791429332824,
+            "seconds": 113.373,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 1133,
+            "start_ms": 1791427484235,
+            "end_ms": 1791427998244,
+            "seconds": 514.009,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "upstream model service temporarily unavailable，please retry later or switch to another available channel。 responsible party：OpenAI。",
+                "code": "PI_AI_ERROR"
+              }
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 1135,
+            "end_seq": 9981,
+            "start_ms": 1791428099143,
+            "end_ms": 1791429507949,
+            "seconds": 1408.806,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 9982,
+            "end_seq": 9996,
+            "start_ms": 1791429507950,
+            "end_ms": 1791429543505,
+            "seconds": 35.555,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 4,
+            "start_seq": 9997,
+            "end_seq": 10186,
+            "start_ms": 1791429543505,
+            "end_ms": 1791429574938,
+            "seconds": 31.433,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 5,
+            "start_seq": 10187,
+            "end_seq": 10492,
+            "start_ms": 1791429574938,
+            "end_ms": 1791429600513,
+            "seconds": 25.575,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 6,
+            "start_seq": 10493,
+            "end_seq": 10870,
+            "start_ms": 1791429600514,
+            "end_ms": 1791429625604,
+            "seconds": 25.09,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 7,
+            "start_seq": 10871,
+            "end_seq": 11117,
+            "start_ms": 1791429625604,
+            "end_ms": 1791429643819,
+            "seconds": 18.215,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 8,
+            "start_seq": 11118,
+            "end_seq": 11562,
+            "start_ms": 1791429643819,
+            "end_ms": 1791429674589,
+            "seconds": 30.77,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 9,
+            "start_seq": 11563,
+            "end_seq": 11711,
+            "start_ms": 1791429674589,
+            "end_ms": 1791429694624,
+            "seconds": 20.035,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 10,
+            "start_seq": 11712,
+            "end_seq": 12055,
+            "start_ms": 1791429694624,
+            "end_ms": 1791429722672,
+            "seconds": 28.048,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 11,
+            "start_seq": 12056,
+            "end_seq": 12454,
+            "start_ms": 1791429722672,
+            "end_ms": 1791429744860,
+            "seconds": 22.188,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 12,
+            "start_seq": 12455,
+            "end_seq": 12686,
+            "start_ms": 1791429744861,
+            "end_ms": 1791429776626,
+            "seconds": 31.765,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 13,
+            "start_seq": 12689,
+            "end_seq": 21018,
+            "start_ms": 1791431996684,
+            "end_ms": 1791432101077,
+            "seconds": 104.393,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "turn": 14,
+            "start_seq": 21019,
+            "end_seq": 40229,
+            "start_ms": 1791432101077,
+            "end_ms": 1791432319641,
+            "seconds": 218.564,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\6384954a-48c6-40a8-9f8a-c2ca7ec08856\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 4169,
+            "start_ms": 1791427603962,
+            "end_ms": 1791427757069,
+            "seconds": 153.107,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\6384954a-48c6-40a8-9f8a-c2ca7ec08856\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 4172,
+            "end_seq": 12354,
+            "start_ms": 1791427790794,
+            "end_ms": 1791427895826,
+            "seconds": 105.032,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\7250089c-0939-48ee-b978-e4c6ab79371f\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 6430,
+            "start_ms": 1791427544200,
+            "end_ms": 1791429016594,
+            "seconds": 1472.394,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\7250089c-0939-48ee-b978-e4c6ab79371f\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 6431,
+            "end_seq": 6557,
+            "start_ms": 1791429016594,
+            "end_ms": 1791429035815,
+            "seconds": 19.221,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\7250089c-0939-48ee-b978-e4c6ab79371f\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 6558,
+            "end_seq": 7012,
+            "start_ms": 1791429035815,
+            "end_ms": 1791429092813,
+            "seconds": 56.998,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\7250089c-0939-48ee-b978-e4c6ab79371f\\session_core.jsonl.gz",
+            "turn": 4,
+            "start_seq": 7013,
+            "end_seq": 7369,
+            "start_ms": 1791429092814,
+            "end_ms": 1791429120093,
+            "seconds": 27.279,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\7250089c-0939-48ee-b978-e4c6ab79371f\\session_core.jsonl.gz",
+            "turn": 5,
+            "start_seq": 7370,
+            "end_seq": 7637,
+            "start_ms": 1791429120094,
+            "end_ms": 1791429140214,
+            "seconds": 20.12,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\7250089c-0939-48ee-b978-e4c6ab79371f\\session_core.jsonl.gz",
+            "turn": 6,
+            "start_seq": 7638,
+            "end_seq": 12260,
+            "start_ms": 1791429140214,
+            "end_ms": 1791429312050,
+            "seconds": 171.836,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\83ff2f85-7c31-42b0-9fcc-10aefaaed87d\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 6894,
+            "start_ms": 1791427544205,
+            "end_ms": 1791428020642,
+            "seconds": 476.437,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\83ff2f85-7c31-42b0-9fcc-10aefaaed87d\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 6895,
+            "end_seq": 7150,
+            "start_ms": 1791428020643,
+            "end_ms": 1791428038576,
+            "seconds": 17.933,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\83ff2f85-7c31-42b0-9fcc-10aefaaed87d\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 7151,
+            "end_seq": 7425,
+            "start_ms": 1791428038576,
+            "end_ms": 1791428056168,
+            "seconds": 17.592,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\83ff2f85-7c31-42b0-9fcc-10aefaaed87d\\session_core.jsonl.gz",
+            "turn": 4,
+            "start_seq": 7426,
+            "end_seq": 7836,
+            "start_ms": 1791428056168,
+            "end_ms": 1791428075386,
+            "seconds": 19.218,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\83ff2f85-7c31-42b0-9fcc-10aefaaed87d\\session_core.jsonl.gz",
+            "turn": 5,
+            "start_seq": 7837,
+            "end_seq": 8060,
+            "start_ms": 1791428075387,
+            "end_ms": 1791428088194,
+            "seconds": 12.807,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\83ff2f85-7c31-42b0-9fcc-10aefaaed87d\\session_core.jsonl.gz",
+            "turn": 6,
+            "start_seq": 8061,
+            "end_seq": 8126,
+            "start_ms": 1791428088195,
+            "end_ms": 1791428099135,
+            "seconds": 10.94,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\83ff2f85-7c31-42b0-9fcc-10aefaaed87d\\session_core.jsonl.gz",
+            "turn": 7,
+            "start_seq": 8129,
+            "end_seq": 17182,
+            "start_ms": 1791428111541,
+            "end_ms": 1791428205842,
+            "seconds": 94.301,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\aebd63a1-cb29-42fc-89f1-b74a093a70a1\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 3,
+            "end_seq": 3606,
+            "start_ms": 1791428821455,
+            "end_ms": 1791429043409,
+            "seconds": 221.954,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\b905e896-0043-48ba-9dc9-614a8bc41772\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 6262,
+            "start_ms": 1791427603960,
+            "end_ms": 1791427872150,
+            "seconds": 268.19,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\b905e896-0043-48ba-9dc9-614a8bc41772\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 6263,
+            "end_seq": 8393,
+            "start_ms": 1791427872150,
+            "end_ms": 1791427933023,
+            "seconds": 60.873,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\d06a1d14-f515-4a66-92eb-bd6f80c36b9b\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 5,
+            "end_seq": 5485,
+            "start_ms": 1791427587336,
+            "end_ms": 1791428163096,
+            "seconds": 575.76,
+            "reason": {
+              "kind": "completed"
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\d06a1d14-f515-4a66-92eb-bd6f80c36b9b\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 5486,
+            "end_seq": 8256,
+            "start_ms": 1791428163096,
+            "end_ms": 1791428244408,
+            "seconds": 81.312,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791427374825,
+            1791432455163
+          ],
+          [
+            1791432455168,
+            1791432712461
+          ],
+          [
+            1791432712467,
+            1791432899474
+          ],
+          [
+            1791432899480,
+            1791433020362
+          ],
+          [
+            1791433020366,
+            1791433126696
+          ],
+          [
+            1791433126701,
+            1791434338460
+          ],
+          [
+            1791434338466,
+            1791434480573
+          ],
+          [
+            1791434480578,
+            1791434609845
+          ],
+          [
+            1791434609851,
+            1791434747085
+          ],
+          [
+            1791434747090,
+            1791435879295
+          ],
+          [
+            1791435879301,
+            1791436779181
+          ]
+        ],
+        "ledger_lifetime_seconds": 9557.046,
+        "tool_calls_including_children": 1071,
+        "llm_retries": 4,
+        "usage": {
+          "inputTokens": 10438,
+          "outputTokens": 239701,
+          "cacheWriteTokens": 1479456,
+          "cacheReadTokens": 50881675
+        },
+        "actual_model_counts": {
+          "gpt-5.6-sol": 503,
+          "kimi-k3": 3
+        },
+        "sources": [
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "request_count": 138,
+            "usage": {
+              "inputTokens": 414,
+              "outputTokens": 53016,
+              "cacheWriteTokens": 403856,
+              "cacheReadTokens": 26227555
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 138
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\02c72114-46ca-43c2-8b08-e22b7279ec79\\session_core.jsonl.gz",
+            "request_count": 26,
+            "usage": {
+              "inputTokens": 78,
+              "outputTokens": 15764,
+              "cacheWriteTokens": 110676,
+              "cacheReadTokens": 1795327
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 26
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\124c8185-3587-4cdb-8d39-bcd1dff327a2\\session_core.jsonl.gz",
+            "request_count": 11,
+            "usage": {
+              "inputTokens": 33,
+              "outputTokens": 9948,
+              "cacheWriteTokens": 47662,
+              "cacheReadTokens": 369977
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 11
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\344b4585-cd54-42e1-a31c-b3a96826c94c\\session_core.jsonl.gz",
+            "request_count": 44,
+            "usage": {
+              "inputTokens": 132,
+              "outputTokens": 10327,
+              "cacheWriteTokens": 91028,
+              "cacheReadTokens": 2742312
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 44
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\3850cc95-f6c2-42c4-904c-c331a49ee05b\\session_core.jsonl.gz",
+            "request_count": 21,
+            "usage": {
+              "inputTokens": 63,
+              "outputTokens": 9371,
+              "cacheWriteTokens": 83731,
+              "cacheReadTokens": 1154468
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 21
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\421062bb-7828-4273-ac05-245f374b1445\\session_core.jsonl.gz",
+            "request_count": 58,
+            "usage": {
+              "inputTokens": 174,
+              "outputTokens": 15819,
+              "cacheWriteTokens": 101487,
+              "cacheReadTokens": 4338436
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 58
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\4b754ef6-b7d7-47ef-adc9-ed14fc410258\\session_core.jsonl.gz",
+            "request_count": 74,
+            "usage": {
+              "inputTokens": 222,
+              "outputTokens": 45526,
+              "cacheWriteTokens": 255886,
+              "cacheReadTokens": 6115629
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 74
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\6384954a-48c6-40a8-9f8a-c2ca7ec08856\\session_core.jsonl.gz",
+            "request_count": 7,
+            "usage": {
+              "inputTokens": 21,
+              "outputTokens": 14587,
+              "cacheWriteTokens": 49824,
+              "cacheReadTokens": 230367
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 7
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\7250089c-0939-48ee-b978-e4c6ab79371f\\session_core.jsonl.gz",
+            "request_count": 58,
+            "usage": {
+              "inputTokens": 174,
+              "outputTokens": 15131,
+              "cacheWriteTokens": 100232,
+              "cacheReadTokens": 4349526
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 58
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\83ff2f85-7c31-42b0-9fcc-10aefaaed87d\\session_core.jsonl.gz",
+            "request_count": 28,
+            "usage": {
+              "inputTokens": 84,
+              "outputTokens": 21705,
+              "cacheWriteTokens": 76851,
+              "cacheReadTokens": 1401348
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 28
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\aebd63a1-cb29-42fc-89f1-b74a093a70a1\\session_core.jsonl.gz",
+            "request_count": 3,
+            "usage": {
+              "inputTokens": 8929,
+              "outputTokens": 3719,
+              "cacheReadTokens": 14336
+            },
+            "actual_model_counts": {
+              "kimi-k3": 3
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\b905e896-0043-48ba-9dc9-614a8bc41772\\session_core.jsonl.gz",
+            "request_count": 10,
+            "usage": {
+              "inputTokens": 30,
+              "outputTokens": 11939,
+              "cacheWriteTokens": 61611,
+              "cacheReadTokens": 402065
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 10
+            }
+          },
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\subagents\\d06a1d14-f515-4a66-92eb-bd6f80c36b9b\\session_core.jsonl.gz",
+            "request_count": 28,
+            "usage": {
+              "inputTokens": 84,
+              "outputTokens": 12849,
+              "cacheWriteTokens": 96612,
+              "cacheReadTokens": 1740329
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 28
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "phase": [
+            {
+              "path": "states/FE50/workflow_state.json",
+              "value": 5
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "required_stages": [
+            "1",
+            "2",
+            "3",
+            "4-I",
+            "4-II",
+            "4-III",
+            "5"
+          ],
+          "completed_stages": [],
+          "converged": null,
+          "gsas_completed": true,
+          "final_export_completed": true,
+          "warnings": []
+        },
+        "source_stats": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 120.007,
+            "asked_seq": 1509,
+            "decided_seq": 1510,
+            "start_ms": 1791427783708,
+            "end_ms": 1791427903715,
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "data": {
+              "id": "6c6f99e4-c3ef-4c3a-b373-6fc983dca36e",
+              "outcome": "cancelled"
+            }
+          },
+          {
+            "seconds": 120.006,
+            "asked_seq": 1513,
+            "decided_seq": 1514,
+            "start_ms": 1791427903721,
+            "end_ms": 1791428023727,
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "data": {
+              "id": "570aec1b-0e93-439f-8d68-177accc77544",
+              "outcome": "cancelled"
+            }
+          },
+          {
+            "seconds": 120.002,
+            "asked_seq": 1666,
+            "decided_seq": 1667,
+            "start_ms": 1791428073021,
+            "end_ms": 1791428193023,
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\session_core.jsonl.gz",
+            "data": {
+              "id": "5cbc1de8-7bb0-498a-872a-29fca7f8747a",
+              "outcome": "cancelled"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 0.0,
+        "active_intervals_after_pause_ms": [
+          [
+            1791427374825,
+            1791432455163
+          ],
+          [
+            1791432455168,
+            1791432712461
+          ],
+          [
+            1791432712467,
+            1791432899474
+          ],
+          [
+            1791432899480,
+            1791433020362
+          ],
+          [
+            1791433020366,
+            1791433126696
+          ],
+          [
+            1791433126701,
+            1791434338460
+          ],
+          [
+            1791434338466,
+            1791434480573
+          ],
+          [
+            1791434480578,
+            1791434609845
+          ],
+          [
+            1791434609851,
+            1791434747085
+          ],
+          [
+            1791434747090,
+            1791435879295
+          ],
+          [
+            1791435879301,
+            1791436779181
+          ]
+        ],
+        "cost_known_subtotal_usd": 32.46989159999997,
+        "missing_priced_requests": 0,
+        "priced_requests": 503,
+        "excluded_requests": 3,
+        "included_usage": {
+          "input": 1509,
+          "cache_read": 50867339,
+          "cache_write": 1479456,
+          "output": 235982
+        },
+        "excluded_usage": {
+          "input": 8929,
+          "cache_read": 14336,
+          "cache_write": 0,
+          "output": 3719
+        },
+        "api_failure_usage_note": "llm retries present; no extra unreported token inferred",
+        "cost_usd": 32.46989159999997,
+        "time_reference_max": 36408.112,
+        "time_normalization_coverage": 6,
+        "time_score": 74.16976194755718,
+        "cost_reference_max": 32.46989159999997,
+        "cost_normalization_coverage": 6,
+        "cost_score": 0.0
+      },
+      "cached_metrics": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "FE50",
+        "run_id": "session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7",
+        "gpx_wR_percent": 11.734684850007005,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P 21/c"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 174,
+        "phase_compositions": [
+          {
+            "K": 8.0,
+            "Fe": 6.0,
+            "Mn": 2.0,
+            "C": 24.0,
+            "N": 23.0
+          }
+        ],
+        "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-4b077d73-ddc4-4bfc-8950-a958ddeda1d7\\artifacts\\FE50\\deliverables\\FE50_final\\FE50_final.gpx",
+        "saved_reflection_rows": 453,
+        "sigma2_floor_rows": 4,
+        "gamma_floor_rows": 434
+      }
+    },
+    {
+      "model": "GPT 5.6 SOL",
+      "case_id": "Fluoroapatite",
+      "run_id": "session-d219da8b-d575-4d6b-982c-b91137ef5b2f",
+      "score_path": "workspace\\GPT 5.6 SOL\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\Fluoroapatite\\score.json",
+      "status": "completed",
+      "findings": [
+        "P63/m，Ca10P6O24F2，晶胞9.37046/6.88484Å，P–O1.518–1.570Å，整体结构合理。",
+        "wR12.53%，不以略高于10自动扣分；保存322/325反射高斯宽度触底属于峰形可信性警讯，不自动B否决。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；科学不足与自然试算不自动成为否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\tool_trace.jsonl",
+              "locator": "tool calls/results and actual skill authorization"
+            }
+          ],
+          "authorization": "当时实际加载工作流及实际用户输入；按v1.1保守确认。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "未确认引擎滥用；普通历史允许ladder/有依据诊断不自动否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\tool_trace.jsonl",
+              "locator": "xrd-refinement skill content; xrd_refine_auto calls"
+            }
+          ],
+          "authorization": "当时skill允许阶段Ⅱ普通FP初步迭代；最终结构交付仍GSAS。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\artifacts\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_report.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\conclusion.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\artifacts\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.gpx"
+      ],
+      "A": 4,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 5,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 5,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 8.333333333333334,
+      "key_score": 5,
+      "key_unknown": 0,
+      "key_max": 5,
+      "answer_contribution": 13.333333333333334,
+      "resource": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "Fluoroapatite",
+        "run_id": "session-d219da8b-d575-4d6b-982c-b91137ef5b2f",
+        "time_seconds": 5535.512,
+        "observed_time_seconds": 5579.031,
+        "turn_intervals": [
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 9564,
+            "start_ms": 1791436937358,
+            "end_ms": 1791442516389,
+            "seconds": 5579.031,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791436937358,
+            1791442516389
+          ]
+        ],
+        "ledger_lifetime_seconds": 5707.215,
+        "tool_calls_including_children": 64,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 117,
+          "outputTokens": 14832,
+          "cacheWriteTokens": 218761,
+          "cacheReadTokens": 3593226
+        },
+        "actual_model_counts": {
+          "gpt-5.6-sol": 39
+        },
+        "sources": [
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\session_core.jsonl.gz",
+            "request_count": 39,
+            "usage": {
+              "inputTokens": 117,
+              "outputTokens": 14832,
+              "cacheWriteTokens": 218761,
+              "cacheReadTokens": 3593226
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 39
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "phase": [
+            {
+              "path": "states/Fluoroapatite/workflow_state.json",
+              "value": 5
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "required_stages": [
+            "1",
+            "2",
+            "3",
+            "4-I",
+            "4-II",
+            "4-III",
+            "5"
+          ],
+          "completed_stages": [],
+          "converged": null,
+          "gsas_completed": true,
+          "final_export_completed": true,
+          "warnings": []
+        },
+        "source_stats": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 43.519,
+            "asked_seq": 1465,
+            "decided_seq": 1466,
+            "start_ms": 1791437109004,
+            "end_ms": 1791437152523,
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\session_core.jsonl.gz",
+            "data": {
+              "id": "db1b73ec-bf46-41f2-96fe-da9c264d8ea8",
+              "outcome": "allowed-once"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 43.51900000000023,
+        "active_intervals_after_pause_ms": [
+          [
+            1791436937358,
+            1791437109004
+          ],
+          [
+            1791437152523,
+            1791442516389
+          ]
+        ],
+        "cost_known_subtotal_usd": 2.8282034,
+        "missing_priced_requests": 0,
+        "priced_requests": 39,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 117,
+          "cache_read": 3593226,
+          "cache_write": 218761,
+          "output": 14832
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 2.8282034,
+        "time_reference_max": 11162.67,
+        "time_normalization_coverage": 6,
+        "time_score": 50.4105021468878,
+        "cost_reference_max": 24.18346829050943,
+        "cost_normalization_coverage": 6,
+        "cost_score": 88.30522005352763
+      },
+      "cached_metrics": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "Fluoroapatite",
+        "run_id": "session-d219da8b-d575-4d6b-982c-b91137ef5b2f",
+        "gpx_wR_percent": 12.534763899378602,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P 63/m"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 64,
+        "phase_compositions": [
+          {
+            "Ca": 10.0,
+            "P": 6.0,
+            "O": 24.0,
+            "F": 2.0
+          }
+        ],
+        "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-d219da8b-d575-4d6b-982c-b91137ef5b2f\\artifacts\\Fluoroapatite\\Fluoroapatite_final\\Fluoroapatite_final.gpx",
+        "saved_reflection_rows": 325,
+        "sigma2_floor_rows": 322,
+        "gamma_floor_rows": 0
+      }
+    },
+    {
+      "model": "GPT 5.6 SOL",
+      "case_id": "LayeredOxide",
+      "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+      "score_path": "workspace\\GPT 5.6 SOL\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\LayeredOxide\\score.json",
+      "status": "completed_with_scientific_limitations",
+      "findings": [
+        "P2 P63/mmc主相及名义Na0.72Ni0.33Mn0.62Mo0.05O2计量正确；最终Na2MoO4工程实际为P1而报告C2/c。",
+        "最终GPX主相isotropic Mustrain≈−41538、全268反射高斯宽度触底；不能以Uiso正证明完整物理解。",
+        "报告拒绝可靠杂相定量值得保留；GPX蕴含50.57wt%不作为可信实测值。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；科学不足与自然试算不自动成为否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+              "locator": "tool calls/results and actual skill authorization"
+            }
+          ],
+          "authorization": "当时实际加载工作流及实际用户输入；按v1.1保守确认。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "未确认引擎滥用；普通历史允许ladder/有依据诊断不自动否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\tool_trace.jsonl",
+              "locator": "xrd-refinement skill content; xrd_refine_auto calls"
+            }
+          ],
+          "authorization": "当时skill允许阶段Ⅱ普通FP初步迭代；最终结构交付仍GSAS。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\root_reports\\LayeredOxide\\XRD_refinement_summary.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\conclusion.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx"
+      ],
+      "A": 4,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 3,
+      "D_unknown": 0,
+      "E": 4,
+      "E_unknown": 0,
+      "F": 4,
+      "F_unknown": 0,
+      "answer_D": 3,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 5.0,
+      "key_score": 8,
+      "key_unknown": 0,
+      "key_max": 10,
+      "answer_contribution": 13.0,
+      "resource": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "LayeredOxide",
+        "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+        "time_seconds": 5890.649,
+        "observed_time_seconds": 5956.335,
+        "turn_intervals": [
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 11275,
+            "start_ms": 1791443183021,
+            "end_ms": 1791448308446,
+            "seconds": 5125.425,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "upstream model service temporarily unavailable，please retry later or switch to another available channel。 responsible party：OpenAI。",
+                "code": "PI_AI_ERROR"
+              }
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 11277,
+            "end_seq": 16981,
+            "start_ms": 1791448437389,
+            "end_ms": 1791449268299,
+            "seconds": 830.91,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791443183021,
+            1791448308446
+          ],
+          [
+            1791448437389,
+            1791449268299
+          ]
+        ],
+        "ledger_lifetime_seconds": 6121.574,
+        "tool_calls_including_children": 83,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 174,
+          "outputTokens": 21263,
+          "cacheWriteTokens": 168460,
+          "cacheReadTokens": 7809780
+        },
+        "actual_model_counts": {
+          "gpt-5.6-sol": 58
+        },
+        "sources": [
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\session_core.jsonl.gz",
+            "request_count": 58,
+            "usage": {
+              "inputTokens": 174,
+              "outputTokens": 21263,
+              "cacheWriteTokens": 168460,
+              "cacheReadTokens": 7809780
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 58
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "phase": [
+            {
+              "path": "states/LayeredOxide/workflow_state.json",
+              "value": 5
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "required_stages": [
+            "1",
+            "2",
+            "3",
+            "4-I",
+            "4-II",
+            "4-III",
+            "5"
+          ],
+          "completed_stages": [],
+          "converged": null,
+          "gsas_completed": true,
+          "final_export_completed": true,
+          "warnings": []
+        },
+        "source_stats": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 65.686,
+            "asked_seq": 2097,
+            "decided_seq": 2098,
+            "start_ms": 1791444404193,
+            "end_ms": 1791444469879,
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\session_core.jsonl.gz",
+            "data": {
+              "id": "66b723a8-5aea-40cb-9b49-46e58b6ddf78",
+              "outcome": "allowed-once"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 65.6859999999997,
+        "active_intervals_after_pause_ms": [
+          [
+            1791443183021,
+            1791444404193
+          ],
+          [
+            1791444469879,
+            1791448308446
+          ],
+          [
+            1791448437389,
+            1791449268299
+          ]
+        ],
+        "cost_known_subtotal_usd": 4.392168000000002,
+        "missing_priced_requests": 0,
+        "priced_requests": 58,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 174,
+          "cache_read": 7809780,
+          "cache_write": 168460,
+          "output": 21263
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 4.392168000000002,
+        "time_reference_max": 11921.629,
+        "time_normalization_coverage": 6,
+        "time_score": 50.5885563122288,
+        "cost_reference_max": 20.697823239999984,
+        "cost_normalization_coverage": 6,
+        "cost_score": 78.77956561387658
+      },
+      "cached_metrics": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "LayeredOxide",
+        "run_id": "session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b",
+        "gpx_wR_percent": 14.55213727520904,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P 63/m m c",
+          "P 1"
+        ],
+        "eligibility": {
+          "status": "eligible",
+          "reason": null
+        },
+        "tool_calls": 83,
+        "phase_compositions": [
+          {
+            "Na": 1.44,
+            "Ni": 0.66,
+            "Mn": 1.24,
+            "Mo": 0.1,
+            "O": 4.0
+          },
+          {
+            "Na": 4.0,
+            "Mo": 2.0,
+            "O": 8.0
+          }
+        ],
+        "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e3dc1b53-7232-4c25-8d7f-c8462e17a85b\\artifacts\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+        "saved_reflection_rows": 268,
+        "sigma2_floor_rows": 268,
+        "gamma_floor_rows": 5,
+        "model_implied_weight_fractions_percent": {
+          "Na1.44 Mn1.24 Ni0.66 Mo0.1 O4": 49.42567729601114,
+          "Na4 Mo2 O8": 50.574322703988855
+        },
+        "weight_fraction_note": "GSAS-II calcMassFracs formula from local GSASIIstrMath.py: Mass per cell * HAP scale normalized. Model-implied values; not independently validated phase quantification."
+      }
+    },
+    {
+      "model": "GPT 5.6 SOL",
+      "case_id": "LiFePO4",
+      "run_id": "session-e03ae580-d18c-423f-806e-9920746a5e8e",
+      "score_path": "workspace\\GPT 5.6 SOL\\dsh-xrd-result-analysis\\benchmark_v1.3_20261012\\LiFePO4\\score.json",
+      "status": "completed_with_scientific_limitations",
+      "findings": [
+        "仅评分重测e03ae580；Pnma Li4Fe4P4O16正确，最终不写入不可靠反位。",
+        "有等量交换、位点守恒、共坐标控制和背景/热参/坐标敏感性对照；最终wR23.7586%且101/101高斯宽度触底，可靠基线未建立。",
+        "完整报告将1–4%定义敏感性，不是CI；答复称反位存在稍过强，不能确认反位实测。"
+      ],
+      "uncertainties": [],
+      "gates": {
+        "B": {
+          "triggered": false,
+          "reason": "未确认B红线；科学不足与自然试算不自动成为否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\tool_trace.jsonl",
+              "locator": "tool calls/results and actual skill authorization"
+            }
+          ],
+          "authorization": "当时实际加载工作流及实际用户输入；按v1.1保守确认。",
+          "core_rules": [],
+          "redline_ids": []
+        },
+        "F": {
+          "triggered": false,
+          "reason": "未确认引擎滥用；普通历史允许ladder/有依据诊断不自动否决。",
+          "evidence": [
+            {
+              "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\tool_trace.jsonl",
+              "locator": "xrd-refinement skill content; xrd_refine_auto calls"
+            }
+          ],
+          "authorization": "当时skill允许阶段Ⅱ普通FP初步迭代；最终结构交付仍GSAS。"
+        }
+      },
+      "final_deliverables": [
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\final_report_zh.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\conclusion.md",
+        "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\LiFePO4_best_physical_final\\LiFePO4_best_physical_final.gpx"
+      ],
+      "A": 4,
+      "A_unknown": 0,
+      "B": 5,
+      "B_unknown": 0,
+      "C": 5,
+      "C_unknown": 0,
+      "D": 4,
+      "D_unknown": 0,
+      "E": 5,
+      "E_unknown": 0,
+      "F": 5,
+      "F_unknown": 0,
+      "answer_D": 4,
+      "answer_D_unknown": 0,
+      "accuracy_contribution": 6.666666666666667,
+      "key_score": 9,
+      "key_unknown": 0,
+      "key_max": 10,
+      "answer_contribution": 15.666666666666668,
+      "resource": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "LiFePO4",
+        "run_id": "session-e03ae580-d18c-423f-806e-9920746a5e8e",
+        "time_seconds": 3284.227,
+        "observed_time_seconds": 3308.734,
+        "turn_intervals": [
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\session_core.jsonl.gz",
+            "turn": 1,
+            "start_seq": 4,
+            "end_seq": 5834,
+            "start_ms": 1791458756714,
+            "end_ms": 1791460652473,
+            "seconds": 1895.759,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "upstream model service temporarily unavailable，please retry later or switch to another available channel。 responsible party：OpenAI。",
+                "code": "PI_AI_ERROR"
+              }
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\session_core.jsonl.gz",
+            "turn": 2,
+            "start_seq": 5836,
+            "end_seq": 10115,
+            "start_ms": 1791460660112,
+            "end_ms": 1791461263334,
+            "seconds": 603.222,
+            "reason": {
+              "kind": "error",
+              "error": {
+                "message": "upstream model service temporarily unavailable，please retry later or switch to another available channel。 responsible party：OpenAI。",
+                "code": "PI_AI_ERROR"
+              }
+            }
+          },
+          {
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\session_core.jsonl.gz",
+            "turn": 3,
+            "start_seq": 10117,
+            "end_seq": 18661,
+            "start_ms": 1791461295904,
+            "end_ms": 1791462105657,
+            "seconds": 809.753,
+            "reason": {
+              "kind": "completed"
+            }
+          }
+        ],
+        "merged_intervals_ms": [
+          [
+            1791458756714,
+            1791460652473
+          ],
+          [
+            1791460660112,
+            1791461263334
+          ],
+          [
+            1791461295904,
+            1791462105657
+          ]
+        ],
+        "ledger_lifetime_seconds": 3365.0,
+        "tool_calls_including_children": 116,
+        "llm_retries": 0,
+        "usage": {
+          "inputTokens": 213,
+          "outputTokens": 36615,
+          "cacheWriteTokens": 266906,
+          "cacheReadTokens": 14926019
+        },
+        "actual_model_counts": {
+          "gpt-5.6-sol": 71
+        },
+        "sources": [
+          {
+            "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\session_core.jsonl.gz",
+            "request_count": 71,
+            "usage": {
+              "inputTokens": 213,
+              "outputTokens": 36615,
+              "cacheWriteTokens": 266906,
+              "cacheReadTokens": 14926019
+            },
+            "actual_model_counts": {
+              "gpt-5.6-sol": 71
+            }
+          }
+        ],
+        "issues": [],
+        "workflow": {
+          "phase": [
+            {
+              "path": "workspace_snapshot/workflow_state.json",
+              "value": 5
+            }
+          ],
+          "final_backend": "GSAS-II",
+          "required_stages": [
+            "1",
+            "2",
+            "3",
+            "4-I",
+            "4-II",
+            "4-III",
+            "5"
+          ],
+          "completed_stages": [],
+          "converged": false,
+          "gsas_completed": true,
+          "final_export_completed": true,
+          "warnings": [
+            "two upstream PI_AI_ERROR turn interruptions",
+            "reasoning effort not explicitly recorded",
+            "final instrument-profile parameters fail a nominal physical-domain check"
+          ]
+        },
+        "source_stats": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\technical_stats.json",
+        "approval_waits": [
+          {
+            "seconds": 24.507,
+            "asked_seq": 1019,
+            "decided_seq": 1020,
+            "start_ms": 1791459076699,
+            "end_ms": 1791459101206,
+            "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\session_core.jsonl.gz",
+            "data": {
+              "id": "afb26026-3e36-4590-962f-42f52b47a8d6",
+              "outcome": "allowed-once"
+            }
+          }
+        ],
+        "approval_wait_removed_seconds": 24.507000000000062,
+        "active_intervals_after_pause_ms": [
+          [
+            1791458756714,
+            1791459076699
+          ],
+          [
+            1791459101206,
+            1791460652473
+          ],
+          [
+            1791460660112,
+            1791461263334
+          ],
+          [
+            1791461295904,
+            1791462105657
+          ]
+        ],
+        "cost_known_subtotal_usd": 8.0380896,
+        "missing_priced_requests": 0,
+        "priced_requests": 71,
+        "excluded_requests": 0,
+        "included_usage": {
+          "input": 213,
+          "cache_read": 14926019,
+          "cache_write": 266906,
+          "output": 36615
+        },
+        "excluded_usage": {},
+        "api_failure_usage_note": "",
+        "cost_usd": 8.0380896,
+        "time_reference_max": 10430.81,
+        "time_normalization_coverage": 6,
+        "time_score": 68.51417099918416,
+        "cost_reference_max": 18.581033679999997,
+        "cost_normalization_coverage": 6,
+        "cost_score": 56.7403528865462
+      },
+      "cached_metrics": {
+        "model": "GPT 5.6 SOL",
+        "case_id": "LiFePO4",
+        "run_id": "session-e03ae580-d18c-423f-806e-9920746a5e8e",
+        "gpx_wR_percent": 23.75855404591911,
+        "manual_Rwp_percent": null,
+        "manual_fit_flags": [],
+        "space_groups": [
+          "P n m a"
+        ],
+        "eligibility": {
+          "status": "eligible_with_warnings",
+          "reason": "two upstream PI_AI_ERROR turn interruptions; reasoning effort not explicitly recorded; final instrument-profile parameters fail a nominal physical-domain check"
+        },
+        "tool_calls": 116,
+        "phase_compositions": [
+          {
+            "Li": 4.0,
+            "Fe": 4.0,
+            "P": 4.0,
+            "O": 16.0
+          }
+        ],
+        "source": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\LiFePO4_best_physical_final\\LiFePO4_best_physical_final.gpx",
+        "saved_reflection_rows": 101,
+        "sigma2_floor_rows": 101,
+        "gamma_floor_rows": 1
+      }
+    }
+  ],
+  "pricing": {
+    "verified_at": "2026-10-12",
+    "comparison_currency": "USD",
+    "basis": "official standard public pay-as-you-go API equivalent; no subscription, free quota or private discount; international USD vendor table where directly listed",
+    "rates_per_million": {
+      "gpt-5.6-sol": {
+        "threshold": 272000,
+        "tiers": [
+          {
+            "input": 4,
+            "cache_read": 0.4,
+            "cache_write": 5,
+            "output": 20
+          },
+          {
+            "input": 8,
+            "cache_read": 0.8,
+            "cache_write": 10,
+            "output": 30
+          }
+        ],
+        "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+        "region": "OpenAI standard"
+      },
+      "glm-5.3": {
+        "tiers": [
+          {
+            "input": 1.4,
+            "cache_read": 0.26,
+            "cache_write": 0,
+            "output": 4.4
+          }
+        ],
+        "url": "https://docs.z.ai/guides/overview/pricing",
+        "region": "Z.ai public USD",
+        "note": "Exact GLM-5.3 listed; does not use GLM-5/5.2 substitute."
+      },
+      "qwen3.6-flash": {
+        "threshold": 256000,
+        "tiers": [
+          {
+            "input": 0.165,
+            "cache_read": 0.033,
+            "cache_write": 0.20625,
+            "output": 0.99
+          },
+          {
+            "input": 0.66,
+            "cache_read": 0.132,
+            "cache_write": 0.825,
+            "output": 3.961
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "Global public USD",
+        "note": "Implicit cache 20%; no cache records in current Flash sessions, input charged as recorded."
+      },
+      "qwen3.7-plus": {
+        "threshold": 256000,
+        "tiers": [
+          {
+            "input": 0.276,
+            "cache_read": 0.0552,
+            "cache_write": 0.345,
+            "output": 1.101
+          },
+          {
+            "input": 0.826,
+            "cache_read": 0.1652,
+            "cache_write": 1.0325,
+            "output": 3.301
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "Global public USD list prices",
+        "note": "Use standard list prices, not temporary subscription/night credits multiplier; implicit cache 20%."
+      },
+      "qwen3.8-max-preview": {
+        "mapped_official_model": "qwen3.8-max",
+        "tiers": [
+          {
+            "input": 1.7822664488341007,
+            "cache_read": 0.22278330610426259,
+            "cache_write": 2.227833061042626,
+            "output": 5.346799346502302
+          }
+        ],
+        "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "mapping_url": "https://www.alibabacloud.com/en/notice/alibaba_cloud_model_studio_model_upgrade_notice_81a?_p_lc=1",
+        "cache_url": "https://help.aliyun.com/zh/model-studio/context-cache",
+        "region": "user-supplied mainland official CNY quote converted to USD",
+        "status": "user_official_price_supplied",
+        "note": "Implicit cache price from user official console text; source/FX/date frozen in pricing_user_addendum.json; no generic cache discount guessed.",
+        "currency": "USD",
+        "user_source": "workspace\\benchmark\\scoring_v1.1_20261012\\qwen_max_user_price.md"
+      },
+      "deepseek-v4-pro": {
+        "tiers": [
+          {
+            "input": 1.32,
+            "cache_read": 0.044,
+            "cache_write": 0,
+            "output": 3.96
+          },
+          {
+            "input": 0.66,
+            "cache_read": 0.022,
+            "cache_write": 0,
+            "output": 1.98
+          }
+        ],
+        "time_tiers": "Peak Mon-Fri UTC 01:00-04:00 and 06:00-10:00 excluding Chinese public holidays; otherwise off-peak",
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "region": "DeepSeek public USD",
+        "note": "Official English page fetched directly 2026-10-12 after web-reader timeout. All current DeepSeek sessions occurred on 2026-10-11 (Sunday), off-peak; no FX conversion required."
+      },
+      "kimi-k3": {
+        "tiers": [],
+        "status": "excluded_by_user",
+        "note": "User explicitly said Kimi is not considered during this scoring turn. Three recorded GPT FE50 child requests retained in exclusion ledger, not billed or independently ranked."
+      }
+    },
+    "fx": {
+      "date": "2026-10-09",
+      "cny_per_usd": 6.733,
+      "source_url": "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+      "source_basis": "Official China Foreign Exchange Trade System rate dated 2026-10-09 returned by web search snapshot; dynamic page was opened. Latest actually retrieved common FX snapshot, not claimed to be 2026-10-12 quote."
+    }
+  },
+  "master": "workspace\\benchmark\\scoring_v1.3_20261012"
+}

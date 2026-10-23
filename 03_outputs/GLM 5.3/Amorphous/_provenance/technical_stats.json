@@ -1,0 +1,257 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-glm-5.3-ai-agent-v1-2026-10-12",
+  "case_id": "Amorphous",
+  "run_id": "session-34b1bf5e-7437-4c4a-a61c-4abada2036eb",
+  "collected_at": "2026-10-11T22:47:51.127254+00:00",
+  "source": {
+    "model_label": "GLM 5.3",
+    "assistant_model_routes": [
+      {
+        "provider": "office-modlens-poke-api",
+        "model": "glm-5.3"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "office-modlens-poke-api",
+        "model": "gpt-5.6-sol"
+      },
+      {
+        "provider": "office-modlens-poke-api",
+        "model": "glm-5.3"
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-GLM~00205.3--\\session-34b1bf5e-7437-4c4a-a61c-4abada2036eb\\session.jsonl.zstd",
+      "bytes": 1604402,
+      "sha256": "aca2439f050424f27a451e09949cced4aaf0a1082a7257da72e4c99ac31f2d06",
+      "source_mtime_ns": 1791738775117791100,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/Amorphous/pattern.raw",
+        "input_sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2",
+        "workspace_file_present": true,
+        "workspace_sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/Amorphous/pattern_2theta.txt",
+        "input_sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714",
+        "workspace_file_present": true,
+        "workspace_sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-08T13:25:16.158000+00:00",
+    "ended_at": "2026-10-11T17:12:54.938000+00:00",
+    "elapsed_seconds": 272858.78,
+    "turns": 2,
+    "tool_calls": 91,
+    "tool_errors": 5,
+    "retries": 0,
+    "last_turn_reason": {
+      "kind": "completed"
+    },
+    "error_ended_turns": [],
+    "input_tokens": 241146,
+    "output_tokens": 94009,
+    "cache_read_tokens": 13585920,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 241146,
+      "outputTokens": 94009,
+      "cacheReadTokens": 13585920
+    },
+    "goal_rounds": 0
+  },
+  "workflow": {
+    "states": [
+      {
+        "path": "workspace_snapshot/Amorphous/workflow_state.json",
+        "phase": 5,
+        "recorded_rounds": 4
+      }
+    ],
+    "final_backend": "manual_full_pattern_model",
+    "gsas_completed": false,
+    "finalize_completed": false,
+    "export_completed": true,
+    "required_refinement_completed": true,
+    "converged": null,
+    "warnings": []
+  },
+  "final_metrics": {
+    "wr": null,
+    "r": null,
+    "rb": null,
+    "wrmin": null,
+    "chi2": null,
+    "gof": null,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": null,
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 1,
+    "journal_jsonl_total": 4,
+    "journal_jsonl_valid": 4,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-muzl165y-eza0ewo4.json",
+      "bytes": 269,
+      "sha256": "0f37e49fb6a54a7ca4cb8e928abe9629b787f75af033a4b7611b8e9eb5438c13"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-muzl1jir-872dch7a.json",
+      "bytes": 269,
+      "sha256": "fff9188f4528d920f922e80c8ad7976764cc5e27bf3b3cf6c8b63de842365671"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress.json",
+      "bytes": 269,
+      "sha256": "fff9188f4528d920f922e80c8ad7976764cc5e27bf3b3cf6c8b63de842365671"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/Amorphous_final_fit.png",
+      "bytes": 384172,
+      "sha256": "203e4425337a6df96c3cc2a3c27e95210f69939435679528b6c040ceadf6623c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/Amorphous_fullpattern_fit.png",
+      "bytes": 171840,
+      "sha256": "120da35c58e962836d6bad0c742da3fc63fdef8198f83370e312dbd0a1efe791"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/components.json",
+      "bytes": 269798,
+      "sha256": "151cc529791df23c7373b42f7bd75ebbd0b8d5521a53c09152286c8aa9f6ec36"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/data_io_plan.json",
+      "bytes": 400,
+      "sha256": "3988f0bcbfc1b5af1509ef548179c7f87756f500e0ce95a2b42e506cd760d9bc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/data_io_result.json",
+      "bytes": 13490,
+      "sha256": "778de8255c5cd7e8e396cd9080c924bff2a2dbeaca0c360fc24935a91f76e1d3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/pattern.raw",
+      "bytes": 14784,
+      "sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/pattern_2theta.txt",
+      "bytes": 92555,
+      "sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/pattern_clean.dat",
+      "bytes": 65829,
+      "sha256": "8af4419822c49799d07c31e5ee9167e375eb055830e1eb8c1a843bd9261ff496"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/peak_survey.json",
+      "bytes": 2172,
+      "sha256": "43eb7442478d15e00449ff929e8d3a3531b58a72b71d096a78086940785204a5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/phase_summary.json",
+      "bytes": 2894,
+      "sha256": "555c5cd66b39829da3d7aad1cbc3baa38415cc8e441591c88e96ba50a8379f19"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/plan_amorphous_r4.json",
+      "bytes": 1347,
+      "sha256": "eeebaea9911d5280b094137c70293a01cb81dff2f1785883ec3fa5ee9ad8a3c5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/proc_guard.py",
+      "bytes": 21936,
+      "sha256": "9cba1e22a28b69f442f1a6f61d72572ae575a431fde41333f53ee2fd680156ab"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/report.md",
+      "bytes": 10020,
+      "sha256": "623f0d8a2c1d7b4551f6b436d880acdf7c59a579b1a81ee61a5067771c3c8a42"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/result.json",
+      "bytes": 9080,
+      "sha256": "5cf209f8bd4fe961d0b7d1e081221b4975693f932137b6c5d3828e75cb0c1f28"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/result_io.py",
+      "bytes": 4723,
+      "sha256": "1d5cada7fab77ed9bfc0acf1f1e47d33e48ec241a6cfc0fbad9c629b2b783092"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/workflow_state.json",
+      "bytes": 6544,
+      "sha256": "d87bef66df7dfaed8ac6299b616ffda342683938c3b8376bec518b16077116f3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/xrd_engine_custom.py",
+      "bytes": 72557,
+      "sha256": "4e8c20b3ffa61632f98ab461860f22999b6f70446b5d6b26813ee6aa624c56bb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/xrd_workflow/journal.jsonl",
+      "bytes": 3707,
+      "sha256": "191b343f7e2a39f853481234c1e986e3facea77f785a87c95efb76ace875d012"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/xrd_workflow/journal.md",
+      "bytes": 6443,
+      "sha256": "2a562419e11885cb9219ed717775f7a05c69abf799ec070372eba7208f605d38"
+    }
+  ]
+}

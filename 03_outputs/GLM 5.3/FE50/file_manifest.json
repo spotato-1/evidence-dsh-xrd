@@ -1,0 +1,60 @@
+﻿{
+  "model": "GLM 5.3",
+  "case_id": "FE50",
+  "run_id": "session-9fc4ad1d-2730-4b46-909b-2af2962b68b2",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 113603,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 1
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-9fc4ad1d-2730-4b46-909b-2af2962b68b2\\workspace_snapshot\\FE50\\FE50_final\\FE50_final.gpx",
+      "destination": "GLM 5.3/FE50/GPX/FE50_final.gpx",
+      "role": "gpx",
+      "bytes": 314382,
+      "sha256": "43cd338061241d0431d05fa33e4b33eefdeecfa56deafb4c1b4274886db273e4",
+      "model": "GLM 5.3",
+      "case_id": "FE50",
+      "run_id": "session-9fc4ad1d-2730-4b46-909b-2af2962b68b2",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\GLM 5.3\\FE50\\FE50_final\\FE50_final.gpx"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-9fc4ad1d-2730-4b46-909b-2af2962b68b2\\workspace_snapshot\\FE50\\FE50_final\\FE50_fit.png",
+      "destination": "GLM 5.3/FE50/figures/FE50_fit.png",
+      "role": "image",
+      "bytes": 366687,
+      "sha256": "333cfd655ff134e679dc9cb851d995ea34141e738eddfebbc2c0915e01c05e00",
+      "model": "GLM 5.3",
+      "case_id": "FE50",
+      "run_id": "session-9fc4ad1d-2730-4b46-909b-2af2962b68b2",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\GLM 5.3\\FE50\\FE50_final\\FE50_fit.png"
+    },
+    {
+      "source": "workspace\\GLM 5.3\\dsh-xrd-test-evidence\\runs\\session-9fc4ad1d-2730-4b46-909b-2af2962b68b2\\workspace_snapshot\\FE50\\FE50_final\\FE50_New_structure.cif",
+      "destination": "GLM 5.3/FE50/CIF/FE50_New_structure.cif",
+      "role": "cif",
+      "bytes": 2496,
+      "sha256": "4bf1da00441e41c993f2da5181a357967314f2dca28364fdf12db02c6bddb480",
+      "model": "GLM 5.3",
+      "case_id": "FE50",
+      "run_id": "session-9fc4ad1d-2730-4b46-909b-2af2962b68b2",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\GLM 5.3\\FE50\\FE50_final\\FE50_New_structure.cif"
+    }
+  ]
+}

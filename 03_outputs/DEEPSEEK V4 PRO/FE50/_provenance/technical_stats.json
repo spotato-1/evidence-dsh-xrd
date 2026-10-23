@@ -1,0 +1,1849 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-deepseek-v4-pro-ai-agent-v1-2026-10-12",
+  "case_id": "FE50",
+  "run_id": "session-8ef8889f-8ece-410d-b94a-4d8335d16d48",
+  "collected_at": "2026-10-11T22:50:00.090268+00:00",
+  "source": {
+    "model_label": "DEEPSEEK V4 PRO",
+    "assistant_model_routes": [
+      {
+        "provider": "office-modlens-deepseek",
+        "model": "deepseek-v4-pro"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "office-modlens-deepseek",
+        "model": "deepseek-v4-pro",
+        "reasoningEffort": "high",
+        "maxTokens": 256000
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-DEEPSEEK~0020V4~0020PRO--\\session-8ef8889f-8ece-410d-b94a-4d8335d16d48\\session.jsonl.zstd",
+      "bytes": 2612643,
+      "sha256": "0ab3965fa0d4c5d6510df7d7e3f8cc5917c50fd2e822920160bf6666f43fb67d",
+      "source_mtime_ns": 1791707622405989500,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/FE50/CIF/candidate_A.cif",
+        "input_sha256": "f5d7315967f6e619db7fb1a6ec2ee44833c3f7c2ff8f5e2932a2aac67e443555",
+        "workspace_file_present": true,
+        "workspace_sha256": "f5d7315967f6e619db7fb1a6ec2ee44833c3f7c2ff8f5e2932a2aac67e443555",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/FE50/CIF/candidate_B.cif",
+        "input_sha256": "fbb3811a61d3f07d8945cc210c8fd4f00e2748aca40fb5e6779fb8ee60c42e4b",
+        "workspace_file_present": true,
+        "workspace_sha256": "fbb3811a61d3f07d8945cc210c8fd4f00e2748aca40fb5e6779fb8ee60c42e4b",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/FE50/pattern.raw",
+        "input_sha256": "410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809",
+        "workspace_file_present": true,
+        "workspace_sha256": "410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/FE50/pattern_2theta.txt",
+        "input_sha256": "ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44",
+        "workspace_file_present": true,
+        "workspace_sha256": "ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-11T07:20:01.562000+00:00",
+    "ended_at": "2026-10-11T08:33:42.400000+00:00",
+    "elapsed_seconds": 4420.838,
+    "turns": 1,
+    "tool_calls": 115,
+    "tool_errors": 1,
+    "retries": 0,
+    "last_turn_reason": {
+      "kind": "completed"
+    },
+    "error_ended_turns": [],
+    "input_tokens": 185847,
+    "output_tokens": 179733,
+    "cache_read_tokens": 20409856,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 185847,
+      "outputTokens": 179733,
+      "cacheReadTokens": 20409856,
+      "reasoningTokens": 147444
+    },
+    "goal_rounds": 0
+  },
+  "workflow": {
+    "states": [
+      {
+        "path": "workspace_snapshot/FE50/workflow_state.json",
+        "phase": 5,
+        "recorded_rounds": 9
+      }
+    ],
+    "final_backend": "GSAS-II",
+    "gsas_completed": true,
+    "finalize_completed": true,
+    "export_completed": true,
+    "required_refinement_completed": true,
+    "converged": null,
+    "warnings": []
+  },
+  "final_metrics": {
+    "wr": 11.71,
+    "r": 9.314754727727967,
+    "rb": 11.109987906143914,
+    "wrmin": 7.9169244690920095,
+    "chi2": 6133.14,
+    "gof": 1.49,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": "final_selection.json metrics from xrd_finalize tool result",
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 1,
+    "journal_jsonl_total": 1,
+    "journal_jsonl_valid": 1,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": true
+  },
+  "subagent_sessions": [
+    {
+      "run_id": "53bf74d9-6c2b-4352-a3ed-be8794405703",
+      "models": [
+        {
+          "provider": "office-modlens-deepseek",
+          "model": "deepseek-v4-pro"
+        }
+      ],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-DEEPSEEK~0020V4~0020PRO--\\53bf74d9-6c2b-4352-a3ed-be8794405703\\session.jsonl.zstd",
+        "bytes": 47838,
+        "sha256": "5676ef34f9d5887c35a84ac74e87ee15c1544db4fbd55bf360ff4c5d94180b1b",
+        "source_mtime_ns": 1791706387061574700,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    },
+    {
+      "run_id": "6b5bdbc6-5141-4b24-9d0a-0d39fd2eb162",
+      "models": [
+        {
+          "provider": "office-modlens-deepseek",
+          "model": "deepseek-v4-pro"
+        }
+      ],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-DEEPSEEK~0020V4~0020PRO--\\6b5bdbc6-5141-4b24-9d0a-0d39fd2eb162\\session.jsonl.zstd",
+        "bytes": 126002,
+        "sha256": "69ed7d86d1d265bf7bd772b25180704986603220af801b23ae6617974ce4648e",
+        "source_mtime_ns": 1791707035919005900,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    },
+    {
+      "run_id": "85d5a869-36c1-41af-8130-6cb3b6bcbe80",
+      "models": [
+        {
+          "provider": "office-modlens-deepseek",
+          "model": "deepseek-v4-pro"
+        }
+      ],
+      "source": {
+        "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-DEEPSEEK~0020V4~0020PRO--\\85d5a869-36c1-41af-8130-6cb3b6bcbe80\\session.jsonl.zstd",
+        "bytes": 84351,
+        "sha256": "4a8730639ee65cef346cdc5113427c534f62589bfff6be6f5563635772cdd151",
+        "source_mtime_ns": 1791706624744586200,
+        "decode_stats": {
+          "reused_staging": true
+        }
+      }
+    }
+  ],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.mplcache/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "5131aa470e6f8ae20c0bc4d8fe050b4dab3b03a18ade4632529c2f13c1384c75"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3j5dwb-3f4cilbe.json",
+      "bytes": 269,
+      "sha256": "8c592d3a448ed9fb6cfcfe5bea55e7c17a11cee26ea36336f0163a0790ca2b4b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3j65yn-gf6bs26i.json",
+      "bytes": 269,
+      "sha256": "62405f4f3364b76f4e26ff6823c28de6cb685398093c5e023dbfd720cb0ec54a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3j7123-mcbu45wf.json",
+      "bytes": 270,
+      "sha256": "1539e509328c1d04ccb408056e0501c752944994aa2aa74d9148c0c5ac09a4cc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3j71ua-vgx7xspe.json",
+      "bytes": 269,
+      "sha256": "8fc84ef758d5a67dcc5c86c7d59d950f4051ba6053cdf5c64bbaa9d153229487"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3j7ntl-84tjt0nv.json",
+      "bytes": 262,
+      "sha256": "8edcba6f6e19bde522a775ab2417170bdd9c05b1707fd911eeabc116fcb97a6e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3javbk-d89lqn1k.json",
+      "bytes": 269,
+      "sha256": "597d3589e92fe72431ea9feceaf9a5a1e0a77a031ba6665c6e8ac2546df36f0f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3jdnfi-v8oy1i6b.json",
+      "bytes": 272,
+      "sha256": "645d707faa2ac689933db49e6b5b16cd5641800d57aac27c3215b140b2474246"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3jifg2-edby0jwq.json",
+      "bytes": 271,
+      "sha256": "b625391793881db3e39f625ce4fd8207a6fbb4500a5279247369643ab1334117"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3jlmp0-a629tr6f.json",
+      "bytes": 272,
+      "sha256": "1f926e5456e14491c464aa649552a77d49b5b16d33a22a06b6cb6cdb5e123b39"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3jqnbf-jp4alkf2.json",
+      "bytes": 274,
+      "sha256": "31ee9fc62d5966bfb4c5800c372c8fed33393bcbfc610cf5a7c218add83f1cba"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3k325j-go3jigtb.json",
+      "bytes": 274,
+      "sha256": "e27e8c1688f7f31700680e14ede611c1a7f9e8b9b39e4a159e28589dd90b2863"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3k4qhu-c7030lxx.json",
+      "bytes": 274,
+      "sha256": "9d9e09aed15bb63601d4686b60568b39e19d6a4bd941ae56d0c2ad5ba8cf868c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3k62er-dh2zx3m7.json",
+      "bytes": 280,
+      "sha256": "2685c9b2b6d8a7d0935abbfeb1949db4959f4a7164fa01f8826da8432d5b631c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3k7f2t-gsrj626i.json",
+      "bytes": 274,
+      "sha256": "c3b9ef7c4c5b4884a09fba3bdfe43127a972d8be9ca05c24c1f18c6e701dd96c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3k85kt-uv6pfns5.json",
+      "bytes": 279,
+      "sha256": "f8597b6ed5ab2644302a36df7c9364657397f228bddc04ccc026ee0d96a9cce6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3k9ds8-c86n55ur.json",
+      "bytes": 274,
+      "sha256": "00e65c0f9e85bbde56bb17a5b88d5b6cf69088b5dc08d45ef43e4c1c2184d7be"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3k9wu1-e2ah65t6.json",
+      "bytes": 274,
+      "sha256": "31f7ccce9e2cac3b2fb862e1c9e1e10f4489343782d5e737a4874d884d7a4b02"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3kaesz-qgnirgmc.json",
+      "bytes": 274,
+      "sha256": "ec83b82eccea401730bdb44f1a5fae6b49c2b445bb124607ecfa035bb0239083"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3kbin5-vprx2539.json",
+      "bytes": 274,
+      "sha256": "2ca20924bdab30c937a62b73bdef9cd5d92b1866b6ad24a3379eacf0620e4bce"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3kc14m-8bhkxrij.json",
+      "bytes": 274,
+      "sha256": "2a5572549666d5aaea4336632c447da3ed150e7dde3e721ea45d6de018b294a2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3kchdm-tgvpyd96.json",
+      "bytes": 272,
+      "sha256": "4de689c8aa58df7bdc06821634fdefaaf668698d2c0fef546fe3781a62229796"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress-mv3kdg51-zi7iviae.json",
+      "bytes": 274,
+      "sha256": "5594f5880a41a39338e1ce239077e0440a7618030f3b3aa1b3fad7b30b498020"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/.xrd-progress.json",
+      "bytes": 272,
+      "sha256": "4de689c8aa58df7bdc06821634fdefaaf668698d2c0fef546fe3781a62229796"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/CIF/candidate_A.cif",
+      "bytes": 5457,
+      "sha256": "f5d7315967f6e619db7fb1a6ec2ee44833c3f7c2ff8f5e2932a2aac67e443555"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/CIF/candidate_B.cif",
+      "bytes": 2736,
+      "sha256": "fbb3811a61d3f07d8945cc210c8fd4f00e2748aca40fb5e6779fb8ee60c42e4b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/cif_edit_plan.json",
+      "bytes": 613,
+      "sha256": "63d89a032a31f15789b2262712f801daa32cafcc1ddf83f37099dba9319b568c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/cif_edit_result.json",
+      "bytes": 28744,
+      "sha256": "3286c352687379c14aa3bf9a652a34a18a9878cf9918cb733c3f30a281e48782"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/data_io_plan.json",
+      "bytes": 380,
+      "sha256": "bc2f5811ff4ca6e401d41d9f508f9d6387d40e1c555b6e930f697346e570dcad"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/data_io_result.json",
+      "bytes": 631,
+      "sha256": "73c3bbb39c29b499171b74638a82249383fda7f91e7533529dce78ad55d15ee4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/export_plan.json",
+      "bytes": 750,
+      "sha256": "e0747359f64e53d90e33fd490f10da4fbb854ab1a27686a90f38225d26a01bc5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/export_result.json",
+      "bytes": 1562,
+      "sha256": "3252f8eb5f035d1418d55862a2eaaa14685cbcbae40b2e051ab9c0e8c860f73d"
+    },
+    {
+      "role": "final_gpx",
+      "path": "workspace_snapshot/FE50/FE50_final/FE50_final.gpx",
+      "bytes": 235856,
+      "sha256": "b9b1f30254ebf56268e985d3db505d6f9a226d3942e59eeaba066348e7bd9f78"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/FE50_final/FE50_final.lst",
+      "bytes": 11751,
+      "sha256": "ce0481cd4e51acdac9e495eee3e276d0ae3419ddf43fde471bc62ea419450ae5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/FE50_final/FE50_finalize.json",
+      "bytes": 3573,
+      "sha256": "70cf73b5785673736a0dd7ba11252d1ce256a9985342c3a1e7f3d44c95f7e0cb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/FE50_final/FE50_fit.png",
+      "bytes": 377766,
+      "sha256": "7d7eb9a52da7e75d05e4623b9162250c8b1d1932dcffeea03156f810c426e76a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/FE50_final/FE50_K5.84_Mn2_Fe6_C23.28_N23.28.cif",
+      "bytes": 5785,
+      "sha256": "38942025d0b217e68d93223febbc3a88446a94a47ae5e3a1e935e30fd93cb25a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/FE50_final/FE50_report.md",
+      "bytes": 3352,
+      "sha256": "04965b67c9a921303aeebd65402878400a65d82c2bed0f09b6f5d46d3b23dc8a"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/FE50_final_exported.gpx",
+      "bytes": 235849,
+      "sha256": "705cf46af9a87f9bfcedb412b65a0b9f8e83b85bf0dc83e420d99bf0bc5df294"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/FE50_final_fit.png",
+      "bytes": 375274,
+      "sha256": "6861ffbf5d7bdddecabd5cb5336ec28e02d3edcde4ce0cc193fa6b2ed9032e00"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/FE50_final_K5.84_Mn2_Fe6_C23.28_N23.28.cif",
+      "bytes": 4671,
+      "sha256": "92fd3081e1deb78a620a6c8cc56bc43ceeb2ce0dde31732f5ffeaefea7fb861e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/FE50_fit.png",
+      "bytes": 277973,
+      "sha256": "45c0d91136c52200c55112cabc1f821e02a75be59da0d6161033a20c8d18677b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/FE50_refinement_report.md",
+      "bytes": 5850,
+      "sha256": "3ee4b16a01bbf99bc08e4c4994b360cb622f4c04d496f6830767f6948a1ae03f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/finalize_plan.json",
+      "bytes": 499,
+      "sha256": "b17bcbded08bb070d29e07e09406f2800b74631917af6b4948f8a67eed306b3a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/finalize_result.json",
+      "bytes": 3606,
+      "sha256": "9714a73e4d7f5aa8b2e5402291818c8503d5e7087aa36a04cc2a7faa07300b04"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/gsas_ops_out.bak0.gpx",
+      "bytes": 232705,
+      "sha256": "7229d1365834cd729ed6fe0b06d39b5023e029f368bbb56347b74d9d887c56f1"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/gsas_ops_out.gpx",
+      "bytes": 225945,
+      "sha256": "c9643d34144cb6acee48050822138975c4a834edb4b9fec5f40b81d80470ab5e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/gsas_ops_out.lst",
+      "bytes": 7227,
+      "sha256": "29ed873aec32c9665bd3dbfdc7e06d37f66c71bb10ca874f7a4330167c8accf0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/gsas_ops_plan.json",
+      "bytes": 622,
+      "sha256": "a41c52789c381b9c135c72ccc2ae4d3cb1be952bbccf2a63df5150d58a5a423f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/gsas_ops_result.json",
+      "bytes": 5964,
+      "sha256": "5adf01a35cb97e3abebfb3385ed7e8cf076c880f81bd9a15930f6cd49211b4fb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/pattern.raw",
+      "bytes": 12264,
+      "sha256": "410397195d02db69a1e464447e672d2fbcb46e3ca5334849b5bfc1ae6f771809"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/pattern_2theta.txt",
+      "bytes": 77425,
+      "sha256": "ad66d0883a7518105983dbe96e6c5fc39de6977ed92157f171baba02d40ace44"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/.xrd-progress-mv3jegwn-1bkf7o4n.json",
+      "bytes": 264,
+      "sha256": "33302487bd9314f01021447bd9bf70817dbc0e8204c08e9b56329e61f1412d17"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/.xrd-progress.json",
+      "bytes": 264,
+      "sha256": "33302487bd9314f01021447bd9bf70817dbc0e8204c08e9b56329e61f1412d17"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn.cif",
+      "bytes": 5854,
+      "sha256": "e94773edbadc27cd952d149e0357fcce9fc639ba06e8f4e9cb5ed8c4b05d3b8e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn.dat",
+      "bytes": 53002,
+      "sha256": "7cc6cadf5196d0ddc2f5ee269de7c2fce628a112ad8fe46736ae0ef3a0afd60f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn.new",
+      "bytes": 3801,
+      "sha256": "ca48c4460c895672707b4df68314caa45ee44e5adaef46c784225f265e124a04"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn.out",
+      "bytes": 71460,
+      "sha256": "67c6bcda78c4ceae35b84b99e1d9d0d907bf69df0f97727832868910d27a23fd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn.pcr",
+      "bytes": 3637,
+      "sha256": "b0f29ca62a088fd5a574247d1b99710ade244df5508bbd7e1038607aeca51a75"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn.prf",
+      "bytes": 154352,
+      "sha256": "5b6d3212a85db034e93238848c013a7bcf5c083c92dcbe309c0cec753bf5fcef"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn.sum",
+      "bytes": 6375,
+      "sha256": "c34b0dfbaaebb90b7ff7ac098983545ff75e60293054324a953db31fb31a83db"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn1.fst",
+      "bytes": 709,
+      "sha256": "c5de48bb9d31ca023851d616eed28c564ad4e527ad4b1897d50f11c36ad8fe05"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_baseline_end.pcr",
+      "bytes": 3736,
+      "sha256": "6781ea2c6a651ea06cbdcb9e888e059f7d1eddd9173aab39d51e897f74f4e80c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_baseline_start.pcr",
+      "bytes": 3653,
+      "sha256": "32ec01b890668ee4da5305825c663c180add2b46c3d8d610b57342c50ffa86a3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_final_end.pcr",
+      "bytes": 3637,
+      "sha256": "132024a8202bced24110a9102b98b0f4cd72edc3cab36086a13b310a0f43253e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_final_start.pcr",
+      "bytes": 3637,
+      "sha256": "132024a8202bced24110a9102b98b0f4cd72edc3cab36086a13b310a0f43253e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_fp2kbest.pcr",
+      "bytes": 3637,
+      "sha256": "b0f29ca62a088fd5a574247d1b99710ade244df5508bbd7e1038607aeca51a75"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step00_end.pcr",
+      "bytes": 3736,
+      "sha256": "f49a2f96b10243f7ce61d11b6b44feca8a0dcd3be74b777738941eb640164573"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step00_start.pcr",
+      "bytes": 3714,
+      "sha256": "b4fe261809038183d3b18c974a37ae8315e7b4f128ad7f6426087fd1e9449a5a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step01_end.pcr",
+      "bytes": 3736,
+      "sha256": "f81cd4346d374244d87159944f81f101ec3ecc507718db47aa4f1e185f1c61f0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step01_start.pcr",
+      "bytes": 3698,
+      "sha256": "a19f2bb3ef76dbe2cbe187300557f5ba2045a63062ca3c74df1765105a84f8e9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step02_end.pcr",
+      "bytes": 3736,
+      "sha256": "a866d8212f50f5ab28ec517033e7eafe874a0f585db5c6b3d9bd974ba4717a38"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step02_start.pcr",
+      "bytes": 3669,
+      "sha256": "395e9014e3d4f805030a282d69773ef774aaed066fe2b313944c4c6ff7be67d9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step03_end.pcr",
+      "bytes": 3736,
+      "sha256": "df68cde1a02d01d9bf6c6e26dfd51b24aba45b25b3c38d8d155542680cea9974"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step03_start.pcr",
+      "bytes": 3669,
+      "sha256": "7d65d53b28ad4104f45ce264f33d29e9eae9eac745fe0d25a6d837d0d64d9f02"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step04_end.pcr",
+      "bytes": 3736,
+      "sha256": "0fdddc069761e52f26c900e3ce4bf3a99ed0aa9769e66f363c6600919d9bc63c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step04_start.pcr",
+      "bytes": 3653,
+      "sha256": "cc0a77f1315c9f2250f6ed23d6be9bf0ade6c41b8aa4a86ef244ead0f8e125af"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step05_end.pcr",
+      "bytes": 3736,
+      "sha256": "06d4dda621c3ce04912df9a3368bc41818c23818f08880ac14851922e093c854"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step05_start.pcr",
+      "bytes": 3653,
+      "sha256": "456b83416b2f917d6dbd45e94eec568c410f70989b259b2d789846ea08034695"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step06_end.pcr",
+      "bytes": 3736,
+      "sha256": "06d4dda621c3ce04912df9a3368bc41818c23818f08880ac14851922e093c854"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step06_start.pcr",
+      "bytes": 3653,
+      "sha256": "4194bab9e21a6c0a30e2328792900a74b0ad239b12c6522dd30d22c931d00254"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step07_end.pcr",
+      "bytes": 3736,
+      "sha256": "af15ff0392e55e0a6e262fe6e76985571538627797246b18e9f9bfdcfd2c101a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step07_start.pcr",
+      "bytes": 3639,
+      "sha256": "08302f5bb769f85a7508f8ae147befd6d050dbe0c31c454d454e7632ba515a72"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step08_end.pcr",
+      "bytes": 3736,
+      "sha256": "e8895312cadde4a3ac157742695d74814e2f9fc0a873990a18dea9149aa6dac4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step08_start.pcr",
+      "bytes": 3638,
+      "sha256": "9476d973964b0169b80ba78b7f0807b3648c3958e0a95606e85e8145296827d8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step09_end.pcr",
+      "bytes": 3736,
+      "sha256": "4c37b62ca7556a085fb85991d583190500d9c8957e9188d18d0d3fbea84473a5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step09_start.pcr",
+      "bytes": 3638,
+      "sha256": "a2e136fdecaa66d3afde05ac49b80c9796ee4d035d2e4e6bf148aa8556c13321"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step10_end.pcr",
+      "bytes": 3736,
+      "sha256": "f4f73bcb7f635079173f3a91df35976c8d946f6e8c4e86c4605ebe83172f2052"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step10_start.pcr",
+      "bytes": 3638,
+      "sha256": "a2975f599b875054a342312dfa34e854f5db25e0911cc21f39401c50fe81ec24"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step11_end.pcr",
+      "bytes": 3736,
+      "sha256": "0ef0c0d9a8140e9156507674945b9bcb6e014f9f51061191eca90d618f6b3afe"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step11_start.pcr",
+      "bytes": 3638,
+      "sha256": "a3731ebe215fda458038346fb877983db7cdaa08e5dbf5905bc6dc44302c656c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step12_end.pcr",
+      "bytes": 3736,
+      "sha256": "0e88ced5bf63d067e7cc85b060f4fc954b872c161b572b46976d5d1b320efc8b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step12_start.pcr",
+      "bytes": 3637,
+      "sha256": "4bb5d494a1483c46ac08116712e16cdadf60018ccd365e8c86575c4afdd78736"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step13_end.pcr",
+      "bytes": 3736,
+      "sha256": "dffe78d88d04d3cbe693e1190e324e80c19c4d09e6d50de3a28b48705615c729"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step13_start.pcr",
+      "bytes": 3637,
+      "sha256": "1b3db87455b0eaf0988143edc6413a5a6e3e7e5d07a2e18d9ec326047c64ed8e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step14_end.pcr",
+      "bytes": 3637,
+      "sha256": "5f15f10330aae38249fda82e6152982642ce884144a577db3329930471868b62"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step14_start.pcr",
+      "bytes": 3637,
+      "sha256": "5f15f10330aae38249fda82e6152982642ce884144a577db3329930471868b62"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step15_end.pcr",
+      "bytes": 3736,
+      "sha256": "4d77c64c74d7daaf25d66e3e98817ba9388febbc8ea87b8b5466f3a671898138"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step15_start.pcr",
+      "bytes": 3637,
+      "sha256": "b0f29ca62a088fd5a574247d1b99710ade244df5508bbd7e1038607aeca51a75"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step16_end.pcr",
+      "bytes": 3439,
+      "sha256": "0c6d09f77147f48834c8baa3c793696c1862e13fcec808c1bf36d0b4f4ecda2e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step16_start.pcr",
+      "bytes": 3439,
+      "sha256": "0c6d09f77147f48834c8baa3c793696c1862e13fcec808c1bf36d0b4f4ecda2e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step17_end.pcr",
+      "bytes": 3635,
+      "sha256": "3e4f8b943d4af572c21e936714e82262a25783c90821917a9a6e1bf72509582f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step17_start.pcr",
+      "bytes": 3635,
+      "sha256": "3e4f8b943d4af572c21e936714e82262a25783c90821917a9a6e1bf72509582f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step18_end.pcr",
+      "bytes": 3475,
+      "sha256": "de125e7828174382b51c1911a15e19ddba7f98b96ebda91a46cfaadf2551808d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step18_start.pcr",
+      "bytes": 3475,
+      "sha256": "de125e7828174382b51c1911a15e19ddba7f98b96ebda91a46cfaadf2551808d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step19_end.pcr",
+      "bytes": 3635,
+      "sha256": "0b4e211b3fd273adb26df5d2ab2dbce8749bac1110faf22d0a0be4a2fa0ff5e5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step19_start.pcr",
+      "bytes": 3635,
+      "sha256": "0b4e211b3fd273adb26df5d2ab2dbce8749bac1110faf22d0a0be4a2fa0ff5e5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step20_end.pcr",
+      "bytes": 3475,
+      "sha256": "80841718aacc53fc1147a56ca28d1a615883fb59e9dc7d7184fbe87af9be295f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_A_Mn_step20_start.pcr",
+      "bytes": 3475,
+      "sha256": "80841718aacc53fc1147a56ca28d1a615883fb59e9dc7d7184fbe87af9be295f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/candidate_B_clean.cif",
+      "bytes": 2385,
+      "sha256": "b1a9170c571556d3e686995769a82f4a0ea242ddcec442f5cb48eca03c6e60eb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/fp2k_plan.json",
+      "bytes": 580,
+      "sha256": "71f2f5f582e778a81b8047818c2684d56e440f65fd234c2eaead6116bcc63696"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-a99abd/fp2k_result.json",
+      "bytes": 25627,
+      "sha256": "41dc0bad93c632a3ff49c8f023f65e97747c1a57aef099ae8f0445bd4146ab38"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/.xrd-progress-mv3je36b-7m46sdl4.json",
+      "bytes": 263,
+      "sha256": "72221b1fbce5d3ee0d5be034704456e069dff5773a7f6a8aeae9a10928e96635"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/.xrd-progress.json",
+      "bytes": 263,
+      "sha256": "72221b1fbce5d3ee0d5be034704456e069dff5773a7f6a8aeae9a10928e96635"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_A_Mn.cif",
+      "bytes": 5854,
+      "sha256": "e94773edbadc27cd952d149e0357fcce9fc639ba06e8f4e9cb5ed8c4b05d3b8e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_A_Mn.dat",
+      "bytes": 53002,
+      "sha256": "7cc6cadf5196d0ddc2f5ee269de7c2fce628a112ad8fe46736ae0ef3a0afd60f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_A_Mn.out",
+      "bytes": 33269,
+      "sha256": "4d3e9dc535c36e3088d2367c35f070de1955b8d38fbe1ace1f7cb9f20eecf951"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_A_Mn.pcr",
+      "bytes": 3653,
+      "sha256": "32ec01b890668ee4da5305825c663c180add2b46c3d8d610b57342c50ffa86a3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_A_Mn.prf",
+      "bytes": 144368,
+      "sha256": "d95a43b3b30ba8f701bd004378d20a82ab862382756f369a9a550598ffbc1670"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_A_Mn.sum",
+      "bytes": 6375,
+      "sha256": "7f6a52faba8c483dc5b91922381d7a4a7a0ba9b6dd475900aa825c7f39ca1201"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_A_Mn1.fst",
+      "bytes": 709,
+      "sha256": "c5de48bb9d31ca023851d616eed28c564ad4e527ad4b1897d50f11c36ad8fe05"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_A_Mn_baseline_end.pcr",
+      "bytes": 3736,
+      "sha256": "6781ea2c6a651ea06cbdcb9e888e059f7d1eddd9173aab39d51e897f74f4e80c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_A_Mn_baseline_start.pcr",
+      "bytes": 3653,
+      "sha256": "32ec01b890668ee4da5305825c663c180add2b46c3d8d610b57342c50ffa86a3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/candidate_B_clean.cif",
+      "bytes": 2385,
+      "sha256": "b1a9170c571556d3e686995769a82f4a0ea242ddcec442f5cb48eca03c6e60eb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/fp2k_plan.json",
+      "bytes": 580,
+      "sha256": "8d9484f2ed959e484dc9ad804082313bf7616a3744196a23c4688105f1d68d2e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_A_Mn-f3b8f9/fp2k_result.json",
+      "bytes": 4361,
+      "sha256": "9d606228b194a49b7aeca12559df22d6a340801131e8420b4e95095c9f751fea"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/.xrd-progress-mv3je3v2-r5dydnw1.json",
+      "bytes": 262,
+      "sha256": "b4c31ee4740ea68e24e05f37f035abed1e4be51fdb09bf8d506f11cd8a73157c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/.xrd-progress.json",
+      "bytes": 262,
+      "sha256": "b4c31ee4740ea68e24e05f37f035abed1e4be51fdb09bf8d506f11cd8a73157c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_A_Mn.cif",
+      "bytes": 5854,
+      "sha256": "e94773edbadc27cd952d149e0357fcce9fc639ba06e8f4e9cb5ed8c4b05d3b8e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_B_clean.cif",
+      "bytes": 2385,
+      "sha256": "b1a9170c571556d3e686995769a82f4a0ea242ddcec442f5cb48eca03c6e60eb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_B_clean.dat",
+      "bytes": 53002,
+      "sha256": "7cc6cadf5196d0ddc2f5ee269de7c2fce628a112ad8fe46736ae0ef3a0afd60f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_B_clean.out",
+      "bytes": 101879,
+      "sha256": "8b0fe5a59388434d4bdbcf7a625938e9032d3e06ba771f2cc7f34ca46a2dc223"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_B_clean.pcr",
+      "bytes": 5611,
+      "sha256": "d151a9aee7c2ceaea01c7d562709569a1445fc097ec72dd405a99b413c241b55"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_B_clean.prf",
+      "bytes": 216989,
+      "sha256": "5a4643b76be01a1f064f3c354117a6adec4f21b3f1f8b8de2df2d85ca29253c7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_B_clean.sum",
+      "bytes": 7546,
+      "sha256": "2a7e3632d31a33fe14b24793dba4643632356e4bce079ce31c74daa6df258b05"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_B_clean1.fst",
+      "bytes": 1409,
+      "sha256": "b07d7b0a99350800bd9154b42e0dd49effd2cade6b31f9a1f5621491c9b4764c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_B_clean_baseline_end.pcr",
+      "bytes": 5694,
+      "sha256": "056fa87a212bafffdadee1566dea18a2bbe6defc83f2196621eb9ea0cb9ae2c8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/candidate_B_clean_baseline_start.pcr",
+      "bytes": 5611,
+      "sha256": "d151a9aee7c2ceaea01c7d562709569a1445fc097ec72dd405a99b413c241b55"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/fp2k_plan.json",
+      "bytes": 589,
+      "sha256": "74a1909054d3a4e4de38dcef8ad037a899a56e0967a8a23f85c157aeed5e2de5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-32b753/fp2k_result.json",
+      "bytes": 4422,
+      "sha256": "98705d09fd5e739105bcd50116aaa16f362328265f5447ffaddc1f20700668ce"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/.xrd-progress-mv3jfnes-u2i0c1nh.json",
+      "bytes": 264,
+      "sha256": "72b4d037a06f18968d43398c078de9e0f723bc0b4062e9681a7e035ada769a80"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/.xrd-progress.json",
+      "bytes": 264,
+      "sha256": "72b4d037a06f18968d43398c078de9e0f723bc0b4062e9681a7e035ada769a80"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_A_Mn.cif",
+      "bytes": 5854,
+      "sha256": "e94773edbadc27cd952d149e0357fcce9fc639ba06e8f4e9cb5ed8c4b05d3b8e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean.cif",
+      "bytes": 2385,
+      "sha256": "b1a9170c571556d3e686995769a82f4a0ea242ddcec442f5cb48eca03c6e60eb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean.dat",
+      "bytes": 53002,
+      "sha256": "7cc6cadf5196d0ddc2f5ee269de7c2fce628a112ad8fe46736ae0ef3a0afd60f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean.new",
+      "bytes": 5787,
+      "sha256": "fc4df2162453167d2c1e2d9936696aa98a383f063fbcec8511c7723b481b1ee9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean.out",
+      "bytes": 234276,
+      "sha256": "13a9a0c04e312fcf54136c4edb2fcbe646bee4b122f6c67e74858c8515a5c8ca"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean.pcr",
+      "bytes": 4942,
+      "sha256": "e6b4258c7a67333a04df977fc1ef42597f776b572ed9aaa5462114f5cfe95e4b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean.prf",
+      "bytes": 214415,
+      "sha256": "d9dc8b9bf6e131b135f4e808ac6da01e0b15c6763a6c4ca2e5993c8ece8b144e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean.sum",
+      "bytes": 7546,
+      "sha256": "b71b2c07fbd8055fc885a875615727df8c6ff67c6934954b614ff4b0459c6984"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean1.fst",
+      "bytes": 1409,
+      "sha256": "f8f7fc5dab347cbd9c32a80a7251607aadd9471789f5ec0ef4d12354aaa85502"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_baseline_end.pcr",
+      "bytes": 5694,
+      "sha256": "056fa87a212bafffdadee1566dea18a2bbe6defc83f2196621eb9ea0cb9ae2c8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_baseline_start.pcr",
+      "bytes": 5611,
+      "sha256": "d151a9aee7c2ceaea01c7d562709569a1445fc097ec72dd405a99b413c241b55"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_final_end.pcr",
+      "bytes": 4942,
+      "sha256": "1a73da2d04b1aa0ccf3189aa936c34aeabba4f302abde118e041a30e4027c4c6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_final_start.pcr",
+      "bytes": 4942,
+      "sha256": "1a73da2d04b1aa0ccf3189aa936c34aeabba4f302abde118e041a30e4027c4c6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_fp2kbest.pcr",
+      "bytes": 4942,
+      "sha256": "e6b4258c7a67333a04df977fc1ef42597f776b572ed9aaa5462114f5cfe95e4b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step00_end.pcr",
+      "bytes": 5694,
+      "sha256": "0dde097d45839e984597c1fb0b896b8845ec714fd419bc9baa3b9615beb9fdf5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step00_start.pcr",
+      "bytes": 5672,
+      "sha256": "aa43a6410d485296a34f6ccf1c46f7a4398650608df7966d2c1467a7f71166ea"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step01_end.pcr",
+      "bytes": 5694,
+      "sha256": "d7ed1f9c0c6168a4d9977590cf05d1c8dfe2791a086425ddb59101a7a08f6e13"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step01_start.pcr",
+      "bytes": 5656,
+      "sha256": "3456e87c8f052447d442e29b3536edea3383ba8d2185c3d0c0bf907f1510d877"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step02_end.pcr",
+      "bytes": 5694,
+      "sha256": "abb07fa3488a807996e4a5eb636d3a3786327dbc2f01cd0fad1dcb7297149dd8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step02_start.pcr",
+      "bytes": 5620,
+      "sha256": "6ec5007a21776dc7d81a2156ae206f81cc03c1424b9626400b6ccaed4f4b4de2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step03_end.pcr",
+      "bytes": 5694,
+      "sha256": "36d56a477ec90ad92351fc999d5d9ea02a440fec5cf881f6aa389e810a6bd89f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step03_start.pcr",
+      "bytes": 5620,
+      "sha256": "a7ba236f817edf31ef3b66353be6cda9efbddb0c1d8bfdf3ead5a89ca9947524"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step04_end.pcr",
+      "bytes": 5694,
+      "sha256": "0c15579e23d543e89f0bd5d589f621ec710454d249ea4f29bfe2e5f4c0cf03ea"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step04_start.pcr",
+      "bytes": 5604,
+      "sha256": "c8924cbe5df33f1169727d16ef233165f2b7e659dd958b43a99811e0d35951a8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step05_end.pcr",
+      "bytes": 5694,
+      "sha256": "e13cf60eacdfdda104eb01b49e8a78a6d308201cabb717bca38812f1621f8a9f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step05_start.pcr",
+      "bytes": 5600,
+      "sha256": "0b72dd0c8be968de295cadbcf96e8da84f078c3e2035e49ccacc8b0a8bc27029"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step06_end.pcr",
+      "bytes": 5694,
+      "sha256": "de721be65652768b6a7d290bdeec258eaa6b0540ef3f46a180e258ca1f227728"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step06_start.pcr",
+      "bytes": 5600,
+      "sha256": "0c92613d4225b15aad8b8461d885bc870f1720951f5850c81d4f4ba0b571b3cc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step07_end.pcr",
+      "bytes": 5574,
+      "sha256": "8dfe0c36fee5cf98dabc2bc794b4f9c187154783e27d81379851b36e4790722e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step07_start.pcr",
+      "bytes": 5574,
+      "sha256": "8dfe0c36fee5cf98dabc2bc794b4f9c187154783e27d81379851b36e4790722e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step08_end.pcr",
+      "bytes": 5694,
+      "sha256": "7cf7fe1a22800425d383d78100d7c12a2a1a364d587b7e052eb801873df393b8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step08_start.pcr",
+      "bytes": 5603,
+      "sha256": "610e57eb1ec8b44c93f513709408d419fe7aa7746aba5240c9908a6c0b016545"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step09_end.pcr",
+      "bytes": 5694,
+      "sha256": "95dbda11f623f20c9ab92264551b45e0c6fffbc900959b0c6f94fc080fc6db86"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step09_start.pcr",
+      "bytes": 5602,
+      "sha256": "a3fa18972150ba23ae9af46f68c25d32c1c2c942a3c883506352588704db7129"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step10_end.pcr",
+      "bytes": 5694,
+      "sha256": "14cf0af3d34a3504b1db404002e31e33c47c4c12a387d597b26722d516c6da19"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step10_start.pcr",
+      "bytes": 5602,
+      "sha256": "e5992acd94ac7c178ed73a1cbbd562c96472fa2979442913003f36cf35e15aad"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step11_end.pcr",
+      "bytes": 5694,
+      "sha256": "d4f0d5fe8d4e28a59336001274bf3ee044c70ca63a038ffece78d42984afb275"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step11_start.pcr",
+      "bytes": 5602,
+      "sha256": "39c8f6699360b6d13c0e2e3041b29e24e23b72b63595ddd96c7cb24a82372b83"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step12_end.pcr",
+      "bytes": 5572,
+      "sha256": "1f248de534577c4a3d7d1ad622e256431f4ff6cc3f22bb4e2ff244c82f5998a6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step12_start.pcr",
+      "bytes": 5572,
+      "sha256": "1f248de534577c4a3d7d1ad622e256431f4ff6cc3f22bb4e2ff244c82f5998a6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step13_end.pcr",
+      "bytes": 5572,
+      "sha256": "241fe450742c31645789970c9b7ea8882acb8cccd2aaddd00d9e2073ec8c97e5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step13_start.pcr",
+      "bytes": 5572,
+      "sha256": "241fe450742c31645789970c9b7ea8882acb8cccd2aaddd00d9e2073ec8c97e5"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step14_end.pcr",
+      "bytes": 5572,
+      "sha256": "6fac38b00dc3f908be2b5d80473175e838c7e22f1263c97a7800dcaeecba8494"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step14_start.pcr",
+      "bytes": 5572,
+      "sha256": "6fac38b00dc3f908be2b5d80473175e838c7e22f1263c97a7800dcaeecba8494"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step15_end.pcr",
+      "bytes": 5572,
+      "sha256": "7f3440ef33e0c1f1000c849700ef5ee8f661d82831a49a074f58a91560780fb0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step15_start.pcr",
+      "bytes": 5572,
+      "sha256": "7f3440ef33e0c1f1000c849700ef5ee8f661d82831a49a074f58a91560780fb0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step16_end.pcr",
+      "bytes": 5694,
+      "sha256": "2e766bd92fbf0ff303df4eed680e7faeb2b5fe97eed991e44012ff3b1f1993c1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step16_start.pcr",
+      "bytes": 4942,
+      "sha256": "e6b4258c7a67333a04df977fc1ef42597f776b572ed9aaa5462114f5cfe95e4b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step17_end.pcr",
+      "bytes": 4940,
+      "sha256": "b614fa6486c2f59f264c02e4ffa9284c64729826696e2288d7d374438fcf204f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step17_start.pcr",
+      "bytes": 4940,
+      "sha256": "b614fa6486c2f59f264c02e4ffa9284c64729826696e2288d7d374438fcf204f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step18_end.pcr",
+      "bytes": 4882,
+      "sha256": "857f050896bea817a148daefa4ba1aff72e6f2b55492b2817891ccff5de59746"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step18_start.pcr",
+      "bytes": 4882,
+      "sha256": "857f050896bea817a148daefa4ba1aff72e6f2b55492b2817891ccff5de59746"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step19_end.pcr",
+      "bytes": 4912,
+      "sha256": "5a36708d369af68a92b36dd97f86cd730637d6fe051080b96bf1a5a974ea7bf0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step19_start.pcr",
+      "bytes": 4912,
+      "sha256": "5a36708d369af68a92b36dd97f86cd730637d6fe051080b96bf1a5a974ea7bf0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step20_end.pcr",
+      "bytes": 4882,
+      "sha256": "843b6a3ebd05ab35a4ca588ea77d0d1c75578f1f3304b52f7399234f7ea39d7d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/candidate_B_clean_step20_start.pcr",
+      "bytes": 4882,
+      "sha256": "843b6a3ebd05ab35a4ca588ea77d0d1c75578f1f3304b52f7399234f7ea39d7d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/fp2k_plan.json",
+      "bytes": 589,
+      "sha256": "78e2e2219342fd557ab87bd9f5ad1dc68e49845ef504b6d108894b1ad25d438d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.fp2k-work-candidate_B_clean-d131d8/fp2k_result.json",
+      "bytes": 25560,
+      "sha256": "29ee027a79f593d273b2c20d1b0bebcb3b26eed2819653f9558679b8f24598e6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.mplcache/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "90d1b94ebf0cfa59a8f63ef55f32653c0d06f34df9fc65599ec4da3716f4fdd3"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/.xrd-ladder-best.gpx",
+      "bytes": 225930,
+      "sha256": "511a2ae7f1d40fc703344ae25da1100d3338a32cd04f3f93de3c9ef50aaba047"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/.xrd-ladder-snap.gpx",
+      "bytes": 225930,
+      "sha256": "511a2ae7f1d40fc703344ae25da1100d3338a32cd04f3f93de3c9ef50aaba047"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3j93cl-sqgj1rb9.json",
+      "bytes": 274,
+      "sha256": "db80f86e4893bf4ec7e84545c12999fae90e2e3b4db53d1ae14bd7359fa1d234"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3j9oqe-x10lq64s.json",
+      "bytes": 280,
+      "sha256": "206c5792a3a5da9bd7b84286d332aa4188d2b1cf01f139f891fb2313cfc2518d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jikyt-r6ieyw1l.json",
+      "bytes": 275,
+      "sha256": "1ad4ba86a509abf59aa32cb4cebfd58b20ff7d86e69e5e292c5b7839c8189926"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jjfcp-s5u7xrgs.json",
+      "bytes": 262,
+      "sha256": "17dc677b4fbee8a5349feb79330f329d1721a033abaab0f70d731bd1b7b4702b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jn3tq-5e5h1f09.json",
+      "bytes": 260,
+      "sha256": "103a1fdbd38bd3aa93b2ae0e7369d34a58d0713c790a9c81f5d1e09ed8acfd30"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jnql8-gs72lheh.json",
+      "bytes": 260,
+      "sha256": "0373533b1f374fe7178a787142587c6618a5fb38c6030fd4624b6cb48bd82bd7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jph47-ahbay3d2.json",
+      "bytes": 274,
+      "sha256": "4568cd2418399a664eccb2af72fb2eaf38d85ae993b9494d0f2d5fc8fea49754"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jpydh-qcqvm3sj.json",
+      "bytes": 274,
+      "sha256": "62ebc64a17aafd3442806f85671894a01919f27587828eba8490f22758a5dc76"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jri8o-uuahf9u4.json",
+      "bytes": 274,
+      "sha256": "3c5c171898c8528fc70707076aa6002fc0bc8104f34ee7fdb42a707bd243cf34"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3ju3ab-mwhschc6.json",
+      "bytes": 274,
+      "sha256": "f84c779f20e27211446565f41a0b46e43117bdd7e960b0295453553b3127b12e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jv3xa-nhus4j45.json",
+      "bytes": 276,
+      "sha256": "6464824082b53bd3acb72979ef41ea81390b4578f3d6240eb5eb1aed5af70698"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jz74c-6ynk2yvk.json",
+      "bytes": 278,
+      "sha256": "aa5d21a755a365d337869f069795aa87926acc4f222fe0ef34dea9a956922511"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3jzp3i-350etjcx.json",
+      "bytes": 274,
+      "sha256": "67fb352e7bd77df4d77f1da410e0e49201e4c391ccc5f542e321c06326f61f97"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3k16oh-8zk6mhbp.json",
+      "bytes": 274,
+      "sha256": "8b7ccf5560db865261e49a89ec3a0c033d7f0d6e2529bf30c7010d3ef5aedab9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3k2bnt-0qpex5hy.json",
+      "bytes": 274,
+      "sha256": "9fa30de145d2dec600cf5303fcf162dbc95ae5464b76d5e7707c429e6404dedd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress-mv3k5pmd-9i2pllw6.json",
+      "bytes": 274,
+      "sha256": "3e7922c3a2835ccac1d36dc5f56f17b3b5386855ccea478fceab091703e741f6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/.xrd-progress.json",
+      "bytes": 274,
+      "sha256": "3e7922c3a2835ccac1d36dc5f56f17b3b5386855ccea478fceab091703e741f6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_A_Mn.cif",
+      "bytes": 5844,
+      "sha256": "c6b060cae13e3e9eb3cb9448e716b0d5d19a87518cdfc1e9c9903b1cf1861e0d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_A_Mn.dat",
+      "bytes": 53002,
+      "sha256": "7cc6cadf5196d0ddc2f5ee269de7c2fce628a112ad8fe46736ae0ef3a0afd60f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_A_Mn.pcr",
+      "bytes": 4183,
+      "sha256": "e99284ce2c897d125bf9079299815aa5249e5e817238ae8204389bc719afe0b1"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_A_Mn.pcr.prewavelength",
+      "bytes": 4194,
+      "sha256": "9a57f090578009d55a9d2bc7cce3598337fbec1008f0ee1bbdb83022e6cc188f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_A_Mn.pcr_check.json",
+      "bytes": 3008,
+      "sha256": "cb22b0ce584d57b75a9aeb9d96805405c9784a39549f62e1f7983cab17d88256"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_A_Mn.wavelength.json",
+      "bytes": 392,
+      "sha256": "bddd6294849fab7287f0bc06887c91d3fa0204ff3d56f13dea561dc05ee44fbc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_B_clean.cif",
+      "bytes": 2385,
+      "sha256": "b1a9170c571556d3e686995769a82f4a0ea242ddcec442f5cb48eca03c6e60eb"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_B_clean.dat",
+      "bytes": 53002,
+      "sha256": "7cc6cadf5196d0ddc2f5ee269de7c2fce628a112ad8fe46736ae0ef3a0afd60f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_B_clean.pcr",
+      "bytes": 6169,
+      "sha256": "5bf3b305c4cf20c29590dca629eceb9b988b1b9b5e31d82d03f5c94cab120f91"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_B_clean.pcr.prewavelength",
+      "bytes": 6180,
+      "sha256": "bbf3948bf758260d2d97694bbf701a2242783243db6c10e963904a0afc5d4ccd"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_B_clean.pcr_check.json",
+      "bytes": 6028,
+      "sha256": "a56f1dc20e29e5a0b2888a7a36bf55cb004a1432fc98d6ce3d93b3ce3ca0b579"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/candidate_B_clean.wavelength.json",
+      "bytes": 395,
+      "sha256": "8a250eab490014351f56107fa08ba09961f8f806ebc8a1a61507f1889dd746ca"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/cif_edit_plan.json",
+      "bytes": 477,
+      "sha256": "76bef6c48cbfd2cca55f03c49d5eacb48ef2355e1359aafb493b8c08bcd6df78"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/cif_edit_result.json",
+      "bytes": 12349,
+      "sha256": "805459ab1d11c079d88465303992c8fa0911d153d8435b0e4276c7620266ae0f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/components.json",
+      "bytes": 222659,
+      "sha256": "878571b252adf910ced2dd80c0461705cd7b34b09962fabdad067324c3641761"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/export_plan.json",
+      "bytes": 761,
+      "sha256": "faeb5b334f1399e93970757ccd1a1f031a6bb9c9eb3f9807b2546052ed82bbe9"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/export_result.json",
+      "bytes": 1607,
+      "sha256": "a3a3810588b55b78e788bd18cc3c8dca3a7f70e3447262f8f4b6a6b580dbfe18"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50.fxye",
+      "bytes": 55724,
+      "sha256": "9e59bd3bfe67c8366c9607c43b184ac14b67c1126348e13dcd97a40b94be1c00"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_best.bak0.gpx",
+      "bytes": 232712,
+      "sha256": "1b284c5506cd95ed62ea4ef8e8f320bee6c43fb278fc9812b6d9d21935053af1"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_best.gpx",
+      "bytes": 235849,
+      "sha256": "705cf46af9a87f9bfcedb412b65a0b9f8e83b85bf0dc83e420d99bf0bc5df294"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_best.lst",
+      "bytes": 11751,
+      "sha256": "ce0481cd4e51acdac9e495eee3e276d0ae3419ddf43fde471bc62ea419450ae5"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_cncoord.bak0.gpx",
+      "bytes": 235861,
+      "sha256": "369578b82de2192b9ef6e2231f407078f465c1bb8c8da0b31b41d81e139a7f51"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_cncoord.gpx",
+      "bytes": 238103,
+      "sha256": "cefb0db019fea3e0542747768968b005b1f608db3fe92ce6f6a7763232ffc802"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_cncoord.lst",
+      "bytes": 11655,
+      "sha256": "474a67c78dc16ffc1b5ddc687f2044e5adeff335c084f078ec6f6d1babd32509"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_gsas_v1_exported.gpx",
+      "bytes": 224658,
+      "sha256": "0cec08309b3da9500c7c6540d0545959c0c24f8696a231f15b3ef905e827943a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_gsas_v1_fit.png",
+      "bytes": 371569,
+      "sha256": "a78225fae2bd46009f89d9eb5bca6d3cbbf33de91343ea0a04d5202ed2da746f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_gsas_v1_K5.84_Mn2_Fe5.88_C23.28_N23.28.cif",
+      "bytes": 4681,
+      "sha256": "998140efc5e5a7773310a2a391c0b74a35754ef22e209bd58e640de3d9ba4e71"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_hstrain.bak0.gpx",
+      "bytes": 235849,
+      "sha256": "71be0d5ac23ad8d90c09fa13ca5a40a34182976b401303eeba001a07444e6723"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_hstrain.gpx",
+      "bytes": 238077,
+      "sha256": "e3fa6905201914f335e63c00214741c7abc73e7085cf0f905b5ae628b8d6fdf2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_hstrain.lst",
+      "bytes": 11942,
+      "sha256": "2d63680687ec834c246801f2a06864dae370044440b5393bc580c49e876e6264"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_manual_calibrate_fit.png",
+      "bytes": 347724,
+      "sha256": "b1e234a259e963d56bab8d046955f8ce59d5bd7626b0fbb608193ace4b276ab0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_manual_calibrate_refined.cif",
+      "bytes": 5854,
+      "sha256": "8803f7c7fb32e561f0d1aa2986bf084fec8c7fdf83b192d7a7addd8283abcc33"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_splitK.bak0.gpx",
+      "bytes": 236131,
+      "sha256": "c4b7b86ca1bec6dcb367e59b708e6800e60ffc97c6e77dff04aa9a77398ba458"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_splitK.gpx",
+      "bytes": 235948,
+      "sha256": "27e7a6f0793e2e128ef1d4d671891dbcf356c5b47bf80a43957c84461aecab83"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_splitK.lst",
+      "bytes": 12183,
+      "sha256": "33ff18397134983d273c37196a23452261b6c0704bcb863891f89005384af535"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_twocol.txt",
+      "bytes": 52906,
+      "sha256": "d02c3b6255f04114acab41fce1ae2c75e401357881947db8375f31dc4ddeebdc"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_uiso.bak0.gpx",
+      "bytes": 240100,
+      "sha256": "cc8ced5ead77c2e908215fc55977698be944d6606f6336003fd812b1b45d06ea"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/FE50_uiso.gpx",
+      "bytes": 239660,
+      "sha256": "d01a7f483c3fa4920fcf67c6d15db503b49ad671e00cc5d1875de9d9069c7b5d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/FE50_uiso.lst",
+      "bytes": 11749,
+      "sha256": "60be7fbe1191990647f99478f0fe18fb4b8af878feee1f7cfd74538505823363"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/gsas_plan.json",
+      "bytes": 1035,
+      "sha256": "0218c5de915b65601a81174dc208be1e362dd32045df6fc99415aca0d7b186ed"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/gsas_proj.bak0.gpx",
+      "bytes": 225930,
+      "sha256": "511a2ae7f1d40fc703344ae25da1100d3338a32cd04f3f93de3c9ef50aaba047"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/gsas_proj.gpx",
+      "bytes": 225912,
+      "sha256": "f4abc2b7b6e288ae41982f011edb83038483e3bf5e332515ad4b47871d83de3d"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/gsas_proj.lst",
+      "bytes": 11311,
+      "sha256": "375fda470ed24eff66f23f8628b835ebf14909c8e590c09e1d3d20a1379d9af3"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/gsas_proj_continued.bak0.gpx",
+      "bytes": 224650,
+      "sha256": "df8f96fca060bd57ea2d93cacf2a4fc1f5f413a534fc999f2dc67b91d0278751"
+    },
+    {
+      "role": "working_gpx",
+      "path": "workspace_snapshot/FE50/work/gsas_proj_continued.gpx",
+      "bytes": 225798,
+      "sha256": "3930401edba73ceff8095b9b949c311332b4a440e28dc80a5f6764251a00202b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/gsas_proj_continued.lst",
+      "bytes": 11325,
+      "sha256": "b51a3ff019f63a6ca086c80dca3b05684e96240ab742869ee7d23f343d96365e"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/gsas_result.json",
+      "bytes": 10680,
+      "sha256": "33eaae92d0c1a1f9cf851c3dbb530b0e63b442f5ceab02317ccce982a9b516d6"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/INST_XRY.instprm",
+      "bytes": 192,
+      "sha256": "32b27aad3abe5cb5152f9fe36f4acd2fa006f035a261c5a2b21efc442ab465a0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/INST_XRY.PRM",
+      "bytes": 192,
+      "sha256": "32b27aad3abe5cb5152f9fe36f4acd2fa006f035a261c5a2b21efc442ab465a0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/plan_calibrate.json",
+      "bytes": 676,
+      "sha256": "cbaee178dbd29ffe0ca84ba120b352e29e3d527174bb495782412ecf13a4ca8a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/result.json",
+      "bytes": 18715,
+      "sha256": "0cd046f4b191f6020960d252d22d259a791e6d432f3b4b39e97a2b3f09330896"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/review_judgment.md",
+      "bytes": 2652,
+      "sha256": "dffcf9b566b1021a0b9f4f877fdbcbb9bf475dbd115f4d7c5fe079c3ca4c667b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/review_mechanical_FE50.json",
+      "bytes": 2089,
+      "sha256": "f68cf8b10cd7ff1f9624750b194cd08585ec8668ed1380440e2e0013436c3759"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/xrd_workflow/journal.jsonl",
+      "bytes": 701,
+      "sha256": "dcff47e2db3828adc42d9518119ba35fb51d0ddae5cabf08a8c1533d37f16f40"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/work/xrd_workflow/journal.md",
+      "bytes": 607,
+      "sha256": "2d3936dc03a97f7f41d17e656698701542751daf1be6db70aa23d50cc6fd1529"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/FE50/workflow_state.json",
+      "bytes": 3937,
+      "sha256": "f2889110b244df7f66c8e2018f725dbe84f0823ea9dcb1091860b9179b48a0bf"
+    }
+  ]
+}

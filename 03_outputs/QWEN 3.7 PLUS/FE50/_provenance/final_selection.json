@@ -1,0 +1,36 @@
+﻿{
+  "basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "tool_seq": 24774,
+  "result_seq": 24775,
+  "input_gpx": "workspace\\QWEN 3.7 PLUS\\gsas_proj_continued.gpx",
+  "files": {
+    "package dir": [
+      "workspace\\QWEN 3.7 PLUS\\FE50\\FE50_final_final"
+    ],
+    "gpx": [
+      "workspace\\QWEN 3.7 PLUS\\FE50\\FE50_final_final\\FE50_final_final.gpx"
+    ],
+    "lst": [
+      "workspace\\QWEN 3.7 PLUS\\FE50\\FE50_final_final\\FE50_final_final.lst"
+    ],
+    "plot": [
+      "workspace\\QWEN 3.7 PLUS\\FE50\\FE50_final_final\\FE50_final_fit.png"
+    ],
+    "report": [
+      "workspace\\QWEN 3.7 PLUS\\FE50\\FE50_final_final\\FE50_final_report.md"
+    ],
+    "cif": [
+      "workspace\\QWEN 3.7 PLUS\\FE50\\FE50_final_final\\FE50_final_K4.8_Mn2_Fe6_C24_N24.cif"
+    ]
+  },
+  "metrics": {
+    "wR": 13.9,
+    "R": 10.740948352673557,
+    "Rb": 14.839446175270778,
+    "wRb": 19.521254565276774,
+    "wRmin": 7.916924483201254,
+    "chi2": 8638.28,
+    "gof": 1.76
+  },
+  "same_source_link": "finalize tool result links the GPX, CIF(s), figure and report"
+}

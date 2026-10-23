@@ -1,0 +1,2455 @@
+﻿{
+  "note": "Read-only extraction; source GPX files were not modified.",
+  "projects": {
+    "manual": {
+      "path": "workspace\\测试\\测试集\\LiFePO4\\answer\\精修完成版.bak17.bak0.bak0.gpx",
+      "bytes": 645170,
+      "histogram": "PWDR 24.txt",
+      "residuals": {
+        "Nobs": 7001,
+        "R": 5.006563659126355,
+        "Rb": 5.496693861897688,
+        "wR": 6.443125150313615,
+        "wRb": 6.697034608903738,
+        "wRmin": 2.7519943256899246,
+        "Durbin-Watson": 0.42380945822289395
+      },
+      "histogram_model": {
+        "Background": [
+          [
+            "chebyschev-1",
+            true,
+            12,
+            920.7869949215668,
+            -388.424316142343,
+            12.358976030726678,
+            91.86402405505243,
+            -20.861338268341687,
+            9.84137578136402,
+            7.969730019215776,
+            8.763274350754768,
+            5.669716659307986,
+            -11.131233550579248,
+            12.204030468363896,
+            7.382500407168052
+          ],
+          {
+            "nDebye": 0,
+            "debyeTerms": [],
+            "nPeaks": 0,
+            "peaksList": [],
+            "background PWDR": [
+              "",
+              1.0,
+              false
+            ],
+            "autoPrms": {}
+          }
+        ],
+        "Instrument Parameters": [
+          {
+            "Type": [
+              "PXC",
+              "PXC",
+              false
+            ],
+            "Bank": [
+              1.0,
+              1.0,
+              false
+            ],
+            "Lam1": [
+              1.5405,
+              1.54051,
+              false
+            ],
+            "Lam2": [
+              1.5443,
+              1.54433,
+              false
+            ],
+            "Zero": [
+              0.0,
+              0.0,
+              false
+            ],
+            "Polariz.": [
+              0.7,
+              1.1069925938184988,
+              true
+            ],
+            "Azimuth": [
+              0.0,
+              0.0,
+              false
+            ],
+            "I(L2)/I(L1)": [
+              0.5,
+              0.393281797806753,
+              true
+            ],
+            "U": [
+              2.0,
+              2.0,
+              false
+            ],
+            "V": [
+              -2.0,
+              -2.0,
+              false
+            ],
+            "W": [
+              5.0,
+              5.355316777156107,
+              true
+            ],
+            "X": [
+              0.0,
+              58.525005463487915,
+              true
+            ],
+            "Y": [
+              0.0,
+              -7.997209231421002,
+              true
+            ],
+            "Z": [
+              0.0,
+              -54.00922206575484,
+              true
+            ],
+            "SH/L": [
+              0.002,
+              0.05960949399665961,
+              true
+            ],
+            "Source": [
+              "CuKa",
+              "CuKa"
+            ]
+          },
+          {}
+        ],
+        "Sample Parameters": {
+          "InstrName": "",
+          "ranId": 614904883062419079,
+          "Scale": [
+            160.82587065722686,
+            true
+          ],
+          "Type": "Bragg-Brentano",
+          "Absorption": [
+            0.0,
+            false
+          ],
+          "DisplaceX": [
+            0.0,
+            false
+          ],
+          "DisplaceY": [
+            0.0,
+            false
+          ],
+          "Temperature": 300.0,
+          "Pressure": 0.1,
+          "Time": 0.0,
+          "FreePrm1": 0.0,
+          "FreePrm2": 0.0,
+          "FreePrm3": 0.0,
+          "Gonio. radius": 200.0,
+          "Omega": 0.0,
+          "Chi": 0.0,
+          "Phi": 0.0,
+          "Azimuth": 0.0,
+          "Materials": [
+            {
+              "Name": "vacuum",
+              "VolFrac": 1.0
+            },
+            {
+              "Name": "vacuum",
+              "VolFrac": 0.0
+            }
+          ],
+          "Thick": 1.0,
+          "Contrast": [
+            0.0,
+            0.0
+          ],
+          "Trans": 1.0,
+          "SlitLen": 0.0,
+          "Shift": [
+            0.0,
+            false
+          ],
+          "Transparency": [
+            0.0,
+            false
+          ],
+          "SurfRoughA": [
+            0.0,
+            false
+          ],
+          "SurfRoughB": [
+            0.0,
+            false
+          ]
+        },
+        "Limits": [
+          [
+            10.0,
+            80.0
+          ],
+          [
+            10.0,
+            80.0
+          ]
+        ]
+      },
+      "phases": [
+        {
+          "name": "LiFePO4 (triphylite) with Fe-Li antisite",
+          "space_group": "P n m a",
+          "cell": {
+            "length_a": 10.329445678026937,
+            "length_b": 6.007305715657824,
+            "length_c": 4.691860531925058,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 291.1399774908534
+          },
+          "composition_per_cell": {
+            "Li": 4.0,
+            "Fe": 3.9999830633977407,
+            "P": 4.0,
+            "O": 16.0
+          },
+          "density": 3.5991359938702434,
+          "atoms": [
+            {
+              "label": "Li1",
+              "element": "Li",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.9963,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Fe1",
+              "element": "Fe",
+              "coordinates": [
+                0.28227361727099326,
+                0.25,
+                0.9722668923162309
+              ],
+              "occupancy": 0.9962957658494351,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "P1",
+              "element": "P",
+              "coordinates": [
+                0.0957271628260206,
+                0.25,
+                0.42533116396390264
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O1",
+              "element": "O",
+              "coordinates": [
+                0.0895967889290128,
+                0.25,
+                0.746838138918773
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O2",
+              "element": "O",
+              "coordinates": [
+                0.45370867243804475,
+                0.25,
+                0.22207295721382178
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "O3",
+              "element": "O",
+              "coordinates": [
+                0.15855365926964457,
+                0.050948853079937136,
+                0.28146598947815893
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Fe7",
+              "element": "Fe",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.0037,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            },
+            {
+              "label": "Li8",
+              "element": "Li",
+              "coordinates": [
+                0.28227,
+                0.25,
+                0.97227
+              ],
+              "occupancy": 0.0037,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.01
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR 24.txt": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [
+                  ""
+                ],
+                0.1
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "deepseek": {
+      "path": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-ae4d57b2-f73e-40d2-ad3d-91e64c9602e0\\artifacts\\LiFePO4\\LiFePO4_final\\LiFePO4_final.gpx",
+      "bytes": 567671,
+      "histogram": "PWDR LiFePO4.fxye Bank 1",
+      "residuals": {
+        "Nobs": 7001,
+        "R": 4.865669054780738,
+        "Rb": 5.289159013852979,
+        "wR": 6.222757781306784,
+        "wRb": 6.452643089788873,
+        "wRmin": 6.153646393924564,
+        "Durbin-Watson": 0.45893369778346677
+      },
+      "histogram_model": {
+        "Background": [
+          [
+            "chebyschev-1",
+            true,
+            10,
+            185.41936985468098,
+            -73.39890950222473,
+            2.472084113276904,
+            13.884117336800653,
+            -6.321784383851899,
+            2.424310172930851,
+            -0.9385502372787663,
+            0.6803322743729254,
+            0.20204412850395354,
+            -1.886087239110417
+          ],
+          {
+            "nDebye": 0,
+            "debyeTerms": [],
+            "nPeaks": 0,
+            "peaksList": [],
+            "background PWDR": [
+              "",
+              1.0,
+              false
+            ]
+          }
+        ],
+        "Instrument Parameters": [
+          {
+            "Type": [
+              "PXC",
+              "PXC",
+              false
+            ],
+            "Bank": [
+              1.0,
+              1.0,
+              false
+            ],
+            "Lam1": [
+              1.540593,
+              1.540593,
+              false
+            ],
+            "Lam2": [
+              1.544414,
+              1.544414,
+              false
+            ],
+            "Zero": [
+              0.0,
+              -0.05337159737001415,
+              true
+            ],
+            "Polariz.": [
+              0.7,
+              0.7,
+              false
+            ],
+            "Azimuth": [
+              0.0,
+              0.0,
+              false
+            ],
+            "I(L2)/I(L1)": [
+              0.5,
+              0.5,
+              false
+            ],
+            "U": [
+              2.0,
+              34.3324372634546,
+              true
+            ],
+            "V": [
+              -2.0,
+              -18.009189409094038,
+              true
+            ],
+            "W": [
+              5.0,
+              11.22803970091447,
+              true
+            ],
+            "X": [
+              0.0,
+              8.055304203892971,
+              true
+            ],
+            "Y": [
+              0.0,
+              -7.223433779455778,
+              true
+            ],
+            "Z": [
+              0.0,
+              0.0,
+              false
+            ],
+            "SH/L": [
+              0.002,
+              0.002,
+              false
+            ]
+          },
+          {}
+        ],
+        "Sample Parameters": {
+          "InstrName": "",
+          "ranId": 5593170667908122420,
+          "Scale": [
+            36.822082375414524,
+            true
+          ],
+          "Type": "Bragg-Brentano",
+          "Absorption": [
+            0.0,
+            false
+          ],
+          "DisplaceX": [
+            0.0,
+            false
+          ],
+          "DisplaceY": [
+            0.0,
+            false
+          ],
+          "Temperature": 300.0,
+          "Pressure": 0.1,
+          "Time": 0.0,
+          "FreePrm1": 0.0,
+          "FreePrm2": 0.0,
+          "FreePrm3": 0.0,
+          "Gonio. radius": 200.0,
+          "Omega": 0.0,
+          "Chi": 0.0,
+          "Phi": 0.0,
+          "Azimuth": 0.0,
+          "Materials": [
+            {
+              "Name": "vacuum",
+              "VolFrac": 1.0
+            },
+            {
+              "Name": "vacuum",
+              "VolFrac": 0.0
+            }
+          ],
+          "Thick": 1.0,
+          "Contrast": [
+            0.0,
+            0.0
+          ],
+          "Trans": 1.0,
+          "SlitLen": 0.0,
+          "Shift": [
+            0.0,
+            false
+          ],
+          "Transparency": [
+            0.0,
+            false
+          ],
+          "SurfRoughA": [
+            0.0,
+            false
+          ],
+          "SurfRoughB": [
+            0.0,
+            false
+          ]
+        },
+        "Limits": [
+          [
+            10.0,
+            80.0
+          ],
+          [
+            10.0,
+            80.0
+          ]
+        ]
+      },
+      "phases": [
+        {
+          "name": "built",
+          "space_group": "P n m a",
+          "cell": {
+            "length_a": 10.325357685694183,
+            "length_b": 6.0050136890644,
+            "length_c": 4.6900597012206084,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 290.8020595281678
+          },
+          "composition_per_cell": {
+            "Li": 4.0,
+            "Fe": 4.0,
+            "P": 4.0,
+            "O": 16.0
+          },
+          "density": 3.6033236648251976,
+          "atoms": [
+            {
+              "label": "Li1",
+              "element": "Li",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.96,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.03600397200255629
+            },
+            {
+              "label": "Fe2",
+              "element": "Fe",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 0.04,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.03600397200255629
+            },
+            {
+              "label": "Fe1",
+              "element": "Fe",
+              "coordinates": [
+                0.28234964792772105,
+                0.25,
+                0.972957292362899
+              ],
+              "occupancy": 0.96,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "Li2",
+              "element": "Li",
+              "coordinates": [
+                0.28224,
+                0.25,
+                0.97032
+              ],
+              "occupancy": 0.04,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "P1",
+              "element": "P",
+              "coordinates": [
+                0.09518879778296183,
+                0.25,
+                0.4247956747526856
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.011963464839265428
+            },
+            {
+              "label": "O1",
+              "element": "O",
+              "coordinates": [
+                0.09077539778685063,
+                0.25,
+                0.7486905293551206
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.0061550349101135255
+            },
+            {
+              "label": "O2",
+              "element": "O",
+              "coordinates": [
+                0.45222029133745406,
+                0.25,
+                0.22536200461436975
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O3",
+              "element": "O",
+              "coordinates": [
+                0.16072275254359297,
+                0.045866574721407115,
+                0.2806745194719757
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.014616651713468789
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR LiFePO4.fxye Bank 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "gpt56_baseline": {
+      "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\LiFePO4_final_physical_final\\LiFePO4_final_physical_final.gpx",
+      "bytes": 572723,
+      "histogram": "PWDR LiFePO4.fxye Bank 1",
+      "residuals": {
+        "Nobs": 7001,
+        "R": 16.964999569054406,
+        "Rb": 24.711800449278783,
+        "wR": 23.63469826386027,
+        "wRb": 33.933442680913764,
+        "wRmin": 6.153646394423826,
+        "Durbin-Watson": 0.04405498566675066
+      },
+      "histogram_model": {
+        "Background": [
+          [
+            "chebyschev-1",
+            true,
+            18,
+            165.3647254868877,
+            -84.26849840564084,
+            27.582809906299737,
+            20.869055555624822,
+            -10.154635877745783,
+            9.591665129722736,
+            -4.384203423625622,
+            -0.9010753326756183,
+            9.782407554577027,
+            -7.5344343252239625,
+            -4.420087345033356,
+            3.8709651806430028,
+            7.282725349492297,
+            3.907984491305905,
+            -4.168396096186733,
+            -1.416380694755823,
+            4.522334258396645,
+            -0.4029347483710043
+          ],
+          {
+            "nDebye": 0,
+            "debyeTerms": [],
+            "nPeaks": 0,
+            "peaksList": [],
+            "background PWDR": [
+              "",
+              1.0,
+              false
+            ]
+          }
+        ],
+        "Instrument Parameters": [
+          {
+            "Type": [
+              "PXC",
+              "PXC",
+              false
+            ],
+            "Bank": [
+              1.0,
+              1.0,
+              false
+            ],
+            "Lam1": [
+              1.54059302806854,
+              1.54059302806854,
+              false
+            ],
+            "Lam2": [
+              1.54441404342651,
+              1.54441404342651,
+              false
+            ],
+            "Zero": [
+              0.0,
+              -0.06133651451744909,
+              true
+            ],
+            "Polariz.": [
+              0.7,
+              0.7,
+              false
+            ],
+            "Azimuth": [
+              0.0,
+              0.0,
+              false
+            ],
+            "I(L2)/I(L1)": [
+              0.718264,
+              0.718264,
+              false
+            ],
+            "U": [
+              54.02330411789524,
+              -13132.79853863434,
+              true
+            ],
+            "V": [
+              -20.978478620425733,
+              980.80553147809,
+              true
+            ],
+            "W": [
+              4.101290065559549,
+              23.61409185795033,
+              true
+            ],
+            "X": [
+              0.0,
+              -39.185524212463406,
+              true
+            ],
+            "Y": [
+              0.0,
+              228.68254952989065,
+              true
+            ],
+            "Z": [
+              0.0,
+              0.0,
+              false
+            ],
+            "SH/L": [
+              0.002,
+              0.002,
+              false
+            ]
+          },
+          {}
+        ],
+        "Sample Parameters": {
+          "InstrName": "",
+          "ranId": 1485436027965441573,
+          "Scale": [
+            38.182690413052434,
+            true
+          ],
+          "Type": "Bragg-Brentano",
+          "Absorption": [
+            0.0,
+            false
+          ],
+          "DisplaceX": [
+            0.0,
+            false
+          ],
+          "DisplaceY": [
+            0.0,
+            false
+          ],
+          "Temperature": 300.0,
+          "Pressure": 0.1,
+          "Time": 0.0,
+          "FreePrm1": 0.0,
+          "FreePrm2": 0.0,
+          "FreePrm3": 0.0,
+          "Gonio. radius": 200.0,
+          "Omega": 0.0,
+          "Chi": 0.0,
+          "Phi": 0.0,
+          "Azimuth": 0.0,
+          "Materials": [
+            {
+              "Name": "vacuum",
+              "VolFrac": 1.0
+            },
+            {
+              "Name": "vacuum",
+              "VolFrac": 0.0
+            }
+          ],
+          "Thick": 1.0,
+          "Contrast": [
+            0.0,
+            0.0
+          ],
+          "Trans": 1.0,
+          "SlitLen": 0.0,
+          "Shift": [
+            0.0,
+            false
+          ],
+          "Transparency": [
+            0.0,
+            false
+          ],
+          "SurfRoughA": [
+            0.0,
+            false
+          ],
+          "SurfRoughB": [
+            0.0,
+            false
+          ]
+        },
+        "Limits": [
+          [
+            10.0,
+            80.0
+          ],
+          [
+            10.0,
+            80.0
+          ]
+        ]
+      },
+      "phases": [
+        {
+          "name": "Li4 Fe4 P4 O16",
+          "space_group": "P n m a",
+          "cell": {
+            "length_a": 10.335532804110526,
+            "length_b": 6.004651875707134,
+            "length_c": 4.686941423013413,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 290.8775673053242
+          },
+          "composition_per_cell": {
+            "Li": 4.0,
+            "Fe": 4.0,
+            "P": 4.0,
+            "O": 16.0
+          },
+          "density": 3.6023882920399166,
+          "atoms": [
+            {
+              "label": "Li0",
+              "element": "Li",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.02
+            },
+            {
+              "label": "Fe1",
+              "element": "Fe",
+              "coordinates": [
+                0.2168188115612076,
+                0.75,
+                0.4782254667244792
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "P2",
+              "element": "P",
+              "coordinates": [
+                0.10084625372042891,
+                0.25,
+                0.433982237635479
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O3",
+              "element": "O",
+              "coordinates": [
+                0.19777802189245877,
+                0.042049432945237636,
+                0.27947504102346826
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O4",
+              "element": "O",
+              "coordinates": [
+                0.05084952243413174,
+                0.75,
+                0.7472684088398465
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O5",
+              "element": "O",
+              "coordinates": [
+                0.08712569072292113,
+                0.25,
+                0.7945252013208312
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR LiFePO4.fxye Bank 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  0.33829024939845087,
+                  1.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "gpt56_strict": {
+      "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\LiFePO4_strict_final\\LiFePO4_strict_final.gpx",
+      "bytes": 561554,
+      "histogram": "PWDR LiFePO4.fxye Bank 1",
+      "residuals": {
+        "Nobs": 7001,
+        "R": 17.07788230136524,
+        "Rb": 25.319011829320427,
+        "wR": 23.841189452924777,
+        "wRb": 34.72969581675585,
+        "wRmin": 6.153646394423826,
+        "Durbin-Watson": 0.0436970421144303
+      },
+      "histogram_model": {
+        "Background": [
+          [
+            "chebyschev-1",
+            true,
+            18,
+            170.1749897699667,
+            -81.88985907406969,
+            23.00652834826903,
+            18.408929941878746,
+            -11.38551784106259,
+            9.331237478619144,
+            -2.990076536082544,
+            -1.795735067160629,
+            8.237072390727288,
+            -5.573136141797015,
+            -1.3923233466895806,
+            2.736225665294511,
+            4.288107186352204,
+            3.838616333845442,
+            -2.511599946744874,
+            -2.2487356254748767,
+            2.416904118697836,
+            -1.9819760491793068
+          ],
+          {
+            "nDebye": 0,
+            "debyeTerms": [],
+            "nPeaks": 0,
+            "peaksList": [],
+            "background PWDR": [
+              "",
+              1.0,
+              false
+            ]
+          }
+        ],
+        "Instrument Parameters": [
+          {
+            "Type": [
+              "PXC",
+              "PXC",
+              false
+            ],
+            "Bank": [
+              1.0,
+              1.0,
+              false
+            ],
+            "Lam1": [
+              1.54059302806854,
+              1.54059302806854,
+              false
+            ],
+            "Lam2": [
+              1.54441404342651,
+              1.54441404342651,
+              false
+            ],
+            "Zero": [
+              0.0,
+              -0.05609893503219102,
+              true
+            ],
+            "Polariz.": [
+              0.7,
+              0.7,
+              false
+            ],
+            "Azimuth": [
+              0.0,
+              0.0,
+              false
+            ],
+            "I(L2)/I(L1)": [
+              0.718264,
+              0.718264,
+              false
+            ],
+            "U": [
+              54.02330411789524,
+              -13371.680763842023,
+              true
+            ],
+            "V": [
+              -20.978478620425733,
+              993.11541972086,
+              true
+            ],
+            "W": [
+              4.101290065559549,
+              28.548593839810227,
+              true
+            ],
+            "X": [
+              0.0,
+              -39.18924110103431,
+              true
+            ],
+            "Y": [
+              0.0,
+              228.68029723073352,
+              true
+            ],
+            "Z": [
+              0.0,
+              0.0,
+              false
+            ],
+            "SH/L": [
+              0.002,
+              0.002,
+              false
+            ]
+          },
+          {}
+        ],
+        "Sample Parameters": {
+          "InstrName": "",
+          "ranId": 1485436027965441573,
+          "Scale": [
+            35.82507276225026,
+            true
+          ],
+          "Type": "Bragg-Brentano",
+          "Absorption": [
+            0.0,
+            false
+          ],
+          "DisplaceX": [
+            0.0,
+            false
+          ],
+          "DisplaceY": [
+            0.0,
+            false
+          ],
+          "Temperature": 300.0,
+          "Pressure": 0.1,
+          "Time": 0.0,
+          "FreePrm1": 0.0,
+          "FreePrm2": 0.0,
+          "FreePrm3": 0.0,
+          "Gonio. radius": 200.0,
+          "Omega": 0.0,
+          "Chi": 0.0,
+          "Phi": 0.0,
+          "Azimuth": 0.0,
+          "Materials": [
+            {
+              "Name": "vacuum",
+              "VolFrac": 1.0
+            },
+            {
+              "Name": "vacuum",
+              "VolFrac": 0.0
+            }
+          ],
+          "Thick": 1.0,
+          "Contrast": [
+            0.0,
+            0.0
+          ],
+          "Trans": 1.0,
+          "SlitLen": 0.0,
+          "Shift": [
+            0.0,
+            false
+          ],
+          "Transparency": [
+            0.0,
+            false
+          ],
+          "SurfRoughA": [
+            0.0,
+            false
+          ],
+          "SurfRoughB": [
+            0.0,
+            false
+          ]
+        },
+        "Limits": [
+          [
+            10.0,
+            80.0
+          ],
+          [
+            10.0,
+            80.0
+          ]
+        ]
+      },
+      "phases": [
+        {
+          "name": "Li4 Fe4 P4 O16",
+          "space_group": "P n m a",
+          "cell": {
+            "length_a": 10.332244832868616,
+            "length_b": 6.006124803375307,
+            "length_c": 4.689121197401673,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 290.9916310820979
+          },
+          "composition_per_cell": {
+            "Li": 4.0,
+            "Fe": 4.0,
+            "P": 4.0,
+            "O": 16.0
+          },
+          "density": 3.6009762170174584,
+          "atoms": [
+            {
+              "label": "Li0",
+              "element": "Li",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.02
+            },
+            {
+              "label": "Fe1",
+              "element": "Fe",
+              "coordinates": [
+                0.216935428493902,
+                0.75,
+                0.47544908987577417
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "P2",
+              "element": "P",
+              "coordinates": [
+                0.10251647056306877,
+                0.25,
+                0.42867660105522254
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O3",
+              "element": "O",
+              "coordinates": [
+                0.17053537362679755,
+                0.040143442842889225,
+                0.26846520180815525
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O4",
+              "element": "O",
+              "coordinates": [
+                0.0546771441414728,
+                0.75,
+                0.7482650670757399
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O5",
+              "element": "O",
+              "coordinates": [
+                0.08263949282110293,
+                0.25,
+                0.7773749139776768
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR LiFePO4.fxye Bank 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  0.338776082223546,
+                  1.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "gpt56": {
+      "path": "workspace\\GPT 5.6 SOL\\dsh-xrd-test-evidence\\runs\\session-e03ae580-d18c-423f-806e-9920746a5e8e\\workspace_snapshot\\LiFePO4_best_physical_final\\LiFePO4_best_physical_final.gpx",
+      "bytes": 561540,
+      "histogram": "PWDR LiFePO4.fxye Bank 1",
+      "residuals": {
+        "Nobs": 7001,
+        "R": 17.06709505037938,
+        "Rb": 24.994363251350592,
+        "wR": 23.75855404591911,
+        "wRb": 34.423578416882556,
+        "wRmin": 6.153646394423826,
+        "Durbin-Watson": 0.04558299330270539
+      },
+      "histogram_model": {
+        "Background": [
+          [
+            "chebyschev-1",
+            true,
+            18,
+            167.23773144633915,
+            -82.64469315029548,
+            26.167338206428777,
+            17.822241004832108,
+            -12.120726075936286,
+            9.596866636085542,
+            -4.1088511267015,
+            -1.9712029326268443,
+            9.221586548017147,
+            -5.78073427507828,
+            -2.309808106825161,
+            2.3725018225577728,
+            5.158468022223064,
+            3.975418725418719,
+            -3.191823953792714,
+            -1.6820127995363108,
+            3.2872049862475583,
+            -2.1120558234688662
+          ],
+          {
+            "nDebye": 0,
+            "debyeTerms": [],
+            "nPeaks": 0,
+            "peaksList": [],
+            "background PWDR": [
+              "",
+              1.0,
+              false
+            ]
+          }
+        ],
+        "Instrument Parameters": [
+          {
+            "Type": [
+              "PXC",
+              "PXC",
+              false
+            ],
+            "Bank": [
+              1.0,
+              1.0,
+              false
+            ],
+            "Lam1": [
+              1.54059302806854,
+              1.54059302806854,
+              false
+            ],
+            "Lam2": [
+              1.54441404342651,
+              1.54441404342651,
+              false
+            ],
+            "Zero": [
+              0.0,
+              -0.05626074235649432,
+              true
+            ],
+            "Polariz.": [
+              0.7,
+              0.7,
+              false
+            ],
+            "Azimuth": [
+              0.0,
+              0.0,
+              false
+            ],
+            "I(L2)/I(L1)": [
+              0.718264,
+              0.718264,
+              false
+            ],
+            "U": [
+              54.02330411789524,
+              -13493.190976165024,
+              true
+            ],
+            "V": [
+              -20.978478620425733,
+              991.0084610185627,
+              true
+            ],
+            "W": [
+              4.101290065559549,
+              30.1030666553166,
+              true
+            ],
+            "X": [
+              0.0,
+              -39.1811189535773,
+              true
+            ],
+            "Y": [
+              0.0,
+              228.72809075003403,
+              true
+            ],
+            "Z": [
+              0.0,
+              0.0,
+              false
+            ],
+            "SH/L": [
+              0.002,
+              0.002,
+              false
+            ]
+          },
+          {}
+        ],
+        "Sample Parameters": {
+          "InstrName": "",
+          "ranId": 1485436027965441573,
+          "Scale": [
+            36.56137306753624,
+            true
+          ],
+          "Type": "Bragg-Brentano",
+          "Absorption": [
+            0.0,
+            false
+          ],
+          "DisplaceX": [
+            0.0,
+            false
+          ],
+          "DisplaceY": [
+            0.0,
+            false
+          ],
+          "Temperature": 300.0,
+          "Pressure": 0.1,
+          "Time": 0.0,
+          "FreePrm1": 0.0,
+          "FreePrm2": 0.0,
+          "FreePrm3": 0.0,
+          "Gonio. radius": 200.0,
+          "Omega": 0.0,
+          "Chi": 0.0,
+          "Phi": 0.0,
+          "Azimuth": 0.0,
+          "Materials": [
+            {
+              "Name": "vacuum",
+              "VolFrac": 1.0
+            },
+            {
+              "Name": "vacuum",
+              "VolFrac": 0.0
+            }
+          ],
+          "Thick": 1.0,
+          "Contrast": [
+            0.0,
+            0.0
+          ],
+          "Trans": 1.0,
+          "SlitLen": 0.0,
+          "Shift": [
+            0.0,
+            false
+          ],
+          "Transparency": [
+            0.0,
+            false
+          ],
+          "SurfRoughA": [
+            0.0,
+            false
+          ],
+          "SurfRoughB": [
+            0.0,
+            false
+          ]
+        },
+        "Limits": [
+          [
+            10.0,
+            80.0
+          ],
+          [
+            10.0,
+            80.0
+          ]
+        ]
+      },
+      "phases": [
+        {
+          "name": "Li4 Fe4 P4 O16",
+          "space_group": "P n m a",
+          "cell": {
+            "length_a": 10.333764263729567,
+            "length_b": 6.005758128602801,
+            "length_c": 4.68885397986745,
+            "angle_alpha": 90.0,
+            "angle_beta": 90.0,
+            "angle_gamma": 90.0,
+            "volume": 291.00007172159957
+          },
+          "composition_per_cell": {
+            "Li": 4.0,
+            "Fe": 4.0,
+            "P": 4.0,
+            "O": 16.0
+          },
+          "density": 3.6008717684449123,
+          "atoms": [
+            {
+              "label": "Li0",
+              "element": "Li",
+              "coordinates": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.02
+            },
+            {
+              "label": "Fe1",
+              "element": "Fe",
+              "coordinates": [
+                0.216935428493902,
+                0.75,
+                0.47544908987577417
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "P2",
+              "element": "P",
+              "coordinates": [
+                0.10251647056306877,
+                0.25,
+                0.42867660105522254
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O3",
+              "element": "O",
+              "coordinates": [
+                0.17053537362679755,
+                0.040143442842889225,
+                0.26846520180815525
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 8,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O4",
+              "element": "O",
+              "coordinates": [
+                0.0546771441414728,
+                0.75,
+                0.7482650670757399
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            },
+            {
+              "label": "O5",
+              "element": "O",
+              "coordinates": [
+                0.08263949282110293,
+                0.25,
+                0.7773749139776768
+              ],
+              "occupancy": 1.0,
+              "multiplicity": 4,
+              "adp_type": "I",
+              "adp": 0.005
+            }
+          ],
+          "histogram_parameters": {
+            "PWDR LiFePO4.fxye Bank 1": {
+              "Scale": [
+                1.0,
+                false
+              ],
+              "Size": [
+                "isotropic",
+                [
+                  0.33772160869063056,
+                  1.0,
+                  1.0
+                ],
+                [
+                  true,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Mustrain": [
+                "isotropic",
+                [
+                  1000.0,
+                  1000.0,
+                  1.0
+                ],
+                [
+                  false,
+                  false,
+                  false
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ],
+                [
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01,
+                  0.01
+                ],
+                [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              ],
+              "Pref.Ori.": [
+                "MD",
+                1.0,
+                false,
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0,
+                {},
+                [],
+                0.1
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "manual_vs_deepseek": {
+      "x": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "correlation": 1.0,
+        "right_from_left_slope": 0.9999999999999998,
+        "right_from_left_intercept": -2.4711315183558404e-15,
+        "rmse_after_linear_transform": 1.1162967949671252e-14
+      },
+      "yobs": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 12438.686099999999,
+        "mean_abs_diff": 1056.318580602771,
+        "correlation": 0.9999999999998028,
+        "right_from_left_slope": 0.19999999919571906,
+        "right_from_left_intercept": 3.763545341812275e-07,
+        "rmse_after_linear_transform": 0.00014114383299061798
+      },
+      "weight": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 0.007037947734440638,
+        "mean_abs_diff": 0.0037768300160300255,
+        "correlation": 0.9999999999968212,
+        "right_from_left_slope": 4.999999973059366,
+        "right_from_left_intercept": 3.8703902456035964e-11,
+        "rmse_after_linear_transform": 4.105325563292191e-09
+      },
+      "ycalc": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 12889.949010406603,
+        "mean_abs_diff": 1051.859439851462,
+        "correlation": 0.9967192782777489,
+        "right_from_left_slope": 0.20060422519772173,
+        "right_from_left_intercept": -0.7204904512159114,
+        "rmse_after_linear_transform": 18.132467477302843
+      },
+      "ybkg": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 1053.6857593173972,
+        "mean_abs_diff": 732.5802564597246,
+        "correlation": 0.9977879272606044,
+        "right_from_left_slope": 0.1828513419812552,
+        "right_from_left_intercept": 17.251742121491514,
+        "rmse_after_linear_transform": 3.2110272065512317
+      },
+      "ydiff": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 851.2055245301804,
+        "mean_abs_diff": 56.287396090254056,
+        "correlation": 0.6291351747073156,
+        "right_from_left_slope": 0.1264556261403169,
+        "right_from_left_intercept": 0.32911044820141216,
+        "rmse_after_linear_transform": 16.417001812524244
+      }
+    },
+    "manual_vs_gpt56": {
+      "x": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "correlation": 1.0,
+        "right_from_left_slope": 0.9999999999999998,
+        "right_from_left_intercept": -2.4711315183558404e-15,
+        "rmse_after_linear_transform": 1.1162967949671252e-14
+      },
+      "yobs": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 12438.686099999999,
+        "mean_abs_diff": 1056.3185806456222,
+        "correlation": 0.9999999999998028,
+        "right_from_left_slope": 0.1999999993491018,
+        "right_from_left_intercept": 1.3097728034485597e-07,
+        "rmse_after_linear_transform": 0.0001411597953701503
+      },
+      "weight": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 0.007037947734440638,
+        "mean_abs_diff": 0.00377683001868923,
+        "correlation": 0.9999999999968219,
+        "right_from_left_slope": 4.999999982506817,
+        "right_from_left_intercept": 3.244275146372394e-11,
+        "rmse_after_linear_transform": 4.104733164556421e-09
+      },
+      "ycalc": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 14471.819167272672,
+        "mean_abs_diff": 1065.7559782119436,
+        "correlation": 0.8843423684218703,
+        "right_from_left_slope": 0.13840173292925612,
+        "right_from_left_intercept": 67.17407446167641,
+        "rmse_after_linear_transform": 81.32697828731582
+      },
+      "ybkg": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 1033.6861477128068,
+        "mean_abs_diff": 758.3306664136323,
+        "correlation": 0.9310240482873343,
+        "right_from_left_slope": 0.21354430834416793,
+        "right_from_left_intercept": -36.663149392099456,
+        "rmse_after_linear_transform": 22.06375760412347
+      },
+      "ydiff": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 2033.1330672726722,
+        "mean_abs_diff": 72.54069520830355,
+        "correlation": 0.21507356663918661,
+        "right_from_left_slope": 0.22288661923671263,
+        "right_from_left_intercept": 13.697071360744303,
+        "rmse_after_linear_transform": 106.34718480197505
+      }
+    },
+    "deepseek_vs_gpt56_baseline": {
+      "x": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "correlation": 1.0,
+        "right_from_left_slope": 0.9999999999999998,
+        "right_from_left_intercept": -2.4711315183558404e-15,
+        "rmse_after_linear_transform": 1.1162967949671252e-14
+      },
+      "yobs": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 0.00010000000020227162,
+        "mean_abs_diff": 4.427938865739119e-07,
+        "correlation": 0.9999999999999992,
+        "right_from_left_slope": 1.0000000007669128,
+        "right_from_left_intercept": -2.453772092454149e-07,
+        "rmse_after_linear_transform": 6.651906248499697e-06
+      },
+      "weight": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 5.8870024306767466e-09,
+        "mean_abs_diff": 8.95038434301593e-12,
+        "correlation": 0.9999999999999948,
+        "right_from_left_slope": 1.0000000018894837,
+        "right_from_left_intercept": -6.261120259144145e-12,
+        "rmse_after_linear_transform": 1.6776157484058258e-10
+      },
+      "ycalc": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 1645.7249012172917,
+        "mean_abs_diff": 42.005224091515906,
+        "correlation": 0.8957159900952701,
+        "right_from_left_slope": 0.695288386289372,
+        "right_from_left_intercept": 66.64359249881579,
+        "rmse_after_linear_transform": 77.32213735005246
+      },
+      "ybkg": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 71.44970612038101,
+        "mean_abs_diff": 31.544579878287685,
+        "correlation": 0.9422302088111325,
+        "right_from_left_slope": 1.229365336396525,
+        "right_from_left_intercept": -70.6617880457868,
+        "rmse_after_linear_transform": 21.11029401020772
+      },
+      "ydiff": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 1645.7249012172917,
+        "mean_abs_diff": 42.00522402009752,
+        "correlation": 0.33672128024519743,
+        "right_from_left_slope": 1.7269427629701262,
+        "right_from_left_intercept": 12.76991780512209,
+        "rmse_after_linear_transform": 101.99603897052256
+      }
+    },
+    "deepseek_vs_gpt56_strict": {
+      "x": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "correlation": 1.0,
+        "right_from_left_slope": 0.9999999999999998,
+        "right_from_left_intercept": -2.4711315183558404e-15,
+        "rmse_after_linear_transform": 1.1162967949671252e-14
+      },
+      "yobs": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 0.00010000000020227162,
+        "mean_abs_diff": 4.427938865739119e-07,
+        "correlation": 0.9999999999999992,
+        "right_from_left_slope": 1.0000000007669128,
+        "right_from_left_intercept": -2.453772092454149e-07,
+        "rmse_after_linear_transform": 6.651906248499697e-06
+      },
+      "weight": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 5.8870024306767466e-09,
+        "mean_abs_diff": 8.95038434301593e-12,
+        "correlation": 0.9999999999999948,
+        "right_from_left_slope": 1.0000000018894837,
+        "right_from_left_intercept": -6.261120259144145e-12,
+        "rmse_after_linear_transform": 1.6776157484058258e-10
+      },
+      "ycalc": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 1648.8115538704858,
+        "mean_abs_diff": 42.43669485596595,
+        "correlation": 0.8942191397680722,
+        "right_from_left_slope": 0.6849397537583448,
+        "right_from_left_intercept": 71.00177941871233,
+        "rmse_after_linear_transform": 76.81406952165914
+      },
+      "ybkg": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 48.79953698476733,
+        "mean_abs_diff": 25.414955036789493,
+        "correlation": 0.9574054422150764,
+        "right_from_left_slope": 1.175128006102736,
+        "right_from_left_intercept": -54.23429728179425,
+        "rmse_after_linear_transform": 17.11891867229084
+      },
+      "ydiff": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 1648.8115538704858,
+        "mean_abs_diff": 42.43669478454758,
+        "correlation": 0.3355554352299233,
+        "right_from_left_slope": 1.739552870112305,
+        "right_from_left_intercept": 11.121124165760621,
+        "rmse_after_linear_transform": 103.14333144427444
+      }
+    },
+    "deepseek_vs_gpt56": {
+      "x": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "correlation": 1.0,
+        "right_from_left_slope": 0.9999999999999998,
+        "right_from_left_intercept": -2.4711315183558404e-15,
+        "rmse_after_linear_transform": 1.1162967949671252e-14
+      },
+      "yobs": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 0.00010000000020227162,
+        "mean_abs_diff": 4.427938865739119e-07,
+        "correlation": 0.9999999999999992,
+        "right_from_left_slope": 1.0000000007669128,
+        "right_from_left_intercept": -2.453772092454149e-07,
+        "rmse_after_linear_transform": 6.651906248499697e-06
+      },
+      "weight": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 5.8870024306767466e-09,
+        "mean_abs_diff": 8.95038434301593e-12,
+        "correlation": 0.9999999999999948,
+        "right_from_left_slope": 1.0000000018894837,
+        "right_from_left_intercept": -6.261120259144145e-12,
+        "rmse_after_linear_transform": 1.6776157484058258e-10
+      },
+      "ycalc": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 1633.758650524215,
+        "mean_abs_diff": 42.37452249247014,
+        "correlation": 0.894493245708891,
+        "right_from_left_slope": 0.6955541457032979,
+        "right_from_left_intercept": 66.19019019208376,
+        "rmse_after_linear_transform": 77.88507538793664
+      },
+      "ybkg": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 58.7599613210177,
+        "mean_abs_diff": 29.193863804640653,
+        "correlation": 0.9450785593472536,
+        "right_from_left_slope": 1.1828647915933983,
+        "right_from_left_intercept": -59.58767461299401,
+        "rmse_after_linear_transform": 19.759516767408382
+      },
+      "ydiff": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 1633.758650524215,
+        "mean_abs_diff": 42.37452239248442,
+        "correlation": 0.344825376351683,
+        "right_from_left_slope": 1.7778781368106606,
+        "right_from_left_intercept": 13.10134068437736,
+        "rmse_after_linear_transform": 102.21666697831945
+      }
+    },
+    "gpt56_strict_vs_gpt56": {
+      "x": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "correlation": 1.0,
+        "right_from_left_slope": 0.9999999999999998,
+        "right_from_left_intercept": -2.4711315183558404e-15,
+        "rmse_after_linear_transform": 1.1162967949671252e-14
+      },
+      "yobs": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "correlation": 0.9999999999999999,
+        "right_from_left_slope": 1.000000000000001,
+        "right_from_left_intercept": 4.394683704260766e-15,
+        "rmse_after_linear_transform": 3.846798855115416e-13
+      },
+      "weight": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "correlation": 1.0,
+        "right_from_left_slope": 1.0000000000000009,
+        "right_from_left_intercept": -5.666940519060766e-19,
+        "rmse_after_linear_transform": 3.7159839666520625e-18
+      },
+      "ycalc": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 259.4176047332899,
+        "mean_abs_diff": 2.9809510894296407,
+        "correlation": 0.9996997037695272,
+        "right_from_left_slope": 1.0148807832991849,
+        "right_from_left_intercept": -5.757153760013354,
+        "rmse_after_linear_transform": 4.2689878026358885
+      },
+      "ybkg": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 10.309418266472818,
+        "mean_abs_diff": 4.00435810166785,
+        "correlation": 0.9989346567547953,
+        "right_from_left_slope": 1.018626546804653,
+        "right_from_left_intercept": -6.961824304441853,
+        "rmse_after_linear_transform": 2.789850060153583
+      },
+      "ydiff": {
+        "same_shape": true,
+        "n": 7001,
+        "exact_equal": false,
+        "max_abs_diff": 259.4176047332899,
+        "mean_abs_diff": 2.9809510894296407,
+        "correlation": 0.9989772112205693,
+        "right_from_left_slope": 0.9935391765886692,
+        "right_from_left_intercept": 2.102735898274479,
+        "rmse_after_linear_transform": 4.923876289860763
+      }
+    }
+  }
+}

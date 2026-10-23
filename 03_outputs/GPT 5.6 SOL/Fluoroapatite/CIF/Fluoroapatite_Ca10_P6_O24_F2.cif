@@ -1,0 +1,60 @@
+ 
+######################################################################
+data_Fluoroapatite_final
+
+# phase info for Ca10 P6 O24 F2 follows
+_pd_phase_name  "Ca10 P6 O24 F2"
+_cell_length_a  9.37046
+_cell_length_b  9.37046
+_cell_length_c  6.88484
+_cell_angle_alpha  90.0000
+_cell_angle_beta  90.0000
+_cell_angle_gamma  120.000
+_cell_volume  523.535
+_symmetry_cell_setting  hexagonal
+_symmetry_space_group_name_H-M  "P 63/m"
+loop_
+    _space_group_symop_id
+    _space_group_symop_operation_xyz
+     1  x,y,z
+     2  x-y,x,1/2+z
+     3  -y,x-y,z
+     4  -x,-y,1/2+z
+     5  y-x,-x,z
+     6  y,y-x,1/2+z
+     7  -x,-y,-z
+     8  y-x,-x,1/2-z
+     9  y,y-x,-z
+    10  x,y,1/2-z
+    11  x-y,x,-z
+    12  -y,x-y,1/2-z
+
+# ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+loop_ 
+   _atom_site_label
+   _atom_site_type_symbol
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_occupancy
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_site_symmetry_multiplicity
+Ca0    Ca   0.00769(23) 0.24932(18) 0.25000     1.0000     Uiso 0.0111(4)  6   
+Ca1    Ca   0.33333     0.66667     0.4991(3)   1.0000     Uiso 0.0119(5)  4   
+P2     P    0.02924(25) 0.39697(24) 0.75000     1.0000     Uiso 0.0115(5)  6   
+O3     O    0.0819(4)   0.3403(4)   0.5711(4)   1.0000     Uiso 0.0123(9)  12  
+O4     O    0.1219(6)   0.5904(5)   0.75000     1.0000     Uiso 0.0130(13) 6   
+O5     O    0.1600(5)   0.6748(5)   0.25000     1.0000     Uiso 0.0113(13) 6   
+F6     F    0.00000     0.00000     0.25000     1.0000     Uiso 0.0203(17) 2   
+
+loop_  _atom_type_symbol _atom_type_number_in_cell
+  Ca      10
+  F       2
+  O       24
+  P       6
+
+# Note that Z affects _cell_formula_sum and _weight
+_cell_formula_units_Z  2
+_chemical_formula_sum  "Ca5 F O12 P3"
+_chemical_formula_weight  504.31

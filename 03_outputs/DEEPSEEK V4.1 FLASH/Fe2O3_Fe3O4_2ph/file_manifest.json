@@ -1,0 +1,74 @@
+﻿{
+  "model": "DEEPSEEK V4.1 FLASH",
+  "case_id": "Fe2O3_Fe3O4_2ph",
+  "run_id": "session-588a939a-a652-444f-9fd7-b5e427b2d84f",
+  "selection_basis": "frozen artifact roles cross-referenced with original final answer",
+  "selection_tool_seq": null,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 2
+  },
+  "all_three_types_present": true,
+  "same_final_state": "frozen roles; see preserved evidence",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-588a939a-a652-444f-9fd7-b5e427b2d84f\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_built.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_built.cif",
+      "role": "cif",
+      "bytes": 2091,
+      "sha256": "a47a5f7884e7ef19204c4eacc3383e7ea05d1480bbb850137f23c984175812e6",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-588a939a-a652-444f-9fd7-b5e427b2d84f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_built.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-588a939a-a652-444f-9fd7-b5e427b2d84f\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_Fe3_O4.cif",
+      "destination": "DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/CIF/Fe2O3_Fe3O4_2ph_Fe3_O4.cif",
+      "role": "cif",
+      "bytes": 5943,
+      "sha256": "0d8c02802bd2b764d4134b300a28d74570ef747e1c3dd3aa619317e32d6aa097",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-588a939a-a652-444f-9fd7-b5e427b2d84f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_cif",
+      "declared_original_path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_Fe3_O4.cif"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-588a939a-a652-444f-9fd7-b5e427b2d84f\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_final.gpx",
+      "destination": "DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/GPX/Fe2O3_Fe3O4_2ph_final.gpx",
+      "role": "gpx",
+      "bytes": 373080,
+      "sha256": "37b9a0065b128bc88b42f0e8f81eede7807490112d623b7d77e91d04d4a51ecf",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-588a939a-a652-444f-9fd7-b5e427b2d84f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_gpx",
+      "declared_original_path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_final.gpx"
+    },
+    {
+      "source": "workspace\\DEEPSEEK V4.1 FLASH\\dsh-xrd-test-evidence\\runs\\session-588a939a-a652-444f-9fd7-b5e427b2d84f\\artifacts\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_final\\Fe2O3_Fe3O4_2ph_fit.png",
+      "destination": "DEEPSEEK V4.1 FLASH/Fe2O3_Fe3O4_2ph/figures/Fe2O3_Fe3O4_2ph_fit.png",
+      "role": "image",
+      "bytes": 295565,
+      "sha256": "5d982f8f720f903e956aad995f336c702f5a42a5acfc704745d5c2a3f32f742d",
+      "model": "DEEPSEEK V4.1 FLASH",
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-588a939a-a652-444f-9fd7-b5e427b2d84f",
+      "primary": true,
+      "output_group": "final delivery",
+      "declaration_basis": "technical_stats.artifacts.final_fit_or_figure",
+      "declared_original_path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_fit.png"
+    }
+  ]
+}

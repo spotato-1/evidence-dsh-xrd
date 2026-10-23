@@ -1,0 +1,71 @@
+{
+  "model": "QWEN 3.7 PLUS",
+  "case_count": 6,
+  "cases": [
+    {
+      "case_id": "Amorphous",
+      "run_id": "session-2f769795-b21d-4c3d-b2d2-5007564bdac1",
+      "status": "eligible",
+      "final_backend": "manual_full_pattern_model",
+      "tool_calls": 65,
+      "wr": null,
+      "warnings": []
+    },
+    {
+      "case_id": "Fe2O3_Fe3O4_2ph",
+      "run_id": "session-94796291-69ce-4e65-8fb8-c6845c81b051",
+      "status": "excluded/incomplete_refinement",
+      "final_backend": "manual_full_pattern_model",
+      "tool_calls": 96,
+      "wr": null,
+      "warnings": [
+        "invalid_workflow_state_json; original bytes preserved"
+      ]
+    },
+    {
+      "case_id": "FE50",
+      "run_id": "session-0c9a843c-46fd-4a76-9e36-2d98a8eed553",
+      "status": "eligible_with_warnings",
+      "final_backend": "GSAS-II",
+      "tool_calls": 205,
+      "wr": 13.9,
+      "warnings": [
+        "recorded_workflow_phase_not_5"
+      ]
+    },
+    {
+      "case_id": "Fluoroapatite",
+      "run_id": "session-e8820552-bb5a-48f9-b0fd-e038821dd937",
+      "status": "eligible_with_warnings",
+      "final_backend": "GSAS-II",
+      "tool_calls": 84,
+      "wr": 20.945263613111752,
+      "warnings": [
+        "session_contains_error_ended_turns",
+        "finalize_reported_missing_lst_log; chi2_and_gof_omitted"
+      ]
+    },
+    {
+      "case_id": "LayeredOxide",
+      "run_id": "session-1598c1dd-025f-4348-992e-ed66cbdfc16a",
+      "status": "eligible",
+      "final_backend": "GSAS-II",
+      "tool_calls": 95,
+      "wr": 8.65,
+      "warnings": []
+    },
+    {
+      "case_id": "LiFePO4",
+      "run_id": "session-a3936e9f-120b-47ba-a257-a591d76852a1",
+      "status": "eligible_with_warnings",
+      "final_backend": "GSAS-II",
+      "tool_calls": 84,
+      "wr": null,
+      "warnings": [
+        "last_export_source_gsas_final_fixed.gpx_differs_from_final_answer_gsas_antisite8.gpx",
+        "export_tool_reported_structural_anomalies; retained as observed tool verdict"
+      ]
+    }
+  ],
+  "scoring_performed": false
+}

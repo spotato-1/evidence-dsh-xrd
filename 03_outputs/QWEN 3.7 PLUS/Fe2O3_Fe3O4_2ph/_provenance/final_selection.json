@@ -1,0 +1,14 @@
+﻿{
+  "basis": "last completed xrd_export_cif result; validation verdict is preserved separately",
+  "tool_seq": 9121,
+  "result_seq": 9122,
+  "input_gpx": null,
+  "components": "workspace\\QWEN 3.7 PLUS\\Fe2O3_Fe3O4_2ph\\components.json",
+  "result": null,
+  "candidate_files": [
+    "workspace\\QWEN 3.7 PLUS\\Fe2O3_Fe3O4_2ph\\Fe2O3_Fe3O4_2ph_v3_fit.png"
+  ],
+  "metrics": null,
+  "same_source_link": "export call source and resulting files retained; final answer may conflict",
+  "verdict_line": "xrd_export_cif: skipped"
+}

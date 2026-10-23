@@ -1,0 +1,375 @@
+﻿{
+  "schema_version": "1.1",
+  "campaign_id": "dsh-xrd-qwen-3.8-max-ai-agent-v1-2026-10-12",
+  "case_id": "Amorphous",
+  "run_id": "session-f1105b27-2348-44b9-a5e8-ba8daf885a5d",
+  "collected_at": "2026-10-11T22:49:04.347576+00:00",
+  "source": {
+    "model_label": "QWEN 3.8 MAX",
+    "assistant_model_routes": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.8-max-preview"
+      }
+    ],
+    "request_configs": [
+      {
+        "provider": "qwen-token-plan-cn",
+        "model": "qwen3.8-max-preview",
+        "reasoningEffort": "high",
+        "maxTokens": 131072
+      }
+    ],
+    "session_container": {
+      "path": "workspace\\DSH\\dsh-portable\\dsh-home\\sessions\\--workspace-QWEN~00203.8~0020MAX--\\session-f1105b27-2348-44b9-a5e8-ba8daf885a5d\\session.jsonl.zstd",
+      "bytes": 1741992,
+      "sha256": "1022b98a1dd06dd24f8aea2536202dca679e732fa721456e5a4cd15c9fdc8bba",
+      "source_mtime_ns": 1791634137072551200,
+      "decode_stats": {
+        "reused_staging": true
+      }
+    },
+    "input_correspondence": [
+      {
+        "input_path": "inputs/agent_input/Amorphous/pattern.raw",
+        "input_sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2",
+        "workspace_file_present": true,
+        "workspace_sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2",
+        "hash_match": true
+      },
+      {
+        "input_path": "inputs/agent_input/Amorphous/pattern_2theta.txt",
+        "input_sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714",
+        "workspace_file_present": true,
+        "workspace_sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714",
+        "hash_match": true
+      }
+    ],
+    "workspace_copy_hashes_verified": true,
+    "original_modified": false,
+    "plugin_version": "0.9.1",
+    "plugin_version_basis": "installed package.json at collection time; historical skill contents retained in session",
+    "dsh_version": "0.1.0-rc.5"
+  },
+  "execution": {
+    "started_at": "2026-10-09T15:14:24.808000+00:00",
+    "ended_at": "2026-10-10T12:08:56.905000+00:00",
+    "elapsed_seconds": 75272.097,
+    "turns": 1,
+    "tool_calls": 70,
+    "tool_errors": 4,
+    "retries": 0,
+    "last_turn_reason": {
+      "kind": "completed"
+    },
+    "error_ended_turns": [],
+    "input_tokens": 251584,
+    "output_tokens": 81367,
+    "cache_read_tokens": 8870016,
+    "token_usage_basis": "DSH project cache totals; assistant usage arithmetic sum recorded separately",
+    "assistant_usage_sum": {
+      "inputTokens": 251584,
+      "outputTokens": 81367,
+      "cacheReadTokens": 8870016
+    },
+    "goal_rounds": 0
+  },
+  "workflow": {
+    "states": [
+      {
+        "path": "workspace_snapshot/Amorphous/workflow_state.json",
+        "phase": 5,
+        "recorded_rounds": 4
+      }
+    ],
+    "final_backend": "manual_full_pattern_model",
+    "gsas_completed": false,
+    "finalize_completed": false,
+    "export_completed": true,
+    "required_refinement_completed": true,
+    "converged": null,
+    "warnings": []
+  },
+  "final_metrics": {
+    "wr": null,
+    "r": null,
+    "rb": null,
+    "wrmin": null,
+    "chi2": null,
+    "gof": null,
+    "unit": "percent for wR/R/Rb/wRmin; chi2/gof as emitted",
+    "source": null,
+    "note": "Null means not normalized; original results and reports are retained."
+  },
+  "integrity": {
+    "journal_jsonl_files": 1,
+    "journal_jsonl_total": 4,
+    "journal_jsonl_valid": 4,
+    "journal_jsonl_invalid": 0,
+    "journal_markdown_available": true,
+    "missing_markdown_for": [],
+    "invalid_details_first_100": [],
+    "state_parse_errors": [],
+    "session_invalid_lines": [],
+    "final_artifacts_same_source": null
+  },
+  "subagent_sessions": [],
+  "eligibility": {
+    "status": "eligible",
+    "reason": null
+  },
+  "artifacts": [
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.mplcache/fontlist-v3.11.0.json",
+      "bytes": 160340,
+      "sha256": "44800df5f5f21685f7adcd24f7b5ea3775290874f882810d9e686f485d0ebf8a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv13xr50-4snuk4x8.json",
+      "bytes": 269,
+      "sha256": "2d840ba004b96a92896a7625f1b0ebb7809d9c9b2ca601f494281e2b10a5d2b3"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv13yp37-5t1yuo45.json",
+      "bytes": 272,
+      "sha256": "b64873fd14bc6ca31f2d9f129e012bb4a4386485c3ee10ed2a4dea0064d1a63c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv140mqj-k3j98xkj.json",
+      "bytes": 262,
+      "sha256": "2a11f1bc24c0cb494cd69222abc40ec51007502437eb981a66880d5011629c84"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv143hle-q05jms2x.json",
+      "bytes": 275,
+      "sha256": "546616f890170abf4c55b033f92f9caa29ae4ba6729fed9553c336f7253369a8"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv144nyt-myna0mpo.json",
+      "bytes": 273,
+      "sha256": "7097b722a28a80e626dce3ba851e676847ccecb6820ed706a14f787afaf69532"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv14jica-mefq67jb.json",
+      "bytes": 262,
+      "sha256": "81fe26884a6b24c7ca1cc3fdd1c2946fde33bc5b74fe7ade8ee147cd24bc5004"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv156xve-n5snm9r2.json",
+      "bytes": 275,
+      "sha256": "aa9de4bcc5cc0fd1f5043a356fadc97b6d77cb50ef95d1d48d70d9ba73e4c536"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress-mv156y36-pjmr4pkq.json",
+      "bytes": 262,
+      "sha256": "443a29e8a932b22366b52356c657731a4de4495b8b36473fbfc074ed6912ac89"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/.xrd-progress.json",
+      "bytes": 262,
+      "sha256": "443a29e8a932b22366b52356c657731a4de4495b8b36473fbfc074ed6912ac89"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/__pycache__/proc_guard.cpython-313.pyc",
+      "bytes": 27908,
+      "sha256": "0a17295ed80306b716a94afd93142771b399f8b24c72598eeda0352766926219"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/__pycache__/result_io.cpython-313.pyc",
+      "bytes": 6243,
+      "sha256": "b788af2447e85a4ad5501bb4624d0f49c06abb8962d81d389c08539f7e1dbd65"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/__pycache__/xrd_engine_custom.cpython-313.pyc",
+      "bytes": 73551,
+      "sha256": "552ab9f54be06fb2a3f8adf8186e79cbc4f467ab9a85967c54f1c2d8e04e41cf"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/components.json",
+      "bytes": 318899,
+      "sha256": "ef541e92e4eb28d7864b53a8fcecff5a91952f510099751da42b2495bbb1da3f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/components_round4_final.json",
+      "bytes": 318899,
+      "sha256": "ef541e92e4eb28d7864b53a8fcecff5a91952f510099751da42b2495bbb1da3f"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/data_io_plan.json",
+      "bytes": 614,
+      "sha256": "1557c1a741f7ebd933f0b16b86cb4ddc4b571bc025b0b682695f59b7301c850b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/data_io_result.json",
+      "bytes": 4665,
+      "sha256": "082bfdd88b4bc1f89e3eedc44b3b95b47bd3c0e7237ccd30105c01c9f76c8ecc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/export_plan.json",
+      "bytes": 844,
+      "sha256": "9867cca53e377c20b6847dba6e9bd5302dccddf5d4148dedb1eef7d106e26384"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/export_result.json",
+      "bytes": 880,
+      "sha256": "ea45e3f388a0a26ba44257ed2e33dfd962012b9ee7888d4858a1ea5e11c38186"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/pattern.raw",
+      "bytes": 14784,
+      "sha256": "88af14a24b14f0f3d0901f605e022964fd5ffec614943ac6b45f246338f61ed2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/pattern.txt",
+      "bytes": 65829,
+      "sha256": "8af4419822c49799d07c31e5ee9167e375eb055830e1eb8c1a843bd9261ff496"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/pattern_2theta.txt",
+      "bytes": 92555,
+      "sha256": "61f7f9421059a3081adc65fe13f369209c2ceb4c1148ca8dac057f57d0da8714"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/pattern_full_fit.png",
+      "bytes": 294428,
+      "sha256": "b2d966c992b5ed70ca1814922271f1081653139a9a26bee7e4330b251a0f5f4c"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/phase_screen_plan.json",
+      "bytes": 298,
+      "sha256": "9ed5cb8b579efefd006f9aa1c13ce07d71c0a75c55a62594628e4e4304b71360"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/phase_screen_result.json",
+      "bytes": 2544,
+      "sha256": "86cbfd04f9c290c0350fd4e38194ea359213ff2c066503d3428d3479a543f15b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/plan_round1.json",
+      "bytes": 1225,
+      "sha256": "b47ed56106118fa80e8316cd3f50efaf081e9133d093793600ed1df2491d62ee"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/plan_round2.json",
+      "bytes": 1200,
+      "sha256": "097c83b4df6eb6fd6a75d70cc772b3daca5f6fbd3f57384c36650b11dd80b963"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/plan_round3.json",
+      "bytes": 1183,
+      "sha256": "98c9829fd2a5d56abab17dcab41a71606b938a24402480945afa51c076d237b4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/plan_round4.json",
+      "bytes": 1462,
+      "sha256": "56ca75f95c263ec62c63339c0e2d1ec6a2e5ea36ea5bb212d3620aece9bd90a0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/plan_round4_final.json",
+      "bytes": 1462,
+      "sha256": "56ca75f95c263ec62c63339c0e2d1ec6a2e5ea36ea5bb212d3620aece9bd90a0"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/proc_guard.py",
+      "bytes": 21936,
+      "sha256": "9cba1e22a28b69f442f1a6f61d72572ae575a431fde41333f53ee2fd680156ab"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/report.md",
+      "bytes": 9534,
+      "sha256": "29b8d135301ba15a4b2c8c673ef73f27e63bae3de55c074b99c1bc79aec1a4f7"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/residual_round4.txt",
+      "bytes": 65982,
+      "sha256": "fe0bc5575c22a5a46acacaa5b176de5f2399ba80b6e2eaa25ec9879d65821e7a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/result.json",
+      "bytes": 9569,
+      "sha256": "91306ee1ba94dc2df4f03929592a74d0bb8969679c9c305d2b9fdcc2c921f89b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/result_io.py",
+      "bytes": 4723,
+      "sha256": "1d5cada7fab77ed9bfc0acf1f1e47d33e48ec241a6cfc0fbad9c629b2b783092"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/result_round4_final.json",
+      "bytes": 9569,
+      "sha256": "91306ee1ba94dc2df4f03929592a74d0bb8969679c9c305d2b9fdcc2c921f89b"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/round1_fit_fit.png",
+      "bytes": 365498,
+      "sha256": "e400932f5a38e4dd1cebc1adfd96ba42489afd5cf2cf4e6060142da5a54a8048"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/round4_final_fit.png",
+      "bytes": 402437,
+      "sha256": "51b6ec22dedc14427f8983dc9d030a0e0507678ea4e4754db20bb1b04111ba2a"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/workflow_state.json",
+      "bytes": 8327,
+      "sha256": "59a3288166a82a2f05260645d98b5f7754efdbb5ab74fe8cc11da49ffe9179a4"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/xrd_engine_custom.py",
+      "bytes": 71293,
+      "sha256": "db9550ea886b8e12c3583c3635a9e4c43533a093e1278f9b737fcb39ae88e4bc"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/xrd_workflow/journal.jsonl",
+      "bytes": 4020,
+      "sha256": "38d32c4aa1abab77ebf4489fa78ca2623e506f063fbd2ce418f54256eb142bf2"
+    },
+    {
+      "role": "source_workspace_file",
+      "path": "workspace_snapshot/Amorphous/xrd_workflow/journal.md",
+      "bytes": 8515,
+      "sha256": "eb3c65874b96a7fbd468f1460ae355ceb07312066d2b98c8ecdfdb2754a98b9e"
+    }
+  ]
+}

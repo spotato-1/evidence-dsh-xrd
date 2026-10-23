@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_built.cif",
+      "bytes": 2091,
+      "sha256": "a47a5f7884e7ef19204c4eacc3383e7ea05d1480bbb850137f23c984175812e6"
+    },
+    {
+      "path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_Fe3_O4.cif",
+      "bytes": 5943,
+      "sha256": "0d8c02802bd2b764d4134b300a28d74570ef747e1c3dd3aa619317e32d6aa097"
+    },
+    {
+      "path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_final.gpx",
+      "bytes": 373080,
+      "sha256": "37b9a0065b128bc88b42f0e8f81eede7807490112d623b7d77e91d04d4a51ecf"
+    },
+    {
+      "path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_final.lst",
+      "bytes": 15275,
+      "sha256": "976c606d6e3300ea3e9410f8468f2806191abffe06cfc13834b54609ea71d139"
+    },
+    {
+      "path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_finalize.json",
+      "bytes": 4748,
+      "sha256": "f44ddf515d68859dc9ef8e22b53f8fe77c8d58b77b445466e3ff14b3fae392a4"
+    },
+    {
+      "path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_fit.png",
+      "bytes": 295565,
+      "sha256": "5d982f8f720f903e956aad995f336c702f5a42a5acfc704745d5c2a3f32f742d"
+    },
+    {
+      "path": "artifacts/Fe2O3_Fe3O4_2ph/Fe2O3_Fe3O4_2ph_final/Fe2O3_Fe3O4_2ph_report.md",
+      "bytes": 3869,
+      "sha256": "f779edb21d931bcf7d3d3d906aa0c74dd0a6e92b536dc7b391ff8ae42f413899"
+    },
+    {
+      "path": "conclusion.md",
+      "bytes": 4048,
+      "sha256": "242a2e58d8a978081c9528139d0270e951f08a757ee54ab7d257090d87bd00c9"
+    },
+    {
+      "path": "plugin_logs/Fe2O3_Fe3O4_2ph/work/manual/xrd_workflow/journal.jsonl",
+      "bytes": 2894,
+      "sha256": "fa62ccfd488aefb518ad314daa5d6446b5d3ecd0d49baf615112a80b78e25ead"
+    },
+    {
+      "path": "plugin_logs/Fe2O3_Fe3O4_2ph/work/manual/xrd_workflow/journal.md",
+      "bytes": 1322,
+      "sha256": "51f52fcb27724946cff844ac0d445d88fbcf259eddbb4ffaadf6eafddf7e4305"
+    },
+    {
+      "path": "plugin_logs/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.jsonl",
+      "bytes": 6700,
+      "sha256": "9802acb98511d4cccc1c9004f2f0e7ebb9c49538c6068da4dedc28d6055b0869"
+    },
+    {
+      "path": "plugin_logs/Fe2O3_Fe3O4_2ph/xrd_workflow/journal.md",
+      "bytes": 12854,
+      "sha256": "6763f6c5bf272000a0895d58069d037d5628e529af6333b719c3f2bc8df98ad5"
+    },
+    {
+      "path": "root_reports/Fe2O3_Fe3O4_2ph/REPORT.md",
+      "bytes": 9840,
+      "sha256": "ceb16b74ee3ed9ffc5deebf59992266933abedb618f82840452c0429e707b367"
+    },
+    {
+      "path": "session_core.jsonl.gz",
+      "bytes": 919027,
+      "sha256": "5d729b3490d60ac4ffedd301d15d5df52ad0549ca398e1cad73c349071d71078"
+    },
+    {
+      "path": "session_extract_stats.json",
+      "bytes": 1784,
+      "sha256": "98032afbee39c34d1eb35849aee00ad57ff8b0882332e62c5a2628f9dcf29620"
+    },
+    {
+      "path": "states/Fe2O3_Fe3O4_2ph/workflow_state.json",
+      "bytes": 12947,
+      "sha256": "2f4efa45b281a8d0149b3259dda7bf986f2cab61ff46dfcbaecca8761920f837"
+    },
+    {
+      "path": "technical_stats.json",
+      "bytes": 6158,
+      "sha256": "c94077f6978bd5917b2bd04321ace4683bd006d525facc508f69d11a9a485f6c"
+    },
+    {
+      "path": "tool_trace.jsonl",
+      "bytes": 514645,
+      "sha256": "477c0f40b4ae5783aa99737aec907404540e427f745ecd2919804e0297a06a1e"
+    }
+  ]
+}

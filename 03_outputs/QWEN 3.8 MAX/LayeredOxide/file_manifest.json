@@ -1,0 +1,74 @@
+﻿{
+  "model": "QWEN 3.8 MAX",
+  "case_id": "LayeredOxide",
+  "run_id": "session-4850996a-859f-4a74-b525-ca2b7e4e18c9",
+  "selection_basis": "last successful xrd_finalize result, not minimum R or file modification time",
+  "selection_tool_seq": 104908,
+  "counts": {
+    "image": 1,
+    "gpx": 1,
+    "cif": 2
+  },
+  "all_three_types_present": true,
+  "same_final_state": "finalize tool result links the GPX, CIF(s), figure and report",
+  "notes": [],
+  "unresolved_declared_paths": [],
+  "files": [
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-4850996a-859f-4a74-b525-ca2b7e4e18c9\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx",
+      "destination": "QWEN 3.8 MAX/LayeredOxide/GPX/LayeredOxide_final.gpx",
+      "role": "gpx",
+      "bytes": 289503,
+      "sha256": "c170a89a931af7d63b21eb29ac79dc560bcdc080e100a72acc8bacb78e683d18",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "LayeredOxide",
+      "run_id": "session-4850996a-859f-4a74-b525-ca2b7e4e18c9",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.gpx",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_final.gpx"
+    },
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-4850996a-859f-4a74-b525-ca2b7e4e18c9\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png",
+      "destination": "QWEN 3.8 MAX/LayeredOxide/figures/LayeredOxide_fit.png",
+      "role": "image",
+      "bytes": 305102,
+      "sha256": "6d60b80a305954c53d917572d3a39aa8c5e41c8030ee7acbb8c414b6cff88782",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "LayeredOxide",
+      "run_id": "session-4850996a-859f-4a74-b525-ca2b7e4e18c9",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.plot",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_fit.png"
+    },
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-4850996a-859f-4a74-b525-ca2b7e4e18c9\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_built.cif",
+      "destination": "QWEN 3.8 MAX/LayeredOxide/CIF/LayeredOxide_built.cif",
+      "role": "cif",
+      "bytes": 2039,
+      "sha256": "e63383684aa5b9cf04fa33af604393c1f75c04f0ea409de7a0bf1c25cac999af",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "LayeredOxide",
+      "run_id": "session-4850996a-859f-4a74-b525-ca2b7e4e18c9",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_built.cif"
+    },
+    {
+      "source": "workspace\\QWEN 3.8 MAX\\dsh-xrd-test-evidence\\runs\\session-4850996a-859f-4a74-b525-ca2b7e4e18c9\\workspace_snapshot\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_sodium_molybdate.cif",
+      "destination": "QWEN 3.8 MAX/LayeredOxide/CIF/LayeredOxide_sodium_molybdate.cif",
+      "role": "cif",
+      "bytes": 6411,
+      "sha256": "3cbe6f059961d2ab4c3009d82d22bb027cb825ebed6160ac5b56299e30b5009e",
+      "model": "QWEN 3.8 MAX",
+      "case_id": "LayeredOxide",
+      "run_id": "session-4850996a-859f-4a74-b525-ca2b7e4e18c9",
+      "primary": true,
+      "output_group": "final export",
+      "declaration_basis": "final_selection.files.cif",
+      "declared_original_path": "workspace\\QWEN 3.8 MAX\\LayeredOxide\\LayeredOxide_final\\LayeredOxide_sodium_molybdate.cif"
+    }
+  ]
+}
